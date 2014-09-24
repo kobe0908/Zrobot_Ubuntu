@@ -1,0 +1,11 @@
+6ce718a587d523c7e95a2d93a3e68b6e  usr/lib/python2.7/dist-packages/_sqlite.so
+ae0318b9d4b5aa3a1758d1ecec5fb676  usr/share/doc/python-sqlite/README.Debian
+4ce2a36d7e57f93753b73b7b8696cbce  usr/share/doc/python-sqlite/changelog.Debian.gz
+c91c4da2c725ad747450758f7ce03a7b  usr/share/doc/python-sqlite/copyright
+53797c611280f80291920e8f644c363f  usr/share/doc/python-sqlite/examples/converters.py
+cb345822e98b17c0d7958b4a80b32baa  usr/share/doc/python-sqlite/examples/dbapi_transactions.py
+c599db48ed2a49796f06491bed1f1249  usr/share/doc/python-sqlite/examples/manual_transactions.py
+e238982b501fbd7c9425f95e0ae8f455  usr/share/doc/python-sqlite/manual.txt.gz
+1ebb29ef08d2650c31cce782b6e21dcf  usr/share/pyshared/pysqlite-1.0.1.egg-info
+9da5f2c72e5ace586db2bd6bf9462e87  usr/share/pyshared/sqlite/__init__.py
+5702d48fe1d74a32ba8f6161b36fbcbd  usr/share/pyshared/sqlite/main.py

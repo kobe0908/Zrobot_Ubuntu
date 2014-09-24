@@ -1,26 +1,134 @@
 lease {
-  interface "ra0";
-  fixed-address 173.17.1.2;
+  interface "eth0";
+  fixed-address 172.16.75.108;
   option subnet-mask 255.255.255.0;
-  option dhcp-lease-time 86400;
-  option routers 173.17.1.254;
+  option routers 172.16.75.254;
+  option dhcp-lease-time 518400;
   option dhcp-message-type 5;
-  option dhcp-server-identifier 173.17.1.254;
-  option domain-name-servers 211.98.4.1,211.98.2.4,173.17.1.254;
-  renew 4 1970/01/01 09:05:16;
-  rebind 4 1970/01/01 21:05:04;
-  expire 5 1970/01/02 00:05:04;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-server-identifier 172.16.75.252;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 22:41:51;
+  rebind 0 2014/09/07 06:00:02;
+  expire 1 2014/09/08 00:00:02;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.16.75.106;
+  option subnet-mask 255.255.255.0;
+  option routers 172.16.75.254;
+  option dhcp-lease-time 518400;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-server-identifier 172.16.75.252;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 22:51:27;
+  rebind 0 2014/09/07 06:00:02;
+  expire 1 2014/09/08 00:00:02;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.16.75.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 518400;
+  option routers 172.16.75.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.16.75.252;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 08:02:38;
+  rebind 0 2014/09/07 06:11:44;
+  expire 1 2014/09/08 00:11:44;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.16.75.105;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 518400;
+  option routers 172.16.75.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.16.75.252;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 12:19:54;
+  rebind 0 2014/09/07 06:00:00;
+  expire 1 2014/09/08 00:00:00;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.16.75.107;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 518400;
+  option routers 172.16.75.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.16.75.252;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 18:05:09;
+  rebind 0 2014/09/07 06:00:05;
+  expire 1 2014/09/08 00:00:05;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.16.75.109;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 518400;
+  option routers 172.16.75.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.16.75.252;
+  option domain-name-servers 172.22.160.151,172.22.160.161;
+  option dhcp-renewal-time 259200;
+  option dhcp-rebinding-time 453600;
+  option netbios-name-servers 149.199.36.100,172.22.150.209;
+  option domain-name "xilinx.com";
+  renew 4 2014/09/04 21:35:08;
+  rebind 0 2014/09/07 06:00:02;
+  expire 1 2014/09/08 00:00:02;
 }
 lease {
   interface "wlan7";
-  fixed-address 173.17.1.183;
+  fixed-address 192.168.1.253;
   option subnet-mask 255.255.255.0;
-  option routers 173.17.1.254;
-  option dhcp-lease-time 86400;
+  option dhcp-lease-time 4294967295;
+  option routers 192.168.1.1;
+  option dhcp-option-overload 3;
   option dhcp-message-type 5;
-  option domain-name-servers 211.98.4.1,211.98.2.4,173.17.1.254;
-  option dhcp-server-identifier 173.17.1.254;
-  renew 4 1970/01/01 11:29:02;
-  rebind 4 1970/01/01 21:06:03;
-  expire 5 1970/01/02 00:06:03;
+  option dhcp-server-identifier 192.168.1.1;
+  option domain-name-servers 211.98.4.1,211.98.2.4;
+  option interface-mtu 576;
+  option broadcast-address 255.255.255.255;
+  renew never;
+  rebind never;
+  expire never;
+}
+lease {
+  interface "wlan7";
+  fixed-address 192.168.1.253;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.1;
+  option dhcp-lease-time 4294967295;
+  option dhcp-option-overload 3;
+  option dhcp-message-type 5;
+  option domain-name-servers 211.98.4.1,211.98.2.4;
+  option dhcp-server-identifier 192.168.1.1;
+  option interface-mtu 576;
+  option broadcast-address 255.255.255.255;
+  renew never;
+  rebind never;
+  expire never;
 }

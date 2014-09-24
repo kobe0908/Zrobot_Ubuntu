@@ -17,7 +17,6 @@ void set_car_front(int speed)
 
 int main(void)
 {
-	while (1){
          set_car_front(10000);
 }
-}
+

@@ -1,0 +1,38 @@
+This is the Debian prepackaged version of Free recode, a program that
+converts files between character sets and usages. Free recode was
+written by François Pinard <pinard@iro.umontreal.ca>.
+
+This package was first put together by Klee Dienes <klee@mit.edu>.
+
+It is currently maintained by Santiago Vila <sanvila@debian.org>,
+from sources obtained from:
+
+http://ftp.gnu.org/gnu/recode/recode-3.6.tar.gz
+
+The changes were fairly minimal, and consisted solely of adding
+various debian/* files to the distribution.
+
+Copyright:
+
+The entire recode package is Copyright (C) the Free Software Foundation,
+with the exception of ansi2knr.c, which is Copyright (C) Aladdin Enterprises.
+
+The program is distributed under the terms of the GNU General Public License:
+
+   This program is free software; you can redistribute it and/or modify it
+   under the terms of the GNU General Public License as published by the
+   Free Software Foundation; either version 2, or (at your option) any
+   later version.
+
+The library is distributed under the terms of the GNU Lesser General
+Public License:
+
+   This library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Lesser General Public License
+   as published by the Free Software Foundation; either version 2 of the
+   License, or (at your option) any later version.
+
+On Debian systems, the complete text of the GNU General Public License
+can be found in `/usr/share/common-licenses/GPL', and the complete
+text of the GNU Lesser General Public License can be found in
+`/usr/share/common-licenses/LGPL'.

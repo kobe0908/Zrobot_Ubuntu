@@ -5,24 +5,6 @@ boa
 eth_no=`ifconfig -a | grep eth | awk '{print $1}'`
 ifconfig $eth_no down
 
-#confirm wlan plugged in
-ex_8192=`ifconfig -a | grep wlan`
-ex_2870=`ifconfig -a | grep ra0`
-if [ "$ex_8192"x == "x" ]
-then
-	echo wifi hardware not detected! please make sure you inserted it!
-	echo If you have inserted it ,please replug it!
-	exit 1
-else
-	echo wifi rtl8192cu detected!
-fi
-
-if ! [ "$ex_2870"x == "x" ]
-then
-	echo wifi rt2870sta detected!
-fi	
-#exit 0
-
 #get wlan No.
 if [ `ifconfig -a | grep wlan| wc -l` -eq 2 ]
 then

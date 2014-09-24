@@ -1,0 +1,10 @@
+e268b17ad96cdf6d9b15d773acefab26  usr/bin/strfile
+2a1f8002f29e2fea8948fc758252878e  usr/bin/unstr
+e6d4ab49250d84c7ccaf9f2002aeafc7  usr/games/fortune
+4abaaf1f8b9acb33fccdde7898151d7b  usr/share/doc/fortune-mod/README.Debian
+bcd117da84d30327700cddb9c16ef006  usr/share/doc/fortune-mod/README.gz
+132e5aa912f8885abe8b2ac786162b09  usr/share/doc/fortune-mod/changelog.Debian.gz
+2ec78c87de91126bec4cb04465e7de3b  usr/share/doc/fortune-mod/copyright
+a67808a52ff48dbb3a1eae9f37221b5b  usr/share/man/man1/strfile.1.gz
+d9c51adcb00869cbc7d7596f09660524  usr/share/man/man6/fortune.6.gz
+f2d05584835b74de48931718e6937c32  usr/share/menu/fortune-mod

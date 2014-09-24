@@ -19,17 +19,17 @@ static int fd;
 
 static char *gpio_addr[] = {
 	"/sys/class/gpio/export",
-	"/sys/class/gpio/gpio61/direction/","/sys/class/gpio/gpio61/value/",
-	"/sys/class/gpio/gpio62/direction/","/sys/class/gpio/gpio62/value/",
-	"/sys/class/gpio/gpio63/direction/","/sys/class/gpio/gpio63/value/",
-	"/sys/class/gpio/gpio64/direction/","/sys/class/gpio/gpio64/value/"
+	"/sys/class/gpio/gpio243/direction/","/sys/class/gpio/gpio243/value/",
+	"/sys/class/gpio/gpio244/direction/","/sys/class/gpio/gpio244/value/",
+	"/sys/class/gpio/gpio245/direction/","/sys/class/gpio/gpio245/value/",
+	"/sys/class/gpio/gpio246/direction/","/sys/class/gpio/gpio246/value/"
 };
 
 extern void init_LED();
+extern void smart_car_init();
 extern void set_car_front(int speed);
 extern void set_car_back(int speed);
-extern void set_car_right(int fast, int slow, int direction);
-extern void set_car_left(int fast,  int slow, int direction);
-extern void smart_car_set(int angle, int speed);
+extern void set_car_right(int speed);
+extern void set_car_left(int speed);
 
 #endif

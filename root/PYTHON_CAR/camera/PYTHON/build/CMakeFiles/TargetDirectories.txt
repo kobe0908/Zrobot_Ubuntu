@@ -1,0 +1,2 @@
+/root/PYTHON_CAR/camera/PYTHON/build/CMakeFiles/PY_CAR.dir
+/root/PYTHON_CAR/camera/PYTHON/build/src/CMakeFiles/car_camera_part.dir

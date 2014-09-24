@@ -1,0 +1,127 @@
+Wed Sep  3 00:03:14 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Wed Sep  3 00:03:14 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:03:14 2014| OK.
+Wed Sep  3 00:03:14 2014| SERVER SIDE KEY "334 3ixRqAkJ7XUFVPwxGZrI1A==" RECEIVED.
+Wed Sep  3 00:03:14 2014| SEND AUTH DATA...Wed Sep  3 00:03:14 2014| OK
+Wed Sep  3 00:03:14 2014| CTcpThread::ExecuteUpdate auth failed.
+Wed Sep  3 00:03:14 2014| ExecuteUpdate AuthFailed, waiting for 600 seconds to retry...
+Wed Sep  3 00:04:14 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Wed Sep  3 00:04:15 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:04:15 2014| OK.
+Wed Sep  3 00:04:15 2014| SERVER SIDE KEY "334 3ixRqCkJKnYFVJl+auPttg==" RECEIVED.
+Wed Sep  3 00:04:15 2014| SEND AUTH DATA...Wed Sep  3 00:04:15 2014| OK
+Wed Sep  3 00:04:15 2014| CTcpThread::ExecuteUpdate auth failed.
+Wed Sep  3 00:04:15 2014| ExecuteUpdate AuthFailed, waiting for 600 seconds to retry...
+Wed Sep  3 00:04:37 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Wed Sep  3 00:04:37 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:04:37 2014| OK.
+Wed Sep  3 00:04:37 2014| SERVER SIDE KEY "334 3ixRqCwJQHYFVFVFyPqFHw==" RECEIVED.
+Wed Sep  3 00:04:37 2014| SEND AUTH DATA...Wed Sep  3 00:04:37 2014| OK
+Wed Sep  3 00:04:37 2014| CTcpThread::ExecuteUpdate auth failed.
+Wed Sep  3 00:04:37 2014| ExecuteUpdate AuthFailed, waiting for 600 seconds to retry...
+Wed Sep  3 00:06:47 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Wed Sep  3 00:06:47 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:06:47 2014| OK.
+Wed Sep  3 00:06:47 2014| SERVER SIDE KEY "334 3ixRqFEJwnYFVJojk10sRQ==" RECEIVED.
+Wed Sep  3 00:06:47 2014| SEND AUTH DATA...Wed Sep  3 00:06:47 2014| OK
+Wed Sep  3 00:06:47 2014| Need redirect, waiting for 5 seconds...
+Wed Sep  3 00:06:52 2014| ExecuteUpdate Connecting phstick.oray.net.
+Wed Sep  3 00:06:52 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:06:52 2014| OK.
+Wed Sep  3 00:06:52 2014| SERVER SIDE KEY "334 3ixRqFMJyHYFVK0nQHSrDQ==" RECEIVED.
+Wed Sep  3 00:06:52 2014| SEND AUTH DATA...Wed Sep  3 00:06:52 2014| OK
+Wed Sep  3 00:06:52 2014| ExecuteUpdate domain "."
+Wed Sep  3 00:06:52 2014| SEND CNFM DATA...Wed Sep  3 00:06:52 2014| OK
+Wed Sep  3 00:06:52 2014| 250 6844636 148606644
+Wed Sep  3 00:06:52 2014| ExecuteUpdate nChatID:6844636, nStartID:148606644
+Wed Sep  3 00:06:52 2014| userinfo: 
+<userInfo account='dfdfdddf' login='dfdfdddf'><ID>6844636</ID><Account>dfdfdddf</Account><Password></Password><Email>shenerguang@qq.com</Email><RegDate>1323782690</RegDate><Credit>0.0</Credit><Largess>0.0</Largess><IsEnable></IsEnable><IsEnterprise>1</IsEnterprise><EnterpriseName>四季红有限公司</EnterpriseName><Contactor>沈速度</Contactor><IsMale>1</IsMale><AccountUserType>1</AccountUserType><RegDate>1323782690</RegDate><ProExpireDate>0</ProExpireDate><ServiceType>0</ServiceType><ClientIP>-1471075106</ClientIP></userInfo>
+Wed Sep  3 00:06:52 2014| domaininfo: 
+<domainInfo account='dfdfdddf' login='dfdfdddf'><domains><domain><DomainName>dfdfdddf.xicp.net</DomainName><RegDate>1323782690</RegDate><Account>dfdfdddf</Account><StatusCode>137</StatusCode><RootName>xicp.net</RootName><IsFree>1</IsFree></domain></domains><domainInfo>
+Wed Sep  3 00:06:52 2014| SEND QUIT COMMAND...Wed Sep  3 00:06:52 2014| OK.
+Wed Sep  3 00:06:53 2014| 221 Good bye
+Wed Sep  3 00:06:53 2014| ExecuteUpdate OK, BeginKeepAlive!
+Wed Sep  3 00:07:54 2014| SendKeepAlive() 8208
+Wed Sep  3 00:07:55 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Wed Sep  3 00:07:55 2014| Keepalive response received, client ip: 222.44.81.168
+Wed Sep  3 00:08:55 2014| SendKeepAlive() 8208
+Wed Sep  3 00:08:56 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Wed Sep  3 00:08:56 2014| Keepalive response received, client ip: 222.44.81.168
+Wed Sep  3 00:09:56 2014| SendKeepAlive() 8208
+Wed Sep  3 00:10:24 2014| SendKeepAlive() 11
+Wed Sep  3 00:10:26 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Wed Sep  3 00:10:26 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:10:26 2014| OK.
+Wed Sep  3 00:10:26 2014| SERVER SIDE KEY "334 3ixRqFcJnXcFVCNm2jWUGQ==" RECEIVED.
+Wed Sep  3 00:10:26 2014| SEND AUTH DATA...Wed Sep  3 00:10:26 2014| OK
+Wed Sep  3 00:10:26 2014| Need redirect, waiting for 5 seconds...
+Wed Sep  3 00:10:31 2014| ExecuteUpdate Connecting phstick.oray.net.
+Wed Sep  3 00:10:31 2014| SEND AUTH REQUEST COMMAND...Wed Sep  3 00:10:31 2014| OK.
+Wed Sep  3 00:10:31 2014| SERVER SIDE KEY "334 3ixRqFkJo3cFVEeRNc9HcA==" RECEIVED.
+Wed Sep  3 00:10:31 2014| SEND AUTH DATA...Wed Sep  3 00:10:31 2014| OK
+Wed Sep  3 00:10:31 2014| ExecuteUpdate domain "."
+Wed Sep  3 00:10:31 2014| SEND CNFM DATA...Wed Sep  3 00:10:31 2014| OK
+Wed Sep  3 00:10:31 2014| 250 6844636 148615298
+Wed Sep  3 00:10:31 2014| ExecuteUpdate nChatID:6844636, nStartID:148615298
+Wed Sep  3 00:10:31 2014| userinfo: 
+<userInfo account='dfdfdddf' login='dfdfdddf'><ID>6844636</ID><Account>dfdfdddf</Account><Password></Password><Email>shenerguang@qq.com</Email><RegDate>1323782690</RegDate><Credit>0.0</Credit><Largess>0.0</Largess><IsEnable></IsEnable><IsEnterprise>1</IsEnterprise><EnterpriseName>四季红有限公司</EnterpriseName><Contactor>沈速度</Contactor><IsMale>1</IsMale><AccountUserType>1</AccountUserType><RegDate>1323782690</RegDate><ProExpireDate>0</ProExpireDate><ServiceType>0</ServiceType><ClientIP>-1471075106</ClientIP></userInfo>
+Wed Sep  3 00:10:31 2014| domaininfo: 
+<domainInfo account='dfdfdddf' login='dfdfdddf'><domains><domain><DomainName>dfdfdddf.xicp.net</DomainName><RegDate>1323782690</RegDate><Account>dfdfdddf</Account><StatusCode>137</StatusCode><RootName>xicp.net</RootName><IsFree>1</IsFree></domain></domains><domainInfo>
+Wed Sep  3 00:10:31 2014| SEND QUIT COMMAND...Wed Sep  3 00:10:31 2014| OK.
+Wed Sep  3 00:10:32 2014| 221 Good bye
+Wed Sep  3 00:10:32 2014| ExecuteUpdate OK, BeginKeepAlive!
+Wed Sep  3 00:11:33 2014| SendKeepAlive() 8208
+Wed Sep  3 00:11:34 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Wed Sep  3 00:11:34 2014| Keepalive response received, client ip: 222.44.81.168
+Wed Sep  3 00:12:03 2014| SendKeepAlive() 11
+Tue Sep  2 00:01:46 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:01:46 2014| SEND AUTH REQUEST COMMAND...Tue Sep  2 00:01:46 2014| OK.
+Tue Sep  2 00:01:46 2014| SERVER SIDE KEY "334 3ixRqMoKMX4FVB6KrLi0kw==" RECEIVED.
+Tue Sep  2 00:01:46 2014| SEND AUTH DATA...Tue Sep  2 00:01:46 2014| OK
+Tue Sep  2 00:01:46 2014| Need redirect, waiting for 5 seconds...
+Tue Sep  2 00:01:51 2014| ExecuteUpdate Connecting phstick.oray.net.
+Tue Sep  2 00:02:23 2014| ExecuteUpdate errorConnectFailed.
+Tue Sep  2 00:02:23 2014| ExecuteUpdate failed, waiting for 30 seconds to retry...
+Tue Sep  2 00:02:53 2014| ExecuteUpdate Connecting phstick.oray.net.
+Tue Sep  2 00:02:54 2014| SEND AUTH REQUEST COMMAND...Tue Sep  2 00:02:54 2014| OK.
+Tue Sep  2 00:02:54 2014| SERVER SIDE KEY "334 3ixRqOEKdX4FVLsOSAb2zA==" RECEIVED.
+Tue Sep  2 00:02:54 2014| SEND AUTH DATA...Tue Sep  2 00:02:54 2014| OK
+Tue Sep  2 00:02:54 2014| ExecuteUpdate domain "."
+Tue Sep  2 00:02:54 2014| SEND CNFM DATA...Tue Sep  2 00:02:54 2014| OK
+Tue Sep  2 00:02:54 2014| 250 6844636 148677876
+Tue Sep  2 00:02:54 2014| ExecuteUpdate nChatID:6844636, nStartID:148677876
+Tue Sep  2 00:02:54 2014| userinfo: 
+<userInfo account='dfdfdddf' login='dfdfdddf'><ID>6844636</ID><Account>dfdfdddf</Account><Password></Password><Email>shenerguang@qq.com</Email><RegDate>1323782690</RegDate><Credit>0.0</Credit><Largess>0.0</Largess><IsEnable></IsEnable><IsEnterprise>1</IsEnterprise><EnterpriseName>四季红有限公司</EnterpriseName><Contactor>沈速度</Contactor><IsMale>1</IsMale><AccountUserType>1</AccountUserType><RegDate>1323782690</RegDate><ProExpireDate>0</ProExpireDate><ServiceType>0</ServiceType><ClientIP>-1471075106</ClientIP></userInfo>
+Tue Sep  2 00:02:54 2014| domaininfo: 
+<domainInfo account='dfdfdddf' login='dfdfdddf'><domains><domain><DomainName>dfdfdddf.xicp.net</DomainName><RegDate>1323782690</RegDate><Account>dfdfdddf</Account><StatusCode>137</StatusCode><RootName>xicp.net</RootName><IsFree>1</IsFree></domain></domains><domainInfo>
+Tue Sep  2 00:02:54 2014| SEND QUIT COMMAND...Tue Sep  2 00:02:54 2014| OK.
+Tue Sep  2 00:02:54 2014| 221 Good bye
+Tue Sep  2 00:02:54 2014| ExecuteUpdate OK, BeginKeepAlive!
+Tue Sep  2 00:03:55 2014| SendKeepAlive() 8208
+Tue Sep  2 00:04:56 2014| SendKeepAlive() 8208
+Tue Sep  2 00:05:57 2014| SendKeepAlive() 8208
+Tue Sep  2 00:05:58 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Tue Sep  2 00:05:58 2014| Keepalive response received, client ip: 222.44.81.168
+Tue Sep  2 00:06:58 2014| SendKeepAlive() 8208
+Tue Sep  2 00:06:59 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Tue Sep  2 00:06:59 2014| Keepalive response received, client ip: 222.44.81.168
+Tue Sep  2 00:07:59 2014| SendKeepAlive() 8208
+Tue Sep  2 00:08:00 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Tue Sep  2 00:08:00 2014| Keepalive response received, client ip: 222.44.81.168
+Tue Sep  2 00:09:00 2014| SendKeepAlive() 8208
+Tue Sep  2 00:09:01 2014| RecvKeepaliveResponse() Data comes, OPCODE:8272
+Tue Sep  2 00:09:01 2014| Keepalive response received, client ip: 222.44.81.168
+Tue Sep  2 00:09:16 2014| SendKeepAlive() 11
+Tue Sep  2 00:10:36 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:10:36 2014| SEND AUTH REQUEST COMMAND...Tue Sep  2 00:10:36 2014| OK.
+Tue Sep  2 00:10:36 2014| SERVER SIDE KEY "334 3ixRqDsLRIAFVLyECjtWeQ==" RECEIVED.
+Tue Sep  2 00:10:36 2014| SEND AUTH DATA...Tue Sep  2 00:10:36 2014| OK
+Tue Sep  2 00:10:36 2014| Need redirect, waiting for 5 seconds...
+Tue Sep  2 00:00:05 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:01:09 2014| ExecuteUpdate errorConnectFailed.
+Tue Sep  2 00:01:09 2014| ExecuteUpdate failed, waiting for 30 seconds to retry...
+Tue Sep  2 00:01:39 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:02:45 2014| ExecuteUpdate errorConnectFailed.
+Tue Sep  2 00:02:45 2014| ExecuteUpdate failed, waiting for 30 seconds to retry...
+Tue Sep  2 00:03:15 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:04:23 2014| ExecuteUpdate errorConnectFailed.
+Tue Sep  2 00:04:23 2014| ExecuteUpdate failed, waiting for 30 seconds to retry...
+Tue Sep  2 00:04:53 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 00:05:58 2014| ExecuteUpdate errorConnectFailed.
+Tue Sep  2 00:05:58 2014| ExecuteUpdate failed, waiting for 30 seconds to retry...
+Tue Sep  2 00:06:28 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.
+Tue Sep  2 01:03:23 2014| ExecuteUpdate Connecting PhLinux3.Oray.Net.

@@ -1,41 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cgic.h"
+#define MAXLEN 80
+#define EXTRA 5
+#define MAXINPUT MAXLEN+EXTRA+2
 #define DATAFILE "./user_home/user_code.c"
 
-static void cgiGetenv(char **s, char *var){
-        *s = getenv(var);
-        if (!(*s)) {
-                *s = "";
-        }
-}
-int cgiMain() {
-	FILE *fd = fopen(DATAFILE,"w");
-	char poststr[2000];
+int main(void)
+{
+//	FILE *fd = fopen(DATAFILE,"w");
+	long len;
+	char *lenstr,poststr[200];
+	char realstr[200];
 	char cmd_str[200] = "gcc -o ./user_home/a.out ";
 	int  ret;
-	char * cgiHostAddr;
-    	cgiHeaderContentType("text/html");
-    	fprintf(cgiOut, "<HTML><HEAD>\n");
-    	fprintf(cgiOut, "<TITLE>Code Confirm Page</TITLE></HEAD>\n");
-    	fprintf(cgiOut, "<BODY>");
-	fprintf(cgiOut, "<h1>Welcom to Code Confirm Page</h1>");
-	fprintf(cgiOut, "<P>The Code You Submit Is:</p>");
-    	cgiFormString("data", poststr, 241);
-    	fprintf(cgiOut, "<pre>%s</pre>",poststr);
-    	fprintf(fd,poststr);
- 	cgiGetenv(&cgiHostAddr, "HOST_ADDR");	
-    	fprintf(cgiOut, "<p>Your Host IP = %s</p>",cgiRemoteAddr);
-	printf("<hr/>");
-	fprintf(cgiOut, "<form action=\"run_handler.cgi\" method=\"get\">");
-        fprintf(cgiOut,"<div>");
-        fprintf(cgiOut,"<input type=\"submit\" value=\"Compile and Run\">");
-        fprintf(cgiOut,"</div>");
-        fprintf(cgiOut,"</form>");
-
-    	fprintf(cgiOut, "</BODY>\n");
-    	fprintf(cgiOut, "</HTML>\n");
-	close(fd);
-    	return 0;
+	printf("%s%c%c\n","Content-Type:text/html;charset=GB2312",13,10);
+	printf("<TITLE>Code Show Page</TITLE>\n");
+	lenstr = getenv("CONTENT_LENGTH");
+	if(lenstr == NULL)
+		printf("<P>Data post error.</p>");
+	else{
+		len = atoi(lenstr);
+		fgets(poststr,len+1,stdin);
+		strcpy(realstr,poststr+5);		
+		printf("<P>The Code You Submit Is:</p>");
+		printf("<P>%s</p>",realstr);
+		printf("<hr/>");
+//		fprintf(fd,"%s",realstr);
+		strcat(cmd_str,DATAFILE);
+		printf("<p>cmd = %s</p>",cmd_str);
+		ret = system(cmd_str);
+		printf("<p>compile = %d</p>",ret);
+		ret = system("chmod 777 ./user_home/a.out");
+		printf("<p>chmod = %d</p>",ret);
+		ret = system("./user_home/a.out");
+		printf("<p>run = %d</p>",ret);
+	}
+//	fclose(fd);
 }

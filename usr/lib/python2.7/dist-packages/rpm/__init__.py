@@ -1,0 +1,1 @@
+../../../../share/pyshared/rpm/__init__.py

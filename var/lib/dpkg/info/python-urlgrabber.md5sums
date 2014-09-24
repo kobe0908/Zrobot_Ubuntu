@@ -1,0 +1,12 @@
+74553a6a8fdf31b7c14fc7d5d6f37e4a  usr/bin/urlgrabber
+9d063b6d786a1208e3562f9dc500760f  usr/share/doc/python-urlgrabber/README.Debian
+12b35c807c24b068e55690fe99274fca  usr/share/doc/python-urlgrabber/TODO
+4ee697ac77e8dd47f662bb7bdb8fb174  usr/share/doc/python-urlgrabber/changelog.Debian.gz
+f44c8a88b019ff8382cf8f77b8daef59  usr/share/doc/python-urlgrabber/copyright
+2ce5fcab817fc0ccbe4e1e89036535e9  usr/share/man/man1/urlgrabber.1.gz
+31a37621bb73ee62853a949b658970b8  usr/share/pyshared/urlgrabber-3.9.1.egg-info
+46b34d550781083466ba80bc2d3f7b73  usr/share/pyshared/urlgrabber/__init__.py
+eec32bfb4b66f8de5170c6a732a44c2e  usr/share/pyshared/urlgrabber/byterange.py
+9ad40b426b2feacf667bfc9e06e085ca  usr/share/pyshared/urlgrabber/grabber.py
+47756d6aa20c612ee61c862cc10ca9e3  usr/share/pyshared/urlgrabber/mirror.py
+f23c19f14921e8d075592b59425bc1f2  usr/share/pyshared/urlgrabber/progress.py

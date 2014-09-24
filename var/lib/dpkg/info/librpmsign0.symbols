@@ -1,0 +1,3 @@
+librpmsign.so.0 librpmsign0 #MINVER#
+ rpmPkgDelSign@Base 4.9.0
+ rpmPkgSign@Base 4.9.0

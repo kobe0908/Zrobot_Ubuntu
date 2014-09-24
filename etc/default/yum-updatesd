@@ -1,0 +1,10 @@
+# yum-updatesd is used to warn you about the fact that some RPMs might be
+# outdated on your system, and need an update.
+# As I think that in most cases, we don't need to run the yum-updatesd
+# daemon in Debian (yum is used for another purpose than managing the
+# system itself, like bootstraping foreign systems), I have decided to
+# disable this daemon by default. If you want to re-enable it, just set this
+# variable to yes (lower case please). Any other value will disable it.
+
+START_YUM_UPDATESD=no
+

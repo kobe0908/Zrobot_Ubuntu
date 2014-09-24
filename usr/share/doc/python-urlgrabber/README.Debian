@@ -1,0 +1,7 @@
+urlgrabber for Debian
+---------------------
+
+The files keepalive.py and byterange.py are generic urllib2 extension modules
+and can be used to add keepalive and range support to any urllib2 application.
+
+ -- Kevin Coyner <kcoyner@debian.org>  Fri,  6 Apr 2007 22:01:01 -0400

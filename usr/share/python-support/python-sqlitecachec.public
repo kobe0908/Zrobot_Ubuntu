@@ -1,0 +1,5 @@
+pyversions=2.7
+
+/usr/lib/pyshared/python2.7/_sqlitecache.so
+/usr/share/pyshared/sqlitecachec.py
+/usr/share/pyshared/yum_metadata_parser-1.1.2.egg-info

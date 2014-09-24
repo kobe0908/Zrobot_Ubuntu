@@ -11,7 +11,7 @@
 #
 # By default this script does nothing.
 
-exec /root/ins_mod.sh
+#exec /root/go_wlan.sh
 #cd /root/
 #./go_boa.sh &
 #exec ifconfig eth0 up

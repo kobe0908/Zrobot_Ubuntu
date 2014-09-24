@@ -100,4 +100,3 @@ fi
 #cd /root/
 #./go_wlan.sh
 #exec /root/go_boa.sh
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin

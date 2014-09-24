@@ -14,7 +14,8 @@ int main(void)
     //int fd;
     //fd = open("test.txt",O_CREAT,0);
     //printf("front!\n"); 
-    smart_car_set(0, 60); //speed=30 Angel=0
+	smart_car_init();
+    set_car_front(45); //speed=30 Angel=0
     //close(fd);
     return 0;
 }

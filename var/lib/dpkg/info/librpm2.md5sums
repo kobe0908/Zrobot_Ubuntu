@@ -1,0 +1,4 @@
+b9deab95d711efde097ad0e50695608e  usr/lib/librpm.so.2.0.1
+ae3d616b6d0b79a9dd01ca39f3cdaa67  usr/lib/rpm-plugins/exec.so
+c3e56383ee517b61cdedca99a2b67749  usr/lib/rpm-plugins/sepolicy.so
+6594ee50dadb81400842b783de91cca4  usr/share/doc/librpm2/copyright

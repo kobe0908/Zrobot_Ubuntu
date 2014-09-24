@@ -1,141 +1,121 @@
 #include "xil_io.h"
 #include "smart_car_move.h"
+
 #define AXI_GPIO_BASEADDR 0x41200000
-#define AXI_PWM_BASEADDR  0x43C01000
 
-#define MOTOR_L_BASEADDR 0x43c10000
-#define MOTOR_R_BASEADDR 0x43c20000
+#define XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR 0x43C01000
+#define XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR 0x43C02000
 
-#define SPEED_OFFSET 2000
 
 void init_LED()
 {
     fd = open(gpio_addr[0], MODE);
     if (fd < 0)
-        printf("can't open gpio61 export\n");
-    write(fd, "61", 2);
-    close(fd);	
-
-    fd = open(gpio_addr[0], MODE);
-    if (fd < 0)
-        printf("can't open gpio61 export\n");
-    write(fd, "62", 2);
+        printf("can't open gpio export\n");
+    write(fd, "243", 2);
     close(fd);
 
     fd = open(gpio_addr[0], MODE);
     if (fd < 0)
-        printf("can't open gpio61 export\n");
-    write(fd, "63", 2);
+        printf("can't open gpio export\n");
+    write(fd, "244", 2);
     close(fd);
 
     fd = open(gpio_addr[0], MODE);
     if (fd < 0)
-        printf("can't open gpio61 export\n");
-    write(fd, "64", 2);
+        printf("can't open gpio export\n");
+    write(fd, "245", 2);
+    close(fd);
+    fd = open(gpio_addr[0], MODE);
+    if (fd < 0)
+        printf("can't open gpio export\n");
+    write(fd, "246", 2);
     close(fd);
 }
 
+
+void smart_car_init()
+{
+//MOTOR Controller IP Initialize
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (0 * 4), (0x0));
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (1 * 4), (-0)); //in_speed_set
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (2 * 4), (1 << 8)); //in_kp_param
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (3 * 4), (1 << 8)); //in_ki_param
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (4 * 4), (63)); //in_pid_out_max
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (5 * 4), (-63)); //in_pid_out_min
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (6 * 4), (70 << 8)); //in_pid_ui_limit
+
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (14 * 4), (0)); //in_pid_ui_limit
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (14 * 4), (0x0ff)); //in_pid_ui_limit
+    //Control reg
+    // bit 0 : in_module_en
+    // bit 1 : in_fwd_dir
+    // *    if in_fwd_dir == 1 out_w_PWMdir = pid_out_sign
+    // *    else out_w_PWMdir = ~pid_out_sign
+    // bit 2:  in_PID_passby, if == 1, PID Controller bypass
+    Xil_Out32((XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR) + (0 * 4), (0x01));
+
+    //MOTOR Controller IP Initialize
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (0 * 4), (0x0));
+//    usleep(2000 * 100);
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (1 * 4), (0)); //in_speed_set
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (2 * 4), (1 << 8)); //in_kp_param
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (3 * 4), (1 << 8)); //in_ki_param
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (4 * 4), (63)); //in_pid_out_max
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (5 * 4), (-63)); //in_pid_out_min
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (6 * 4), (70 << 8)); //in_pid_ui_limit
+
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (14 * 4), (0)); //in_pid_ui_limit
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (14 * 4), (0x0ff)); //in_pid_ui_limit
+    //Control reg
+    // bit 0 : in_module_en
+    // bit 1 : in_fwd_dir
+    // *    if in_fwd_dir == 1 out_w_PWMdir = pid_out_sign
+    // *    else out_w_PWMdir = ~pid_out_sign
+    // bit 2:  in_PID_passby, if == 1, PID Controller bypass
+    Xil_Out32((XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR) + (0 * 4), (0x01));
+
+	Xil_Out32(AXI_GPIO_BASEADDR+12, 0x0);
+	Xil_Out32(AXI_GPIO_BASEADDR+8, 0x0);
+}
+
+// speed 0 ~ +45
 void set_car_front(int speed)
 {
 	//set the for motor direction to be 0
-	//Xil_Out32(AXI_GPIO_BASEADDR, 0x00);
+	Xil_Out32(AXI_GPIO_BASEADDR+8, 1<<0);
+	if(speed == 0)
+		Xil_Out32(AXI_GPIO_BASEADDR+8, 0xf);
+		
 	//set the four motor's speed
-	Xil_Out32(AXI_PWM_BASEADDR,      speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 4,  0);
-	Xil_Out32(AXI_PWM_BASEADDR + 8,  speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 12, 0);
+	Xil_Out32(XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR+4,-speed);
+	Xil_Out32(XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR+4,-speed);
 }
+
+// speed 0 ~ +45
 void set_car_back(int speed)
 {
 	//set the for motor direction to be 0
-	//Xil_Out32(AXI_GPIO_BASEADDR, 0xFF);
+	Xil_Out32(AXI_GPIO_BASEADDR+8, 1<<1);
 	//set the four motor's speed
-	Xil_Out32(AXI_PWM_BASEADDR,      speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 4,  1);
-	Xil_Out32(AXI_PWM_BASEADDR + 8,  speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 12, 1);
+	Xil_Out32(XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR+4,speed);
+	Xil_Out32(XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR+4,speed);
 }
-void set_car_right(int fast, int slow, int direction)
+
+//speed 0 ~ +45
+void set_car_right(int speed)
 {
-	int speed;
-	//Xil_Out32(AXI_GPIO_BASEADDR, direction);
-
-	speed = fast;
-	Xil_Out32(AXI_PWM_BASEADDR,      speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 4,  (direction >> 4) & 0x1);
-
-	speed = slow;
-	Xil_Out32(AXI_PWM_BASEADDR + 8,  speed == 0 ? 0 : 0x80000000 | speed);
-	Xil_Out32(AXI_PWM_BASEADDR + 12, (direction >> 6) & 0x1);
+	Xil_Out32(AXI_GPIO_BASEADDR+8, 1<<3);
+	Xil_Out32(XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR+4,-speed);
+    Xil_Out32(XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR+4,speed);
 }
-void set_car_left(int fast, int slow, int direction)
+
+//speed 0 ~ +45
+void set_car_left(int speed)
 {
-	int speed;
-	//Xil_Out32(AXI_GPIO_BASEADDR, direction);
-
-	speed = slow;
-	Xil_Out32(AXI_PWM_BASEADDR,      speed == 0 ? 0 : 0x80000000 | speed);
-	//Xil_Out32(AXI_PWM_BASEADDR + 4,  speed == 0 ? 0 : 0x80000000 | speed);
-
-	Xil_Out32(AXI_PWM_BASEADDR + 4,  (direction >> 4) & 0x1);
-	speed = fast;
-	Xil_Out32(AXI_PWM_BASEADDR + 8,  speed == 0 ? 0 : 0x80000000 | speed);
-	//Xil_Out32(AXI_PWM_BASEADDR + 12, speed == 0 ? 0 : 0x80000000 | speed);
-
-	Xil_Out32(AXI_PWM_BASEADDR + 12, (direction >> 6) & 0x1);
+	Xil_Out32(AXI_GPIO_BASEADDR+8, 1<<2);
+	Xil_Out32(XPAR_MOTOR_CTRL_L_MOTOR_S_AXI_BASEADDR+4,speed);
+    Xil_Out32(XPAR_MOTOR_CTRL_R_MOTOR_S_AXI_BASEADDR+4,-speed);
 }
-void smart_car_set(int angle, int speed)
-{
-	int fast = 0,slow = 0;
-	if(angle == 0)
-	{
-		syslog(LOG_DEBUG,"smart_car_set\n");
-		if(speed >= 0) 
-		{
-			speed = (speed == 0 ? 0 : (SPEED_OFFSET + speed * 80));
-			set_car_front(speed);
-		}
-		else{
-			speed = -SPEED_OFFSET + speed * -1 * 80 ;
-			set_car_back(speed);
-		}
-	}
-	if(angle > 0 && angle <= 60)
-	{
-		fast = speed > 0 ? ( SPEED_OFFSET + speed * 80) : (-SPEED_OFFSET + (-1) * speed * 80);
-		slow = speed > 0 ? ( SPEED_OFFSET + speed * (80 - angle)) : ( -SPEED_OFFSET + (-1) * speed * (80 - angle));
-		if(speed > 0)
-			set_car_right(fast, slow, 0x00);
-		else
-			set_car_right(fast, slow, 0xFF);
-	}
-	if(angle > 60 && angle <= 90)
-	{
-		fast = speed > 0 ? ( SPEED_OFFSET + speed * 80) : ( -SPEED_OFFSET + (-1) * speed * 80);
-		slow = speed > 0 ? ( SPEED_OFFSET + speed * (angle - 80)) : ( -SPEED_OFFSET + (-1) * speed * (angle - 80));
-		if(speed > 0)
-			set_car_right(fast, slow, 0xCC);
-		else
-			set_car_right(fast, slow, 0x33);
-	}
-	if(angle >= -60 && angle < 0)
-	{
-		angle *= -1;
-		fast = speed > 0 ? ( SPEED_OFFSET + speed * 80) : ( -SPEED_OFFSET + (-1) * speed * 80);
-		slow = speed > 0 ? ( SPEED_OFFSET + speed * (80 - angle)) : ( -SPEED_OFFSET +   (-1) * speed * (80 - angle));
-		if(speed > 0)
-			set_car_left(fast, slow, 0x00);
-		else
-			set_car_left(fast, slow, 0xFF);
-	}
-	if(angle >= -90 && angle < -60)
-	{
-		angle *= -1;
-		fast = speed > 0 ? ( SPEED_OFFSET + speed * 80) : (  -SPEED_OFFSET +  (-1) * speed * 80);
-		slow = speed > 0 ? ( SPEED_OFFSET + speed * (angle - 80)) : ( -SPEED_OFFSET +   (-1) * speed * (angle - 80));
-		if(speed > 0)
-			set_car_left(fast, slow, 0x33);
-		else
-			set_car_left(fast, slow, 0xCC);
-	}
-}
+
+

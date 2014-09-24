@@ -2503,254 +2503,782 @@
 [01/Jan/1970:00:00:21 +0000] boa: server version Boa/0.94.13
 [01/Jan/1970:00:00:21 +0000] boa: server built Jan  1 1970 at 00:06:10.
 [01/Jan/1970:00:00:21 +0000] boa: starting server pid=1374, port 80
-[01/Jan/1970:00:36:53 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:36:53 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:36:53 +0000] boa: starting server pid=1397, port 80
-[01/Jan/1970:00:38:09 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:38:27 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:38:40 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:39:14 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:39:49 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:56:04 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:02:37:32 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:48:46 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:49:03 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:51:08 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:51:08 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:51:19 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:51:59 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:53:17 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1831
-[01/Jan/1970:04:53:17 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:17 +0000] reaping child 1831: status 0
-[01/Jan/1970:04:53:18 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1832
-[01/Jan/1970:04:53:18 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:18 +0000] reaping child 1832: status 0
-[01/Jan/1970:04:53:19 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1833
-[01/Jan/1970:04:53:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:19 +0000] reaping child 1833: status 0
-[01/Jan/1970:04:53:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1834
-[01/Jan/1970:04:53:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:19 +0000] reaping child 1834: status 0
-[01/Jan/1970:04:53:19 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1835
-[01/Jan/1970:04:53:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:19 +0000] reaping child 1835: status 0
-[01/Jan/1970:04:53:20 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1836
-[01/Jan/1970:04:53:20 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:20 +0000] reaping child 1836: status 0
-[01/Jan/1970:04:53:20 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1837
-[01/Jan/1970:04:53:20 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:53:20 +0000] reaping child 1837: status 0
-[01/Jan/1970:04:55:44 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:55:59 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:04:56:25 +0000] request from 192.168.0.21 "(null)" ("(null)"): header read: Connection reset by peer
-[01/Jan/1970:04:56:25 +0000] request from 192.168.0.21 "(null)" ("(null)"): header read: Connection reset by peer
-[01/Jan/1970:04:56:45 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:56:45 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:57:34 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:57:34 +0000] request from 192.168.0.21 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:04:57:36 +0000] request from 192.168.0.21 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
-[01/Jan/1970:04:57:57 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1919
-[01/Jan/1970:04:57:57 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:57:57 +0000] reaping child 1919: status 0
-[01/Jan/1970:04:57:57 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1920
-[01/Jan/1970:04:57:57 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:57:58 +0000] reaping child 1920: status 0
-[01/Jan/1970:04:57:58 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1921
-[01/Jan/1970:04:57:58 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:57:58 +0000] reaping child 1921: status 0
-[01/Jan/1970:04:57:58 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1922
-[01/Jan/1970:04:57:58 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:04:57:58 +0000] reaping child 1922: status 0
-[01/Jan/1970:05:02:09 +0000] caught SIGTERM, starting shutdown
-[01/Jan/1970:05:02:09 +0000] exiting Boa normally (uptime 15916 seconds)
-[01/Jan/1970:00:27:13 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:27:13 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:27:13 +0000] boa: starting server pid=1405, port 80
-[01/Jan/1970:00:27:22 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:28:37 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:28:37 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:28:37 +0000] boa: starting server pid=1422, port 80
-[01/Jan/1970:00:28:52 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:29:20 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:29:20 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:29:20 +0000] boa: starting server pid=1449, port 80
-[01/Jan/1970:00:29:26 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:31:13 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:31:13 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:31:13 +0000] boa: starting server pid=1476, port 80
-[01/Jan/1970:00:31:31 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:31:54 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:31:54 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:31:54 +0000] boa: starting server pid=1501, port 80
-[01/Jan/1970:00:31:56 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:35:32 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:35:32 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:35:32 +0000] boa: starting server pid=1524, port 80
-[01/Jan/1970:00:35:33 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:35:51 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:35:51 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:35:51 +0000] boa: starting server pid=1547, port 80
-[01/Jan/1970:00:35:52 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:36:57 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:36:57 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:36:57 +0000] boa: starting server pid=1570, port 80
-[01/Jan/1970:00:36:59 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:37:26 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:37:26 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:37:26 +0000] boa: starting server pid=1593, port 80
-[01/Jan/1970:00:37:27 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:37:53 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:37:53 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:37:53 +0000] boa: starting server pid=1616, port 80
-[01/Jan/1970:00:37:56 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:00:15 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:00:15 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:00:15 +0000] boa: starting server pid=1402, port 80
-[01/Jan/1970:00:00:36 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:01:28 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:01:28 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:01:28 +0000] boa: starting server pid=1425, port 80
-[01/Jan/1970:00:01:29 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:01:51 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:01:51 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:01:51 +0000] boa: starting server pid=1448, port 80
-[01/Jan/1970:00:02:03 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:02:05 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:02:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:02:05 +0000] boa: starting server pid=1469, port 80
-[01/Jan/1970:00:02:08 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:02:53 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:02:53 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:02:53 +0000] boa: starting server pid=1491, port 80
-[01/Jan/1970:00:03:03 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:04:52 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:04:52 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:04:52 +0000] boa: starting server pid=1510, port 80
-[01/Jan/1970:00:05:53 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:06:38 +0000] caught SIGTERM, starting shutdown
-[01/Jan/1970:00:06:38 +0000] exiting Boa normally (uptime 106 seconds)
+[01/Jan/1970:00:05:57 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:05:57 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:05:57 +0000] boa: starting server pid=1391, port 80
+[01/Jan/1970:00:06:14 +0000] request from 192.168.0.22 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:06:17 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1392
+[01/Jan/1970:00:06:17 +0000] reaping child 1392: status 0
+[01/Jan/1970:00:06:17 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1393
+[01/Jan/1970:00:06:19 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:19 +0000] reaping child 1393: status 0
+[01/Jan/1970:00:06:23 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1394
+[01/Jan/1970:00:06:23 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:23 +0000] reaping child 1394: status 0
+[01/Jan/1970:00:06:30 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1395
+[01/Jan/1970:00:06:30 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:30 +0000] reaping child 1395: status 0
+[01/Jan/1970:00:06:33 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1396
+[01/Jan/1970:00:06:33 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:33 +0000] reaping child 1396: status 0
+[01/Jan/1970:00:06:33 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1397
+[01/Jan/1970:00:06:33 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:34 +0000] reaping child 1397: status 0
+[01/Jan/1970:00:06:34 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1398
+[01/Jan/1970:00:06:34 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:06:34 +0000] reaping child 1398: status 0
+[01/Jan/1970:00:06:35 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1399
+[01/Jan/1970:00:06:35 +0000] reaping child 1399: status 0
+[01/Jan/1970:00:06:35 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:00:13:30 +0000] request from 192.168.0.22 "(null)" ("(null)"): connection timed out
+[01/Jan/1970:00:01:27 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:01:27 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:01:27 +0000] boa: starting server pid=1397, port 80
+[01/Jan/1970:00:06:25 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:06:25 +0000] exiting Boa normally (uptime 298 seconds)
+[01/Jan/1970:00:00:29 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:29 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:29 +0000] boa: starting server pid=1399, port 80
+[01/Jan/1970:00:08:25 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:08:25 +0000] exiting Boa normally (uptime 476 seconds)
+[01/Jan/1970:00:02:42 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:02:42 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:02:42 +0000] boa: starting server pid=1383, port 80
+[01/Jan/1970:00:03:00 +0000] request from 192.168.1.100 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:06:41 +0000] request from 192.168.1.100 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:13:13 +0000] request from 192.168.1.100 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:13:14 +0000] request from 192.168.1.100 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:17:51 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:17:51 +0000] exiting Boa normally (uptime 909 seconds)
+[01/Jan/1970:00:00:56 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:56 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:56 +0000] boa: starting server pid=1394, port 80
+[01/Jan/1970:00:04:22 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:22:18 +0000] request from 192.168.1.101 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:23:19 +0000] request from 192.168.1.101 "(null)" ("(null)"): connection timed out
+[01/Jan/1970:00:23:27 +0000] request from 173.17.1.185 "(null)" ("(null)"): connection timed out
+[01/Jan/1970:00:23:28 +0000] request from 173.17.1.185 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:23:33 +0000] request from 173.17.1.185 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:23:52 +0000] request from 173.17.1.187 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:24:42 +0000] request from 173.17.1.185 "(null)" ("(null)"): connection timed out
+[01/Jan/1970:00:24:51 +0000] request from 173.17.1.188 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:25:01 +0000] request from 173.17.1.187 "(null)" ("(null)"): connection timed out
+[01/Jan/1970:00:25:49 +0000] request from 173.17.1.188 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:26:59 +0000] request from 173.17.1.188 "(null)" ("(null)"): connection timed out
+[03/Sep/2014:00:14:25 +0000] caught SIGTERM, starting shutdown
+[03/Sep/2014:00:14:25 +0000] exiting Boa normally (uptime 1409703209 seconds)
+[02/Sep/2014:00:01:11 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:01:11 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:01:11 +0000] boa: starting server pid=1400, port 80
+[02/Sep/2014:00:09:09 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:09:30 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:09:30 +0000] exiting Boa normally (uptime 499 seconds)
+[02/Sep/2014:00:00:05 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:05 +0000] boa: starting server pid=1346, port 80
+[02/Sep/2014:00:01:29 +0000] request from 173.17.1.189 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:02:34 +0000] request from 173.17.1.189 "(null)" ("(null)"): connection timed out
+[02/Sep/2014:00:02:34 +0000] request from 173.17.1.189 "(null)" ("(null)"): connection timed out
+[02/Sep/2014:00:46:30 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:46:33 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:46:49 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:46:52 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:46:52 +0000] exiting Boa normally (uptime 2807 seconds)
+[02/Sep/2014:00:46:57 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:46:57 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:46:57 +0000] boa: starting server pid=1476, port 80
+[02/Sep/2014:00:50:34 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:01:07:48 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:01:07:48 +0000] exiting Boa normally (uptime 1251 seconds)
+[02/Sep/2014:00:00:10 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:10 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:10 +0000] boa: starting server pid=1381, port 80
+[02/Sep/2014:00:06:50 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:12:56 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:17:16 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:17:53 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:18:07 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:18:07 +0000] exiting Boa normally (uptime 1077 seconds)
+[02/Sep/2014:00:00:03 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:03 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:03 +0000] boa: starting server pid=1349, port 80
+[02/Sep/2014:00:00:17 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:00:47 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:01:14 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:01:25 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:01:35 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:02:00 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:06:46 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:07:12 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:38:09 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:38:09 +0000] exiting Boa normally (uptime 2286 seconds)
+[02/Sep/2014:00:14:24 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:14:24 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:14:24 +0000] boa: starting server pid=1378, port 80
+[02/Sep/2014:00:14:44 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:15:14 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:15:14 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:15:14 +0000] boa: starting server pid=1400, port 80
+[02/Sep/2014:00:15:24 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:16:10 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:16:10 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:16:10 +0000] boa: starting server pid=1421, port 80
+[02/Sep/2014:00:16:20 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:17:07 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:17:07 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:17:07 +0000] boa: starting server pid=1444, port 80
+[02/Sep/2014:00:17:15 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:19:23 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:19:23 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:19:23 +0000] boa: starting server pid=1466, port 80
+[02/Sep/2014:00:19:52 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:19:52 +0000] exiting Boa normally (uptime 29 seconds)
+[02/Sep/2014:00:00:39 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:39 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:39 +0000] boa: starting server pid=1345, port 80
+[02/Sep/2014:00:01:59 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:00:07 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:07 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:07 +0000] boa: starting server pid=1351, port 80
+[02/Sep/2014:01:25:28 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:01:28:33 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1635
+[02/Sep/2014:01:28:33 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:34 +0000] reaping child 1635: status 0
+[02/Sep/2014:01:28:34 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1636
+[02/Sep/2014:01:28:34 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:34 +0000] reaping child 1636: status 0
+[02/Sep/2014:01:28:35 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1637
+[02/Sep/2014:01:28:35 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:35 +0000] reaping child 1637: status 0
+[02/Sep/2014:01:28:36 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1638
+[02/Sep/2014:01:28:36 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:36 +0000] reaping child 1638: status 0
+[02/Sep/2014:01:28:36 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1639
+[02/Sep/2014:01:28:36 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:36 +0000] reaping child 1639: status 0
+[02/Sep/2014:01:28:37 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1640
+[02/Sep/2014:01:28:37 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:37 +0000] reaping child 1640: status 0
+[02/Sep/2014:01:28:37 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1641
+[02/Sep/2014:01:28:37 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:28:37 +0000] reaping child 1641: status 0
+[02/Sep/2014:01:29:27 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1648
+[02/Sep/2014:01:29:27 +0000] reaping child 1648: status 0
+[02/Sep/2014:01:29:27 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:31 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1649
+[02/Sep/2014:01:29:31 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:31 +0000] reaping child 1649: status 0
+[02/Sep/2014:01:29:34 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1650
+[02/Sep/2014:01:29:34 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:34 +0000] reaping child 1650: status 0
+[02/Sep/2014:01:29:37 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1651
+[02/Sep/2014:01:29:37 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:37 +0000] reaping child 1651: status 0
+[02/Sep/2014:01:29:38 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1652
+[02/Sep/2014:01:29:38 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:38 +0000] reaping child 1652: status 0
+[02/Sep/2014:01:29:38 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1653
+[02/Sep/2014:01:29:38 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:38 +0000] reaping child 1653: status 0
+[02/Sep/2014:01:29:39 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1654
+[02/Sep/2014:01:29:39 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:39 +0000] reaping child 1654: status 0
+[02/Sep/2014:01:29:39 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1655
+[02/Sep/2014:01:29:39 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:29:39 +0000] reaping child 1655: status 0
+[02/Sep/2014:01:33:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1695
+[02/Sep/2014:01:33:19 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:19 +0000] reaping child 1695: status 0
+[02/Sep/2014:01:33:21 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1696
+[02/Sep/2014:01:33:21 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:21 +0000] reaping child 1696: status 0
+[02/Sep/2014:01:33:24 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1697
+[02/Sep/2014:01:33:24 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:24 +0000] reaping child 1697: status 0
+[02/Sep/2014:01:33:25 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1698
+[02/Sep/2014:01:33:25 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:25 +0000] reaping child 1698: status 0
+[02/Sep/2014:01:33:26 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1699
+[02/Sep/2014:01:33:26 +0000] reaping child 1699: status 0
+[02/Sep/2014:01:33:26 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:29 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1700
+[02/Sep/2014:01:33:29 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:29 +0000] reaping child 1700: status 0
+[02/Sep/2014:01:33:29 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1701
+[02/Sep/2014:01:33:29 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:29 +0000] reaping child 1701: status 0
+[02/Sep/2014:01:33:29 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1702
+[02/Sep/2014:01:33:29 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:29 +0000] reaping child 1702: status 0
+[02/Sep/2014:01:33:30 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1703
+[02/Sep/2014:01:33:30 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:01:33:30 +0000] reaping child 1703: status 0
+[02/Sep/2014:01:33:34 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:01:13 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:01:13 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:01:13 +0000] boa: starting server pid=1350, port 80
+[02/Sep/2014:00:01:37 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:01:38 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1402
+[02/Sep/2014:00:01:38 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:38 +0000] reaping child 1402: status 0
+[02/Sep/2014:00:01:42 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1403
+[02/Sep/2014:00:01:42 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:42 +0000] reaping child 1403: status 0
+[02/Sep/2014:00:01:43 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1404
+[02/Sep/2014:00:01:43 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:46 +0000] reaping child 1404: status 0
+[02/Sep/2014:00:01:46 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1405
+[02/Sep/2014:00:01:46 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:46 +0000] reaping child 1405: status 0
+[02/Sep/2014:00:01:47 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1406
+[02/Sep/2014:00:01:47 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:47 +0000] reaping child 1406: status 0
+[02/Sep/2014:00:01:48 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1407
+[02/Sep/2014:00:01:48 +0000] reaping child 1407: status 0
+[02/Sep/2014:00:01:48 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:49 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1408
+[02/Sep/2014:00:01:49 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:49 +0000] reaping child 1408: status 0
+[02/Sep/2014:00:01:50 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1409
+[02/Sep/2014:00:01:50 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:50 +0000] reaping child 1409: status 0
+[02/Sep/2014:00:01:51 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1410
+[02/Sep/2014:00:01:51 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:51 +0000] reaping child 1410: status 0
+[02/Sep/2014:00:02:07 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:02:07 +0000] exiting Boa normally (uptime 54 seconds)
+[02/Sep/2014:00:05:54 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:05:54 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:05:54 +0000] boa: starting server pid=1386, port 80
+[02/Sep/2014:00:06:02 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:06:03 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1440
+[02/Sep/2014:00:06:03 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:03 +0000] reaping child 1440: status 0
+[02/Sep/2014:00:06:07 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1441
+[02/Sep/2014:00:06:07 +0000] reaping child 1441: status 0
+[02/Sep/2014:00:06:07 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:10 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1442
+[02/Sep/2014:00:06:10 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:10 +0000] reaping child 1442: status 0
+[02/Sep/2014:00:06:13 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1443
+[02/Sep/2014:00:06:13 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:13 +0000] reaping child 1443: status 0
+[02/Sep/2014:00:06:15 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1444
+[02/Sep/2014:00:06:15 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:15 +0000] reaping child 1444: status 0
+[02/Sep/2014:00:06:21 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1445
+[02/Sep/2014:00:06:21 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:21 +0000] reaping child 1445: status 0
+[02/Sep/2014:00:06:22 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1446
+[02/Sep/2014:00:06:22 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:22 +0000] reaping child 1446: status 0
+[02/Sep/2014:00:06:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1447
+[02/Sep/2014:00:06:26 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:26 +0000] reaping child 1447: status 0
+[02/Sep/2014:00:06:32 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:00:05 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:05 +0000] boa: starting server pid=1338, port 80
+[02/Sep/2014:00:02:18 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:02:18 +0000] exiting Boa normally (uptime 133 seconds)
+[02/Sep/2014:00:00:04 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:04 +0000] boa: starting server pid=1327, port 80
+[02/Sep/2014:00:00:20 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:01:08 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:01:08 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:01:08 +0000] boa: starting server pid=1351, port 80
+[02/Sep/2014:00:01:11 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:01:37 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:01:37 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:01:37 +0000] boa: starting server pid=1375, port 80
+[02/Sep/2014:00:05:41 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:05:41 +0000] exiting Boa normally (uptime 244 seconds)
+[02/Sep/2014:00:03:01 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:03:01 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:03:01 +0000] boa: starting server pid=1340, port 80
+[02/Sep/2014:00:03:14 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1390
+[02/Sep/2014:00:03:15 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:15 +0000] reaping child 1390: status 0
+[02/Sep/2014:00:03:47 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:04:14 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:00:12 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:12 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:12 +0000] boa: starting server pid=1338, port 80
+[02/Sep/2014:00:00:17 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:00:26 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:00:28 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:00:53 +0000] request from 192.168.1.102 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:00:56 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1390
+[02/Sep/2014:00:00:56 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:00:56 +0000] reaping child 1390: status 0
+[02/Sep/2014:00:00:57 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1391
+[02/Sep/2014:00:00:57 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:00:57 +0000] reaping child 1391: status 0
+[02/Sep/2014:00:01:01 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1392
+[02/Sep/2014:00:01:01 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:01 +0000] reaping child 1392: status 0
+[02/Sep/2014:00:01:01 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1393
+[02/Sep/2014:00:01:01 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:01 +0000] reaping child 1393: status 0
+[02/Sep/2014:00:01:05 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1394
+[02/Sep/2014:00:01:05 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:05 +0000] reaping child 1394: status 0
+[02/Sep/2014:00:01:09 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1395
+[02/Sep/2014:00:01:09 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:09 +0000] reaping child 1395: status 0
+[02/Sep/2014:00:01:13 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1396
+[02/Sep/2014:00:01:13 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:13 +0000] reaping child 1396: status 0
+[02/Sep/2014:00:01:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1397
+[02/Sep/2014:00:01:26 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:26 +0000] reaping child 1397: status 0
+[02/Sep/2014:00:01:37 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1398
+[02/Sep/2014:00:01:37 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:01:37 +0000] reaping child 1398: status 0
+[02/Sep/2014:00:02:00 +0000] request from 192.168.1.102 "(null)" ("(null)"): connection timed out
+[02/Sep/2014:00:02:00 +0000] request from 192.168.1.102 "(null)" ("(null)"): connection timed out
+[02/Sep/2014:00:02:16 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1402
+[02/Sep/2014:00:02:16 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:16 +0000] reaping child 1402: status 0
+[02/Sep/2014:00:02:44 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1437
+[02/Sep/2014:00:02:44 +0000] reaping child 1437: status 0
+[02/Sep/2014:00:02:44 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:46 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1438
+[02/Sep/2014:00:02:46 +0000] reaping child 1438: status 0
+[02/Sep/2014:00:02:46 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:49 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1439
+[02/Sep/2014:00:02:49 +0000] reaping child 1439: status 0
+[02/Sep/2014:00:02:49 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:53 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1440
+[02/Sep/2014:00:02:53 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:53 +0000] reaping child 1440: status 0
+[02/Sep/2014:00:02:58 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1441
+[02/Sep/2014:00:02:58 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:58 +0000] reaping child 1441: status 0
+[02/Sep/2014:00:02:58 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1442
+[02/Sep/2014:00:02:58 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:58 +0000] reaping child 1442: status 0
+[02/Sep/2014:00:03:50 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:03:50 +0000] exiting Boa normally (uptime 218 seconds)
+[02/Sep/2014:00:01:31 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:01:31 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:01:31 +0000] boa: starting server pid=1372, port 80
+[02/Sep/2014:00:02:04 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:02:06 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1454
+[02/Sep/2014:00:02:06 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:06 +0000] reaping child 1454: status 0
+[02/Sep/2014:00:02:10 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1455
+[02/Sep/2014:00:02:10 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:10 +0000] reaping child 1455: status 0
+[02/Sep/2014:00:02:13 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1456
+[02/Sep/2014:00:02:13 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:13 +0000] reaping child 1456: status 0
+[02/Sep/2014:00:02:15 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1457
+[02/Sep/2014:00:02:15 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:15 +0000] reaping child 1457: status 0
+[02/Sep/2014:00:02:17 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1458
+[02/Sep/2014:00:02:17 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:17 +0000] reaping child 1458: status 0
+[02/Sep/2014:00:02:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1459
+[02/Sep/2014:00:02:19 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:19 +0000] reaping child 1459: status 0
+[02/Sep/2014:00:02:20 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1460
+[02/Sep/2014:00:02:20 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:20 +0000] reaping child 1460: status 0
+[02/Sep/2014:00:02:22 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1461
+[02/Sep/2014:00:02:22 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:22 +0000] reaping child 1461: status 0
+[02/Sep/2014:00:02:23 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1462
+[02/Sep/2014:00:02:23 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:23 +0000] reaping child 1462: status 0
+[02/Sep/2014:00:02:25 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1463
+[02/Sep/2014:00:02:25 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:25 +0000] reaping child 1463: status 0
+[02/Sep/2014:00:03:25 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1500
+[02/Sep/2014:00:03:25 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:25 +0000] reaping child 1500: status 0
+[02/Sep/2014:00:03:28 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1501
+[02/Sep/2014:00:03:28 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:28 +0000] reaping child 1501: status 0
+[02/Sep/2014:00:03:30 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1502
+[02/Sep/2014:00:03:30 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:35 +0000] reaping child 1502: status 0
+[02/Sep/2014:00:03:35 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1503
+[02/Sep/2014:00:03:35 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:35 +0000] reaping child 1503: status 0
+[02/Sep/2014:00:03:37 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1504
+[02/Sep/2014:00:03:37 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:37 +0000] reaping child 1504: status 0
+[02/Sep/2014:00:03:38 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1505
+[02/Sep/2014:00:03:38 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:38 +0000] reaping child 1505: status 0
+[02/Sep/2014:00:03:39 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1506
+[02/Sep/2014:00:03:39 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:39 +0000] reaping child 1506: status 0
+[02/Sep/2014:00:03:41 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1507
+[02/Sep/2014:00:03:41 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:03:41 +0000] reaping child 1507: status 0
+[02/Sep/2014:00:03:59 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:03:59 +0000] exiting Boa normally (uptime 148 seconds)
+[02/Sep/2014:00:04:57 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:04:57 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:04:57 +0000] boa: starting server pid=1391, port 80
+[02/Sep/2014:00:05:24 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:05:30 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1474
+[02/Sep/2014:00:05:30 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:30 +0000] reaping child 1474: status 0
+[02/Sep/2014:00:05:33 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1475
+[02/Sep/2014:00:05:33 +0000] reaping child 1475: status 0
+[02/Sep/2014:00:05:33 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:42 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1476
+[02/Sep/2014:00:05:42 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:42 +0000] reaping child 1476: status 0
+[02/Sep/2014:00:05:52 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1477
+[02/Sep/2014:00:05:52 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:52 +0000] reaping child 1477: status 0
+[02/Sep/2014:00:06:36 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1480
+[02/Sep/2014:00:06:36 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:36 +0000] reaping child 1480: status 0
+[02/Sep/2014:00:06:39 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1481
+[02/Sep/2014:00:06:39 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:39 +0000] reaping child 1481: status 0
+[02/Sep/2014:00:06:40 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1482
+[02/Sep/2014:00:06:40 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:43 +0000] reaping child 1482: status 0
+[02/Sep/2014:00:06:43 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1483
+[02/Sep/2014:00:06:43 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:43 +0000] reaping child 1483: status 0
+[02/Sep/2014:00:06:54 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1484
+[02/Sep/2014:00:06:54 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:54 +0000] reaping child 1484: status 0
+[02/Sep/2014:00:06:57 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1485
+[02/Sep/2014:00:06:57 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:06:57 +0000] reaping child 1485: status 0
+[02/Sep/2014:00:07:22 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1486
+[02/Sep/2014:00:07:22 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:22 +0000] reaping child 1486: status 0
+[02/Sep/2014:00:07:25 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1487
+[02/Sep/2014:00:07:25 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:25 +0000] reaping child 1487: status 0
+[02/Sep/2014:00:07:41 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1521
+[02/Sep/2014:00:07:41 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:41 +0000] reaping child 1521: status 0
+[02/Sep/2014:00:07:43 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1522
+[02/Sep/2014:00:07:43 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:43 +0000] reaping child 1522: status 0
+[02/Sep/2014:00:07:46 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1523
+[02/Sep/2014:00:07:47 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:47 +0000] reaping child 1523: status 0
+[02/Sep/2014:00:07:49 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1524
+[02/Sep/2014:00:07:49 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:49 +0000] reaping child 1524: status 0
+[02/Sep/2014:00:07:50 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1525
+[02/Sep/2014:00:07:50 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:50 +0000] reaping child 1525: status 0
+[02/Sep/2014:00:07:51 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1526
+[02/Sep/2014:00:07:51 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:51 +0000] reaping child 1526: status 0
+[02/Sep/2014:00:07:54 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1527
+[02/Sep/2014:00:07:54 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:54 +0000] reaping child 1527: status 0
+[02/Sep/2014:00:07:58 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1528
+[02/Sep/2014:00:07:58 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:07:58 +0000] reaping child 1528: status 0
+[02/Sep/2014:00:08:00 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1529
+[02/Sep/2014:00:08:00 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:08:00 +0000] reaping child 1529: status 0
+[02/Sep/2014:00:08:02 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1530
+[02/Sep/2014:00:08:02 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:08:02 +0000] reaping child 1530: status 0
+[02/Sep/2014:00:08:03 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1531
+[02/Sep/2014:00:08:03 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:08:03 +0000] reaping child 1531: status 0
+[02/Sep/2014:00:08:24 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1533
+[02/Sep/2014:00:08:24 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:08:24 +0000] reaping child 1533: status 0
+[02/Sep/2014:00:08:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1534
+[02/Sep/2014:00:08:26 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:08:26 +0000] reaping child 1534: status 0
+[02/Sep/2014:00:09:01 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1568
+[02/Sep/2014:00:09:01 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:01 +0000] reaping child 1568: status 0
+[02/Sep/2014:00:09:03 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1569
+[02/Sep/2014:00:09:03 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:03 +0000] reaping child 1569: status 0
+[02/Sep/2014:00:09:04 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1570
+[02/Sep/2014:00:09:04 +0000] reaping child 1570: status 0
+[02/Sep/2014:00:09:04 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:07 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1571
+[02/Sep/2014:00:09:07 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:07 +0000] reaping child 1571: status 0
+[02/Sep/2014:00:09:08 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1572
+[02/Sep/2014:00:09:08 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:08 +0000] reaping child 1572: status 0
+[02/Sep/2014:00:09:12 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1573
+[02/Sep/2014:00:09:12 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:12 +0000] reaping child 1573: status 0
+[02/Sep/2014:00:09:13 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1574
+[02/Sep/2014:00:09:13 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:13 +0000] reaping child 1574: status 0
+[02/Sep/2014:00:09:15 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1575
+[02/Sep/2014:00:09:15 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:09:15 +0000] reaping child 1575: status 0
+[02/Sep/2014:00:10:14 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1611
+[02/Sep/2014:00:10:14 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:14 +0000] reaping child 1611: status 0
+[02/Sep/2014:00:10:16 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1612
+[02/Sep/2014:00:10:16 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:16 +0000] reaping child 1612: status 0
+[02/Sep/2014:00:10:17 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1613
+[02/Sep/2014:00:10:17 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:17 +0000] reaping child 1613: status 0
+[02/Sep/2014:00:10:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1614
+[02/Sep/2014:00:10:19 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:19 +0000] reaping child 1614: status 0
+[02/Sep/2014:00:10:20 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1615
+[02/Sep/2014:00:10:20 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:20 +0000] reaping child 1615: status 0
+[02/Sep/2014:00:10:23 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1616
+[02/Sep/2014:00:10:23 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:24 +0000] reaping child 1616: status 0
+[02/Sep/2014:00:10:24 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1617
+[02/Sep/2014:00:10:24 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:24 +0000] reaping child 1617: status 0
+[02/Sep/2014:00:10:28 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1618
+[02/Sep/2014:00:10:28 +0000] reaping child 1618: status 0
+[02/Sep/2014:00:10:28 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:31 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1619
+[02/Sep/2014:00:10:31 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:31 +0000] reaping child 1619: status 0
+[02/Sep/2014:00:10:32 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1620
+[02/Sep/2014:00:10:32 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:10:32 +0000] reaping child 1620: status 0
+[02/Sep/2014:00:11:10 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:11:10 +0000] exiting Boa normally (uptime 373 seconds)
+[02/Sep/2014:00:15:32 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:15:32 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:15:32 +0000] boa: starting server pid=1400, port 80
+[02/Sep/2014:01:53:32 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:01:53:32 +0000] exiting Boa normally (uptime 5880 seconds)
+[02/Sep/2014:00:00:46 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:46 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:46 +0000] boa: starting server pid=1342, port 80
+[02/Sep/2014:00:01:28 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:01:28 +0000] exiting Boa normally (uptime 42 seconds)
+[02/Sep/2014:00:00:03 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:03 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:03 +0000] boa: starting server pid=1347, port 80
+[02/Sep/2014:00:08:41 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:08:41 +0000] exiting Boa normally (uptime 518 seconds)
+[02/Sep/2014:00:00:08 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:08 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:08 +0000] boa: starting server pid=1508, port 80
+[02/Sep/2014:00:01:11 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:02:06 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1580
+[02/Sep/2014:00:02:06 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:06 +0000] reaping child 1580: status 0
+[02/Sep/2014:00:02:07 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1581
+[02/Sep/2014:00:02:07 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:07 +0000] reaping child 1581: status 0
+[02/Sep/2014:00:02:08 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1582
+[02/Sep/2014:00:02:08 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:08 +0000] reaping child 1582: status 0
+[02/Sep/2014:00:02:09 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1583
+[02/Sep/2014:00:02:09 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:10 +0000] reaping child 1583: status 0
+[02/Sep/2014:00:02:10 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1584
+[02/Sep/2014:00:02:10 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:10 +0000] reaping child 1584: status 0
+[02/Sep/2014:00:02:10 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1585
+[02/Sep/2014:00:02:10 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:10 +0000] reaping child 1585: status 0
+[02/Sep/2014:00:02:13 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1586
+[02/Sep/2014:00:02:13 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:13 +0000] reaping child 1586: status 0
+[02/Sep/2014:00:02:14 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1587
+[02/Sep/2014:00:02:14 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:14 +0000] reaping child 1587: status 0
+[02/Sep/2014:00:02:15 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1588
+[02/Sep/2014:00:02:15 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:15 +0000] reaping child 1588: status 0
+[02/Sep/2014:00:02:16 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1589
+[02/Sep/2014:00:02:16 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:16 +0000] reaping child 1589: status 0
+[02/Sep/2014:00:02:16 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1590
+[02/Sep/2014:00:02:16 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:16 +0000] reaping child 1590: status 0
+[02/Sep/2014:00:02:17 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1591
+[02/Sep/2014:00:02:17 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:17 +0000] reaping child 1591: status 0
+[02/Sep/2014:00:02:18 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1592
+[02/Sep/2014:00:02:18 +0000] reaping child 1592: status 0
+[02/Sep/2014:00:02:18 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:18 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1593
+[02/Sep/2014:00:02:18 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:18 +0000] reaping child 1593: status 0
+[02/Sep/2014:00:02:20 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1594
+[02/Sep/2014:00:02:20 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:20 +0000] reaping child 1594: status 0
+[02/Sep/2014:00:02:20 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1595
+[02/Sep/2014:00:02:20 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:20 +0000] reaping child 1595: status 0
+[02/Sep/2014:00:02:21 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1596
+[02/Sep/2014:00:02:21 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:21 +0000] reaping child 1596: status 0
+[02/Sep/2014:00:02:22 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1597
+[02/Sep/2014:00:02:22 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:22 +0000] reaping child 1597: status 0
+[02/Sep/2014:00:02:22 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1598
+[02/Sep/2014:00:02:22 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:22 +0000] reaping child 1598: status 0
+[02/Sep/2014:00:02:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1599
+[02/Sep/2014:00:02:26 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:26 +0000] reaping child 1599: status 0
+[02/Sep/2014:00:02:27 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:02:27 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1600
+[02/Sep/2014:00:02:27 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:27 +0000] reaping child 1600: status 0
+[02/Sep/2014:00:02:27 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1601
+[02/Sep/2014:00:02:27 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:02:27 +0000] reaping child 1601: status 0
+buffer flush: Connection reset by peer
+[02/Sep/2014:00:03:47 +0000] request from 172.16.75.130 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:04:29 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1602
+[02/Sep/2014:00:04:29 +0000] reaping child 1602: status 0
+[02/Sep/2014:00:04:29 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:04:29 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1603
+[02/Sep/2014:00:04:29 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:04:29 +0000] reaping child 1603: status 0
+[02/Sep/2014:00:04:32 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1604
+[02/Sep/2014:00:04:32 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:04:32 +0000] reaping child 1604: status 0
+[02/Sep/2014:00:02:15 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:02:15 +0000] exiting Boa normally (uptime 127 seconds)
+[02/Sep/2014:00:00:47 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:47 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:47 +0000] boa: starting server pid=1478, port 80
+[02/Sep/2014:00:00:51 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:01:17 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+buffer flush: Connection reset by peer
+[02/Sep/2014:00:04:43 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:04:43 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:04:54 +0000] request from 172.16.75.130 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[02/Sep/2014:00:05:47 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1508
+[02/Sep/2014:00:05:47 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:47 +0000] reaping child 1508: status 0
+[02/Sep/2014:00:05:49 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1509
+[02/Sep/2014:00:05:49 +0000] cgi_header: unable to find LFLF
+[02/Sep/2014:00:05:49 +0000] reaping child 1509: status 0
+[02/Sep/2014:00:07:20 +0000] caught SIGINT: shutting down
+[01/Jan/1970:00:11:44 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:11:44 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:11:44 +0000] boa: starting server pid=1381, port 80
+[02/Sep/2014:00:00:32 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:00:32 +0000] exiting Boa normally (uptime 1409615328 seconds)
+[02/Sep/2014:00:00:13 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:00:13 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:00:13 +0000] boa: starting server pid=1435, port 80
+[02/Sep/2014:00:00:30 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:01:08 +0000] request from 172.16.75.130 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[02/Sep/2014:00:02:39 +0000] request from 172.22.140.8 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:03:46 +0000] request from 172.22.140.8 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:21:02 +0000] request from 172.16.75.80 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:23:29 +0000] request from 172.16.75.80 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:26:20 +0000] request from 172.16.75.80 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[02/Sep/2014:00:27:09 +0000] request from 172.16.75.80 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:27:10 +0000] request from 172.16.75.80 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[02/Sep/2014:00:37:29 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:37:29 +0000] request from 172.16.75.130 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[02/Sep/2014:00:37:36 +0000] request from 172.16.75.130 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[02/Sep/2014:00:42:24 +0000] caught SIGINT: shutting down
+[02/Sep/2014:00:53:11 +0000] boa: server version Boa/0.94.13
+[02/Sep/2014:00:53:11 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[02/Sep/2014:00:53:11 +0000] boa: starting server pid=1519, port 80
+[02/Sep/2014:01:03:27 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:01:03:27 +0000] exiting Boa normally (uptime 616 seconds)
+[01/Jan/1970:02:15:46 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:02:15:46 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:02:15:46 +0000] boa: starting server pid=1452, port 80
+[01/Jan/1970:02:16:14 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:16:30 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:29:31 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:29:34 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1585
+[01/Jan/1970:02:29:34 +0000] reaping child 1585: status 256
+[01/Jan/1970:02:29:35 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:39:47 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:51:32 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1592
+[01/Jan/1970:02:51:32 +0000] reaping child 1592: status 256
+[01/Jan/1970:02:51:32 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:01 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1609
+[01/Jan/1970:02:57:01 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:02:57:01 +0000] reaping child 1609: status 11
+[01/Jan/1970:02:57:01 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:08 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1610
+[01/Jan/1970:02:57:08 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:02:57:08 +0000] reaping child 1610: status 11
+[01/Jan/1970:02:57:08 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:10 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:21 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1611
+[01/Jan/1970:02:57:21 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:02:57:21 +0000] reaping child 1611: status 11
+[01/Jan/1970:02:57:21 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:26 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1612
+[01/Jan/1970:02:57:26 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:02:57:26 +0000] reaping child 1612: status 11
+[01/Jan/1970:02:57:26 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:02:57:53 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1613
+[01/Jan/1970:02:57:53 +0000] cgi_header: unable to find LFLF
+[01/Jan/1970:02:57:53 +0000] reaping child 1613: status 11
+[01/Jan/1970:02:57:53 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:03:00:28 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:03:00:31 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1671
+[01/Jan/1970:03:00:31 +0000] reaping child 1671: status 256
+[01/Jan/1970:03:00:31 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:03:00:50 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1687
+[01/Jan/1970:03:00:50 +0000] reaping child 1687: status 256
+[01/Jan/1970:03:00:50 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:03:06:47 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1717
+[01/Jan/1970:03:06:47 +0000] reaping child 1717: status 256
+[01/Jan/1970:03:06:48 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:03:44:15 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:03:44:15 +0000] exiting Boa normally (uptime 5309 seconds)
+[01/Jan/1970:00:00:09 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:09 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:09 +0000] boa: starting server pid=1375, port 80
+[01/Jan/1970:00:00:32 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1457
+[01/Jan/1970:00:00:32 +0000] reaping child 1457: status 256
+[01/Jan/1970:00:00:32 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:00:59 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1462
+[01/Jan/1970:00:00:59 +0000] reaping child 1462: status 256
+[01/Jan/1970:00:00:59 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:06:02 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1531
+[01/Jan/1970:00:06:03 +0000] reaping child 1531: status 256
+[01/Jan/1970:00:06:03 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:06:25 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1540
+[01/Jan/1970:00:06:25 +0000] reaping child 1540: status 256
+[01/Jan/1970:00:06:25 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:07:59 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1567
+[01/Jan/1970:00:07:59 +0000] reaping child 1567: status 256
+[01/Jan/1970:00:08:00 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:25:01 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1644
+[01/Jan/1970:00:25:01 +0000] reaping child 1644: status 256
+[01/Jan/1970:00:25:01 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:29:39 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1708
+[01/Jan/1970:00:29:39 +0000] reaping child 1708: status 256
+[01/Jan/1970:00:29:39 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:30:51 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1730
+[01/Jan/1970:00:30:51 +0000] reaping child 1730: status 256
+[01/Jan/1970:00:30:51 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:32:45 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1760
+[01/Jan/1970:00:32:46 +0000] reaping child 1760: status 256
+[01/Jan/1970:00:34:50 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1794
+[01/Jan/1970:00:34:51 +0000] reaping child 1794: status 256
+[01/Jan/1970:00:37:19 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:37:19 +0000] exiting Boa normally (uptime 2230 seconds)
 [01/Jan/1970:00:00:08 +0000] boa: server version Boa/0.94.13
 [01/Jan/1970:00:00:08 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:00:08 +0000] boa: starting server pid=1381, port 80
-[01/Jan/1970:00:00:51 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:01:01 +0000] caught SIGTERM, starting shutdown
-[01/Jan/1970:00:01:01 +0000] exiting Boa normally (uptime 53 seconds)
-[01/Jan/1970:00:00:16 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:00:16 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:00:16 +0000] boa: starting server pid=1392, port 80
-[01/Jan/1970:00:00:23 +0000] caught SIGINT: shutting down
-[01/Jan/1970:00:00:23 +0000] boa: server version Boa/0.94.13
-[01/Jan/1970:00:00:23 +0000] boa: server built Jan  1 1970 at 00:06:10.
-[01/Jan/1970:00:00:23 +0000] boa: starting server pid=1395, port 80
-[01/Jan/1970:00:02:21 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1507
-[01/Jan/1970:00:02:21 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:21 +0000] reaping child 1507: status 0
-[01/Jan/1970:00:02:22 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1508
-[01/Jan/1970:00:02:22 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:22 +0000] reaping child 1508: status 0
-[01/Jan/1970:00:02:23 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1509
-[01/Jan/1970:00:02:23 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:23 +0000] reaping child 1509: status 0
-[01/Jan/1970:00:02:23 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1510
-[01/Jan/1970:00:02:23 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:23 +0000] reaping child 1510: status 0
-[01/Jan/1970:00:02:23 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1511
-[01/Jan/1970:00:02:23 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:23 +0000] reaping child 1511: status 0
-[01/Jan/1970:00:02:24 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1512
-[01/Jan/1970:00:02:24 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:24 +0000] reaping child 1512: status 0
-[01/Jan/1970:00:02:24 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1513
-[01/Jan/1970:00:02:24 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:24 +0000] reaping child 1513: status 0
-[01/Jan/1970:00:02:25 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1514
-[01/Jan/1970:00:02:25 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:25 +0000] reaping child 1514: status 0
-[01/Jan/1970:00:02:25 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1515
-[01/Jan/1970:00:02:25 +0000] reaping child 1515: status 0
-[01/Jan/1970:00:02:25 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1516
-[01/Jan/1970:00:02:26 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:26 +0000] reaping child 1516: status 0
-[01/Jan/1970:00:02:26 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1517
-[01/Jan/1970:00:02:26 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:26 +0000] reaping child 1517: status 0
-[01/Jan/1970:00:02:26 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1518
-[01/Jan/1970:00:02:26 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:26 +0000] reaping child 1518: status 0
-[01/Jan/1970:00:02:27 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1519
-[01/Jan/1970:00:02:27 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:27 +0000] reaping child 1519: status 0
-[01/Jan/1970:00:02:30 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1520
-[01/Jan/1970:00:02:30 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:02:30 +0000] reaping child 1520: status 0
-[01/Jan/1970:00:03:44 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1533
-[01/Jan/1970:00:03:44 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:44 +0000] reaping child 1533: status 0
-[01/Jan/1970:00:03:45 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1534
-[01/Jan/1970:00:03:45 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:45 +0000] reaping child 1534: status 0
-[01/Jan/1970:00:03:45 +0000] Forked child "/var/www/cgi-bin/smart_car_front.cgi" pid 1535
-[01/Jan/1970:00:03:45 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:45 +0000] reaping child 1535: status 0
-[01/Jan/1970:00:03:46 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1536
-[01/Jan/1970:00:03:46 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:46 +0000] reaping child 1536: status 0
-[01/Jan/1970:00:03:47 +0000] Forked child "/var/www/cgi-bin/smart_car_back.cgi" pid 1537
-[01/Jan/1970:00:03:47 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:47 +0000] reaping child 1537: status 0
-[01/Jan/1970:00:03:49 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1538
-[01/Jan/1970:00:03:49 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:49 +0000] reaping child 1538: status 0
-[01/Jan/1970:00:03:50 +0000] Forked child "/var/www/cgi-bin/smart_car_right.cgi" pid 1539
-[01/Jan/1970:00:03:50 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:50 +0000] reaping child 1539: status 0
-[01/Jan/1970:00:03:52 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1540
-[01/Jan/1970:00:03:52 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:52 +0000] reaping child 1540: status 0
-[01/Jan/1970:00:03:53 +0000] Forked child "/var/www/cgi-bin/smart_car_left.cgi" pid 1541
-[01/Jan/1970:00:03:53 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:53 +0000] reaping child 1541: status 0
-[01/Jan/1970:00:03:55 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1542
-[01/Jan/1970:00:03:55 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:55 +0000] reaping child 1542: status 0
-[01/Jan/1970:00:03:56 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1543
-[01/Jan/1970:00:03:56 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:03:56 +0000] reaping child 1543: status 0
-[01/Jan/1970:00:04:06 +0000] boa.c:194 - unable to bind: Address already in use
-[01/Jan/1970:00:04:18 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1575
-[01/Jan/1970:00:04:18 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:18 +0000] reaping child 1575: status 0
-[01/Jan/1970:00:04:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1576
-[01/Jan/1970:00:04:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:19 +0000] reaping child 1576: status 0
-[01/Jan/1970:00:04:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1577
-[01/Jan/1970:00:04:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:19 +0000] reaping child 1577: status 0
-[01/Jan/1970:00:04:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1578
-[01/Jan/1970:00:04:19 +0000] reaping child 1578: status 0
-[01/Jan/1970:00:04:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1579
-[01/Jan/1970:00:04:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:19 +0000] reaping child 1579: status 0
-[01/Jan/1970:00:04:19 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1580
-[01/Jan/1970:00:04:19 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:19 +0000] reaping child 1580: status 0
-[01/Jan/1970:00:04:20 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1581
-[01/Jan/1970:00:04:20 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:20 +0000] reaping child 1581: status 0
-[01/Jan/1970:00:04:20 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1582
-[01/Jan/1970:00:04:20 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:20 +0000] reaping child 1582: status 0
-[01/Jan/1970:00:04:20 +0000] Forked child "/var/www/cgi-bin/smart_car_stop.cgi" pid 1583
-[01/Jan/1970:00:04:20 +0000] cgi_header: unable to find LFLF
-[01/Jan/1970:00:04:20 +0000] reaping child 1583: status 0
-[01/Jan/1970:00:04:26 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:00:04:26 +0000] request from 192.168.0.20 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
-[01/Jan/1970:00:04:27 +0000] request from 192.168.0.20 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
-[01/Jan/1970:00:05:47 +0000] Forked child "/var/www/cgi-bin/post_handler.cgi" pid 1615
-[01/Jan/1970:00:05:47 +0000] reaping child 1615: status 0
-[01/Jan/1970:00:05:49 +0000] Forked child "/var/www/cgi-bin/run_handler.cgi" pid 1616
-[01/Jan/1970:00:05:49 +0000] reaping child 1616: status 256
-[01/Jan/1970:00:06:05 +0000] caught SIGTERM, starting shutdown
-[01/Jan/1970:00:06:05 +0000] exiting Boa normally (uptime 342 seconds)
+[01/Jan/1970:00:00:08 +0000] boa: starting server pid=1374, port 80
+[01/Jan/1970:00:00:26 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:00:26 +0000] exiting Boa normally (uptime 18 seconds)

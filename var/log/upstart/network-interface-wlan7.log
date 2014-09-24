@@ -1,0 +1,27 @@
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+ifdown: interface wlan7 not configured
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"

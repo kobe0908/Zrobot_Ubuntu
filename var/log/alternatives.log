@@ -82,3 +82,7 @@ update-alternatives 1970-01-01 00:02:28: run with --quiet --install /usr/bin/rcp
 update-alternatives 1970-01-01 00:02:28: link group rcp updated to point to /usr/bin/scp
 update-alternatives 1970-01-01 00:03:36: run with --install /usr/bin/yacc yacc /usr/bin/byacc 80 --slave /usr/share/man/man1/yacc.1.gz yaccman /usr/share/man/man1/byacc.1.gz
 update-alternatives 1970-01-01 00:03:36: link group yacc updated to point to /usr/bin/byacc
+update-alternatives 1970-01-01 00:34:38: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 1970-01-01 00:34:38: link group awk updated to point to /usr/bin/gawk
+update-alternatives 1970-01-01 00:34:39: run with --install /usr/bin/automake automake /usr/bin/automake-1.11 29 --slave /usr/bin/aclocal aclocal /usr/bin/aclocal-1.11 --slave /usr/share/man/man1/automake.1.gz automake.1.gz /usr/share/man/man1/automake-1.11.1.gz --slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz /usr/share/man/man1/aclocal-1.11.1.gz
+update-alternatives 1970-01-01 00:34:39: link group automake updated to point to /usr/bin/automake-1.11

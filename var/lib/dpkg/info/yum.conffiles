@@ -1,0 +1,7 @@
+/etc/yum/yum.conf
+/etc/yum/version-groups.conf
+/etc/yum/yum-updatesd.conf
+/etc/init.d/yum-updatesd
+/etc/dbus-1/system.d/yum-updatesd.conf
+/etc/logrotate.d/yum
+/etc/default/yum-updatesd

@@ -10,8 +10,8 @@ static int fd;
 
 int main(void)
 {
-    
-    smart_car_set(-90,60 );
+	smart_car_init();    
+    set_car_left(20);
  
     return 0;
 }

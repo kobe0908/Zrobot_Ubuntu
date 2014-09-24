@@ -1,3 +1,24 @@
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Linux version 3.6.0-digilent-13.01-00004-gfd0ba1e (root@seg-VirtualBox) (gcc version 4.7.2 (Sourcery CodeBench Lite 2012.09-104) ) #1 SMP PREEMPT Wed Aug 27 13:57:00 CST 2014
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine: Xilinx Zynq Platform, model: Xilinx Zynq Platform
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] On node 0 totalpages: 131072
+[    0.000000] free_area_init_node: node 0, pgdat c055fc40, node_mem_map c057a000
+[    0.000000]   Normal zone: 1024 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 130048 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 7 pages/cpu @c0981000 s6976 r8192 d13504 u32768
+[    0.000000] pcpu-alloc: s6976 r8192 d13504 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 512MB = 512MB total
+[    0.000000] Memory: 514060k/514060k available, 10228k reserved, 0K highmem
 [    0.000000] Virtual kernel memory layout:
 [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
 [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
@@ -33,8 +54,8 @@
 [    0.170000] SMP: Total of 2 processors activated (2591.94 BogoMIPS).
 [    0.170000] devtmpfs: initialized
 [    0.170000] NET: Registered protocol family 16
-[    0.170000] DMA: preallocated 1024 KiB pool for atomic coherent allocations
-[    0.180000] xgpiops e000a000.ps7-gpio: gpio at 0xe000a000 mapped to 0xe090a000
+[    0.170000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.170000] xgpiops e000a000.ps7-gpio: gpio at 0xe000a000 mapped to 0xe084a000
 [    0.180000] registering platform device 'pl330' id 0
 [    0.180000] registering platform device 'arm-pmu' id 0
 [    0.180000] registering platform device 'zynq-dvfs' id 0
@@ -71,145 +92,122 @@
 [    0.220000] [<c04f98f4>] (kernel_init+0xf8/0x1b8) from [<c000e604>] (kernel_thread_exit+0x0/0x8)
 [    0.220000] ---[ end trace d1209544ae3f8d4d ]---
 [    0.220000] cfg80211: Calling CRDA to update world regulatory domain
-[    0.230000] Switching to clocksource xttcpss_timer1
-[    0.240000] NET: Registered protocol family 2
-[    0.240000] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
-[    0.240000] TCP bind hash table entries: 16384 (order: 5, 131072 bytes)
-[    0.240000] TCP: Hash tables configured (established 16384 bind 16384)
-[    0.240000] TCP: reno registered
-[    0.240000] UDP hash table entries: 256 (order: 1, 8192 bytes)
-[    0.240000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
-[    0.240000] NET: Registered protocol family 1
-[    0.250000] pl330 dev 0 probe success
-[    0.250000] msgmni has been set to 1004
-[    0.250000] io scheduler noop registered
-[    0.250000] io scheduler deadline registered
-[    0.250000] io scheduler cfq registered (default)
-[    0.250000] dma-pl330: probe of f8004000.ps7-dma failed with error -2
-[    0.250000] dma-pl330: probe of f8003000.ps7-dma failed with error -2
-[    0.250000] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82) is a xuartps
-[    0.860000] console [ttyPS0] enabled
-[    0.860000] xdevcfg f8007000.ps7-dev-cfg: ioremap f8007000 to e0910000 with size 1000
-[    0.870000] [drm] Initialized drm 1.1.0 20060810
-[    0.880000] brd: module loaded
-[    0.890000] loop: module loaded
-[    0.900000] libphy: XEMACPS mii bus: probed
-[    0.910000] xemacps e000b000.ps7-ethernet: invalid address, use assigned
-[    0.910000] xemacps e000b000.ps7-ethernet: MAC updated 16:66:0e:0e:ff:1b
-[    0.920000] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
-[    0.930000] usbcore: registered new interface driver rtl8192cu
-[    0.940000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    0.940000] usb_hcd_xusbps_probe: No OTG assigned!
-[    0.950000] usb_hcd_xusbps_probe: OTG now assigned!
-[    0.950000] xusbps-ehci xusbps-ehci.0: Xilinx PS USB EHCI Host Controller
-[    0.960000] xusbps-ehci xusbps-ehci.0: new USB bus registered, assigned bus number 1
-[    1.000000] xusbps-ehci xusbps-ehci.0: irq 53, io mem 0x00000000
-[    1.020000] xusbps-ehci xusbps-ehci.0: USB 2.0 started, EHCI 1.00
-[    1.020000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
-[    1.030000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[    1.040000] usb usb1: Product: Xilinx PS USB EHCI Host Controller
-[    1.040000] usb usb1: Manufacturer: Linux 3.6.0-digilent-13.01-00004-gfd0ba1e ehci_hcd
-[    1.050000] usb usb1: SerialNumber: xusbps-ehci.0
-[    1.050000] hub 1-0:1.0: USB hub found
-[    1.060000] hub 1-0:1.0: 1 port detected
-[    1.060000] Initializing USB Mass Storage driver...
-[    1.070000] usbcore: registered new interface driver usb-storage
-[    1.070000] USB Mass Storage support registered.
-[    1.080000] mousedev: PS/2 mouse device common for all mice
-[    1.080000] gspca_main: v2.14.0 registered
-[    1.090000] usbcore: registered new interface driver uvcvideo
-[    1.090000] USB Video Class driver (1.1.1)
-[    1.100000] sdhci: Secure Digital Host Controller Interface driver
-[    1.110000] sdhci: Copyright(c) Pierre Ossman
-[    1.110000] sdhci-pltfm: SDHCI platform and OF driver helper
-[    1.120000] Registered led device: mmc0::
-[    1.160000] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
-[    1.170000] usbcore: registered new interface driver usbhid
-[    1.180000] usbhid: USB HID core driver
-[    1.190000] TCP: cubic registered
-[    1.200000] NET: Registered protocol family 17
-[    1.200000] lib80211: common routines for IEEE802.11 drivers
-[    1.210000] lib80211_crypt: registered algorithm 'NULL'
-[    1.210000] lib80211_crypt: registered algorithm 'WEP'
-[    1.210000] lib80211_crypt: registered algorithm 'CCMP'
-[    1.210000] lib80211_crypt: registered algorithm 'TKIP'
-[    1.210000] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
-[    1.210000] Registering SWP/SWPB emulation handler
-[    1.220000] registered taskstats version 1
-[    1.220000] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
-[    1.230000] ALSA device list:
-[    1.230000]   No soundcards found.
-[    1.240000] Waiting for root device /dev/mmcblk0p2...
-[    1.250000] mmc0: new high speed SDHC card at address aaaa
-[    1.260000] mmcblk0: mmc0:aaaa SL08G 7.40 GiB 
-[    1.260000]  mmcblk0: p1 p2
-[    1.360000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
-[    1.370000] VFS: Mounted root (ext4 filesystem) on device 179:2.
-[    1.370000] devtmpfs: mounted
-[    1.380000] usb 1-1: new high-speed USB device number 2 using xusbps-ehci
-[    1.380000] Freeing init memory: 152K
-[    1.530000] usb 1-1: New USB device found, idVendor=05e3, idProduct=0608
-[    1.530000] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
-[    1.540000] usb 1-1: Product: USB2.0 Hub
-[    1.550000] hub 1-1:1.0: USB hub found
-[    1.550000] hub 1-1:1.0: 4 ports detected
-[    1.590000] init: Failed to create pty - disabling logging for job
-[    1.600000] init: Temporary process spawn error: No space left on device
-[    1.630000] init: Failed to create pty - disabling logging for job
-[    1.630000] init: Temporary process spawn error: No space left on device
-[    1.650000] init: Failed to create pty - disabling logging for job
-[    1.650000] init: Temporary process spawn error: No space left on device
-[    1.660000] init: Failed to create pty - disabling logging for job
-[    1.670000] init: Temporary process spawn error: No space left on device
-[    1.750000] init: ureadahead main process (629) terminated with status 5
-[    1.840000] usb 1-1.2: new high-speed USB device number 3 using xusbps-ehci
-[    1.860000] init: Failed to create pty - disabling logging for job
-[    1.870000] init: Temporary process spawn error: No space left on device
-[    1.890000] init: Failed to create pty - disabling logging for job
-[    1.900000] init: Temporary process spawn error: No space left on device
-[    1.930000] init: Failed to create pty - disabling logging for job
-[    1.930000] init: Temporary process spawn error: No space left on device
-[    1.950000] usb 1-1.2: New USB device found, idVendor=0bda, idProduct=8178
-[    1.960000] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[    1.960000] usb 1-1.2: Product: USB WLAN
-[    1.970000] usb 1-1.2: Manufacturer: 802.11n
-[    1.970000] usb 1-1.2: SerialNumber: 00e04c000001
-[    1.980000] rtl8192cu: Chip version 0x11
-[    2.080000] rtl8192cu: MAC address: 08:57:00:b5:3c:0d
-[    2.080000] rtl8192cu: Board Type 0
-[    2.090000] rtlwifi: rx_max_size 15360, rx_urb_num 8, in_ep 1
-[    2.100000] cfg80211: Updating information on frequency 2412 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2417 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2422 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2427 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2432 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2437 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2442 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2447 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2452 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2457 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2462 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Disabling freq 2467 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Disabling freq 2472 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Disabling freq 2484 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Pending regulatory request, waiting for it to be processed...
-[    2.100000] rtl8192cu: Loading firmware rtlwifi/rtl8192cufw.bin
-[    2.640000] udevd[722]: starting version 175
-[    2.790000] cfg80211: Ignoring regulatory request Set by core since the driver uses its own custom regulatory domain
-[    2.790000] ieee80211 phy0: Selected rate control algorithm 'rtl_rc'
-[    2.810000] rtlwifi: wireless switch is on
-[    3.700000] init: udev-fallback-graphics main process (1220) terminated with status 1
-[    3.790000] init: plymouth main process (630) killed by SEGV signal
-[    3.800000] init: failsafe main process (1206) killed by TERM signal
-[    3.800000] init: plymouth-splash main process (1235) terminated with status 2
+[    0.220000] Switching to clocksource xttcpss_timer1
+[    0.230000] NET: Registered protocol family 2
+[    0.230000] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.230000] TCP bind hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.230000] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.230000] TCP: reno registered
+[    0.230000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.230000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.230000] NET: Registered protocol family 1
+[    0.230000] pl330 dev 0 probe success
+[    0.240000] msgmni has been set to 1004
+[    0.240000] io scheduler noop registered
+[    0.240000] io scheduler deadline registered
+[    0.240000] io scheduler cfq registered (default)
+[    0.240000] dma-pl330: probe of f8004000.ps7-dma failed with error -2
+[    0.240000] dma-pl330: probe of f8003000.ps7-dma failed with error -2
+[    0.240000] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82) is a xuartps
+[    0.850000] console [ttyPS0] enabled
+[    0.850000] xdevcfg f8007000.ps7-dev-cfg: ioremap f8007000 to e0850000 with size 1000
+[    0.860000] [drm] Initialized drm 1.1.0 20060810
+[    0.870000] brd: module loaded
+[    0.880000] loop: module loaded
+[    0.890000] libphy: XEMACPS mii bus: probed
+[    0.900000] xemacps e000b000.ps7-ethernet: invalid address, use assigned
+[    0.900000] xemacps e000b000.ps7-ethernet: MAC updated d6:2a:dd:e2:3d:e4
+[    0.910000] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    0.920000] usbcore: registered new interface driver rtl8192cu
+[    0.920000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.930000] usb_hcd_xusbps_probe: No OTG assigned!
+[    0.940000] usb_hcd_xusbps_probe: OTG now assigned!
+[    0.940000] xusbps-ehci xusbps-ehci.0: Xilinx PS USB EHCI Host Controller
+[    0.950000] xusbps-ehci xusbps-ehci.0: new USB bus registered, assigned bus number 1
+[    0.980000] xusbps-ehci xusbps-ehci.0: irq 53, io mem 0x00000000
+[    1.000000] xusbps-ehci xusbps-ehci.0: USB 2.0 started, EHCI 1.00
+[    1.000000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.010000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.020000] usb usb1: Product: Xilinx PS USB EHCI Host Controller
+[    1.020000] usb usb1: Manufacturer: Linux 3.6.0-digilent-13.01-00004-gfd0ba1e ehci_hcd
+[    1.030000] usb usb1: SerialNumber: xusbps-ehci.0
+[    1.030000] hub 1-0:1.0: USB hub found
+[    1.040000] hub 1-0:1.0: 1 port detected
+[    1.040000] Initializing USB Mass Storage driver...
+[    1.050000] usbcore: registered new interface driver usb-storage
+[    1.050000] USB Mass Storage support registered.
+[    1.060000] mousedev: PS/2 mouse device common for all mice
+[    1.060000] gspca_main: v2.14.0 registered
+[    1.070000] usbcore: registered new interface driver uvcvideo
+[    1.070000] USB Video Class driver (1.1.1)
+[    1.080000] sdhci: Secure Digital Host Controller Interface driver
+[    1.090000] sdhci: Copyright(c) Pierre Ossman
+[    1.090000] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.100000] Registered led device: mmc0::
+[    1.140000] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.150000] usbcore: registered new interface driver usbhid
+[    1.160000] usbhid: USB HID core driver
+[    1.170000] TCP: cubic registered
+[    1.180000] NET: Registered protocol family 17
+[    1.180000] lib80211: common routines for IEEE802.11 drivers
+[    1.190000] lib80211_crypt: registered algorithm 'NULL'
+[    1.190000] lib80211_crypt: registered algorithm 'WEP'
+[    1.190000] lib80211_crypt: registered algorithm 'CCMP'
+[    1.190000] lib80211_crypt: registered algorithm 'TKIP'
+[    1.190000] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    1.190000] Registering SWP/SWPB emulation handler
+[    1.200000] registered taskstats version 1
+[    1.200000] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.210000] ALSA device list:
+[    1.210000]   No soundcards found.
+[    1.220000] Waiting for root device /dev/mmcblk0p2...
+[    1.230000] mmc0: new high speed SDHC card at address aaaa
+[    1.240000] mmcblk0: mmc0:aaaa SS08G 7.40 GiB 
+[    1.240000]  mmcblk0: p1 p2
+[    2.280000] EXT4-fs (mmcblk0p2): recovery complete
+[    2.290000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    2.290000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[    2.300000] devtmpfs: mounted
+[    2.300000] Freeing init memory: 152K
+[    2.480000] init: Failed to create pty - disabling logging for job
+[    2.490000] init: Temporary process spawn error: No space left on device
+[    2.520000] init: Failed to create pty - disabling logging for job
+[    2.530000] init: Temporary process spawn error: No space left on device
+[    2.550000] init: Failed to create pty - disabling logging for job
+[    2.560000] init: Temporary process spawn error: No space left on device
+[    2.570000] init: Failed to create pty - disabling logging for job
+[    2.580000] init: Temporary process spawn error: No space left on device
+[    2.650000] init: ureadahead main process (627) terminated with status 5
+[    2.760000] init: Failed to create pty - disabling logging for job
+[    2.770000] init: Temporary process spawn error: No space left on device
+[    2.790000] init: Failed to create pty - disabling logging for job
+[    2.800000] init: Temporary process spawn error: No space left on device
+[    2.830000] init: Failed to create pty - disabling logging for job
+[    2.840000] init: Temporary process spawn error: No space left on device
+[    3.340000] udevd[721]: starting version 175
+[    3.680000] init: ssh main process (718) terminated with status 255
+[    3.680000] init: ssh main process ended, respawning
+[    3.820000] init: ssh main process (880) terminated with status 255
+[    3.820000] init: ssh main process ended, respawning
+[    3.930000] init: ssh main process (952) terminated with status 255
+[    3.930000] init: ssh main process ended, respawning
+[    4.050000] init: ssh main process (1023) terminated with status 255
+[    4.050000] init: ssh main process ended, respawning
+[    4.210000] init: ssh main process (1061) terminated with status 255
+[    4.210000] init: ssh main process ended, respawning
+[    4.360000] init: ssh main process (1192) terminated with status 255
+[    4.360000] init: ssh main process ended, respawning
+[    4.450000] init: udev-fallback-graphics main process (1229) terminated with status 1
+[    4.490000] init: ssh main process (1238) terminated with status 255
+[    4.490000] init: ssh main process ended, respawning
+[    4.580000] init: plymouth main process (628) killed by SEGV signal
+[    4.580000] init: failsafe main process (1207) killed by TERM signal
+[    4.590000] init: plymouth-splash main process (1248) terminated with status 2
+[    4.590000] init: ssh main process (1259) terminated with status 255
+[    4.590000] init: ssh main process ended, respawning
+[    4.650000] init: ssh main process (1271) terminated with status 255
+[    4.650000] init: ssh main process ended, respawning
+[    4.700000] init: ssh main process (1281) terminated with status 255
+[    4.700000] init: ssh main process ended, respawning
+[    4.830000] init: ssh main process (1292) terminated with status 255
+[    4.830000] init: ssh respawning too fast, stopped

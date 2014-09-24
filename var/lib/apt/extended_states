@@ -264,7 +264,7 @@ Auto-Installed: 1
 
 Package: g++
 Architecture: armhf
-Auto-Installed: 1
+Auto-Installed: 0
 
 Package: libgdk-pixbuf2.0-common
 Architecture: armhf
@@ -955,6 +955,118 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libv4lconvert0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpcap0.8
+Architecture: armhf
+Auto-Installed: 1
+
+Package: rpm2cpio
+Architecture: armhf
+Auto-Installed: 1
+
+Package: librpmbuild2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-support
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnss3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-pycurl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcap2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-libxml2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: librpmio2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: librpm2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: rpm-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: autoconf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsqlite0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-rpm
+Architecture: armhf
+Auto-Installed: 1
+
+Package: autotools-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnspr4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: rpm
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-sqlite
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsigsegv2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblua5.1-0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: librpmsign0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-sqlitecachec
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-urlgrabber
+Architecture: armhf
+Auto-Installed: 1
+
+Package: fortunes-min
+Architecture: armhf
+Auto-Installed: 1
+
+Package: librecode0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libwrap0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: ssh-import-id
+Architecture: armhf
+Auto-Installed: 1
+
+Package: tcpd
 Architecture: armhf
 Auto-Installed: 1
 

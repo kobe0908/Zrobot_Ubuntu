@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/python-support
+/usr/share/python-support/python-sqlitecachec.public
+/usr/share/pyshared
+/usr/share/pyshared/sqlitecachec.py
+/usr/share/pyshared/yum_metadata_parser-1.1.2.egg-info
+/usr/share/doc
+/usr/share/doc/python-sqlitecachec
+/usr/share/doc/python-sqlitecachec/changelog.Debian.gz
+/usr/share/doc/python-sqlitecachec/copyright
+/usr/share/doc/python-sqlitecachec/README
+/usr/lib
+/usr/lib/pyshared
+/usr/lib/pyshared/python2.7
+/usr/lib/pyshared/python2.7/_sqlitecache.so

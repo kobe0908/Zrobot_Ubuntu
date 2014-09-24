@@ -1,0 +1,6 @@
+This package is built against SQLite version 2.
+
+If you want to use SQLite 3, check out the package python-pysqlite1.1,
+python-pysqlite2 or python-apsw.
+
+ -- Joel Rosdahl <joel@debian.org>, Fri Sep  9 17:42:20 2005

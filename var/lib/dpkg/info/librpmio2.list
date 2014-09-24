@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/librpmio2
+/usr/share/doc/librpmio2/changelog.Debian.gz
+/usr/share/doc/librpmio2/copyright
+/usr/lib
+/usr/lib/librpmio.so.2.0.1
+/usr/lib/librpmio.so.2

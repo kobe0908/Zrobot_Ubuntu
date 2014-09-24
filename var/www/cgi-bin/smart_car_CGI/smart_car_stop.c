@@ -9,7 +9,8 @@ static int fd;
 
 int main(void)
 {
-    smart_car_set(0, 0);
+	smart_car_init();
+    set_car_front(0);
     
     return 0;
 }

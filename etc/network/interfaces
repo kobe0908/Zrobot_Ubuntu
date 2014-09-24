@@ -7,7 +7,7 @@ iface eth0 inet static
 address 192.168.1.99
 netmask 255.255.255.0
 
-iface wlan7 inet static
+iface wlan6 inet static
 address 192.168.0.1
 netmask 255.255.255.0
 

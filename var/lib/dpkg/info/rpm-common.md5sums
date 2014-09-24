@@ -1,0 +1,16 @@
+fd7b0c19013998985aebcb19f643ad44  usr/lib/rpm/macros
+69fa160b9000261f6f251f6df8862e94  usr/lib/rpm/macros.perl
+71a3e6c33b03330b826ba38eaff7bb79  usr/lib/rpm/macros.php
+9a2f3178c1a19238266f37b255f9884b  usr/lib/rpm/macros.python
+14a359571d3de206b41b04e0be98433b  usr/lib/rpm/platform/arm-linux-gnueabihf/macros
+64b31d71eb037b8ec409cfc1e3ad0f72  usr/lib/rpm/platform/armv3l-linux-gnueabihf/macros
+55d7169b5568bcd4d5a83d0f53252027  usr/lib/rpm/platform/armv4l-linux-gnueabihf/macros
+e0cef8bd6a39bf7dfd454521c0a49b4a  usr/lib/rpm/platform/armv4tl-linux-gnueabihf/macros
+83753fdf68d7cb8e4aa2c05bb5783a4e  usr/lib/rpm/platform/armv5tejl-linux-gnueabihf/macros
+d90cf67aa6eb70f30d5b2a6fdd6e90ef  usr/lib/rpm/platform/armv5tel-linux-gnueabihf/macros
+c18c4ab5fd5b4447f4820527e0ab4749  usr/lib/rpm/platform/armv6l-linux-gnueabihf/macros
+33c1fa7067d024cacf215c1632e5a107  usr/lib/rpm/platform/armv7l-linux-gnueabihf/macros
+f2ad601cbf0de93554b6e3f65f88e213  usr/lib/rpm/platform/noarch-linux-gnueabihf/macros
+449cb0e205a41519581cf93b2a6488a9  usr/lib/rpm/rpmrc
+0eba9ec5609fbeba6b910f222ff2ca50  usr/share/doc/rpm-common/changelog.Debian.gz
+6594ee50dadb81400842b783de91cca4  usr/share/doc/rpm-common/copyright

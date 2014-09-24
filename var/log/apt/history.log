@@ -73,3 +73,23 @@ Start-Date: 2014-08-23  10:25:06
 Commandline: /usr/bin/apt-get install libv4l-dev
 Install: libv4l-0:armhf (0.8.6-1ubuntu1, automatic), libv4lconvert0:armhf (0.8.6-1ubuntu1, automatic), libv4l-dev:armhf (0.8.6-1ubuntu1)
 End-Date: 2014-08-23  10:25:20
+
+Start-Date: 1970-01-01  00:05:11
+Commandline: apt-get install tcpdump
+Install: libpcap0.8:armhf (1.1.1-10, automatic), tcpdump:armhf (4.2.1-1ubuntu2)
+End-Date: 1970-01-01  00:05:18
+
+Start-Date: 1970-01-01  00:34:14
+Commandline: apt-get install yum gawk g++ automake1.11 autoconf2.64
+Install: rpm2cpio:armhf (4.9.1.1-1build1, automatic), librpmbuild2:armhf (4.9.1.1-1build1, automatic), python-support:armhf (1.0.14ubuntu2, automatic), libnss3:armhf (3.13.1.with.ckbi.1.88-1ubuntu6, automatic), python-pycurl:armhf (7.19.0-4ubuntu3, automatic), autoconf2.64:armhf (2.64-3), libcap2:armhf (2.22-1ubuntu3, automatic), python-libxml2:armhf (2.7.8.dfsg-5.1ubuntu4, automatic), librpmio2:armhf (4.9.1.1-1build1, automatic), librpm2:armhf (4.9.1.1-1build1, automatic), rpm-common:armhf (4.9.1.1-1build1, automatic), autoconf:armhf (2.68-1ubuntu2, automatic), libsqlite0:armhf (2.8.17-7fakesync1build1, automatic), python-rpm:armhf (4.9.1.1-1build1, automatic), autotools-dev:armhf (20120210.1ubuntu1, automatic), gawk:armhf (3.1.8+dfsg-0.1ubuntu1), libnspr4:armhf (4.8.9-1ubuntu2, automatic), rpm:armhf (4.9.1.1-1build1, automatic), python-sqlite:armhf (1.0.1-9, automatic), automake:armhf (1.11.3-1ubuntu2), libsigsegv2:armhf (2.9-4ubuntu2, automatic), yum:armhf (3.2.25-1ubuntu2), liblua5.1-0:armhf (5.1.4-12ubuntu1, automatic), librpmsign0:armhf (4.9.1.1-1build1, automatic), python-sqlitecachec:armhf (1.1.2-1ubuntu3, automatic), python-urlgrabber:armhf (3.9.1-4ubuntu2, automatic)
+End-Date: 1970-01-01  00:34:48
+
+Start-Date: 2014-09-02  00:12:18
+Commandline: apt-get install fortune
+Install: fortunes-min:armhf (1.99.1-4, automatic), fortune-mod:armhf (1.99.1-4), librecode0:armhf (3.6-18, automatic)
+End-Date: 2014-09-02  00:12:28
+
+Start-Date: 2014-09-02  00:00:16
+Commandline: apt-get install openssh-server
+Install: libwrap0:armhf (7.6.q-21, automatic), ssh-import-id:armhf (2.10-0ubuntu1, automatic), tcpd:armhf (7.6.q-21, automatic), openssh-server:armhf (5.9p1-5ubuntu1)
+End-Date: 2014-09-02  00:00:32

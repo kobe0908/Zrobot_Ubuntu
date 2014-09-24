@@ -1,0 +1,1 @@
+../../../../share/pyshared/sqlite/__init__.py

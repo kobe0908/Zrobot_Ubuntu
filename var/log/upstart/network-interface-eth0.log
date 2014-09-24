@@ -1,0 +1,42 @@
+ssh stop/waiting
+ssh start/running, process 1119
+ssh stop/waiting
+ssh start/running, process 1193
+ssh stop/waiting
+ssh start/running, process 1218
+ssh stop/waiting
+ssh start/running, process 1257
+ssh stop/waiting
+ssh start/running, process 1021
+ssh stop/waiting
+ssh start/running, process 1123
+ssh stop/waiting
+ssh start/running, process 1247
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifup: couldn't read interfaces file "/etc/network/interfaces"
+/etc/network/interfaces:10: too few parameters for iface line
+ifdown: couldn't read interfaces file "/etc/network/interfaces"

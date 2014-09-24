@@ -339,6 +339,24 @@ Name: resolvconf/reboot-recommended-after-removal
 Template: resolvconf/reboot-recommended-after-removal
 Owners: resolvconf
 
+Name: ssh/disable_cr_auth
+Template: ssh/disable_cr_auth
+Owners: openssh-server
+
+Name: ssh/encrypted_host_key_but_no_keygen
+Template: ssh/encrypted_host_key_but_no_keygen
+Owners: openssh-server
+
+Name: ssh/use_old_init_script
+Template: ssh/use_old_init_script
+Value: true
+Owners: openssh-server
+Flags: seen
+
+Name: ssh/vulnerable_host_keys
+Template: ssh/vulnerable_host_keys
+Owners: openssh-server
+
 Name: sysv-rc/convert-legacy
 Template: sysv-rc/convert-legacy
 Owners: sysv-rc

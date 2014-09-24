@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/librpmbuild2
+/usr/share/doc/librpmbuild2/copyright
+/usr/lib
+/usr/lib/librpmbuild.so.2.0.1
+/usr/share/doc/librpmbuild2/changelog.Debian.gz
+/usr/lib/librpmbuild.so.2

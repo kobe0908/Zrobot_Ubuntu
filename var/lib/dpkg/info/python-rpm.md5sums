@@ -1,0 +1,6 @@
+e75ec83272cfbc36dbdc51dd1a29a2bc  usr/lib/python2.7/dist-packages/rpm/_rpmbmodule.so
+fb550fcc0efe5505d2d67dc8a1190e27  usr/lib/python2.7/dist-packages/rpm/_rpmmodule.so
+3bfec3a3bd88903176253efa2bcbad09  usr/lib/python2.7/dist-packages/rpm/_rpmsmodule.so
+6594ee50dadb81400842b783de91cca4  usr/share/doc/python-rpm/copyright
+aea5f0b9a51ee6f1ad160507e4b1f975  usr/share/pyshared/rpm/__init__.py
+1a48154bdd3805f089e71576ab908eea  usr/share/pyshared/rpm/transaction.py
