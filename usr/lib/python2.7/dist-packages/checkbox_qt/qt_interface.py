@@ -1,0 +1,1 @@
+../../../../share/pyshared/checkbox_qt/qt_interface.py

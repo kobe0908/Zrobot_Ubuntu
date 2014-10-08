@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=seahorse-nautilus
+X-AppInstall-Popcon=43
+X-AppInstall-Section=universe
+
+Name=Verify Signature
+MimeType=application/pgp-signature;
+Exec=seahorse-tool --verify
+Type=Application
+Terminal=false
+NoDisplay=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=seahorse
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.3.1
+X-GNOME-DocPath=seahorse/seahorse.xml
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../share/pyshared/debtagshw/debtagshw.py

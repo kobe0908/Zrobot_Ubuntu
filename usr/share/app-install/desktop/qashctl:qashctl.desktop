@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=qashctl
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=QasHctl
+GenericName=ALSA HCTL mixer
+Exec=qashctl
+Icon=qashctl
+StartupNotify=false
+Terminal=false
+Categories=AudioVideo;Audio
+Comment=ALSA HCTL mixer
+
+X-Ubuntu-Gettext-Domain=app-install-data

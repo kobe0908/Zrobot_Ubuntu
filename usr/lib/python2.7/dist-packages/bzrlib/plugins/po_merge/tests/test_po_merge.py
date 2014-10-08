@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/bzrlib/plugins/po_merge/tests/test_po_merge.py

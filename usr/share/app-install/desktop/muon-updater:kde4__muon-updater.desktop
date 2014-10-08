@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=muon-updater
+X-AppInstall-Popcon=4434
+X-AppInstall-Section=main
+
+Name=Muon Update Manager
+Exec=muon-updater %i -caption "%c"
+Icon=system-software-update
+Type=Application
+X-DocPath=muon/index.html
+GenericName=Update Manager
+Categories=Qt;KDE;System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Shift&gt;s</default>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bg">
+        <short>Започни</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ca">
+        <short>Inicia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="cs">
+        <short>Iniciovat</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="da">
+        <short>Start</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="de">
+        <short>Initiieren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="el">
+        <short>Εκκίνηση</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="es">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="eu">
+        <short>Hasi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fi">
+        <short>Aktivoi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fr">
+        <short>Lancer</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="gl">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="he">
+        <short>התחל</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="hu">
+        <short>Indítás</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="it">
+        <short>Avvia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ja">
+        <short>開始</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ko">
+        <short>시작</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nb">
+        <short>Begynn</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nl">
+        <short>Initialiseren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="or">
+        <short>ପ୍ରାରମ୍ଭ କର</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pl">
+        <short>Inicjuj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ro">
+        <short>Inițiere</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ru">
+        <short>Инициировать</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sk">
+        <short>Začať</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sl">
+        <short>Inicializiraj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sv">
+        <short>Initiera</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="tr">
+        <short>Başla</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="uk">
+        <short>Ініціювати</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>启动</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>開始畫按鍵</short>
+        <long>Initiate switcher.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bg">
+        <short>Започни</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ca">
+        <short>Inicia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="cs">
+        <short>Iniciovat</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="da">
+        <short>Start</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="de">
+        <short>Initiieren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="el">
+        <short>Εκκίνηση</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="es">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="eu">
+        <short>Hasi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fi">
+        <short>Aktivoi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fr">
+        <short>Lancer</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="gl">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="he">
+        <short>התחל</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="hu">
+        <short>Indítás</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="it">
+        <short>Avvia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ja">
+        <short>開始</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ko">
+        <short>시작</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nb">
+        <short>Begynn</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nl">
+        <short>Initialiseren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="or">
+        <short>ପ୍ରାରମ୍ଭ କର</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pl">
+        <short>Inicjuj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ro">
+        <short>Inițiere</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ru">
+        <short>Инициировать</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sk">
+        <short>Začať</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sl">
+        <short>Inicializiraj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sv">
+        <short>Initiera</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="tr">
+        <short>Başla</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="uk">
+        <short>Ініціювати</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>启动</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>開始畫按鍵</short>
+        <long>Initiate switcher.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_edge</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_edge</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default/>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bg">
+        <short>Започни</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>শুরু </short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ca">
+        <short>Inicia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="cs">
+        <short>Iniciovat</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="da">
+        <short>Start</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="de">
+        <short>Initiieren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="el">
+        <short>Εκκίνηση</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="es">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="eu">
+        <short>Hasi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fi">
+        <short>Aktivoi</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="fr">
+        <short>Lancer</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="gl">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="he">
+        <short>התחל</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="hu">
+        <short>Indítás</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="it">
+        <short>Avvia</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ja">
+        <short>開始</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ko">
+        <short>시작</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nb">
+        <short>Begynn</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="nl">
+        <short>Initialiseren</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="or">
+        <short>ପ୍ରାରମ୍ଭ କର</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pl">
+        <short>Inicjuj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Iniciar</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ro">
+        <short>Inițiere</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="ru">
+        <short>Инициировать</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sk">
+        <short>Začať</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sl">
+        <short>Inicializiraj</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="sv">
+        <short>Initiera</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="tr">
+        <short>Başla</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="uk">
+        <short>Ініціювати</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>启动</short>
+        <long>Initiate switcher.</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>開始畫按鍵</short>
+        <long>Initiate switcher.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_all_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_all_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Initiate (All Workspaces)</short>
+        <long>Initiate switcher (All Workspaces).</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_all_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_all_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Initiate (All Workspaces)</short>
+        <long>Initiate switcher (All Workspaces).</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/initiate_all_edge</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/initiate_all_edge</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default/>
+      <locale name="C">
+        <short>Initiate (All Workspaces)</short>
+        <long>Initiate switcher (All Workspaces).</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Tab</default>
+      <locale name="C">
+        <short>Next Window</short>
+        <long>Show switcher if not visible and select next window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window</short>
+        <long>Show switcher if not visible and select next window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Shift&gt;Tab</default>
+      <locale name="C">
+        <short>Previous Window</short>
+        <long>Show switcher if not visible and select previous window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window</short>
+        <long>Show switcher if not visible and select previous window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_all_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_all_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Alt&gt;Tab</default>
+      <locale name="C">
+        <short>Next Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select next window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_all_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_all_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select next window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_all_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_all_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Shift&gt;&lt;Alt&gt;Tab</default>
+      <locale name="C">
+        <short>Previous Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select previous window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_all_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_all_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select previous window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_group_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_group_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (Group)</short>
+        <long>Show switcher if not visible and select next window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/next_group_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/next_group_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (Group)</short>
+        <long>Show switcher if not visible and select next window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_group_key</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_group_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (Group)</short>
+        <long>Show switcher if not visible and select previous window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/prev_group_button</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/prev_group_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (Group)</short>
+        <long>Show switcher if not visible and select previous window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/speed</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/speed</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <locale name="C">
+        <short>Fade speed</short>
+        <long>Fade in/out speed (0.1 - 10.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/shift_speed</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/shift_speed</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.0</default>
+      <locale name="C">
+        <short>Shift speed</short>
+        <long>Shift animation speed (0.1 - 5.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/timestep</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/timestep</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ca">
+        <short>Etapa</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Časový krok</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="da">
+        <short>Tidstrin</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Zeitintervall</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Χρονικό Βήμα</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Paso</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>denbora-pausoa</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Aikaviive</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Intervalle</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Saltos do tempo</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>સમયપગલું</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="he">
+        <short>יחידת זמן</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Időköz</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Intervallo</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>描画の時間刻み</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>시간 간격</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Tidsskritt</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Tijdstempel</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ସମଯସୋପାନ</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Opóźnienie</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Espaço de tempo</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Intervalo de tempo</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ro">
+        <short>Pas de timp</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Шаг времени</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Krok</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Tidsintervall</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Süre aralığı</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Крок часу</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>时间步长</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>時間間隔</short>
+        <long>Shift timestep (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/window_match</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/window_match</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Normal | Dialog | ModalDialog | Utility | Unknown</default>
+      <locale name="C">
+        <short>Shift Windows</short>
+        <long>Windows that should be shown in the shift switcher (match)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/minimized</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/minimized</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show Minimized</short>
+        <long>Show windows that are minimized, shaded or in show desktop mode.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/mouse_speed</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/mouse_speed</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>10.0</default>
+      <locale name="C">
+        <short>Mouse speed</short>
+        <long>Mouse movement speed (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/click_duration</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/click_duration</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>500</default>
+      <locale name="C">
+        <short>Click duration</short>
+        <long>Maximum click duration in miliseconds. (10 - 2000)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/mode</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/mode</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Switcher mode</short>
+        <long>Switcher mode. (0 = Cover, 1 = Flip)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/size</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/size</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>50</default>
+      <locale name="C">
+        <short>Max window size</short>
+        <long>Maximum window size (in percent of the screen width) (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/background_intensity</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/background_intensity</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <locale name="C">
+        <short>Background intensity</short>
+        <long>Background intensity. (0.0 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/hide_all</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/hide_all</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Hide non Desktop windows</short>
+        <long>Hide all non Desktop windows during switching</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/reflection</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/reflection</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Reflection</short>
+        <long>Show a reflection of the viewports on the ground</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/ground_color1</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/ground_color1</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#b3b3b3cc</default>
+      <locale name="C">
+        <short>Ground color(near)</short>
+        <long>Color of the ground (near).</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/ground_color2</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/ground_color2</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#b3b3b300</default>
+      <locale name="C">
+        <short>Ground color(far)</short>
+        <long>Color of the ground (far).</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/ground_size</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/ground_size</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <locale name="C">
+        <short>Reflection ground size</short>
+        <long>Reflection ground size. (0.0 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/intensity</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/intensity</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.4</default>
+      <locale name="C">
+        <short>Intensity</short>
+        <long>Reflection intensity (0.0 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/flip_rotation</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/flip_rotation</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>30</default>
+      <locale name="C">
+        <short>Flip angle</short>
+        <long>Rotation angle of the flip animation (-80 - 80)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/cover_offset</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/cover_offset</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.0</default>
+      <locale name="C">
+        <short>Cover offset</short>
+        <long>Cover movement offset. (-0.4 - 0.4)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/cover_angle</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/cover_angle</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>60</default>
+      <locale name="C">
+        <short>Cover angle</short>
+        <long>How much windows should be tilted. (0 - 360)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/cover_extra_space</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/cover_extra_space</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Space Factor</short>
+        <long>How much windows should be spaced apart (1 - 2)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/cover_max_visible_windows</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/cover_max_visible_windows</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>10</default>
+      <locale name="C">
+        <short>Maximum number of visible windows</short>
+        <long>How many windows should be visible at maximum in the cover mode (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/overlay_icon</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/overlay_icon</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Overlay Icon</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = None, 1 = Emblem, 2 = Big)</long>
+      </locale>
+      <locale name="bn">
+        <short>ওভারলে চিত্রসংকেত</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = কিছু না, 1 = প্রতীক, 2 = বড়)</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>ওভারলে চিত্রসংকেত</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = কিছু না, 1 = প্রতীক, 2 = বড়)</long>
+      </locale>
+      <locale name="ca">
+        <short>Superposa la icona</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Cap, 1 = Distintiu, 2 = Gran)</long>
+      </locale>
+      <locale name="cs">
+        <short>Překrýt ikonou</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Nic, 1 = Symbol, 2 = Velká)</long>
+      </locale>
+      <locale name="da">
+        <short>Overlejringsikon</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ingen, 1 = Emblem, 2 = Stor)</long>
+      </locale>
+      <locale name="de">
+        <short>Symbol überlagern</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Keine, 1 = Emblem, 2 = Groß)</long>
+      </locale>
+      <locale name="el">
+        <short>Επίστρωση Εικονιδίου</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Κανένα, 1 = Έμβλημα, 2 = Μεγάλο)</long>
+      </locale>
+      <locale name="es">
+        <short>Superponer icono</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ninguno, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="eu">
+        <short>Gainjarri Ikonoa</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Bat ere ez, 1 = Ikurra, 2 = Handia)</long>
+      </locale>
+      <locale name="fi">
+        <short>Aseta kuvake päälle</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ei mitään, 1 = Tunnus, 2 = Suuri)</long>
+      </locale>
+      <locale name="fr">
+        <short>Superposer l'icône</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Aucun, 1 = Emblème, 2 = Grand)</long>
+      </locale>
+      <locale name="gl">
+        <short>Icona Superposta</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ningún, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="gu">
+        <short>ઓવરલે ચિહ્ન</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = કંઈ નહિં, 1 = સંજ્ઞા, 2 = મોટું)</long>
+      </locale>
+      <locale name="he">
+        <short>צלמית מודבקת</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = ללא, 1 = סמלון, 2 = גדול)</long>
+      </locale>
+      <locale name="hi">
+        <short>प्रतीक ढ़कें</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = कुछ नहीं, 1 = प्रतीक, 2 = बड़ा)</long>
+      </locale>
+      <locale name="hu">
+        <short>Átfedő ikon</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Egyik sem, 1 = Embléma, 2 = Nagy)</long>
+      </locale>
+      <locale name="it">
+        <short>Icona di sovrapposizione</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Niente, 1 = Simbolo, 2 = Grande)</long>
+      </locale>
+      <locale name="ja">
+        <short>重ね表示アイコン</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = なし, 1 = エンブレム, 2 = 大きい)</long>
+      </locale>
+      <locale name="ko">
+        <short>아이콘 덧붙이기</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = 없음, 1 = 아이콘, 2 = 크게)</long>
+      </locale>
+      <locale name="nb">
+        <short>Ikon for overlapp</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ingen, 1 = Logo, 2 = Stor)</long>
+      </locale>
+      <locale name="nl">
+        <short>Overlay icoon</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Geen, 1 = Embleem, 2 = Groot)</long>
+      </locale>
+      <locale name="or">
+        <short>ବିସ୍ତୃତକରିବା ଆଇକନ</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = କିଛିନାହିଁ, 1 = ଚିହ୍ନ, 2 = ବଡ)</long>
+      </locale>
+      <locale name="pa">
+        <short>ਓਵਰਲੇ ਆਈਕਾਨ</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = ਕੋਈ ਨਹੀਂ, 1 = ਨਿਸ਼ਾਨ, 2 = ਵੱਡਾ)</long>
+      </locale>
+      <locale name="pl">
+        <short>Ikona okna</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Brak, 1 = Emblemat, 2 = Duży)</long>
+      </locale>
+      <locale name="pt">
+        <short>Ícone de Instalação Sobreposta</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Nenhum, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Ícone de sobreposição</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Nenhum, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="ro">
+        <short>Pictogramă suprapusă</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Nimic, 1 = Emblemă, 2 = Mare)</long>
+      </locale>
+      <locale name="ru">
+        <short>Наложить значок</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Никакой, 1 = Эмблема, 2 = Большой)</long>
+      </locale>
+      <locale name="sk">
+        <short>Prekladať ikonou</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Žiadna, 1 = Emblém, 2 = Veľký)</long>
+      </locale>
+      <locale name="sv">
+        <short>Lägg ikoner över</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ingen, 1 = Emblem, 2 = Stor)</long>
+      </locale>
+      <locale name="tr">
+        <short>Örtülü Durum Simgesi</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Hiçbiri, 1 = Simge, 2 = Büyük)</long>
+      </locale>
+      <locale name="uk">
+        <short>Накласти значок</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = Ніякий, 1 = Емблема, 2 = Великий)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>覆盖图标</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = 无, 1 = 标志, 2 = 大)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>覆蓋圖示</short>
+        <long>Overlay an icon on windows in the shift switcher (0 = 無, 1 = 象徵, 2 = 大)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/mipmaps</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/mipmaps</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Mipmaps</short>
+        <long>Generate mipmaps</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/multioutput_mode</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/multioutput_mode</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Multi Output Mode</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="bn">
+        <short>বিবিধ আউটপুট প্রণালী</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>বিবিধ আউটপুট প্রণালী</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="de">
+        <short>Modus für Mehrfachausgabe</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="el">
+        <short>Kατάσταση Πολλαπλών Οθονών</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="es">
+        <short>Modo de multi salidas</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="eu">
+        <short>Irteera anitzeko modua</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="fi">
+        <short>Useita ulostuloja</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="fr">
+        <short>Mode de sorties multiples</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="gl">
+        <short>Modo de saída múltiple</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="gu">
+        <short>વિવિધ આઉટપુટ સ્થિતિ</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="he">
+        <short>מצב פלט מרובה</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="hi">
+        <short>मल्टी आउटपुट प्रकार</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="hu">
+        <short>Többkimenetes üzemmód</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="it">
+        <short>Modalità multi-output</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="ja">
+        <short>マルチ出力の形式</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="ko">
+        <short>다중 화면 모드</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="nb">
+        <short>Flerskjermsmodus</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="nl">
+        <short>Multi uitvoer modus</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="or">
+        <short>ବହୁ-ଆଉଟପୁଟ ମୋଡ</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="pa">
+        <short>ਮਲਟੀ ਆਉਟਪੁੱਟ ਮੋਡ</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="pl">
+        <short>Tryb wielu urządzeń wyjściowych</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="pt">
+        <short>Modo de Multi Saída</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Modo de Multi Saída</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="ro">
+        <short>Regim „Ieșiri multiple”</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="ru">
+        <short>Режим множественного вывода</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="sk">
+        <short>Viacnásobný výstupný režim</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="sv">
+        <short>Läge för multipla utmatningar</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="tr">
+        <short>Çoklu Çıktı Kipi</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="uk">
+        <short>Режим множинного виводу</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>多重输出模式</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>多重輸出模式</short>
+        <long>Selects how the switcher is displayed if multiple output devices are used. (0 = Disabled, 1 = On activated output, 2 = One big switcher)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/window_title</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/window_title</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show Window Title</short>
+        <long>Show window title of currently selected window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/title_font_bold</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/title_font_bold</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Bold Font</short>
+        <long>Selects if the window title should be displayed in bold font or not.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/title_font_size</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/title_font_size</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>16</default>
+      <locale name="C">
+        <short>Font Size</short>
+        <long>Font size for the window title (6 - 96)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/title_back_color</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/title_back_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#00000099</default>
+      <locale name="C">
+        <short>Background Color</short>
+        <long>Background color for the window title</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/title_font_color</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/title_font_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#ffffffff</default>
+      <locale name="C">
+        <short>Font Color</short>
+        <long>Font color for the window title</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/shift/screen0/options/title_text_placement</key>
+      <applyto>/apps/compiz-1/plugins/shift/screen0/options/title_text_placement</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>2</default>
+      <locale name="C">
+        <short>Text Placement</short>
+        <long>Selects where to place the window title. (0 = Centered on screen, 1 = Above, 2 = Below)</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

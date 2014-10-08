@@ -1,0 +1,1 @@
+../../../../share/pyshared/packagekit/__init__.py

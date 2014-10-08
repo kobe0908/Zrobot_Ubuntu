@@ -1,0 +1,1 @@
+../../../../share/pyshared/Quirks/__init__.py

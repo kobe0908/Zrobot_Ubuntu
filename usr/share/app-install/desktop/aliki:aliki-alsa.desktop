@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=aliki
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Aliki (with ALSA support)
+GenericName=Aliki
+Comment=Measurement tool for Impulse Responses
+Icon=aliki_32x32
+Exec=aliki -A
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

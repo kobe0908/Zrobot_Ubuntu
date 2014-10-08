@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=garden-of-coloured-lights
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Garden of Coloured Lights
+Comment=Abstract vertical shooter with music elements
+Exec=/usr/games/garden
+Icon=_usr_share_pixmaps_garden
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

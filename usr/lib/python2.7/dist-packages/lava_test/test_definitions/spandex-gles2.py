@@ -1,0 +1,1 @@
+../../../../../share/pyshared/lava_test/test_definitions/spandex-gles2.py

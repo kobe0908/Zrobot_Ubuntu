@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=korganizer-mobile
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Name=Calendar
+Exec=korganizer-mobile
+
+Icon=korganizer-mobile
+Type=Application
+MimeType=text/calendar;
+Categories=Qt;KDE;Office;Calendar;
+X-KDE-ServiceTypes=DBUS/Organizer
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.korganizer
+Keywords=mobile
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,28 @@
+[Desktop Entry]
+X-AppInstall-Package=smuxi-frontend-gnome
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Smuxi
+GenericName=IRC Chat
+X-GNOME-FullName=Smuxi IRC Client
+X-GNOME-FullName[ca]=Client d'IRC Smuxi
+X-GNOME-FullName[da]=Smuxi - IRC-klient
+X-GNOME-FullName[de]=Smuxi - Chat Client
+X-GNOME-FullName[es]=Cliente IRC Smuxi
+X-GNOME-FullName[fr]=Client IRC Smuxi
+X-GNOME-FullName[hr]=Smuxi IRC klijent
+X-GNOME-FullName[it]=Client di IRC Smuxi
+X-GNOME-FullName[pt]=Cliente de IRC Smuxi
+X-GNOME-FullName[ru]=IRC-клиент Smuxi
+X-GNOME-FullName[sv]=Smuxi IRC-klient
+X-GNOME-FullName[zh_CN]=Smuxi IRC 客户端
+Comment=Chat with other people on IRC
+Exec=smuxi-frontend-gnome
+Terminal=false
+Type=Application
+Categories=Network;GNOME;GTK;Chat;InstantMessaging;IRCClient;
+Icon=smuxi-frontend-gnome
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+1bb64df366c95b478b4c61cbd880d66d  usr/lib/arm-linux-gnueabihf/dri/libdricore.so
+e76f2377016c026babd5703a6be367bf  usr/lib/arm-linux-gnueabihf/dri/libgallium.so
+970726b89db32f7713d714d7aaee012e  usr/lib/arm-linux-gnueabihf/dri/libglsl.so
+44abfa051ae39b0c2aef950f0bc86523  usr/lib/arm-linux-gnueabihf/dri/nouveau_dri.so
+a90096d8d9c1d293ee60058b713e53b5  usr/lib/arm-linux-gnueabihf/dri/nouveau_vieux_dri.so
+2a64ce42ae11c854aed57b630d22b751  usr/lib/arm-linux-gnueabihf/dri/r200_dri.so
+4de33313ffc1c545844e7b59277538a1  usr/lib/arm-linux-gnueabihf/dri/r300_dri.so
+4b4fc3b3a777c49b99f35787f3f92962  usr/lib/arm-linux-gnueabihf/dri/r600_dri.so
+024aceaba514f2c72821e4578752b9c6  usr/lib/arm-linux-gnueabihf/dri/radeon_dri.so
+56d04a2d995c76b7ed71e49c41f683ab  usr/lib/arm-linux-gnueabihf/dri/swrast_dri.so
+1de1f38ad914fdbe4e389a68f18afe67  usr/lib/arm-linux-gnueabihf/dri/vmwgfx_dri.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgl1-mesa-dri/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgl1-mesa-dri/script
+e94c30348b2e4f0a4d281fcabb361d19  usr/share/doc/libgl1-mesa-dri/changelog.Debian.gz
+241ed682eeb4973b7b7ac9131624f31f  usr/share/doc/libgl1-mesa-dri/copyright
+46608a04c2eedf1ee6efbdf896d6dcbc  usr/share/lintian/overrides/libgl1-mesa-dri

@@ -1,0 +1,15 @@
+
+[connection]
+id=TP-LINK_PocketAP_3A6064
+uuid=32c565a2-1f99-4ffb-9c66-ce69fc5b6a5f
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=TP-LINK_PocketAP_3A6064
+mode=infrastructure
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto

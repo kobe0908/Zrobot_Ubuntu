@@ -1,0 +1,144 @@
+activity-log-manager-ccpanel.desktop	gnome-control-center activity-log-manager
+apport-gtk-mime.desktop	/usr/share/apport/apport-gtk -c %f
+apturl.desktop	apturl %u
+baobab.desktop	baobab
+bluetooth-properties.desktop	gnome-control-center bluetooth
+bluetooth-sendto.desktop	bluetooth-sendto
+bluetooth-wizard.desktop	bluetooth-wizard
+brasero-nautilus.desktop	nautilus --no-default-window --no-desktop burn:/// 
+brasero.desktop	brasero %U
+brasero.desktop	brasero --no-existing-session
+brasero.desktop	brasero --image
+brasero.desktop	brasero --copy
+brasero.desktop	brasero --audio
+brasero.desktop	brasero --data
+brasero.desktop	brasero --video
+checkbox-qt.desktop	/usr/bin/checkbox-qt
+compiz.desktop	compiz
+debian-uxterm.desktop	uxterm
+debian-xterm.desktop	xterm
+deja-dup-ccpanel.desktop	gnome-control-center deja-dup
+deja-dup-ccpanel.desktop	deja-dup --backup
+deja-dup-preferences.desktop	deja-dup-preferences
+deja-dup-preferences.desktop	deja-dup --backup
+deja-dup.desktop	deja-dup --backup
+empathy-accounts.desktop	empathy-accounts
+empathy.desktop	empathy
+empathy.desktop	empathy -h
+empathy.desktop	empathy -p
+empathy.desktop	empathy-accounts
+eog.desktop	eog %U
+evince.desktop	evince %U
+file-roller.desktop	file-roller %U
+firefox.desktop	firefox %u
+firefox.desktop	firefox -new-window
+freecell.desktop	/usr/games/sol --freecell
+gcalctool.desktop	gcalctool
+gcr-viewer.desktop	gcr-viewer
+gedit.desktop	gedit %U
+gedit.desktop	gedit --new-window
+gedit.desktop	gedit --new-window
+gksu.desktop	gksu /usr/bin/x-terminal-emulator
+gnome-background-panel.desktop	gnome-control-center background
+gnome-color-panel.desktop	gnome-control-center color
+gnome-control-center.desktop	gnome-control-center --overview
+gnome-datetime-panel.desktop	gnome-control-center datetime
+gnome-display-panel.desktop	gnome-control-center display
+gnome-font-viewer.desktop	gnome-font-viewer %u
+gnome-info-panel.desktop	gnome-control-center info
+gnome-keyboard-panel.desktop	gnome-control-center keyboard
+gnome-keyring-prompt.desktop	/usr/lib/gnome-keyring/gnome-keyring-prompt-3
+gnome-mouse-panel.desktop	gnome-control-center mouse
+gnome-nettool.desktop	gnome-nettool
+gnome-network-panel.desktop	gnome-control-center network
+gnome-online-accounts-panel.desktop	gnome-control-center online-accounts
+gnome-power-panel.desktop	gnome-control-center power
+gnome-power-statistics.desktop	gnome-power-statistics
+gnome-printers-panel.desktop	gnome-control-center printers
+gnome-region-panel.desktop	gnome-control-center region
+gnome-screen-panel.desktop	gnome-control-center screen
+gnome-screenshot.desktop	gnome-screenshot --interactive
+gnome-screenshot.desktop	gnome-screenshot
+gnome-screenshot.desktop	gnome-screenshot -w
+gnome-screenshot.desktop	gnome-screenshot -a
+gnome-sound-nua-panel.desktop	gnome-control-center sound-nua
+gnome-sound-panel.desktop	gnome-control-center sound
+gnome-sound-recorder.desktop	gnome-sound-recorder
+gnome-sudoku.desktop	/usr/games/gnome-sudoku
+gnome-system-log.desktop	gnome-system-log
+gnome-system-monitor.desktop	gnome-system-monitor
+gnome-terminal.desktop	gnome-terminal
+gnome-terminal.desktop	gnome-terminal
+gnome-universal-access-panel.desktop	gnome-control-center universal-access
+gnome-user-accounts-panel.desktop	gnome-control-center user-accounts
+gnome-user-share-properties.desktop	gnome-file-share-properties
+gnome-wacom-panel.desktop	gnome-control-center wacom
+gnomine.desktop	/usr/games/gnomine
+gstreamer-properties.desktop	gstreamer-properties
+gucharmap.desktop	gucharmap
+gwibber-accounts.desktop	gwibber-accounts
+gwibber-preferences.desktop	gwibber-preferences
+gwibber.desktop	gwibber %U
+hplj1020.desktop	/usr/share/foo2zjs/hplj10xx_gui.tcl
+ibus-setup.desktop	ibus-setup
+ibus.desktop	ibus-daemon --xim
+im-switch.desktop	im-switch
+indicator-datetime-preferences.desktop	gnome-control-center indicator-datetime
+jockey-gtk.desktop	/usr/bin/jockey-gtk
+landscape-client-settings.desktop	landscape-client-ui-install
+language-selector.desktop	/usr/bin/gnome-language-selector
+mahjongg.desktop	/usr/games/mahjongg
+metacity.desktop	metacity
+mount-archive.desktop	/usr/lib/gvfs/gvfsd-archive file=%u
+nautilus-autorun-software.desktop	nautilus-autorun-software %u
+nautilus-folder-handler.desktop	nautilus %U
+nautilus-home.desktop	nautilus %U
+nautilus-home.desktop	nautilus
+nautilus.desktop	nautilus %U
+nautilus.desktop	nautilus
+nm-applet.desktop	nm-applet
+nm-connection-editor.desktop	nm-connection-editor
+notification-daemon.desktop	/usr/lib/notification-daemon/notification-daemon
+onboard-settings.desktop	onboard-settings
+onboard.desktop	onboard
+orca.desktop	orca --replace
+palimpsest.desktop	palimpsest
+python2.7.desktop	/usr/bin/python2.7
+remmina.desktop	remmina
+remmina.desktop	remmina --new
+remmina.desktop	remmina --icon
+rhythmbox-device.desktop	rhythmbox-client --select-source %U
+rhythmbox-ubuntuone.desktop	rhythmbox %U
+rhythmbox.desktop	rhythmbox %U
+rhythmbox.desktop	rhythmbox-client --play
+rhythmbox.desktop	rhythmbox-client --pause
+rhythmbox.desktop	rhythmbox-client --next
+rhythmbox.desktop	rhythmbox-client --previous
+seahorse.desktop	seahorse
+session-properties.desktop	gnome-session-properties
+shotwell-viewer.desktop	shotwell %f
+shotwell.desktop	shotwell %U
+simple-scan.desktop	simple-scan
+software-properties-gtk.desktop	software-properties-gtk
+sol.desktop	/usr/games/sol
+system-config-printer.desktop	system-config-printer
+thunderbird.desktop	thunderbird %u
+thunderbird.desktop	thunderbird -compose
+thunderbird.desktop	thunderbird -addressbook
+totem.desktop	totem %U
+totem.desktop	totem --play-pause
+totem.desktop	totem --next
+totem.desktop	totem --previous
+totem.desktop	totem --mute
+totem.desktop	totem --fullscreen
+transmission-gtk.desktop	transmission-gtk %U
+transmission-gtk.desktop	transmission-gtk --paused
+transmission-gtk.desktop	transmission-gtk --minimized
+ubuntu-software-center.desktop	/usr/bin/software-center %u
+ubuntuone-installer.desktop	ubuntuone-installer
+unity-2d-panel.desktop	unity-2d-panel
+unity-2d-shell.desktop	unity-2d-shell
+update-manager.desktop	/usr/bin/update-manager
+vino-preferences.desktop	vino-preferences
+xdiagnose.desktop	xdiagnose
+yelp.desktop	yelp %u

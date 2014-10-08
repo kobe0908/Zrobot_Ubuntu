@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cycle
+X-AppInstall-Popcon=53
+X-AppInstall-Section=universe
+
+Exec='/usr/bin/cycle'
+GenericName=Cycle
+Icon=cycle
+Name=Cycle
+Terminal=false
+Type=Application
+Categories=Education;Science;MedicalSoftware
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libframe6
+/usr/share/doc/libframe6/changelog.Debian.gz
+/usr/share/doc/libframe6/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libframe.so.6.0.0
+/usr/lib/arm-linux-gnueabihf/libframe.so.6

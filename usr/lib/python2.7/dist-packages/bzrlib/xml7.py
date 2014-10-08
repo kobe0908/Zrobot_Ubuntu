@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/xml7.py

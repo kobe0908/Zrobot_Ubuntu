@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NVidia binary X.Org driver ('current' driver)
+Comment=Optimized hardware acceleration of OpenGL with nvidia graphic cards
+Type=Application
+Categories=Application;System;
+X-AppInstall-Package=nvidia-current
+X-AppInstall-Popcon=1105
+X-AppInstall-Section=restricted
+X-Ubuntu-Gettext-Domain=app-install-data

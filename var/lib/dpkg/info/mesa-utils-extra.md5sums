@@ -1,0 +1,8 @@
+81a86be0e67a684a76740d8b32362797  usr/bin/es2_info
+1b640ddaeb800b9004c206179a75d227  usr/bin/es2gears
+420c013cf0a1d883a6ffa3759cc290a9  usr/bin/es2tri
+b074b1b31d56745ab7cc727f01e40291  usr/share/doc/mesa-utils-extra/changelog.Debian.gz
+feacc56c17fb2f19ebe9a5a75d166be5  usr/share/doc/mesa-utils-extra/copyright
+f556afff8cde3d0429a98a02635c27c0  usr/share/man/man1/es2_info.1.gz
+a51d1cf7f5a7aef8f25553021557ea29  usr/share/man/man1/es2gears.1.gz
+4f0c53dff3e1b4e53e19b181f0977dbc  usr/share/man/man1/es2tri.1.gz

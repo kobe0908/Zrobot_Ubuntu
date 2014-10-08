@@ -1,0 +1,25 @@
+[Desktop Entry]
+X-AppInstall-Package=desktop-webmail
+X-AppInstall-Popcon=133
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Desktop Webmail
+GenericName=Email
+Comment=Compose email in browser
+Exec=desktop-webmail %U
+Icon=desktop-webmail
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;Network;Email
+MimeType=x-scheme-handler/mailto
+X-Ayatana-Desktop-Shortcuts=Compose
+
+[Compose Shortcut Group]
+Name=Compose New Message
+Exec=desktop-webmail mailto:%U
+TargetEnvironment=Messaging Menu;Unity
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

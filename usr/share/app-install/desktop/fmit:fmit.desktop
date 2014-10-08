@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=fmit
+X-AppInstall-Popcon=134
+X-AppInstall-Section=universe
+
+Type=Application
+Name=FMIT
+GenericName=Musical Instrument Tuner
+Comment=Tune musical instruments
+Icon=fmit
+TryExec=fmit
+Exec=fmit
+Terminal=false
+Categories=Tuner;Audio;AudioVideo;Qt;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

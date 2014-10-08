@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=fritzing
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+MimeType=text/pro
+Name=Fritzing
+Exec=Fritzing
+Icon=fritzing_icon
+Categories=Development;Engineering;Electronics
+Type=Application
+Terminal=false
+Comment=PCB-Suite
+
+X-Ubuntu-Gettext-Domain=app-install-data

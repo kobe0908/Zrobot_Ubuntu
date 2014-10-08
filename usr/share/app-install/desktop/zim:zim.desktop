@@ -1,0 +1,31 @@
+[Desktop Entry]
+X-AppInstall-Package=zim
+X-AppInstall-Popcon=599
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=zim
+Icon=zim
+StartupNotify=true
+Terminal=false
+Categories=Utility;TextEditor;GTK;
+MimeType=application/x-zim-notebook;text/x-zim-wiki;application/x-gjots;
+Name=Zim Desktop Wiki
+Comment=Edit text files "wiki style"
+GenericName=Text Editor
+X-Ayatana-Desktop-Shortcuts=QuickNote;QuickNoteClipboard;
+
+[QuickNote Shortcut Group]
+Name=Quick Note
+Exec=zim --plugin quicknote
+TargetEnvironment=Unity
+
+[QuickNoteClipboard Shortcut Group]
+Name=Quick Note from Clipboard
+Exec=zim --plugin quicknote input=clipboard
+TargetEnvironment=Unity
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

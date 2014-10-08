@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=dff
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Type=Application
+Name=DFF
+GenericName=Digital Forensics Framework
+Exec=dff -g
+Icon=dff
+Terminal=false
+Categories=Qt;Utility;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,24 @@
+plugin: manual
+name: input/mouse
+requires: device.category == 'MOUSE' or device.category == 'TOUCH'
+description:
+ PURPOSE:
+     This test will test your pointing device
+ STEPS:
+     1. Move the cursor using the pointing device or touch the screen.
+     2. Perform some single/double/right click operations.
+ VERIFICATION:
+     Did the pointing device work as expected?
+
+plugin: manual
+name: input/keyboard
+command: keyboard_test
+requires: device.category == 'KEYBOARD'
+description:
+ PURPOSE:
+     This test will test your keyboard
+ STEPS:
+     1. Click on Test
+     2. On the open text area, use your keyboard to type something
+ VERIFICATION:
+     Is your keyboard working properly?

@@ -1,0 +1,12 @@
+7bb5409dacb29c86f2465245653acbe4  usr/lib/rhythmbox/plugins/magnatune/DownloadAlbumHandler.py
+62f09dc41cda0a942fc910bff743b451  usr/lib/rhythmbox/plugins/magnatune/MagnatuneAccount.py
+ca8f5cb6db139a793ebee7a58867b434  usr/lib/rhythmbox/plugins/magnatune/MagnatuneSource.py
+abbd80a75f6774bde0cae7ed7ebb6c68  usr/lib/rhythmbox/plugins/magnatune/TrackListHandler.py
+c60e1695f744d739a5bd156118e204d5  usr/lib/rhythmbox/plugins/magnatune/magnatune.plugin
+2666eed2d4db721a09e666d22829408c  usr/lib/rhythmbox/plugins/magnatune/magnatune.py
+fe3d521d52a19ca3be278b5b2f2ee7a5  usr/share/doc/rhythmbox-plugin-magnatune/copyright
+26f9f1c3720981e367c5ed68e8cac2b0  usr/share/python/runtime.d/rhythmbox-plugin-magnatune.rtupdate
+e684e7d35c0d73d842b1786b9c83ca46  usr/share/rhythmbox/plugins/magnatune/magnatune-loading.ui
+c0a14e1248433ce4be9795b3463f5b5c  usr/share/rhythmbox/plugins/magnatune/magnatune-prefs.ui
+e1458aab17c27d5b809c9e0b6a2fea1c  usr/share/rhythmbox/plugins/magnatune/magnatune_logo_color_small.png
+49a0913045fbabcffca9a56320393012  usr/share/rhythmbox/plugins/magnatune/magnatune_logo_color_tiny.png

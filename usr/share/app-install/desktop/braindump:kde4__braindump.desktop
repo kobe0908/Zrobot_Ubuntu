@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=braindump
+X-AppInstall-Popcon=38
+X-AppInstall-Section=main
+
+Categories=Qt;KDE;Office;
+Comment=
+Exec=braindump %u
+GenericName=Notes and idea gathering.
+Icon=braindump
+MimeType=application/x-braindump;
+Name=Braindump
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=org.kde.braindump
+X-DBUS-StartupType=multi
+X-DocPath=http://userbase.kde.org/Braindump
+X-KDE-NativeMimeType=application/vnd.oasis.opendocument.graphics
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=okular-backend-odp
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+MimeType=application/vnd.oasis.opendocument.presentation;application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;
+Terminal=false
+Name=okular
+GenericName=Document Viewer
+Exec=okular %U %i -caption "%c"
+Icon=okular
+Type=Application
+InitialPreference=7
+Categories=Qt;KDE;Graphics;Viewer;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

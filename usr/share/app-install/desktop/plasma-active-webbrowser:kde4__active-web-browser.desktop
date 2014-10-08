@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-active-webbrowser
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=Browser
+GenericName=Web Browser
+Comment=A web browser reader for touch tablets
+Exec=active-webbrowser -graphicssystem raster %u
+Terminal=false
+Icon=active-web-browser
+Type=Application
+Categories=Qt;KDE;Network;WebBrowser;
+X-KDE-PluginInfo-Website=
+MimeType=text/html;text/xml;application/xhtml+xml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

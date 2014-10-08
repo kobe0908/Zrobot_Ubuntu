@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pyprompter
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=pyprompter
+GenericName=Predictive text editor
+Comment=Predictive text editor powered by presage
+Exec=pyprompter
+Icon=pyprompter
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Accessibility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,5 +1,0 @@
-set(cur .)
-aux_source_directory(. src)
-include_directories(${cur})
-add_library (mecharm SHARED ${src})
-target_link_libraries (mecharm m pthread rt)

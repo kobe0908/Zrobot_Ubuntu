@@ -1,0 +1,1 @@
+../../../../share/pyshared/debtagshw/__init__.py

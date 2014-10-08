@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_python2:
+if which pycompile >/dev/null 2>&1; then
+	pycompile -p rhythmbox-plugin-zeitgeist /usr/lib/rhythmbox
+fi
+
+# End automatically added section

@@ -1,0 +1,7 @@
+0a67ff1ad826445d48624eb5828cc233  usr/lib/libdconf-qt.so.0.0.0
+c1317b5908b4eaf499c73fd8c5b048ec  usr/lib/qt4/imports/QConf/libdconf-qml.so
+885221acb52545b667fb6ab1fbf57711  usr/lib/qt4/imports/QConf/qmldir
+7e4420f71c9895ff12f8e8c2137561ad  usr/share/doc/libdconf-qt0/README.Debian
+47a3a185d5a5a1a64989a29c1e38e14c  usr/share/doc/libdconf-qt0/changelog.Debian.gz
+8d547607470917884b6f2d277e0f6d0b  usr/share/doc/libdconf-qt0/copyright
+4341bfd905724eff016b80d789b5a559  usr/share/lintian/overrides/libdconf-qt0

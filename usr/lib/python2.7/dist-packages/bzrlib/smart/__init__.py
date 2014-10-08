@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/smart/__init__.py

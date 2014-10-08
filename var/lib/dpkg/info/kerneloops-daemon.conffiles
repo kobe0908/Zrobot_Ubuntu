@@ -1,0 +1,3 @@
+/etc/kerneloops.conf
+/etc/default/kerneloops
+/etc/init.d/kerneloops

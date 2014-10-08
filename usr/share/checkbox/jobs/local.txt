@@ -1,0 +1,1599 @@
+name: __audio__
+plugin: local
+description: Audio tests
+description-ace.UTF-8: Uji su
+description-am.UTF-8: የድምጽ ሙከራ
+description-ar.UTF-8: اختبارات الصوت
+description-ast.UTF-8: Pruebes de soníu
+description-be.UTF-8: Праверка аўдыё
+description-bg.UTF-8: Аудио тестове
+description-bn.UTF-8: অডিও পরীক্ষা করা
+description-bo.UTF-8: སྒྲ་གདངས་བརྟག་ཞིབ
+description-br.UTF-8: Prouadoù aodio
+description-bs.UTF-8: Audio testovi
+description-ca.UTF-8: Comprovacions d'àudio
+description-ca@valencia.UTF-8: Comprovacions d'àudio
+description-ckb.UTF-8: تاقیکردنه‌وه‌ی ده‌نگ
+description-cs.UTF-8: Testy zvuku
+description-cy.UTF-8: Profion sain
+description-da.UTF-8: Test af lyd
+description-de.UTF-8: Audiotests
+description-el.utf-8: Έλεγχοι ήχου
+description-en_AU.UTF-8: Audio tests
+description-en_CA.UTF-8: Audio tests
+description-en_GB.UTF-8: Audio tests
+description-eo.UTF-8: Sontestoj
+description-es.UTF-8: Pruebas de sonido
+description-et.UTF-8: Helitestid
+description-eu.UTF-8: Soinu probak
+description-fi.UTF-8: Äänilaitteiden testit
+description-fr.UTF-8: Tests audio
+description-gl.UTF-8: Probas de son
+description-he.UTF-8: בדיקות שמע
+description-hi.UTF-8: आवाज जाँच
+description-hr.UTF-8: Zvučni testovi
+description-hu.UTF-8: Hangtesztek
+description-id.UTF-8: Uji Audio
+description-is.UTF-8: Hljóðprófanir
+description-it.UTF-8: Test dell'audio
+description-ja.UTF-8: オーディオテスト
+description-kk.UTF-8: Аудио тексерістер
+description-kn.UTF-8: ಧ್ವನಿ ಪರೀಕ್ಷೆ ಗಳು
+description-ko.UTF-8: 오디오 테스트
+description-ku.UTF-8: Ceribandinên dengî
+description-lt.UTF-8: Garso testai
+description-lv.UTF-8: Audio testi
+description-mr.UTF-8: आवाज परिक्षण
+description-ms.UTF-8: Ujian audio
+description-my.UTF-8: အသံစမ်းသပ်မူများ
+description-nb.UTF-8: Lydtester
+description-ne.UTF-8: ध्वनी परीक्षण
+description-nl.UTF-8: Geluid testen
+description-oc.UTF-8: Tèsts àudio
+description-pl.UTF-8: Testy dźwięku
+description-pt.UTF-8: Testes de áudio
+description-pt_BR.UTF-8: Testes de áudio
+description-ro.UTF-8: Teste audio
+description-ru.UTF-8: Проверка звука
+description-si.UTF-8: ශබ්ද පරික්ෂණ
+description-sk.UTF-8: Testovanie zvuku
+description-sl.UTF-8: Preizkusi zvoka
+description-sq.UTF-8: Testimet e audios
+description-sr.UTF-8: Тестови звука
+description-sv.UTF-8: Ljudtester
+description-th.UTF-8: ทดสอบเสียง
+description-tr.UTF-8: Ses sınamaları
+description-ug.UTF-8: ئۈن سىناقلىرى
+description-uk.UTF-8: Перевірка звуку
+description-vi.UTF-8: Kiểm tra âm thanh
+description-zh_CN.UTF-8: 音频测试
+description-zh_HK.UTF-8: 音效測試
+description-zh_TW.UTF-8: 音效測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/audio.txt?(.in)
+
+name: __autotest__
+plugin: local
+description: Autotest Suite tests
+description-ast.UTF-8: Pruebes de la suite Autotest
+description-cs.UTF-8: Testy z Autotest Suite
+description-de.UTF-8: Autotest-Suite-Tests
+description-el.utf-8: Δοκιμές της σουίτας Autotest
+description-en_AU.UTF-8: Autotest Suite tests
+description-en_GB.UTF-8: Autotest Suite tests
+description-es.UTF-8: Pruebas de la suite Autotest
+description-fi.UTF-8: Autotest Suite -testit
+description-it.UTF-8: Test della suite Autotest
+description-ms.UTF-8: Ujian Suit Ujian-Kendiri
+description-nl.UTF-8: ‘Autotest Suite’-tests
+description-pl.UTF-8: Automatyczne zestawy testowe
+description-pt_BR.UTF-8: Testes da suíte de auto-testes
+description-ro.UTF-8: Teste din suita Autotest
+description-ru.UTF-8: Тесты из набора Autotest
+description-sl.UTF-8: Preizkusi zbirke samodejnih preizkusov
+description-tr.UTF-8: Autotest Paketi Sınamaları
+description-ug.UTF-8: ئاپتوماتىك سىناقلار
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/autotest.txt?(.in)
+
+name: __bluetooth__
+plugin: local
+description: Bluetooth tests
+description-ast.UTF-8: Pruebes de Bluetooth
+description-be.UTF-8: Праверка Bluetooth
+description-bs.UTF-8: Bluetooth testovi
+description-ca.UTF-8: Comprovacions del Bluetooth
+description-cs.UTF-8: Testy bluetooth
+description-de.UTF-8: Bluetooth-Tests
+description-el.utf-8: Έλεγχοι bluetooth
+description-en_AU.UTF-8: Bluetooth tests
+description-en_GB.UTF-8: Bluetooth tests
+description-es.UTF-8: Pruebas de Bluetooth
+description-fi.UTF-8: Bluetooth-testit
+description-fr.UTF-8: Tests Bluetooth
+description-gl.UTF-8: Probas de Bluetooth
+description-hu.UTF-8: Bluetooth tesztek
+description-it.UTF-8: Test del Bluetooth
+description-ja.UTF-8: Bluetoothテスト
+description-lv.UTF-8: Bluetooth testi
+description-ms.UTF-8: Ujian bluetooth
+description-nl.UTF-8: Bluetooth testen
+description-oc.UTF-8: Tèsts Bluetooth
+description-pl.UTF-8: Testy Bluetooth
+description-pt_BR.UTF-8: Testes de bluetooth
+description-ro.UTF-8: Teste pentru conexiunea bluetooth
+description-ru.UTF-8: Проверка Bluetooth
+description-sl.UTF-8: Preizkusi Bluetooth
+description-sq.UTF-8: Testime të Bluetooth
+description-sr.UTF-8: Тестови блутута
+description-sv.UTF-8: Bluetooth-tester
+description-tr.UTF-8: Bluetooth sınamaları
+description-ug.UTF-8: كۆكچىش سىناقلىرى
+description-zh_TW.UTF-8: 藍牙測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/bluetooth.txt?(.in)
+
+name: __camera__
+plugin: local
+description: Camera tests
+description-ast.UTF-8: Pruebes de cámara
+description-be.UTF-8: Праверка камеры
+description-bg.UTF-8: Тестова на камерата
+description-bs.UTF-8: Testovi kamere
+description-ca.UTF-8: Comprovacions de la càmera
+description-cs.UTF-8: Testy webkamery
+description-da.UTF-8: Kameratest
+description-de.UTF-8: Kamera-Tests
+description-el.utf-8: Έλεγχοι κάμερας
+description-en_AU.UTF-8: Camera tests
+description-en_GB.UTF-8: Camera tests
+description-es.UTF-8: Pruebas de cámara
+description-fi.UTF-8: Kameratestit
+description-fr.UTF-8: Tests de la caméra
+description-gl.UTF-8: Probas de cámara
+description-hu.UTF-8: Webkamera tesztek
+description-it.UTF-8: Test della webcam
+description-ja.UTF-8: カメラテスト
+description-ko.UTF-8: 카메라 시험
+description-lv.UTF-8: Kameras testi
+description-ms.UTF-8: Ujian kamera
+description-nl.UTF-8: Camera testen
+description-oc.UTF-8: Tèsts de la camèra
+description-pl.UTF-8: Testy kamery
+description-pt_BR.UTF-8: Testes da câmera
+description-ro.UTF-8: Teste pentru camera web
+description-ru.UTF-8: Проверка камеры
+description-sl.UTF-8: Preizkusi kamere
+description-sq.UTF-8: Testet e kamerës
+description-sr.UTF-8: Тестови камерице
+description-sv.UTF-8: Kameratester
+description-th.UTF-8: ทดสอบกล้อง
+description-tr.UTF-8: Kamera sınamaları
+description-ug.UTF-8: كامېرا سىناقلىرى
+description-zh_CN.UTF-8: 摄像头测试
+description-zh_TW.UTF-8: 網路攝影機測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/camera.txt?(.in)
+
+name: __codecs__
+plugin: local
+description: Codec tests
+description-ast.UTF-8: Pruebes de códecs
+description-be.UTF-8: Праверка кодэкаў
+description-bs.UTF-8: Testovi kodeka
+description-ca.UTF-8: Comprovacions dels còdecs
+description-cs.UTF-8: Testy kodeků
+description-da.UTF-8: Test af kodninger
+description-de.UTF-8: Codec-Tests
+description-el.utf-8: Έλεγχοι κωδικοποιήσεων
+description-en_AU.UTF-8: Codec tests
+description-en_GB.UTF-8: Codec tests
+description-es.UTF-8: Pruebas de códecs
+description-fi.UTF-8: Koodekkitestit
+description-fr.UTF-8: Tests de codecs
+description-gl.UTF-8: Probas de códecs
+description-hu.UTF-8: Kodek tesztek
+description-it.UTF-8: Test dei codec
+description-ja.UTF-8: コーデックテスト
+description-lv.UTF-8: Kodeku testi
+description-ms.UTF-8: Ujian kodek
+description-nl.UTF-8: Codec testen
+description-oc.UTF-8: Tèsts de codecs
+description-pl.UTF-8: Testy kodeków
+description-pt_BR.UTF-8: Testes de codec
+description-ro.UTF-8: Teste pentru codecuri
+description-ru.UTF-8: Проверка кодеков
+description-sl.UTF-8: Preizkusi kodekov
+description-sq.UTF-8: Testime të kodekseve
+description-sr.UTF-8: Тестови кодека
+description-sv.UTF-8: Kodektester
+description-tr.UTF-8: Kodek sınamaları
+description-ug.UTF-8: كودلىغۇچ-كودسىزلىغۇچ سىناقلىرى
+description-zh_HK.UTF-8: 編碼解碼測試
+description-zh_TW.UTF-8: 編碼測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/codecs.txt?(.in)
+
+name: __cpu__
+plugin: local
+description: CPU tests
+description-ast.UTF-8: Pruebes de CPU
+description-be.UTF-8: Праверка ЦПУ
+description-bg.UTF-8: Тестове на процесора
+description-bs.UTF-8: Testovi procesora
+description-ca.UTF-8: Comprovacions de la CPU
+description-cs.UTF-8: Testy procesoru
+description-da.UTF-8: CPU-test
+description-de.UTF-8: CPU-Tests
+description-el.utf-8: Έλεγχοι επεξεργαστών
+description-en_AU.UTF-8: CPU tests
+description-en_GB.UTF-8: CPU tests
+description-es.UTF-8: Pruebas de CPU
+description-fi.UTF-8: Suoritintestit
+description-fr.UTF-8: Tests du processeur
+description-gl.UTF-8: Probas de CPU
+description-hu.UTF-8: Processzor tesztek
+description-it.UTF-8: Test della CPU
+description-ja.UTF-8: CPUテスト
+description-ko.UTF-8: 중앙처리장치 시험
+description-lv.UTF-8: Procesora testi
+description-ms.UTF-8: Ujian CPU
+description-nl.UTF-8: CPU testen
+description-oc.UTF-8: Tèsts del processor
+description-pl.UTF-8: Testy CPU
+description-pt_BR.UTF-8: Testes de CPU
+description-ro.UTF-8: Teste pentru procesor
+description-ru.UTF-8: Проверка ЦПУ
+description-sl.UTF-8: Preizkusi procesorja
+description-sq.UTF-8: Testet e CPU
+description-sr.UTF-8: Тестови процесора
+description-sv.UTF-8: Processortester
+description-th.UTF-8: ทดสอบซีพียู
+description-tr.UTF-8: İşlemci sınamaları
+description-ug.UTF-8: CPU سىناقلىرى
+description-zh_CN.UTF-8: 中央处理器测试
+description-zh_TW.UTF-8: CPU 測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/cpu.txt?(.in)
+
+name: __daemons__
+plugin: local
+description: System Daemon tests
+description-ast.UTF-8: Pruebes de degorriu de sistema
+description-be.UTF-8: Праверка сістэмных службаў
+description-bg.UTF-8: Тестове на системния помощник
+description-bs.UTF-8: Testovi sistemskik demona
+description-ca.UTF-8: Comprovacions dels dimonis del sistema
+description-cs.UTF-8: Testy systémových služeb (démonů)
+description-da.UTF-8: Test af systemdæmon
+description-de.UTF-8: Systemhintergrunddienste-Test
+description-el.utf-8: Έλεγχοι «δαιμόνων» του συστήματος
+description-en_AU.UTF-8: System Daemon tests
+description-en_GB.UTF-8: System Daemon tests
+description-es.UTF-8: Pruebas de demonio de sistema
+description-fi.UTF-8: Järjestelmäpalvelujen testit
+description-fr.UTF-8: Tests des services système
+description-gl.UTF-8: Probas do daemon do sistema
+description-hu.UTF-8: Rendszer daemon tesztek
+description-it.UTF-8: Test dei demoni di sistema
+description-ja.UTF-8: システムデーモンテスト
+description-ko.UTF-8: 시스템 데몬 시험
+description-lv.UTF-8: Sistēmas dēmonu testi
+description-ms.UTF-8: Ujian Daemon Sistem
+description-nl.UTF-8: Systeem-daemon testen
+description-oc.UTF-8: Tèsts dels servicis sistèma
+description-pl.UTF-8: Testy demonów systemowych
+description-pt_BR.UTF-8: Testes do daemon do sistema
+description-ro.UTF-8: Teste pentru serviciile de sistem
+description-ru.UTF-8: Проверка системных служб
+description-sl.UTF-8: Preizkušanje odzanjih programov
+description-sq.UTF-8: Tested e Daemon të Sistemit
+description-sr.UTF-8: Тестови демона система
+description-sv.UTF-8: Tester av systemdemoner
+description-th.UTF-8: ทดสอบระบบดีมอน
+description-tr.UTF-8: Sistem art süreç sınamaları
+description-ug.UTF-8: سىستېما Daemon سىناقلىرى
+description-zh_CN.UTF-8: 系统守护进程测试
+description-zh_TW.UTF-8: 系統後臺服務程序測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/daemons.txt?(.in)
+
+name: __disk__
+plugin: local
+description: Disk tests
+description-ace.UTF-8: Uji Disk
+description-am.UTF-8: የዲስክ ሙከራ
+description-ar.UTF-8: اختبارات القرص
+description-ast.UTF-8: Pruebes de discu
+description-be.UTF-8: Праверка дыска
+description-bg.UTF-8: Тестове на диск
+description-bn.UTF-8: ডিস্ক পরীক্ষা
+description-bo.UTF-8: གསོག་སྡེར་བརྟག་ཞིབ
+description-br.UTF-8: Prouadoù ar c'hantennoù
+description-bs.UTF-8: Disk testovi
+description-ca.UTF-8: Comprovacions de disc
+description-ca@valencia.UTF-8: Comprovacions de disc
+description-ckb.UTF-8: تاقیکردنه‌وه‌کانی په‌پکه‌
+description-cs.UTF-8: Testy disku
+description-cy.UTF-8: Profion disg
+description-da.UTF-8: Test af disk
+description-de.UTF-8: Festplattentests
+description-el.utf-8: Δοκιμές δίσκου
+description-en_AU.UTF-8: Disk tests
+description-en_CA.UTF-8: Disk tests
+description-en_GB.UTF-8: Disk tests
+description-eo.UTF-8: Disktestoj
+description-es.UTF-8: Pruebas de disco
+description-et.UTF-8: Kettatestid
+description-eu.UTF-8: Diskoen probak
+description-fi.UTF-8: Kiintolevyjen testit
+description-fr.UTF-8: Tests des disques
+description-gl.UTF-8: Probas do disco
+description-he.UTF-8: בדיקות הכונן
+description-hi.UTF-8: डिस्क जाँच
+description-hr.UTF-8: Diskovni testovi
+description-hu.UTF-8: Lemeztesztek
+description-id.UTF-8: Uji cakram
+description-is.UTF-8: Diskaprófanir
+description-it.UTF-8: Test del disco
+description-ja.UTF-8: ディスクテスト
+description-kk.UTF-8: Диск тексерістері
+description-kn.UTF-8: ಡಿಸ್ಕ್ ಪರೀಕ್ಷೆಗಳು
+description-ko.UTF-8: 디스크 테스트
+description-ku.UTF-8: Ceribandinên dîskê
+description-lt.UTF-8: Disko testai
+description-lv.UTF-8: Disku testi
+description-mr.UTF-8: साठवण परिक्षण
+description-ms.UTF-8: Ujian cakera
+description-my.UTF-8: disk စမ်းသပ်မူများ
+description-nb.UTF-8: Disktester
+description-ne.UTF-8: डिस्क परीक्षण
+description-nl.UTF-8: Schijf testen
+description-oc.UTF-8: Tèsts dels disques
+description-pl.UTF-8: Testy dysków twardych
+description-pt.UTF-8: Testes de disco rígido
+description-pt_BR.UTF-8: Testes de disco
+description-ro.UTF-8: Teste disk
+description-ru.UTF-8: Проверка диска
+description-si.UTF-8: තැටි පරික්ෂණ
+description-sk.UTF-8: Testovanie diskov
+description-sl.UTF-8: Preizkusi diska
+description-sq.UTF-8: Testimet e diskut
+description-sr.UTF-8: Тестови диска
+description-sv.UTF-8: Disktester
+description-th.UTF-8: ทดสอบดิสก์
+description-tr.UTF-8: Disk sınamaları
+description-ug.UTF-8: دىسكا سىناقلىرى
+description-uk.UTF-8: Перевірка дисків
+description-vi.UTF-8: Kiểm tra ổ cứng
+description-zh_CN.UTF-8: 磁盘测试
+description-zh_HK.UTF-8: 磁碟測試
+description-zh_TW.UTF-8: 磁碟測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/disk.txt?(.in)
+
+name: __fingerprint__
+plugin: local
+description: Fingerprint reader tests
+description-ar.UTF-8: اختبارات قارئ البصمة
+description-ast.UTF-8: Pruebes de llector de buelga dactilar
+description-be.UTF-8: Праверка сканэра адбіткаў пальцаў
+description-bg.UTF-8: Тестове за четеца на пръстови отпецатъци
+description-bn.UTF-8: ফিঙ্গার প্রিন্ট রীডার পরীক্ষা
+description-bo.UTF-8: མཛུབ་རྗེས་ཀློག་འཇུག་བརྟག་ཞིབ
+description-br.UTF-8: Prouadoù evit lenner al loc'hoù bizied
+description-bs.UTF-8: Testovi čitača otisaka
+description-ca.UTF-8: Comprovacions del lector d'empremtes digitals.
+description-ca@valencia.UTF-8: Comprovacions del lector d'empremtes digitals.
+description-ckb.UTF-8: تاقیکاری خوێنه‌ری جێ په‌نجه‌
+description-cs.UTF-8: Testy čtečky otisků prstů
+description-da.UTF-8: Test af fingeraftrykslæser
+description-de.UTF-8: Fingerabdruckleser-Tests
+description-el.utf-8: Δοκιμές αναγνώστη δακτυλικών αποτυπωμάτων
+description-en_AU.UTF-8: Fingerprint reader tests
+description-en_CA.UTF-8: Fingerprint reader tests
+description-en_GB.UTF-8: Fingerprint reader tests
+description-eo.UTF-8: Fingropremlegiltestoj
+description-es.UTF-8: Pruebas de lector de huella dactilar
+description-et.UTF-8: Sõrmejäljelugeja testid
+description-eu.UTF-8: Hatzmarka-irakurleen probak
+description-fi.UTF-8: Sormenjälkilukijan testit
+description-fr.UTF-8: Tests du lecteur d'empreinte digitale
+description-gl.UTF-8: Probas do lector de pegada dactilar
+description-he.UTF-8: בדיקות קורא טביעות אצבע
+description-hi.UTF-8: अँगुलीछाप वाचक जाँच
+description-hr.UTF-8: Testovi čitača otiska prstiju
+description-hu.UTF-8: Ujjlenyomatolvasó-tesztek
+description-id.UTF-8: Uji pembacaan sidik jari
+description-is.UTF-8: Fingrafarslesaraprófanir
+description-it.UTF-8: Test del lettore di impronte digitali
+description-ja.UTF-8: 指紋リーダテスト
+description-kk.UTF-8: Саусақ сканерінің тексерістері
+description-kn.UTF-8: ಬೆರಳಚ್ಚು ಓದುವ ಸಾಧನದ ಪರಿಕ್ಸೆಗಳು
+description-ko.UTF-8: 지문 인식기 테스트
+description-ku.UTF-8: Ceribandina xwendeya rêçetilî
+description-lt.UTF-8: Pirštų antspaudų skaitytuvo testai
+description-lv.UTF-8: Pirkstu nospiedumu lasītāju testi
+description-mr.UTF-8: ठसेवाचकाचे परिक्षण
+description-ms.UTF-8: Ujian pembaca cap jari
+description-my.UTF-8: လက်ဗွေစစ်သည့် စက် စစ်ဆေးမူများ
+description-nb.UTF-8: Kontroll av fingeravtrykkleser
+description-ne.UTF-8: औंठाछाप वाचक परीक्षण
+description-nl.UTF-8: Vingerafdruklezer testen
+description-oc.UTF-8: Tèsts del lector d'emprenchas digitalas
+description-pl.UTF-8: Testy czytnika linii papilarnych
+description-pt.UTF-8: Testes de leitor de impressão digital
+description-pt_BR.UTF-8: Testes de leitor de impressão de digital
+description-ro.UTF-8: Teste cititor amprente
+description-ru.UTF-8: Проверка сканера отпечатков пальцев
+description-si.UTF-8: ඇඟිලි සළකුණ කියවීමේ පරික්ෂණ
+description-sk.UTF-8: Testovanie čítačky odtlačkov prstov
+description-sl.UTF-8: Preizkusi čitalnika prstnih odtisov
+description-sq.UTF-8: Testimet e lexuesit të gjurmëve të gishtërinjve
+description-sr.UTF-8: Тестови читача отисака
+description-sv.UTF-8: Tester för fingeravtrycksläsare
+description-th.UTF-8: ทดสอบความพร้อมตัวอ่านลายนิ้วมือ
+description-tr.UTF-8: Parmak izi okuyucu sınamaları
+description-ug.UTF-8: بارماق ئىزى ئوقۇغۇچ سىناقلىرى
+description-uk.UTF-8: Перевірка пристрою зчитування відбитків пальців
+description-vi.UTF-8: Kiểm tra đầu đọc vân tay
+description-zh_CN.UTF-8: 指纹阅读器测试
+description-zh_HK.UTF-8: 指紋讀取器測試
+description-zh_TW.UTF-8: 指紋讀取器測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/fingerprint.txt?(.in)
+
+name: __firewire__
+plugin: local
+description: Firewire disk tests
+description-ar.UTF-8: اختبارات قرص السلك الناري
+description-ast.UTF-8: Pruebes de discos firewire
+description-be.UTF-8: Праверка дыскаў Firewire
+description-bg.UTF-8: Тестове на дискове с Firewire
+description-bn.UTF-8: ফায়রওয়্যার ডিস্ক পরীক্ষা
+description-bo.UTF-8: Firewire disk tests
+description-br.UTF-8: Prouadoù ar gantenn dre Firewire
+description-bs.UTF-8: Testovi FireWire diska
+description-ca.UTF-8: Comprovacions de discs Firewire
+description-ca@valencia.UTF-8: Comprovacions de discs Firewire
+description-ckb.UTF-8: تاقیکاری په‌پکه‌ی ئاگرین
+description-cs.UTF-8: Testy firewire disku
+description-da.UTF-8: Test af firewiredisk
+description-de.UTF-8: Firewire-Festplatten-Tests
+description-el.utf-8: Δοκιμές δίσκου Firewire
+description-en_AU.UTF-8: Firewire disk tests
+description-en_CA.UTF-8: Firewire disk tests
+description-en_GB.UTF-8: Firewire disk tests
+description-eo.UTF-8: Disktestoj de firewire
+description-es.UTF-8: Pruebas de discos Firewire
+description-et.UTF-8: Firewire-ketta testid
+description-eu.UTF-8: Firewire diskoen probak
+description-fi.UTF-8: Firewire-levyn testit
+description-fr.UTF-8: Tests des disques Firewire
+description-gl.UTF-8: Probas do disco Firewire
+description-he.UTF-8: בדיקות כונן Firewire
+description-hi.UTF-8: फायरवायर डिस्क जाँच
+description-hr.UTF-8: Testovi Firewire diskova
+description-hu.UTF-8: Firewire lemeztesztek
+description-id.UTF-8: Uji cakram Firewire
+description-is.UTF-8: Prófanir Firewire diska
+description-it.UTF-8: Test del disco Firewire
+description-ja.UTF-8: Firewireディスクテスト
+description-kk.UTF-8: Firewire дисктер тексерістері
+description-kn.UTF-8: ಫಯರ್ ವೈರ್  ಡಿಸ್ಕ್ ಪರೀಕ್ಷೆಗಳು
+description-ko.UTF-8: Firewire 디스크 테스트
+description-ku.UTF-8: Ceribandinên dîskên firewire
+description-lt.UTF-8: Firewire diskų testai
+description-lv.UTF-8: Firewire disku testi
+description-mr.UTF-8: फायरवायर साठा परिक्षण
+description-ms.UTF-8: Ujian cakera FireWire
+description-nb.UTF-8: Firewire disktester
+description-ne.UTF-8: फायरवायर डिस्क परीक्षण
+description-nl.UTF-8: FireWire-schijf testen
+description-oc.UTF-8: Tèsts dels disques Firewire
+description-pl.UTF-8: Testy dysków FireWire
+description-pt.UTF-8: Testes de disco firewire
+description-pt_BR.UTF-8: Testes de disco firewire
+description-ro.UTF-8: Teste disc firewire
+description-ru.UTF-8: Проверка дисков Firewire
+description-sk.UTF-8: Testovanie firewire
+description-sl.UTF-8: Preizkusi diska Firewire
+description-sq.UTF-8: Testimet e diskut firewire
+description-sr.UTF-8: Тестови Фајервајер диска
+description-sv.UTF-8: Tester för Firewire-disk
+description-th.UTF-8: ทดสอบดิสก์ไฟร์ไวร์
+description-tr.UTF-8: Firewire sınamaları
+description-ug.UTF-8: Firewire دىسكا سىناقلىرى
+description-uk.UTF-8: Перевірка дисків Firewire
+description-vi.UTF-8: Kiểm tra ổ đĩa Firewire
+description-zh_CN.UTF-8: 火线(Firewire)磁盘测试
+description-zh_HK.UTF-8: Firewire 磁碟測試
+description-zh_TW.UTF-8: Firewire 磁碟測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/firewire.txt?(.in)
+
+name: __floppy__
+plugin: local
+description: Floppy disk tests
+description-ast.UTF-8: Pruebes de disquete
+description-be.UTF-8: Праверка дыскет
+description-bs.UTF-8: Testovi flopi diska
+description-ca.UTF-8: Comprovacions del disquet
+description-cs.UTF-8: Testy disketové mechaniky
+description-de.UTF-8: Diskettenlaufwerks-Tests
+description-el.utf-8: Έλεγχοι δισκετών Floppy
+description-en_AU.UTF-8: Floppy disk tests
+description-en_GB.UTF-8: Floppy disk tests
+description-es.UTF-8: Pruebas de disquete
+description-fi.UTF-8: Levyketestit
+description-fr.UTF-8: Tests du lecteur de disquette
+description-gl.UTF-8: Probas de disquete
+description-hu.UTF-8: Floppylemez tesztek
+description-it.UTF-8: Test del disco floppy
+description-ja.UTF-8: フロッピーディスクテスト
+description-lv.UTF-8: Disketes testi
+description-ms.UTF-8: Ujian cakera liut
+description-nl.UTF-8: Floppydisk testen
+description-oc.UTF-8: Tèsts del lector de disqueta
+description-pl.UTF-8: Testy stacji dyskietek
+description-pt_BR.UTF-8: Testes de disco flexível
+description-ro.UTF-8: Teste pentru floppy
+description-ru.UTF-8: Проверка дискет
+description-sl.UTF-8: Preizkusi disket
+description-sq.UTF-8: Testime të disketës
+description-sr.UTF-8: Тестови флопи дискете
+description-sv.UTF-8: Tester för disketter
+description-tr.UTF-8: Disket testleri
+description-ug.UTF-8: يۇمشاق دىسكا سىناقلىرى
+description-zh_TW.UTF-8: 軟碟測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/floppy.txt?(.in)
+
+name: __graphics__
+plugin: local
+description: Graphics tests
+description-ast.UTF-8: Pruebes de gráficos
+description-be.UTF-8: Праверка графічнай сістэмы
+description-bs.UTF-8: Testovi grafike
+description-ca.UTF-8: Comprovacions dels gràfics
+description-cs.UTF-8: Testy grafiky
+description-da.UTF-8: Grafiktester
+description-de.UTF-8: Grafik-Tests
+description-el.utf-8: Έλεγχοι γραφικών
+description-en_AU.UTF-8: Graphics tests
+description-en_GB.UTF-8: Graphics tests
+description-es.UTF-8: Pruebas de gráficos
+description-fi.UTF-8: Grafiikkatestit
+description-fr.UTF-8: Tests graphiques
+description-gl.UTF-8: Probas de gráficos
+description-hu.UTF-8: Grafikus tesztek
+description-it.UTF-8: Test della grafica
+description-ja.UTF-8: グラフィックテスト
+description-lv.UTF-8: Grafikas testi
+description-ms.UTF-8: Ujian grafik
+description-nl.UTF-8: Grafische testen
+description-oc.UTF-8: Tèsts grafics
+description-pl.UTF-8: Testy grafiki
+description-pt_BR.UTF-8: Testes de gráficos
+description-ro.UTF-8: Teste pentru grafică
+description-ru.UTF-8: Проверка графической системы
+description-sl.UTF-8: Preizkusi grafike
+description-sq.UTF-8: Testime të grafikëve
+description-sr.UTF-8: Тестови графике
+description-sv.UTF-8: Grafiktester
+description-tr.UTF-8: Grafik sınamaları
+description-ug.UTF-8: گرافىك سىناقلىرى
+description-zh_TW.UTF-8: 圖形測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/graphics.txt?(.in)
+
+name: __hibernate__
+plugin: local
+description: Hibernation tests
+description-ast.UTF-8: Pruebes d'ivernación
+description-be.UTF-8: Тэсты спячага рэжыму
+description-bs.UTF-8: Testovi hibernacije
+description-ca.UTF-8: Comprovacions de la hibernació
+description-cs.UTF-8: Testy hibernace
+description-da.UTF-8: Dvaletester
+description-de.UTF-8: Ruhezustandstest
+description-el.utf-8: Έλεγχοι αδρανοποίησης
+description-en_AU.UTF-8: Hibernation tests
+description-en_GB.UTF-8: Hibernation tests
+description-es.UTF-8: Pruebas de hibernación
+description-fi.UTF-8: Lepotilatestit
+description-fr.UTF-8: Tests de la mise en hibernation
+description-gl.UTF-8: Probas de hibernación
+description-hu.UTF-8: Hibernációs tesztek
+description-it.UTF-8: Test di ibernazione
+description-ja.UTF-8: ハイバネートテスト
+description-lv.UTF-8: Iemidzināšanas testi
+description-ms.UTF-8: Uji hibernasi
+description-nl.UTF-8: Slaapstand testen
+description-oc.UTF-8: Tèsts de la mesa en ivernacion
+description-pl.UTF-8: Testy hibernowania systemu
+description-pt_BR.UTF-8: Testes de hibernação
+description-ro.UTF-8: Teste pentru funcția de hibernare
+description-ru.UTF-8: Тесты спящего режима
+description-sl.UTF-8: Preizkusi mirovanja
+description-sq.UTF-8: Tested e hibernimit
+description-sr.UTF-8: Тестови замрзавања
+description-tr.UTF-8: Hazırda Bekletme testleri
+description-ug.UTF-8: ئۈچەك سىناقلىرى
+description-zh_TW.UTF-8: 休眠測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/hibernate.txt?(.in)
+
+name: __info__
+plugin: local
+description: Informational tests
+description-ast.UTF-8: Pruebes informatives
+description-be.UTF-8: Інфармацыйныя тэсты
+description-bs.UTF-8: Informacioni testovi
+description-ca.UTF-8: Comprovacions informatives
+description-cs.UTF-8: Informační testy
+description-de.UTF-8: Informelle Tests
+description-el.utf-8: Πληροφοριακοί έλεγχοι
+description-en_AU.UTF-8: Informational tests
+description-en_GB.UTF-8: Informational tests
+description-es.UTF-8: Pruebas informativas
+description-fi.UTF-8: Tietoa keräävät testit
+description-fr.UTF-8: Tests informatifs
+description-gl.UTF-8: Probas informativas
+description-hu.UTF-8: Információs tesztek
+description-it.UTF-8: Test informativi
+description-ja.UTF-8: 情報テスト
+description-lv.UTF-8: Informatīvie testi
+description-ms.UTF-8: Ujian maklumat
+description-nl.UTF-8: Informatieve testen
+description-oc.UTF-8: Tèsts informatius
+description-pl.UTF-8: Testy informacyjne
+description-pt_BR.UTF-8: Testes de informação
+description-ro.UTF-8: Teste pentru informare
+description-ru.UTF-8: Информационные тесты
+description-sl.UTF-8: Informacijski preizkusi
+description-sq.UTF-8: Testime informuese
+description-sr.UTF-8: Тестови информисања
+description-sv.UTF-8: Informationstester
+description-tr.UTF-8: Bilgisel sınamalar
+description-ug.UTF-8: ئۇچۇر سىناقلىرى
+description-zh_TW.UTF-8: 信息測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/info.txt?(.in)
+
+name: __input__
+plugin: local
+description: Input Devices tests
+description-ast.UTF-8: Pruebes de preseos d'entrada
+description-be.UTF-8: Праверка прыладаў ўводу
+description-bs.UTF-8: Testovi ulaznih uređaja
+description-ca.UTF-8: Comprovacions dels dispositius d'entrada
+description-cs.UTF-8: Testy vstupních zařízení
+description-de.UTF-8: Eingabegeräte-Tests
+description-el.utf-8: Έλεγχοι συσκευών εισόδου
+description-en_AU.UTF-8: Input Devices tests
+description-en_GB.UTF-8: Input Devices tests
+description-es.UTF-8: Pruebas de dispositivos de entrada
+description-fi.UTF-8: Syötelaitetestit
+description-fr.UTF-8: Tests des périphériques d'entrée
+description-gl.UTF-8: Probas de dispositivos de entrada
+description-hu.UTF-8: Bemeneti eszköz tesztek
+description-it.UTF-8: Test dei dispositivi di input
+description-ja.UTF-8: 入力デバイステスト
+description-lv.UTF-8: Ievadierīču testi
+description-ms.UTF-8: Ujian Peranti Input
+description-nl.UTF-8: Invoerapparaten testen
+description-oc.UTF-8: Tèsts dels periferics d'entrada
+description-pl.UTF-8: Testy urządzeń wejściowych
+description-pt_BR.UTF-8: Testes de dispositivos de entrada
+description-ro.UTF-8: Teste pentru dispozitivele de intrare
+description-ru.UTF-8: Проверка устройств ввода
+description-sl.UTF-8: Preizkusi vhodnih naprav
+description-sq.UTF-8: Testime të pajisjeve hyrëse
+description-sr.UTF-8: тестови улазних уређаја
+description-sv.UTF-8: Tester för inmatningsenheter
+description-tr.UTF-8: Girdi aygıtı sınamaları
+description-ug.UTF-8: كىرگۈزۈش ئۈسكۈنىلىرى سىناقلىرى
+description-zh_TW.UTF-8: 輸入裝置測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/input.txt?(.in)
+
+name: __install__
+plugin: local
+description: Software Installation tests
+description-ast.UTF-8: Pruebes d'instalación de software
+description-be.UTF-8: Праверка ўсталёўкі праграмнага забеспячэння
+description-bs.UTF-8: Testovi softverske instalacije
+description-ca.UTF-8: Comprovacions de la instal·lació de programari
+description-cs.UTF-8: Testy instalace software
+description-de.UTF-8: Anwendungsinstallations-Test
+description-el.utf-8: Έλεγχοι εγκατάστασης λογισμικού
+description-en_AU.UTF-8: Software Installation tests
+description-en_GB.UTF-8: Software Installation tests
+description-es.UTF-8: Pruebas de instalación de software
+description-fi.UTF-8: Ohjelmiston asennustestit
+description-fr.UTF-8: Tests d'installation de logiciels
+description-gl.UTF-8: Probas de instalación de software
+description-hu.UTF-8: Alkalmazás telepítés tesztek
+description-it.UTF-8: Test di installazione del software
+description-lv.UTF-8: Programmatūras instalēšanas testi
+description-ms.UTF-8: Ujian Pemasangan perisian
+description-nl.UTF-8: Software-installatie testen
+description-oc.UTF-8: Tèsts d'installacion de logicials
+description-pl.UTF-8: Testy instalowania oprogramowania
+description-pt_BR.UTF-8: Testes de instalação de programas
+description-ro.UTF-8: Teste pentru programele instalate
+description-ru.UTF-8: Проверка установки программного обеспечения
+description-sl.UTF-8: Preizkusi namestitve programske opreme
+description-sq.UTF-8: Testime të instalimit të programeve
+description-sr.UTF-8: Тестови инсталирања софтвера
+description-sv.UTF-8: Tester för programinstallationer
+description-tr.UTF-8: Yazılım Yükleme sınamaları
+description-ug.UTF-8: يۇمشاق دېتال ئورنىتىش سىناقلىرى
+description-zh_TW.UTF-8: 軟體安裝測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/install.txt?(.in)
+
+name: __keys__
+plugin: local
+description: Hotkey tests
+description-ast.UTF-8: Pruebes d'atayos de tecláu
+description-be.UTF-8: Праверка клавіш хуткага доступу
+description-bs.UTF-8: Testovi vrućih tastera
+description-ca.UTF-8: Comprovacions de les dreceres de teclat
+description-cs.UTF-8: Testy funkčních kláves
+description-de.UTF-8: Hotkey-Tests
+description-el.utf-8: Έλεγχοι συντομεύσεων πλήκτρων
+description-en_AU.UTF-8: Hotkey tests
+description-en_GB.UTF-8: Hotkey tests
+description-es.UTF-8: Pruebas de atajos de teclado
+description-fi.UTF-8: Näppäintestit
+description-fr.UTF-8: Tests des touches de raccourci
+description-gl.UTF-8: Probas de atallos de teclado
+description-hu.UTF-8: Gyorsbillentyű tesztek
+description-it.UTF-8: Test dei tasti di scelta rapida
+description-ja.UTF-8: ホットキーテスト
+description-lv.UTF-8: Karsto taustiņu testi
+description-ms.UTF-8: Ujian kekunci panas
+description-nl.UTF-8: Sneltoets testen
+description-oc.UTF-8: Tèsts de las tòcas d'acorchi
+description-pl.UTF-8: Testy skrótów klawiszowych
+description-pt_BR.UTF-8: Testes de teclas de atalho
+description-ro.UTF-8: Teste pentru tastele de funcții
+description-ru.UTF-8: Проверка клавиш быстрого доступа
+description-sl.UTF-8: Preizkusi tipkovnih bližnjic
+description-sq.UTF-8: Testime të hotkey
+description-sr.UTF-8: Тестови пречица
+description-sv.UTF-8: Tester för snabbtangenter
+description-tr.UTF-8: Kısayol Tuşu sınamaları
+description-ug.UTF-8: قىزىق كۇنۇپكىلار سىناقلىرى
+description-zh_TW.UTF-8: 熱鍵測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/keys.txt?(.in)
+
+name: __ltp__
+plugin: local
+description: Linux Test Project tests
+description-ast.UTF-8: Pruebes del proyeutu Linux Test
+description-cs.UTF-8: Testy z Linux Test Project
+description-de.UTF-8: Linux-Testprojekt-Tests
+description-el.utf-8: Έλεγχοι του Linux Test Project
+description-en_AU.UTF-8: Linux Test Project tests
+description-en_GB.UTF-8: Linux Test Project tests
+description-es.UTF-8: Pruebas del proyecto Linux Test
+description-fi.UTF-8: Linux Test Project -testit
+description-it.UTF-8: Test del Linux Test Project
+description-ms.UTF-8: Ujian Projek Ujian Linux
+description-nl.UTF-8: Linux Test Project tests
+description-pt_BR.UTF-8: Testes do projeto de testes do Linux
+description-ro.UTF-8: Teste Linux Test Project
+description-ru.UTF-8: Тесты проекта «Linux Tests»
+description-sl.UTF-8: Preizkusi projekta Linuxovih Test Project
+description-tr.UTF-8: Linux Sınama Projesi Testleri
+description-ug.UTF-8: لىنۇكىس سىناق قۇرۇلۇشى سىناقلىرى
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/ltp.txt?(.in)
+
+name: __mago__
+plugin: local
+description: Mago Automated Desktop Testing
+description-ast.UTF-8: Prueba del escritoriu automatizáu Mago
+description-cs.UTF-8: Automatické testy pracovního prostředí Mago
+description-de.UTF-8: Automatisierter Arbeitsumgebungstest Mago
+description-el.utf-8: Αυτοματοποιημένοι έλεγχοι περιβάλλοντος εργασίας Mago
+description-en_AU.UTF-8: Mago Automated Desktop Testing
+description-en_GB.UTF-8: Mago Automated Desktop Testing
+description-es.UTF-8: Prueba del escritorio automatizado Mago
+description-fi.UTF-8: Mago - automaattinen työpöytätestaus
+description-it.UTF-8: Test automatici del desktop Mago
+description-ms.UTF-8: Pengujian Desktop Terautomatik Mago
+description-nl.UTF-8: Mago Automated Desktop Testing
+description-pt_BR.UTF-8: Teste automatizado de área de trabalho Mago
+description-ro.UTF-8: Testarea automată Mago pentru desktopuri
+description-ru.UTF-8: Автоматическое тестирование рабочего стола Mago
+description-sl.UTF-8: Samodejno preizkušanje namizja Mago
+description-tr.UTF-8: Mago Otomatik Masaüstü Sınaması
+description-ug.UTF-8: Mago ئاپتوماتلاشقان ئۈستەلئۈستى سىنىقى
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/mago.txt?(.in)
+
+name: __mediacard__
+plugin: local
+description: Media Card tests
+description-ast.UTF-8: Pruebes de tarxetes multimedia
+description-be.UTF-8: Праверка карт памяці
+description-bs.UTF-8: Testovi medijskih kartica
+description-ca.UTF-8: Comprovacions de les targetes multimèdia
+description-cs.UTF-8: Testy paměťových karet
+description-de.UTF-8: Medienkarten-Tests
+description-el.utf-8: Έλεγχοι καρτών μέσων
+description-en_AU.UTF-8: Media Card tests
+description-en_GB.UTF-8: Media Card tests
+description-es.UTF-8: Pruebas de tarjetas multimedia
+description-fi.UTF-8: Muistikorttitestit
+description-fr.UTF-8: Tests des cartes mémoire
+description-gl.UTF-8: Probas de tarxetas multimedia
+description-hu.UTF-8: Médiakártya tesztek
+description-it.UTF-8: Test delle schede di memoria
+description-ja.UTF-8: メディアカードテスト
+description-lv.UTF-8: Mediju karšu testi
+description-ms.UTF-8: Ujian Kad Media
+description-nl.UTF-8: Mediakaart testen
+description-oc.UTF-8: Tèsts de las cartas memòria
+description-pl.UTF-8: Testy kart pamięci
+description-pt_BR.UTF-8: Testes de cartão de mídia
+description-ro.UTF-8: Teste pentru carduri media
+description-ru.UTF-8: Проверка карт памяти
+description-sl.UTF-8: Preizkusi spominskih kartic
+description-sq.UTF-8: Testime të kartave media
+description-sr.UTF-8: Тестови медијских картица
+description-sv.UTF-8: Tester för mediakort
+description-tr.UTF-8: Ortam Kartı testleri
+description-ug.UTF-8: ۋاسىتە كارتىلىرى سىناقلىرى
+description-zh_TW.UTF-8: 媒體卡測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/mediacard.txt?(.in)
+
+name: __memory__
+plugin: local
+description: Memory tests
+description-ast.UTF-8: Pruebes de memoria
+description-be.UTF-8: Праверка памяці
+description-bs.UTF-8: Testovi memorije
+description-ca.UTF-8: Comprovacions de la memòria
+description-cs.UTF-8: Testy paměti
+description-da.UTF-8: Hukommelsestester
+description-de.UTF-8: Speichertests
+description-el.utf-8: Έλεγχοι μνήμης
+description-en_AU.UTF-8: Memory tests
+description-en_GB.UTF-8: Memory tests
+description-es.UTF-8: Pruebas de memoria
+description-fi.UTF-8: Muistitestit
+description-fr.UTF-8: Tests de la mémoire
+description-gl.UTF-8: Probas de memoria
+description-hu.UTF-8: Memória-tesztek
+description-it.UTF-8: Test della memoria
+description-ja.UTF-8: メモリーテスト
+description-lv.UTF-8: Atmiņas testi
+description-ms.UTF-8: Ujian ingatan
+description-nl.UTF-8: Geheugen testen
+description-oc.UTF-8: Tèsts de la memòria
+description-pl.UTF-8: Testy pamięci operacyjnej
+description-pt_BR.UTF-8: Testes de memória
+description-ro.UTF-8: Teste pentru memorie
+description-ru.UTF-8: Проверка памяти
+description-sl.UTF-8: Preizkusi pomnilnika
+description-sq.UTF-8: Testime të kujtesës
+description-sr.UTF-8: Тестови меморије
+description-sv.UTF-8: Minnestester
+description-tr.UTF-8: Bellek sınamaları
+description-ug.UTF-8: ئەسلەك سىناقلىرى
+description-zh_TW.UTF-8: 記憶體測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/memory.txt?(.in)
+
+name: __miscellanea__
+plugin: local
+description: Miscellaneous tests
+description-ast.UTF-8: Pruebes miscelánees
+description-be.UTF-8: Разнастайныя тэсты
+description-bs.UTF-8: Razni testovi
+description-ca.UTF-8: Comprovacions miscel·lànies
+description-cs.UTF-8: Různé testy
+description-da.UTF-8: Diverse tester
+description-de.UTF-8: Diverse Tests
+description-el.utf-8: Διάφοροι έλεγχοι
+description-en_AU.UTF-8: Miscellaneous tests
+description-en_GB.UTF-8: Miscellaneous tests
+description-es.UTF-8: Pruebas varias
+description-fi.UTF-8: Sekalaiset testit
+description-fr.UTF-8: Tests divers
+description-gl.UTF-8: Probas misceláneas
+description-hu.UTF-8: Egyéb tesztek
+description-it.UTF-8: Test vari
+description-lv.UTF-8: Dažādi testi
+description-ms.UTF-8: Ujian pelbagai
+description-nl.UTF-8: Diverse tests
+description-oc.UTF-8: Tèsts divèrs
+description-pl.UTF-8: Różne testy
+description-pt_BR.UTF-8: Testes diversos
+description-ro.UTF-8: Teste diverse
+description-ru.UTF-8: Различные тесты
+description-sl.UTF-8: Razni preizkusi
+description-sq.UTF-8: Testime të përziera
+description-sr.UTF-8: Разни тестови
+description-sv.UTF-8: Diverse tester
+description-tr.UTF-8: Çeşitli sınamalar
+description-ug.UTF-8: باشقا سىناقلار
+description-zh_TW.UTF-8: 雜項測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/miscellanea.txt?(.in)
+
+name: __monitor__
+plugin: local
+description: Monitor tests
+description-ace.UTF-8: Uji Monitor
+description-ar.UTF-8: اختبارات الشاشة
+description-ast.UTF-8: Pruebes de monitor
+description-be.UTF-8: Праверка манітора
+description-bg.UTF-8: Тестове за монитора
+description-bn.UTF-8: মনিটর পরীক্ষা
+description-bo.UTF-8: རྟོགས་ཞིབ་པ་ལ་བརྟག་ཞིབ
+description-br.UTF-8: Prouadoù ar skramm
+description-bs.UTF-8: Testovi monitora
+description-ca.UTF-8: Comprovacions de monitor
+description-ca@valencia.UTF-8: Comprovacions de monitor
+description-ckb.UTF-8: تاقیکاری مۆنیتۆر
+description-cs.UTF-8: Testy monitoru
+description-da.UTF-8: Skærmtest
+description-de.UTF-8: Bildschirmtests
+description-el.utf-8: Δοκιμές οθόνης
+description-en_AU.UTF-8: Monitor tests
+description-en_CA.UTF-8: Monitor tests
+description-en_GB.UTF-8: Monitor tests
+description-eo.UTF-8: Ekranaj testoj
+description-es.UTF-8: Pruebas de monitor
+description-et.UTF-8: Monitoritestid
+description-eu.UTF-8: Monitoreen probak
+description-fi.UTF-8: Näyttötestit
+description-fr.UTF-8: Tests de l'écran
+description-gl.UTF-8: Probas de monitor
+description-he.UTF-8: בדיקות צג
+description-hi.UTF-8: मॉनिटर जाँच
+description-hr.UTF-8: Ekranski testovi
+description-hu.UTF-8: Monitortesztek
+description-is.UTF-8: Prófanir á skjá/skjám
+description-it.UTF-8: Test del monitor
+description-ja.UTF-8: モニターテスト
+description-kk.UTF-8: Монитор тексерілістері
+description-ko.UTF-8: 모니터 테스트
+description-lt.UTF-8: Vaizduoklio testai
+description-lv.UTF-8: Monitora testi
+description-ms.UTF-8: Ujian monitor
+description-nb.UTF-8: Skjermtester
+description-ne.UTF-8: मोनिटर परीक्षण
+description-nl.UTF-8: Beeldscherm testen
+description-oc.UTF-8: Tèsts de l'ecran
+description-pl.UTF-8: Testy monitora
+description-pt.UTF-8: Testes de monitor
+description-pt_BR.UTF-8: Testes de monitor
+description-ro.UTF-8: Teste de monitor
+description-ru.UTF-8: Проверка монитора
+description-sk.UTF-8: Testovanie monitora
+description-sl.UTF-8: Preizkusi zaslona
+description-sq.UTF-8: Testime të monitorit
+description-sr.UTF-8: Тестови монитора
+description-sv.UTF-8: Skärmtester
+description-th.UTF-8: ทดสอบจอภาพ
+description-tr.UTF-8: Monitör testleri
+description-ug.UTF-8: ئېكران سىناقلىرى
+description-uk.UTF-8: Перевірка морітору
+description-vi.UTF-8: Kiểm tra màn hình
+description-zh_CN.UTF-8: 显示器测试
+description-zh_HK.UTF-8: 螢幕測試
+description-zh_TW.UTF-8: 螢幕測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/monitor.txt?(.in)
+
+name: __networking__
+plugin: local
+description: Networking tests
+description-ast.UTF-8: Pruebes de rede
+description-be.UTF-8: Праверка сеткі
+description-bs.UTF-8: Testovi mreže
+description-ca.UTF-8: Comprovacions de la xarxa
+description-cs.UTF-8: Testy síťového připojení
+description-da.UTF-8: Netværkstester
+description-de.UTF-8: Netzwerk-Tests
+description-el.utf-8: Έλεγχοι δικτύων
+description-en_AU.UTF-8: Networking tests
+description-en_GB.UTF-8: Networking tests
+description-es.UTF-8: Pruebas de red
+description-fi.UTF-8: Verkkotestit
+description-fr.UTF-8: Tests du réseau
+description-gl.UTF-8: Probas de rede
+description-hu.UTF-8: Hálózati tesztek
+description-it.UTF-8: Test di rete
+description-ja.UTF-8: ネットワークテスト
+description-lv.UTF-8: Tīklošanas testi
+description-ms.UTF-8: Ujian rangkaian
+description-nl.UTF-8: Netwerk testen
+description-oc.UTF-8: Tèsts de la ret
+description-pl.UTF-8: Testy łączości sieciowej
+description-pt_BR.UTF-8: Testes de rede
+description-ro.UTF-8: Teste pentru rețea
+description-ru.UTF-8: Проверка сети
+description-sl.UTF-8: Preizkusi omrežja
+description-sq.UTF-8: Testime të rrjetit
+description-sr.UTF-8: Тестови умрежавања
+description-sv.UTF-8: Nätverkstester
+description-tr.UTF-8: Şebeke sınamaları
+description-ug.UTF-8: تور سىناقلىرى
+description-zh_TW.UTF-8: 網路測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/networking.txt?(.in)
+
+name: __optical__
+plugin: local
+description: Optical Drive tests
+description-ast.UTF-8: Pruebes de discos ópticos
+description-be.UTF-8: Праверка аптычных дыскаў
+description-bs.UTF-8: Testovi optičkih diskova
+description-ca.UTF-8: Comprovacions de les unitats òptiques
+description-cs.UTF-8: Testy optických mechanik
+description-de.UTF-8: Tests optischer Laufwerke
+description-el.utf-8: Έλεγχοι οδηγών οπτικών συσκευών
+description-en_AU.UTF-8: Optical Drive tests
+description-en_GB.UTF-8: Optical Drive tests
+description-es.UTF-8: Prueba de discos ópticos
+description-fi.UTF-8: Optisen aseman testit
+description-fr.UTF-8: Tests des lecteurs optiques
+description-gl.UTF-8: Proba de discos ópticos
+description-hu.UTF-8: Optikaimeghajtó-tesztek
+description-it.UTF-8: Test delle unità ottiche
+description-ja.UTF-8: 光学ドライブテスト
+description-lv.UTF-8: Optisko dziņu testi
+description-ms.UTF-8: Ujian Pemacu Optik
+description-nl.UTF-8: Optische opslagapparaatlezer testen
+description-oc.UTF-8: Tèsts dels lectors optics
+description-pl.UTF-8: Testy napędu optycznego
+description-pt_BR.UTF-8: Testes de dispositivo ótico
+description-ro.UTF-8: Teste pentru CD/DVD
+description-ru.UTF-8: Проверка оптических дисков
+description-sl.UTF-8: Preizkusi optičnih pogonov
+description-sq.UTF-8: Testime të draivit optikal
+description-sr.UTF-8: Тестови оптичког уређаја
+description-sv.UTF-8: Tester för optiska enheter
+description-tr.UTF-8: Optik Sürücü sınamaları
+description-ug.UTF-8: نۇر قوزغاتقۇچ سىناقلىرى
+description-zh_TW.UTF-8: 光碟機測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/optical.txt?(.in)
+
+name: __panel_clock__
+plugin: local
+description: Panel Clock Verification tests
+description-ast.UTF-8: Pruebes de verificación del reló del panel
+description-cs.UTF-8: Testy ověření hodin v panelu
+description-de.UTF-8: Verifizierungstest für die Menüleistenuhr
+description-el.utf-8: Έλεγχοι επαλήθευσης ρολογιού πίνακα εφαρμογών
+description-en_AU.UTF-8: Panel Clock Verification tests
+description-en_GB.UTF-8: Panel Clock Verification tests
+description-es.UTF-8: Pruebas de verificación del reloj del panel
+description-fi.UTF-8: Paneelin kellon testit
+description-it.UTF-8: Test di verifica dell'orologio del pannello
+description-ms.UTF-8: Ujian Pengesahan Jam Panel
+description-nl.UTF-8: Paneelklok verificatietests
+description-pt_BR.UTF-8: Testes de verificação do painel de relógio
+description-ro.UTF-8: Teste pentru verificarea ceasului din panou
+description-ru.UTF-8: Проверка часов на панели
+description-sl.UTF-8: Preizkusi preverjanja ure nadzorne plošče
+description-tr.UTF-8: Panel Saati Doğrulama Testleri
+description-ug.UTF-8: تاختا سائەت تەكشۈرۈش سىناقلىرى
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/panel_clock_test.txt?(.in)
+
+name: __pcmcia-pcix__
+plugin: local
+description: PCMCIA/PCIX Card tests
+description-ast.UTF-8: Pruebes de tarxetes PCMCIA/PCIX
+description-be.UTF-8: Праверка PCMCIA/PCIX карт
+description-bs.UTF-8: Testovi  PCMCIA/PCIX kartica
+description-ca.UTF-8: Comprovacions de les targetes PCMCIA/PCIX
+description-cs.UTF-8: Testy karet PCMCIA/PCIX
+description-de.UTF-8: PCMCIA/PCIX-Karten-Tests
+description-el.utf-8: Έλεγχοι καρτών PCMCIA/PCIX
+description-en_AU.UTF-8: PCMCIA/PCIX Card tests
+description-en_GB.UTF-8: PCMCIA/PCIX Card tests
+description-es.UTF-8: Pruebas de tarjetas PCMCIA/PCIX
+description-fi.UTF-8: PCMCIA-/PCIX-kortin testit
+description-fr.UTF-8: Tests des cartes PCMCIA/PCIX
+description-gl.UTF-8: Probas de tarxetas PCMCIA/PCIX
+description-hu.UTF-8: PCMCIA/PCIX kártya tesztek
+description-it.UTF-8: Test delle schede PCMCIA/PCIX
+description-ja.UTF-8: PCMCIA/PCIXカードテスト
+description-lv.UTF-8: PCMCIA/PCIX karšu testi
+description-ms.UTF-8: Ujian Kad PCMCIA/PCIX
+description-nl.UTF-8: PCMCIA/PCIX-kaart testen
+description-oc.UTF-8: Tèsts de las cartas PCMCIA/PCIX
+description-pl.UTF-8: Testy kart PCMCIA/PCIX
+description-pt_BR.UTF-8: Testes de placas PCMCIA/PCIX
+description-ro.UTF-8: Teste pentru dispozitivele PCMCIA/PCIX
+description-ru.UTF-8: Проверка PCMCIA/PCIX карт
+description-sl.UTF-8: Preizkusi kartic PCMCIA/PCIX
+description-sq.UTF-8: Testim i kartave PCMCIA/PCIX
+description-sr.UTF-8: Тестови ПЦМЦИА/ПЦИХ картица
+description-sv.UTF-8: Tester för PCMCIA/PCIX Card
+description-tr.UTF-8: PCMCIA/PCIX Kart testleri
+description-ug.UTF-8: PCMCIA/PCIX كارتىلىرى سىناقلىرى
+description-zh_TW.UTF-8: PCMCIA/PCIX 卡測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/pcmcia-pcix.txt?(.in)
+
+name: __peripheral__
+plugin: local
+description: Peripheral tests
+description-ar.UTF-8: اختبارات الملحقات
+description-ast.UTF-8: Pruebes de periféricos
+description-be.UTF-8: Праверка перыферыйнага абсталявання
+description-bg.UTF-8: Тестове за периферията
+description-bn.UTF-8: প্রান্তিক টেস্ট
+description-bo.UTF-8: རྒྱུད་སྐུད་ཟླུམ་པོར་བརྟག་ཞིབ
+description-br.UTF-8: Prouadoù an trobarzhelloù
+description-bs.UTF-8: Periferalni testovi
+description-ca.UTF-8: Comprovacions dels perifèrics
+description-ca@valencia.UTF-8: Comprovacions dels perifèrics
+description-ckb.UTF-8: تاقیکاری ڕووکه‌ش
+description-cs.UTF-8: Testy periferií
+description-da.UTF-8: Test af ydre enhed
+description-de.UTF-8: Tests für Peripheriegeräte
+description-el.utf-8: Έλεγχοι περιφερειακών
+description-en_AU.UTF-8: Peripheral tests
+description-en_CA.UTF-8: Peripheral tests
+description-en_GB.UTF-8: Peripheral tests
+description-eo.UTF-8: Flankaparatartestoj
+description-es.UTF-8: Pruebas de periféricos
+description-et.UTF-8: Välisseadmete testid
+description-eu.UTF-8: Periferikoen probak
+description-fi.UTF-8: Oheislaitteiden testit
+description-fr.UTF-8: Tests des périphériques
+description-gl.UTF-8: Probas dos periféricos
+description-he.UTF-8: בדיקות התקנים הקפיים
+description-hi.UTF-8: परिधीय जाँच
+description-hr.UTF-8: Periferni testovi
+description-hu.UTF-8: Perifériatesztek
+description-id.UTF-8: Uji perangkat pendukung
+description-is.UTF-8: Prófanir á ytri geymslu
+description-it.UTF-8: Test delle periferiche
+description-ja.UTF-8: 周辺機器テスト
+description-kk.UTF-8: Перефериялардың тексерістері
+description-ko.UTF-8: 주변 기기 테스트
+description-ku.UTF-8: Ceribandinên alavên hawîrdorî
+description-lt.UTF-8: Išorinių įtaisų testai
+description-lv.UTF-8: Perifērijas ierīču testi
+description-mr.UTF-8: ऊपकरणांचे परिक्षण
+description-ms.UTF-8: Ujian peranti persisian
+description-my.UTF-8: တခြား စမ်းသပ်မူများ
+description-nb.UTF-8: Test av ekstern maskinvare
+description-nl.UTF-8: Randapparatuur testen
+description-oc.UTF-8: Tèsts dels periferics
+description-pl.UTF-8: Testy urządzeń peryferyjnych
+description-pt.UTF-8: Testes de periféricos
+description-pt_BR.UTF-8: Testes de periférico
+description-ro.UTF-8: Teste de periferice
+description-ru.UTF-8: Проверка периферийного оборудования
+description-sk.UTF-8: Testovanie ďalších zariadení
+description-sl.UTF-8: Preizkusi zunanjih naprav
+description-sq.UTF-8: Testimet e periferikeve
+description-sr.UTF-8: Тестови периферија
+description-sv.UTF-8: Tester för kringutrustning
+description-th.UTF-8: ทดสอบอุปกรณ์ต่อพ่วง
+description-tr.UTF-8: Çevresel birimler sınamaları
+description-ug.UTF-8: يانداش ئۈسكۈنە سىناقلىرى
+description-uk.UTF-8: Перевірка периферії
+description-vi.UTF-8: Kiểm tra thiết bị ngoại vi
+description-zh_CN.UTF-8: 外围设备测试
+description-zh_HK.UTF-8: 周邊裝置測試
+description-zh_TW.UTF-8: 週邊裝置測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/peripheral.txt?(.in)
+
+name: __phoronix__
+plugin: local
+description: Phoronix Test Suite tests
+description-ast.UTF-8: Pruebes de Phoronix Test Suite
+description-cs.UTF-8: Testy z Phoronix test suite
+description-de.UTF-8: Phoronix-Test-Suite-Tests
+description-el.utf-8: Έλεγχοι σουίτας δοκιμών του Phoronix
+description-en_AU.UTF-8: Phoronix Test Suite tests
+description-en_GB.UTF-8: Phoronix Test Suite tests
+description-es.UTF-8: Pruebas de Phoronix Test Suite
+description-fi.UTF-8: Phoronix Test Suite -testit
+description-it.UTF-8: Test della suite Phoronix Test
+description-ms.UTF-8: Ujian Suit Ujian Phoronix
+description-nl.UTF-8: Phonorix testpakket
+description-pt_BR.UTF-8: Testes da suíte de testes Phoronix
+description-ro.UTF-8: Teste din suita Phoronix
+description-ru.UTF-8: Тесты Phoronix Test Suite
+description-sl.UTF-8: Preizkusi iz zbirke preizkusov Phoronix
+description-tr.UTF-8: Phoronix Sınama Paketi testleri
+description-ug.UTF-8: Phoronix Test Suite سىناقلىرى
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/phoronix.txt?(.in)
+
+name: __power-management__
+plugin: local
+description: Power Management tests
+description-ast.UTF-8: Pruebes de xestión d'enerxía
+description-be.UTF-8: Праверка кіравання электрасілкаваннем
+description-bs.UTF-8: Testovi upravljanja napajanjem
+description-ca.UTF-8: Comprovacions de la gestió de l'energia
+description-cs.UTF-8: Testy správy napájení
+description-da.UTF-8: Strømstyringstester
+description-de.UTF-8: Energieverwaltungs-Tests
+description-el.utf-8: Έλεγχοι διαχείρισης ενέργειας
+description-en_AU.UTF-8: Power Management tests
+description-en_GB.UTF-8: Power Management tests
+description-es.UTF-8: Pruebas de gestión de energía
+description-fi.UTF-8: Virranhallintatestit
+description-fr.UTF-8: Tests de la gestion de l'alimentation
+description-gl.UTF-8: Probas de xestión de enerxía
+description-hu.UTF-8: Energiagazdálkodás tesztek
+description-it.UTF-8: Test della gestione dell'alimentazione
+description-ja.UTF-8: パワーマネジメントテスト
+description-lv.UTF-8: Barošanas pārvaldības testi
+description-ms.UTF-8: Ujian Pengurusan kuasa
+description-nl.UTF-8: Energiebeheer testen
+description-oc.UTF-8: Tèsts de la gestion de l'alimentacion
+description-pl.UTF-8: Testy zarządzania zasilaniem
+description-pt_BR.UTF-8: Testes de gerenciamento de energia
+description-ro.UTF-8: Teste pentru funcțiile de administrare a consumului
+description-ru.UTF-8: Проверка управления электропитанием
+description-sl.UTF-8: Preizkusi upravljanja porabe
+description-sq.UTF-8: Testim i menaxhimit të tensionit
+description-sr.UTF-8: Тестови управљања напајањем
+description-sv.UTF-8: Tester för strömhantering
+description-tr.UTF-8: Güç Yönetimi sınamaları
+description-ug.UTF-8: مەنبە باشقۇرۇش سىناقلىرى
+description-zh_TW.UTF-8: 電源管理測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/power-management.txt?(.in)
+
+name: __qa__
+plugin: local
+description: QA Regression tests
+description-ast.UTF-8: Pruebes de regresión QA
+description-cs.UTF-8: Testy QA Regression
+description-de.UTF-8: QA-Regressionstests
+description-el.utf-8: Έλεγχοι παλινδρομήσεων QA
+description-en_AU.UTF-8: QA Regression tests
+description-en_GB.UTF-8: QA Regression tests
+description-es.UTF-8: Pruebas de regresión QA
+description-it.UTF-8: Test di regressioni QA
+description-ms.UTF-8: Ujian Reggresi QA
+description-nl.UTF-8: QA-regressie testen
+description-pt_BR.UTF-8: Testes de regressão QA
+description-ro.UTF-8: Teste tip întrebări și răspunsuri pentru determinarea regresiilor
+description-ru.UTF-8: Регрессионные тесты качества
+description-sl.UTF-8: Preizkusi nazadovanja kakovosti
+description-tr.UTF-8: QA Gerileme sınamaları
+description-ug.UTF-8: QA Regression سىناقلىرى
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/qa_regression.txt?(.in)
+
+name: __server-services__
+plugin: local
+description: Server Services checks
+description-ast.UTF-8: Comprueba los servicios del sirvidor
+description-cs.UTF-8: Kontroly serverových služeb
+description-de.UTF-8: Serverdiensteüberprüfung
+description-el.utf-8: Έλεγχοι υπηρεσιών εξυπηρετητή
+description-en_AU.UTF-8: Server Services checks
+description-en_GB.UTF-8: Server Services checks
+description-es.UTF-8: Comprueba los servicios del servidor
+description-fi.UTF-8: Palvelinpalvelutestit
+description-it.UTF-8: Test sui servizi server
+description-ms.UTF-8: Semakan Perkhidmatan Pelayan
+description-nl.UTF-8: Server services controleren
+description-pt_BR.UTF-8: Verificação de serviços do servidor
+description-ro.UTF-8: Verificări pentru serviciile serverelor
+description-ru.UTF-8: Проверки серверных служб
+description-sl.UTF-8: Preverjanje strežniških storitev
+description-tr.UTF-8: Sunucu Hizmetleri denetlemeleri
+description-ug.UTF-8: مۇلازىمېتىر مۇلازىمەتلىرىنى تەكشۈرۈش
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/server-services.txt?(.in)
+
+name: __suspend__
+plugin: local
+description: Suspend tests
+description-ast.UTF-8: Pruebes de suspensión
+description-be.UTF-8: Тэсты рэжыму чакання
+description-bs.UTF-8: Test suspenzije
+description-ca.UTF-8: Comprovacions de l'aturada temporal
+description-cs.UTF-8: Testy uspávání
+description-de.UTF-8: Bereitschaftstests
+description-el.utf-8: Έλεγχοι αναστολής λειτουργίας
+description-en_AU.UTF-8: Suspend tests
+description-en_GB.UTF-8: Suspend tests
+description-es.UTF-8: Pruebas de suspensión
+description-fi.UTF-8: Valmiustilatestit
+description-fr.UTF-8: Tests de la mise en veille
+description-gl.UTF-8: Probas de suspensión
+description-hu.UTF-8: Felfüggesztés tesztek
+description-it.UTF-8: Test di sospensione
+description-ja.UTF-8: サスペンドテスト
+description-lv.UTF-8: Iesnaudināšanas testi
+description-ms.UTF-8: Uji tangguh
+description-nl.UTF-8: Pauzestand testen
+description-oc.UTF-8: Tèsts de la mesa en velha
+description-pl.UTF-8: Testy wstrzymywania systemu
+description-pt_BR.UTF-8: Testes de suspensão
+description-ro.UTF-8: Teste pentru funcția de suspendare
+description-ru.UTF-8: Тесты ждущего режима
+description-sl.UTF-8: Preizkusi stanja pripravljenosti
+description-sq.UTF-8: Pezullo testimet
+description-sr.UTF-8: Тестови обустављања
+description-sv.UTF-8: Tester för vänteläge
+description-tr.UTF-8: Askıda kalma (bekleme) testleri
+description-ug.UTF-8: توڭلىتىش سىناقلىرى
+description-zh_TW.UTF-8: 休眠測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/suspend.txt?(.in)
+
+name: __touchpad__
+plugin: local
+description: Touchpad tests
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/touchpad.txt?(.in)
+
+name: __unity__
+plugin: local
+description: Unity tests
+description-ast.UTF-8: Pruebes d'Unity
+description-be.UTF-8: Тэсты Unity
+description-bs.UTF-8: Tesyt za Unity
+description-ca.UTF-8: Comprovacions de l'Unity
+description-cs.UTF-8: Testy Unity
+description-da.UTF-8: Unitytester
+description-de.UTF-8: Unity-Tests
+description-el.utf-8: Έλεγχοι του Unity
+description-en_AU.UTF-8: Unity tests
+description-en_GB.UTF-8: Unity tests
+description-es.UTF-8: Pruebas de Unity
+description-fi.UTF-8: Unity-testit
+description-fr.UTF-8: Tests de Unity
+description-gl.UTF-8: Probas de Unity
+description-hu.UTF-8: Unity tesztek
+description-it.UTF-8: Test di Unity
+description-ja.UTF-8: Unityテスト
+description-lv.UTF-8: Unity testi
+description-ms.UTF-8: Ujian unity
+description-nl.UTF-8: Unity testen
+description-oc.UTF-8: Tèsts d'Unity
+description-pl.UTF-8: Testy środowiska graficznego Unity
+description-pt_BR.UTF-8: Testes do Unity
+description-ro.UTF-8: Teste pentru mediul grafic Unity
+description-ru.UTF-8: Тесты Unity
+description-sl.UTF-8: Preizkusi Unity
+description-sq.UTF-8: Testim i Unity
+description-sr.UTF-8: Тестови Унитија
+description-sv.UTF-8: Tester för Unity
+description-tr.UTF-8: Unity testleri
+description-ug.UTF-8: Unity سىناقلىرى
+description-zh_TW.UTF-8: Unity 測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/unity.txt?(.in)
+
+name: __usb__
+plugin: local
+description: USB tests
+description-ast.UTF-8: Pruebes d'USB
+description-be.UTF-8: Праверка USB
+description-bs.UTF-8: USB testovi
+description-ca.UTF-8: Comprovacions de l'USB
+description-cs.UTF-8: Testy USB
+description-da.UTF-8: USB-tester
+description-de.UTF-8: USB-Tests
+description-el.utf-8: Έλεγχοι USB
+description-en_AU.UTF-8: USB tests
+description-en_GB.UTF-8: USB tests
+description-es.UTF-8: Pruebas de USB
+description-fi.UTF-8: USB-testit
+description-fr.UTF-8: Tests USB
+description-gl.UTF-8: Probas de USB
+description-hu.UTF-8: USB-tesztek
+description-it.UTF-8: Test delle porte USB
+description-ja.UTF-8: USBテスト
+description-lv.UTF-8: USB testi
+description-ms.UTF-8: Ujian USB
+description-nl.UTF-8: USB testen
+description-oc.UTF-8: Tèsts USB
+description-pl.UTF-8: Testy magistrali USB
+description-pt_BR.UTF-8: Testes de USB
+description-ro.UTF-8: Teste pentru conexiunile USB
+description-ru.UTF-8: Проверка USB
+description-sl.UTF-8: Preizkusi USB
+description-sq.UTF-8: Testime të USB
+description-sr.UTF-8: Тестови УСБ-а
+description-sv.UTF-8: Tester för USB
+description-tr.UTF-8: USB sınamaları
+description-ug.UTF-8: USB سىناقلىرى
+description-zh_HK.UTF-8: USB測試
+description-zh_TW.UTF-8: USB 測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/usb.txt?(.in)
+
+name: __user_apps__
+plugin: local
+description: User Applications
+description-ar.UTF-8: تطبيقات المستخدم
+description-ast.UTF-8: Aplicaciones d'usuariu
+description-be.UTF-8: Дадаткі Карыстальніка
+description-bg.UTF-8: Потребителски приложения
+description-bn.UTF-8: ব্যবহারকারীর অ্যাপ্লিকেশন
+description-bs.UTF-8: Korisničke aplikacije
+description-ca.UTF-8: Aplicacions d'usuari
+description-ca@valencia.UTF-8: Aplicacions d'usuari
+description-cs.UTF-8: Uživatelské aplikace
+description-da.UTF-8: Brugerprogrammer
+description-de.UTF-8: Benutzeranwendungen
+description-el.utf-8: Εφαρμογές χρήστη
+description-en_AU.UTF-8: User Applications
+description-en_CA.UTF-8: User Applications
+description-en_GB.UTF-8: User Applications
+description-eo.UTF-8: Uzant-aplikaĵoj
+description-es.UTF-8: Aplicaciones de usuario
+description-et.UTF-8: Kasutaja rakendused
+description-fi.UTF-8: Käyttäjäsovellukset
+description-fr.UTF-8: Applications de l'utilisateur
+description-gl.UTF-8: Aplicativos de usuario
+description-he.UTF-8: יישומי משתמש
+description-hi.UTF-8: प्रयोक्ता अनुप्रयोग
+description-hu.UTF-8: Felhasználói alkalmazások
+description-it.UTF-8: Applicazioni utente
+description-ja.UTF-8: ユーザアプリケーション
+description-ko.UTF-8: 사용자 응용프로그램
+description-lt.UTF-8: Naudotojo programos
+description-lv.UTF-8: Lietotāja lietotnes
+description-ms.UTF-8: Aplikasi Pengguna
+description-my.UTF-8: သူဆွဲသူ အသုံးချဆော့ဝဲလ်များ
+description-nb.UTF-8: Brukerprogrammer
+description-nl.UTF-8: Gebruikersapplicaties
+description-oc.UTF-8: Aplicacions de l'utilizaire
+description-pl.UTF-8: Aplikacje użytkownika
+description-pt.UTF-8: Aplicações de Utilizador
+description-pt_BR.UTF-8: Aplicativos do usuário
+description-ro.UTF-8: Aplicații pentru utilizatori
+description-ru.UTF-8: Пользовательские приложения
+description-sk.UTF-8: Používateľské aplikácie
+description-sl.UTF-8: Uporabniški programi
+description-sq.UTF-8: Programet e Përdoruesve
+description-sr.UTF-8: Програми корисника
+description-sv.UTF-8: Användarprogram
+description-th.UTF-8: โปรแกรมผู้ใช้
+description-tr.UTF-8: Kullanıcı Uygulamaları
+description-ug.UTF-8: ئىشلەتكۈچى پروگراممىلىرى
+description-uk.UTF-8: Програми користувача
+description-vi.UTF-8: Ứng dụng người dùng
+description-zh_CN.UTF-8: 用户应用程序
+description-zh_HK.UTF-8: 使用者應用程式
+description-zh_TW.UTF-8: 使用者應用程式
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/user_apps.txt?(.in)
+
+name: __wireless__
+plugin: local
+description: Wireless networking tests
+description-ast.UTF-8: Pruebes de redes inalámbriques
+description-be.UTF-8: Тэсты бесправадных сетак
+description-bs.UTF-8: Testovi bežične mreže
+description-ca.UTF-8: Comprovacions de les xarxes sense fil
+description-cs.UTF-8: Testy bezdrátového připojení
+description-de.UTF-8: Funknetzwerktests
+description-el.utf-8: Έλεγχοι ασύρματης δικτύωσης
+description-en_AU.UTF-8: Wireless networking tests
+description-en_GB.UTF-8: Wireless networking tests
+description-es.UTF-8: Pruebas de redes inalámbricas
+description-fi.UTF-8: Langattoman verkon testit
+description-fr.UTF-8: Tests du réseau sans fil
+description-gl.UTF-8: Probas de redes sen fíos
+description-hu.UTF-8: Vezeték nélküli hálózat tesztek
+description-it.UTF-8: Test delle reti senza fili
+description-ja.UTF-8: ワイヤレスネットワークテスト
+description-lv.UTF-8: Bezvadu tīklošanas testi
+description-ms.UTF-8: Uji rangkaian tanpa wayar
+description-nl.UTF-8: Draadloos netwerk testen
+description-oc.UTF-8: Tèsts de la ret sens fial
+description-pl.UTF-8: Testy łączności sieci bezprzewodowej
+description-pt_BR.UTF-8: Testes de rede sem fio
+description-ro.UTF-8: Teste pentru rețeaua fără fir
+description-ru.UTF-8: Тесты беспроводных сетей
+description-sl.UTF-8: Preizkusi brezžične povezave
+description-sq.UTF-8: Testime të rrjetit wireless
+description-sr.UTF-8: Тестови бежичног умрежавања
+description-sv.UTF-8: Tester för trådlösa nätverk
+description-tr.UTF-8: Kablosuz ağ sınamaları
+description-ug.UTF-8: سىمسىز تور سىناقلىرى
+description-zh_TW.UTF-8: 無線網路測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/wireless.txt?(.in)
+
+name: __stress__
+plugin: local
+description: Stress tests
+description-ast.UTF-8: Pruebes d'estrés
+description-be.UTF-8: Стрэсс-тэсты
+description-bg.UTF-8: Стрес тестове
+description-bs.UTF-8: Testovi opterećenja
+description-ca.UTF-8: Comprovacions d'intensitat
+description-cs.UTF-8: Zátěžové testy
+description-da.UTF-8: Stress-test
+description-de.UTF-8: Stress-Tests
+description-el.utf-8: Έλεγχοι υπερβολικού φόρτου
+description-en_AU.UTF-8: Stress tests
+description-en_GB.UTF-8: Stress tests
+description-es.UTF-8: Pruebas de estrés
+description-fi.UTF-8: Rasitustestit
+description-fr.UTF-8: Stress tests
+description-gl.UTF-8: Probas de estrés
+description-hu.UTF-8: Terhelés tesztek
+description-it.UTF-8: Test di stress
+description-lv.UTF-8: Stresa testi
+description-ms.UTF-8: Ujian Tekanan
+description-nl.UTF-8: Stresstests
+description-oc.UTF-8: Stress tests
+description-pl.UTF-8: Testy obciążeniowe
+description-pt_BR.UTF-8: Testes de pressão
+description-ro.UTF-8: Teste de stres
+description-ru.UTF-8: Стресс-тесты
+description-sl.UTF-8: Preizkusi obremenitve
+description-sq.UTF-8: Testet e stresit
+description-sr.UTF-8: Тестови оптерећења
+description-sv.UTF-8: Stresstester
+description-th.UTF-8: เน้นการทดสอบ
+description-tr.UTF-8: Stres testleri
+description-ug.UTF-8: چارچىتىش سىناقلىرى
+description-zh_CN.UTF-8: 压力测试
+description-zh_TW.UTF-8: 壓力測試
+command:
+  shopt -s extglob
+  cat $CHECKBOX_SHARE/jobs/stress.txt?(.in)

@@ -1,0 +1,12 @@
+#  This file was taken from systemd.
+#
+#  This program is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+
+[D-BUS Service]
+Name=org.freedesktop.hostname1
+Exec=/usr/lib/system-service/system-service-d
+User=root
+SystemdService=dbus-org.freedesktop.hostname1.service

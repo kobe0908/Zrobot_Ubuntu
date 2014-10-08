@@ -1,0 +1,6 @@
+2b0568b7d170b719b2fa2731301d5be1  usr/lib/unity-scope-video-remote/unity-scope-video-remote
+8c7003df317e65ff34f0d667acbada83  usr/share/dbus-1/services/unity-scope-video-remote.service
+58c02fe429db0ebde20609484e6abcae  usr/share/doc/unity-scope-video-remote/changelog.Debian.gz
+340e2d1afce8acddde3c23bb66901d5e  usr/share/doc/unity-scope-video-remote/copyright
+b51af35e58900359e275444597f25671  usr/share/pyshared/unity_scope_video_remote-0.3.5.egg-info
+f6984e21b6434c8a454fc0974efbf969  usr/share/unity/lenses/video/video-remote.scope

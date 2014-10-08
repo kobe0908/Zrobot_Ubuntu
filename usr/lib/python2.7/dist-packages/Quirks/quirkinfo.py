@@ -1,0 +1,1 @@
+../../../../share/pyshared/Quirks/quirkinfo.py

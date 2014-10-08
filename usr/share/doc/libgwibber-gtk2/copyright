@@ -1,0 +1,38 @@
+Format: http://dep.debian.net/deps/dep5
+Source: https://launchpad.net/gwibber
+Upstream-Name: gwibber
+Upstream-Contact: Ken VanDine <ken.vandine@ubuntu.com>
+
+Files: *
+Copyright: 2008 Ryan Paul <segphault@arstechnica.com>
+           2010-2011 Canonical Ltd.
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: libgwibber*/* examples/* client/*
+Copyright: 2011-2012 Canonical Ltd.
+License: LGPL-3
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files: man/gwibber.1: 
+Copyright: 2009 Greg Grossmeier <greg@grossmeier.net>
+License: CC-BY-SA
+ <http://creativecommons.org/licenses/by-sa/3.0/>
+
+Files: man/gwibber-poster.1: 
+Copyright: 2010 Canonical Ltd.
+License: CC-BY-SA
+ <http://creativecommons.org/licenses/by-sa/3.0/>
+
+Files: man/gwibber-account.1: 
+Copyright: 2010 Kartik Mistry <kartik@debian.org>
+License: CC-BY-SA
+ <http://creativecommons.org/licenses/by-sa/3.0/>
+
+Files: */gwibber-*.png
+Copyright: 2010 Matthieu James <matthieu.james@gmail.com>
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.

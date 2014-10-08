@@ -1,1 +1,0 @@
-../../../../../../../share/pyshared/IPython/frontend/terminal/console/interactiveshell.py

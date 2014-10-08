@@ -1,0 +1,300 @@
+plugin: shell
+name: graphics/xorg-version
+requires: package.name == "x11-utils"
+command: xdpyinfo | grep "^X.Org version" | cut -d ':' -f 2 | tr -d ' '
+description: Test to output the Xorg version
+description-ast.UTF-8: Prueba p'amosar la versión de Xorg
+description-cs.UTF-8: Test výstupu verze Xorg
+description-de.UTF-8: Test zur Anzeige der Xorg-Version
+description-el.utf-8: Δοκιμή για την έξοδο της έκδοσης Xorg
+description-en_AU.UTF-8: Test to output the Xorg version
+description-en_GB.UTF-8: Test to output the Xorg version
+description-es.UTF-8: Prueba para mostrar la versión de Xorg
+description-fi.UTF-8: Testi, joka tulostaa Xorg-version
+description-fr.UTF-8: Test d'affichage de la version Xorg
+description-gd.UTF-8: Deuchainn ri às-chur an tionndaidh Xorg.
+description-it.UTF-8: Test per visualizzare la versione di Xorg
+description-ms.UTF-8: Uji untuk outputkan versi Xorg
+description-nl.UTF-8: Met deze test kunt u de Xorg-versie achterhalen
+description-pt_BR.UTF-8: Teste para mostrar a versão do Xorg
+description-ro.UTF-8: Testare ieșire pentru versiunea Xorg
+description-ru.UTF-8: Тест, выводящий сведения о версии X.Org
+description-sl.UTF-8: Preizkus za izpis različice Xorg
+description-tr.UTF-8: Xorg sürümünü görüntülemek için sınayın
+description-uk.UTF-8: Тест для виведення версії Xorg
+
+plugin: shell
+name: graphics/gtkperf
+depends: graphics/xorg-version
+requires: package.name == 'gtkperf'
+command: gtkperf -a | grep "Total time:"
+description:
+ Run gtkperf to make sure that GTK based test cases work
+
+plugin: manual
+name: graphics/resolution-change
+depends: graphics/xorg-version
+description:
+ PURPOSE:
+     This test will verify that the GUI is usable after manually changing resolution
+ STEPS:
+     1. Open the Displays application
+     2. Select a new resolution from the dropdown list
+     3. Click on Apply
+     4. Select the original resolution from the dropdown list
+     5. Click on Apply
+ VERIFICATION:
+     Did the resolution change as expected?
+
+plugin: manual
+name: graphics/rotation
+depends: graphics/xorg-version
+description:
+ PURPOSE:
+     This test will test display rotation
+ STEPS:
+     1. Open the Displays application
+     2. Select a new rotation value from the dropdown list
+     3. Click on Apply
+     4. Click on Restore Previous Configuration
+     5. Click on Apply
+     6. Repeat 2-5 for different rotation values
+ VERIFICATION:
+     Did the display rotation change as expected?
+
+plugin: shell
+name: graphics/xorg-process
+requires: package.name == 'xorg' and package.name == 'procps'
+command: pgrep -f '/usr/bin/X' >/dev/null
+description: Test that the X process is running.
+description-ast.UTF-8: Prueba que'l procesu de X ta n'execución.
+description-be.UTF-8: Праверка выканання працэсу X.
+description-bs.UTF-8: Test da li X proces radi.
+description-ca.UTF-8: Comproveu que s'estigui executant el procés de les X.
+description-cs.UTF-8: Ověřit, že běží proces X.
+description-da.UTF-8: Test om X-processen kører.
+description-de.UTF-8: Testen, ob der X-Prozess ausgeführt wird.
+description-el.utf-8: Δοκιμή ότι η διεργασία X εκτελείται.
+description-en_AU.UTF-8: Test that the X process is running.
+description-en_GB.UTF-8: Test that the X process is running.
+description-es.UTF-8: Prueba que el proceso de X está en ejecución.
+description-fi.UTF-8: Tarkistetaan, että X-prosessi on käynissä.
+description-fr.UTF-8: Testez que le processus de X est en cours d'exécution.
+description-gl.UTF-8: Proba que o proceso de X está en execución.
+description-hu.UTF-8: Az X folyamat futásának tesztelése.
+description-it.UTF-8: Verifica che il processo X sia in esecuzione.
+description-ja.UTF-8: Xが動作しているかテストします。
+description-lv.UTF-8: Pārbaudīt, vai X process darbojas.
+description-ms.UTF-8: Uji yang mana proses X sedang dijalankan.
+description-nl.UTF-8: Test of het X-proces actief is.
+description-oc.UTF-8: Testatz que lo processus de X es en cors d'execucion.
+description-pt_BR.UTF-8: Testar se o processo X está sendo executado
+description-ro.UTF-8: Testează dacă procesul X rulează.
+description-ru.UTF-8: Проверка выполнения процесса X.
+description-sl.UTF-8: Preizkus ali je opravilo X zagnano.
+description-sq.UTF-8: Testo nëse proçesi X është aktiv.
+description-sr.UTF-8: Проверите да ли је Икс процес покренут.
+description-sv.UTF-8: Testa att X-processen körs.
+description-tr.UTF-8: X işleminin çalıştığını sınayın.
+description-ug.UTF-8: X ئىجراسى ئىجرا بولۇۋاتامدۇ سىنايدۇ.
+description-uk.UTF-8: Перевірка, чи процес X виконується.
+description-zh_TW.UTF-8: 測試 X 進程正在執行.
+
+plugin: shell
+name: graphics/xorg-failsafe
+requires: package.name == 'xorg'
+command: ! test -e /var/log/Xorg.failsafe.log
+description: Test that the X is not running in failsafe mode.
+description-ast.UTF-8: Prueba que X nun ta funcionando en mou a prueba d'errores.
+description-be.UTF-8: Праверка незадзейнічання працэсу X у бяспечным рэжыме.
+description-bs.UTF-8: Test da  X ne radi u režimu za slučaj grešaka.
+description-ca.UTF-8: Comproveu que les X no s'estiguin executant en mode a prova de fallades.
+description-cs.UTF-8: Ověřit, že X neběží v záchranném režimu.
+description-da.UTF-8: Test at X ikke kører i fejlsikret tilstand.
+description-de.UTF-8: Testen, dass der X-Prozess im abgesicherten Modus nicht ausgeführt wird.
+description-el.utf-8: Δοκιμή ότι η διεργασία X εκτελείται σε ασφαλή λειτουργία.
+description-en_AU.UTF-8: Test that the X is not running in failsafe mode.
+description-en_GB.UTF-8: Test that the X is not running in failsafe mode.
+description-es.UTF-8: Pruebe que X no está funcionando en modo a prueba de errores.
+description-fi.UTF-8: Tarkistetaan, ettei X-prosessi ole vikasietotilassa.
+description-fr.UTF-8: Testez que X ne fonctionne pas en mode sans échec.
+description-gl.UTF-8: Proba para saber se X non está funcionando en modo a proba de erros.
+description-hu.UTF-8: Annak ellenőrzése, hogy az X nem csökkentett módban fut-e.
+description-it.UTF-8: Verifica che X non sia in esecuzione in modalità grafica sicura
+description-ja.UTF-8: Xがフェイルセーフモードで動作していないかテストします。
+description-lv.UTF-8: Pārbaudīt, vai X process nedarbojas drošajā režīmā.
+description-ms.UTF-8: Uji yang mana X tidak dijalankan dalam mod gagal-selamat.
+description-nl.UTF-8: Test of X niet in veilige modus wordt uitgevoerd.
+description-oc.UTF-8: Testatz que X foncione pas en mòde sens fracàs.
+description-pt_BR.UTF-8: Testar se o X não está sendo executado no modo de segurança.
+description-ro.UTF-8: Testează dacă  procesul X nu rulează în modul de siguranță.
+description-ru.UTF-8: Проверка незадействованности процесса X в безопасном режиме.
+description-sl.UTF-8: Preizkus, da se X ne izvaja v zasilnem načinu.
+description-sq.UTF-8: Testoni që X të mos nisë në mënyrë të sigurtë.
+description-sr.UTF-8: Проверите да Икс није покренут у режиму спашавања.
+description-sv.UTF-8: Testa att X inte körs i felsäkert läge.
+description-tr.UTF-8: Hatasız kipte X'in çalışmadığını sınar.
+description-ug.UTF-8: X ئىجراسىنىڭ بىخەتەر ھالەتتە ئىجرا بولمىغانلىقىنى سىنايدۇ.
+description-uk.UTF-8: Перевірка, чи процес X виконується не у відмовостійкому режимі.
+description-zh_TW.UTF-8: 測試在失敗安全模式下 X 進程停止執行.
+
+plugin: shell
+name: graphics/xorg-memory
+requires: package.name == 'xorg' and device.driver == 'i915'
+user: root
+command: xorg_memory_test xeyes
+description: Test that X does not leak memory when running programs on systems with intel based graphics.
+description-ast.UTF-8: Prueba que X nun pierde memoria al executar programes en sistemes con gráficos basaos ​​en Intel.
+description-cs.UTF-8: Testuje zda X neztrácí paměť (memory leak) při běhu na grafikách firmy Intel.
+description-de.UTF-8: Überprüfen, dass X kein Speicherleck verursacht, wenn Programme auf Systemen mit Intel-basierter Grafik ausgeführt werden.
+description-el.utf-8: Δοκιμή για το ότι η διεργασία X δεν παρουσιάζει διαρροή μνήμης κατά την εκτέλεση προγραμμάτων σε συστήματα με γραφικά Intel.
+description-en_AU.UTF-8: Test that X does not leak memory when running programs on systems with intel based graphics.
+description-en_GB.UTF-8: Test that X does not leak memory when running programs on systems with Intel based graphics.
+description-es.UTF-8: Prueba que X no pierde memoria al ejecutar programas en sistemas con gráficos basados ​​en Intel.
+description-fi.UTF-8: Tarkistetaan, ettei X vuoda muistia Intelin grafiikkalaitteistoa käytettäessä.
+description-it.UTF-8: Verifica che X non causi una perdita di memoria durante l'esecuzione di programmi in sistemi con grafica intel.
+description-ms.UTF-8: Uji sama ada X tidak bocorkan ingatan bila jalankan program pada sistem menggunakan grafik berasaskan intel.
+description-nl.UTF-8: Test om te controleren of X geen geheugen lekt bij het uitvoeren van programma's op systemen met een grafische kaart van intel.
+description-pt_BR.UTF-8: Teste que o X não ocorrerá vazamento de memória durante a execução de programas em sistemas com gráficos baseados em intel.
+description-ro.UTF-8: Testarea serviciului grafic X pentru depistarea ocupării defectuoase a memoriei la rularea unor programe pe sisteme care au echipamente grafice intel.
+description-ru.UTF-8: Проверка системы X для выявления утечки памяти во время выполнения программ на системах со встроенной графической системой intel.
+description-sl.UTF-8: Preizkus, da X-u ne uhaja pomnilnik, ko se izvajajo programi na sistemu z Intelovo grafiko.
+description-tr.UTF-8: X'in intel tabanlı ekran kartlarında program çalıştırırken bellek kaçağı yapıp yapmadığını sınayın.
+
+plugin: manual
+name: graphics/resolution
+requires:
+ device.category == 'VIDEO'
+command: resolution_test
+description:
+ PURPOSE:
+     This test will verify the default display resolution
+ STEPS:
+     1. This display is using the following resolution:
+ INFO:
+     $output
+ VERIFICATION:
+     Is this acceptable for your display?
+
+plugin: shell
+name: graphics/minimum_resolution
+requires:
+ device.category == 'VIDEO'
+command: resolution_test --horizontal 800 --vertical 600
+description:
+ Ensure the current resolution meets or exceeds the recommended minimum
+ resolution (800x600). See here for details:
+ .
+ https://help.ubuntu.com/community/Installation/SystemRequirements
+
+plugin: manual
+name: graphics/display
+requires: package.name == 'xorg' and package.name == 'python-gst0.10'
+command: gst_pipeline_test -t 2 'videotestsrc ! ffmpegcolorspace ! gconfvideosink'
+description:
+ PURPOSE:
+     This test will test the default display
+ STEPS:
+     1. Click "Test" to display a video test.
+ VERIFICATION:
+     Do you see color bars and static?
+
+plugin: shell
+name: graphics/VESA_drivers_not_in_use
+command: cat /var/log/Xorg.0.log | perl -e '$a=0;while(<>){$a++ if /Loading.*vesa_drv\.so/;$a-- if /Unloading.*vesa/&&$a}exit 1 if $a'
+description: Check that VESA drivers are not in use
+description-ast.UTF-8: Verifica que los controladores VESA nun tean n'usu
+description-cs.UTF-8: Zjistit zda se nepoužívají ovldače VESA
+description-de.UTF-8: Überprüfen, dass keine VESA-Treiber verwendet werden
+description-el.utf-8: Έλεγχος για το ότι οι οδηγοί VESA δεν χρησιμοποιούνται
+description-en_AU.UTF-8: Check that VESA drivers are not in use
+description-en_GB.UTF-8: Check that VESA drivers are not in use
+description-es.UTF-8: Verifica que los controladores VESA no estén en uso
+description-fi.UTF-8: Tarkista, ettei VESA-ajurit ole käytössä
+description-it.UTF-8: Verifica che i driver VESA non siano in uso.
+description-ms.UTF-8: Semak sama ada pemacu VESA tidak digunakan
+description-nl.UTF-8: Controleren of de VESA stuurprogramma's niet in gebruik zijn
+description-pt_BR.UTF-8: Verifique se os drivers VESA não estão em uso
+description-ro.UTF-8: Verifică dacă driverul VESA nu este utilizat
+description-ru.UTF-8: Проверка задействования драйверов VESA
+description-sl.UTF-8: Preveri, da gonilniki VESA niso v uporabi
+description-tr.UTF-8: VESA sürücülerinin kullanımda olmadığını denetleyin
+description-ug.UTF-8: VESA قوزغاتقۇلىرىنىڭ ئىشلىتىلمەيۋاتقانلىقىنى سىناش
+description-uk.UTF-8: Перевірити, чи драйвера VESA не використовуються
+
+plugin: manual
+name: graphics/cycle_resolution
+requires: package.name == 'xorg'
+depends: graphics/VESA_drivers_not_in_use
+command: xrandr_cycle
+description:
+ PURPOSE:
+     This test cycles through the detected video modes
+ STEPS:
+     1. Click "Test" to start cycling through the video modes
+ VERIFICATION:
+     Did the screen appear to be working for each mode?
+
+plugin: shell
+name: graphics/compiz_check
+requires: package.name == 'nux-tools'
+command:
+ perl -e '$a=`/usr/lib/nux/unity_support_test -c -p`;$a=~s/\e\[[\d;]*m//g;print $a;exit($? ? 1:0)'
+description: Check that hardware is able to run compiz
+description-ast.UTF-8: Verifica si'l hardware ye quien a correr Compiz
+description-cs.UTF-8: Zjistit zda je hardware schopný spustit compiz
+description-de.UTF-8: Überprüfen, ob Ihre Hardware Compiz ausführen kann
+description-el.utf-8: Έλεγχος για το αν το υλικό είναι ικανό να τρέξει το compiz
+description-en_AU.UTF-8: Check that hardware is able to run compiz
+description-en_GB.UTF-8: Check that hardware is able to run compiz
+description-es.UTF-8: Verifica si el hardware es capaz de correr Compiz
+description-fi.UTF-8: Tarkista, että laitteisto tukee compiz:ia
+description-it.UTF-8: Verifica che l'hardware supporti gli effetti visivi.
+description-ms.UTF-8: Semak sama ada perkakasan berupaya menjalani compiz
+description-nl.UTF-8: Controleren of de hardware in staat is Compiz te draaien
+description-pt_BR.UTF-8: Verifique se o hardware é capaz de executar o compiz
+description-ro.UTF-8: Verifică dacă sistemul poate rula compiz
+description-ru.UTF-8: Проверка аппаратных возможностей для запуска compiz
+description-sl.UTF-8: Preveri, da je strojna oprema zmožna poganjati compiz
+description-tr.UTF-8: Donanımın compiz'i çalıştırabildiğini denetleyin
+description-ug.UTF-8: قاتتىق دېتالدا compiz نى ئىجرا قىلغىلى بولىدىغانلىقىنى سىناش
+description-uk.UTF-8: Перевірити, чи апарати можуть запустити Compiz
+
+plugin: shell
+name: graphics/unity-support
+requires: package.name == 'nux-tools'
+command:
+ perl -e '$a=`/usr/lib/nux/unity_support_test -p`;$a=~s/\e\[[\d;]*m//g;print $a;exit($? ? 1:0)'
+description: Check that hardware is able to run Unity 3D
+description-ast.UTF-8: Verifica si'l Hardware ye quien a facer correr Unity 3D
+description-cs.UTF-8: Zjistit zda je hardware schopný spustit Unity
+description-de.UTF-8: Überprüfen, ob Ihre Hardware Unity-3D ausführen kann
+description-el.utf-8: Έλεγχος για το αν το υλικό είναι ικανό να τρέξει το Unity 3D
+description-en_AU.UTF-8: Check that hardware is able to run Unity 3D
+description-en_GB.UTF-8: Check that hardware is able to run Unity 3D
+description-es.UTF-8: Verifica si el Hardware es capaz de correr Unity 3D
+description-fi.UTF-8: Tarkista, että laitteistolla pystyy käyttämään Unity 3D:tä
+description-it.UTF-8: Verifica che l'hardware supporti Unity 3D.
+description-ms.UTF-8: Semak sama ada perkakasan berupaya menjalani Unity 3D
+description-nl.UTF-8: Controleren of de hardware in staat is Unity 3D te draaien
+description-pt_BR.UTF-8: Verifique se o hardware é capaz de executar o Unity 3D
+description-ro.UTF-8: Verifică dacă sistemul poate rula Unity 3D
+description-ru.UTF-8: Проверка аппаратных возможностей для запуска Unity 3D
+description-sl.UTF-8: Preveri, da je strojna oprema zmožna poganjati Unity 3D
+description-tr.UTF-8: Donanımın Unity 3D'yi çalıştırabildiğini denetleyin
+description-ug.UTF-8: قاتتىق دېتالدا Unity 3D نى ئىجرا قىلغىلى بولىدىغانلىقىنى سىناش
+description-uk.UTF-8: Перевірити, чи апарати можуть запустити Unity 3D
+
+plugin: manual
+name: graphics/glxgears
+requires: package.name == 'mesa-utils'
+command: glxgears; true
+description:
+ PURPOSE:
+     This test tests the basic 3D capabilities of your video card
+ STEPS:
+     1. Click "Test" to execute an OpenGL demo. Press ESC at any time to close.
+     2. Verify that the animation is not jerky or slow.
+ VERIFICATION:
+     1. Did the 3d animation appear?
+     2. Was the animation free from slowness/jerkiness?

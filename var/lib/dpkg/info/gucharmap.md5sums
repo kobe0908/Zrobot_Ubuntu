@@ -1,0 +1,12 @@
+48f79fc6f7f5ce0d353709e1c666e4d1  usr/bin/gucharmap
+f5e143dfe823be7ba801b923ff0789aa  usr/share/applications/gucharmap.desktop
+dc507dd9250b9ea01f0ad792954c2725  usr/share/doc/gucharmap/copyright
+c0be25fc754065ab158b5da62987a5a4  usr/share/glib-2.0/schemas/org.gnome.Charmap.enums.xml
+0690eed63e17facf2124679189451cb2  usr/share/glib-2.0/schemas/org.gnome.Charmap.gschema.xml
+ac39cd5bea2e85c2d3b7ccd5a974191e  usr/share/gnome/help/gucharmap/C/figures/gucharmap_start_window.png
+58402a71235197f0b7d1e2652a980e79  usr/share/gnome/help/gucharmap/C/figures/gucharmap_window.png
+1f2476931136c474712b4eab50542a7f  usr/share/gnome/help/gucharmap/C/gucharmap.xml
+079f9049bec3c1866c67e3312d563eed  usr/share/gnome/help/gucharmap/C/legal.xml
+433314e1bc88b821ac13ea1f452ac7e2  usr/share/man/man1/gucharmap.1.gz
+3ab7f6434d79daceff3757a217091c71  usr/share/menu/gucharmap
+cb71c3c78065e6d53fefa3680dffffaa  usr/share/omf/gucharmap/gucharmap-C.omf

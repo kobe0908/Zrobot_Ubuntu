@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=geomview
+X-AppInstall-Popcon=80
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Geomview
+Comment=Interactive geometry viewing program
+Exec=geomview
+Icon=_usr_share_pixmaps_geomview
+Type=Application
+Terminal=false
+Categories=Math;Science;Education;
+
+X-Ubuntu-Gettext-Domain=app-install-data

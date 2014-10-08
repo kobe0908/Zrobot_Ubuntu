@@ -1,0 +1,52 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="unity-launcher-intro">
+  <info>
+    <link type="guide" xref="index" group="unity-launcher-intro"/>
+    <revision version="12.04" date="2012-03-22" status="outdated"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Use the launcher to start applications</title>
+
+    
+<media type="image" src="figures/unity-launcher-apps.png"
+       style="floatstart floatleft">
+  <p>Launcher icons</p>
+</media>
+
+  <p>The <gui>Launcher</gui> is one of the key components of the new Unity desktop. When you log in
+   to your desktop, it will appear along the left-hand side of the screen. The launcher provides you 
+   with quick access to applications, workspaces, removable devices and the trash.</p>
+   
+   <p>If an application that you want to start using is present in the launcher, you can click on that 
+   application's icon, and it will start up, ready for you to use.</p>
+
+  <p>To learn more about the launcher, explore any of the launcher help topics below.</p>
+
+<!--
+  <section id="launcher-basics">
+    <title>Launcher Basics</title>
+    <comment><p>
+      Launcher appearance
+      The 'pulsing' that happens when you click on a launcher
+      Launcher markers (the white marks that show how many windows are open, and which app is active)
+      Launcher notifications
+      Launcher accordion effect
+    </p></comment>
+  </section>
+-->
+  
+  <section id="launcher-customizing" style="2column">
+    <title>Customize the launcher</title>
+    <comment><p>
+      Autohide the launcher...and how to make it reappear (borrow that from the oneiric docs)
+    </p></comment>
+  </section>
+
+</page>

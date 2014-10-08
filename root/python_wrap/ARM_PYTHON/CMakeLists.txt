@@ -1,8 +1,0 @@
-project(arm)
-cmake_minimum_required(VERSION 2.6)
-set(INC ./src)
-add_subdirectory(src)
-aux_source_directory(. DIR_SRCS)
-include_directories(${INC})
-add_library(arm SHARED ${DIR_SRCS})
-target_link_libraries(arm mecharm)

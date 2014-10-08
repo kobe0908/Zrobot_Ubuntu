@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gkamus
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=gKamus
+Comment=English - Indonesian dictionary
+Exec=gkamus
+Icon=gkamus
+Type=Application
+Categories=Office;TextTools;Utility;Dictionary;
+StartupNotify=true
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,10 @@
+8192b01d2e7af400e621676e07636aee  usr/share/doc/python-piston-mini-client/changelog.Debian.gz
+24e8c5eb7cad5bd3b4cc418abdbc3aa9  usr/share/doc/python-piston-mini-client/copyright
+4063aa19a760cae7ebf558e4865aca1c  usr/share/pyshared/piston_mini_client-0.7.2.egg-info
+76b7f2db480621643dea4f05002581e6  usr/share/pyshared/piston_mini_client/__init__.py
+23db417c6da19aed5a19c56b94c56b54  usr/share/pyshared/piston_mini_client/auth.py
+68578d78e01274a55c9911be93d886dd  usr/share/pyshared/piston_mini_client/consts.py
+efe2ed56b0ec2306429e16207bd271f1  usr/share/pyshared/piston_mini_client/failhandlers.py
+e07087cc9dd9cb98756318a1ac4a4842  usr/share/pyshared/piston_mini_client/serializers.py
+11cb4075402eb5f543c8cddf33110020  usr/share/pyshared/piston_mini_client/socks.py
+4f6886a585b892b89910229edd43427e  usr/share/pyshared/piston_mini_client/validators.py

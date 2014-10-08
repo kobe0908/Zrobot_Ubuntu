@@ -1,0 +1,10 @@
+aa3eb4c83d4e4abdbc92425eb7f3207d  usr/lib/arm-linux-gnueabihf/gbm/gbm_gallium_drm.so
+df8e7282a6b64cae531e8d8ca5e9094a  usr/lib/arm-linux-gnueabihf/gbm/pipe_nouveau.so
+a31fc70788764f1a1ab502a410d72c67  usr/lib/arm-linux-gnueabihf/gbm/pipe_r300.so
+c8a0127bc029316027972d4b2acc18f1  usr/lib/arm-linux-gnueabihf/gbm/pipe_r600.so
+9da793456a827811788049b452fbeb4f  usr/lib/arm-linux-gnueabihf/gbm/pipe_vmwgfx.so
+a175b8e5c3564bddba5d574b42d07f75  usr/lib/arm-linux-gnueabihf/libgbm.so.1.0
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgbm1/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgbm1/script
+3c5228bdbe86cc763a01823d6538d695  usr/share/doc/libgbm1/changelog.Debian.gz
+241ed682eeb4973b7b7ac9131624f31f  usr/share/doc/libgbm1/copyright

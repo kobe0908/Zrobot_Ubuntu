@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/bzrlib/plugins/changelog_merge/tests/__init__.py

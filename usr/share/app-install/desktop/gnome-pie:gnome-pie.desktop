@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-pie
+X-AppInstall-Popcon=333
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Gnome-Pie
+Comment=Cakes don't lie.
+Exec=gnome-pie
+Icon=gnome-pie
+Categories=GNOME;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

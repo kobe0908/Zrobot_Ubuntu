@@ -1,4 +1,4 @@
-d39946b56d1c1bebf61c5e2959127e57  usr/bin/python2.7
+270e5e4aa6cadeb3190f20927d00f60f  usr/bin/python2.7
 1f2172014f919516fe9bb2f01be3c2b4  usr/include/python2.7/pyconfig.h
 c1a16e098a25d74be9d7c781e2f16ccd  usr/lib/python2.7/ConfigParser.py
 71686dbb69a0544ed2b4d6f5e68b069f  usr/lib/python2.7/StringIO.py
@@ -125,7 +125,7 @@ cfe58bcb551798bf8675c14afa5a5091  usr/lib/python2.7/keyword.py
 7ae71d794b5b1e54e66f1068c452e499  usr/lib/python2.7/linecache.py
 5926a1efe1be2f2311aeae9c2c7feeca  usr/lib/python2.7/logging/__init__.py
 663cd81a603ebecb3535c779f15a371b  usr/lib/python2.7/logging/config.py
-e1a46723ec5f56f1ad0a6c59cd86ce8f  usr/lib/python2.7/logging/handlers.py
+c418e9453c7b2b8ee96f7a102d4d5ca8  usr/lib/python2.7/logging/handlers.py
 2fef56daa9d26cd7dab15ef778fcd380  usr/lib/python2.7/md5.py
 f646fb112aa78a50f2e55c0abdf569aa  usr/lib/python2.7/opcode.py
 b3d4c9e26fb64537629d2c37e7952945  usr/lib/python2.7/optparse.py
@@ -165,6 +165,6 @@ a0eb9b4a8c53f54bdfc880b06b477668  usr/lib/python2.7/warnings.py
 e7f0eba31623bd874f1eb5c9c33b9c8e  usr/lib/python2.7/weakref.py
 0836ce5ee02bcfa871d3d91eb5f7b7e8  usr/share/binfmts/python2.7
 e1d2244779287bc546d91aa2f1c4f6e3  usr/share/doc/python2.7-minimal/README.Debian
-b8d4d62e7fd14ab7d617cb4fe69eb694  usr/share/doc/python2.7-minimal/changelog.Debian.gz
+35627cab5142e2700cbb73e6a15af6f9  usr/share/doc/python2.7-minimal/changelog.Debian.gz
 92860200e8fb75cba42fe3792e55ad73  usr/share/doc/python2.7-minimal/copyright
 6f40fb410628fdf915bb3339bfa3d3f0  usr/share/man/man1/python2.7.1.gz

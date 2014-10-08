@@ -1,0 +1,1 @@
+../../../../../share/pyshared/checkbox/parsers/meminfo.py

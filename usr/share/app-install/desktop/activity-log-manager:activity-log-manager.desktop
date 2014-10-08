@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=activity-log-manager
+X-AppInstall-Popcon=259
+X-AppInstall-Section=universe
+
+Version=1.0
+
+
+Name=Activity Log Manager
+GenericName=Activity Log Manager
+Comment=Configure what gets logged in your Zeitgeist activity log
+X-Ubuntu-Software-Center-Name=Activities and Privacy Manager Tool
+X-Ubuntu-Software-Center-Name[ar]=الأنشطة وأداة إدارة الخصوصية
+X-Ubuntu-Software-Center-Name[pl]=Narzędzie menedżera aktywności i prywatności
+X-Ubuntu-Software-Center-Name[sv]=Integritets- och Sekretessverktyg
+
+
+Type=Application
+Exec=activity-log-manager
+Icon=activity-log-manager
+
+Categories=GNOME;GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

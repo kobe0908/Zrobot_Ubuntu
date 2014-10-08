@@ -1,1 +1,0 @@
-../../../../../share/pyshared/IPython/utils/_sysinfo.py

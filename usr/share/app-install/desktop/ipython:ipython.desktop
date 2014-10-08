@@ -1,0 +1,19 @@
+# If you want ipython to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install ipython.desktop
+
+[Desktop Entry]
+X-AppInstall-Package=ipython
+X-AppInstall-Popcon=1866
+X-AppInstall-Section=universe
+
+Comment=Enhanced interactive Python shell
+Exec=ipython
+GenericName=IPython
+Icon=ipython
+Name=ipython
+Categories=Development;Utility;
+StartupNotify=false
+Terminal=true
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

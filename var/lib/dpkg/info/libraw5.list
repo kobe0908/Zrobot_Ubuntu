@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libraw5
+/usr/share/doc/libraw5/changelog.Debian.gz
+/usr/share/doc/libraw5/copyright
+/usr/lib
+/usr/lib/libraw_r.so.5.0.0
+/usr/lib/libraw.so.5.0.0
+/usr/lib/libraw_r.so.5
+/usr/lib/libraw.so.5

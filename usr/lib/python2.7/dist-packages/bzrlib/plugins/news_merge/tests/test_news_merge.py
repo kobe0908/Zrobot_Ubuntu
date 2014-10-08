@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/bzrlib/plugins/news_merge/tests/test_news_merge.py

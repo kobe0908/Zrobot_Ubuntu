@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=confclerk
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=ConfClerk
+GenericName=Offline conference schedule application
+Exec=confclerk
+Icon=confclerk
+Categories=Office;Calendar;
+
+X-Ubuntu-Gettext-Domain=app-install-data

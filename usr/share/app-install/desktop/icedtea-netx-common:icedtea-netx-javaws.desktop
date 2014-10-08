@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=icedtea-netx-common
+X-AppInstall-Popcon=3257
+X-AppInstall-Section=main
+
+Name=IcedTea Java Web Start
+Comment=IcedTea Java Web Start
+Exec=/usr/bin/javaws %u
+Terminal=false
+Type=Application
+Icon=javaws
+Categories=Application;Network;
+MimeType=application/x-java-jnlp-file;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

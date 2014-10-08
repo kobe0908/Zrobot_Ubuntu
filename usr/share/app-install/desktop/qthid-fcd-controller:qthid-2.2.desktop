@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=qthid-fcd-controller
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=qthid-2.2
+GenericName=FUNcube Dongle Controller
+Comment=limited support for devices with older firmware
+Exec=qthid-2.2
+Icon=qthid
+Terminal=false
+Type=Application
+Categories=Utility;HamRadio;Tuner;
+
+X-Ubuntu-Gettext-Domain=app-install-data

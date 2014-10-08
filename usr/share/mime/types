@@ -26,11 +26,17 @@ application/pgp-encrypted
 application/pgp-keys
 application/pgp-signature
 application/pkcs10
+application/pkcs10+pem
+application/pkcs12+pem
 application/pkcs7-mime
+application/pkcs7-mime+pem
 application/pkcs7-signature
 application/pkcs8
+application/pkcs8+pem
 application/pkix-cert
+application/pkix-cert+pem
 application/pkix-crl
+application/pkix-crl+pem
 application/pkix-pkipath
 application/postscript
 application/prs.plucker
@@ -141,6 +147,7 @@ application/x-awk
 application/x-bcpio
 application/x-bittorrent
 application/x-blender
+application/x-brasero
 application/x-bzdvi
 application/x-bzip
 application/x-bzip-compressed-tar
@@ -201,6 +208,7 @@ application/x-genesis-rom
 application/x-gettext-translation
 application/x-glade
 application/x-gmc-link
+application/x-gnome-saved-search
 application/x-gnucash
 application/x-gnumeric
 application/x-gnuplot
@@ -283,6 +291,8 @@ application/x-pak
 application/x-palm-database
 application/x-par2
 application/x-pef-executable
+application/x-pem-file
+application/x-pem-key
 application/x-perl
 application/x-php
 application/x-pkcs12
@@ -534,6 +544,8 @@ text/vnd.wap.wml
 text/vnd.wap.wmlscript
 text/vtt
 text/x-adasrc
+text/x-apport
+text/x-apt-sources-list
 text/x-authors
 text/x-bibtex
 text/x-c++hdr

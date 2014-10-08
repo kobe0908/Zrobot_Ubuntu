@@ -1,0 +1,16 @@
+e1550828f28bb1c9b8b83a20df252049  usr/sbin/unity-greeter
+34af0194287b3ff2430f97b2167723e9  usr/share/doc/unity-greeter/changelog.Debian.gz
+1a7410de1b522ad6845cd73ae07c74fe  usr/share/doc/unity-greeter/copyright
+3f413128e3bf452c0ef7b1439af70907  usr/share/glib-2.0/schemas/com.canonical.unity-greeter.gschema.xml
+54abd06bae2dc18d72e5e90b10c7d61b  usr/share/unity-greeter/a11y.svg
+c18e5c6441bca27ec26c5bd1508dd0cd  usr/share/unity-greeter/arrow_left.png
+bd50b4b1e9788b7b90411e5787567782  usr/share/unity-greeter/arrow_right.png
+974ccd27af4832b64e490f77f5577e3e  usr/share/unity-greeter/cof.png
+bcad47d4be5c6ca95903778586abea22  usr/share/unity-greeter/gnome_badge.png
+a0840dd42cb9613c779f94267168df8e  usr/share/unity-greeter/kde_badge.png
+81f4dae28da9f6dffe3cc74df8cac5b6  usr/share/unity-greeter/logo.png
+7f7e3f148bf84ee2759b7b3ff2666288  usr/share/unity-greeter/message.png
+1f6ea463a510af4767308a5c8213c602  usr/share/unity-greeter/recovery_console_badge.png
+7fb984cf220940fa109e5fb99c2aa00d  usr/share/unity-greeter/ubuntu_badge.png
+d2985ea756983fb1a01c678f1e9de7d4  usr/share/unity-greeter/unknown_badge.png
+38e0e1026b7c8a66c2b9a82ccd93b22d  usr/share/xgreeters/unity-greeter.desktop

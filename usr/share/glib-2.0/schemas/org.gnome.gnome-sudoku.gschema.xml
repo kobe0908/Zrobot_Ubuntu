@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/gnome-sudoku/" id="org.gnome.gnome-sudoku">
+    <key type="i" name="auto-save-interval">
+      <default>60</default>
+      <summary>The number of seconds between automatic saves</summary>
+      <description>The number of seconds between automatic saves</description>
+    </key>
+    <key type="i" name="number-of-sudokus-to-generate">
+      <default>10</default>
+    </key>
+    <key type="b" name="print-already-played-games">
+      <default>false</default>
+      <summary>Print games that have been played</summary>
+      <description>Print games that have been played</description>
+    </key>
+    <key type="b" name="mark-printed-as-played">
+      <default>false</default>
+      <summary>Mark printed games as played</summary>
+      <description>Mark printed games as played</description>
+    </key>
+    <key type="i" name="group-size">
+      <default>9</default>
+    </key>
+    <key type="b" name="generate-target-easy">
+      <default>true</default>
+    </key>
+    <key type="b" name="generate-target-medium">
+      <default>false</default>
+    </key>
+    <key type="b" name="generate-target-hard">
+      <default>true</default>
+    </key>
+    <key type="b" name="generate-target-very-hard">
+      <default>true</default>
+    </key>
+    <key type="b" name="print-easy">
+      <default>true</default>
+    </key>
+    <key type="b" name="print-medium">
+      <default>true</default>
+    </key>
+    <key type="b" name="print-hard">
+      <default>true</default>
+    </key>
+    <key type="b" name="print-very-hard">
+      <default>true</default>
+    </key>
+    <key type="i" name="minimum-number-of-new-puzzles">
+      <default>90</default>
+    </key>
+    <key type="d" name="difficulty">
+      <default>0.0</default>
+    </key>
+    <key type="i" name="width">
+      <default>700</default>
+      <summary>Width of application window in pixels</summary>
+      <description>Width of application window in pixels</description>
+    </key>
+    <key type="i" name="height">
+      <default>675</default>
+      <summary>Height of application window in pixels</summary>
+      <description>Height of application window in pixels</description>
+    </key>
+    <key type="i" name="print-multiple-sudokus-to-print">
+      <default>4</default>
+    </key>
+    <key type="b" name="highlight">
+      <default>false</default>
+      <summary>Show hint highlights</summary>
+      <description>Show hint highlights</description>
+    </key>
+    <key type="b" name="show-tracker">
+      <default>false</default>
+    </key>
+    <key type="s" name="bg-color">
+      <default>'black'</default>
+      <summary>Color of the grid border</summary>
+      <description>Color of the grid border</description>
+    </key>
+    <key type="b" name="show-toolbar">
+      <default>true</default>
+      <summary>Show the application toolbar</summary>
+      <description>Show the application toolbar</description>
+    </key>
+    <key type="b" name="show-impossible-implications">
+      <default>false</default>
+    </key>
+    <key type="b" name="always-show-hints">
+      <default>false</default>
+      <summary>Show hints</summary>
+      <description>Show hints</description>
+    </key>
+    <key type="b" name="generate-for-target">
+      <default>false</default>
+    </key>
+    <key type="b" name="generate-endlessly">
+      <default>true</default>
+    </key>
+    <key type="i" name="sudokus-per-page">
+      <default>2</default>
+      <summary>Number of puzzles to print on a page</summary>
+      <description>Number of puzzles to print on a page</description>
+    </key>
+  </schema>
+</schemalist>

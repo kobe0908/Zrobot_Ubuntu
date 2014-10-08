@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=utouch-geis-tools
+X-AppInstall-Popcon=46
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=geisview
+Exec=geisview
+Icon=geisview32x32
+Categories=Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

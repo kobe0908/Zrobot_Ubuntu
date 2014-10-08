@@ -1,0 +1,759 @@
+Package: debootstrap
+Binary: debootstrap, debootstrap-udeb
+Version: 1.0.46ubuntu1
+Section: admin
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Build-Depends: debhelper (>= 7.0.50), makedev (>= 2.3.1-69) [linux-any]
+Architecture: all
+Standards-Version: 3.9.3
+Format: 1.0
+Directory: pool/main/d/debootstrap
+Files:
+ 1a27106cb3cb3e97d355071a35118b07 58577 debootstrap_1.0.46ubuntu1.tar.gz
+ 617c54c76a81e3fafb3382fc6688ece4 1295 debootstrap_1.0.46ubuntu1.dsc
+Checksums-Sha1:
+ 82ce4e4c367f0534f62c6e4ee43bc596d4dbc233 58577 debootstrap_1.0.46ubuntu1.tar.gz
+ 3894dafa8ded856399a40aa0098e31d9de04d9e5 1295 debootstrap_1.0.46ubuntu1.dsc
+Checksums-Sha256:
+ d4fc39597108d38571aaeb39a5e04359d03a71143637bf9306deed8649ec2c3b 58577 debootstrap_1.0.46ubuntu1.tar.gz
+ a1680020e6250f58f48d84da4ba79921d7b41973629f6c6e4048912e5db45802 1295 debootstrap_1.0.46ubuntu1.dsc
+Uploaders: Joey Hess <joeyh@debian.org>, Junichi Uekawa <dancer@debian.org>, Colin Watson <cjwatson@debian.org>, Christian Perrier <bubulle@debian.org>
+Package-List: debootstrap deb admin extra
+ debootstrap-udeb udeb debian-installer extra
+Vcs-Git: git://git.debian.org/d-i/debootstrap.git
+Vcs-Browser: http://git.debian.org/?p=d-i/debootstrap.git
+
+Package: tar
+Binary: tar, tar-scripts
+Version: 1.27.1-2
+Section: utils
+Maintainer: Bdale Garbee <bdale@gag.com>
+Build-Depends: debhelper (>> 5), gettext, autoconf, autotools-dev, libacl1-dev, libattr1-dev, libselinux1-dev [linux-any]
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Directory: pool/main/t/tar
+Files:
+ 992c029086ad2ab7c27d5c32db7d4400 1704252 tar_1.27.1.orig.tar.xz
+ 9c637c612beff3851b6abfee29f0eb41 34561 tar_1.27.1-2.debian.tar.gz
+ 7d7e3d45f7fda39c0ea479cf12937a1b 1345 tar_1.27.1-2.dsc
+Checksums-Sha1:
+ ff027757abf420beb2f09fa59b37debbd45b15dd 1704252 tar_1.27.1.orig.tar.xz
+ 7024af2cdea4e814ac32be458c80318a77c1cd5f 34561 tar_1.27.1-2.debian.tar.gz
+ 53ca7eaed5d02c77879073a8137056f3cc7c2d82 1345 tar_1.27.1-2.dsc
+Checksums-Sha256:
+ 58169c5a03c04be20d3fb91010b01e822c6a58060a96e7cf2f9c1944de0151ab 1704252 tar_1.27.1.orig.tar.xz
+ 8e8fc80cd0884e9a13ab365c7a2ad65873625665d99c45b4fcdf747d4ce68ac8 34561 tar_1.27.1-2.debian.tar.gz
+ 4043403854d66cb98004fd2162545fc22c7053c041648a3e9a1a44184e3c75d8 1345 tar_1.27.1-2.dsc
+Uploaders: Carl Worth <cworth@cworth.org>
+Package-List: tar deb utils required
+ tar-scripts deb utils optional
+Vcs-Git: git://git.gag.com/debian/tar
+Vcs-Browser: http://git.gag.com/?p=debian/tar
+
+Package: sbuild
+Binary: libsbuild-perl, sbuild, buildd
+Version: 0.64.0+repack1-1wook1
+Section: devel
+Maintainer: Debian buildd-tools Developers <buildd-tools-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>> 7.0.0), groff-base, perl-modules, libexception-class-perl, libfilesys-df-perl, libio-zlib-perl, libmime-lite-perl, libdpkg-perl (>= 1.15.5)
+Architecture: all
+Standards-Version: 3.9.4
+Format: 1.0
+Directory: pool/main/s/sbuild
+Files:
+ 0017c625905940f61f4df9a919a88c39 599423 sbuild_0.64.0+repack1-1wook1.tar.gz
+ bc02806d9b437a258cd758dadf494116 1294 sbuild_0.64.0+repack1-1wook1.dsc
+Checksums-Sha1:
+ 34f2a4c0164f0801731c397df6e2ec46aa84c319 599423 sbuild_0.64.0+repack1-1wook1.tar.gz
+ 5f52f9c8873e0834ed87f0ba51e20ecb59cd3fd3 1294 sbuild_0.64.0+repack1-1wook1.dsc
+Checksums-Sha256:
+ 2c382013cb7e5ef33d04816e60befe71d823e6759db21284d781d3e7d45ba5ba 599423 sbuild_0.64.0+repack1-1wook1.tar.gz
+ 112686791cfa9bae419acab6c2454b3056081ff9d14feb63e8cab6de21f376f5 1294 sbuild_0.64.0+repack1-1wook1.dsc
+Uploaders: Michael Banck <mbanck@debian.org>, Roger Leigh <rleigh@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>
+Package-List: buildd deb devel extra
+ libsbuild-perl deb perl extra
+ sbuild deb devel extra
+Vcs-Git: git://git.debian.org/git/buildd-tools/sbuild
+Vcs-Browser: http://git.debian.org/?p=buildd-tools/sbuild.git
+
+Package: acpica-unix
+Binary: acpica-tools, iasl, acpidump
+Version: 20131115-1linaro1
+Section: devel
+Maintainer: Mattia Dongili <malattia@debian.org>
+Build-Depends: debhelper (>= 9.0), flex, bison
+Architecture: amd64 i386 armhf all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: pool/main/a/acpica-unix
+Files:
+ 1c2897330740eff2de47fab89e1c54c7 2212882 acpica-unix_20131115.orig.tar.bz2
+ f963d1f0703a59a79969dfeaa87fc916 32640 acpica-unix_20131115-1linaro1.debian.tar.gz
+ 8d2065eeebe2c3d06c5044847a2bba72 1496 acpica-unix_20131115-1linaro1.dsc
+Checksums-Sha1:
+ b39f4e1f51079182f1215fea9bdafbc7a6d31226 2212882 acpica-unix_20131115.orig.tar.bz2
+ 91f4c683741b6838d128aa60b011ba8f8a32db46 32640 acpica-unix_20131115-1linaro1.debian.tar.gz
+ 058c1a7376704bcb59bbfa5622921f5ebe3eb0df 1496 acpica-unix_20131115-1linaro1.dsc
+Checksums-Sha256:
+ 3a6df2577fb01eee99599f9c340b7f0a17c7c2c16b33138c3d674ebafae856b6 2212882 acpica-unix_20131115.orig.tar.bz2
+ 3848b6a8c240103d1c79beb7c11d3b136d0bf3b06e61975eb5889f275e2f86c8 32640 acpica-unix_20131115-1linaro1.debian.tar.gz
+ 497f62047604f15ffa0116a544d745863d10591329ad1a9e1d74b35dc90e0e42 1496 acpica-unix_20131115-1linaro1.dsc
+Homepage: http://www.acpica.org
+Uploaders: Al Stone <ahs3@debian.org>
+Package-List: acpica-tools deb devel optional
+ acpidump deb oldlibs optional
+ iasl deb oldlibs optional
+Vcs-Git: git://github.com/acpica-unix.git
+Vcs-Browser: https://github.com/acpica/acpica.git
+
+Package: device-tree-compiler
+Binary: device-tree-compiler, libfdt1, libfdt-dev
+Version: 1.4.0-0.1linaro1
+Section: devel
+Maintainer: Hector Oron <zumbi@debian.org>
+Build-Depends: debhelper (>= 5), quilt, flex, bison, texlive, texlive-latex-extra
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/main/d/device-tree-compiler
+Files:
+ 38615ed7cfd45590d465c9015da6d75d 111396 device-tree-compiler_1.4.0.orig.tar.gz
+ 9c817934542c9775df05bb53cc3aedc0 39961 device-tree-compiler_1.4.0-0.1linaro1.diff.gz
+ c068b10645bbba9af87912f9d4ca46d4 1463 device-tree-compiler_1.4.0-0.1linaro1.dsc
+Checksums-Sha1:
+ 697728df0a3b4e7410dd714b1d39ac000d9c8dad 111396 device-tree-compiler_1.4.0.orig.tar.gz
+ 3a322eb9ce478c890cc757bccd5903203d51b008 39961 device-tree-compiler_1.4.0-0.1linaro1.diff.gz
+ f6dde3aa5414120315d55ae56d8f4a57a339a27c 1463 device-tree-compiler_1.4.0-0.1linaro1.dsc
+Checksums-Sha256:
+ d5a17bc68e7a57b25e6f8a93369655036b2e389912a7c2d7a400dbbf45b9df8a 111396 device-tree-compiler_1.4.0.orig.tar.gz
+ 908ad852f8cf860a6a63c48a3e727fedc637a6187786b709e3b74e25382d6c8c 39961 device-tree-compiler_1.4.0-0.1linaro1.diff.gz
+ 3a959b7389f8f384da76cc994b3a94f64c08c1e13c93504ccb3fa77258fb3011 1463 device-tree-compiler_1.4.0-0.1linaro1.dsc
+Homepage: http://git.jdl.com/gitweb/?p=dtc.git
+Package-List: device-tree-compiler deb devel extra
+ libfdt-dev deb libdevel extra
+ libfdt1 deb libs extra
+Vcs-Git: git://anonscm.debian.org/crosstoolchain/device-tree-compiler.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=crosstoolchain/device-tree-compiler.git
+
+Package: python-testtools
+Binary: python-testtools
+Version: 0.9.15-0ubuntu1~linaro1
+Section: python
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6.0.4), python (>= 2.5), python-fixtures, python-sphinx, python-twisted
+Architecture: all
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/p/python-testtools
+Files:
+ 01a30afb126de49de4998c255259d312 152830 python-testtools_0.9.15.orig.tar.gz
+ 2d9e0e6d9d424ddfdbff434163de473f 2218 python-testtools_0.9.15-0ubuntu1~linaro1.diff.gz
+ 001b922bd61f67f3d561d5c35f36e9fb 1489 python-testtools_0.9.15-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 985dddc38e0317d6c6f351665e74d57fcb86a1c8 152830 python-testtools_0.9.15.orig.tar.gz
+ 95b9938108d59688441c5afccf2a6c5245c87501 2218 python-testtools_0.9.15-0ubuntu1~linaro1.diff.gz
+ 000b7ea0fc1d296ab1c99923cf611068f553ba20 1489 python-testtools_0.9.15-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ 49ef090f09e217c9f2688d4b2f9e246f00b9c1a867040a7ae8e4e9de7f707c02 152830 python-testtools_0.9.15.orig.tar.gz
+ db37016c8e1f68cf3e925f7a3a930fcc503a9b6834eb38c46c01f35c3c4eabbc 2218 python-testtools_0.9.15-0ubuntu1~linaro1.diff.gz
+ 2287cc7075b93f239482a351f3e00bc34c6cdbc437a31c7485db82871104730d 1489 python-testtools_0.9.15-0ubuntu1~linaro1.dsc
+Homepage: https://launchpad.net/testtools
+Python-Version: all
+Package-List: python-testtools deb python optional
+Original-Maintainer: Robert Collins <robertc@robertcollins.net>
+
+Package: testrepository
+Binary: testrepository, python-testrepository
+Version: 0.0.6-0ubuntu1~linaro1
+Section: python
+Maintainer: Robert Collins <robertc@robertcollins.net>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), python (>= 2.4), python-subunit, python-testresources, python-testscenarios, python-testtools (>= 0.9.15~)
+Build-Depends-Indep: python-central (>= 0.6.7)
+Architecture: all
+Standards-Version: 3.8.4
+Format: 1.0
+Directory: pool/main/t/testrepository
+Files:
+ 21979227f3d424515d12a2ac7200501d 59769 testrepository_0.0.6.orig.tar.gz
+ 1f5044dec3d079ba9597885d132379f4 1799 testrepository_0.0.6-0ubuntu1~linaro1.diff.gz
+ 3a949efb799920b4a8d6edefb5639fd2 1539 testrepository_0.0.6-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ f960c802cdc18d154ee78bebdd09f1ca472b4af0 59769 testrepository_0.0.6.orig.tar.gz
+ bcf74b0d4ad2a7b4b708a45a3fb8eb3950c39256 1799 testrepository_0.0.6-0ubuntu1~linaro1.diff.gz
+ 59e6998c44b88447a855cec0e2e199e60ca2f349 1539 testrepository_0.0.6-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ d58bc94b30ba9f984becb234e1da6b3de08340bd052ac5e5ac4a5df4242b4b5a 59769 testrepository_0.0.6.orig.tar.gz
+ 890f33e23ccd7e95b5947c8a1d096b2922588b9ecf1b7f17e8b2c994f166455b 1799 testrepository_0.0.6-0ubuntu1~linaro1.diff.gz
+ f292827655227ee52772743dbfe66ad550a784263edfacfcc58973332a6b7514 1539 testrepository_0.0.6-0ubuntu1~linaro1.dsc
+Homepage: https://launchpad.net/testrepository
+Python-Version: all
+Package-List: python-testrepository deb python optional
+ testrepository deb python optional
+
+Package: live-build
+Binary: live-build, live-build-cgi
+Version: 3.0~a69-1
+Section: misc
+Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: pool/main/l/live-build
+Files:
+ 0e08d145275f45796a3a8a2783a0d00b 162704 live-build_3.0~a69.orig.tar.xz
+ 65e9c02492b194d5a559128d37b31f81 49900 live-build_3.0~a69-1.debian.tar.xz
+ 58222038f70fc43160306177e1e3e291 1447 live-build_3.0~a69-1.dsc
+Checksums-Sha1:
+ 9a95c2ed98e9dc5b92fdb9be6840017368563910 162704 live-build_3.0~a69.orig.tar.xz
+ 900b11a91efaf126e79754c80c3e974f2d7d5933 49900 live-build_3.0~a69-1.debian.tar.xz
+ e34a2c6a446ae5d7753c97d82c3878bde6f78bde 1447 live-build_3.0~a69-1.dsc
+Checksums-Sha256:
+ aa4fd8e2ebece1d138aabe41d71b4c54241f677e765201c5e6ef8166459cfb5d 162704 live-build_3.0~a69.orig.tar.xz
+ 6cf59f20f5945d6109575007f23e1c4ae88f90d49163606d9b4644b4ccb01188 49900 live-build_3.0~a69-1.debian.tar.xz
+ a70147707025c1cf5b4b08adbf4767637b2e50831b45060a73a9c6997c68831b 1447 live-build_3.0~a69-1.dsc
+Homepage: http://live.debian.net/devel/live-build/
+Uploaders: Daniel Baumann <daniel@debian.org>
+Package-List: live-build deb misc optional
+ live-build-cgi deb misc optional
+Vcs-Git: git://live.debian.net/git/live-build.git
+Vcs-Browser: http://live.debian.net/gitweb/?p=live-build.git
+
+Package: linaro-image-tools
+Binary: linaro-image-tools, python-linaro-image-tools
+Version: 2014.08-0linaro1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: apt-utils, command-not-found, debhelper (>= 7.0.50~), dosfstools, python, python-all, python-apt, python-argparse, python-dbus, python-debian (>= 0.1.16ubuntu1~), python-distutils-extra, python-parted, python-support, python-testtools (>= 0.9.12), python-yaml, u-boot-tools | uboot-mkimage
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/linaro-image-tools
+Files:
+ b2fd12b525a19ad71457165a2f7a62d9 230129 linaro-image-tools_2014.08.orig.tar.gz
+ 10812f8084f4ebc3869c3db99a9d7b06 6781 linaro-image-tools_2014.08-0linaro1.debian.tar.gz
+ bdc7ca0368d1091e7df02f364b5f1387 1677 linaro-image-tools_2014.08-0linaro1.dsc
+Checksums-Sha1:
+ cc4af09ef3621e82a68886a05f1632f1f5eca1b8 230129 linaro-image-tools_2014.08.orig.tar.gz
+ 52bb17cdedad944c3c5a559281495fa1a525ef43 6781 linaro-image-tools_2014.08-0linaro1.debian.tar.gz
+ bcf85f36ccadf51a692c878c3c78fc80f6e919d5 1677 linaro-image-tools_2014.08-0linaro1.dsc
+Checksums-Sha256:
+ 0e55306b3e4a19399b887bfa25724920d72b1217ed087ba47ae71dac48764894 230129 linaro-image-tools_2014.08.orig.tar.gz
+ 28fa61c75237e39ca7333a723b5aa9ec9c5de86ed1d3787699cf522b19b63bd2 6781 linaro-image-tools_2014.08-0linaro1.debian.tar.gz
+ ae525a979549cdbadf3a9f1aa4cf1ff6b75c3872b9a1354e567a0bd70bac293c 1677 linaro-image-tools_2014.08-0linaro1.dsc
+Python-Version: >= 2.5
+Package-List: linaro-image-tools deb devel optional
+ python-linaro-image-tools deb python optional
+Vcs-Bzr: lp:ubuntu/linaro-image-tools
+
+Package: qemu-linaro
+Binary: qemu-linaro-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-kvm-extras, qemu-kvm-extras-static
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), libasound2-dev [!kfreebsd-any], libbluetooth-dev [!kfreebsd-any], libbrlapi-dev, libcurl4-gnutls-dev, libfdt-dev, libgnutls-dev, libncurses5-dev, libpixman-1-dev, libpulse-dev, libsasl2-dev, libsdl1.2-dev (>> 1.2.1), libvdeplug2-dev [!kfreebsd-any], libx11-dev, python, texinfo, uuid-dev, zlib1g-dev
+Build-Conflicts: oss4-dev
+Architecture: all amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 sparc sparc64
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/main/q/qemu-linaro
+Files:
+ 7a82a7720810f0a074da07a4c1f3a55f 6238107 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae.orig.tar.bz2
+ 51106361b3c237397460248962be2485 20043 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.debian.tar.gz
+ 060800e1ef44a3537f4fd9261465f9d1 2654 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.dsc
+Checksums-Sha1:
+ 096f30917aa9a4797c75bab0dc85bbb8010b43d0 6238107 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae.orig.tar.bz2
+ 9b0ecc5d5aaf0402c4760fca9f62072de2251a40 20043 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.debian.tar.gz
+ 413853c7d4ec3272d3da8c0df31d879954d2b503 2654 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.dsc
+Checksums-Sha256:
+ 5be0bfad87f3176f025e298402e17d4a27068b14be759aa937e66b70fcbe123b 6238107 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae.orig.tar.bz2
+ 95251a5af72d16dd4f454e21001be12c3685262ec3f7c17e569c56c05ff99811 20043 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.debian.tar.gz
+ d93acea3ac5e7544adddb4b35190cde120a9739397a7be983aa4af15a02434d4 2654 qemu-linaro_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1.dsc
+Homepage: https://launchpad.net/qemu-linaro/
+Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
+Package-List: qemu-kvm-extras deb misc optional
+ qemu-kvm-extras-static deb misc optional
+ qemu-linaro-keymaps deb misc optional
+ qemu-system deb misc optional
+ qemu-user deb misc optional
+ qemu-user-static deb misc optional
+Vcs-Bzr: lp:ubuntu/qemu-linaro
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Dm-Upload-Allowed: yes
+
+Package: versiontools
+Binary: python-versiontools, python-versiontools-doc
+Version: 1.9.1-0ubuntu2
+Section: python
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: python, python-setuptools (>= 0.6b3), debhelper (>= 7.0.50~)
+Build-Depends-Indep: python-sphinx, libjs-jquery, python-doc
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/v/versiontools
+Files:
+ 602b7db8eea30dd29a1d451997adf251 19089 versiontools_1.9.1.orig.tar.gz
+ c02caee7d67b15b24451a894269eac84 3739 versiontools_1.9.1-0ubuntu2.debian.tar.gz
+ 4c3d477cd4d2743e58c54fa5f20b828e 2154 versiontools_1.9.1-0ubuntu2.dsc
+Checksums-Sha1:
+ 53c18922da0820f5245ac39cd5b8e652c026678e 19089 versiontools_1.9.1.orig.tar.gz
+ 49983050838eb5175ea3edb8c5e2bf1f50c61750 3739 versiontools_1.9.1-0ubuntu2.debian.tar.gz
+ 0a30b20478aea2d611bf772e872869d85d66f2f5 2154 versiontools_1.9.1-0ubuntu2.dsc
+Checksums-Sha256:
+ a969332887a18a9c98b0df0ea4d4ca75972f24ca94f06fb87d591377e83414f6 19089 versiontools_1.9.1.orig.tar.gz
+ b9286d54f084f76cb3722f5d356fca669631c900090644e172a3ae2734114e7a 3739 versiontools_1.9.1-0ubuntu2.debian.tar.gz
+ d2b1430067d9c28be58c2b8f3eb5f30028bfa66410b693869fee501910a3a33c 2154 versiontools_1.9.1-0ubuntu2.dsc
+Homepage: http://launchpad.net/versiontools/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: python-versiontools deb python optional
+ python-versiontools-doc deb doc optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: linaro-dashboard-bundle
+Binary: python-linaro-dashboard-bundle, python-linaro-dashboard-bundle-doc
+Version: 1.8-0ubuntu1~linaro1
+Section: python
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), python, python-setuptools (>= 0.6b3), python-simplejson (>= 2.1)
+Build-Depends-Indep: libjs-jquery, python-doc, python-json-schema-validator (>= 2.0.1), python-sphinx, python-testscenarios (>= 0.1), python-testtools (>= 0.9.2), python-versiontools (>= 1.4)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/linaro-dashboard-bundle
+Files:
+ 36216484cbf23f8634cc5be7a4308f90 25029 linaro-dashboard-bundle_1.8.orig.tar.gz
+ 1fcfed037e4c0e8e0825fe1c41e5161f 3524 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.debian.tar.gz
+ 9146a1749f12a7406f171e01b4a8c35a 1950 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ afa4db83f9b0ae0f5a48851587065b8f2a7ad499 25029 linaro-dashboard-bundle_1.8.orig.tar.gz
+ 0c1ec3ec91a95633509a7cb247ccae635bdda6b6 3524 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.debian.tar.gz
+ db68696578293cd205cdc2e44b7ed819893478ca 1950 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ fd00177b288d4c3dc850a438c483c903e0da5923ce8f18dc90c167fa02041074 25029 linaro-dashboard-bundle_1.8.orig.tar.gz
+ 07d85cb619698b376ba89fa2a8cf48000ed5767518b74dc29a438c30da44a8f5 3524 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.debian.tar.gz
+ 4b0d8fdff86d3a73145671bd47c19ff193f8c819227fbcf94d13e7e0ea4a506d 1950 linaro-dashboard-bundle_1.8-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/linaro-python-dashboard-bundle/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: python-linaro-dashboard-bundle deb python optional
+ python-linaro-dashboard-bundle-doc deb doc optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: lava-tool
+Binary: lava-tool
+Version: 0.11.1-0ubuntu1~linaro1
+Section: python
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.7.2-10), python-keyring (>= 0.2-3), python-setuptools (>= 0.6b3)
+Build-Depends-Indep: python-mocker (>= 1.0)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-tool
+Files:
+ d934ec57c4e616ffe2be4dbded2118b7 63808 lava-tool_0.11.1.orig.tar.gz
+ d40275e06a7fca4d9ebf1bdf698f9b98 2320 lava-tool_0.11.1-0ubuntu1~linaro1.debian.tar.xz
+ 80e51553308234585bf59c2c8bc1a7eb 2023 lava-tool_0.11.1-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 08aa1e8de2950bf6fee4c4955e67747327ad875f 63808 lava-tool_0.11.1.orig.tar.gz
+ 540b14f8894848f2eb4df8997276dcbd3c7a495c 2320 lava-tool_0.11.1-0ubuntu1~linaro1.debian.tar.xz
+ 90087fcc254382255885f94479478e7690d10199 2023 lava-tool_0.11.1-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ da7f85abfae970c6accead55a84d1dffe6cdf06c4b49a6dd3846ad56bd1a1ab4 63808 lava-tool_0.11.1.orig.tar.gz
+ 5be25026aaf373a03f287abc260601a0c4d7a676e2a64729f48f1847ebf6e423 2320 lava-tool_0.11.1-0ubuntu1~linaro1.debian.tar.xz
+ 1eb2c7011cf12026a8d54dd90bac8abd3e9964ab8c97720d229477f37d04361e 2023 lava-tool_0.11.1-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/lava-tool/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: lava-tool deb python optional arch=all
+
+Package: lava-dashboard-tool
+Binary: lava-dashboard-tool
+Version: 0.8-0ubuntu1~linaro1
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.7.2-10), python-setuptools (>= 0.6b3)
+Build-Depends-Indep: lava-tool (>= 0.7), python-json-schema-validator (>= 2.0.1), python-versiontools (>= 1.4)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-dashboard-tool
+Files:
+ ffbe8216d98a13214ac6d017447697ae 1746 lava-dashboard-tool_0.8.orig.tar.gz
+ 7c53e40d79d1ab0ad85690ec4d0e9c20 2322 lava-dashboard-tool_0.8-0ubuntu1~linaro1.debian.tar.gz
+ 331ada875d398adeccb45dbfd14eab79 1583 lava-dashboard-tool_0.8-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 1fadf3a03e083fba1f8c996742e8a9cac732a747 1746 lava-dashboard-tool_0.8.orig.tar.gz
+ f8281f0d85b011c08a5d4ce8c94337cc053b15e9 2322 lava-dashboard-tool_0.8-0ubuntu1~linaro1.debian.tar.gz
+ e4787c2c417cac2c1e3d7f28f990f1dd34363a02 1583 lava-dashboard-tool_0.8-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ e1c25597f03789f9a07fac7e08bb56c300e768b468d43a377ff65bef9630cad6 1746 lava-dashboard-tool_0.8.orig.tar.gz
+ cb9c1d5316bf5532c8c8793ec3b9f9c2f7ee08cccb035450ba94bb9a6334fb6f 2322 lava-dashboard-tool_0.8-0ubuntu1~linaro1.debian.tar.gz
+ 9da4467324a26eb29a78ff24561f845652c2319e91aad310f78431328ef56d27 1583 lava-dashboard-tool_0.8-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/launch-control-tool/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: lava-dashboard-tool deb admin optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: lava-scheduler-tool
+Binary: lava-scheduler-tool
+Version: 0.6-0ubuntu1~linaro1
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.7.2-10), python-setuptools (>= 0.6b3)
+Build-Depends-Indep: lava-tool (>= 0.7), python-versiontools (>= 1.4)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-scheduler-tool
+Files:
+ f7d9ac7ba1406c6cf2f4dff5c57fcfc3 4211 lava-scheduler-tool_0.6.orig.tar.gz
+ 5eab4405ffd4f545a308620f1b8d271e 1953 lava-scheduler-tool_0.6-0ubuntu1~linaro1.debian.tar.gz
+ 7cc6775f140bf4b71691c8a2a96a5e87 1542 lava-scheduler-tool_0.6-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 0d1fb78cfd600fb96d91df5b36b8a64a820bde53 4211 lava-scheduler-tool_0.6.orig.tar.gz
+ b0229fdb30ebe07709c5ff1d9425d5acab4b37df 1953 lava-scheduler-tool_0.6-0ubuntu1~linaro1.debian.tar.gz
+ e8a78978112b53a15f10f338f3148241d4ef7123 1542 lava-scheduler-tool_0.6-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ 5b30e02b1744a8c57e6737f4a20340007e61010db5de7b6f21e355817c03950f 4211 lava-scheduler-tool_0.6.orig.tar.gz
+ 937f979d8986c4aa417734ff8a7af58c9d423a1d19da5bb51e9bb5db5da07b81 1953 lava-scheduler-tool_0.6-0ubuntu1~linaro1.debian.tar.gz
+ e9981bb125970bbbaeb8ad625be17c095f6f8d4a2cb41a8589e37df465b88524 1542 lava-scheduler-tool_0.6-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/lava-scheduler-tool/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: lava-scheduler-tool deb admin optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: lava-test
+Binary: lava-test
+Version: 0.13-0ubuntu1~linaro1
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), lava-tool, lsb-release, python (>= 2.6.6-3~), python-apt, python-json-schema-validator, python-linaro-dashboard-bundle, python-setuptools (>= 0.6b3), python-versiontools, usbutils
+Build-Depends-Indep: python-testrepository
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-test
+Files:
+ 4a221508b58cfc609725b89f896d79f9 63579 lava-test_0.13.orig.tar.gz
+ 5577051dd7b73035503ee0e8c373e377 1976 lava-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ 43d3ab3235a274df6b2aea5a7a7fa2eb 1674 lava-test_0.13-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 7675feed2112fbbbd3394aab08307178e558f5c3 63579 lava-test_0.13.orig.tar.gz
+ f07b904ea5875ef9e822168774fb2b72fdc1a218 1976 lava-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ 33bfc6f6b7014b3119a6cc5d33555ceb2fff1bed 1674 lava-test_0.13-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ 53b1dcf3f99a712707acdcbc64cf207a1ddf3678566688cee4ebfb55f7312297 63579 lava-test_0.13.orig.tar.gz
+ ddde38bd877162ac204ab54f4328e511d5352fa37e70b230c5611c7228b637df 1976 lava-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ 947aca3544b004632c6b0a647c24f48fbd822a6c368c39c6385c06783150e3f3 1674 lava-test_0.13-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/lava-tool/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: lava-test deb admin optional
+Original-Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+
+Package: lava-android-test
+Binary: lava-android-test
+Version: 0.13-0ubuntu1~linaro1
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), lava-tool, lsb-release, python, python-linaro-dashboard-bundle, python-pkg-resources, python-setuptools (>= 0.6b3), python-versiontools
+Build-Depends-Indep: python-testrepository
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-android-test
+Files:
+ 1deeb83228c47a147fd73831ae1fd583 77545 lava-android-test_0.13.orig.tar.gz
+ 3e8c7265b6a4be5a18448e0f15571aab 2150 lava-android-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ fa19d2efeb50524b18d0f7822ec193ff 1708 lava-android-test_0.13-0ubuntu1~linaro1.dsc
+Checksums-Sha1:
+ 7a830fba123652e3250d16294253fa229bdfb5fa 77545 lava-android-test_0.13.orig.tar.gz
+ ee7e1a5b2d16d39fd7246c88446de203d42bee47 2150 lava-android-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ 702c36be733450734cd8cf35790e724f6d8877f7 1708 lava-android-test_0.13-0ubuntu1~linaro1.dsc
+Checksums-Sha256:
+ 01b8fcc215a8eaa519cfd619ecf7425c1ce43d6cdf941a6e4c8463965413199f 77545 lava-android-test_0.13.orig.tar.gz
+ e6d2247719eabdd780f9c290e0123178e23674df8eb4028db3f4d456048ba20f 2150 lava-android-test_0.13-0ubuntu1~linaro1.debian.tar.gz
+ c919edf93f67dde95de4427d4510ba59653bd08bd0beadc1ef5b9ff9ece4bf6c 1708 lava-android-test_0.13-0ubuntu1~linaro1.dsc
+Homepage: http://launchpad.net/lava-android-test/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: lava-android-test deb admin optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: android-tools
+Binary: android-tools-adb, android-tools-fastboot, android-tools-fsutils, android-tools-adbd
+Version: 4.2.2+git20130218-3ubuntu23+linaro1
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9), libselinux-dev, libssl-dev, python, zlib1g-dev, bash-completion
+Architecture: linux-any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/a/android-tools
+Files:
+ 0e653b129ab0c95bdffa91410c8b55be 215868 android-tools_4.2.2+git20130218.orig.tar.xz
+ 4dba7fd64a0184c51092abc24a1b2a0c 150195 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.debian.tar.gz
+ c23176ea2e90c59d94ea777d2982b903 1829 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.dsc
+Checksums-Sha1:
+ 5e59dfa5371a85807b938a40af79747eb44d9297 215868 android-tools_4.2.2+git20130218.orig.tar.xz
+ 6ff8478cf63810052ac4233e5beb1f3c3d101de3 150195 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.debian.tar.gz
+ 9024a9e0b43c94d14d0430c2a1faff034b450439 1829 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.dsc
+Checksums-Sha256:
+ 9bfba987e1351b12aa983787b9ae4424ab752e9e646d8e93771538dc1e5d932f 215868 android-tools_4.2.2+git20130218.orig.tar.xz
+ eb20eaef6c7d3e78480035935fb64f658b289e5d65604e0451bd472ecae6c5e7 150195 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.debian.tar.gz
+ a2ce95a25e86f89afb9f4be97e70ee02f06724f94ad609864a3e8abccf2c53cd 1829 android-tools_4.2.2+git20130218-3ubuntu23+linaro1.dsc
+Homepage: http://developer.android.com/guide/developing/tools/adb.html
+Uploaders: Loïc Minier <lool@debian.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: android-tools-adb deb devel extra
+ android-tools-adbd deb devel extra
+ android-tools-fastboot deb devel extra
+ android-tools-fsutils deb devel extra
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+
+Package: kvm-boot-wrapper
+Binary: kvm-boot-wrapper
+Version: 0.1~ppa1+bzr30+bzr13~precise1
+Section: misc
+Maintainer: Michael Hope <michael.hope@linaro.org>
+Build-Depends: debhelper (>= 8.0.0), gcc-arm-linux-gnueabi [!armel !armhf]
+Architecture: any
+Standards-Version: 3.9.3
+Format: 1.0
+Directory: pool/main/k/kvm-boot-wrapper
+Files:
+ 6cdbac5588ceeb71f10ceb0aa7271837 8930 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.tar.gz
+ 07782e9c5df515ad589e4c53b37877e7 739 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.dsc
+Checksums-Sha1:
+ b0e79b49eb058ae6e15025e34ad957b684092980 8930 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.tar.gz
+ 7bb837e13e6e9bb5e5e0a32fdea33101954e097b 739 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.dsc
+Checksums-Sha256:
+ 6b0aa197d7d35370f1cf3c2a23f9dc271d0c8a9011d923e2c172ef978cd9df6d 8930 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.tar.gz
+ 5772d2e8900e3124a679acec883efe284f599747b12122cb40db74f8f2bae71c 739 kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1.dsc
+Vcs-Git: git://git.linaro.org/arm/models/boot-wrapper.git
+Package-List: kvm-boot-wrapper deb misc extra
+
+Package: json-schema-validator
+Binary: python-json-schema-validator, python-json-schema-validator-doc
+Version: 2.3-0ubuntu1~linaro2
+Section: python
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: python, python-setuptools (>= 0.6b3), debhelper (>= 7.0.50~), python-simplejson (>= 2.0.9)
+Build-Depends-Indep: python-sphinx (>= 1.0.7+dfsg), libjs-jquery, python-versiontools (>= 1.4), python-testtools (>= 0.9.2), python-testscenarios (>= 0.1)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/j/json-schema-validator
+Files:
+ ded5ca18aa9b3c5b5a25d22faa41ad87 20253 json-schema-validator_2.3.orig.tar.gz
+ 13d31b5334ebd3fa2fd57993b33086d6 3285 json-schema-validator_2.3-0ubuntu1~linaro2.debian.tar.gz
+ 3c5ad45c72b1f29f405013447eae00b7 1766 json-schema-validator_2.3-0ubuntu1~linaro2.dsc
+Checksums-Sha1:
+ fd310010a51bd9a17dc35d7e6e10b84cd80e863a 20253 json-schema-validator_2.3.orig.tar.gz
+ 1f0adc738bb7237e68664e92545e2a86b8d5bad3 3285 json-schema-validator_2.3-0ubuntu1~linaro2.debian.tar.gz
+ cf64f74367c9afb806e1ee9297f36f4b886539c8 1766 json-schema-validator_2.3-0ubuntu1~linaro2.dsc
+Checksums-Sha256:
+ 316befb9a6d981dff465f5243e423a3027b27775f7649510ce23fde300dde9b7 20253 json-schema-validator_2.3.orig.tar.gz
+ 506deaf8b1f1d10051150f4126fb5d5a060f29f62af5fc2a2e9aae5b2e93caed 3285 json-schema-validator_2.3-0ubuntu1~linaro2.debian.tar.gz
+ f62e957644b9e0c607f6bf91f1cb83fa0c0af5cd5971f5c629d27b6b22188e22 1766 json-schema-validator_2.3-0ubuntu1~linaro2.dsc
+Homepage: http://launchpad.net/json-schema-validator/
+Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>
+Package-List: python-json-schema-validator deb python optional
+ python-json-schema-validator-doc deb doc optional
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: libloadercomm
+Binary: libloadercomm-dev, libloadercomm1
+Version: 0.5.2-igloo2
+Section: libs
+Maintainer: Kalle Vahlman <kalle.vahlman@movial.com>
+Build-Depends: debhelper (>= 8.0.0), libxalan2-java
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (native)
+Directory: pool/main/libl/libloadercomm
+Files:
+ 07dd7a52d906f1e11fdfe9456956154b 321386 libloadercomm_0.5.2-igloo2.tar.gz
+ 213c248a9c21a31ddd0c9cb72c9959a9 1138 libloadercomm_0.5.2-igloo2.dsc
+Checksums-Sha1:
+ 3e3222eb22d951ad14598a1e819244e77d82ee1d 321386 libloadercomm_0.5.2-igloo2.tar.gz
+ 730cca3562b44ba611ad1bb23a64f32bba33760e 1138 libloadercomm_0.5.2-igloo2.dsc
+Checksums-Sha256:
+ 8b0de88580ee558ab361fd1ff5e63f4fd11033af1e11e6f764eb81f92a233048 321386 libloadercomm_0.5.2-igloo2.tar.gz
+ 205bcdd1dc56a9909a0cc7e473f2d1d6b6d5324c15b9447118dac636d6325859 1138 libloadercomm_0.5.2-igloo2.dsc
+Homepage: http://igloocommunity.org
+
+Package: riff-configpack
+Binary: riff-configpack
+Version: 0.5.0-igloo1
+Section: misc
+Maintainer: packages@igloocommunity.org
+Build-Depends: debhelper (>= 7.0.50~)
+Architecture: all
+Standards-Version: 3.8.4
+Format: 3.0 (native)
+Directory: pool/main/r/riff-configpack
+Files:
+ ec21e8f7fa2c7b2d9b04ce18d893501d 176948 riff-configpack_0.5.0-igloo1.tar.gz
+ fb6e8617c695f89493e1bb2e5db481a0 1101 riff-configpack_0.5.0-igloo1.dsc
+Checksums-Sha1:
+ 09cdbae9123c98a884f6a2d99ed6284b408edbad 176948 riff-configpack_0.5.0-igloo1.tar.gz
+ 5e3017774d10093fddca2277a3d653123f40f213 1101 riff-configpack_0.5.0-igloo1.dsc
+Checksums-Sha256:
+ 8c87d53223dbfd2a7d077b509343dadd05291996e75672038c7a51f24e352221 176948 riff-configpack_0.5.0-igloo1.tar.gz
+ e70dd63e3f0359a45e6a65b6b9fddf30ddca21cfd2d358bf6c082be774d5cb88 1101 riff-configpack_0.5.0-igloo1.dsc
+Homepage: http://igloocommunity.org
+
+Package: riff
+Binary: libcdal-dev, libcdal1, riff
+Version: 0.5.2-igloo1
+Section: devel
+Maintainer: Kalle Vahlman <kalle.vahlman@movial.com>
+Build-Depends: debhelper (>= 8.0.0), libloadercomm-dev, libusb-1.0-0-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (native)
+Directory: pool/main/r/riff
+Files:
+ 9a51d7249d297c3fc5b0c341c66ff884 34352 riff_0.5.2-igloo1.tar.gz
+ d273ab6ddd7101e039e1d4387c27130d 1208 riff_0.5.2-igloo1.dsc
+Checksums-Sha1:
+ bb9894b3b283d8b40317c8ff71c8144baceef3de 34352 riff_0.5.2-igloo1.tar.gz
+ c308102d4bc682789db06128e86583fca743b8d5 1208 riff_0.5.2-igloo1.dsc
+Checksums-Sha256:
+ 6b6c7d367e0cf046265886bab2d910d9ba6adca42024bd10a228691f911194f2 34352 riff_0.5.2-igloo1.tar.gz
+ d04ee31b09e5260e862d043c62f848f5ad0d9694e1a7169e0b04727410c95f59 1208 riff_0.5.2-igloo1.dsc
+Homepage: http://igloocommunity.org
+Package-List: libcdal-dev deb libdevel extra
+ libcdal1 deb libs extra
+ riff deb devel extra
+
+Package: sbsigntool
+Binary: sbsigntool
+Version: 0.6-0ubuntu5+linaro2
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: binutils-dev, debhelper (>= 9), libssl-dev, help2man, openssl, pkg-config, uuid-dev, gnu-efi, gcc-multilib, dh-autoreconf, automake1.11
+Architecture: any-amd64 any-i386
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/s/sbsigntool
+Files:
+ fe3f25fa01956460fc5c13545de69eb4 212375 sbsigntool_0.6.orig.tar.gz
+ 41994e9dd4cf56c7c077f90ad53b79ca 8357 sbsigntool_0.6-0ubuntu5+linaro2.debian.tar.gz
+ 517aacf143cb5d2d84fa3966a9116b89 1446 sbsigntool_0.6-0ubuntu5+linaro2.dsc
+Checksums-Sha1:
+ 6e34f2e327e22ac7ca353f6643057e405c394c88 212375 sbsigntool_0.6.orig.tar.gz
+ 9646070a9b7842a27873c6059fbbece5a42f0263 8357 sbsigntool_0.6-0ubuntu5+linaro2.debian.tar.gz
+ 8cceff67bb6934cc66fe6ac033d63e0585c0382f 1446 sbsigntool_0.6-0ubuntu5+linaro2.dsc
+Checksums-Sha256:
+ 84fb0c8f6fb1e79aa418a4f70a3139b38d5630043b28291c875f383e9b4294b8 212375 sbsigntool_0.6.orig.tar.gz
+ 14036a0e12d8b9af60e7eb2eb25b987aecea5177d74715009041928ae5574aa0 8357 sbsigntool_0.6-0ubuntu5+linaro2.debian.tar.gz
+ eafbd144a5bdf974d6744a2a59a8c54a892efedd680e17ee4c2717f3fe44cfbe 1446 sbsigntool_0.6-0ubuntu5+linaro2.dsc
+Package-List: sbsigntool deb utils optional
+Vcs-Bzr: lp:ubuntu/sbsigntool
+Original-Maintainer: Steve Langasek <vorlon@debian.org>
+
+Package: acpi-abat
+Binary: acpi-abat
+Version: 0.2-0linaro1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: debhelper (>= 8)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/main/a/acpi-abat
+Files:
+ dc13754193a1f1cbbc3be365fa74a834 15971 acpi-abat_0.2.orig.tar.gz
+ bbdeafe6f2e994a8a41bb8791660f6e9 2069 acpi-abat_0.2-0linaro1.debian.tar.gz
+ d85c8d5f36e163b4d7e6f98bb7895efd 1281 acpi-abat_0.2-0linaro1.dsc
+Checksums-Sha1:
+ 943e48786776c6031b78ee9c7bdd278b7b33abb8 15971 acpi-abat_0.2.orig.tar.gz
+ aff311109830305a10864dc0c08925bc456458f6 2069 acpi-abat_0.2-0linaro1.debian.tar.gz
+ e698c798577abf0ff9fee23a147d5c1a2b3ac084 1281 acpi-abat_0.2-0linaro1.dsc
+Checksums-Sha256:
+ dc6fa1ac06a369f5e33e86d05d50e6dfe0789af5fc24d7ba3ac45d2bd2a0678e 15971 acpi-abat_0.2.orig.tar.gz
+ 506eb393e404e8738aa5912168bc0707f9a50e300d8505e1da7234b264c2e94b 2069 acpi-abat_0.2-0linaro1.debian.tar.gz
+ 6ed56cae29ee26f238170873008bcb4e3a4befe26cc07bfabfc5d9ad79bc0bef 1281 acpi-abat_0.2-0linaro1.dsc
+Homepage: https://lesswatts.org/projects/acpi/utilities.php
+Uploaders: Fathi Boudra <fathi.boudra@linaro.org>
+Package-List: acpi-abat deb devel extra
+
+Package: python-argcomplete
+Binary: python-argcomplete
+Version: 0.5.4-1
+Section: python
+Maintainer: Marco Nenciarini <mnencia@debian.org>
+Build-Depends: python-setuptools (>= 0.6b3), python-all, debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.9.4.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/python-argcomplete
+Files:
+ 2db900f2919bd1dd3e20c612aa726302 22223 python-argcomplete_0.5.4.orig.tar.gz
+ 900276a7becd20a2c39841cd33961908 2870 python-argcomplete_0.5.4-1.debian.tar.gz
+ be0ffeee12f826471900c5c6c7595fe9 1429 python-argcomplete_0.5.4-1.dsc
+Checksums-Sha1:
+ 6fe191d8b997439e7c6d59fde07aef934e0bf5b0 22223 python-argcomplete_0.5.4.orig.tar.gz
+ f42a427a8760a05f9e6de039a002a0fe828d5a16 2870 python-argcomplete_0.5.4-1.debian.tar.gz
+ 5dbfa6be0832d78a35e3ed89b93ae5b5f3366a2d 1429 python-argcomplete_0.5.4-1.dsc
+Checksums-Sha256:
+ d672874ec54f4fcd99bb9883b62ad81edf67f303d03229051432b3453db09891 22223 python-argcomplete_0.5.4.orig.tar.gz
+ 5d35a7107d1b94f2c0e3ea24780b222d2205ec7c83d156127eb3529fc5cd77cd 2870 python-argcomplete_0.5.4-1.debian.tar.gz
+ 087d3255bd889ccd9adee982c02228f75f8b25dc52d15b951cc8dcb140c76725 1429 python-argcomplete_0.5.4-1.dsc
+Package-List: python-argcomplete deb python optional
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-argcomplete.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-argcomplete.git
+
+Package: lava-coordinator
+Binary: lava-coordinator
+Version: 0.1.5-1
+Section: net
+Maintainer: Neil Williams <codehelp@debian.org>
+Build-Depends: debhelper (>= 8.0.0), python | python-all | python-dev | python-all-dev, python-setuptools, docbook-xsl, xsltproc
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: pool/main/l/lava-coordinator
+Files:
+ 19cb293a135934ba897ed6f1537a0372 15062 lava-coordinator_0.1.5.orig.tar.gz
+ 1cd5a3f714d26635d7da837e996d7c89 4798 lava-coordinator_0.1.5-1.debian.tar.gz
+ f6e36c65d605b95ed51f7b86ddd16a00 1881 lava-coordinator_0.1.5-1.dsc
+Checksums-Sha1:
+ a2f848dbe6086f94d83b7776797070111c5f9bcd 15062 lava-coordinator_0.1.5.orig.tar.gz
+ 2e67aba10e126f919b2d548f541098f04cbfe5b6 4798 lava-coordinator_0.1.5-1.debian.tar.gz
+ bcf9a81a8967764ce77e471224adc3210fe2b875 1881 lava-coordinator_0.1.5-1.dsc
+Checksums-Sha256:
+ 763a8ae29f73af2d61aed340399bddc555c4874fc38df70d07b0ffa29bedff51 15062 lava-coordinator_0.1.5.orig.tar.gz
+ 1f10e17e3141fe21efb60106f61f25fb16d847bd4d5038765340a7e54d056a89 4798 lava-coordinator_0.1.5-1.debian.tar.gz
+ f7b326e4651403982c2a6bfb6f7fe6667603292a8fd13c2ad46a41c5b5ba3148 1881 lava-coordinator_0.1.5-1.dsc
+Homepage: http://www.linaro.org/engineering/validation
+Package-List: lava-coordinator deb net optional
+
+Package: lavapdu
+Binary: lavapdu
+Version: 0.0.2-1ubuntu1
+Section: net
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.0.0), python | python-all | python-dev | python-all-dev, python-setuptools, docbook-xsl, xsltproc
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Directory: pool/main/l/lavapdu
+Files:
+ 2a4aff88c91665180bb1148528d645b3 8875 lavapdu_0.0.2.orig.tar.gz
+ 2c3ade0fad2820a55b67c927aaa49868 6420 lavapdu_0.0.2-1ubuntu1.debian.tar.xz
+ b29cc3a3bc389ba65eed39eca4f9f089 2237 lavapdu_0.0.2-1ubuntu1.dsc
+Checksums-Sha1:
+ fca1d37abfeb37d5cf27886efd1905e5c03642f6 8875 lavapdu_0.0.2.orig.tar.gz
+ 1142bfb07c97266a74f970a15131fe287f2951e0 6420 lavapdu_0.0.2-1ubuntu1.debian.tar.xz
+ 8f0b9bcee143920e8d3d5167da8eec02d18894d2 2237 lavapdu_0.0.2-1ubuntu1.dsc
+Checksums-Sha256:
+ fc5f589e60f902d02824e2a299b86b03df1d8848529b1871d29377a448c495ff 8875 lavapdu_0.0.2.orig.tar.gz
+ 5c9d7dffad0db19f8a40032183b9000a222ce5ecad66b166133cb37293fe6baf 6420 lavapdu_0.0.2-1ubuntu1.debian.tar.xz
+ 45f2cbc6262cc84a84a67ab04236371dab496b9f0c83c269a05c8e70133b83dc 2237 lavapdu_0.0.2-1ubuntu1.dsc
+Homepage: http://www.linaro.org/engineering/engineering-groups/validation
+Uploaders: Matthew Hart <matthew.hart@linaro.org>, Antonio Terceiro <terceiro@debian.org>, Neil Williams <codehelp@debian.org>, Fathi Boudra <fabo@debian.org>, Jordi Mallach <jordi@debian.org>
+Package-List: lavapdu deb net optional
+Vcs-Git: https://alioth.debian.org/anonscm/git/pkg-linaro-lava/lavapdu.git
+Vcs-Browser: https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=pkg-linaro-lava/lavapdu.git;a=summary
+

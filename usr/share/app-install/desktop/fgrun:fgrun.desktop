@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fgrun
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.4
+Name=FlightGear Launch Control
+Icon=_usr_share_pixmaps_flightgear
+Exec=fgrun
+Terminal=false
+Categories=Game;Simulation;
+Comment=Launch FlightGear via FGRun
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/dbus-1
+/usr/share/dbus-1/services
+/usr/share/dbus-1/services/com.ubuntu.sso.service
+/usr/share/doc
+/usr/share/doc/ubuntu-sso-client
+/usr/share/doc/ubuntu-sso-client/copyright
+/usr/lib
+/usr/lib/ubuntu-sso-client
+/usr/lib/ubuntu-sso-client/ubuntu-sso-login
+/usr/share/doc/ubuntu-sso-client/changelog.Debian.gz

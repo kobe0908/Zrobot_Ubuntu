@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=multitet
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=Multitet
+Icon=multitet
+GenericName=Multitouch cooperative Tetris-like game
+Exec=multitet
+Categories=Game;
+Comment=Multitouch cooperative Tetris-like game
+
+X-Ubuntu-Gettext-Domain=app-install-data

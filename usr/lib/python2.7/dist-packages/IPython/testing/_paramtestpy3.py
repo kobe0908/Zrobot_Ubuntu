@@ -1,1 +1,0 @@
-../../../../../share/pyshared/IPython/testing/_paramtestpy3.py

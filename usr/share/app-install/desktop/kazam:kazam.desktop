@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kazam
+X-AppInstall-Popcon=151
+X-AppInstall-Section=universe
+
+Name=Kazam Screencaster
+GenericName=Screencaster
+Comment=Record a video of activity on your screen
+Categories=GNOME;AudioVideo;
+Exec=kazam
+Icon=kazam
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/transport/nosmart.py

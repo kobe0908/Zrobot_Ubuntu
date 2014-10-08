@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/folks
+/usr/lib/folks/32
+/usr/lib/folks/32/backends
+/usr/lib/folks/32/backends/eds
+/usr/lib/folks/32/backends/eds/eds.so
+/usr/lib/libfolks-eds.so.25.7.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfolks-eds25
+/usr/share/doc/libfolks-eds25/copyright
+/usr/lib/libfolks-eds.so.25
+/usr/share/doc/libfolks-eds25/changelog.Debian.gz

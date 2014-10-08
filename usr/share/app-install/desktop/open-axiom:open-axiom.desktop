@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=open-axiom
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=OpenAxiom
+Type=Application
+Comment=Open scientific computation platform
+Exec=open-axiom
+TryExec=open-axiom
+Icon=open-axiom
+Categories=Science;Education;Math;
+Terminal=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

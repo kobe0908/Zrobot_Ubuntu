@@ -1,0 +1,12 @@
+9d28e3502076b7af528a6bcb651c4372  usr/lib/arm-linux-gnueabihf/libgphoto2_port.so.0.8.0
+5195e4bff71058f648df08dcc016b3f8  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/disk.so
+ff46284c35d2ebc16e3f61225d0f7c91  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/ptpip.so
+c0c148028d75e535d9e859c8f7f6eb64  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/serial.so
+bd9e32cd815e4d65b50f1bd2fd367489  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/usb.so
+a2b5d1540612bedef9f8e857e804c161  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/usbdiskdirect.so
+2db011c01fe6b256ac946202a5f50d29  usr/lib/arm-linux-gnueabihf/libgphoto2_port/0.8.0/usbscsi.so
+199febe15d8ff7a14e42e754373db070  usr/share/doc/libgphoto2-port0/AUTHORS
+4eab4dde5364f5b74cc9803201c3493d  usr/share/doc/libgphoto2-port0/NEWS.gz
+1157caa5c6cfa2e0f18ac5faf7ffe99b  usr/share/doc/libgphoto2-port0/README
+5cbf742f014ab973b2a8a44e0270aa61  usr/share/doc/libgphoto2-port0/changelog.Debian.gz
+366899e3eaf2d04bf69cbf59194c0585  usr/share/doc/libgphoto2-port0/copyright

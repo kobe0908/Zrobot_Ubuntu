@@ -1,0 +1,59 @@
+#!/usr/bin/python
+# -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
+#
+# Copyright (C) 2012 Bryce Harrington bryce@canonical.com
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License version 3, as published
+# by the Free Software Foundation.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranties of
+# MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
+# PURPOSE.  See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import sys
+import os
+
+# Add project root directory (enable symlink, and trunk execution).
+PROJECT_ROOT_DIRECTORY = os.path.abspath(
+    os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0]))))
+
+if (os.path.exists(os.path.join(PROJECT_ROOT_DIRECTORY, 'xdiagnose'))
+    and PROJECT_ROOT_DIRECTORY not in sys.path):
+    sys.path.insert(0, PROJECT_ROOT_DIRECTORY)
+    os.putenv('PYTHONPATH', PROJECT_ROOT_DIRECTORY) # for subprocesses
+
+from xdiagnose.pci_devices import get_pci_devices
+
+if __name__ == "__main__":
+    import optparse
+    parser = optparse.OptionParser(version="%prog %ver")
+    parser.add_option(
+        "-v", "--verbose", action="store_true", dest="verbose",
+        help="Show debug messages")
+    (options, args) = parser.parse_args()
+
+    if len(args) > 0:
+        text = ' '.join(args)
+    else:
+        import subprocess
+        process = subprocess.Popen('lspci -vvnn', shell=True, stdout=subprocess.PIPE)
+        text = process.communicate()[0]
+    devices = get_pci_devices(text)
+    if devices is None:
+        sys.exit(1)
+    for device in devices:
+        if device:
+            print device.name, device.regex,
+            if device.generation:
+                print device.generation,
+            if device.title:
+                print device.title,
+            print ','.join(device.drivers),
+            if not device.supported:
+                print " (NOT SUPPORTED)"
+
+

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=freeciv-server
+X-AppInstall-Popcon=468
+X-AppInstall-Section=universe
+
+Name=Freeciv server
+Comment=Turn-based strategy game inspired by the history of human civilization
+Exec=freeciv-server
+Icon=freeciv-server
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=ConsoleOnly;Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

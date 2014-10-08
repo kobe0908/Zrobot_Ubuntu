@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=lyricue
+X-AppInstall-Popcon=33
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=lyricue
+Icon=_usr_share_lyricue_lyricue-icon
+Terminal=false
+Name=Lyricue
+Categories=AudioVideo;
+Comment=The GNU Lyric Display System
+
+X-Ubuntu-Gettext-Domain=app-install-data

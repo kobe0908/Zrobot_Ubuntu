@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kpat
+X-AppInstall-Popcon=2044
+X-AppInstall-Section=main
+
+Name=KPatience
+Exec=kpat -caption "%c"
+Type=Application
+Icon=kpat
+X-DocPath=kpat/index.html
+GenericName=Patience Card Game
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;CardGame;
+MimeType=application/vnd.kde.kpatience.savedstate;
+
+X-Ubuntu-Gettext-Domain=app-install-data

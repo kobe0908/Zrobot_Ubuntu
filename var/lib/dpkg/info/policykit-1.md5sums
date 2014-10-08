@@ -1,0 +1,17 @@
+de01cf7c27b4c5874aa6b8e0bf34f85e  usr/bin/pkaction
+3d6bee0858d928a512fa400121a2bea4  usr/bin/pkcheck
+e3887c556cc43cf98334728ca3cebfbd  usr/bin/pkexec
+bc9e07859c9aa0c4e9332b13361cd588  usr/lib/arm-linux-gnueabihf/polkit-1/extensions/libnullbackend.so
+035c27d769d06e354b3b713a9768b1c3  usr/lib/policykit-1/polkit-agent-helper-1
+79daa23ab900eb655270458907cbbaa2  usr/lib/policykit-1/polkitd
+c588ff7e1c1abb7ea868ca5349911038  usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service
+227517640847c3e55d04c73b99d7a8df  usr/share/doc/policykit-1/NEWS.gz
+51881fe1d81620e681b6e3f0d6f04722  usr/share/doc/policykit-1/README
+fa9871c87c4962314f83649ae1bfa065  usr/share/doc/policykit-1/copyright
+a1c02aa283af259a2cdd13cd83094841  usr/share/man/man1/pkaction.1.gz
+33b9a70329e95777e4e60b01fd04b987  usr/share/man/man1/pkcheck.1.gz
+3eac197902cee4508cfb4a50a5f5ede9  usr/share/man/man1/pkexec.1.gz
+2b538fe0ac69425929eafccce97bd3f6  usr/share/man/man8/pklocalauthority.8.gz
+d50150eb28361dd4a5299748332e1335  usr/share/man/man8/polkit.8.gz
+018ec8f87de07292606d75912c0b97a3  usr/share/man/man8/polkitd.8.gz
+9f2641bef1ea24a5e071b83d31c90cbe  usr/share/polkit-1/actions/org.freedesktop.policykit.policy

@@ -1,0 +1,681 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_center_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_center_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Put Center</short>
+        <long>Move window to the center</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_left_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_left_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Super&gt;Left</default>
+      <locale name="C">
+        <short>Put Left</short>
+        <long>Move window to the left edge</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_right_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_right_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Super&gt;Right</default>
+      <locale name="C">
+        <short>Put Right</short>
+        <long>Move window to the right edge</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_top_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_top_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_8</default>
+      <locale name="C">
+        <short>Put Top</short>
+        <long>Move window to the top edge</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_bottom_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_bottom_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_2</default>
+      <locale name="C">
+        <short>Put Bottom</short>
+        <long>Move window to the bottom edge</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_topleft_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_topleft_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_7</default>
+      <locale name="C">
+        <short>Put Top Left</short>
+        <long>Move window to the top left corner</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_topright_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_topright_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_9</default>
+      <locale name="C">
+        <short>Put Top Right</short>
+        <long>Move window to the top right corner</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_bottomleft_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_bottomleft_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_1</default>
+      <locale name="C">
+        <short>Put Bottom Left</short>
+        <long>Move window to the bottom left corner</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_bottomright_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_bottomright_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;KP_3</default>
+      <locale name="C">
+        <short>Put Bottom Right</short>
+        <long>Move window to the bottom right corner</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_maximize_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_maximize_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Maximize</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="ar">
+        <short>تكبير</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="bn">
+        <short>বড় করা</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>বড় করা</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="cs">
+        <short>Maximalizovat</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="de">
+        <short>Maximieren</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="el">
+        <short>Μεγιστοποίησε</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="es">
+        <short>Maximizada</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="eu">
+        <short>Maximizatu</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="fi">
+        <short>Suurenna</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="fr">
+        <short>Maximiser</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="gl">
+        <short>Maximizar</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="gu">
+        <short>મહત્તમ કરો</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="he">
+        <short>הגדל למקסימום</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="hu">
+        <short>Maximalizálás</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="it">
+        <short>Massimizzato</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="ja">
+        <short>最大化</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="ko">
+        <short>최대화</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="nb">
+        <short>Maksimer</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="nl">
+        <short>Maximaliseer</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="or">
+        <short>ସର୍ବାଧିକ କର</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="pl">
+        <short>Maksymalizuj</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="pt">
+        <short>Maximizar</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Maximizar</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="ru">
+        <short>Развернуть</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="sk">
+        <short>Maximalizovať</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="sv">
+        <short>Maximera</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="ta">
+        <short>பெரிதாக்கு</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="tr">
+        <short>Büyüt</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="uk">
+        <short>Розгорнути</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>最大化</short>
+        <long>Maximize window</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>最大化</short>
+        <long>Maximize window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/put_restore_key</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/put_restore_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;r</default>
+      <locale name="C">
+        <short>Restore</short>
+        <long>Restore window to it's original size</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/top_left_corner_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/top_left_corner_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>4</default>
+      <locale name="C">
+        <short>Upper Left Corner</short>
+        <long>Action to be performed when window is dropped on the top left corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/top_edge_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/top_edge_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>10</default>
+      <locale name="C">
+        <short>Top Edge</short>
+        <long>Action to be performed when window is dropped on the top edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/top_right_corner_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/top_right_corner_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>6</default>
+      <locale name="C">
+        <short>Upper Right Corner</short>
+        <long>Action to be performed when window is dropped on the top right corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/left_edge_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/left_edge_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>4</default>
+      <locale name="C">
+        <short>Left Edge</short>
+        <long>Action to be performed when window is dropped on the left edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/right_edge_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/right_edge_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>6</default>
+      <locale name="C">
+        <short>Right Edge</short>
+        <long>Action to be performed when window is dropped on the right edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/bottom_left_corner_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/bottom_left_corner_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>4</default>
+      <locale name="C">
+        <short>Bottom Left Corner</short>
+        <long>Action to be performed when window is dropped on the bottom left corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/bottom_edge_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/bottom_edge_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Bottom Edge</short>
+        <long>Action to be performed when window is dropped on the bottom edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/bottom_right_corner_action</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/bottom_right_corner_action</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>6</default>
+      <locale name="C">
+        <short>Bottom Right Corner</short>
+        <long>Action to be performed when window is dropped on the bottom right corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/snapoff_maximized</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/snapoff_maximized</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Snapoff maximized windows</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="bn">
+        <short>স্ন্যাপঅফ সর্বাধিক উইন্ডো</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>স্ন্যাপঅফ সর্বাধিক উইন্ডো</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="ca">
+        <short>Separa les finestres maximitzades</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="cs">
+        <short>Odtrhávat maximalizovaná okna</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="da">
+        <short>Frigør maksimerede vinduer</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="de">
+        <short>Einrasten maximierter Fenster aufheben</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="el">
+        <short>Αρπαγή μεγιστοποιημένων παραθύρων</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="es">
+        <short>Separar ventanas maximizadas</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="eu">
+        <short>Askatu maximizatutako leihoak</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="fi">
+        <short>Vapauta suurennetut ikkunat</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="fr">
+        <short>Désactiver l'alignement des fenêtres agrandies</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="gl">
+        <short>Separar as xanelas maximizadas</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="gu">
+        <short>મહત્તમ થયેલ વિન્ડો સ્નેપઓફ કરો</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="he">
+        <short>שחזר חלונות שהוגדלו למקסימום</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="hu">
+        <short>Maximalizált ablakok azonnali visszaállítása</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="it">
+        <short>Sganciare finestre massimizzate</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="ja">
+        <short>最大化したウィンドウのスナップ解除</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="ko">
+        <short>창 최대화 해제</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="nb">
+        <short>Smekk av maksimerte vinduer</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="nl">
+        <short>Los springen van gemaximaliseerde vensters</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="or">
+        <short>ସର୍ବାଧିକ କରାୟାଇଥିବା ଉଇଣ୍ଡୋକୁ ଛିନ୍ନ କର</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="pl">
+        <short>Odepnij zmaksymalizowane okna</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="pt">
+        <short>Janelas maximizadas quebradas</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Janelas maximizadas quebradas</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="ru">
+        <short>Отменить привязку полностью развернутых окон</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="sk">
+        <short>Odtrhávať maximalizované okná</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="sv">
+        <short>Koppla loss maximerade fönster</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="tr">
+        <short>Büyütülmüş pencerelerde koparma efekti kapalı</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="uk">
+        <short>Скасувати прив'язку повністю розгорнутих вікон</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>删除最大化窗口快照</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>解除嵌入最大化視窗</short>
+        <long>Snapoff maximized windows when pulling to edge.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/snapback_windows</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/snapback_windows</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Snap windows back to original size</short>
+        <long>Snaps windows back to their original size if dragged away from their gridded position.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/left_edge_threshold</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/left_edge_threshold</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>15</default>
+      <locale name="C">
+        <short>Left Edge</short>
+        <long>Maximum number of pixels from the left edge a window can be dropped (0 - 500)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/right_edge_threshold</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/right_edge_threshold</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>15</default>
+      <locale name="C">
+        <short>Right Edge</short>
+        <long>Maximum number of pixels from the right edge a window can be dropped (0 - 500)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/top_edge_threshold</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/top_edge_threshold</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>20</default>
+      <locale name="C">
+        <short>Top Edge</short>
+        <long>Maximum number of pixels from the top edge a window can be dropped (0 - 500)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/bottom_edge_threshold</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/bottom_edge_threshold</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>5</default>
+      <locale name="C">
+        <short>Bottom Edge</short>
+        <long>Maximum number of pixels from the Bottom edge a window can be dropped (0 - 500)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/draw_indicator</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/draw_indicator</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Draw Indicator</short>
+        <long>Draw Window Resize Indicator</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/outline_color</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/outline_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#fb8b009f</default>
+      <locale name="C">
+        <short>Outline Color</short>
+        <long>Color of the resize indicator outline</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/grid/screen0/options/fill_color</key>
+      <applyto>/apps/compiz-1/plugins/grid/screen0/options/fill_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#fb8b004f</default>
+      <locale name="C">
+        <short>Fill Color</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="bn">
+        <short>রঙ পূর্ণ করা</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>রঙ পূর্ণ করা</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="cs">
+        <short>Výplňová barva</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="de">
+        <short>Füllfarbe</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="el">
+        <short>Χρώμα Γεμίσματος</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="es">
+        <short>Color de relleno</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="eu">
+        <short>Betetze Kolorea</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="fi">
+        <short>Täyttöväri</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="fr">
+        <short>Couleur de Remplissage</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="gl">
+        <short>Cor de recheo</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="gu">
+        <short>રંગ ભરો</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="he">
+        <short>צבע מילוי</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="hu">
+        <short>Kitöltőszín</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="it">
+        <short>Colore riempimento</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="ja">
+        <short>塗り色</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="ko">
+        <short>채우기 색</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="nb">
+        <short>Fyllfarge</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="nl">
+        <short>Vul kleur</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="or">
+        <short>ରଙ୍ଗ ପୁରଣକର</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="pl">
+        <short>Kolor wypełniania</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="pt">
+        <short>Cor de preenchimento</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Cor de preenchimento</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="ro">
+        <short>Culoare de umplere</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="ru">
+        <short>Цвет заливки</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="sk">
+        <short>Farba výplne</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="sv">
+        <short>Fyllnadsfärg</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="tr">
+        <short>Dolgu Rengi</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="uk">
+        <short>Колір заливки</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>填充颜色</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>填滿色彩</short>
+        <long>Fill color of the resize indicator</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

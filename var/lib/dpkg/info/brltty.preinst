@@ -1,0 +1,47 @@
+#!/bin/sh
+
+set -e
+
+rm_if_md5sum() {
+    FILE="$1"
+    MD5SUM="$2"
+    if [ -e "$FILE" ]; then
+	md5sum="$(md5sum "$FILE" | sed -e 's/ .*//')"
+	if [ "$md5sum" = "$MD5SUM" ]; then
+	    rm -f "$FILE"
+	fi
+    fi
+}
+
+# Late handling of conffiles that were renamed or removed in maverick;
+# drop after precise
+for name in laptop keypad desktop; do
+	dpkg-maintscript-helper mv_conffile /etc/brltty/${name}.ktb \
+		/etc/brltty/kbd-${name}.ktb 4.3-1ubuntu3 -- "$@"
+done
+dpkg-maintscript-helper mv_conffile /etc/brltty/en_UK.ttb \
+	/etc/brltty/en_GB.ttb 4.3-1ubuntu3 -- "$@"
+
+for name in al at ba ba-all bd bd-all bl bl-18 bl-40_m20_m40 bm bn bn-commands \
+            bn-keys cb ec ec-all ec-spanish eu eu-all fs hm ht il il-all lt \
+            lt-all mb mb-all md md-all mn mn-all pg pm pm-2d_l pm-2d_s pm-c \
+            pm-c_486 pm-el_2d_40 pm-el_2d_66 pm-el_2d_80 pm-el2d_80s \
+            pm-el_40_p pm-el40s pm-el66s pm-el70s pm-el_80 pm-el80_ii pm-el80s \
+            pm-elba_20 pm-elba_32 pm-elba_trio_20 pm-elba_trio_32 pm-ib_80 \
+            pm-trio sk tn tn-all ts ts-nav20_nav40 ts-nav80 ts-pb40 \
+            ts-pb65_pb81 tt tt-all vd vd-all vo vr vr-all vs vs-all
+do
+	dpkg-maintscript-helper rm_conffile /etc/brltty/brltty-${name}.hlp \
+		4.3-1ubuntu3 -- "$@"
+done
+dpkg-maintscript-helper rm_conffile /etc/brltty/brltty-pm.conf \
+	4.3-1ubuntu3 -- "$@"
+
+case "$1" in
+    install|upgrade)
+	if dpkg --compare-versions "$2" lt "4.0.8"; then
+	    # remove obsolete file we used to install before this file
+	    # became a conffile
+	    rm_if_md5sum "/etc/default/brltty" 59911d8dcc8f4ad3cdc13e9845aa73a6
+	fi
+esac

@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-active-data
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Exec=active-settings org.kde.active.settings.time
+Icon=clock
+Name=Adjust date and time
+Type=Application
+Categories=Qt;KDE;System;Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

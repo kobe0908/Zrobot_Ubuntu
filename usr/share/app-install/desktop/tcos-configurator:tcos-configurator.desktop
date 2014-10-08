@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=tcos-configurator
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Name=TCOS Server Configurator
+Comment=Configure TCOS server daemons and users
+Exec=su-to-root -X -c /usr/sbin/tcos-configurator
+Terminal=false
+Type=Application
+Icon=_usr_share_tcos-configurator_images_tcos-icon-32x32
+Categories=GNOME;Settings;System;DesktopSettings;Monitor
+
+X-Ubuntu-Gettext-Domain=app-install-data

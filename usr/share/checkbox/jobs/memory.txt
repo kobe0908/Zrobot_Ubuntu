@@ -1,0 +1,15 @@
+plugin: shell
+name: memory/info
+user: root
+command: memory_compare
+description:
+ This test checks the amount of memory which is reporting in meminfo against
+ the size of the memory modules detected by DMI.
+
+plugin: shell
+name: memory/check
+requires: package.name == 'linux'
+user: root
+command: memory_test
+description:
+ Test and exercise memory.

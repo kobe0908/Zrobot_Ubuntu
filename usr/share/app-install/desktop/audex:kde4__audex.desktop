@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=audex
+X-AppInstall-Popcon=226
+X-AppInstall-Section=universe
+
+Name=Audex
+GenericName=CDDA Ripping
+Exec=audex
+Icon=audex
+Type=Application
+MimeType=application/x-audex;
+Categories=Qt;KDE;AudioVideo;
+Terminal=false
+X-DCOP-ServiceType=Unique
+X-DCOP-ServiceName=audex
+X-DocPath=http://userbase.kde.org/Audex
+Comment=Rip audio tracks from your audio CDs
+
+X-Ubuntu-Gettext-Domain=app-install-data

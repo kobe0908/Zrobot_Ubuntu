@@ -1,0 +1,5 @@
+d24f661daebcfd10ffe2535cebeb8835  usr/lib/unity-lens-music/unity-music-daemon
+4fe11bb0a1fbb8ca8f4a64b4dee58c95  usr/share/dbus-1/services/unity-lens-music.service
+bf05e42a19e3949b30d604541788265c  usr/share/doc/unity-lens-music/changelog.Debian.gz
+d5af77e5e1f8dda379d02af11c405b4f  usr/share/doc/unity-lens-music/copyright
+2e50b6ef019419caf6fe6f0767c1f7fd  usr/share/unity/lenses/music/music.lens

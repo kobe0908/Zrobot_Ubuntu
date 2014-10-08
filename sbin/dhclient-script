@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Explicitly set the PATH to that of ENV_SUPATH in /etc/login.defs and unset
+# various other variables. We need to do this so /sbin/dhclient cannot abuse
+# the environment to escape AppArmor confinement via this script
+# (LP: #1045986). This can be removed once AppArmor supports environment
+# filtering (LP: #1045985)
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export ENV=
+export BASH_ENV=
+export CDPATH=
+export GLOBIGNORE=
+export BASH_XTRACEFD=
+
 # dhclient-script for Linux. Dan Halbert, March, 1997.
 # Updated for Linux 2.[12] by Brian J. Murrell, January 1999.
 # Modified for Debian.  Matt Zimmerman and Eloy Paris, December 2003

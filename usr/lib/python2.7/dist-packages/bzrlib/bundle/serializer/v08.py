@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/bundle/serializer/v08.py

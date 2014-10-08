@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xdiagnose
+X-AppInstall-Popcon=65882
+X-AppInstall-Section=main
+
+Name=xdiagnose
+Comment=X.org Diagnostic and Repair Utility
+Categories=GNOME;Utility;
+Exec=xdiagnose
+Icon=_usr_share_xdiagnose_icons_microscope
+Terminal=false
+Type=Application
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

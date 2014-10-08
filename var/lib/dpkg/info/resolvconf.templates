@@ -372,3 +372,20 @@ Description-vi.UTF-8: Phụ thêm tập tin gốc vào tập tin động không?
  Bật tùy chọn này thì dùng một sự khắc phục tạm thời: một liên kết tượng trưng sẽ được tạo (nếu chưa có) từ tập tin « /etc/resolvconf/resolv.conf.d/tail » đến tập tin « /etc/resolvconf/resolv.conf.d/original ». Liên kết này sẽ gây ra phụ thêm toàn bộ tập tin cấu hình phần mềm giải quyết gốc vào tập tin được tạo ra động.
  .
  Sau khi các dòng « dns-nameservers » cần thiết đã được thêm vào tập tin « /etc/network/interfaces », liên kết « /etc/resolvconf/resolv.conf.d/tail » nên bị thay thế bằng một liên kết tới « /dev/null ».
+
+Template: resolvconf/fixing-immutable
+Type: error
+Description: Removing immutable filesystem bit from /etc/resolv.conf
+ The file /etc/resolv.conf was marked immutable on the filesystem with the
+ 'chattr' command.  You may have done this to avoid the file being managed
+ by NetworkManager in the past.  In Ubuntu 12.04 and above, this file is
+ managed by resolvconf in order to correctly support dynamic sources of DNS
+ information.
+ .
+ The immutable flag on /etc/resolv.conf will be removed now, and the current
+ file will be moved to /etc/resolvconf/resolv.conf.d/original.  If the
+ original file contained static resolver configuration, it is recommended
+ that you copy the file to /etc/resolvconf/resolv.conf.d/head.
+ .
+ After upgrade you may remove the /etc/resolv.conf symlink and restore the
+ original contents of this file, but this is not recommended.

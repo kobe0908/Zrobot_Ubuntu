@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p rhythmbox-plugin-magnatune /usr/lib/rhythmbox
+	pycompile -p rhythmbox-plugin-magnatune  /usr/lib/rhythmbox
+fi

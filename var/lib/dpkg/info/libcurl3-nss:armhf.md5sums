@@ -1,0 +1,13 @@
+3888b3e64d4208e32a649e34243423f0  usr/lib/arm-linux-gnueabihf/libcurl-nss.so.4.2.0
+dcb8996959e6f8ccd14204fcf08938c9  usr/share/doc/libcurl3-nss/BINDINGS.gz
+bd275a75adb2ad4809ede9b5f622e416  usr/share/doc/libcurl3-nss/BUGS.gz
+0de43da8fdc1a23784dec2da8b6529de  usr/share/doc/libcurl3-nss/FAQ.gz
+edf86557882693725e5ee8726da988a6  usr/share/doc/libcurl3-nss/FEATURES
+e1d38c3d87edb7128dbbb9bead8a9ec6  usr/share/doc/libcurl3-nss/KNOWN_BUGS.gz
+d21e01329a2ba92ff8e7a6ed534d6ed6  usr/share/doc/libcurl3-nss/README
+d0245525aad4041c001037e62a19669a  usr/share/doc/libcurl3-nss/THANKS.gz
+08ef1b47aecf63e14fdcc8c123433dde  usr/share/doc/libcurl3-nss/TODO.gz
+78f4048896098d2760bf1dd3442983dd  usr/share/doc/libcurl3-nss/VERSIONS
+6d294a9976c7e9f3b98cfb8632c3871f  usr/share/doc/libcurl3-nss/changelog.Debian.gz
+ef5b4f8f0bf10dfd8bffd4a8605d85a5  usr/share/doc/libcurl3-nss/copyright
+cbcb596e14ac8bd777a0bb0b71104f37  usr/share/lintian/overrides/libcurl3-nss

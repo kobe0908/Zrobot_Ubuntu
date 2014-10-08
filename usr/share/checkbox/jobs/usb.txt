@@ -1,0 +1,157 @@
+plugin: shell 
+name: usb/detect
+requires: package.name == 'linux'
+command: lsusb | sed 's/.*\(ID .*\)/\1/' | head -n 4
+description: Detects and shows USB devices attached to this system.
+description-ast.UTF-8: Deteuta y amuesa los preseos USB coneutaos a esti sistema.
+description-be.UTF-8: Вызначае і паказвае USB-прылады падлучаныя да гэтай сістэмы.
+description-bs.UTF-8: Detektuje i prikazuje USB uređaje povezane na ovaj sistem.
+description-ca.UTF-8: Comprova i mostra els dispositius USB connectats al sistema.
+description-cs.UTF-8: Nalezne a ukáže USB zařízení připojená k tomuto systému.
+description-da.UTF-8: Detekterer og viser USB-enheder som er forbundet til systemet.
+description-de.UTF-8: Erkennt und zeigt mit dem System verbundene USB-Geräte an.
+description-el.utf-8: Ανίχνευση και εμφάνιση των συνδεδεμένων συσκευών USB σε αυτό το σύστημα.
+description-en_AU.UTF-8: Detects and shows USB devices attached to this system.
+description-en_GB.UTF-8: Detects and shows USB devices attached to this system.
+description-es.UTF-8: Detecta y muestra los dispositivos USB conectados a este sistema.
+description-fi.UTF-8: Havaitsee ja näyttää järjestelmään kytketyt USB-laitteet.
+description-fr.UTF-8: Détecte et affiche les périphériques USB connectés à ce système.
+description-gl.UTF-8: Detecta e mostra os dispositivos USB conectados a este sistema.
+description-hu.UTF-8: Felismeri és megjeleníti a számítógéphez csatlakoztatott USB eszközöket.
+description-it.UTF-8: Rileva e mostra i dispositivi USB collegati al sistema.
+description-ja.UTF-8: このシステムに接続されているUSB機器を検出し、表示します。
+description-ms.UTF-8: Kesan dan papar peranti USB yang bersambung dengan sistem ini.
+description-nl.UTF-8: Op het systeem aangesloten USB-apparaten detecteren en tonen.
+description-pt_BR.UTF-8: Detecta e mostra os dispositivos USB anexados ao sistema.
+description-ro.UTF-8: Detectează și arată dispozitivele USB conectate la sistem.
+description-ru.UTF-8: Определяет и показывает USB-устройства подсоединённые к этой системе.
+description-sl.UTF-8: Zazna in prikaže naprave USB, priključene na sistem.
+description-sq.UTF-8: Dallon dhe shfaq pajisjet USB të bashkangjitura me këtë sistem.
+description-sv.UTF-8: Identifierar och visar USB-enheter anslutna till systemet.
+description-tr.UTF-8: Bu sisteme bağlı olan USB aygıtlarını algılar ve gösterir.
+description-ug.UTF-8: سىستېمىغا ئۇلانغان USB ئۈسكۈنىلىرىنى تاپىدا ۋە كۆرسىتىدۇ.
+description-zh_TW.UTF-8: 偵測並顯出連接到 USB 裝置.
+
+plugin: manual
+name: usb/disk_detect
+depends: usb/detect
+requires: package.name == 'linux'
+command: removable_storage_test -l usb
+description:
+ PURPOSE:
+     This test will check that your system detects USB storage devices.
+ STEPS:
+     1. Plug in one or more USB keys or hard drives.
+     2. Click on "Test".
+ INFO:
+     $output
+ VERIFICATION:
+     Were the drives detected?
+
+plugin: manual
+name: usb/keyboard
+depends: usb/detect
+requires: package.name == 'linux'
+command: keyboard_test
+description:
+ PURPOSE:
+     This test will check your USB connection.
+ STEPS:
+     1. Plug a USB keyboard into the computer.
+     2. Click on "Test" and enter some text.
+ VERIFICATION:
+     Does the keyboard work?
+
+plugin: manual
+name: usb/mouse
+depends: usb/detect
+requires: package.name == 'linux'
+description:
+ PURPOSE:
+     This test will check your USB connection.
+ STEPS:
+     1. Plug a USB mouse into the computer.
+     2. Perform some single/double/right click operations.
+ VERIFICATION:
+     Does the mouse work correctly?
+
+plugin: manual
+name: usb/insert
+depends: usb/detect
+requires: package.name == 'linux'
+command: removable_storage_watcher insert usb
+description:
+ PURPOSE:
+     This test will check that the system correctly detects the insertion of
+     a USB storage device
+ STEPS:
+     1. Click "Test" and insert a USB storage device (pen-drive/HDD).
+        (Note: this test will time-out after 10 seconds.)
+     2. Do not unplug the device after the test.
+ VERIFICATION:
+     The verification of this test is automated. Do not change the
+     automatically selected result.
+
+plugin: manual
+name: usb/remove
+depends: usb/storage-automated
+requires: package.name == 'linux'
+command: removable_storage_watcher remove usb
+description:
+ PURPOSE:
+     This test will check that the system correctly detects the removal of
+     a USB storage device
+ STEPS:
+     1. Click "Test" and remove the USB device.
+        (Note: this test will time-out after 10 seconds.)
+ VERIFICATION:
+     The verification of this test is automated. Do not change the
+     automatically selected result.
+
+plugin: manual
+name: usb/storage-transfer
+requires: package.name == 'linux'
+depends: usb/insert
+command: removable_storage_test usb
+description:
+ PURPOSE:
+     This test will check your USB connection.
+ STEPS:
+     1. Plug a USB HDD or thumbdrive into the computer.
+     2. An icon should appear on the Launcher.
+     3. Click "Test" to begin the test.
+ VERIFICATION:
+     The verification of this test is automated. Do not change the
+     automatically selected result.
+
+plugin: shell
+name: usb/storage-automated
+requires: package.name == 'linux'
+depends: usb/insert
+command: removable_storage_test usb
+description:
+ This test is automated and executes after the usb/insert test is run.
+
+plugin: shell
+name: usb/storage-preinserted
+requires: package.name == 'linux'
+command: removable_storage_test -l usb && removable_storage_test usb
+description:
+ This is an automated version of usb/storage-automated and assumes that the 
+ server has usb storage devices plugged in prior to checkbox execution. It 
+ is intended for servers and SRU automated testing.
+
+plugin: manual
+name: usb/panels
+requires: package.name == 'linux'
+description:
+ PURPOSE:
+     This test will check your USB connection.
+ STEPS:
+     1. Connect a USB storage device to an external USB slot on this computer.
+     2. An icon should appear on the Launcher.
+     3. Confirm that the icon appears.
+     4. Eject the device.
+     5. Repeat with each external USB slot.
+ VERIFICATION:
+     Do all USB slots work with the device?

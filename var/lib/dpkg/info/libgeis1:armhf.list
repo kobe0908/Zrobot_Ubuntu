@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libgeis.so.1.3.0
+/usr/share
+/usr/share/apport
+/usr/share/apport/package-hooks
+/usr/share/apport/package-hooks/source_geis.py
+/usr/share/doc
+/usr/share/doc/libgeis1
+/usr/share/doc/libgeis1/changelog.Debian.gz
+/usr/share/doc/libgeis1/copyright
+/usr/lib/arm-linux-gnueabihf/libgeis.so.1

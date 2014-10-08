@@ -1,0 +1,1 @@
+../../../../share/pyshared/xdiagnose/applet.py

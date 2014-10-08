@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Manuale di Riproduttore multimediale Totem</title>
+    <date>Febbraio 2009</date>
+    <version identifier="Manuale del Riproduttore multimediale Totem V3.0" date="Febbraio 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Totem è un riproduttore multimediale per GNOME che utilizza Gstreamer in modo predefinito, ma può anche funzionare con xine. Supporta molti codec audio e video tra cui DVD e molti altri. Alcune particolarità riguardano l'uscita TV, la visualizzazione a schermo intero, i sottotitoli ed altro ancora.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/it/totem.xml"/>
+    <language code="it"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

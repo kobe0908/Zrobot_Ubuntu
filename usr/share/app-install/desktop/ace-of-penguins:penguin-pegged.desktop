@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ace-of-penguins
+X-AppInstall-Popcon=592
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Penguin Pegged
+GenericName=
+Comment=
+Icon=penguin-pegged
+Exec=/usr/games/ace-pegged
+Terminal=false
+Categories=Game;LogicGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

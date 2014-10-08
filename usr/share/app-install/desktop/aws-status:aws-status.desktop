@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=aws-status
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=AWS Status
+Exec=/usr/bin/aws-status
+Category=Network
+StartupNotify=false
+Icon=stock_weather-cloudy
+Comment=Shows Status of EC2 instances running on given account.
+
+X-Ubuntu-Gettext-Domain=app-install-data

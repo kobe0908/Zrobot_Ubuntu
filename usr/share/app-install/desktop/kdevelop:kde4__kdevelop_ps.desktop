@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kdevelop
+X-AppInstall-Popcon=691
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=kdevelop --ps
+MimeType=application/x-kdevelop;
+Icon=kdevelop
+Terminal=false
+Name=KDevelop 4 (Pick Session)
+GenericName=Integrated Development Environment (Pick Session to start with)
+Categories=Qt;KDE;Development;IDE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

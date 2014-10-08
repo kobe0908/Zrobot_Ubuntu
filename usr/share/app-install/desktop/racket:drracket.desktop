@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=racket
+X-AppInstall-Popcon=50
+X-AppInstall-Section=universe
+
+Name=DrRacket
+Comment=IDE for Racket
+Exec=drracket
+Terminal=false
+Type=Application
+Categories=Development;
+Icon=plt
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

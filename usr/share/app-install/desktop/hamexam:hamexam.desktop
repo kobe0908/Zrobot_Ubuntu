@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=hamexam
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=hamexam
+GenericName=hamexam
+Comment=Ham Radio Examination trainer
+Exec=hamexam q
+Icon=hamexam
+Terminal=true
+Type=Application
+Categories=Education;HamRadio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

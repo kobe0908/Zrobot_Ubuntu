@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=myunity
+X-AppInstall-Popcon=988
+X-AppInstall-Section=universe
+
+Name=MyUnity
+Comment=Configuratore per Unity
+Exec=myunity
+Icon=myunity
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Accessibility;Utility;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;
+OnlyShowIn=Unity;
+X-GNOME-Settings-Panel=myunity
+
+X-Ubuntu-Gettext-Domain=app-install-data

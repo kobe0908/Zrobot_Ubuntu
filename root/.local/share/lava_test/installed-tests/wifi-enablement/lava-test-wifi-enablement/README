@@ -1,0 +1,9 @@
+= Wifi Enablement test cases =
+
+Validate basic wifi functionalities, like scanning, connecting and transferring data.
+
+Maintainer: Linaro Dev Platform
+
+== Running the test cases ==
+
+The only requirements is to branch the sh-lib code and run the test cases as root.

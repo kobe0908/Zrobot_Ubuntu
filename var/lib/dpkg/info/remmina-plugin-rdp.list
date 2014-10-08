@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/remmina-plugin-rdp
+/usr/share/doc/remmina-plugin-rdp/copyright
+/usr/lib
+/usr/lib/remmina
+/usr/lib/remmina/plugins
+/usr/lib/remmina/plugins/remmina-plugin-rdp.so
+/usr/share/doc/remmina-plugin-rdp/changelog.Debian.gz

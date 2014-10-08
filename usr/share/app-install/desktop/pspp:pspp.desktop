@@ -1,0 +1,18 @@
+# Generated from src/ui/gui/gen-dot-desktop.sh        -*- buffer-read-only: t -*-
+
+[Desktop Entry]
+X-AppInstall-Package=pspp
+X-AppInstall-Popcon=170
+X-AppInstall-Section=universe
+
+Name=GNU PSPP
+GenericName=Statistical Software
+Comment=Analyze statistical data with a free alternative to SPSS
+Exec=psppire %F
+Icon=pspp
+Terminal=false
+Type=Application
+Categories=GTK;Education;Science;Math;
+MimeType=application/x-spss-sav;application/x-spss-por;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=calligraplan
+X-AppInstall-Popcon=30
+X-AppInstall-Section=main
+
+Name=Plan
+GenericName=Project Management
+Exec=calligraplan %u
+MimeType=application/x-vnd.kde.plan;
+Type=Application
+Icon=calligraplan
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=application/x-vnd.kde.plan
+X-KDE-NativeMimeType=application/x-vnd.kde.plan
+X-DocPath=http://userbase.kde.org/Plan/Manual
+Categories=Qt;KDE;Office;
+X-KDE-StartupNotify=true
+X-KDE-NOTKoDocumentEmbeddable=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

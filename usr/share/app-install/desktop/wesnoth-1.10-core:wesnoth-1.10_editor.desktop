@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=wesnoth-1.10
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Battle for Wesnoth Map Editor (1.10)
+GenericName=Map Editor
+Comment=A map editor for Battle for Wesnoth maps
+Icon=wesnoth-1.10_editor-icon
+Exec=wesnoth-1.10-nolog -e
+Categories=Game;StrategyGame;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

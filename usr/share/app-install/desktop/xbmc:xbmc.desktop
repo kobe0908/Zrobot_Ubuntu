@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xbmc
+X-AppInstall-Popcon=1413
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=XBMC Media Center
+GenericName=Media Center
+Comment=Manage and view your media 
+Exec=xbmc
+Icon=xbmc
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;TV;
+
+X-Ubuntu-Gettext-Domain=app-install-data

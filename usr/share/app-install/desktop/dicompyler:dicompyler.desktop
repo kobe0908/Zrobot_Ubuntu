@@ -1,0 +1,21 @@
+#====================================================
+# Dicompyler client desktop entry specification
+#
+# license: GPL
+#====================================================
+
+[Desktop Entry]
+X-AppInstall-Package=dicompyler
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Dicompyler
+GenericName=Radiation Therapy
+Comment=Radiation therapy research platform
+Icon=dicompyler
+Exec=/usr/bin/dicompyler
+Terminal=false
+Categories=Office;MedicalSoftware;
+
+X-Ubuntu-Gettext-Domain=app-install-data

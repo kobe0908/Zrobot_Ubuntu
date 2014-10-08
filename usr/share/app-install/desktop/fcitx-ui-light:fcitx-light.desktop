@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=fcitx-ui-light
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Fcitx Light UI
+Comment=Chinese Input Method (Use Light weight UI)
+Exec=fcitx -u fcitx-light-ui
+Icon=fcitx
+Terminal=false
+Type=Application
+Categories=System;Utility;
+StartupNotify=false
+NoDisplay=true
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-AutoRestart=false
+X-GNOME-Autostart-Notify=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

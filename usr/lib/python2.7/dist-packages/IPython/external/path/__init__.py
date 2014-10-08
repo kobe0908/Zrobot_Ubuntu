@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/IPython/external/path/__init__.py

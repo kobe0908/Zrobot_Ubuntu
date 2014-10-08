@@ -1,0 +1,36 @@
+lease {
+  interface "ra0";
+  fixed-address 173.17.1.178;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 14400;
+  option routers 173.17.1.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 173.17.1.254;
+  option domain-name-servers 173.17.1.254;
+  option dhcp-renewal-time 7200;
+  option dhcp-rebinding-time 12600;
+  option broadcast-address 173.17.1.255;
+  option host-name "linaro-ubuntu-desktop";
+  option domain-name "xlnx";
+  renew 4 1970/01/01 01:47:58;
+  rebind 4 1970/01/01 03:32:49;
+  expire 4 1970/01/01 04:02:49;
+}
+lease {
+  interface "ra0";
+  fixed-address 173.17.1.178;
+  option subnet-mask 255.255.255.0;
+  option routers 173.17.1.254;
+  option dhcp-lease-time 14400;
+  option dhcp-message-type 5;
+  option domain-name-servers 173.17.1.254;
+  option dhcp-server-identifier 173.17.1.254;
+  option dhcp-renewal-time 7200;
+  option broadcast-address 173.17.1.255;
+  option dhcp-rebinding-time 12600;
+  option host-name "linaro-ubuntu-desktop";
+  option domain-name "xlnx";
+  renew 4 1970/01/01 01:42:26;
+  rebind 4 1970/01/01 03:31:00;
+  expire 4 1970/01/01 04:01:00;
+}

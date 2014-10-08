@@ -1,0 +1,63 @@
+plugin: shell
+name: camera/detect
+requires:
+ package.name == 'xawtv'
+ device.category == 'CAPTURE'
+command: camera_test -t detect
+description: This Automated test attempts to detect a camera.
+description-ast.UTF-8: Esta prueba automática intenta deteutar una cámara.
+description-cs.UTF-8: Tento test se pokusí najít kameru
+description-de.UTF-8: Dieser automatische Test versucht eine Kamera zu erkennen.
+description-el.utf-8: Αυτός ο αυτοματοποιημένος έλεγχος έχει σαν σκοπό την ανίχνευσης κάμερας.
+description-en_AU.UTF-8: This Automated test attempts to detect a camera.
+description-en_GB.UTF-8: This automated test attempts to detect a camera
+description-es.UTF-8: Esta prueba automática intenta detectar una cámara.
+description-fi.UTF-8: Tämä automaattinen testi yrittää havaita kameran.
+description-fr.UTF-8: Ce test automatisé tente de détecter une caméra.
+description-gd.UTF-8: Feuchaidh an deuchainn fèin-obrachail seo a lorg camara.
+description-hi.UTF-8: यह स्वचालित परीक्षण  एक कैमरा का पता लगाने का प्रयास करता है
+description-it.UTF-8: Questo test automatico prova a rilevare una webcam.
+description-ko.UTF-8: 자동 테스트로 카메라 인식을 시도합니다
+description-ms.UTF-8: Ujian automatik ini cuba mengesan kamera.
+description-nl.UTF-8: Geautomatiseerde test om een camera te detecteren.
+description-oc.UTF-8: Aqueste tèst automatizat ensaja de detectar un aparelh de fòto.
+description-pt_BR.UTF-8: Este teste automatizado tentará detectar uma câmera
+description-ro.UTF-8: Acest test automat încearcă să detecteze camera web.
+description-ru.UTF-8: Эта автоматизированная проверка попытается определить камеру.
+description-sk.UTF-8: Automatizovaný test rozpoznamia kamery.
+description-sl.UTF-8: Ta samodejni preizkus poskuša zaznati fotoaparat.
+description-tr.UTF-8: Bu otomatik sınama bir kamera tespit etmeye çalışır.
+description-ug.UTF-8: بۇ ئاپتوماتىك سىناق كامېرانىڭ بار يوقلۇقنى تەكشۈرىدۇ.
+description-uk.UTF-8: Цей автоматизований тест спробує знайти камеру.
+
+plugin: manual
+name: camera/display
+depends: camera/detect
+requires: 
+ package.name == 'python-gst0.10'
+ device.category == 'CAPTURE'
+command: camera_test -t display
+description:
+ PURPOSE:
+     This test will check that the built-in camera works
+ STEPS:
+     1. Click on Test to display a video capture from the camera for ten seconds.
+ VERIFICATION:
+     Did you see the video capture?
+
+plugin: manual
+name: camera/still
+depends: camera/detect
+requires:
+ package.name == 'python-gst0.10'
+ package.name == 'eog'
+ package.name == 'xawtv'
+ device.category == 'CAPTURE'
+command: camera_test -t still
+description:
+ PURPOSE:
+     This test will check that the built-in camera works
+ STEPS:
+     1. Click on Test to display a still image from the camera
+ VERIFICATION:
+     Did you see the image?

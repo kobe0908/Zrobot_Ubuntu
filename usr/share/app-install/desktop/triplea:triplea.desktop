@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=triplea
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=TripleA
+Comment=Turn based strategy game
+TryExec=triplea
+Exec=triplea
+Icon=triplea
+Categories=Game;StrategyGame;BoardGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

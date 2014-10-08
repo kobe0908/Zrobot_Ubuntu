@@ -1,0 +1,20 @@
+This package was debianized by Clint Adams <schizo@debian.org> on
+Mon,  1 Mar 2004 20:28:23 -0500.
+
+All the fonts were downloaded from http://arabeyes.sourceforge.net/
+except from mry_KacstQurn which was downloaded from
+http://mrykacstqurn.wikispaces.com/.
+
+mry_KacstQurn.ttf is a fork of KacstQurn made by Meor Ridzuan Meor
+Yahaya.
+
+Upstream Author: King Abdulaziz City for Science and Technology (KACST)
+                 Meor Ridzuan Meor Yahaya (mry_KacstQurn)
+
+Copyright:
+
+Copyright (c) 2002, King Abdulaziz City for Science and Technology (KACST)
+Copyright (c) 2006, Meor Ridzuan Meor Yahaya
+
+These fonts are distributed under the terms of the GNU GPL v2.
+(See /usr/share/common-licenses/GPL)

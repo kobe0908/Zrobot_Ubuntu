@@ -1,0 +1,11 @@
+064e5594f11b0aae103b5476960f027d  usr/share/doc/python-cupshelpers/AUTHORS
+cdb0b35e39297755436176827d12d8a8  usr/share/doc/python-cupshelpers/README
+77bc92f9996bc6e3122b2ed74464457f  usr/share/doc/python-cupshelpers/changelog.Debian.gz
+8c3a7450f6e04120d3102343f4695be8  usr/share/doc/python-cupshelpers/copyright
+3af512c8c1cc0e7241dbad21c2410a2f  usr/share/pyshared/cupshelpers/__init__.py
+e138024a47bea455daaa7e2a22e7a483  usr/share/pyshared/cupshelpers/config.py
+fc06185574e860dd070e953cfcadd947  usr/share/pyshared/cupshelpers/cupshelpers.py
+9a009282313b88ae50d169701c68981f  usr/share/pyshared/cupshelpers/installdriver.py
+250a3678546e1c1308b2f5121986185d  usr/share/pyshared/cupshelpers/openprinting.py
+479c00f9e158153fe31d0765b6295e1d  usr/share/pyshared/cupshelpers/ppds.py
+e8594d86c21efa9eab210db97e699cff  usr/share/pyshared/cupshelpers/xmldriverprefs.py

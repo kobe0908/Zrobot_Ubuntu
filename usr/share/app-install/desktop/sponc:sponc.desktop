@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=sponc
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=Sponc
+Icon=sponc
+GenericName=Sponc
+Exec=sponc
+Categories=Game;ArcadeGame;
+Comment=A multitouch pong clone
+
+X-Ubuntu-Gettext-Domain=app-install-data

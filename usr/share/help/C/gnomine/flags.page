@@ -1,0 +1,84 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="question"
+      id="flags">
+  <info>
+
+    <link type="guide" xref="index#play"/>
+    <revision version="0.1" date="2012-03-24" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <credit type="author">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>What are flags and how to use them</desc>
+  </info>
+
+  <title>Flags</title>
+  <table>
+  <tr>
+   <td>
+     <media type="image" mime="image/svg" src="figures/flags.png"/>
+   </td>
+   <td>
+     <p>Flags are used to mark tiles which you suspect may hide a mine. Putting a flag 
+   on a tile prevents you from clicking on it and possibly causing an explosion, ending the game.</p>
+    </td>
+   </tr>
+  </table>
+
+  <section id="flags-put">
+     <title>How to place a flag on a tile</title>
+     <table>
+       <tr>
+         <td>
+           <p>To place a red flag on a tile:</p>
+            <list>
+             <item><p>Right click on a blank tile.</p></item>
+            </list>
+         </td>
+         <td>
+           <media type="image" mime="image/svg" width="60" src="figures/flag.svg"/>
+          </td>
+        </tr>
+      </table>
+      <note style="tip"><p>The number of flags available is</p>
+      <p>equal to the number of remaining mines.</p></note>
+  </section>
+
+  <section id="flags-blue">
+   <title>Use of <em>I'm not sure</em> flag</title>
+
+   <p>If you're unsure if a tile hides a mine or not, you can use the blue 
+   <em>I'm not sure</em>.</p> 
+ 
+  <table>
+   <tr>
+    <td>
+       <p>To put an <em>I'm not sure</em> flag on a tile:</p>
+      <list>
+       <item><p>Right-click twice on a blank tile.</p></item>
+      </list>
+    </td>
+    <td>
+      <media type="image" mime="image/svg" width="60" src="figures/flag-question.svg"/>
+    </td>
+    </tr>
+   </table>
+   <note><p>To enable these flags, click <guiseq><gui>Settings</gui><gui>Preferences</gui>
+   </guiseq>, and tick <gui>Use <em>I'm not sure</em> flags</gui>.
+   </p></note>
+
+
+
+
+  </section>
+  
+</page>

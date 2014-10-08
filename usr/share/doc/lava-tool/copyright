@@ -1,0 +1,7 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Upstream-Name: lava-tool
+Upstream-Contact: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>, Michael Hudson-Doyle <michael.hudson@linaro.org>
+Source: https://launchpad.net/lava-tool
+Copyright: Copyright 2010-2012, Linaro Limited
+License: LGPL-3
+ See /usr/share/common-licenses/LGPL-3 for full text

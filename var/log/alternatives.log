@@ -1,98 +1,141 @@
-update-alternatives 2014-07-30 05:51:58: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
-update-alternatives 2014-07-30 05:51:58: link group awk updated to point to /usr/bin/mawk
-update-alternatives 2014-07-30 05:52:44: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
-update-alternatives 2014-07-30 05:53:24: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
-update-alternatives 2014-07-30 05:53:24: link group rmt updated to point to /usr/sbin/rmt-tar
-update-alternatives 2014-07-30 05:53:27: run with --install /bin/mt mt /bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
-update-alternatives 2014-07-30 05:53:27: link group mt updated to point to /bin/mt-gnu
-update-alternatives 2014-07-30 05:53:36: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
-update-alternatives 2014-07-30 05:53:36: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
-update-alternatives 2014-07-30 05:53:40: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
-update-alternatives 2014-07-30 05:53:40: link group pager updated to point to /bin/more
-update-alternatives 2014-07-30 05:53:40: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
-update-alternatives 2014-07-30 05:53:40: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
-update-alternatives 2014-07-30 05:53:40: link group w updated to point to /usr/bin/w.procps
-update-alternatives 2014-07-30 05:54:10: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.openbsd --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
-update-alternatives 2014-07-30 05:54:10: link group nc updated to point to /bin/nc.openbsd
-update-alternatives 2014-07-30 05:54:11: run with --install /etc/newt/palette newt-palette /etc/newt/palette.ubuntu 50
-update-alternatives 2014-07-30 05:54:11: link group newt-palette updated to point to /etc/newt/palette.ubuntu
-update-alternatives 2014-07-30 05:54:11: run with --install /etc/newt/palette newt-palette /etc/newt/palette.original 20
-update-alternatives 2014-07-30 05:54:12: run with --install /usr/bin/view view /usr/bin/see 1 --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/see.1.gz
-update-alternatives 2014-07-30 05:54:12: link group view updated to point to /usr/bin/see
-update-alternatives 2014-07-30 05:54:19: run with --install /usr/bin/rview rview /usr/bin/vim.tiny 10
-update-alternatives 2014-07-30 05:54:19: link group rview updated to point to /usr/bin/vim.tiny
-update-alternatives 2014-07-30 05:54:19: run with --install /usr/bin/vi vi /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-30 05:54:19: link group vi updated to point to /usr/bin/vim.tiny
-update-alternatives 2014-07-30 05:54:19: run with --install /usr/bin/view view /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-30 05:54:19: link group view updated to point to /usr/bin/vim.tiny
-update-alternatives 2014-07-30 05:54:19: run with --install /usr/bin/ex ex /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-30 05:54:19: link group ex updated to point to /usr/bin/vim.tiny
-update-alternatives 2014-07-30 05:54:19: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-30 05:54:19: link group editor updated to point to /usr/bin/vim.tiny
-update-alternatives 2014-07-30 05:54:19: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
-update-alternatives 2014-07-30 05:54:19: link group pager updated to point to /bin/less
-update-alternatives 2014-07-30 05:54:20: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
-update-alternatives 2014-07-30 05:54:50: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50
-update-alternatives 2014-07-30 05:54:50: link group vtrgb updated to point to /etc/console-setup/vtrgb
-update-alternatives 2014-07-30 05:54:50: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20
-update-alternatives 2014-07-30 06:22:07: run with --install /usr/bin/write write /usr/bin/bsd-write 100 --slave /usr/share/man/man1/write.1.gz write.1.gz /usr/share/man/man1/bsd-write.1.gz
-update-alternatives 2014-07-30 06:22:07: link group write updated to point to /usr/bin/bsd-write
-update-alternatives 2014-07-30 06:22:07: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
-update-alternatives 2014-07-30 06:22:07: link group from updated to point to /usr/bin/bsd-from
-update-alternatives 2014-07-30 06:23:25: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
-update-alternatives 2014-07-30 06:23:25: link group cpp updated to point to /usr/bin/cpp
-update-alternatives 2014-07-30 06:23:25: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20 --slave /usr/share/man/man1/cc.1.gz cc.1.gz /usr/share/man/man1/gcc.1.gz
-update-alternatives 2014-07-30 06:23:25: link group cc updated to point to /usr/bin/gcc
-update-alternatives 2014-07-30 06:23:25: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
-update-alternatives 2014-07-30 06:23:25: link group c89 updated to point to /usr/bin/c89-gcc
-update-alternatives 2014-07-30 06:23:25: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
-update-alternatives 2014-07-30 06:23:25: link group c99 updated to point to /usr/bin/c99-gcc
-update-alternatives 2014-07-30 06:23:27: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
-update-alternatives 2014-07-30 06:23:27: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
-update-alternatives 2014-07-30 06:23:27: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
-update-alternatives 2014-07-30 06:23:28: run with --install /usr/lib/libblas.so.3gf libblas.so.3gf /usr/lib/libblas/libblas.so.3gf 10
-update-alternatives 2014-07-30 06:23:28: link group libblas.so.3gf updated to point to /usr/lib/libblas/libblas.so.3gf
-update-alternatives 2014-07-30 06:23:30: run with --install /usr/lib/liblapack.so.3gf liblapack.so.3gf /usr/lib/lapack/liblapack.so.3gf 10
-update-alternatives 2014-07-30 06:23:30: link group liblapack.so.3gf updated to point to /usr/lib/lapack/liblapack.so.3gf
-update-alternatives 2014-07-30 06:23:38: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20 --slave /usr/share/man/man1/c++.1.gz c++.1.gz /usr/share/man/man1/g++.1.gz
-update-alternatives 2014-07-30 06:23:38: link group c++ updated to point to /usr/bin/g++
-update-alternatives 2014-07-30 06:23:38: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
-update-alternatives 2014-07-30 06:23:38: link group rename updated to point to /usr/bin/prename
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/vim vim /usr/bin/vim.basic 30
-update-alternatives 2014-07-31 03:20:30: link group vim updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/vimdiff vimdiff /usr/bin/vim.basic 30
-update-alternatives 2014-07-31 03:20:30: link group vimdiff updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/rvim rvim /usr/bin/vim.basic 30
-update-alternatives 2014-07-31 03:20:30: link group rvim updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/rview rview /usr/bin/vim.basic 30
-update-alternatives 2014-07-31 03:20:30: link group rview updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/vi vi /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-31 03:20:30: link group vi updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/view view /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-31 03:20:30: link group view updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/ex ex /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-31 03:20:30: link group ex updated to point to /usr/bin/vim.basic
-update-alternatives 2014-07-31 03:20:30: run with --install /usr/bin/editor editor /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
-update-alternatives 2014-07-31 03:20:30: link group editor updated to point to /usr/bin/vim.basic
-update-alternatives 1970-01-01 00:02:28: run with --quiet --install /usr/bin/rsh rsh /usr/bin/ssh 20 --slave /usr/share/man/man1/rsh.1.gz rsh.1.gz /usr/share/man/man1/ssh.1.gz
-update-alternatives 1970-01-01 00:02:28: link group rsh updated to point to /usr/bin/ssh
-update-alternatives 1970-01-01 00:02:28: run with --quiet --install /usr/bin/rlogin rlogin /usr/bin/slogin 20 --slave /usr/share/man/man1/rlogin.1.gz rlogin.1.gz /usr/share/man/man1/slogin.1.gz
-update-alternatives 1970-01-01 00:02:28: link group rlogin updated to point to /usr/bin/slogin
-update-alternatives 1970-01-01 00:02:28: run with --quiet --install /usr/bin/rcp rcp /usr/bin/scp 20 --slave /usr/share/man/man1/rcp.1.gz rcp.1.gz /usr/share/man/man1/scp.1.gz
-update-alternatives 1970-01-01 00:02:28: link group rcp updated to point to /usr/bin/scp
-update-alternatives 1970-01-01 00:03:36: run with --install /usr/bin/yacc yacc /usr/bin/byacc 80 --slave /usr/share/man/man1/yacc.1.gz yaccman /usr/share/man/man1/byacc.1.gz
-update-alternatives 1970-01-01 00:03:36: link group yacc updated to point to /usr/bin/byacc
-update-alternatives 1970-01-01 00:02:27: run with --quiet --install /usr/bin/locate locate /usr/bin/locate.findutils 20 --slave /usr/share/man/man1/locate.1.gz locate.1.gz /usr/share/man/man1/locate.findutils.1.gz --slave /usr/bin/updatedb updatedb /usr/bin/updatedb.findutils --slave /usr/share/man/man1/updatedb.1.gz updatedb.1.gz /usr/share/man/man1/updatedb.findutils.1.gz
-update-alternatives 1970-01-01 00:02:27: link group locate updated to point to /usr/bin/locate.findutils
-update-alternatives 1970-01-01 00:09:35: run with --install /bin/zsh zsh /bin/zsh4 50 --slave /usr/bin/zsh zsh-usrbin /bin/zsh4
-update-alternatives 1970-01-01 00:09:35: link group zsh updated to point to /bin/zsh4
-update-alternatives 1970-01-01 00:09:35: run with --install /bin/rzsh rzsh /bin/zsh4 50 --slave /usr/share/man/man1/rzsh.1.gz rzsh.1.gz /usr/share/man/man1/zsh.1.gz
-update-alternatives 1970-01-01 00:09:35: link group rzsh updated to point to /bin/zsh4
-update-alternatives 1970-01-01 00:09:35: run with --install /bin/ksh ksh /bin/zsh4 5 --slave /usr/bin/ksh usr.bin.ksh /bin/zsh4 --slave /usr/share/man/man1/ksh.1.gz ksh.1.gz /usr/share/man/man1/zsh.1.gz
-update-alternatives 1970-01-01 00:09:35: link group ksh updated to point to /bin/zsh4
-update-alternatives 1970-01-01 00:00:28: run with --remove zsh /bin/zsh4
-update-alternatives 1970-01-01 00:00:28: link group zsh fully removed
-update-alternatives 1970-01-01 00:00:28: run with --remove rzsh /bin/zsh4
-update-alternatives 1970-01-01 00:00:28: link group rzsh fully removed
-update-alternatives 1970-01-01 00:00:28: run with --remove ksh /bin/zsh4
-update-alternatives 1970-01-01 00:00:28: link group ksh fully removed
+update-alternatives 2012-09-23 22:42:07: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2012-09-23 22:42:07: link group awk updated to point to /usr/bin/mawk
+update-alternatives 2012-09-23 22:42:57: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2012-09-23 22:44:16: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2012-09-23 22:44:16: link group rmt updated to point to /usr/sbin/rmt-tar
+update-alternatives 2012-09-23 22:44:20: run with --install /bin/mt mt /bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
+update-alternatives 2012-09-23 22:44:20: link group mt updated to point to /bin/mt-gnu
+update-alternatives 2012-09-23 22:44:36: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2012-09-23 22:44:36: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2012-09-23 22:44:44: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2012-09-23 22:44:44: link group pager updated to point to /bin/more
+update-alternatives 2012-09-23 22:44:44: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2012-09-23 22:44:45: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2012-09-23 22:44:45: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2012-09-23 22:45:19: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.openbsd --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
+update-alternatives 2012-09-23 22:45:19: link group nc updated to point to /bin/nc.openbsd
+update-alternatives 2012-09-23 22:45:21: run with --install /etc/newt/palette newt-palette /etc/newt/palette.ubuntu 50
+update-alternatives 2012-09-23 22:45:21: link group newt-palette updated to point to /etc/newt/palette.ubuntu
+update-alternatives 2012-09-23 22:45:21: run with --install /etc/newt/palette newt-palette /etc/newt/palette.original 20
+update-alternatives 2012-09-23 22:45:24: run with --install /usr/bin/view view /usr/bin/see 1 --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/see.1.gz
+update-alternatives 2012-09-23 22:45:24: link group view updated to point to /usr/bin/see
+update-alternatives 2012-09-23 22:46:49: run with --install /usr/bin/rview rview /usr/bin/vim.tiny 10
+update-alternatives 2012-09-23 22:46:49: link group rview updated to point to /usr/bin/vim.tiny
+update-alternatives 2012-09-23 22:46:50: run with --install /usr/bin/vi vi /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:46:50: link group vi updated to point to /usr/bin/vim.tiny
+update-alternatives 2012-09-23 22:46:50: run with --install /usr/bin/view view /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:46:50: link group view updated to point to /usr/bin/vim.tiny
+update-alternatives 2012-09-23 22:46:50: run with --install /usr/bin/ex ex /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:46:50: link group ex updated to point to /usr/bin/vim.tiny
+update-alternatives 2012-09-23 22:46:50: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:46:50: link group editor updated to point to /usr/bin/vim.tiny
+update-alternatives 2012-09-23 22:46:50: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2012-09-23 22:46:50: link group pager updated to point to /bin/less
+update-alternatives 2012-09-23 22:46:52: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2012-09-23 22:47:36: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50
+update-alternatives 2012-09-23 22:47:36: link group vtrgb updated to point to /etc/console-setup/vtrgb
+update-alternatives 2012-09-23 22:47:36: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20
+update-alternatives 2012-09-23 22:52:04: run with --install /usr/bin/rview rview /usr/bin/vim.tiny 10
+update-alternatives 2012-09-23 22:52:04: run with --install /usr/bin/vi vi /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:52:04: run with --install /usr/bin/view view /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:52:04: run with --install /usr/bin/ex ex /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 22:52:04: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2012-09-23 23:04:46: run with --install /usr/share/ghostscript/current ghostscript-current /usr/share/ghostscript/9.05 905
+update-alternatives 2012-09-23 23:04:46: link group ghostscript-current updated to point to /usr/share/ghostscript/9.05
+update-alternatives 2012-09-23 23:05:51: run with --force --install /etc/ld.so.conf.d/arm-linux-gnueabihf_GL.conf arm-linux-gnueabihf_gl_conf /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf 500 --slave /usr/lib/arm-linux-gnueabihf/xorg/extra-modules arm-linux-gnueabihf_xorg_extra_modules /usr/lib/arm-linux-gnueabihf/xorg/x11-extra-modules
+update-alternatives 2012-09-23 23:05:51: link group arm-linux-gnueabihf_gl_conf updated to point to /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf
+update-alternatives 2012-09-23 23:06:11: run with --force --install /etc/ld.so.conf.d/arm-linux-gnueabihf_EGL.conf arm-linux-gnueabihf_egl_conf /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf 500
+update-alternatives 2012-09-23 23:06:11: link group arm-linux-gnueabihf_egl_conf updated to point to /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf
+update-alternatives 2012-09-23 23:06:48: run with --install /usr/bin/write write /usr/bin/bsd-write 100 --slave /usr/share/man/man1/write.1.gz write.1.gz /usr/share/man/man1/bsd-write.1.gz
+update-alternatives 2012-09-23 23:06:48: link group write updated to point to /usr/bin/bsd-write
+update-alternatives 2012-09-23 23:06:48: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
+update-alternatives 2012-09-23 23:06:48: link group from updated to point to /usr/bin/bsd-from
+update-alternatives 2012-09-23 23:10:10: run with --install /usr/bin/traceroute6 traceroute6 /usr/bin/traceroute6.iputils 100 --slave /usr/share/man/man8/traceroute6.8.gz traceroute6.8.gz /usr/share/man/man8/traceroute6.iputils.8.gz
+update-alternatives 2012-09-23 23:10:10: link group traceroute6 updated to point to /usr/bin/traceroute6.iputils
+update-alternatives 2012-09-23 23:10:14: run with --quiet --install /usr/bin/rsh rsh /usr/bin/ssh 20 --slave /usr/share/man/man1/rsh.1.gz rsh.1.gz /usr/share/man/man1/ssh.1.gz
+update-alternatives 2012-09-23 23:10:14: link group rsh updated to point to /usr/bin/ssh
+update-alternatives 2012-09-23 23:10:14: run with --quiet --install /usr/bin/rlogin rlogin /usr/bin/slogin 20 --slave /usr/share/man/man1/rlogin.1.gz rlogin.1.gz /usr/share/man/man1/slogin.1.gz
+update-alternatives 2012-09-23 23:10:14: link group rlogin updated to point to /usr/bin/slogin
+update-alternatives 2012-09-23 23:10:14: run with --quiet --install /usr/bin/rcp rcp /usr/bin/scp 20 --slave /usr/share/man/man1/rcp.1.gz rcp.1.gz /usr/share/man/man1/scp.1.gz
+update-alternatives 2012-09-23 23:10:14: link group rcp updated to point to /usr/bin/scp
+update-alternatives 2012-09-23 23:11:50: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2012-09-23 23:11:50: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2012-09-23 23:11:54: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/DMZ-White/cursor.theme 90
+update-alternatives 2012-09-23 23:11:54: link group x-cursor-theme updated to point to /usr/share/icons/DMZ-White/cursor.theme
+update-alternatives 2012-09-23 23:11:54: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/DMZ-Black/cursor.theme 30
+update-alternatives 2012-09-23 23:11:59: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/firefox 40
+update-alternatives 2012-09-23 23:11:59: link group gnome-www-browser updated to point to /usr/bin/firefox
+update-alternatives 2012-09-23 23:11:59: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 40
+update-alternatives 2012-09-23 23:11:59: link group x-www-browser updated to point to /usr/bin/firefox
+update-alternatives 2012-09-23 23:11:59: run with --install /usr/share/fonts/truetype/fonts-japanese-gothic.ttf fonts-japanese-gothic.ttf /usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf 130
+update-alternatives 2012-09-23 23:11:59: link group fonts-japanese-gothic.ttf updated to point to /usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf
+update-alternatives 2012-09-23 23:12:00: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20 --slave /usr/share/man/man1/cc.1.gz cc.1.gz /usr/share/man/man1/gcc.1.gz
+update-alternatives 2012-09-23 23:12:00: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2012-09-23 23:12:00: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2012-09-23 23:12:00: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2012-09-23 23:12:00: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2012-09-23 23:12:00: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/all_ALL xinput-all_ALL /etc/X11/xinit/xinput.d/default 10
+update-alternatives 2012-09-23 23:13:26: link group xinput-all_ALL updated to point to /etc/X11/xinit/xinput.d/default
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/all_ALL xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim 0
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/lo_TH xinput-lo_TH /etc/X11/xinit/xinput.d/lo-gtk 10
+update-alternatives 2012-09-23 23:13:26: link group xinput-lo_TH updated to point to /etc/X11/xinit/xinput.d/lo-gtk
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/all_ALL xinput-all_ALL /etc/X11/xinit/xinput.d/none 0
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/th_TH xinput-th_TH /etc/X11/xinit/xinput.d/th-xim 20
+update-alternatives 2012-09-23 23:13:26: link group xinput-th_TH updated to point to /etc/X11/xinit/xinput.d/th-xim
+update-alternatives 2012-09-23 23:13:26: run with --install /etc/X11/xinit/xinput.d/th_TH xinput-th_TH /etc/X11/xinit/xinput.d/th-gtk 10
+update-alternatives 2012-09-23 23:14:09: run with --quiet --install /usr/bin/ssh-askpass ssh-askpass /usr/lib/openssh/gnome-ssh-askpass 30 --slave /usr/share/man/man1/ssh-askpass.1.gz ssh-askpass.1.gz /usr/share/man/man1/gnome-ssh-askpass.1.gz
+update-alternatives 2012-09-23 23:14:09: link group ssh-askpass updated to point to /usr/lib/openssh/gnome-ssh-askpass
+update-alternatives 2012-09-23 23:14:20: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/xterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/xterm.1.gz
+update-alternatives 2012-09-23 23:14:20: link group x-terminal-emulator updated to point to /usr/bin/xterm
+update-alternatives 2012-09-23 23:14:20: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/uxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/uxterm.1.gz
+update-alternatives 2012-09-23 23:14:20: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/koi8rxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/koi8rxterm.1.gz
+update-alternatives 2012-09-23 23:14:20: link group x-terminal-emulator updated to point to /usr/bin/uxterm
+update-alternatives 2012-09-23 23:14:20: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/lxterm 30 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/lxterm.1.gz
+update-alternatives 2012-09-23 23:14:20: link group x-terminal-emulator updated to point to /usr/bin/lxterm
+update-alternatives 2012-09-23 23:14:29: run with --install /usr/bin/nmblookup nmblookup /usr/bin/nmblookup.samba3 0 --slave /usr/share/man/man1/nmblookup.1.gz nmblookup.1.gz /usr/share/man/man1/nmblookup.samba3.1.gz
+update-alternatives 2012-09-23 23:14:29: link group nmblookup updated to point to /usr/bin/nmblookup.samba3
+update-alternatives 2012-09-23 23:14:29: run with --install /usr/bin/net net /usr/bin/net.samba3 10 --slave /usr/share/man/man8/net.8.gz net.8.gz /usr/share/man/man8/net.samba3.8.gz
+update-alternatives 2012-09-23 23:14:29: link group net updated to point to /usr/bin/net.samba3
+update-alternatives 2012-09-23 23:14:29: run with --install /usr/bin/testparm testparm /usr/bin/testparm.samba3 10 --slave /usr/share/man/man1/testparm.1.gz testparm.1.gz /usr/share/man/man1/testparm.samba3.1.gz
+update-alternatives 2012-09-23 23:14:29: link group testparm updated to point to /usr/bin/testparm.samba3
+update-alternatives 2012-09-23 23:14:36: run with --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth 100 --slave /lib/plymouth/themes/default.grub default.plymouth.grub /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.grub
+update-alternatives 2012-09-23 23:14:36: link group default.plymouth updated to point to /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth
+update-alternatives 2012-09-23 23:14:57: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors/core.theme 30
+update-alternatives 2012-09-23 23:14:57: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors/redglass.theme 20
+update-alternatives 2012-09-23 23:14:57: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors/whiteglass.theme 20
+update-alternatives 2012-09-23 23:14:57: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors/handhelds.theme 20
+update-alternatives 2012-09-23 23:15:02: run with --install /usr/bin/gstreamer-codec-install gstreamer-codec-install /usr/bin/gst-install 80
+update-alternatives 2012-09-23 23:15:02: link group gstreamer-codec-install updated to point to /usr/bin/gst-install
+update-alternatives 2012-09-23 23:15:39: run with --install /usr/bin/gnome-text-editor gnome-text-editor /usr/bin/gedit 50 --slave /usr/share/man/man1/gnome-text-editor.1.gz gnome-text-editor.1.gz /usr/share/man/man1/gedit.1.gz
+update-alternatives 2012-09-23 23:15:39: link group gnome-text-editor updated to point to /usr/bin/gedit
+update-alternatives 2012-09-23 23:16:13: run with --install /usr/bin/gconftool gconftool /usr/bin/gconftool-2 25 --slave /usr/share/man/man1/gconftool.1.gz gconftool.1.gz /usr/share/man/man1/gconftool-2.1.gz
+update-alternatives 2012-09-23 23:16:13: link group gconftool updated to point to /usr/bin/gconftool-2
+update-alternatives 2012-09-23 23:16:40: run with --install /usr/share/gconf/defaults/10_libgksu libgksu-gconf-defaults /usr/share/libgksu/debian/gconf-defaults.libgksu-sudo 30
+update-alternatives 2012-09-23 23:16:40: link group libgksu-gconf-defaults updated to point to /usr/share/libgksu/debian/gconf-defaults.libgksu-sudo
+update-alternatives 2012-09-23 23:16:41: run with --install /usr/share/gconf/defaults/10_libgksu libgksu-gconf-defaults /usr/share/libgksu/debian/gconf-defaults.libgksu-su 20
+update-alternatives 2012-09-23 23:16:42: run with --install /usr/bin/x-session-manager x-session-manager /usr/bin/gnome-session 50 --slave /usr/share/man/man1/x-session-manager.1.gz x-session-manager.1.gz /usr/share/man/man1/gnome-session.1.gz
+update-alternatives 2012-09-23 23:16:42: link group x-session-manager updated to point to /usr/bin/gnome-session
+update-alternatives 2012-09-23 23:16:42: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/gnome-terminal.wrapper 40 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/gnome-terminal.1.gz
+update-alternatives 2012-09-23 23:16:42: link group x-terminal-emulator updated to point to /usr/bin/gnome-terminal.wrapper
+update-alternatives 2012-09-23 23:16:42: run with --install /etc/X11/xinit/xinput.d/ja_JP xinput-ja_JP /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:42: link group xinput-ja_JP updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:42: run with --install /etc/X11/xinit/xinput.d/ko_KR xinput-ko_KR /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:42: link group xinput-ko_KR updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:42: run with --install /etc/X11/xinit/xinput.d/zh_CN xinput-zh_CN /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:42: link group xinput-zh_CN updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:42: run with --install /etc/X11/xinit/xinput.d/zh_TW xinput-zh_TW /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:43: link group xinput-zh_TW updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:43: run with --install /etc/X11/xinit/xinput.d/zh_HK xinput-zh_HK /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:43: link group xinput-zh_HK updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:43: run with --install /etc/X11/xinit/xinput.d/zh_SG xinput-zh_SG /etc/X11/xinit/xinput.d/ibus 60
+update-alternatives 2012-09-23 23:16:43: link group xinput-zh_SG updated to point to /etc/X11/xinit/xinput.d/ibus
+update-alternatives 2012-09-23 23:16:52: run with --install /usr/bin/x-window-manager x-window-manager /usr/bin/metacity 60 --slave /usr/share/man/man1/x-window-manager.1.gz x-window-manager.1.gz /usr/share/man/man1/metacity.1.gz
+update-alternatives 2012-09-23 23:16:52: link group x-window-manager updated to point to /usr/bin/metacity
+update-alternatives 2012-09-23 23:17:20: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2012-09-23 23:17:20: link group rename updated to point to /usr/bin/prename
+update-alternatives 2012-09-23 23:37:17: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
+update-alternatives 2012-09-23 23:37:17: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
+update-alternatives 2012-09-23 23:37:17: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
+update-alternatives 2012-09-23 23:37:18: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20 --slave /usr/share/man/man1/c++.1.gz c++.1.gz /usr/share/man/man1/g++.1.gz
+update-alternatives 2012-09-23 23:37:18: link group c++ updated to point to /usr/bin/g++

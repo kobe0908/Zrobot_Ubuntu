@@ -1,0 +1,4 @@
+ea784d52835f8562df578b0d3d11415f  usr/lib/arm-linux-gnueabihf/libutouch-geis.so.1.3.0
+77fa9ca780d9f1feaf1d371d28c35013  usr/share/apport/package-hooks/source_utouch-geis.py
+ceda12cbb0d98ba880c11e234d3a4ccd  usr/share/doc/libutouch-geis1/changelog.Debian.gz
+cfe88998553946e7a6f85866584a99a1  usr/share/doc/libutouch-geis1/copyright

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-active-data
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Widget Strip
+GenericName=Widget Strip
+Comment=A collection of widgets
+
+Exec=plasma-widgetstrip
+Terminal=false
+Icon=dashboard-show
+Type=Application
+Categories=Qt;KDE;Network;WebBrowser;
+
+X-Ubuntu-Gettext-Domain=app-install-data

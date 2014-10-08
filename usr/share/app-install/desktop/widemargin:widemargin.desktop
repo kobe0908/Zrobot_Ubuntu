@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=widemargin
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Comment=Simple Bible Application
+Exec=widemargin
+Icon=widemargin
+StartupNotify=true
+Terminal=false
+Name=Wide Margin
+Categories=Education;
+
+X-Ubuntu-Gettext-Domain=app-install-data

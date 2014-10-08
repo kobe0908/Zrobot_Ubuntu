@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=unison-gtk
+X-AppInstall-Popcon=1068
+X-AppInstall-Section=universe
+
+Name=Unison
+Comment=GTK interface for the unison file synchronization tool 2.40.65
+GenericName=File synchronization tool
+Exec=unison-2.40.65-gtk
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=_usr_share_pixmaps_unison-gtk
+Categories=Utility;FileTools;GTK;
+StartupWMClass=Unison-gtk
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

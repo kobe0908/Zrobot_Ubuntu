@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ballview
+X-AppInstall-Popcon=27
+X-AppInstall-Section=universe
+
+Version=1.0
+Terminal=false
+Icon=ballview
+Exec=BALLView
+Name=BALLView
+GenericName=Molecular modeling and visualization tool
+Type=Application
+MimeType=chemical/x-pdb;chemical/x-mdl-molfile;chemical/x-mol2;
+Categories=Education;Science;Chemistry;
+
+X-Ubuntu-Gettext-Domain=app-install-data

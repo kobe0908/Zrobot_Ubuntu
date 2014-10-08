@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/inspect_for_copy.py

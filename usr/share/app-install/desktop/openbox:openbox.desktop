@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=openbox
+X-AppInstall-Popcon=4466
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Openbox
+Comment=Log in using the Openbox window manager (without a session manager)
+Exec=/usr/bin/openbox-session
+TryExec=/usr/bin/openbox-session
+Icon=openbox
+Type=XSession
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/bzrlib/plugins/bash_completion/tests/test_bashcomp.py

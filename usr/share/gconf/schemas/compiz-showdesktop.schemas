@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/speed</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/speed</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="bg">
+        <short>Скорост</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ca">
+        <short>Velocitat</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Rychlost</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="da">
+        <short>Hastighed</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Geschwindigkeit</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Ταχύτητα</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Velocidad</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>Abiadura</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Nopeus</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Vitesse</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Velocidade</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>ઝડપ</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="he">
+        <short>מהירות</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Sebesség</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Velocità</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>速度</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>속도</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Hastighet</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Snelheid</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ଗତି</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Szybkość</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Velocidade</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Velocidade</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ro">
+        <short>Viteză</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Скорость</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Rýchlosť</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Hastighet</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Hız</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Швидкість</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>速度</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>速度</short>
+        <long>Window movement speed (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/timestep</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/timestep</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.1</default>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ca">
+        <short>Etapa</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Časový krok</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="da">
+        <short>Tidstrin</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Zeitintervall</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Χρονικό Βήμα</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Paso</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>denbora-pausoa</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Aikaviive</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Intervalle</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Saltos do tempo</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>સમયપગલું</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="he">
+        <short>יחידת זמן</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Időköz</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Intervallo</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>描画の時間刻み</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>시간 간격</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Tidsskritt</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Tijdstempel</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ସମଯସୋପାନ</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Opóźnienie</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Espaço de tempo</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Intervalo de tempo</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ro">
+        <short>Pas de timp</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Шаг времени</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Krok</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Tidsintervall</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Süre aralığı</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Крок часу</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>时间步长</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>時間間隔</short>
+        <long>Window movement timestep (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/direction</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/direction</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>6</default>
+      <locale name="C">
+        <short>Movement Direction</short>
+        <long>Direction of window movement (0 = Up, 1 = Down, 2 = Left, 3 = Right, 4 = Up/Down, 5 = Left/Right, 6 = To Corners)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_match</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/window_match</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>type=toolbar | type=utility | type=dialog | type=normal</default>
+      <locale name="C">
+        <short>Window Types</short>
+        <long>Window types that should be moved out of sight when entering showdesktop mode (match)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_opacity</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/window_opacity</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.3</default>
+      <locale name="C">
+        <short>Window Opacity</short>
+        <long>Window opacity when showdesktop'd (0.1 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_part_size</key>
+      <applyto>/apps/compiz-1/plugins/showdesktop/screen0/options/window_part_size</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>20</default>
+      <locale name="C">
+        <short>Window Part Size</short>
+        <long>Window part size when showdesktop'd (0 - 300)</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -10802,7 +10802,8 @@
     <glob pattern="*.ui"/>
     <magic priority="50">
       <match value="&lt;glade-interface" type="string" offset="0:256"/>
-      <match value="gtk" type="string" offset="0:256"/>
+      <match value="interface-requires gtk" type="string" offset="0:256"/>
+      <match value="requires lib=&quot;gtk" type="string" offset="0:256"/>
     </magic>
   </mime-type>
   <mime-type type="application/x-gmc-link">

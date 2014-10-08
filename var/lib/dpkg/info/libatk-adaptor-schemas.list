@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libatk-adaptor-schemas
+/usr/share/doc/libatk-adaptor-schemas/copyright
+/usr/share/glib-2.0
+/usr/share/glib-2.0/schemas
+/usr/share/glib-2.0/schemas/org.a11y.atspi.gschema.xml
+/usr/share/doc/libatk-adaptor-schemas/changelog.Debian.gz

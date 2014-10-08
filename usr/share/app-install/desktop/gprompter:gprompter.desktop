@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gprompter
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=gprompter
+GenericName=Predictive text editor
+Comment=Predictive text editor powered by presage
+Exec=gprompter
+Icon=gprompter
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Accessibility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

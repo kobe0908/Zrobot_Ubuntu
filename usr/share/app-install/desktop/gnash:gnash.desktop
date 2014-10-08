@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gnash
+X-AppInstall-Popcon=10081
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Gnash SWF Viewer
+GenericName=SWF Viewer
+Comment=View SWF Files
+Icon=gnash
+Exec=gnash-gtk-launcher %U
+Terminal=false
+Categories=AudioVideo;Video;Player;GTK;
+MimeType=application/x-shockwave-flash;application/futuresplash;
+
+X-Ubuntu-Gettext-Domain=app-install-data

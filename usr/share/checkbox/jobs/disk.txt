@@ -1,0 +1,310 @@
+plugin: shell
+name: disk/detect
+command: udev_resource | filter_templates -w "category=DISK" | awk -F': ' '$1 == "product" { print $2 }'
+description: Detects and displays disks attached to the system.
+description-ast.UTF-8: Deteuta y amuesa los discos coneutaos al sistema.
+description-be.UTF-8: Знаходзіць і адлюстроўвае дыскі, падлучаныя да сістэмы.
+description-bs.UTF-8: Detektuje i prikazuje diskove prikopčane na sistem
+description-ca.UTF-8: Detecta i mostra els discs connectats al sistema.
+description-cs.UTF-8: Naleznou se a zobrazí se disky připojené k systému
+description-da.UTF-8: Detekterer og viser diske som er forbundet til systemet.
+description-de.UTF-8: Erkennt und zeigt an das System angeschlossene Laufwerke an.
+description-el.utf-8: Εντοπίζει και απεικονίζει τους συνημμένους δίσκους στο σύστημα.
+description-en_AU.UTF-8: Detects and displays disks attached to the system.
+description-en_GB.UTF-8: Detects and displays disks attached to the system.
+description-es.UTF-8: Detecta y muestra los discos conectados al sistema.
+description-fi.UTF-8: Havaitsee ja näyttää järjestelmään kytketyt levyt.
+description-fr.UTF-8: Détectez et affichez les disques attachés au système.
+description-gd.UTF-8: A lorg agus a taisbean dìosgan ceangailte dhan siostam.
+description-gl.UTF-8: Detecta e mostra os discos conectados ao sistema.
+description-hu.UTF-8: Azonosítja és megjeleníti a csatlakoztatott lemezeket.
+description-it.UTF-8: Rileva e visualizza i dischi collegati al sistema.
+description-ja.UTF-8: システムに取り付けられているディスクを検知し表示します。
+description-ko.UTF-8: 시스템이 연결된 디스크를 찾아서 표시합니다.
+description-lv.UTF-8: Atrod un attēlo diskus, kas pievienoti sistēmai.
+description-ms.UTF-8: Kesan dan papar cakera yang dilampir ke sistem.
+description-nl.UTF-8: Op het systeem aangesloten schijven detecteren en tonen.
+description-oc.UTF-8: Detècta e aficha los disques estacats al sistèma.
+description-pl.UTF-8: Wykrywa i wyświetla dyski podłączone do komputera.
+description-pt_BR.UTF-8: Detecta e exibe discos conectados ao sistema.
+description-ro.UTF-8: Detectează și afișează discurile atașate la sistem.
+description-ru.UTF-8: Находит и отображает диски, подключенные к системе.
+description-sl.UTF-8: Zazna in izpiše diske, priključene na sistem.
+description-sq.UTF-8: Dallon dhe shfaq disqet që i janë bashkangjitur sistemit.
+description-sr.UTF-8: Откријте и прикажите дискове прикчене на систем.
+description-sv.UTF-8: Identifierar och visar diskar anslutna till systemet.
+description-tr.UTF-8: Sisteme bağlı diskler tespit edilir ve görüntülenir.
+description-ug.UTF-8: سىستېمىغا قوشۇلغان دىسكىنى ئىزدەپ تاپىدۇ ۋە كۆرسىتىدۇ.
+description-uk.UTF-8: Виявляє і відображає диски, підключені до системи.
+description-zh_TW.UTF-8: 偵測並顯示系統中已掛線的磁碟
+
+plugin: local
+name: disk/benchmarks
+requires: device.category == 'DISK'
+description: Benchmark for each disk
+description-ast.UTF-8: Prueba comparativa de cada discu
+description-cs.UTF-8: Zátěžový test všech disků
+description-de.UTF-8: Leistungstest für jede Festplatte
+description-el.utf-8: Δοκιμές απόδοσης για κάθε δίσκο
+description-en_AU.UTF-8: Benchmark for each disk
+description-en_GB.UTF-8: Benchmark for each disk
+description-es.UTF-8: Prueba comparativa de cada disco
+description-fr.UTF-8: Benchmark des différents disques
+description-it.UTF-8: Benchmark di ciascun disco
+description-ms.UTF-8: Tanda aras untuk setiap cakera
+description-nl.UTF-8: Prestatietest voor elke schijf
+description-pt_BR.UTF-8: Avaliação de desempenho para cada disco
+description-ro.UTF-8: Teste de stres pentru fiecare disc
+description-ru.UTF-8: Проверка каждого диска
+description-sl.UTF-8: Merjenje zmogljivosti za vsak disk
+description-tr.UTF-8: Her disk için karşılaştırmalı değerlendirme
+description-ug.UTF-8: ھەر بىر دىسكىنىڭ ئاساسىي كۆرسەتكۈچى(Benchmark)
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/benchmark_`ls /sys$path/block`
+ requires: device.path == "$path" and package.name == 'linux'
+ user: root
+ command: hdparm -tT /dev/`ls /sys$path/block | sed 's|!|/|'` | sed 's/:.*= */ = /' | grep -v "^$"
+ description: This test runs hdparm timing tests as a benchmark for $path
+ EOF
+
+plugin: local
+name: disk/stats
+requires: device.category == 'DISK'
+description: Check stats changes for each disk
+description-ast.UTF-8: Comprobar cambeos d'estáu de cada discu
+description-cs.UTF-8: Zjistit změny všech disků
+description-de.UTF-8: Statistikänderungen für jede Festplatte überprüfen
+description-el.utf-8: Έλεγχος αλλαγής κατάστασης για κάθε δίσκο
+description-en_AU.UTF-8: Check stats changes for each disk
+description-en_GB.UTF-8: Check stats changes for each disk
+description-es.UTF-8: Comprobar cambios de estado de cada disco
+description-fr.UTF-8: Vérifiez les changements des performances des différents disques
+description-it.UTF-8: Verifica le modifiche alle statistiche di ciascun disco
+description-ms.UTF-8: Semak perubahan stat untuk setiap cakera
+description-nl.UTF-8: Statistiekwijzigingen voor elke schijf controleren
+description-pt_BR.UTF-8: Verificar mudança nas estatísticas para cada disco
+description-ro.UTF-8: Verifică modificările în starea fiecărui disc
+description-ru.UTF-8: Проверка изменения состояния каждого диска
+description-sl.UTF-8: Preveri spremembe stanja za vsak disk
+description-tr.UTF-8: Her disk için istatistik değişikliklerini denetleyin
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/stats_`ls /sys$path/block`
+ requires: device.path == "$path" and package.name == 'linux'
+ user: root
+ command: disk_stats_test `ls /sys$path/block | sed 's|!|/|'`
+ description: This test checks disk stats, generates some activity and rechecks stats to verify they've changed. It also verifies that disks appear in the various files they're supposed to.
+ EOF
+
+plugin: local
+name: disk/smart
+requires:
+ package.name == 'smartmontools'
+ package.name == 'linux'
+ device.category == 'DISK'
+description: SMART test
+description-ast.UTF-8: Prueba SMART
+description-be.UTF-8: SMART тэст
+description-bg.UTF-8: SMART тест
+description-bn.UTF-8: SMART পরীক্ষা
+description-bs.UTF-8: Pametan test
+description-ca.UTF-8: Test de l'SMART
+description-cs.UTF-8: Test SMART
+description-da.UTF-8: SMART-test
+description-de.UTF-8: SMART-Test
+description-el.utf-8: Δοκιμή SMART
+description-en_AU.UTF-8: SMART test
+description-en_GB.UTF-8: SMART test
+description-es.UTF-8: Prueba SMART
+description-fi.UTF-8: SMART-testi
+description-fr.UTF-8: Test SMART
+description-gd.UTF-8: Deuchainn SMART
+description-gl.UTF-8: Proba SMART
+description-hu.UTF-8: SMART tesztek
+description-it.UTF-8: Test SMART
+description-ja.UTF-8: SMARTテスト
+description-ko.UTF-8: 스마트 테스트
+description-lv.UTF-8: SMART tests
+description-ms.UTF-8: Ujian SMART
+description-nl.UTF-8: SMART-test
+description-oc.UTF-8: Tèst SMART
+description-pt.UTF-8: Teste SMART
+description-pt_BR.UTF-8: Teste do SMART
+description-ro.UTF-8: Test SMART
+description-ru.UTF-8: SMART-тест
+description-sl.UTF-8: Preizkus SMART
+description-sq.UTF-8: SMART test
+description-sr.UTF-8: Паметан тест
+description-sv.UTF-8: SMART-test
+description-th.UTF-8: ทดสอบแบบ SMART
+description-tr.UTF-8: SMART sınaması
+description-ug.UTF-8: SMART سىنىقى
+description-uk.UTF-8: РОЗУМНИЙ тест
+description-zh_CN.UTF-8: SMART 测试
+description-zh_TW.UTF-8: SMART 測試
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/smart_`ls /sys$path/block`
+ requires: device.path == "$path"
+ description:
+  This tests the SMART capabilities for $product (Note that this test will not work against removable media (USB, Firewire) and hardware RAID)
+ user: root
+ command: disk_smart -b /dev/`ls /sys$path/block | sed 's|!|/|'` -s 130
+ EOF
+
+plugin: local
+name: disk/max_diskspace_used
+requires:
+ device.category == 'DISK'
+description: Maximum disk space used during a default installation test
+description-ast.UTF-8: Máximu espaciu de discu usáu nuna prueba d'instalación predeterminada
+description-be.UTF-8: Максімальнае выкарыстанне месца на дыску падчас тэста з наладкамі па змоўчванні
+description-bg.UTF-8: Максимално използвано пространство при стандартен инсталационен тест
+description-bs.UTF-8: Najveći prostor diska korišćen prilikom testa osnovne instalacije
+description-ca.UTF-8: Màxim espai de disc utilitzat durant una comprovació d'instal·lació predeterminada
+description-cs.UTF-8: Během výchozího testu instalací bude zabrán nejvýše tento objem dat
+description-da.UTF-8: Maksimal diskplads der bruges under en standardinstallationstest
+description-de.UTF-8: Test des maximalen Festplattenspeichers, der während einer Standardinstallation belegt wird
+description-el.utf-8: Ο μέγιστος χώρος δίσκου που χρησιμοποιήθηκε κατά τη δοκιμή μιας προεπιλεγμένης εγκατάστασης
+description-en_AU.UTF-8: Maximum disk space used during a default installation test
+description-en_GB.UTF-8: Maximum disk space used during a default installation test
+description-es.UTF-8: Máximo espacio de disco usado durante una prueba de instalación predeterminada
+description-fr.UTF-8: Espace disque maximal utilisé lors d'un test d'installation par défaut
+description-gd.UTF-8: Rùm dìosg barr-suime chleachdadh fad deuchainn a stàlachadh bunaiteach
+description-gl.UTF-8: Máximo espazo de disco usado durante unha proba de instalación predeterminada
+description-hu.UTF-8: Az alapértelmezett telepítéskor használt legnagyobb lemezhely teszt
+description-it.UTF-8: Spazio massimo su disco usato durante un test di installazione predefinito
+description-ja.UTF-8: デフォルトのインストールテストを行う際に、ディスクの使用量が最大になります。
+description-ko.UTF-8: 기본 설치 테스트를 할 때 필요한 최대 디스크 공간
+description-lv.UTF-8: Maksimālā diska vieta, ko izmanto noklusētās instalācijas testa laikā
+description-ms.UTF-8: Ruang cakera maksimum digunakan semasa ujian pemasangan lalai
+description-nl.UTF-8: Maximale schijfruimte die tijdens een standaard installatie-test gebruikt wordt
+description-oc.UTF-8: Espaci de disc maximal utilizat al moment d'un tèst d'installacion per defaut
+description-pt.UTF-8: Utilização máxima de espaço em disco durante uma instalação teste padrão
+description-pt_BR.UTF-8: Espaço máximo em disco utilizado durante uma instalação teste padrão
+description-ro.UTF-8: Spațiul maxim utilizat pe disc pe parcursul instalării implicite a unui test
+description-ru.UTF-8: Максимальное использование места на диске при тесте с настройками по умолчанию
+description-sl.UTF-8: Največ porabljenega prostora med preizkusom privzete namestitve
+description-sq.UTF-8: Hapësira maksimale e diskut e përdorur gjatë testit standart të instalimit
+description-sr.UTF-8: Највећи простор диска коришћен приликом теста основне инсталације
+description-sv.UTF-8: Maximalt diskutrymme som används vid ett standardinstallationstest
+description-th.UTF-8: เนื่อที่ว่างสูงสุดที่ถูกใช้ระหว่างการทดสอบการติดตั้งแบบปริยาย
+description-tr.UTF-8: Öntanımlı kurulum sınaması sırasında kullanılan en fazla disk alanı
+description-ug.UTF-8: كۆڭۈلدىكى ئورنىتىش سىنىقى جەريانىدا دىسكىنىڭ ئەڭ چوڭ بوشلۇقىنى ئىشلىتىدۇ
+description-uk.UTF-8: Максимальне місце на диску, яке буде заняте під час звичайного тесту інсталяції
+description-zh_CN.UTF-8: 默认安装测试过程中使用的最大磁盘空间
+description-zh_HK.UTF-8: 默認安裝測試過程中使用的最大磁碟空間
+description-zh_TW.UTF-8: 在預裝測試中最大硬碟空間使用量
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/max_diskspace_used_`ls /sys$path/block`
+ requires: device.path == "$path"
+ description: Maximum disk space test for $product
+ user: root
+ command: max_diskspace_used `ls /sys$path/block | sed 's|!|/|'`
+ EOF
+
+plugin: local
+name: disk/read_performance
+requires:
+ device.category == 'DISK'
+description: Verify system storage performs at or above baseline performance
+description-ast.UTF-8: Verifica que'l rendimientu del almacenamientu del sistema, tea sobre'l rendimientu de referencia
+description-be.UTF-8: Праверка сістэмных сховішчаў выконваецца па стандартных і павышаных умовах
+description-bg.UTF-8: Провери дали системното съхранение се представя според или по-добре стандартните норми
+description-bs.UTF-8: Provjerava obavljanje sistemski prostor pri ili iznad osnovnih performansi
+description-ca.UTF-8: Verifica que el rendiment del sistema d'emmagatzematge sigui igual o superior al rendiment de referència
+description-cs.UTF-8: Ověřit, zda systémová úložiště dosahují alespoň minimálního výkonu
+description-da.UTF-8: Verificering af at systemlager yder på eller over basislinjeydelse
+description-de.UTF-8: Sicherstellen, dass der Systemspeicher mit oder über der Basisperformance arbeitet.
+description-el.utf-8: Επαληθεύει ότι το σύστημα αποθήκευσης αποδίδει τουλάχιστον ή περισσότερο από τη μέση απόδοση
+description-en_AU.UTF-8: Verify system storage performs at or above baseline performance
+description-en_GB.UTF-8: Verify system storage performs at or above baseline performance
+description-es.UTF-8: Verifica que el rendimiento del almacenamiento del sistema, esté por sobre el rendimiento de referencia
+description-fr.UTF-8: Vérifiez que les performances du système de stockage sont supérieures ou égales au niveau de performance de base
+description-gd.UTF-8: A dearbhadh gnìomhaich stòr an t-siostam aig no os cionn gnìomhaich bun-loidhne
+description-gl.UTF-8: Verifica que o rendemento do almacenamento do sistema estea por enriba do rendemento de referencia.
+description-hu.UTF-8: Ellenőrzi, hogy a rendszer háttértára az átlagos teljesítményen vagy afölött teljesít-e
+description-it.UTF-8: Verifica che i supporti di memorizzazione del sistema abbiano una prestazione pari o superiore a quella base
+description-ja.UTF-8: システムストレージが性能の基準値かそれ以上で動作しているか検査します
+description-ko.UTF-8: 최저 사양과 비교해 시스템 저장소 성능을 평가합니다.
+description-lv.UTF-8: Pārliecināties, ka sistēmas krātuves veiktspēja ir tāda pati vai labāka kā bāzes veiktspēja
+description-ms.UTF-8: Sahkan storan sistem dilakukan pada atau diatas prestasi garis dasar
+description-nl.UTF-8: Controleer prestaties van systeemopslag op of boven de standaardprestaties
+description-pt.UTF-8: Verificar se o desempenho do armazenamento do sistema é igual ou superior à linha base
+description-pt_BR.UTF-8: Verifica a performance do sistema de armazenamento e realiza em ou acima de referência de desempenho
+description-ro.UTF-8: Verifică dacă unitățile de stocare lucrează la sau sub parametrii specificați
+description-ru.UTF-8: Проверка системных хранилищ выполняется по стандартным и повышенным условиям
+description-sl.UTF-8: Preveri, da je hitrost sistemske shrambe vsaj na najmanjšem zahtevanem nivoju.
+description-sq.UTF-8: Verifikoni që ruajtja e sistemit të performojë në bazë të parametrave apo mbi to
+description-sr.UTF-8: Проверава обављање скалдиштења система при или изнад основних перформанси
+description-sv.UTF-8: Verifiera att systemets lagring presterar enligt eller över lägsta godtagbara prestanda
+description-tr.UTF-8: Sistem deposunun taban çizgisi başarımını veya daha fazlasını verdiğini doğrulayın
+description-ug.UTF-8: سىستېمىنىڭ ئىقتىدارى ئاساسىي ئۆلچەمدىن يۇقىرىمۇ ئەمەسمۇ تەكشۈرىدۇ
+description-zh_TW.UTF-8: 確認系統的儲存裝置的效能達到或超過一般儲存裝置基本的表現
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/read_performance_`ls /sys$path/block`
+ requires:
+  device.path == "$path"
+  package.name == 'linux'
+ description: Disk performance test for $product
+ user: root
+ command: disk_read_performance_test `ls /sys$path/block | sed 's|!|/|'`
+ EOF
+
+plugin: local
+name: disk/storage_devices
+requires:
+ device.category == 'DISK'
+description: Verify that storage devices, such as Fibre Channel and RAID can be detected and perform under stress.
+description-ast.UTF-8: Verifica que los dispositivos de almacenamientu, como Fibre Channel y RAID, se pueden detectar y usar baxo estrés.
+description-be.UTF-8: Праверыць магчымасць выяўлення прылад захоўвання, такіх як валаконна-аптычны канал і RAID, затым выканаць стрэс-тэст.
+description-bg.UTF-8: Увери, че устройствата за съхранение, като Fibre Channel и RAID могат да се засекат и да работят под стрес.
+description-bs.UTF-8: Provjerava da li uređaji skladištenja, kao što su optički kanali i RAID mogu biti otkriveni i obavljeni pod opterećenjem.
+description-cs.UTF-8: Ověřit, že úložná zařízení jako Fibre Channel nebo RAID můžou být nalezena a dosahují v zátěži dostatečného výkonu
+description-da.UTF-8: Verificering at lagringsenheder som f.eks. Fibre Channel eller RAID kan blive detekteret og yde under stress.
+description-de.UTF-8: Sicherstellen, dass Speichergeräte, wie Faserkanäle und RAID erkannt werden und unter Belastung arbeiten können.
+description-el.utf-8: Επαλήθευση ότι οι συσκευές αποθήκευσης, όπως το Fibre Channel και το RAID μπορούν να ανιχνεύονται και να αποδίδουν υπό πίεση.
+description-en_AU.UTF-8: Verify that storage devices, such as Fibre Channel and RAID can be detected and perform under stress.
+description-en_GB.UTF-8: Verify that storage devices, such as Fibre Channel and RAID can be detected and perform under stress.
+description-es.UTF-8: Verifica que los dispositivos de almacenamiento, como Fibre Channel y RAID, se pueden detectar y utilizar bajo estrés.
+description-fi.UTF-8: Tarkistetaan, että muistilaitteet, kuten Fibre Channel ja RAID havaitaan ja että ne kestävät kuormitusta.
+description-fr.UTF-8: Vérifiez que les appareils de stockage, tels que la « Fibre Channel » et le « RAID », peuvent être détectés et qu'ils fonctionnent en charge.
+description-gd.UTF-8: Dearbh gu gabh innleachdan stòr, mar Fibre Channel agus RAID a lorgadh 's gnìomhaich fo chuideam.
+description-gl.UTF-8: Verifica que os dispositivos de almacenamento, como Fibre Channel e RAID, pódense detectar e empregar baixo estrés.
+description-hu.UTF-8: Ellenőrizi, hogy az egyes tárolóeszközöket, mint például a Fibre Channel-t vagy RAID-et a rendszer megfelelően érzékelte-e, illetve megfelelően működnek-e terhelés alatt.
+description-it.UTF-8: Verifica che i dispositivi di memorizzazione come Fibre Channel e RAID possano essere rilevati ed eseguiti in condizioni di stress.
+description-ja.UTF-8: ファイバーチャネルやRAIDといったストレージデバイスが検出されているかと、ストレス環境下でのパフォーマンスを確認します。
+description-ko.UTF-8: Fibre Channel이나 RAID로 구성된 저장소가 연결되어 있고, 테스트를 수행할 수 있는지 (읽기-쓰기가 가능한지) 확인하세요.
+description-lv.UTF-8: Pārliecināties, ka krātuves ierīces, piemēram Fibre Channel un RAID var tikt atrastas un darboties stresa apstākļos.
+description-ms.UTF-8: Sahkan peranti storan, seperti Saluran Fiber dan RAID boleh dikesan dan berfungsi dibawah tekanan.
+description-nl.UTF-8: Controleer of opslagapparaten, zoals Fibre Chanel en RAID, gedetecteerd worden en ook onder druk blijven werken.
+description-pt.UTF-8: Verificar que os dispositivos de armazenamento, como Fibre Channel e RID, são detetados e conseguem desempenhar sob carga intensa.
+description-pt_BR.UTF-8: Verifica os dispositivos de armazenamento, tais como Fibre Channel e RAID podem ser detectados e trabalhar sob pressão.
+description-ro.UTF-8: Verifică dacă unitățile de stocare, precum Fibre Channel sau RAID, pot fi detectate și pot opera în condiții de stres.
+description-ru.UTF-8: Проверить возможность обнаружения устройств хранения, таких как волоконно-оптический канал и RAID, затем выполнить стресс-тест.
+description-sl.UTF-8: Preveri, da je mogoče naprave za hranjenje podatkov, kot optični kanal in RAID polja, pravilno zaznati in da delujejo pod obremenitvijo.
+description-sq.UTF-8: Verifikon që pajisjet e ruajtjes, siç janë Kanali i Fibrave dhe RAID të dallohen dhe të performojnë nën stres.
+description-sr.UTF-8: Проверава да ли уређаји складиштења, као што су Канал влакна и РАИД могу бити откривени и обављени под оптерећењем.
+description-sv.UTF-8: Verifiera att lagringsenheter, som Fiber Channel och RAID, kan identifieras och prestera under hög belastning.
+description-tr.UTF-8: Depolama aygıtlarını,Fiber Kanal ve RAID gibi,tespit edilebilir olduğunu doğrulayın ve stres altında yapılandırın.
+description-ug.UTF-8: نۇر تالا قانىلى(Fibre Channel) ۋە RAID بايقالدىمۇ ۋە چارچىتىش سىناقلىرىدا ئۈنۈملۈك ئىشلىدىمۇ تەكشۈرىدۇ.
+description-zh_TW.UTF-8: 確認儲存裝置，像是光纖通道和冗餘獨立磁碟陣列，可以被偵測且能在壓力測試下運作。
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: shell
+ name: disk/storage_device_`ls /sys$path/block`
+ user: root
+ requires:
+  device.path == "$path"
+  package.name == 'linux'
+ description: Disk I/O stress test for $product
+ command: storage_test `ls /sys$path/block | sed 's|!|/|'`
+ EOF

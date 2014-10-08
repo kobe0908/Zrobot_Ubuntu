@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=calligraflow
+X-AppInstall-Popcon=26
+X-AppInstall-Section=main
+
+Type=Application
+Name=Calligra Flow
+Exec=calligraflow %u
+GenericName=Flowchart & Diagram Editing
+MimeType=application/vnd.oasis.opendocument.graphics;application/x-flow;
+X-KDE-ServiceTypes=Calligra/Application
+Icon=kivio
+X-KDE-NativeMimeType=application/vnd.oasis.opendocument.graphics
+# application/vnd.oasis.opendocument.graphics is not on this list because Karbon has the default;
+# Flow will be used only in absence of Karbon
+X-Calligra-DefaultMimeTypes=application/x-flow
+X-DocPath=http://userbase.kde.org/Flow
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.calligra.flow
+Categories=Qt;KDE;Office;
+
+X-Ubuntu-Gettext-Domain=app-install-data

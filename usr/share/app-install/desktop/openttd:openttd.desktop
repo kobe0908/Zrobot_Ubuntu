@@ -1,0 +1,17 @@
+# $Id: openttd.desktop.in 21492 2010-12-13 01:59:58Z rubidium $
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+[Desktop Entry]
+X-AppInstall-Package=openttd
+X-AppInstall-Popcon=499
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=OpenTTD
+Icon=openttd
+Exec=/usr/share/games/openttd/openttd-wrapper
+Terminal=false
+Categories=Game;
+Comment=A clone of Transport Tycoon Deluxe
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/repofmt/groupcompress_repo.py

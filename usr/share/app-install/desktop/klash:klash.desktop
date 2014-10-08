@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=klash
+X-AppInstall-Popcon=201
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Gnash SWF Viewer for KDE
+GenericName=SWF Viewer
+Comment=View SWF Files
+Icon=gnash
+Exec=gnash-qt-launcher %U
+Terminal=false
+Categories=AudioVideo;Qt;KDE;
+MimeType=application/x-shockwave-flash;application/futuresplash;
+
+X-Ubuntu-Gettext-Domain=app-install-data

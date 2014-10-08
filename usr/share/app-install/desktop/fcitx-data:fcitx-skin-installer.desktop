@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=fcitx-data
+X-AppInstall-Popcon=213
+X-AppInstall-Section=universe
+
+MimeType=application/x-fskin
+Name=Fcitx Skin Installer
+Comment=Installer Script for Fcitx Skin
+Exec=fcitx-skin-installer %U
+Icon=fcitx
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=false
+X-GNOME-AutoRestart=false
+X-GNOME-Autostart-Notify=false
+X-KDE-StartupNotify=false
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/toggle_key</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/toggle_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;p</default>
+      <locale name="C">
+        <short>Toggle AddHelper</short>
+        <long>Use this to enable/disable AddHelper on the fly.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/window_types</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/window_types</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Toolbar | Utility | Dialog | ModalDialog | Fullscreen | Normal</default>
+      <locale name="C">
+        <short>Window Types</short>
+        <long>Window types that should be Opacified. (match)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/ononinit</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/ononinit</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable ADD Helper on start</short>
+        <long>Enables ADD helper when it is first loaded.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/brightness</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/brightness</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>30</default>
+      <locale name="C">
+        <short>Brightness</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ca">
+        <short>Brillantor</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="cs">
+        <short>Jas</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="da">
+        <short>Lysstyrke</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="de">
+        <short>Helligkeit</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="el">
+        <short>Φωτεινότητα</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="es">
+        <short>Brillo</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="et">
+        <short>Heledus</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="eu">
+        <short>Distira</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="fi">
+        <short>Kirkkaus</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="fr">
+        <short>Luminosité</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="gl">
+        <short>Brillo</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="gu">
+        <short>તેજસ્વીતા</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="he">
+        <short>בהירות</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="hu">
+        <short>Fényerő</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="it">
+        <short>Luminosità</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ja">
+        <short>明度</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ko">
+        <short>밝기</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="nb">
+        <short>Skarphet</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="nl">
+        <short>Helderheid</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="or">
+        <short>ଉଜ୍ବଳତା</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pl">
+        <short>Jasność</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pt">
+        <short>Brilho</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Brilho</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ro">
+        <short>Luminozitate</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ru">
+        <short>Яркость</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="sk">
+        <short>Jas</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="sv">
+        <short>Ljusstyrka</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="tr">
+        <short>Parlaklık</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="uk">
+        <short>Яскравість</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>亮度</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>亮度</short>
+        <long>Brightness of faded windows (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/saturation</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/saturation</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>50</default>
+      <locale name="C">
+        <short>Saturation</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="ca">
+        <short>Saturació</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="cs">
+        <short>Sytost</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="da">
+        <short>Farvemætning</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="de">
+        <short>Sättigung</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="el">
+        <short>Κορεσμός</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="es">
+        <short>Saturación</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="eu">
+        <short>Saturazioa</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="fi">
+        <short>Kylläisyys</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="fr">
+        <short>Saturation</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="gl">
+        <short>Saturación</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="he">
+        <short>רווייה</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="hu">
+        <short>Telítettség</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="it">
+        <short>Saturazione</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="ja">
+        <short>彩度</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="ko">
+        <short>채도</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="nb">
+        <short>Metning</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="nl">
+        <short>Verzadiging</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="or">
+        <short>ସଂପୂର୍ଣ୍ଣ ମିଶ୍ରଣ</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="pl">
+        <short>Nasycenie</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="pt">
+        <short>Saturação</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Saturação</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="ru">
+        <short>Насыщенность</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="sk">
+        <short>Sýtosť</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="sv">
+        <short>Färgmättnad</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="tr">
+        <short>Doygunluk</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="uk">
+        <short>Насиченість</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>饱和度</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>飽和度</short>
+        <long>Saturation of faded windows (0 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/addhelper/screen0/options/opacity</key>
+      <applyto>/apps/compiz-1/plugins/addhelper/screen0/options/opacity</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>100</default>
+      <locale name="C">
+        <short>Opacity</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="bn">
+        <short>অস্বচ্ছতা</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>অস্বচ্ছতা</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ca">
+        <short>Opacitat</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="cs">
+        <short>Krytí</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="da">
+        <short>Uigennemsigtighed</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="de">
+        <short>Opazität</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="el">
+        <short>Αδιαφάνεια</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="es">
+        <short>Opacidad</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="eu">
+        <short>Opakutasuna</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="fi">
+        <short>Läpinäkyvyys</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="fr">
+        <short>Opacité</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="gl">
+        <short>Opacidade</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="gu">
+        <short>અપારદર્શકતા</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="he">
+        <short>אטימות</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="hu">
+        <short>Átlátszatlanság</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="it">
+        <short>Opacità</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ja">
+        <short>不透明度</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ko">
+        <short>투명</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="nb">
+        <short>Dekkevne</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="nl">
+        <short>Ondoorzichtigheid</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="or">
+        <short>ଅସ୍ବଚ୍ଛତା</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pl">
+        <short>Nieprzezroczystość</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pt">
+        <short>Opacidade</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Opacidade</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ro">
+        <short>Opacitate</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="ru">
+        <short>Прозрачность</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="sk">
+        <short>Nepriehľadnosť</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="sv">
+        <short>Opacitet</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="tr">
+        <short>Matlık</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="uk">
+        <short>Прозорість</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>不透明度</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>不透明度</short>
+        <long>Opacity of faded windows (1 - 100)</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

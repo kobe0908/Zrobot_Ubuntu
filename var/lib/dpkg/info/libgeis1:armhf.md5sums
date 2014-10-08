@@ -1,0 +1,4 @@
+2b82530f8a7bdad2155467e1637673bb  usr/lib/arm-linux-gnueabihf/libgeis.so.1.3.0
+35c3ab0219d1c15e8d0e9c72f7f7a203  usr/share/apport/package-hooks/source_geis.py
+9a9f23f44ae7ee60106972e93ac9a238  usr/share/doc/libgeis1/changelog.Debian.gz
+73af6956b64c4dc3e76e569e4b079ccf  usr/share/doc/libgeis1/copyright

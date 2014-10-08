@@ -1,0 +1,28 @@
+[Desktop Entry]
+X-AppInstall-Package=darktable
+X-AppInstall-Popcon=678
+X-AppInstall-Section=universe
+
+Name=Darktable
+GenericName=Virtual Lighttable and Darkroom
+
+Comment=Organize and develop images from digital cameras
+
+X-GNOME-FullName=Darktable Photo Workflow Software
+
+Version=1.0
+
+Type=Application
+Categories=Graphics;Photography;GTK;
+
+Exec=darktable %U
+TryExec=darktable
+Terminal=false
+StartupNotify=true
+
+MimeType=application/x-darktable;image/x-dcraw;
+
+Icon=darktable
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

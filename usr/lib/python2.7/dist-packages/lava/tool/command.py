@@ -1,0 +1,1 @@
+../../../../../share/pyshared/lava/tool/command.py

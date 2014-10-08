@@ -1,0 +1,11 @@
+58000b1813880b0bf8d865fda807c595  usr/bin/gnome-terminal
+bf6db390b791eed7b47365d212613692  usr/bin/gnome-terminal.wrapper
+dee7040a2a7c7d9b07255f969af73589  usr/share/applications/gnome-terminal.desktop
+1cfbe97397ece1370f81c22dc9ec2832  usr/share/doc/gnome-terminal/AUTHORS
+6fc387df730ba8a72694c79c2d2f3352  usr/share/doc/gnome-terminal/NEWS.gz
+f4af756aba435b456eeb6b3676ee6bbf  usr/share/doc/gnome-terminal/README
+350b1e8e00743ce7a997a49965e61e02  usr/share/doc/gnome-terminal/changelog.Debian.gz
+056c4ef07a95899b857b3414a7fa1fc9  usr/share/doc/gnome-terminal/copyright
+265c80f75d4382f3d238b8a5246fbb41  usr/share/lintian/overrides/gnome-terminal
+eda05132fe4a948325e663487ef40e1b  usr/share/man/man1/gnome-terminal.1.gz
+999c80a77a15188dadf36bd3c7afb24f  usr/share/menu/gnome-terminal

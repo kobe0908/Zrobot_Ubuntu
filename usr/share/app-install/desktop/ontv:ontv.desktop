@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ontv
+X-AppInstall-Popcon=114
+X-AppInstall-Section=universe
+
+Name=OnTV
+Comment=Monitor TV programs
+Exec=ontv
+Icon=ontv
+Type=Application
+Categories=GTK;Utility;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

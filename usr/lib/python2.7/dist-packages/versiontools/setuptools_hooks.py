@@ -1,0 +1,1 @@
+../../../../share/pyshared/versiontools/setuptools_hooks.py

@@ -1,0 +1,535 @@
+name: codecs_attachment
+plugin: attachment
+requires: device.driver == 'HDA Intel'
+command: cat /proc/asound/card*/codec#*
+description: Attaches a report of installed codecs for Intel HDA
+description-ast.UTF-8: Axunta un informe de los códecs instalaos pa Intel HDA
+description-cs.UTF-8: Připojí zprávu o nainstalovaných kodecích pro Intel HDA
+description-de.UTF-8: Legt einen Bericht über die installierten Codecs für Intel HDA an.
+description-el.utf-8: Επισύναψη μίας αναφοράς εγκαταστημένων κωδικοποιητών για ήχο υψηλής πιστότητας Intel HDA
+description-en_AU.UTF-8: Attaches a report of installed codecs for Intel HDA
+description-en_GB.UTF-8: Attaches a report of installed codecs for Intel HDA
+description-es.UTF-8: Adjunta un informe de los códecs instalados para Intel HDA
+description-fi.UTF-8: Liittää raportin Intel HDA:lle asennetuista koodekeista
+description-it.UTF-8: Allega un report con i codec installati per Intel HDA.
+description-ms.UTF-8: Lampir laporan kodeks terpasang untuk Intel HDA
+description-nl.UTF-8: Hiermee word een rapport gemaakt van de geïnstalleerde codecs voor Intel HDA
+description-pt_BR.UTF-8: Anexar um relatório com os codecs instalados para Intel HDA
+description-ro.UTF-8: Atașează un raport care conține codecurile instalate pentru Intel HDA
+description-ru.UTF-8: Добавляет отчёт об установленных кодеках для Intel HDA
+description-sl.UTF-8: Priloži poročilo nameščenih kodekov za Intel HDA
+description-tr.UTF-8: Intel HDA için kurulmuş çözücülerin bir raporunu ekler
+description-ug.UTF-8: Intel HDA ئۈچۈن ئورنىتىلغان كودلىغۇچ-كودسىزلىغۇچنىڭ مەلۇماتىنى قېتىش
+
+name: cpuinfo_attachment
+plugin: attachment
+command: cat /proc/cpuinfo
+description: Attaches a report of CPU information
+description-ast.UTF-8: Axunta un informe de la CPU
+description-cs.UTF-8: Připojí informace o CPU
+description-de.UTF-8: Legt einen Bericht mit CPU-Informationen an
+description-el.utf-8: Επισύναψη μίας αναφοράς πληροφοριών για τον επεξεργαστή (CPU)
+description-en_AU.UTF-8: Attaches a report of CPU information
+description-en_GB.UTF-8: Attaches a report of CPU information
+description-es.UTF-8: Adjunta un informe de la CPU
+description-fi.UTF-8: Liittää raportin suorittimen tiedoista
+description-it.UTF-8: Allega un report con informazioni sulla CPU.
+description-ms.UTF-8: Lampir laporan maklumat CPU
+description-nl.UTF-8: Voegt CPU-informatie aan het raport toe
+description-pt_BR.UTF-8: Anexar um relatório com informações da CPU
+description-ro.UTF-8: Atașează un raport care conține informații despre procesor
+description-ru.UTF-8: Добавляет отчёт сведений о ЦПУ
+description-sl.UTF-8: Priloži poročilo podrobnosti CPE
+description-tr.UTF-8: İşlemci bilgilerinin bir raporunu ekler
+description-ug.UTF-8: CPU ئۇچۇرىنىڭ مەلۇماتىنى قېتىش
+
+name: dmesg_attachment
+plugin: attachment
+command: cat /var/log/dmesg | ansi_parser
+description: Attaches a copy of /var/log/dmesg to the test results
+description-ast.UTF-8: Axunta una copia de /var/log/dmesg a los resultaos de la prueba
+description-cs.UTF-8: Připojí kopii /var/log/dmesg k výsledkům
+description-de.UTF-8: Fügt den Testergebnissen eine Kopie von /var/log/dmesg hinzu
+description-el.utf-8: Επισύναψη ενός αντιγράφου του αρχείου /var/log/dmesg στα αποτελέσματα της δοκιμής
+description-en_AU.UTF-8: Attaches a copy of /var/log/dmesg to the test results
+description-en_GB.UTF-8: Attaches a copy of /var/log/dmesg to the test results
+description-es.UTF-8: Adjunta una copia de /var/log/dmesg a los resultados de la prueba
+description-fi.UTF-8: Liittää kopion /var/log/dmesg:stä testituloksiin
+description-it.UTF-8: Allega una copia di /var/log/dmesg ai risultati del test.
+description-ms.UTF-8: Lampir satu salinan /var/log/dmesg ke keputusan ujian
+description-nl.UTF-8: Hiermee word een kopie van /var/log/dmesg aan de testresultaten toegevoegd
+description-pt_BR.UTF-8: Anexar uma cópia de /var/log/dmesg para testar resultados
+description-ro.UTF-8: Atașează la rezultatele testului o copie a fișierului var/log/dmesg
+description-ru.UTF-8: Добавляет копию /var/log/dmesg в результаты проверки
+description-sl.UTF-8: Priloži kopijo /var/log/dmesg rezultatom preizkusa
+description-tr.UTF-8: Sınama sonuçlarına /var/log/dmesg'ın bir kopyasını ekler
+description-ug.UTF-8: /var/log/dmesg نىڭ كۆچۈرۈلمىسىنى سىناق نەتىجىسىگە قېتىش
+
+name: dmi_attachment
+plugin: attachment
+command: grep -r . /sys/class/dmi/id/ 2>/dev/null
+description: Attaches info on DMI
+description-ast.UTF-8: Información axunta en DMI
+description-cs.UTF-8: Připojí informace o DMI
+description-de.UTF-8: Erstellt Informationen über DMI
+description-el.utf-8: Επισύναψη πληροφοριών για το DMI (Direct Media Interface)
+description-en_AU.UTF-8: Attaches info on DMI
+description-en_GB.UTF-8: Attaches info on DMI
+description-es.UTF-8: Adjunta información sobre DMI
+description-fi.UTF-8: Liitää tietoa DMI:stä
+description-it.UTF-8: Allega le informazioni sulla DMI.
+description-ms.UTF-8: Lampir maklumat pada DMI
+description-nl.UTF-8: Voegt informatie over DMI toe
+description-pt_BR.UTF-8: Anexar informações em uma DMI
+description-ro.UTF-8: Atașează informații despre DMI
+description-ru.UTF-8: Добавляет сведения о DMI
+description-sl.UTF-8: Priloži podrobnosti o DMI
+description-tr.UTF-8: DMI'daki bilgileri ekler
+description-ug.UTF-8: DMI ھەققىدىكى ئۇچۇرلارنى قېتىش
+
+name: dmidecode_attachment
+plugin: attachment
+user: root
+command: dmidecode
+description: Attaches dmidecode output
+description-ast.UTF-8: Axunta salida dmidecode
+description-cs.UTF-8: Připojí výstup dmidecode
+description-de.UTF-8: Erstellt dmidecode-Ausgabe
+description-el.utf-8: Επισύναψη του αποτελέσματος της εντολής  dmidecode
+description-en_AU.UTF-8: Attaches dmidecode output
+description-en_GB.UTF-8: Attaches dmidecode output
+description-es.UTF-8: Adjunta salida dmidecode
+description-fi.UTF-8: Liittää dmidecode-komennon tulosteen
+description-it.UTF-8: Allega l'output di dmidecode.
+description-ms.UTF-8: Lampir output dmidecode
+description-nl.UTF-8: Voegt de dmidecode uitvoer toe
+description-pt_BR.UTF-8: Anexar uma saída dmidecode
+description-ro.UTF-8: Atașează informații despre ieșirea dmidecode
+description-ru.UTF-8: Добавляет вывод dmidecode
+description-sl.UTF-8: Priloži izpis dmidecode
+description-tr.UTF-8: dmidecode çıktısını ekler
+description-ug.UTF-8: dmidecode نىڭ چىقىرىشىنى قېتىش
+
+name: lspci_attachment
+plugin: attachment
+command: lspci -vvnn
+description: Attaches very verbose lspci output.
+description-ast.UTF-8: Axunta salida prolija de lspci
+description-cs.UTF-8: Připojí podrobný výstup lspci.
+description-de.UTF-8: Erstellt eine sehr lange lspci-Ausgabe
+description-el.utf-8: Επισύναψη πολύ αναλυτικού αποτελέσματος της εντολής lspci
+description-en_AU.UTF-8: Attaches very verbose lspci output.
+description-en_GB.UTF-8: Attaches very verbose lspci output.
+description-es.UTF-8: Adjunta salida prolija de lspci
+description-fi.UTF-8: Liittää hyvin laajan lspci-tulosteen.
+description-it.UTF-8: Allega un output di lspci molto prolisso.
+description-ms.UTF-8: Lampir output lspci yang sangat berjela.
+description-nl.UTF-8: Voegt een zeer uitgebreide uitvoer van lspci toe.
+description-pt_BR.UTF-8: Anexar uma saída lspci muito detalhada.
+description-ro.UTF-8: Atașează ieșirea comenzii lspci în modul volubil.
+description-ru.UTF-8: Добавляет подробный вывод lspci.
+description-sl.UTF-8: Priloži zelo podroben izpis lspci.
+description-tr.UTF-8: lspci çok ayrıntılı çıktısını ekler
+description-ug.UTF-8: very verbose lspci نىڭ چىقىرىشىنى قېتىش
+
+name: meminfo_attachment
+plugin: attachment
+command: cat /proc/meminfo
+
+name: modprobe_attachment
+plugin: attachment
+command: find /etc/modprobe.* -name \*.conf | xargs cat
+description: Attaches the contents of the various modprobe conf files.
+description-ast.UTF-8: Axunta los conteníos de dellos ficheros de configuración modprobe.
+description-cs.UTF-8: Připojí obsah různých konfiguračních souborů modprobe.
+description-de.UTF-8: Fügt die Inhalte der diversen modprobe-conf-Dateien hinzu.
+description-el.utf-8: Επισύναψη του περιεχομένου των διαφόρων modprobe conf αρχείων
+description-en_AU.UTF-8: Attaches the contents of the various modprobe conf files.
+description-en_GB.UTF-8: Attaches the contents of the various modprobe conf files.
+description-es.UTF-8: Adjunta los contenidos de varios archivos de configuración modprobe.
+description-fi.UTF-8: Liittää useiden modprobe-asetustiedostojen sisällön.
+description-it.UTF-8: Allega il contenuto dei vari file di configurazione di modprobe.
+description-ms.UTF-8: Lampir kandungan fail modprobe conf yang pelbagai.
+description-nl.UTF-8: Voegt de inhoud van verschillende modprobe conf-bestanden toe.
+description-pt_BR.UTF-8: Anexar o conteúdo de vários arquivos de configuração modprobe.
+description-ro.UTF-8: Atașează conținutul mai multor fișiere modprobe.
+description-ru.UTF-8: Добавляет содержимое различных конфигурационных файлов modprobe.
+description-sl.UTF-8: Priloži vsebino različnih nastavitvenih datotek modprobe.
+description-tr.UTF-8: Çeşitli modprobe yapılandırma dosyalarının içeriğini ekler
+description-ug.UTF-8: ھەر خىل modprobe  conf  ھۆججەتلىرىنىڭ مەزمۇنىنى قاتىدۇ.
+
+name: modules_attachment
+plugin: attachment
+command: cat /etc/modules
+description: Attaches the contents of the /etc/modules file.
+description-ast.UTF-8: Axunta'l conteníu del ficheru /etc/modules.
+description-cs.UTF-8: Připojí obsah souboru /etc/modules.
+description-de.UTF-8: Fügt die Inhalte der Datei /etc/modules hinzu.
+description-el.utf-8: Επισύναψη του περιεχομένου του αρχείου /etc/modules.
+description-en_AU.UTF-8: Attaches the contents of the /etc/modules file.
+description-en_GB.UTF-8: Attaches the contents of the /etc/modules file.
+description-es.UTF-8: Adjunta el contenido del archivo /etc/modules.
+description-fi.UTF-8: Liittää /etc/modules-tiedoston sisällön.
+description-it.UTF-8: Allega il contenuto del file /etc/modules.
+description-ms.UTF-8: Lampir kandungan fail /etc/modules
+description-nl.UTF-8: Voegt de inhoud van het /etc/modules bestand toe.
+description-pt_BR.UTF-8: Anexar o conteúdo do arquivo /etc/modules.
+description-ro.UTF-8: Atașează conținutul fișierului /etc/modules.
+description-ru.UTF-8: Добавляет содержимое файла /etc/modules.
+description-sl.UTF-8: Priloži vsebino datoteke /etc/modules.
+description-tr.UTF-8: /etc/modules dosyasının içeriğini ekler
+description-ug.UTF-8: /etc/modules ھۆججىتىنىڭ مەزمۇنىنى قاتىدۇ.
+
+name: sysctl_attachment
+plugin: attachment
+command: find /etc/sysctl.* -name \*.conf | xargs cat
+description: attaches the contents of various sysctl config files.
+description-ast.UTF-8: axunta los conteníos de dellos ficheros de configuración sysctl.
+description-cs.UTF-8: Připojí obsah různých konfiguračních souborů sysctl.
+description-de.UTF-8: Fügt die Inhalte von diversen sysctl-config-Dateien hinzu.
+description-el.utf-8: Επισύναψη των περιεχομένων διαφόρων αρχείων ρυθμίσεων sysctl
+description-en_AU.UTF-8: attaches the contents of various sysctl config files.
+description-en_GB.UTF-8: attaches the contents of various sysctl config files.
+description-es.UTF-8: adjunta los contenidos de varios archivos de configuración sysctl.
+description-fi.UTF-8: Liittää useiden sysctl-asetustiedostojen sisällön.
+description-it.UTF-8: Allega il contenuto dei vari file di configurazione di sysctl.
+description-ms.UTF-8: Lampir kandungan fail confog sysctl yang pelbagai.
+description-nl.UTF-8: Voegt de inhoud van verschillende sysctl configuratie-bestanden toe.
+description-pt_BR.UTF-8: anexar o conteúdo de vários arquivos de configuração sysctl.
+description-ro.UTF-8: Atașează conținutul mai multor fișiere sysctl config.
+description-ru.UTF-8: Добавляет содержимое различных конфигурационных файлов sysctl.
+description-sl.UTF-8: Priloži vsebino različnih nastavitvenih datotek sysctl.
+description-tr.UTF-8: Çeşitli sysctl yapılandırma dosyalarının içeriğini ekler
+description-ug.UTF-8: ھەر خىل sysctl سەپلىمە ھۆججىتىنىڭ مەزمۇنىنى قاتىدۇ.
+
+name: sysfs_attachment
+plugin: attachment
+description: Attaches a report of sysfs attributes.
+description-ast.UTF-8: Axunta un informe de los atributos de sysfs.
+description-cs.UTF-8: Připojí zprávu o atributech sysfs
+description-de.UTF-8: Fügt einen Bericht über sysfs-Attribute hinzu.
+description-el.utf-8: Επισύναψη μίας αναφοράς των χαρακτηριστικών sysfs
+description-en_AU.UTF-8: Attaches a report of sysfs attributes.
+description-en_GB.UTF-8: Attaches a report of sysfs attributes.
+description-es.UTF-8: Adjunta un informe de los atributos de sysfs.
+description-fi.UTF-8: Liittää sysfs-tiedot.
+description-it.UTF-8: Allega un report con gli attributi di sysfs.
+description-ms.UTF-8: Lampir laporan atribut sysfs.
+description-nl.UTF-8: Voegt een rapport van de sysfs-attributen toe.
+description-pt_BR.UTF-8: Anexar um relatório de atributos sysfs.
+description-ro.UTF-8: Atașează un raport cu atributele sysfs.
+description-ru.UTF-8: Добавляет отчёт атрибутов sysfs.
+description-sl.UTF-8: Priloži poročila atributov sysfs.
+description-tr.UTF-8: sysfs özniteliklerinin bir raporunu ekler
+description-ug.UTF-8: ھەر خىل sysfs خاسلىقلىرىنىڭ مەلۇماتىنى قاتىدۇ.
+command:
+ for i in `udevadm info --export-db | sed -n 's/^P: //p'`; do
+  echo "P: $i"
+  udevadm info --attribute-walk --path=/sys$i 2>/dev/null | sed -n 's/    ATTR{\(.*\)}=="\(.*\)"/A: \1=\2/p'
+  echo
+ done
+
+name: udev_attachment
+plugin: attachment
+command: udevadm info --export-db
+description: Attaches a dump of the udev database showing system hardware information.
+description-ast.UTF-8: Axunta un volcáu de la base de datos udev amosando información de hardware del sistema.
+description-cs.UTF-8: Připojí obsah databáze udev, která obsahuje informace o hardwaru
+description-de.UTF-8: Fügt ein Abbild der udev-Datenbank mit System-Hardware-Informationen hinzu.
+description-el.utf-8: Επισύναψη μίας αποτύπωσης της βάσης δεδομένων udev η οποία δείχνει πληροφορίες για το υλικό του συστήματος.
+description-en_AU.UTF-8: Attaches a dump of the udev database showing system hardware information.
+description-en_GB.UTF-8: Attaches a dump of the udev database showing system hardware information.
+description-es.UTF-8: Adjunta un volcado de la base de datos udev mostrando información de hardware del sistema.
+description-fi.UTF-8: Liittää udev-tietokannan, joka kertoo järjestelmän laitteistosta.
+description-it.UTF-8: Allega un dump del database di udev che mostra le informazioni sull'hardware del sistema.
+description-ms.UTF-8: Lampir longgokkan pengkalan data udev yang memaparkan maklumat perkakasan sistem.
+description-nl.UTF-8: Voegt een dump van de udev database toe, die hardware informatie over het systeem bevat.
+description-pt_BR.UTF-8: Anexar um dump do banco de dados udev, mostrando informações de hardware do sistema.
+description-ro.UTF-8: Atașează o imagine a bazei de date udev, care prezintă informații despre echipamentele sistemului.
+description-ru.UTF-8: Прикреплять фрагмент содержимого базы данных «udev», показывающий информацию об аппаратном обеспечении.
+description-sl.UTF-8: Priloži odlagališča podatkovne zbirke udev, ki prikazuje podatke sistemske strojne opreme.
+description-tr.UTF-8: Sistem donanım bilgisini gösteren bir udev veritabanı dökümünü ekler
+
+name: gcov_attachment
+plugin: attachment
+requires: package.name == 'lcov'
+user: root
+command: gcov_tarball
+description: Attaches a tarball of gcov data if present.
+description-ast.UTF-8: Axunta un ficheru comprimíu de los datos gcov si ta presente.
+description-cs.UTF-8: Existuje-li, připojí archiv dat gconf
+description-de.UTF-8: Fügt ein Tar-Archiv mit gcov-Daten hinzu, wenn vorhanden.
+description-el.utf-8: Επισύναψη ενός συμπιεσμένου αρχείου με δεδομένα gconv αν υπάρχουν.
+description-en_AU.UTF-8: Attaches a tarball of gcov data if present.
+description-en_GB.UTF-8: Attaches a tarball of gcov data if present.
+description-es.UTF-8: Adjunta un archivo comprimido de los datos gcov si están presentes.
+description-fi.UTF-8: Liittää arkiston gcov-tiedoista, jos sellaisia löytyy.
+description-it.UTF-8: Allega un archivio tar di dati gcov, se presenti.
+description-ms.UTF-8: Lampir tarball bagi data gcov jika hadir.
+description-nl.UTF-8: Voegt een tarball van gcov data toe, indien aanwezig.
+description-pt_BR.UTF-8: Anexar um tarball de dados gcov, se estiverem presentes.
+description-ro.UTF-8: Atașează o arhivă a datelor gcov, dacă sunt prezente.
+description-ru.UTF-8: Добавляет архив tarball данных gcov, если они существуют.
+description-sl.UTF-8: Priloži paket tar podatkov gcov, če so prisotni.
+description-tr.UTF-8: Varsa gcov verilerinin bir tar arşivini (tarball) ekler
+description-ug.UTF-8: ئەگەر بار بولسا gcov سانلىق-مەلۇماتىنىڭ tarball نى قاتىدۇ.
+
+name: lsmod_attachment
+plugin: attachment
+command: lsmod
+description: Attaches a list of the currently running kernel modules.
+description-ast.UTF-8: Axunta una llista de los módulos del nucleu que ta anguaño n'execución.
+description-cs.UTF-8: Připojí seznam aktuálně běžících jaderných modulů
+description-de.UTF-8: Fügt eine Liste der momentan ausgeführten Kernelmodule hinzu.
+description-el.utf-8: Επισύναψη μίας λίστας των εκτελούμενων τη δεδομένη στιγμή αρθρωμάτων του πυρήνα.
+description-en_AU.UTF-8: Attaches a list of the currently running kernel modules.
+description-en_GB.UTF-8: Attaches a list of the currently running kernel modules.
+description-es.UTF-8: Adjunta una lista de los módulos del núcleo actualmente en ejecución.
+description-fi.UTF-8: Liittää listan käytössä olevista ytimen moduuleista.
+description-it.UTF-8: Allega un elenco dei moduli del kernel attualmente in esecuzione.
+description-ms.UTF-8: Lampir senarai modul kernel yang kini dijalankan.
+description-nl.UTF-8: Voegt een lijst van de huidige actieve kernelmodules.
+description-pt_BR.UTF-8: Anexar uma lista dos módulos do kernel executados atualmente.
+description-ro.UTF-8: Atașează o listă a modulelor de kernel utilizate.
+description-ru.UTF-8: Добавляет список выполняемых в данный момент модулей ядра.
+description-sl.UTF-8: Priloži seznam trenutno zagnanih jedrnih modulov.
+description-tr.UTF-8: Şu an çalışan çekirdek modüllerinin bir listesini ekler
+description-ug.UTF-8: نۆۋەتتە ئىجرا بولۇۋاتقان يادرو بۆلەكلىرىنىڭ(modules) تىزىمىنى قاتىدۇ.
+
+plugin: shell
+name: info/screenshot
+requires:
+ package.name == 'xorg'
+ package.name == 'imagemagick'
+command: import -window root ${CHECKBOX_DATA}/screenshot.png
+description: Captures a screenshot.
+
+plugin: attachment
+name: screenshot.png
+depends: info/screenshot
+command: cat ${CHECKBOX_DATA}/screenshot.png
+description: Attaches the screenshot captured in info/screenshot.
+
+plugin: attachment
+name: fwts_log
+depends: miscellanea/fwts_test
+description: Gather log from the Firmware Test Suite run.
+description-ast.UTF-8: Reunir un rexistru de la execución de la suite pa la prueba de Firmware
+description-cs.UTF-8: Sebraz záznam o běhu Firmware Test Suite.
+description-de.UTF-8: Sammelprotokoll des Firmware-Test-Suite-Durchlaufs.
+description-el.utf-8: Συγκέντρωση των καταγραφών από την εκτέλεση της σουίτας δοκιμών firmware.
+description-en_AU.UTF-8: Gather log from the Firmware Test Suite run.
+description-en_GB.UTF-8: Gather log from the Firmware Test Suite run.
+description-es.UTF-8: Reunir un registro de la ejecución de la suite para la prueba de Firmware
+description-fi.UTF-8: Kerää loki Firmware Test Suiten ajosta.
+description-it.UTF-8: Raccoglie il registro relativo all'esecuzione della suite di test del Firmware.
+description-ms.UTF-8: Himpun log dari perjalanan Suit Ujian Perisian Tegar
+description-nl.UTF-8: Loggegevens van de ‘Firmware Test Suite’ verzamelen.
+description-pt_BR.UTF-8: Coletar o registro da execução da suíte de testes de firmware.
+description-ro.UTF-8: Adună date despre rularea suitei Firmware Test.
+description-ru.UTF-8: Журналировать выводы набора тестов встроенных программ.
+description-sl.UTF-8: Zbere dnevnik poganjanja zbirke preizkusov strojne programske opreme.
+description-tr.UTF-8: Aygıt Yazılımı Sınama Paketi çalışmalarından günlük kaydı toplayın
+description-ug.UTF-8: Firmware Test Suite نىڭ ئىجرا خاتىرىلىرىنى يىغىدۇ.
+command:
+ cat $CHECKBOX_DATA/fwts_results.log
+
+plugin: attachment
+name: acpi_sleep_attachment
+command: [ -e /proc/acpi/sleep ] && cat /proc/acpi/sleep
+description: Attaches the contents of /proc/acpi/sleep if it exists.
+description-ast.UTF-8: Axunta'l conteníu de /proc/acpi/sleep si existe.
+description-cs.UTF-8: Existuje-li, připojí obsah /proc/acpi/sleep
+description-de.UTF-8: Fügt die Inhalte von /proc/acpi/sleep hinzu, falls vorhanden.
+description-el.utf-8: Επισύναψη του περιεχόμενου του αρχείου /proc/acpi/sleep αν υπάρχει.
+description-en_AU.UTF-8: Attaches the contents of /proc/acpi/sleep if it exists.
+description-en_GB.UTF-8: Attaches the contents of /proc/acpi/sleep if it exists.
+description-es.UTF-8: Adjunta el contenido de /proc/acpi/sleep si existe.
+description-fi.UTF-8: Liittää /proc/acpi/sleep -tiedoston sisällön, jos kyseinen tiedosto löytyy.
+description-it.UTF-8: Allega il contenuto di /proc/acpi/sleep, se presente.
+description-ms.UTF-8: Lampir kandungan bagi /proc/acpi/sleep jika ia wujud.
+description-nl.UTF-8: Voegt de inhoud van /proc/acpi/sleep toe, als het bestaat.
+description-pt_BR.UTF-8: Anexar o conteúdo de /proc/acpi/sleep se este existir.
+description-ro.UTF-8: Atașează conținutul fișierului /proc/acpi/sleep, dacă există.
+description-ru.UTF-8: Добавляет содержимое /proc/acpi/sleep, если оно есть.
+description-sl.UTF-8: Pripne vsebino /proc/acpi/sleep, če obstaja.
+description-tr.UTF-8: Varsa /proc/acpi/sleep'in içeriğini ekler
+description-ug.UTF-8: ئەگەر /proc/acpi/sleep مەۋجۇت بولسا ئۇنىڭ مەزمۇنىنى قاتىدۇ.
+
+plugin: local
+name: info/bootchart
+description: Bootchart information.
+description-ast.UTF-8: Información de la tabla d'arranque.
+description-be.UTF-8: Інфармацыя Bootchart.
+description-bs.UTF-8: Informacije o dijagramu podizanja.
+description-ca.UTF-8: Informació del gràfic de procesos d'arrencada.
+description-cs.UTF-8: Informace z bootchartu
+description-da.UTF-8: Bootchart-information.
+description-de.UTF-8: Bootchart-Informationen.
+description-el.utf-8: Πληροφορίες Bootchart.
+description-en_AU.UTF-8: Bootchart information.
+description-en_GB.UTF-8: Bootchart information.
+description-es.UTF-8: Información de la tabla de arranque.
+description-fi.UTF-8: Bootchart-tiedot
+description-fr.UTF-8: Informations Bootchart.
+description-gl.UTF-8: Información da táboa de arrinque.
+description-hu.UTF-8: Bootchart információk.
+description-it.UTF-8: Informazioni di bootchart.
+description-lv.UTF-8: Informācija par Bootchart.
+description-ms.UTF-8: Maklumat Bootchart.
+description-nl.UTF-8: Bootchart-informatie.
+description-oc.UTF-8: Informacions Bootchart.
+description-pt_BR.UTF-8: Informação do Bootchart.
+description-ro.UTF-8: Informații bootchart.
+description-ru.UTF-8: Сведения Bootchart.
+description-sl.UTF-8: Podrobnosti o grafu zagona.
+description-sq.UTF-8: Informacioni i ndezjes.
+description-sv.UTF-8: Bootchart-information.
+description-tr.UTF-8: Önyükleme çizgesi bilgisi
+description-ug.UTF-8: Bootchart ئۇچۇرى.
+description-zh_TW.UTF-8: Bootchart 資訊
+requires: package.name == 'bootchart' or package.name == 'pybootchartgui'
+user: root
+command:
+ process_wait -u root bootchart collector ureadahead; \
+ [ `ls /var/log/bootchart/*.tgz 2>/dev/null | wc -l` -lt 2 ] && reboot && sleep 100
+
+plugin: local
+name: info/hdparm
+description: SATA/IDE device information.
+description-ast.UTF-8: Información de preseos SATA/IDE.
+description-be.UTF-8: Інфармацыя аб прыладах SATA / IDE.
+description-bs.UTF-8: Informacija o SATA/IDE uređaju.
+description-ca.UTF-8: Informació del dispositiu SATA/IDE.
+description-cs.UTF-8: Informace o zařízení na SATA/IDE
+description-da.UTF-8: SATA/IDE-enhedsinformation.
+description-de.UTF-8: SATA/IDE-Geräteinformationen.
+description-el.utf-8: Πληροφορίες συσκευών SATA/IDE
+description-en_AU.UTF-8: SATA/IDE device information.
+description-en_GB.UTF-8: SATA/IDE device information.
+description-es.UTF-8: Información de dispositivos SATA/IDE.
+description-fi.UTF-8: SATA-/IDE-laitteen tiedot.
+description-fr.UTF-8: Informations sur le périphérique SATA/IDE.
+description-gl.UTF-8: Información de dispositivos SATA/IDE.
+description-hu.UTF-8: SATA/IDE eszközadatok.
+description-it.UTF-8: Informazioni sui dispositivi SATA/IDE.
+description-ja.UTF-8: SATA/IDEデバイスの情報
+description-lv.UTF-8: Informācija par SATA/IDE ierīcēm.
+description-ms.UTF-8: Maklumat peranti SATA/IDE
+description-nl.UTF-8: SATA/IDE-informatie.
+description-oc.UTF-8: Informacions sul periferic SATA/IDE.
+description-pt_BR.UTF-8: Informações de dispositivo SATA/IDE.
+description-ro.UTF-8: Informații despre dispozitive SATA/IDE.
+description-ru.UTF-8: Сведения о устройствах SATA/IDE.
+description-sl.UTF-8: Podatki o napravi SATA/IDE.
+description-sq.UTF-8: Informacion i pajisjeve SATA/IDE.
+description-sr.UTF-8: Подаци о САТА/ИДЕ уређају.
+description-sv.UTF-8: Information om SATA/IDE-enheter.
+description-tr.UTF-8: SATA/IDE aygıt bilgisi.
+description-ug.UTF-8: SATA/IDE  ئۈسكۈنىسى ئۇچۇرى.
+description-uk.UTF-8: SATA/IDE інформація пристроїв.
+description-zh_HK.UTF-8: SATA/ IDE設備的信息。
+description-zh_TW.UTF-8: SATA/IDE 裝置資訊
+requires:
+ package.name == 'hdparm'
+ device.category == 'DISK'
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+ plugin: attachment
+ name: info/hdparm_`ls /sys$path/block`.txt
+ requires: device.path == "$path"
+ user: root
+ command: hdparm -I /dev/`ls /sys$path/block`
+ EOF
+
+plugin: attachment
+name: bootchart.png
+depends: info/bootchart
+requires: (package.name == 'bootchart' and float(lsb.release) < 9.04) or package.name == 'pybootchartgui'
+description: Attaches the bootchart png file for bootchart runs
+description-ast.UTF-8: Axunta'l ficheru bootchart.png a les execuciones de bootchart
+description-cs.UTF-8: Připojí graf bootu (bootchart) v obrázku png.
+description-de.UTF-8: Fügt die Datei bootchart.png für Bootchart-Läufe hinzu
+description-el.utf-8: Επισύναψη του αρχείου bootchart png για εκτελέσεις του προγράμματος bootchart
+description-en_AU.UTF-8: Attaches the bootchart png file for bootchart runs
+description-en_GB.UTF-8: Attaches the bootchart png file for bootchart runs
+description-es.UTF-8: Adjunta el archivo bootchart.png a las ejecuciones de bootchart
+description-fi.UTF-8: Liittää käynnistyksen kartoituskaavion.
+description-it.UTF-8: Allega il file png creato dall'esecuzione di bootchart.
+description-ms.UTF-8: Lampir fail png bootchart untuk perjalanan bootchart
+description-nl.UTF-8: Voegt het bootchart png-bestand toe
+description-pt_BR.UTF-8: Anexar o arquivo png do bootchart para execução de análises e visualizações
+description-ro.UTF-8: Atașează un fișier png care surprinde rularea bootchart
+description-ru.UTF-8: Добавляет файл bootchart png для запуска bootchart
+description-sl.UTF-8: Pripne datoteko png zagonskega grafa za poganjanje bootchart
+description-tr.UTF-8: Önyükleme çizgesi çalışmaları için önyükleme çizgesi png dosyasını ekler
+command:
+ file=`ls /var/log/bootchart/*.png 2>/dev/null | tail -1`; \
+ [ -e "$file" ] && cat "$file"
+
+plugin: attachment
+name: bootchart.tgz
+depends: info/bootchart
+requires: package.name == 'bootchart' and float(lsb.release) >= 9.04
+description: Attaches the bootchart log for bootchart test runs.
+description-ast.UTF-8: Axunta'l rexistru de bootchart a les execuciones de prueba de bootchart.
+description-cs.UTF-8: Připojí log bootchart pro testovací spouštění.
+description-de.UTF-8: Fügt das Bootchart-Protokoll für Bootchart Testläufe hinzu.
+description-el.utf-8: Επισύναψη των καταγραφών bootchart για δοκιμαστικές εκτελέσεις του προγράμματος bootchart
+description-en_AU.UTF-8: Attaches the bootchart log for bootchart test runs.
+description-en_GB.UTF-8: Attaches the bootchart log for bootchart test runs.
+description-es.UTF-8: Adjunta el registro de bootchart a las ejecuciones de prueba de bootchart.
+description-fi.UTF-8: Liittää käynnistyksen kartoituslokin.
+description-it.UTF-8: Allega il registro creato dalle esecuzioni di bootchart.
+description-ms.UTF-8: Lampir log bootchart untuk perjalanan ujian bootchart
+description-nl.UTF-8: Voegt het bootchart-logbestand toe.
+description-pt_BR.UTF-8: Anexar o registro do bootchart para execução de testes bootchart.
+description-ro.UTF-8: Atașează jurnalul bootchart pentru testul propriu.
+description-ru.UTF-8: Добавление журнала bootchart при запуске теста bootchart.
+description-sl.UTF-8: Pripne dnevnik zagonskega grafa za poganjanje bootchart.
+description-tr.UTF-8: Önyükleme çizgesi sınama çalışmaları için önyükleme çizgesi kayıt günlüğünü ekler.
+command:
+ file=`ls /var/log/bootchart/*.tgz 2>/dev/null | tail -1`; \
+ [ -e "$file" ] && cat "$file"
+
+plugin: attachment
+name: installer_bootchart.tgz
+command: [ -e /var/log/installer/bootchart.tgz ] && cat /var/log/installer/bootchart.tgz
+description: installs the installer bootchart tarball if it exists.
+description-ast.UTF-8: instala l'instalador tarball bootchart si ye qu'esiste
+description-cs.UTF-8: Existuje-li, nainstaluje bootchart
+description-de.UTF-8: Installiert das Installationsprogramm-Bootchart-Tar-Archiv, falls vorhanden.
+description-el.utf-8: εγκαθιστά τον οδηγό εγκατάστασης του συμπιεσμένου αρχείου bootchart αν υπάρχει.
+description-en_AU.UTF-8: installs the installer bootchart tarball if it exists.
+description-en_GB.UTF-8: installs the installer bootchart tarball if it exists.
+description-es.UTF-8: instala el instalador de la tabla de arranque en un archivo comprimido sí existe.
+description-it.UTF-8: Allega l'archivio tar dell'installatore di bootchart, se presente.
+description-ms.UTF-8: pasang tarball pemasang bootchart jika ia wujud.
+description-nl.UTF-8: Installeert de installer bootchart tarball als deze bestaat.
+description-pt_BR.UTF-8: instalar o tarball instalador do bootchart, se este existir.
+description-ro.UTF-8: Instalează arhiva cu utilitarul de instalare bootchart dacă există.
+description-ru.UTF-8: устанавливает инсталлятор bootchart tarball если он существует.
+description-sl.UTF-8: namesti paket tar namestilnika bootchar, če obstaja.
+description-tr.UTF-8: Varsa kurucu önyükleme çizgesi arşivini kurar.
+description-ug.UTF-8: ئەگەر ئورناتقۇنىڭ bootchart tarball مەۋجۇت بولسا ئورنىتىدۇ.
+
+plugin: attachment
+name: installer_debug.gz
+command: [ -e /var/log/installer/debug ] && gzip -9 -c /var/log/installer/debug
+description: Attaches the installer debug log if it exists.
+description-ast.UTF-8: Axunta'l rexistru de depuración del instalador si existe.
+description-cs.UTF-8: Existuje-li, připojí ladicí záznam instalátoru
+description-de.UTF-8: Fügt das Fehlerdiagnoseprotokoll des Installationsprogramms hinzu, falls vorhanden.
+description-el.utf-8: Επισύναψη της καταγραφής αποσφαλμάτωσης του εγκαταστάτη αν υπάρχει.
+description-en_AU.UTF-8: Attaches the installer debug log if it exists.
+description-en_GB.UTF-8: Attaches the installer debug log if it exists.
+description-es.UTF-8: Adjunta el registro de depuración del instalador si existe.
+description-it.UTF-8: Allega il registro di debug dell'installatore, se presente.
+description-ms.UTF-8: Lampir log pemasang nyahpepijat jika ia wujud.
+description-nl.UTF-8: Voegt het installer-debuglog toe, als deze bestaat.
+description-pt_BR.UTF-8: Anexar o registro de depuração do instalador, se este existir.
+description-ro.UTF-8: Atașează jurnalul de depanare al utilitarului de instalare, dacă există.
+description-ru.UTF-8: Прикрепляет отладочную информацию программы установки, если такая существует.
+description-sl.UTF-8: Pripne dnevnik razhroščevalnika namestilnika, če obstaja.
+description-tr.UTF-8: Varsa yükleyici hata ayıklama kaydını ekler.
+description-ug.UTF-8: ئەگەر ئورناتقۇنىڭ ئورنىتىش خاتىرىسى مەۋجۇت بولسا ئۇنى قاتىدۇ.

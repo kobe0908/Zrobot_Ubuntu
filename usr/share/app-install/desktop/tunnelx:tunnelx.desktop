@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tunnelx
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Tunnel Cave Drawing Software
+GenericName=Cave Drawing Tool
+Comment=Draw cave surveys
+Type=Application
+Exec=tunnelx
+Icon=tunnelx
+Categories=Education;Geology;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

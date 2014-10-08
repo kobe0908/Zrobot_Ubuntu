@@ -1,0 +1,141 @@
+plugin: shell
+name: services/open_ssh_test
+requires: package.name == 'ssh'
+command: pgrep sshd >/dev/null || (echo 'FAIL: sshd is not running.' 2>&1 && false)
+description: Verifies that sshd is running.
+description-ast.UTF-8: Verifica que sshd ta executándose
+description-cs.UTF-8: Ověří, že běží sshd.
+description-de.UTF-8: Stellt sicher, dass sshd ausgeführt wird.
+description-el.utf-8: Επαληθεύει τη λειτουργία του sshd.
+description-en_AU.UTF-8: Verifies that sshd is running.
+description-en_GB.UTF-8: Verifies that sshd is running.
+description-es.UTF-8: Verifica que sshd se está ejecutando
+description-fi.UTF-8: Tarkistaa, että sshd on käynnissä.
+description-it.UTF-8: Verifica che sshd sia in esecuzione.
+description-ms.UTF-8: Sahkan sama ada sshd dijalankan
+description-nl.UTF-8: Test of het sshd actief is.
+description-pt_BR.UTF-8: Verifica se o sshd está em execução.
+description-ro.UTF-8: Se verifică dacă sshd rulează.
+description-ru.UTF-8: Проверяет доступность службы sshd.
+description-sl.UTF-8: Preveri, da se sshd izvaja.
+description-tr.UTF-8: sshd'nin çalıştığını doğrular.
+description-ug.UTF-8: سىستېمىدا sshd ئىجرا بولۇۋاتامدۇ تەكشۈرىدۇ.
+
+plugin: shell
+name: services/print_server_test
+requires: package.name == 'cups'
+command: pgrep cupsd >/dev/null || (echo 'FAIL: cupsd is not running.' 2>&1 && false)
+description: Verifies that Print/CUPs server is running.
+description-ast.UTF-8: Verifica que'l sirvidor Print/CUPs ta executándose
+description-cs.UTF-8: Ověří, že běží Tiskový/CUPs server.
+description-de.UTF-8: Stellt sicher, dass der Drucker/CUPS-Server ausgeführt wird.
+description-el.utf-8: Επαληθεύει τη λειτουργία του εξυπηρετητή Print/CUPs.
+description-en_AU.UTF-8: Verifies that Print/CUPs server is running.
+description-en_GB.UTF-8: Verifies that Print/CUPs server is running.
+description-es.UTF-8: Verifica que el servidor Print/CUPs se está ejecutando
+description-fi.UTF-8: Tarkistaa, että tulostus/CUPS-palvelu on käynnissä.
+description-it.UTF-8: Verifica che il server di stampa/CUPS sia in esecuzione.
+description-ms.UTF-8: Sahkan sama ada pelayan Cetak/CUPs dijalankan.
+description-nl.UTF-8: Test of de Print/CUPs-server actief is.
+description-pt_BR.UTF-8: Verifica se o servidor de impressão/CUPs está em execução
+description-ro.UTF-8: Se verifică dacă serviciul de tipărire CUPS rulează.
+description-ru.UTF-8: Проверяет, запущен ли сервер Печати/CUPs.
+description-sl.UTF-8: Preveri, da se strežnik Print/CUPs izvaja.
+description-tr.UTF-8: Print/CUPs sunucusunun çalıştığını doğrular.
+description-ug.UTF-8: سىستېمىدا بېسىش/CUP مۇلازىمېتىرى ئىجرا بولۇۋاتامدۇ تەكشۈرىدۇ.
+
+plugin: shell
+name: services/dns_server_test
+requires: package.name == 'bind9' and package.name == 'dnsutils'
+user: root
+command: dns_server_test
+description: Verifies that DNS server is running and working.
+description-ast.UTF-8: Verifica que'l sirvidor DNS ta executándose y trabayando.
+description-cs.UTF-8: Ověří, že běží a funguje DNS server.
+description-de.UTF-8: Stellt sicher, dass der DNS-Server ausgeführt wird und arbeitet.
+description-el.utf-8: Επαλήθευση της εκτέλεσης και της λειτουργίας του εξυπηρετητή DNS.
+description-en_AU.UTF-8: Verifies that DNS server is running and working.
+description-en_GB.UTF-8: Verifies that DNS server is running and working.
+description-es.UTF-8: Verifica que el servidor DNS se está ejecutando y trabajando.
+description-fi.UTF-8: Tarkistaa, että DNS-serveri on käynnissä ja toimii oikein.
+description-it.UTF-8: Verifica che il server DNS sia in esecuzione e funzioni.
+description-ms.UTF-8: Sahkan sama ada pelayan DNS dijalankan dan berfungsi.
+description-nl.UTF-8: Controleert of de DNS-server wordt uitgevoerd en werkt.
+description-pt_BR.UTF-8: Verifica se o servidor DNS está em execução e funcionando.
+description-ro.UTF-8: Se verifică dacă serverul DNS rulează și funcționează corect.
+description-ru.UTF-8: Проверяет, запущен и работоспособен ли сервер DNS.
+description-sl.UTF-8: Preveri, da se strežnik DNS izvaja in da deluje.
+description-tr.UTF-8: DNS sunucusunun çalışmakta olduğunu doğrular.
+description-ug.UTF-8: سىستېمىدا DNS مۇلازىمېتىرى ئىجرا بولۇۋاتامدۇ ۋە ئىشلەۋاتامدۇ تەكشۈرىدۇ.
+
+plugin: shell
+name: services/samba_test
+requires: package.name == 'samba' and package.name == 'winbind'
+user: root
+command: samba_test
+description: Verifies that Samba server is running.
+description-ast.UTF-8: Verifica que'l sirvidor Samba ta executándose
+description-cs.UTF-8: Ověři, že běží Samba server.
+description-de.UTF-8: Stellt sicher, dass der Samba-Server ausgeführt wird.
+description-el.utf-8: Επαλήθευση της λειτουργίας του εξυπηρετητή Samba.
+description-en_AU.UTF-8: Verifies that Samba server is running.
+description-en_GB.UTF-8: Verifies that Samba server is running.
+description-es.UTF-8: Verifica que el servidor Samba se está ejecutando.
+description-fi.UTF-8: Tarkistaa, että samba-serveri on käynnissä.
+description-it.UTF-8: Verifica che il server Samba sia in esecuzione.
+description-ms.UTF-8: Sahkan pelayan Samba berjalan.
+description-nl.UTF-8: Test of de Samba-server actief is.
+description-pt_BR.UTF-8: Verifica se o servidor Samba está em execução.
+description-ro.UTF-8: Se verifică dacă serviciul Samba rulează.
+description-ru.UTF-8: Проверяет, запущен ли сервер Samba.
+description-sl.UTF-8: Preveri, da se strežnik Samba izvaja.
+description-tr.UTF-8: Samba sunucusunun çalışmakta olduğunu doğrular
+description-ug.UTF-8: سىستېمىدا Samba مۇلازىمېتىرى ئىجرا بولۇۋاتامدۇ ۋە ئىشلەۋاتامدۇ تەكشۈرىدۇ.
+
+plugin: shell
+name: services/lamp_test
+requires: package.name == 'apache2' and package.name == 'php5-mysql' and package.name == 'libapache2-mod-php5' and package.name == 'mysql-server'
+user: root
+command: lamp_test
+description: Verifies that the LAMP stack is running (Apache, MySQL and PHP).
+description-ast.UTF-8: Verifica que la pila LAMP ta executándose (Apache, MySQL y PHP).
+description-cs.UTF-8: Ověří, že běží LAMP (Apache, MySQL a PHP).
+description-de.UTF-8: Stellt sicher, dass der LAMP-Stack ausgeführt wird (Apache, MySQL und PHP).
+description-el.utf-8: Επαλήθευση της λειτουργίας της «στοίβας» LAMP (Apache, MySQL και PHP).
+description-en_AU.UTF-8: Verifies that the LAMP stack is running (Apache, MySQL and PHP).
+description-en_GB.UTF-8: Verifies that the LAMP stack is running (Apache, MySQL and PHP).
+description-es.UTF-8: Verifica que la pila LAMP está corriendo (Apache, MySQL y PHP).
+description-fi.UTF-8: Tarkistaa, että LAMP-ohjelmistot ovat käynnissä (Apache, MySQL ja PHP).
+description-it.UTF-8: Verifica che lo stack LAMP sia in esecuzione (Apache, MySQL e PHP).
+description-ms.UTF-8: Sahkan tindanan LAMP berjalan (Apache, MySQL dan PHP).
+description-nl.UTF-8: Controleert of de LAMP-stapel (Apache, MySQL en PHP) wordt uitgevoerd.
+description-pt_BR.UTF-8: Verifica se a pilha LAMP está em execução (Apache, MySQL e PHP).
+description-ro.UTF-8: Se verifică dacă stiva LAMP (Apache, MySQL și PHP) rulează.
+description-ru.UTF-8: Проверка работоспособности стека LAMP (Apache, MySQL, и PHP).
+description-sl.UTF-8: Preveri da se sklad LAMP izvaja (Apache, MySQL in PHP).
+description-tr.UTF-8: LAMP yığınının çalışmakta olduğunu doğrular (Apache, MySQL ve PHP).
+description-ug.UTF-8: سىستېمىدا LAMP توپى(Apache، MySQL ۋە PHP) بولۇۋاتامدۇ تەكشۈرىدۇ.
+
+plugin: shell
+name: services/tomcat_test
+requires: package.name == 'tomcat6'
+user: root
+command: tomcat_test
+description: Verifies that Tomcat server is running and working.
+description-ast.UTF-8: Verifica que'l sirvidor Tomcat ta executándose y trabayando.
+description-cs.UTF-8: Ověří, že běží a funguje server Tomcat
+description-de.UTF-8: Stellt sicher, dass der Tomcat-Server ausgeführt wird und arbeitet.
+description-el.utf-8: Επαλήθευση για το ότι ο εξυπηρετητής Tomcat εκτελείται και λειτουργεί.
+description-en_AU.UTF-8: Verifies that Tomcat server is running and working.
+description-en_GB.UTF-8: Verifies that Tomcat server is running and working.
+description-es.UTF-8: Verifica que el servidor Tomcat se está ejecutando y trabajando.
+description-fi.UTF-8: Tarkistaa, että Tomcat-server on käynnissä ja toimii oikein.
+description-it.UTF-8: Verifica che il server Tomcat sia in esecuzione e funzioni.
+description-ms.UTF-8: Sahkan pelayan Tomcat berjalan dan berfungsi.
+description-nl.UTF-8: Controleert of de Tomcat server wordt uitgevoerd en werkt.
+description-pt_BR.UTF-8: Verifica se o servidor Tomcat está em execução e funcionando.
+description-ro.UTF-8: Se verifică dacă serviciul Tomcat rulează și funcționează corect.
+description-ru.UTF-8: Проверяет, работает и работоспособен ли сервер Tomcat.
+description-sl.UTF-8: Preveri, da se strežnik Tomact izvaja in deluje.
+description-tr.UTF-8: Tomcat sunucusunun çalışmakta olduğunu doğrular.
+description-ug.UTF-8: سىستېمىدا Tomcat مۇلازىمېتىرى ئىجرا بولۇۋاتامدۇ ۋە ئىشلەۋاتامدۇ تەكشۈرىدۇ.

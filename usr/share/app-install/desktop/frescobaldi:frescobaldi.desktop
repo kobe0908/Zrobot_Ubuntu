@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=frescobaldi
+X-AppInstall-Popcon=133
+X-AppInstall-Section=universe
+
+GenericName=LilyPond Music Editor
+Name=Frescobaldi
+MimeType=text/x-lilypond;
+Exec=frescobaldi %F
+X-KDE-StartupNotify=true
+Icon=frescobaldi
+Type=Application
+Terminal=false
+InitialPreference=8
+Categories=Qt;AudioVideo;Music;Utility;TextEditor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

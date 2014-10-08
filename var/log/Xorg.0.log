@@ -1,0 +1,486 @@
+[    58.627] 
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+[    58.628] X Protocol Version 11, Revision 0
+[    58.628] Build Operating System: Linux 2.6.38-1209-omap4 armv7l Linaro
+[    58.628] Current Operating System: Linux linaro-ubuntu-desktop 3.6.0-digilent-13.01-g06b3889 #4 SMP PREEMPT Tue Sep 23 20:32:21 CST 2014 armv7l
+[    58.628] Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1 coherent_pool=1M
+[    58.629] Build Date: 26 August 2012  05:44:54AM
+[    58.629] xorg-server 2:1.11.4-0ubuntu10.7+ti2.0 (For technical support please see http://www.ubuntu.com/support) 
+[    58.629] Current version of pixman: 0.24.4
+[    58.629] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    58.629] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    58.630] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Jan  1 00:00:58 1970
+[    58.643] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    58.655] (==) No Layout section.  Using the first Screen section.
+[    58.655] (==) No screen section available. Using defaults.
+[    58.655] (**) |-->Screen "Default Screen Section" (0)
+[    58.655] (**) |   |-->Monitor "<default monitor>"
+[    58.657] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    58.657] (==) Automatically adding devices
+[    58.657] (==) Automatically enabling devices
+[    58.677] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    58.677] 	Entry deleted from font path.
+[    58.677] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    58.677] 	Entry deleted from font path.
+[    58.677] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    58.677] 	Entry deleted from font path.
+[    58.679] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    58.679] 	Entry deleted from font path.
+[    58.679] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    58.679] 	Entry deleted from font path.
+[    58.680] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[    58.680] 	Entry deleted from font path.
+[    58.680] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    58.680] (==) ModulePath set to "/usr/lib/arm-linux-gnueabihf/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[    58.680] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    58.680] (II) Loader magic: 0xb6f22d00
+[    58.680] (II) Module ABI versions:
+[    58.680] 	X.Org ANSI C Emulation: 0.4
+[    58.680] 	X.Org Video Driver: 11.0
+[    58.681] 	X.Org XInput driver : 16.0
+[    58.681] 	X.Org Server Extension : 6.0
+[    58.681] (II) LoadModule: "extmod"
+[    58.698] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[    58.704] (II) Module extmod: vendor="X.Org Foundation"
+[    58.704] 	compiled for 1.11.3, module version = 1.0.0
+[    58.705] 	Module class: X.Org Server Extension
+[    58.705] 	ABI class: X.Org Server Extension, version 6.0
+[    58.705] (II) Loading extension MIT-SCREEN-SAVER
+[    58.705] (II) Loading extension XFree86-VidModeExtension
+[    58.705] (II) Loading extension XFree86-DGA
+[    58.705] (II) Loading extension DPMS
+[    58.705] (II) Loading extension XVideo
+[    58.705] (II) Loading extension XVideo-MotionCompensation
+[    58.705] (II) Loading extension X-Resource
+[    58.705] (II) LoadModule: "dbe"
+[    58.707] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[    58.709] (II) Module dbe: vendor="X.Org Foundation"
+[    58.709] 	compiled for 1.11.3, module version = 1.0.0
+[    58.709] 	Module class: X.Org Server Extension
+[    58.709] 	ABI class: X.Org Server Extension, version 6.0
+[    58.709] (II) Loading extension DOUBLE-BUFFER
+[    58.709] (II) LoadModule: "glx"
+[    58.711] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    58.724] (II) Module glx: vendor="X.Org Foundation"
+[    58.724] 	compiled for 1.11.3, module version = 1.0.0
+[    58.724] 	ABI class: X.Org Server Extension, version 6.0
+[    58.725] (==) AIGLX enabled
+[    58.725] (II) Loading extension GLX
+[    58.725] (II) LoadModule: "record"
+[    58.727] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[    58.729] (II) Module record: vendor="X.Org Foundation"
+[    58.729] 	compiled for 1.11.3, module version = 1.13.0
+[    58.729] 	Module class: X.Org Server Extension
+[    58.729] 	ABI class: X.Org Server Extension, version 6.0
+[    58.729] (II) Loading extension RECORD
+[    58.730] (II) LoadModule: "dri"
+[    58.731] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[    58.735] (II) Module dri: vendor="X.Org Foundation"
+[    58.735] 	compiled for 1.11.3, module version = 1.0.0
+[    58.735] 	ABI class: X.Org Server Extension, version 6.0
+[    58.735] (II) Loading extension XFree86-DRI
+[    58.735] (II) LoadModule: "dri2"
+[    58.737] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[    58.739] (II) Module dri2: vendor="X.Org Foundation"
+[    58.739] 	compiled for 1.11.3, module version = 1.2.0
+[    58.739] 	ABI class: X.Org Server Extension, version 6.0
+[    58.740] (II) Loading extension DRI2
+[    58.740] (==) Matched fbdev as autoconfigured driver 0
+[    58.740] (==) Assigned the driver to the xf86ConfigLayout
+[    58.740] (II) LoadModule: "fbdev"
+[    58.743] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    58.745] (II) Module fbdev: vendor="X.Org Foundation"
+[    58.745] 	compiled for 1.11.3, module version = 0.4.2
+[    58.745] 	ABI class: X.Org Video Driver, version 11.0
+[    58.746] (II) FBDEV: driver for framebuffer: fbdev
+[    58.746] (++) using VT number 7
+
+[    58.764] (WW) Falling back to old probe method for fbdev
+[    58.764] (II) Loading sub module "fbdevhw"
+[    58.765] (II) LoadModule: "fbdevhw"
+[    58.766] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    58.768] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    58.768] 	compiled for 1.11.3, module version = 0.0.2
+[    58.768] 	ABI class: X.Org Video Driver, version 11.0
+[    58.768] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    58.769] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    58.769] (II) FBDEV(0): using default device
+[    58.769] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    58.769] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    58.769] (==) FBDEV(0): Depth 24, (==) framebuffer bpp 32
+[    58.770] (==) FBDEV(0): RGB weight 888
+[    58.770] (==) FBDEV(0): Default visual is TrueColor
+[    58.773] (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[    58.774] (II) FBDEV(0): hardware:  (video memory: 3072kB)
+[    58.774] (II) FBDEV(0): checking modes against framebuffer device...
+[    58.774] (II) FBDEV(0): checking modes against monitor...
+[    58.774] (--) FBDEV(0): Virtual size is 1024x768 (pitch 1024)
+[    58.774] (**) FBDEV(0):  Built-in mode "current"
+[    58.774] (==) FBDEV(0): DPI set to (96, 96)
+[    58.774] (II) Loading sub module "fb"
+[    58.774] (II) LoadModule: "fb"
+[    58.777] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    58.784] (II) Module fb: vendor="X.Org Foundation"
+[    58.784] 	compiled for 1.11.3, module version = 1.0.0
+[    58.784] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    58.784] (**) FBDEV(0): using shadow framebuffer
+[    58.784] (II) Loading sub module "shadow"
+[    58.784] (II) LoadModule: "shadow"
+[    58.786] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[    58.789] (II) Module shadow: vendor="X.Org Foundation"
+[    58.789] 	compiled for 1.11.3, module version = 1.1.0
+[    58.789] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    58.789] (==) Depth 24 pixmap format is 32 bpp
+[    59.795] (==) FBDEV(0): Backing store disabled
+[    59.796] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.796] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.796] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.797] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.798] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.799] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.800] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.801] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.802] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.803] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.804] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.805] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.806] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.807] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.808] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.809] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.810] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.810] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.810] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.810] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.811] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.811] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.811] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.812] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.812] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.812] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.814] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.815] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.815] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.815] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.816] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.816] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.816] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.816] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.817] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.817] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.817] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.817] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.817] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.818] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.819] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.820] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.821] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.822] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.823] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.824] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.825] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.826] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.827] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.828] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[    59.829] (==) FBDEV(0): DPMS enabled
+[    59.830] (==) RandR enabled
+[    59.830] (II) Initializing built-in extension Generic Event Extension
+[    59.830] (II) Initializing built-in extension SHAPE
+[    59.830] (II) Initializing built-in extension MIT-SHM
+[    59.830] (II) Initializing built-in extension XInputExtension
+[    59.830] (II) Initializing built-in extension XTEST
+[    59.830] (II) Initializing built-in extension BIG-REQUESTS
+[    59.830] (II) Initializing built-in extension SYNC
+[    59.831] (II) Initializing built-in extension XKEYBOARD
+[    59.831] (II) Initializing built-in extension XC-MISC
+[    59.831] (II) Initializing built-in extension SECURITY
+[    59.831] (II) Initializing built-in extension XINERAMA
+[    59.831] (II) Initializing built-in extension XFIXES
+[    59.831] (II) Initializing built-in extension RENDER
+[    59.831] (II) Initializing built-in extension RANDR
+[    59.831] (II) Initializing built-in extension COMPOSITE
+[    59.831] (II) Initializing built-in extension DAMAGE
+[    59.889] (II) AIGLX: Screen 0 is not DRI2 capable
+[    59.889] (II) AIGLX: Screen 0 is not DRI capable
+[    59.972] (II) AIGLX: Loaded and initialized swrast
+[    59.972] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    60.103] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[    60.126] (II) config/udev: Adding input device Dell Dell Multimedia Pro Keyboard (/dev/input/event1)
+[    60.126] (**) Dell Dell Multimedia Pro Keyboard: Applying InputClass "evdev keyboard catchall"
+[    60.126] (II) LoadModule: "evdev"
+[    60.129] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    60.135] (II) Module evdev: vendor="X.Org Foundation"
+[    60.135] 	compiled for 1.11.3, module version = 2.7.0
+[    60.135] 	Module class: X.Org XInput Driver
+[    60.135] 	ABI class: X.Org XInput driver, version 16.0
+[    60.135] (II) Using input driver 'evdev' for 'Dell Dell Multimedia Pro Keyboard'
+[    60.135] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    60.135] (**) Dell Dell Multimedia Pro Keyboard: always reports core events
+[    60.136] (**) evdev: Dell Dell Multimedia Pro Keyboard: Device: "/dev/input/event1"
+[    60.136] (--) evdev: Dell Dell Multimedia Pro Keyboard: Vendor 0x413c Product 0x2011
+[    60.136] (--) evdev: Dell Dell Multimedia Pro Keyboard: Found keys
+[    60.136] (II) evdev: Dell Dell Multimedia Pro Keyboard: Configuring as keyboard
+[    60.136] (**) Option "config_info" "udev:/sys/devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0/input/input1/event1"
+[    60.137] (II) XINPUT: Adding extended input device "Dell Dell Multimedia Pro Keyboard" (type: KEYBOARD, id 6)
+[    60.137] (**) Option "xkb_rules" "evdev"
+[    60.137] (**) Option "xkb_model" "pc105"
+[    60.137] (**) Option "xkb_layout" "us"
+[    60.142] (II) config/udev: Adding input device Dell Dell Multimedia Pro Keyboard (/dev/input/event2)
+[    60.142] (**) Dell Dell Multimedia Pro Keyboard: Applying InputClass "evdev keyboard catchall"
+[    60.142] (II) Using input driver 'evdev' for 'Dell Dell Multimedia Pro Keyboard'
+[    60.142] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    60.142] (**) Dell Dell Multimedia Pro Keyboard: always reports core events
+[    60.143] (**) evdev: Dell Dell Multimedia Pro Keyboard: Device: "/dev/input/event2"
+[    60.143] (--) evdev: Dell Dell Multimedia Pro Keyboard: Vendor 0x413c Product 0x2011
+[    60.143] (--) evdev: Dell Dell Multimedia Pro Keyboard: Found absolute axes
+[    60.143] (II) evdev: Dell Dell Multimedia Pro Keyboard: Forcing absolute x/y axes to exist.
+[    60.143] (--) evdev: Dell Dell Multimedia Pro Keyboard: Found keys
+[    60.143] (II) evdev: Dell Dell Multimedia Pro Keyboard: Configuring as mouse
+[    60.143] (II) evdev: Dell Dell Multimedia Pro Keyboard: Configuring as keyboard
+[    60.144] (**) Option "config_info" "udev:/sys/devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.1/input/input2/event2"
+[    60.144] (II) XINPUT: Adding extended input device "Dell Dell Multimedia Pro Keyboard" (type: KEYBOARD, id 7)
+[    60.144] (**) Option "xkb_rules" "evdev"
+[    60.144] (**) Option "xkb_model" "pc105"
+[    60.144] (**) Option "xkb_layout" "us"
+[    60.146] (II) evdev: Dell Dell Multimedia Pro Keyboard: initialized for absolute axes.
+[    60.146] (**) Dell Dell Multimedia Pro Keyboard: (accel) keeping acceleration scheme 1
+[    60.146] (**) Dell Dell Multimedia Pro Keyboard: (accel) acceleration profile 0
+[    60.146] (**) Dell Dell Multimedia Pro Keyboard: (accel) acceleration factor: 2.000
+[    60.147] (**) Dell Dell Multimedia Pro Keyboard: (accel) acceleration threshold: 4
+[    60.149] (II) config/udev: Adding input device USB Optical Mouse (/dev/input/event0)
+[    60.149] (**) USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[    60.150] (II) Using input driver 'evdev' for 'USB Optical Mouse'
+[    60.150] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    60.150] (**) USB Optical Mouse: always reports core events
+[    60.150] (**) evdev: USB Optical Mouse: Device: "/dev/input/event0"
+[    60.151] (--) evdev: USB Optical Mouse: Vendor 0x461 Product 0x4d15
+[    60.151] (--) evdev: USB Optical Mouse: Found 3 mouse buttons
+[    60.151] (--) evdev: USB Optical Mouse: Found scroll wheel(s)
+[    60.151] (--) evdev: USB Optical Mouse: Found relative axes
+[    60.151] (--) evdev: USB Optical Mouse: Found x and y relative axes
+[    60.151] (II) evdev: USB Optical Mouse: Configuring as mouse
+[    60.151] (II) evdev: USB Optical Mouse: Adding scrollwheel support
+[    60.151] (**) evdev: USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[    60.151] (**) evdev: USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    60.152] (**) Option "config_info" "udev:/sys/devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.2/1-1.2:1.0/input/input0/event0"
+[    60.152] (II) XINPUT: Adding extended input device "USB Optical Mouse" (type: MOUSE, id 8)
+[    60.152] (II) evdev: USB Optical Mouse: initialized for relative axes.
+[    60.153] (**) USB Optical Mouse: (accel) keeping acceleration scheme 1
+[    60.153] (**) USB Optical Mouse: (accel) acceleration profile 0
+[    60.153] (**) USB Optical Mouse: (accel) acceleration factor: 2.000
+[    60.153] (**) USB Optical Mouse: (accel) acceleration threshold: 4
+[    60.156] (II) config/udev: Adding input device USB Optical Mouse (/dev/input/mouse0)
+[    60.156] (II) No input driver specified, ignoring this device.
+[    60.156] (II) This device may have been added with another device file.
+[    89.794] (II) XKB: reuse xkmfile /var/lib/xkb/server-03AF3717FF3AB439A4BAABA686CCB40771CDF520.xkm
+[   250.554] (II) XKB: reuse xkmfile /var/lib/xkb/server-03AF3717FF3AB439A4BAABA686CCB40771CDF520.xkm
+[   259.275] (II) evdev: USB Optical Mouse: Close
+[   259.275] (II) UnloadModule: "evdev"
+[   259.276] (II) Unloading evdev
+[   259.276] (II) evdev: Dell Dell Multimedia Pro Keyboard: Close
+[   259.276] (II) UnloadModule: "evdev"
+[   259.276] (II) Unloading evdev
+[   259.276] (II) evdev: Dell Dell Multimedia Pro Keyboard: Close
+[   259.277] (II) UnloadModule: "evdev"
+[   259.277] (II) Unloading evdev
+[   259.390]  ddxSigGiveUp: Closing log
+[   259.390] Server terminated successfully (0). Closing log file.

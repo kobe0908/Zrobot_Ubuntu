@@ -1,8 +1,8 @@
-0ed7a014fe310f0b0db23f8246a3a166  usr/bin/apt-extracttemplates
-2ac4aefd34c8d4a42d8e73d0ee5c3648  usr/bin/apt-ftparchive
-5c358a8d56bf94a5a811a6fa1e5a695d  usr/bin/apt-internal-solver
-bd6bd7fa9bbf34bf0e068c557884dee9  usr/bin/apt-sortpkgs
-a2d26852089eca6c9f37b0cc1bfcc73a  usr/lib/apt/solvers/dump
+39d862ff3e017ffbb559c6fada08dca3  usr/bin/apt-extracttemplates
+cf64341d286f057bd3e7e101da6024b1  usr/bin/apt-ftparchive
+7354c72f520686ec1be098e99bb10cf8  usr/bin/apt-internal-solver
+da0c9e51eae2b713ad8242119118d7d0  usr/bin/apt-sortpkgs
+4852fbd6d4d60e21c0faf7c1c2784dbf  usr/lib/apt/solvers/dump
 fa9fc3fde34b734ee15aecd2066df5b1  usr/share/doc/apt-utils/copyright
 733b4b1c35b69ca9fa7b637f79545656  usr/share/doc/apt-utils/examples/apt-ftparchive.conf
 7412e54b1280cf5ff2a727f0c17bdf80  usr/share/man/de/man1/apt-extracttemplates.1.gz

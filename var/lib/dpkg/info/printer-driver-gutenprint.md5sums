@@ -1,0 +1,16 @@
+ad420e55ba78e4c2ad29495e689c0baf  usr/bin/cups-calibrate
+a87b399358fc0e337c9236dd84a0c630  usr/lib/cups/driver/gutenprint.5.2
+3ec3cb516d8498297ea791e930d6ba59  usr/lib/cups/filter/commandtocanon
+48e9ec088a7c87a6e5108e640f632b27  usr/lib/cups/filter/commandtoepson
+295582a25ce52c8f47ea986717012629  usr/lib/cups/filter/rastertogutenprint.5.2
+34354ee8a56424a911c36b6d76c52eac  usr/sbin/cups-genppdupdate
+5a3a2f54ca531d5464737c992a4f6cb9  usr/share/cups/calibrate.ppm
+758b6c82903b02242f470eefc91e379d  usr/share/cups/mime/command.types
+530c507b5e7f4c580506513d509d5a0b  usr/share/cups/ppd-updaters/printer-driver-gutenprint.ppd-updater
+c0348000abb5c9b3a2d7f3beabd0e185  usr/share/doc/printer-driver-gutenprint/FAQ.html
+549b100fcfe37dcfd0709f30e0852117  usr/share/doc/printer-driver-gutenprint/NEWS.Debian.gz
+df7cec8c3631596f5acc4e924c5be5a2  usr/share/doc/printer-driver-gutenprint/README.cups.gz
+79130c15dfca23415e171a5488e949af  usr/share/doc/printer-driver-gutenprint/README.gz
+06c849c7115023ce2b937d0f9b10bdf2  usr/share/doc/printer-driver-gutenprint/copyright
+c070854b99824327f131552cbbad41ea  usr/share/man/man8/cups-calibrate.8.gz
+caaecda6aa25c9c098826d709e80953a  usr/share/man/man8/cups-genppdupdate.8.gz

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=DNGConverter
+GenericName=DNG Image Converter
+Comment=A tool to batch convert RAW camera images to DNG
+Exec=dngconverter %i -caption "%c" %U
+Icon=dngconverter
+Type=Application
+MimeType=image/x-dcraw;
+Terminal=false
+Categories=Qt;KDE;Graphics;
+X-DocPath=kipi-plugins/index.html#dngconverter
+
+X-Ubuntu-Gettext-Domain=app-install-data

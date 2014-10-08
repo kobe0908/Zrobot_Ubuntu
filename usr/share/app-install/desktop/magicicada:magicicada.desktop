@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=magicicada
+X-AppInstall-Popcon=67
+X-AppInstall-Section=universe
+
+Name=Magicicada
+Comment=Magicicada application
+Categories=GNOME;Utility;
+Exec=magicicada
+Icon=magicicada
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

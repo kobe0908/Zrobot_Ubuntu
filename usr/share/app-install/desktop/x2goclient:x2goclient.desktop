@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=x2goclient
+X-AppInstall-Popcon=48
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=3.99.0.5
+Type=Application
+Name=X2Go Client
+Exec=/usr/bin/x2goclient
+Icon=x2goclient
+StartupWMClass=x2goclient
+X-Window-Icon=x2goclient
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
+Terminal=false
+Categories=Qt;KDE;Network
+
+X-Ubuntu-Gettext-Domain=app-install-data

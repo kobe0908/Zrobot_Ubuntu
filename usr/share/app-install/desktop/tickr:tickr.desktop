@@ -1,0 +1,16 @@
+
+[Desktop Entry]
+X-AppInstall-Package=tickr
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=Tickr - Feed Reader
+Icon=_usr_share_tickr_pixmaps_tickr-icon
+Exec=/usr/bin/tickr
+Comment=GTK-based highly graphically-customizable Feed Ticker
+Categories=GNOME;GTK;Network;News
+
+X-Ubuntu-Gettext-Domain=app-install-data

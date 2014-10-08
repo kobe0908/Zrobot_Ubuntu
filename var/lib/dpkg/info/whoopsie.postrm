@@ -1,0 +1,16 @@
+#! /bin/sh
+
+set -e
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/whoopsie 0.1.25 -- "$@"
+# End automatically added section
+
+
+if [ "$1" = "purge" ]; then
+	deluser --quiet --system whoopsie > /dev/null || true
+	chmod g-s /var/crash >/dev/null 2>&1
+	chgrp root /var/crash >/dev/null 2>&1
+fi
+
+exit 0

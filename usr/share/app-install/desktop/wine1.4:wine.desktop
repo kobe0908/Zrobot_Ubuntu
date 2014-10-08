@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=wine1.4
+X-AppInstall-Popcon=3623
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Wine Windows Program Loader
+Exec=wine start /unix %f
+MimeType=application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;
+Icon=wine
+NoDisplay=true
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

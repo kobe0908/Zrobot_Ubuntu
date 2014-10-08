@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/plugins/bash_completion/__init__.py

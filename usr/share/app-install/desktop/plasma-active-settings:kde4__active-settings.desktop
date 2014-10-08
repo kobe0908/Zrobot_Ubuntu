@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-active-settings
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Name=Settings
+GenericName=Settings
+Comment=Settings for Plasma Active
+Exec=active-settings -graphicssystem raster %u
+Terminal=false
+Icon=preferences-desktop
+Type=Application
+Categories=Qt;KDE;Settings;X-SuSE-core;Qt;Core;
+X-KDE-PluginInfo-Website=http://plasma-active.org
+
+X-Ubuntu-Gettext-Domain=app-install-data

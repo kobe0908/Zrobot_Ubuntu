@@ -1,1 +1,0 @@
-../../../../../../../share/pyshared/IPython/config/profile/cluster/ipython_config.py

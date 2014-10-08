@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=optgeo
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=/usr/bin/optgeo
+Icon=_usr_share_pixmaps_optgeo-48
+Terminal=false
+Name=OptGeo
+GenericName=Simulator for geometrical optics
+Comment=Interactive tool to study and simulate optic assemblies
+Categories=GNOME;Application;Video;Education;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

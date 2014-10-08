@@ -1,0 +1,18 @@
+lease {
+  interface "wlan0";
+  fixed-address 173.17.1.183;
+  option subnet-mask 255.255.255.0;
+  option routers 173.17.1.254;
+  option dhcp-lease-time 14400;
+  option dhcp-message-type 5;
+  option domain-name-servers 173.17.1.254;
+  option dhcp-server-identifier 173.17.1.254;
+  option dhcp-renewal-time 7200;
+  option broadcast-address 173.17.1.255;
+  option dhcp-rebinding-time 12600;
+  option host-name "linaro-ubuntu-desktop";
+  option domain-name "xlnx";
+  renew 4 1970/01/01 01:36:25;
+  rebind 4 1970/01/01 03:31:34;
+  expire 4 1970/01/01 04:01:34;
+}

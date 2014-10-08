@@ -1,0 +1,9 @@
+[Device]
+Name=Wacom Serial Tablet WACf004
+DeviceMatch=serial:0000:0000
+
+[Features]
+Stylus=true
+Ring=false
+Buttons=0
+BuiltIn=true

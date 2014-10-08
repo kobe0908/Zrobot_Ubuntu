@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ktikz
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Type=Application
+Name=KTikZ
+Exec=ktikz
+Icon=ktikz
+Terminal=false
+MimeType=text/x-pgf;text/x-tex;
+Categories=Qt;KDE;Office;
+GenericName=TikZ editor
+Comment=Program for creating TikZ (from the LaTeX pgf package) diagrams
+X-DocPath=ktikz/index.html
+
+X-Ubuntu-Gettext-Domain=app-install-data

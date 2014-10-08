@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/nautilus/extensions/ubuntuone/" id="org.gnome.nautilus.extensions.ubuntuone" gettext-domain="ubuntuone-client-gnome">
+    <key type="as" name="recently-used-contacts">
+      <default>[]</default>
+      <summary>Recently used contacts</summary>
+      <description>Contacts which have been used recently in the Ubuntu One share dialog.</description>
+    </key>
+  </schema>
+</schemalist>

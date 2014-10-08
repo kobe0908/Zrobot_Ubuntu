@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=sflphone-gnome
+X-AppInstall-Popcon=42
+X-AppInstall-Section=universe
+
+Name=SFLphone
+GenericName=VoIP Client
+X-GNOME-FullName=SFLphone VoIP Client
+Comment=Call and receive calls with SIP or IAX protocols
+Exec=sflphone-client-gnome
+Icon=sflphone
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;Telephony;
+
+X-Ubuntu-Gettext-Domain=app-install-data

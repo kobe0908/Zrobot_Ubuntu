@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/workingtree_3.py

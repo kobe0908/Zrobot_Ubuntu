@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/es2gears
+/usr/bin/es2tri
+/usr/bin/es2_info
+/usr/share
+/usr/share/doc
+/usr/share/doc/mesa-utils-extra
+/usr/share/doc/mesa-utils-extra/copyright
+/usr/share/doc/mesa-utils-extra/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/es2tri.1.gz
+/usr/share/man/man1/es2gears.1.gz
+/usr/share/man/man1/es2_info.1.gz

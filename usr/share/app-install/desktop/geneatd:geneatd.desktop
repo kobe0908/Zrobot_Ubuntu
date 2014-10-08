@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=geneatd
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=GeneaTD
+Icon=geneatd
+GenericName=GeneaTD
+Exec=geneatd
+Categories=Game;ArcadeGame;
+Comment=Multi-touch tower defense game
+
+X-Ubuntu-Gettext-Domain=app-install-data

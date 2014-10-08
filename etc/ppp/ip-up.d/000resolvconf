@@ -10,6 +10,13 @@
 
 [ -x /sbin/resolvconf ] || exit 0
 
+case "$6" in
+  nm-pptp-service-*|/org/freedesktop/NetworkManager/PPP/*)
+    # NetworkManager handles it
+    exit 0
+    ;;
+esac
+
 R=""
 if [ "$DNS1" ] ; then
 	R="${R}nameserver $DNS1
@@ -20,5 +27,5 @@ if [ "$DNS2" ] ; then
 "
 fi
 
-echo -n "$R" | /sbin/resolvconf -a "$PPP_IFACE"
+echo -n "$R" | /sbin/resolvconf -a "${PPP_IFACE}.pppd"
 

@@ -1,0 +1,9 @@
+44f586831289828fc7fef3cf6990192b  usr/lib/indicator-sound/indicator-sound-service
+bade5b5553baddd60c24b0e265af0497  usr/lib/indicators3/7/libsoundmenu.so
+63e71bf8f3701990694cc8990f93fdc9  usr/share/dbus-1/services/indicator-sound.service
+70a57966034bafc3fe116069fa4e4856  usr/share/doc/indicator-sound/AUTHORS
+ac4240dca61885f88c983367629196d9  usr/share/doc/indicator-sound/changelog.Debian.gz
+ad034201e9a0af609c70ce7fe70ba78a  usr/share/doc/indicator-sound/copyright
+8c6cef1efaaac7d8eefa3e4f88ce8e83  usr/share/glib-2.0/schemas/com.canonical.indicator.sound.gschema.xml
+bdc05f20ec5ad0128ed02f7fb3e03bcc  usr/share/libindicator/icons/hicolor/16x16/status/sound-icon.png
+ba96d6da3bd76a3fc668c826a7b15baa  usr/share/libindicator/icons/hicolor/scalable/status/sound-icon.svg

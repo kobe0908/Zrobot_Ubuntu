@@ -1,0 +1,19 @@
+
+[Desktop Entry]
+X-AppInstall-Package=x2
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0.4
+Name=X2
+Comment=Simple text editor
+Exec=x2
+Icon=accessories-text-editor
+Terminal=false
+Type=Application
+MimeType=text/plain
+Categories=GTK;Utility;TextEditor;
+StartupNotify=true
+Path=
+
+X-Ubuntu-Gettext-Domain=app-install-data

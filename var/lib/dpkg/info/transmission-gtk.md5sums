@@ -1,0 +1,6 @@
+82c2f7edcb9dda70a84d55dba1247168  usr/bin/transmission-gtk
+d42bd6fcbc84f0d303c8cc77952ca7ca  usr/lib/mime/packages/transmission-gtk
+e3d89bd7b505ee9ea2153a07f095c89f  usr/share/applications/transmission-gtk.desktop
+c9d6d0905ff2edfc7cd75d883ab5ebbc  usr/share/lintian/overrides/transmission-gtk
+5bfe55ba58cf5b82c01da56da258eddf  usr/share/man/man1/transmission-gtk.1.gz
+314f66d6805177c0158ab54639efe4c8  usr/share/menu/transmission-gtk

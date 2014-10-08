@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gphpedit
+X-AppInstall-Popcon=345
+X-AppInstall-Section=universe
+
+Version=0.9.98
+Name=gPHPEdit
+GenericName=PHP/HTML/CSS editor
+X-GNOME-FullName=gPHPEdit
+Comment=Edit PHP source files
+Exec=gphpedit
+Icon=gphpedit
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Development;IDE;
+MimeType=text/html;text/css;text/x-javascript;text/x-python;text/x-perl;application/x-php;text/x-java;text/javascript;text/x-php;application/x-cgi;application/x-javascript;application/x-perl;application/x-python;application/xhtml+xml;text/x-csrc;text/x-chdr;text/x-dtd;text/x-sql;text/xml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

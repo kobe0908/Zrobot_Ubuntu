@@ -1,0 +1,9 @@
+= Bluetooth Enablement test cases =
+
+Validate basic bluetooth functionalities, like checking adapter, powering, scanning and such.
+
+Maintainer: Linaro Dev Platform
+
+== Running the test cases ==
+
+The only requirements is to branch the sh-lib code and run the test cases as root.

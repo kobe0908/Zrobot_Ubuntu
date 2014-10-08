@@ -1,0 +1,5 @@
+8c64ff18af542a13e14e02caca29e9e4  usr/lib/bamf/bamfdaemon
+a5260ea045338afbd90034795f3586f7  usr/share/dbus-1/services/org.ayatana.bamf.service
+8896794f8a48bf890e13e82ff251baa8  usr/share/doc/bamfdaemon/TODO
+f0af883550f799768bb026ab89cfb3e1  usr/share/doc/bamfdaemon/changelog.Debian.gz
+7bcc9fd0a9eb77d94234855908c21ca0  usr/share/doc/bamfdaemon/copyright

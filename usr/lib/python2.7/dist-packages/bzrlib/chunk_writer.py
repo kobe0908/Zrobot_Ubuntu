@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/chunk_writer.py

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=cuyo
+X-AppInstall-Popcon=38
+X-AppInstall-Section=universe
+
+Name=Cuyo
+Icon=cuyo
+Type=Application
+Terminal=false
+Categories=Game;BlocksGame;
+Encoding=UTF-8
+Comment=Play a tetris like game with many levels
+Exec=cuyo
+GenericName=Tetris like game
+
+X-Ubuntu-Gettext-Domain=app-install-data

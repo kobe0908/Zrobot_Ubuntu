@@ -1,0 +1,30 @@
+# If you want ipython to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install ipython-qtconsole.desktop
+
+[Desktop Entry]
+X-AppInstall-Package=ipython-qtconsole
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Comment=Enhanced interactive Python qtconsole
+Exec=ipython qtconsole
+GenericName=Python shell
+Icon=ipython
+Name=IPython Qt console
+Categories=Development;Utility;
+StartupNotify=false
+Terminal=false
+Type=Application
+X-Ayatana-Desktop-Shortcuts=Pylab;Pylabinline
+
+[Pylab Shortcut Group]
+Name=Pylab
+Exec=ipython qtconsole --pylab
+TargetEnvironment=Unity
+
+[Pylabinline Shortcut Group]
+Name=Pylab (inline plots)
+Exec=ipython qtconsole --pylab=inline
+TargetEnvironment=Unity
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,12 @@
+66001a118a35e643662a4f483f7684c2  usr/lib/indicator-printers/indicator-printers-service
+5aa50c8612a2e12326df95bea4544080  usr/lib/indicators3/7/libprintersmenu.so
+cfeee6b526dc083e14212505dcbc9c11  usr/share/dbus-1/services/indicator-printers.service
+bbedef928db114160f4654b588b8fc6b  usr/share/doc/indicator-printers/AUTHORS
+4f4f13c8441a3fcf3a7f6b24237d8fbf  usr/share/doc/indicator-printers/changelog.Debian.gz
+6588471f74f08645375595d2bf1be82f  usr/share/doc/indicator-printers/copyright
+88efe54964b4e8c3be774253079c710d  usr/share/icons/ubuntu-mono-dark/status/16/printer-symbolic.svg
+8adff1999cd8427d0786a99a5ea547f0  usr/share/icons/ubuntu-mono-dark/status/22/printer-symbolic.svg
+704db976d2f49dee530005dc99933550  usr/share/icons/ubuntu-mono-dark/status/24/printer-symbolic.svg
+8fd13f0b19f3905e4a7b060816858867  usr/share/icons/ubuntu-mono-light/status/16/printer-symbolic.svg
+a203ce65e38a932078ebc1b5123c69cb  usr/share/icons/ubuntu-mono-light/status/22/printer-symbolic.svg
+06746601ac7f11b83da9699a32aa4d97  usr/share/icons/ubuntu-mono-light/status/24/printer-symbolic.svg

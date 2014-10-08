@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=sound-juicer
+X-AppInstall-Popcon=3165
+X-AppInstall-Section=universe
+
+Name=Sound Juicer
+GenericName=Audio CD Extractor
+X-GNOME-FullName=Sound Juicer Audio CD Extractor
+Comment=Copy music from your CDs
+Exec=sound-juicer %u
+Icon=sound-juicer
+StartupNotify=true
+MimeType=x-content/audio-cdda;
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;AudioVideo;Audio;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=sound-juicer
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.4.0
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/plugins/launchpad/lp_registration.py

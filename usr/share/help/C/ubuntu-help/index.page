@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide" id="index" style="task">
+
+<info>
+    <desc>Ubuntu Desktop Guide</desc>
+    
+    <title type='link'>Ubuntu Desktop Guide</title>
+    <title type='text'>Ubuntu Desktop Guide</title>
+    <title role="trail" type="link"><media type="image" mime="image/png" width="16"
+      height="16" src="figures/ubuntu-logo.png">Help</media> Ubuntu Desktop Guide</title>
+    
+    <revision version="12.04" date="2012-03-22" status="outdated"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+</info>
+
+<title><media type="image" src="figures/ubuntu-logo.png">Ubuntu Logo</media> Ubuntu Desktop Guide</title>
+<links type="topic" style="mouseovers"
+       groups="unity-introduction unity-launcher-intro unity-dash-intro shell-windows unity-appmenu-intro shell-exit">
+  <e:mouseover src="figures/unity.png"/>
+  <e:mouseover match="unity-introduction" src="figures/ubuntu-precise.png"/>
+  <e:mouseover match="unity-launcher-intro" src="figures/unity-launcher-intro.png"/>
+  <e:mouseover match="unity-dash-intro" src="figures/unity-dash-intro.png"/>
+  <e:mouseover match="unity-appmenu-intro" src="figures/unity-appmenu-intro.png"/>
+  <e:mouseover match="shell-exit" src="figures/unity-exit.png"/>
+  <e:mouseover match="shell-overview" src="figures/unity-shell.png"/>
+  <e:mouseover match="shell-windows" src="figures/unity-workspace-intro.png"/>
+</links>
+
+<links type="topic" style="toronto" groups="
+       shell-overview
+       net media files
+       prefs hardware
+       a11y tips more-help"/>
+</page>

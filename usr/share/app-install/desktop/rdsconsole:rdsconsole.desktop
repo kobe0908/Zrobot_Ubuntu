@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=rdsconsole
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Resara Server Admin Console
+GenericName=Admin console for Resara Server
+Exec=rdsconsole
+Icon=rdsconsole
+Terminal=false
+Categories=Qt;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

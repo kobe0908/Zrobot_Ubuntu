@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/viewports</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/viewports</applyto>
+      <owner>compiz-1</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <locale name="C">
+        <short>Viewport</short>
+        <long>Number of viewport to be named</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/names</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/names</applyto>
+      <owner>compiz-1</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+        <short>Name</short>
+        <long>Viewport name</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/display_time</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/display_time</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <locale name="C">
+        <short>Display Time</short>
+        <long>Timeout (in s) of the name display (0.1 - 5.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/fade_time</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/fade_time</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.25</default>
+      <locale name="C">
+        <short>Fade Time</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Doba zprůhlednění</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Ausblendungszeit</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Χρόνος Ξεθωριάσματος</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Tiempo de desvanecimiento</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>Iraungitze denbora</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Häivytysviive</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Temps de Fondu</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Tempo de desvanecemento</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>આછાપણાનો સમય</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="he">
+        <short>משך עמעום</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Elhalványítási idő</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Tempo dissolvenza</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>フェード時間</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>페이드 시간</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Uttoningstid</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Verduisteren tijdsduur</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ଫିକାହେବା ସମଯ</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Czas przenikania</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Tempo de Esmaecimento</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Tempo de desvanecimento</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Время исчезновения</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Doba stmavnutia</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Toningstid</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Solma Süresi</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Час зникнення</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>渐隐时间</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>淡入/淡出時間</short>
+        <long>Time (in s) the name display fades out after being shown. (0.0 - 5.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/bold_text</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/bold_text</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Bold Font</short>
+        <long>Selects if the text should be displayed in bold font or not.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/text_font_size</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/text_font_size</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>16</default>
+      <locale name="C">
+        <short>Font Size</short>
+        <long>Font size for the text display. (6 - 96)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/text_placement</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/text_placement</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Text Placement</short>
+        <long>Selects where to place the text. (0 = Centered on screen, 1 = Top of screen, 2 = Bottom of screen)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/back_color</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/back_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#00000099</default>
+      <locale name="C">
+        <short>Background Color</short>
+        <long>Background color for the text display.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/workspacenames/screen0/options/font_color</key>
+      <applyto>/apps/compiz-1/plugins/workspacenames/screen0/options/font_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#ffffffff</default>
+      <locale name="C">
+        <short>Font Color</short>
+        <long>Font color for the text display.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

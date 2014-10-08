@@ -1,0 +1,5 @@
+7c9e12cd8a7ab5c10c4562d312513b1d  usr/lib/arm-linux-gnueabihf/libQtSvg.so.4.8.1
+cde91b0f4ef2d6781008a9b4805c9f5e  usr/lib/arm-linux-gnueabihf/qt4/plugins/iconengines/libqsvgicon.so
+0e5f776b83fd391641ef1055acd5af83  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqsvg.so
+6554abaa9d7013bd3a7b13294c73b55c  usr/share/doc/libqt4-svg/copyright
+754737721593bb14b976be608c52b5a6  usr/share/lintian/overrides/libqt4-svg

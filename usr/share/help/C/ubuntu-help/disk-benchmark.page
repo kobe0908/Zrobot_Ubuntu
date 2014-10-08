@@ -1,0 +1,63 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="disk-benchmark">
+  <info>
+    <link type="guide" xref="disk"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="12.04" date="2012-03-22" status="final"/>
+    
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+   <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+   </credit>
+
+    <desc>Run benchmarks on your hard disk to check how fast it is.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Test the performance of your hard disk</title>
+
+  <p>To test the speed of your hard disk:</p>
+
+<steps>
+
+ <item>
+  <p>Open the <app>Disk Utility</app> application from the <link xref="unity-dash-intro">dash</link>.</p>
+ </item>
+ <item>
+  <p>Choose the hard disk from the <gui>Storage Devices</gui> list. Information
+  about the disk and its status will appear under  <gui>Drive</gui>.</p></item>
+ <item>
+  <p>Choose <gui>Benchmark</gui>.</p>
+ </item>
+ <item>
+  <p>Click <gui>Start Read-Only Benchmark</gui> to test how fast data can be
+  read from the disk or <gui>Start Read/Write Benchmark</gui> to test how fast
+  data can be read from and written to the disk.  The latter option will take
+  longer to complete.</p>
+ </item>
+
+</steps> 
+
+  <p>When the test is finished, the results will appear on the graph. The green
+   points and connecting lines indicate the samples taken; these correspond to
+   the right axis, showing access time, plotted against the bottom axis,
+   representing percentage time elapsed during the benchmark. The blue line
+   represents read rates, while the red line represents write rates; these are
+   shown as access data rates on the left axis, plotted against percentage of the
+   disk traveled, from the outside to the spindle, along the bottom axis.</p>
+
+  <p>Below the graph, values are displayed for minimum, maximum and average
+   read and write rates, average access time and time elapsed since the last
+   benchmark test.</p>
+
+</page>

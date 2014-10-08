@@ -1,0 +1,1 @@
+../../../../../share/pyshared/lava_test/core/__init__.py

@@ -1,0 +1,147 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import time
+
+from subprocess import Popen, PIPE
+from uuid import uuid4
+from optparse import OptionParser
+
+CONNECTIONS_PATH='/etc/NetworkManager/system-connections/'
+
+def connection_section(ssid, uuid):
+
+    if not uuid: uuid = uuid4()
+
+    connection = """
+[connection]
+id=%s
+uuid=%s
+type=802-11-wireless
+    """ % (ssid, uuid)
+
+    wireless = """
+[802-11-wireless]
+ssid=%s
+mode=infrastructure""" % (ssid)
+
+    return connection + wireless
+
+def security_section(security, key):
+    # Add security field to 802-11-wireless section
+    wireless_security = """
+security=802-11-wireless-security
+
+[802-11-wireless-security]
+    """
+
+    if security.lower() == 'wpa':
+        wireless_security += """
+key-mgmt=wpa-psk
+auth-alg=open
+psk=%s
+        """ % key
+
+    elif security.lower() == 'wep':
+        wireless_security += """
+key-mgmt=none
+wep-key=%s
+        """ % key
+
+    return wireless_security
+
+def ip_sections():
+    ip = """
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto
+    """
+
+    return ip
+
+def block_until_created(connection, retries, interval):
+
+    while retries > 0:
+        nmcli_con_list = Popen(['nmcli','con','list'], stdout=PIPE)
+        (stdout, stderr) = nmcli_con_list.communicate()
+
+        if connection in stdout:
+            print("Connection %s registered" % connection)
+            break
+
+        time.sleep(interval)
+        retries = retries - 1
+
+    if retries <= 0:
+        print("Failed to register %s." % connection)
+        sys.exit(1)
+    else:
+        nmcli_con_up = Popen(['nmcli','con','up','id', connection], stdout=PIPE)
+        (stdout, stderr) = nmcli_con_up.communicate()
+
+        if 'state: activated' in stdout:
+            print("Connection %s activated." % connection)
+        else:
+            print("Failed to activate %s." % connection)
+            sys.exit(1)
+
+
+def main():
+    parser = OptionParser()
+
+    parser.add_option('-S', '--security',
+                      help="""The type of security to be used by the connection.
+                              One of wpa and wep. No security will be used if
+                              nothing is specified.""")
+    parser.add_option('-K', '--key',
+                      help="The encryption key required by the router.")
+    parser.add_option('-U', '--uuid',
+                      help="""The uuid to assign to the connection for use by
+                            NetworkManager. One will be generated if not
+                            specified here.""")
+    parser.add_option('-R', '--retries',
+                      help="""The number of times to attempt bringing up the
+                              connection until it is confirmed as active.""",
+                      default=5)
+    parser.add_option('-I', '--interval',
+                      help="""The time to wait between attempts to detect the 
+                              registration of the connection.""",
+                      default=2)
+
+    (options, args) = parser.parse_args()
+
+    if len(args) < 1:
+        print("Must specify an SSID to connect to.")
+        sys.exit(1)
+
+    connection_info = connection_section(args[0], options.uuid)
+
+    if options.security:
+        # Set security options
+        if not options.key:
+            print "You need to specify a key using --key if using wireless security."
+            sys.exit(1)
+
+        connection_info += security_section(options.security, options.key)
+    elif options.key:
+        print "You specified an encryption key but did not give a security type using --security."
+        sys.exit(1)
+
+    connection_info += ip_sections()
+
+    try:
+        connection_file = open(CONNECTIONS_PATH + args[0], 'w')
+        connection_file.write(connection_info)
+        os.fchmod(connection_file.fileno(), 0600)
+        connection_file.close()
+    except IOError:
+        print "Can't write to " + CONNECTIONS_PATH + args[0] + ". Is this command being run as root?"
+        sys.exit(1)
+
+    block_until_created(args[0], options.retries, options.interval)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,6 @@
+2fae2dade49eb3d0ec7c02200d94204c  usr/lib/python2.7/dist-packages/twisted/internet/_sigchld.so
+90e7c92fbd8c3878ce4de1ccd9dfa4c7  usr/lib/python2.7/dist-packages/twisted/python/_epoll.so
+39926697fe15f6767b2b9c501b2fc2c6  usr/lib/python2.7/dist-packages/twisted/python/_initgroups.so
+e1c2ac77b78aebb9f03d0f958f7e0c07  usr/lib/python2.7/dist-packages/twisted/test/raiser.so
+275907c0a83d97300a43cbd5d95275e6  usr/share/doc/python-twisted-bin/changelog.Debian.gz
+97f28d31ea3bc2ec7fde1477a2e4e4b1  usr/share/doc/python-twisted-bin/copyright

@@ -1,0 +1,8 @@
+786771fc8403b22813dbf62825c3f0b6  usr/lib/python2.7/dist-packages/cups.so
+852cf1c867b0f826a7b11b30fcb99fa5  usr/lib/rpm/fileattrs/psdriver.attr
+ffce10fdc09142dd5f569a0f83c8ab0c  usr/lib/rpm/postscriptdriver.prov
+dc3be7cf915019246d94fe0643f54265  usr/share/doc/python-cups/README
+5eea8bb4ed58820afc41f2948bda93ab  usr/share/doc/python-cups/TODO
+d73bf9b83fc3ab311b66966ed85c9352  usr/share/doc/python-cups/changelog.Debian.gz
+7a3aa1e17eccb67f9d73ca205b1e4ded  usr/share/doc/python-cups/copyright
+beabf2de9bd61c9475ec5c8a3d50adc4  usr/share/pyshared/pycups-1.9.61.egg-info

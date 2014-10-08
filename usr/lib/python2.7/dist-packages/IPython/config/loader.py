@@ -1,1 +1,0 @@
-../../../../../share/pyshared/IPython/config/loader.py

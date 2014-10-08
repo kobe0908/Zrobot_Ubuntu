@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mail-notification
+X-AppInstall-Popcon=1815
+X-AppInstall-Section=universe
+
+Name=Mail Notification
+Icon=mail-notification
+Comment=Get notified when new mail arrives
+Type=Application
+Categories=GNOME;GTK;Network;Email;
+Exec=mail-notification
+Terminal=false
+StartupNotify=true
+X-GNOME-DocPath=mail-notification/mail-notification.xml
+
+X-Ubuntu-Gettext-Domain=app-install-data

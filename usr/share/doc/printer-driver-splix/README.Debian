@@ -1,0 +1,25 @@
+
+SpliX for Ubuntu Linux
+----------------------
+
+This is the SpliX printer driver for Samsung's laser printers using
+the SPL2 (monochrome) and SPLc (color) printing languages.
+
+As the patent on JBIG compression ends on April 4, 2012, right before
+release of Ubuntu Precise, we build the full SpliX package now,
+including the drivers for printers which require JBIG-compressed input
+data. The needed part of the JBIG library jbigkit
+(http://www.cl.cam.ac.uk/~mgk25/jbigkit/), the libjbig85 static is
+included in the debian/local/jbigkit-libjbig85/ directory.
+
+The PPD files coming with this package (in ppd/) are generated with
+"ppdc" from CUPS (http://www.cups.org/) based on the instructions in
+the ppd/*.drv files. So ppd/*.drv are the source code files of the
+PPDs. In addition, CUPS is free software, so all requirements for the
+PPDs being in the main part of Ubuntu Linux are fulfilled.
+
+The ready-made PPD files are there for convenience, to not require a
+rebuild and to allow users of old CUPS versions without "ppdc" to use
+SpliX
+
+ -- Till Kamppeter <till.kamppeter@gmail.com>, Thu,  8 Dec 2011 16:11:46 +0100

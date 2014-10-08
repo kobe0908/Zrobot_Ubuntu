@@ -1,0 +1,88 @@
+#!/usr/bin/python
+
+import logging
+import json
+from optparse import OptionParser
+import os
+import sys
+
+sys.path.insert(0, "/usr/share/software-center")
+from softwarecenter.backend.piston.scaclient import SoftwareCenterAgentAPI
+import piston_mini_client.auth
+
+import gettext
+gettext.install("aptdaemon")
+
+if __name__ == "__main__":
+
+    parser = OptionParser()
+    parser.add_option("-s", "--server", default="ubuntu-production")
+    parser.add_option("-p", "--pkgname")
+    (options, args) = parser.parse_args()
+    
+    # server to use
+    if options.server == "ubuntu-production":
+        server = "https://software-center.ubuntu.com"
+    elif options.server == "ubuntu-staging":
+        server = "https://sc.staging.ubuntu.com"
+    else:
+        raise Exception("Unknown license key server")
+
+    # allow override via environment, note that in order for this to
+    # work aptdaemon needs to be started with that environment
+    if os.environ.get("SOFTWARE_CENTER_BUY_HOST"):
+        server = os.environ.get("SOFTWARE_CENTER_BUY_HOST")
+        logging.warn("overriding server from environment: '%s'" % server)
+
+    # setup server root
+    server += "/api/2.0"
+    SoftwareCenterAgentAPI.default_service_root = server
+
+    # pkgname
+    pkgname = options.pkgname
+
+    # wait for oauth token on stdin
+    json_token = sys.stdin.readline()
+    token = json.loads(json_token)
+       
+    # get the data
+    auth = piston_mini_client.auth.OAuthAuthorizer(token["token"],
+                                                   token["token_secret"],
+                                                   token["consumer_key"],
+                                                   token["consumer_secret"])
+    
+    api = SoftwareCenterAgentAPI(auth=auth)
+
+    
+    try:
+        subscriptions =  api.subscriptions_for_me(complete_only=True)
+    except piston_mini_client.APIError as e:
+        sys.stderr.write(_("Failed to get the license key from "
+                           "the server."))
+        sys.exit(1)
+
+    # find the right pkg
+    license_key = None
+    license_key_path = None
+    for subscription in subscriptions:
+        # paranoia, check if we actually have a license key attr too
+        if (subscription.application["package_name"] == pkgname and
+            hasattr(subscription, "license_key")):
+            license_key = subscription.license_key
+            license_key_path = subscription.license_key_path
+            break
+
+    if license_key and license_key_path:
+        # aptdaemon expects a absolute path, fix that up
+        if not license_key_path.startswith("/"):
+            license_key_path = os.path.join("/opt", pkgname, license_key_path)
+
+        sys.stdout.write(license_key_path + "\n")
+        sys.stdout.write(license_key)
+        sys.exit(0)
+
+    # generic error
+    sys.stderr.write(_("Failed to get the license key from "
+                       "the server."))
+    sys.exit(1)
+       

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/remmina-plugin-vnc
+/usr/share/doc/remmina-plugin-vnc/copyright
+/usr/lib
+/usr/lib/remmina
+/usr/lib/remmina/plugins
+/usr/lib/remmina/plugins/remmina-plugin-vnc.so
+/usr/share/doc/remmina-plugin-vnc/changelog.Debian.gz

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=lubuntu-software-center
+X-AppInstall-Popcon=174
+X-AppInstall-Section=universe
+
+Name=Lubuntu Software Center
+GenericName=Software Center
+Comment=Lets you choose from thousands of applications available for Ubuntu
+Exec=lubuntu-software-center
+Icon=lubuntu-software-center
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

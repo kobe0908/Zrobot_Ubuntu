@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=quake
+X-AppInstall-Popcon=2
+X-AppInstall-Section=multiverse
+
+Type=Application
+Version=1.0
+Name=Quake: Dissolution of Eternity
+Comment=Mission Pack 2 for the classic first person shooter
+Icon=quake
+TryExec=/usr/share/games/quake/rogue-tryexec.sh
+Exec=/usr/games/quake -rogue
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

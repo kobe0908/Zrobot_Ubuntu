@@ -1,0 +1,17 @@
+# see http://standards.freedesktop.org/desktop-entry-spec/latest/
+[Desktop Entry]
+X-AppInstall-Package=gnubiff
+X-AppInstall-Popcon=230
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Gnubiff
+GenericName=Mail notification program
+Comment=Gnubiff is a mail notification program.
+Icon=gnubiff
+Exec=gnubiff
+Terminal=false
+Categories=Network;Email;
+
+X-Ubuntu-Gettext-Domain=app-install-data

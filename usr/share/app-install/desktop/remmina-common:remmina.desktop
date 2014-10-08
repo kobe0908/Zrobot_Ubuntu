@@ -1,0 +1,30 @@
+[Desktop Entry]
+X-AppInstall-Package=remmina-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Version=1.0
+Name=Remmina Remote Desktop Client
+Comment=Connect to remote desktops
+TryExec=remmina
+Exec=remmina
+Icon=remmina
+Terminal=false
+Type=Application
+Actions=
+Categories=GTK;GNOME;X-GNOME-NetworkSettings;Network;
+Actions=Profile;Tray;
+
+
+[Desktop Action Profile]
+Name=Create a New Connection Profile
+Exec=remmina --new
+OnlyShowIn=Unity;
+
+[Desktop Action Tray]
+Name=Start Remmina Minimized
+Exec=remmina --icon
+OnlyShowIn=Unity;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

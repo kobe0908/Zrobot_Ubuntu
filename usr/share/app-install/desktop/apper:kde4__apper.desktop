@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=apper
+X-AppInstall-Popcon=2893
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=applications-other
+Exec=apper
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.apper
+
+Name=Apper
+GenericName=Software Management
+Comment=Application to get and manage software
+
+Terminal=false
+Categories=Qt;KDE;System;Settings;PackageManager;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

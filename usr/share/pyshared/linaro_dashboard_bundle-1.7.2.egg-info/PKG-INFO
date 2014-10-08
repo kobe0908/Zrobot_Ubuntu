@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: linaro-dashboard-bundle
+Version: 1.7.2
+Summary: Library for manipulating LAVA dashboard bundles
+Home-page: https://launchpad.net/linaro-python-dashboard-bundle
+Author: Linaro Validation Team
+Author-email: linaro-dev@lists.linaro.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing

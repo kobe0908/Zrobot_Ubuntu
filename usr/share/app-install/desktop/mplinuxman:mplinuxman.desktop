@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mplinuxman
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Mplinuxman
+Comment=Manage your MPMan portable mp3 player
+Exec=mplinuxman
+Icon=mplinuxman
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

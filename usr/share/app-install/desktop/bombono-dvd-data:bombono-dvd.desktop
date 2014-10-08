@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=bombono-dvd
+X-AppInstall-Popcon=376
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Bombono DVD
+Comment=DVD authoring program
+Icon=bombono-dvd
+Exec=bombono-dvd
+Categories=Video;AudioVideo;DiscBurning;GTK;
+Terminal=false
+MimeType=application/x-bombono-dvd;
+
+X-Ubuntu-Gettext-Domain=app-install-data

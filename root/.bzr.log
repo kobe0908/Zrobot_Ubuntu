@@ -1,0 +1,76 @@
+
+this is a debug log for diagnosing/reporting problems in bzr
+you can delete or truncate this file, or include sections in
+bug reports to https://bugs.launchpad.net/bzr/+filebug
+
+Sun 2012-09-23 23:38:12 +0000
+0.733  bazaar version: 2.5.1
+0.734  bzr arguments: [u'branch', u'lp:~linaro-maintainers/lava-test/lava-test-perf']
+0.933  looking for plugins in /root/.bazaar/plugins
+0.933  looking for plugins in /usr/lib/python2.7/dist-packages/bzrlib/plugins
+1.111  encoding stdout as osutils.get_user_encoding() 'ascii'
+[28590] 2012-09-23 23:38:14.783 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+4.847  creating repository in file:///root/.local/share/lava_test/installed-tests/perf/lava-test-perf/.bzr/.
+4.966  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-maintainers/lava-test/lava-test-perf/.bzr/repository/', fallback_repositories=[CHKInventoryRepository('http://bazaar.launchpad.net/%2Bbranch-id/355840/.bzr/repository/')])(RepositoryFormat2a()) and CHKInventoryRepository('file:///root/.local/share/lava_test/installed-tests/perf/lava-test-perf/.bzr/repository/')(RepositoryFormat2a())
+4.967  fetching: <PendingAncestryResult heads:frozenset(['fathi.boudra@linaro.org-20120626081549-6z600d90jmjkofba']) repo:CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-maintainers/lava-test/lava-test-perf/.bzr/repository/', fallback_repositories=[CHKInventoryRepository('http://bazaar.launchpad.net/%2Bbranch-id/355840/.bzr/repository/')])>
+11.798  creating branch <bzrlib.branch.BzrBranchFormat7 object at 0x9b7a10> in file:///root/.local/share/lava_test/installed-tests/perf/lava-test-perf/
+12.171  created new branch BzrBranch7(file:///root/.local/share/lava_test/installed-tests/perf/lava-test-perf/)
+12.194  trying to create missing lock '/root/.local/share/lava_test/installed-tests/perf/lava-test-perf/.bzr/checkout/dirstate'
+12.199  opening working tree '/root/.local/share/lava_test/installed-tests/perf/lava-test-perf'
+[28590] 2012-09-23 23:38:24.749 INFO: Branched 7 revisions.
+12.561  return code 0
+
+Sun 2012-09-23 23:38:33 +0000
+0.812  bazaar version: 2.5.1
+0.813  bzr arguments: [u'branch', u'lp:~linaro-foundations/linaro-ubuntu/lava-test-wifi-enablement']
+0.903  looking for plugins in /root/.bazaar/plugins
+0.904  looking for plugins in /usr/lib/python2.7/dist-packages/bzrlib/plugins
+1.082  encoding stdout as osutils.get_user_encoding() 'ascii'
+[28609] 2012-09-23 23:38:35.656 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+4.044  creating repository in file:///root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement/.bzr/.
+4.164  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-wifi-enablement/.bzr/repository/')(RepositoryFormat2a()) and CHKInventoryRepository('file:///root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement/.bzr/repository/')(RepositoryFormat2a())
+4.164  fetching: <PendingAncestryResult heads:frozenset(['ricardo.salveti@linaro.org-20120906212909-cp22iu346kbyvhb0']) repo:CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-wifi-enablement/.bzr/repository/')>
+6.378  creating branch <bzrlib.branch.BzrBranchFormat7 object at 0xf5effcf0> in file:///root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement/
+6.748  created new branch BzrBranch7(file:///root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement/)
+6.771  trying to create missing lock '/root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement/.bzr/checkout/dirstate'
+6.776  opening working tree '/root/.local/share/lava_test/installed-tests/wifi-enablement/lava-test-wifi-enablement'
+[28609] 2012-09-23 23:38:40.408 INFO: Branched 19 revisions.
+7.175  return code 0
+
+Sun 2012-09-23 23:39:18 +0000
+0.788  bazaar version: 2.5.1
+0.789  bzr arguments: [u'branch', u'lp:~linaro-foundations/linaro-ubuntu/lava-test-bt-enablement']
+0.877  looking for plugins in /root/.bazaar/plugins
+0.877  looking for plugins in /usr/lib/python2.7/dist-packages/bzrlib/plugins
+1.055  encoding stdout as osutils.get_user_encoding() 'ascii'
+[28979] 2012-09-23 23:39:21.364 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+4.797  creating repository in file:///root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement/.bzr/.
+4.977  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-bt-enablement/.bzr/repository/')(RepositoryFormat2a()) and CHKInventoryRepository('file:///root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement/.bzr/repository/')(RepositoryFormat2a())
+4.977  fetching: <PendingAncestryResult heads:frozenset(['ricardo.salveti@linaro.org-20120906213214-6txoivrvg5fnxvl4']) repo:CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-bt-enablement/.bzr/repository/')>
+9.825  creating branch <bzrlib.branch.BzrBranchFormat7 object at 0xf5effa70> in file:///root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement/
+10.191  created new branch BzrBranch7(file:///root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement/)
+10.214  trying to create missing lock '/root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement/.bzr/checkout/dirstate'
+10.219  opening working tree '/root/.local/share/lava_test/installed-tests/bluetooth-enablement/lava-test-bt-enablement'
+[28979] 2012-09-23 23:39:28.758 INFO: Branched 6 revisions.
+10.619  return code 0
+
+Sun 2012-09-23 23:39:51 +0000
+0.785  bazaar version: 2.5.1
+0.786  bzr arguments: [u'branch', u'lp:~linaro-foundations/linaro-ubuntu/lava-test-basic-graphics']
+0.875  looking for plugins in /root/.bazaar/plugins
+0.876  looking for plugins in /usr/lib/python2.7/dist-packages/bzrlib/plugins
+1.055  encoding stdout as osutils.get_user_encoding() 'ascii'
+[29288] 2012-09-23 23:39:53.919 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+4.051  creating repository in file:///root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics/.bzr/.
+4.232  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-basic-graphics/.bzr/repository/')(RepositoryFormat2a()) and CHKInventoryRepository('file:///root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics/.bzr/repository/')(RepositoryFormat2a())
+4.233  fetching: <PendingAncestryResult heads:frozenset(['ricardo.salveti@linaro.org-20120906213012-rs1zn4tynt2h8c60']) repo:CHKInventoryRepository('http://bazaar.launchpad.net/~linaro-foundations/linaro-ubuntu/lava-test-basic-graphics/.bzr/repository/')>
+6.919  creating branch <bzrlib.branch.BzrBranchFormat7 object at 0x5df110> in file:///root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics/
+7.291  created new branch BzrBranch7(file:///root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics/)
+7.314  trying to create missing lock '/root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics/.bzr/checkout/dirstate'
+7.319  opening working tree '/root/.local/share/lava_test/installed-tests/leb-basic-graphics/lava-test-basic-graphics'
+[29288] 2012-09-23 23:39:59.166 INFO: Branched 12 revisions.
+7.717  return code 0

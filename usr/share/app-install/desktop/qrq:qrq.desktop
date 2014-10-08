@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=qrq
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=qrq
+GenericName=qrq
+Comment=High speed Morse telegraphy trainer
+Exec=qrq
+Icon=qrq
+Terminal=true
+Type=Application
+Categories=Audio;HamRadio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

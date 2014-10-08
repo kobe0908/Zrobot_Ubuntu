@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=actionaz
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Actionaz
+GenericName=Automation Tool
+Comment=Automate tasks
+Exec=actionaz %f
+Terminal=false
+Icon=actionaz
+Type=Application
+Categories=Utility;
+Version=1.0
+MimeType=application/actionaz-script;application/actionaz-code;
+
+X-Ubuntu-Gettext-Domain=app-install-data

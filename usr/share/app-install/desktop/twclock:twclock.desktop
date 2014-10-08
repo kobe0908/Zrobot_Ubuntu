@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=twclock
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Name=twclock
+Comment=World Clock and CW ID for Ham Radio Operators
+Exec=twclock
+Icon=twclock
+Terminal=false
+Type=Application
+Categories=Utility;HamRadio
+
+X-Ubuntu-Gettext-Domain=app-install-data

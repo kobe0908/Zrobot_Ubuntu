@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-video-arcade
+X-AppInstall-Popcon=8
+X-AppInstall-Section=multiverse
+
+Name=GNOME Video Arcade
+GenericName=Video Arcade
+Comment=Play classic arcade games
+Exec=gnome-video-arcade
+Icon=gnome-video-arcade
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Game;Emulator;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

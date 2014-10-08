@@ -156,13 +156,13 @@ dc710aedaa1a95d29e074f13fae638f4  usr/share/X11/xkb/symbols/cd
 fd95b62e200d32d078dd9e45314d919c  usr/share/X11/xkb/symbols/cn
 56c1e4627bf99ef9352a8b2da12b0942  usr/share/X11/xkb/symbols/compose
 ab2ad78929159d3d88938fb10efc01c9  usr/share/X11/xkb/symbols/ctrl
-62fb5ebbc168174fdefbe870cb2b450e  usr/share/X11/xkb/symbols/cz
+f297eebeae420e785d7191bf22919584  usr/share/X11/xkb/symbols/cz
 5ffe95c68b12d481c6f1a89d512f5760  usr/share/X11/xkb/symbols/de
 43da7e0c6fde549bea7960b84d9cae81  usr/share/X11/xkb/symbols/digital_vndr/lk
 8ea4c351038a868c4f89257066946db3  usr/share/X11/xkb/symbols/digital_vndr/pc
 5093d2a15f033a836000c9fe0b1e96dc  usr/share/X11/xkb/symbols/digital_vndr/us
 14bed7f9ed518e33d8e4307cc4c17cc0  usr/share/X11/xkb/symbols/digital_vndr/vt
-27dab4eeb31654e6d475aa0daa54cabb  usr/share/X11/xkb/symbols/dk
+f881debac5ee58c88133af4175579573  usr/share/X11/xkb/symbols/dk
 c2f24f374d60934fe224a0b9e555d05e  usr/share/X11/xkb/symbols/ee
 aff3bb76c73aa2b7508ab989d1cf981c  usr/share/X11/xkb/symbols/empty
 c1e54817e3dbfd9db8434ba1f181f5f1  usr/share/X11/xkb/symbols/epo
@@ -193,7 +193,7 @@ a7e6843d0aa34b4b7769769991db557a  usr/share/X11/xkb/symbols/ir
 7786cdd3a0db6ebdc6815c351b35c14a  usr/share/X11/xkb/symbols/it
 0732fc1d3af757929b57559b60502166  usr/share/X11/xkb/symbols/jp
 b3dc650aaddd358683f7cea9f0f3d756  usr/share/X11/xkb/symbols/ke
-ac5f300bac9d3ac58376e2b5403c6bdb  usr/share/X11/xkb/symbols/keypad
+6d958deb7dee7677d086bd9a7ea353e1  usr/share/X11/xkb/symbols/keypad
 41365665d9df4fd0fe0000c7f3eb0ce8  usr/share/X11/xkb/symbols/kg
 4c7f3525e24a863209208c22fe8f1b13  usr/share/X11/xkb/symbols/kh
 af037c59909462114f5d292e9e9da780  usr/share/X11/xkb/symbols/kpdl
@@ -201,7 +201,7 @@ cae18c4789ce728bfa73ca005bcab145  usr/share/X11/xkb/symbols/kr
 ef316e42c0abec8bc868f2174e803dab  usr/share/X11/xkb/symbols/kz
 84a8a1342152ba51fccb17255aa4e365  usr/share/X11/xkb/symbols/la
 0eaf464e3d546d069a3fd71b314b9288  usr/share/X11/xkb/symbols/latam
-3b8267ca42bbccd0d85bcdc93038d4da  usr/share/X11/xkb/symbols/latin
+95b28ca8727b542455afc6bed4ee2a64  usr/share/X11/xkb/symbols/latin
 20b578dcc8eddad3e3c23fc1f76fdf34  usr/share/X11/xkb/symbols/level3
 5926faf0b377593be8ca9d995a76ae69  usr/share/X11/xkb/symbols/level5
 3e3e6db914fcaa31fc0a261beadedcb1  usr/share/X11/xkb/symbols/lk
@@ -324,7 +324,7 @@ ec8d323c9c4adbeddd3057e202519972  usr/share/X11/xkb/types/numpad
 a228740ca9f8e9a706ff543ecc54dbdf  usr/share/X11/xkb/types/pc
 2791f0721fa39d731fdcb71f89b6492d  usr/share/doc/xkb-data/NEWS.Debian.gz
 ad4a9d326d095726b0d05a3598909d59  usr/share/doc/xkb-data/README.Debian
-533cf6070ac1d20834afd284cece24f3  usr/share/doc/xkb-data/changelog.Debian.gz
+63610d26dc5dda3b839a52de5542e7fe  usr/share/doc/xkb-data/changelog.Debian.gz
 c755d980a354c1ba22f57934c55852b0  usr/share/doc/xkb-data/copyright
 6506bb1a81e49eb21418d0217542bd83  usr/share/man/man7/xkeyboard-config.7.gz
 0ae2e4a8cf2b9a7d397b35f6a87356cc  usr/share/pkgconfig/xkeyboard-config.pc

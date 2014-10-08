@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=qesteidutil
+X-AppInstall-Popcon=16
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=ID-card Utility
+Exec=qesteidutil %F
+Icon=qesteidutil
+Terminal=false
+Categories=Qt;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,5 @@
+c8bbebcfd6f5d993199674462af25024  usr/bin/jockey-gtk
+70ebcb20d5a2ee41e01ada17c4340c88  usr/share/applications/jockey-gtk.desktop
+3d7d0555b743740877df85bd8dd63bd4  usr/share/dbus-1/services/com.ubuntu.DeviceDriver.service
+d8766d6f86d035917eb5e38b0962310a  usr/share/doc/jockey-gtk/copyright
+785a6644006e32968289e8499a9d82e3  usr/share/jockey/jockey-gtk.ui

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Довідка з програми Мультимедійний програвач Totem</title>
+    <date>Лютий 2009</date>
+    <version identifier="Довідка з програми Мультимедійний програвач Totem версії V3.0" date="Лютий 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Totem Movie Player це програвач для GNOME, який використовує GStreamer за замовчуванням, але також може бути запущений на Xine. Він підтримує більшість аудіо та відео кодеків, включаючи DVD серед багатьох інших. Особливостями програвача також є ТВ-вихід, повноекранний режим, підтримка субтитрів та багато іншого.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/uk/totem.xml"/>
+    <language code="uk"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

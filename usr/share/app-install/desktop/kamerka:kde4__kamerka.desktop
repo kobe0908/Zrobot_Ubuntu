@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kamerka
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Type=Application
+Version=0.8.1
+Name=Kamerka
+GenericName=Taking photos with the webcam
+Exec=kamerka
+Comment=Fancy-looking animated application for taking photos from webcam
+Icon=camera-web
+Terminal=false
+Categories=Qt;KDE;AudioVideo;Video;
+
+X-Ubuntu-Gettext-Domain=app-install-data

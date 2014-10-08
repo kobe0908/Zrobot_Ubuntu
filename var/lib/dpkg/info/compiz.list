@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/compiz
+/usr/share/doc/compiz/changelog.Debian.gz
+/usr/share/doc/compiz/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/compiz

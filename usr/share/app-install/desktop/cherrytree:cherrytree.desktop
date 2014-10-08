@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=cherrytree
+X-AppInstall-Popcon=61
+X-AppInstall-Section=universe
+
+Name=CherryTree
+Comment=Hierarchical Note Taking
+Exec=cherrytree %f
+Icon=_usr_share_icons_hicolor_scalable_apps_cherrytree
+MimeType=text/cherrytree-ctd;text/cherrytree-ctz;
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

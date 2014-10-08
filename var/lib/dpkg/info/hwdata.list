@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/hwdata
+/usr/share/doc/hwdata/copyright
+/usr/share/doc/hwdata/changelog.Debian.gz
+/usr/share/hwdata
+/usr/share/hwdata/MonitorsDB
+/usr/share/hwdata/pnp.ids
+/usr/share/hwdata/upgradelist
+/usr/share/hwdata/videodrivers
+/usr/share/hwdata/usb.ids
+/usr/share/hwdata/pci.ids

@@ -1,0 +1,11 @@
+74d5236feaaf2b3cc1a1c626685fc70b  usr/lib/unity-lens-applications/unity-applications-daemon
+2199ff7f146ea7c8634b26ab67e7b097  usr/share/dbus-1/services/unity-lens-applications.service
+1ca1655dab27fab188234e26ce6c82ba  usr/share/desktop-directories/X-Unity-All-Applications.directory
+0ce2a2c0b931ce7825abf9d3c0c8a5f0  usr/share/doc/unity-lens-applications/AUTHORS
+9a6ea66b3c4c46cbecb1bcdd6aa21fe3  usr/share/doc/unity-lens-applications/NEWS.gz
+65d66dcfbc438b6ec908e275ed064b6f  usr/share/doc/unity-lens-applications/changelog.Debian.gz
+ab52582a554719ea3ddf760545690bd8  usr/share/doc/unity-lens-applications/copyright
+85b72150ec96723c03adeac97d68a10c  usr/share/glib-2.0/schemas/com.canonical.Unity.AppsLens.gschema.xml
+441f57d5a94c3af7fff005c98ff0e87b  usr/share/unity/lenses/applications/applications.lens
+b3ddb0914315a428c035482208a4d1ef  usr/share/unity/lenses/commands/commands.lens
+d9781864a1c2eaa749a7df77a0751c97  usr/share/unity/themes/applications.png

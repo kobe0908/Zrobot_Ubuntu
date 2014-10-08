@@ -1,0 +1,15 @@
+FATAL: Could not load /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep: No such file or directory
+Unable to locate gator.ko driver:
+  >>> gator.ko should be co-located with gatord in the same directory
+  >>> OR insmod gator.ko prior to launching gatord
+  >>> OR specify the location of gator.ko on the command line
+FATAL: Could not load /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep: No such file or directory
+Unable to locate gator.ko driver:
+  >>> gator.ko should be co-located with gatord in the same directory
+  >>> OR insmod gator.ko prior to launching gatord
+  >>> OR specify the location of gator.ko on the command line
+FATAL: Could not load /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep: No such file or directory
+Unable to locate gator.ko driver:
+  >>> gator.ko should be co-located with gatord in the same directory
+  >>> OR insmod gator.ko prior to launching gatord
+  >>> OR specify the location of gator.ko on the command line

@@ -1,0 +1,4 @@
+89a934367e4f9e19c83f6a2218278ba3  usr/lib/arm-linux-gnueabihf/libQtScript.so.4.8.1
+6fe175fd75fb6c4fe54f06fcb529ce34  usr/lib/arm-linux-gnueabihf/qt4/plugins/script/libqtscriptdbus.so
+6554abaa9d7013bd3a7b13294c73b55c  usr/share/doc/libqt4-script/copyright
+4bf764d5d26efe445976cce167717834  usr/share/lintian/overrides/libqt4-script

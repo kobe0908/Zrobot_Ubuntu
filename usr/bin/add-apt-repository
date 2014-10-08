@@ -1,0 +1,180 @@
+#!/usr/bin/python
+
+import os
+import sys
+import gettext
+import locale
+
+from softwareproperties.SoftwareProperties import SoftwareProperties
+from softwareproperties.ppa import DEFAULT_KEYSERVER, expand_ppa_line
+from softwareproperties import lp_application_name
+from aptsources.sourceslist import SourceEntry
+from optparse import OptionParser
+from gettext import gettext as _
+from urllib2 import HTTPError, URLError
+
+def utf8(s):
+    """
+    Takes a string or unicode object and returns a utf-8 encoded
+    string, errors are ignored
+    """
+    if s is None:
+        return None
+    if isinstance(s, unicode):
+        return s.encode("utf-8", "ignore")
+    return unicode(s, "utf8", "ignore").encode("utf8")
+
+def _maybe_suggest_ppa_name_based_on_user(user):
+    try:
+        from launchpadlib.launchpad import Launchpad
+        lp = Launchpad.login_anonymously(lp_application_name, "production")
+        try:
+            user_inst = lp.people[user]
+            entity_name = "team" if user_inst.is_team else "user"
+            if len(user_inst.ppas) > 0:
+                print _("The %s named '%s' has no PPA named '%s'" 
+                        %(entity_name, user, ppa_name))
+                print _("Please choose from the following available PPAs:")
+                for ppa in user_inst.ppas:
+                    print _(" * '%s':  %s" %(ppa.name, ppa.displayname))
+            else:
+                print _("The %s named '%s' does not have any PPA"
+                        %(entity_name, user))
+        except KeyError:
+            pass
+    except ImportError:
+        print _("Please check that the PPA name or format is correct.")
+
+
+
+def utf8(s):
+    """
+    Takes a string or unicode object and returns a utf-8 encoded
+    string, errors are ignored
+    """
+    if s is None:
+        return None
+    if isinstance(s, unicode):
+        return s.encode("utf-8", "ignore")
+    return unicode(s, "utf8", "ignore").encode("utf8")
+
+if __name__ == "__main__":
+    try:
+        locale.setlocale(locale.LC_ALL, "")
+    except:
+        pass
+    usage = """Usage: %prog <sourceline>
+
+%prog is a script for adding apt sources.list entries. 
+It can be used to add any repository and also provides a shorthand 
+syntax for adding a Launchpad PPA (Personal Package Archive)
+repository.
+
+<sourceline> - The apt repository source line to add. This is one of:
+  a complete apt line in quotes, 
+  a repo url and areas in quotes (areas defaults to 'main')
+  a PPA shortcut.
+
+  Examples:
+    apt-add-repository 'deb http://myserver/path/to/repo stable myrepo'
+    apt-add-repository 'http://myserver/path/to/repo myrepo'
+    apt-add-repository 'https://packages.medibuntu.org free non-free'
+    apt-add-repository http://extras.ubuntu.com/ubuntu 
+    apt-add-repository ppa:user/repository
+
+If --remove is given the tool will remove the given sourceline from your
+sources.list
+"""
+    parser = OptionParser(usage)
+    # FIXME: provide a --sources-list-file= option that 
+    #        puts the line into a specific file in sources.list.d
+    parser.add_option ("-m", "--massive-debug", action="store_true",
+        dest="massive_debug", default=False,
+        help="Print a lot of debug information to the command line")
+    parser.add_option("-r", "--remove", action="store_true",
+        dest="remove", default=False,
+        help="remove repository from sources.list.d directory")
+    parser.add_option("-k", "--keyserver",
+        dest="keyserver", default=DEFAULT_KEYSERVER,
+        help="URL of keyserver. Default: %default")
+    parser.add_option("-y", "--yes", action="store_true",
+        dest="assume_yes", default=False,
+        help="Assume yes to all queries")
+    (options, args) = parser.parse_args()
+
+    if os.geteuid() != 0:
+        print _("Error: must run as root")
+        sys.exit(1)
+
+    if (len(args) != 1):
+        print _("Error: need a repository as argument")
+        sys.exit(1)
+
+    # force new ppa file to be 644 (LP: #399709)
+    os.umask(0022)
+
+    # get the line
+    line = args[0]
+
+    # display PPA info (if needed)
+    if line.startswith("ppa:") and not options.assume_yes:
+        from softwareproperties.ppa import get_ppa_info_from_lp, LAUNCHPAD_PPA_API
+        user, sep, ppa_name = line.split(":")[1].partition("/")
+        ppa_name = ppa_name or "ppa"
+        try:
+            ppa_info = get_ppa_info_from_lp(user, ppa_name)
+        except HTTPError:
+            print _("Cannot add PPA: '%s'.") % line
+            if user.startswith("~"):
+                print _("Did you mean 'ppa:%s/%s' ?" %(user[1:], ppa_name))
+                sys.exit(1) # Exit because the user cannot be correct
+            # If the PPA does not exist, then try to find if the user/team 
+            # exists. If it exists, list down the PPAs
+            _maybe_suggest_ppa_name_based_on_user(user)
+            sys.exit(1)
+        except (ValueError, URLError):
+            print _("Cannot access PPA (%s) to get PPA information, "
+                    "please check your internet connection.") % \
+                (LAUNCHPAD_PPA_API % (user, ppa_name))
+            sys.exit(1)
+        # private PPAs are not supported
+        if "private" in ppa_info and ppa_info["private"]:
+            print _("Adding private PPAs is not supported currently")
+            sys.exit(1)
+        
+        if options.remove:
+            print _("You are about to remove the following PPA from your system:")
+        else:
+            print _("You are about to add the following PPA to your system:")
+        print " %s" % utf8(ppa_info["description"] or "")
+        print _(" More info: %s") % ppa_info["web_link"]
+        if (sys.stdin.isatty() and
+            not "FORCE_ADD_APT_REPOSITORY" in os.environ):
+            if options.remove:
+                print _("Press [ENTER] to continue or ctrl-c to cancel removing it")
+            else:
+                print _("Press [ENTER] to continue or ctrl-c to cancel adding it")
+            sys.stdin.readline()
+
+    # add it
+    sp = SoftwareProperties(options=options)
+    if options.remove:
+        (line, file) = expand_ppa_line(line.strip(), sp.distro.codename)
+        deb_line = sp.expand_http_line(line)
+        debsrc_line = 'deb-src' + deb_line[3:]
+        deb_entry = SourceEntry(deb_line, file)
+        debsrc_entry = SourceEntry(debsrc_line, file)
+        try:
+            sp.remove_source(deb_entry)
+        except ValueError:
+            print _("Error: '%s' doesn't exist in a sourcelist file" % deb_line)
+        try:
+            sp.remove_source(debsrc_entry)
+        except ValueError:
+            print _("Error: '%s' doesn't exist in a sourcelist file" % debsrc_line)
+
+    else:
+        if not sp.add_source_from_line(line):
+            print _("Error: '%s' invalid" % line)
+            sys.exit(1)
+        sp.sourceslist.save()

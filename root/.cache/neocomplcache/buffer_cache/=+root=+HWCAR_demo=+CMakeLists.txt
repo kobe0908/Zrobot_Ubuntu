@@ -1,1 +1,0 @@
-['project', 'camcar', 'cmake_minimum_required', 'VERSION', 'add_subdirectory', 'aux_source_directory', 'DIR_SRCS', 'include_directories', 'add_library', 'SHARED', 'target_link_libraries', 'cam_car']

@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/plugins/weave_fmt/test_bzrdir.py

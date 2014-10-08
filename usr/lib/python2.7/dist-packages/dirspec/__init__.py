@@ -1,0 +1,1 @@
+../../../../share/pyshared/dirspec/__init__.py

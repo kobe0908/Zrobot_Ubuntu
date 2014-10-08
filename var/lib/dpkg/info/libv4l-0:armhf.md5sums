@@ -1,7 +1,7 @@
-9dcd6967965d2d39646def7ef0656603  usr/lib/arm-linux-gnueabihf/libv4l/v4l1compat.so
-bdf3c31dbd65ad04d2641b8c3deb614e  usr/lib/arm-linux-gnueabihf/libv4l/v4l2convert.so
-b4ff3362e1850d71e1d70de213e1bb1a  usr/lib/arm-linux-gnueabihf/libv4l1.so.0
-f83f7060164f35ec2ca989c612f5c8b3  usr/lib/arm-linux-gnueabihf/libv4l2.so.0
+dfa740774e1a1c3d71d7e485ef5319ac  usr/lib/arm-linux-gnueabihf/libv4l/v4l1compat.so
+fded5c1511e2a347cb1cabdc10da9f67  usr/lib/arm-linux-gnueabihf/libv4l/v4l2convert.so
+ec5372e5c733203ea681e08abc8a5d50  usr/lib/arm-linux-gnueabihf/libv4l1.so.0
+f50f8c9fd34b9408dbdc9f7eff5ce01f  usr/lib/arm-linux-gnueabihf/libv4l2.so.0
 1c6ea46772d9817efca8cac12537d17b  usr/share/bug/libv4l-0
 05271be64bf40b0f162e6d56b3ae1f9a  usr/share/doc/libv4l-0/README
 b8490b6d22321b3cb75fb6dd2f40aca8  usr/share/doc/libv4l-0/README.Debian

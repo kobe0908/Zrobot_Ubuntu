@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/gator-daemon
+/usr/share/doc/gator-daemon/copyright
+/usr/share/doc/gator-daemon/changelog.Debian.gz
+/usr/sbin
+/usr/sbin/gatord
+/etc
+/etc/init.d
+/etc/init
+/etc/init/gator-daemon.conf
+/etc/init.d/gator-daemon

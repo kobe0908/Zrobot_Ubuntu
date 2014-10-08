@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=jscribble
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=jscribble
+GenericName=Infinite Notepad
+Exec=jscribble
+Icon=jscribble
+Terminal=false
+Categories=Utility
+
+X-Ubuntu-Gettext-Domain=app-install-data

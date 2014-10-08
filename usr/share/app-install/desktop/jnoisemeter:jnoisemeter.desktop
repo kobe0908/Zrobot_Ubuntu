@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=jnoisemeter
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Jnoisemeter
+GenericName=Audio test signals meter
+Comment=Audio test signals meter for JACK
+Icon=jnoisemeter_32x32
+Exec=jnoisemeter
+Terminal=false
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pybik
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Pybik
+Comment=The magic cube
+TryExec=pybik
+Exec=pybik
+Icon=pybik
+Type=Application
+Categories=GNOME;GTK;Game;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

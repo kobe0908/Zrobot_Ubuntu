@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-split
+X-AppInstall-Popcon=38
+X-AppInstall-Section=universe
+
+Version=1.1
+Type=Application
+Name=GNOME Split
+GenericName="Files splitter"
+Comment=Split and assemble files easily
+Categories=GNOME;GTK;Utility;
+Path=/usr
+Exec=/usr/bin/gnome-split
+Icon=_usr_share_pixmaps_gnome-split
+MimeType=application/x-extension-xtm;application/x-extension-gsp;application/x-extension-yct;application/x-extension-kk;application/x-generic-chunk
+
+X-Ubuntu-Gettext-Domain=app-install-data

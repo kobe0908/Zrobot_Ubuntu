@@ -1,0 +1,115 @@
+plugin: manual
+name: power-management/shutdown-boot
+description:
+ PURPOSE:
+     This test will check your system shutdown/booting cycle
+ STEPS:
+     1. Shutdown your machine
+     2. Boot your machine
+     3. Repeat steps 1 and 2 at least 5 times
+ VERIFICATION:
+     Did the system shutdown and rebooted correctly?
+
+plugin: manual
+name: power-management/lid
+description:
+ PURPOSE:
+     This test will check your lid sensors
+ STEPS:
+     1. Close your laptop lid
+ VERIFICATION:
+    Does closing your laptop lid cause your system to suspend?
+
+plugin: manual
+name: power-management/lid_close
+requires: device.product == 'Lid Switch' and package.name == 'linux'
+command:
+ for i in `seq 20`; do
+  state=`cat /proc/acpi/button/lid/LID/state | awk '{print $2}'`
+  [ "$state" = "closed" ] && exit 0 || sleep 0.5
+ done
+ exit 1
+description:
+ PURPOSE:
+     This test will check your lid sensors
+ STEPS:
+     1. Click "Test"
+     2. Close and open the lid
+ VERIFICATION:
+     Did the screen turn off while the lid was closed?
+
+plugin: manual
+name: power-management/lid_open
+requires: device.product == 'Lid Switch' and package.name == 'linux'
+command:
+ for i in `seq 20`; do
+  state=`cat /proc/acpi/button/lid/LID/state | awk '{print $2}'`
+  [ "$state" = "open" ] && exit 0 || sleep 0.5
+ done
+ exit 1
+description:
+ PURPOSE:
+     This test will check your lid sensors
+ STEPS:
+     1. Click "Test"
+     2. Close the lid
+     3. Wait 5 seconds with the lid closed
+     4. Open the lid
+ VERIFICATION:
+     Did the system resume when the lid was opened?
+
+plugin: shell
+name: power-management/rtc
+requires: package.name == 'linux'
+command:
+ test -e /dev/rtc
+description:
+ Make sure that the RTC (Real-Time Clock) device exists.
+
+plugin: shell
+name: power-management/fwts_wakealarm
+description: Test ACPI Wakealarm (fwts wakealarm) 
+description-ast.UTF-8: Test ACPI Wakealarm (fwts wakealarm)
+description-cs.UTF-8: Test probuzení pomocí ACPI (fwts wakealarm)
+description-de.UTF-8: Teste ACPI-Wakealarm (fwts wakealarm)
+description-el.utf-8: Δοκιμή του ACPI Wakealarm (fwts wakealarm)
+description-en_AU.UTF-8: Test ACPI Wakealarm (fwts wakealarm)
+description-en_GB.UTF-8: Test ACPI Wakealarm (fwts wakealarm)
+description-es.UTF-8: Probar ACPI Wakealarm (fwts wakealarm)
+description-fi.UTF-8: Testaa ACPI Wakealarm (wfts wakealarm)
+description-it.UTF-8: Esegue il test ACPI Wakealarm (fwts wakealarm)
+description-ms.UTF-8: Ujian ACPI Wakealarm (fwts wakealarm)
+description-nl.UTF-8: Testen van ACPI Wakealarm (fwts wakealarm)
+description-pt_BR.UTF-8: Teste ACPI Wakealarm (fwts wakealarm)
+description-ro.UTF-8: Test pentru alarma ACPI (fwts wakealarm)
+description-ru.UTF-8: Проверить, есть ли ошибки в работе ACPI
+description-sl.UTF-8: Preizkus alarm zbujanja ACPI (fwts wakealarm)
+description-tr.UTF-8: ACPI Wakealarm'ı (fwts wakealarm) sınayın
+description-ug.UTF-8: ACPI Wakealarm (fwts wakealarm) سىناش
+requires:
+ package.name == 'linux'
+ package.name == 'fwts'
+command: fwts_test -w -l $CHECKBOX_DATA/fwts-wakealarm.log
+
+plugin: shell
+name: power-management/tickless_idle
+requires: package.name == 'linux'
+description: Check to see if CONFIG_NO_HZ is set in the kernel (this is just a simple regression check)
+description-ast.UTF-8: Conseñar pa ver si CONFIG_NO_HZ afitóse nel nucleu (esto ye sólo una simple comprobación de regresión)
+description-cs.UTF-8: Ověřit, zda má kernel volbu CONFIG_NO_HZ (jednoduché ověření)
+description-de.UTF-8: Überprüfen, ob CONFIG_NO_HZ im Kernel gesetzt ist (Dies ist nur ein einfacher Regressionstest)
+description-el.utf-8: Έλεγχος για το αν το CONFIG_NO_HZ έχει ρυθμιστεί στον πυρήνα (Αυτός είναι ένας απλός έλεγχος παλινδρόμησης)
+description-en_AU.UTF-8: Check to see if CONFIG_NO_HZ is set in the kernel (this is just a simple regression check)
+description-en_GB.UTF-8: Check to see if CONFIG_NO_HZ is set in the kernel (this is just a simple regression check)
+description-es.UTF-8: Marcar para ver si CONFIG_NO_HZ se ha establecido en el núcleo (esto es solo una simple comprobación de regresión)
+description-it.UTF-8: Verifica se CONFIG_NO_HZ è impostato nel kernel (questa è solo una semplice verifica di regressione).
+description-ms.UTF-8: Tanda untuk melihat jika CONFIG_NO_HZ ditetapkan dalam kernel (ini merupakan semakan regresi ringkas)
+description-nl.UTF-8: Controleer of CONFIG_NO_HZ ingesteld is in de kernel (dit is een simpele regressietest)
+description-pt_BR.UTF-8: Verifique para ver se CONFIG_NO_HZ está configurado no kernel (isto é apenas um simples teste de regressão)
+description-ro.UTF-8: Verifică dacă în kernel este configurată opțiunea CONFIG_NO_HZ (o simplă verificare pentru regresie)
+description-ru.UTF-8: Проверьте установлена ли в ядре директива CONFIG_NO_HZ (это простой тест на регрессию)
+description-sl.UTF-8: Preveri, če je CONFIG_NO_HZ nastavljen v jedru (to je enostavno preverjanje regresij)
+description-tr.UTF-8: CONFIG_NO_HZ'nin çekirdekte ayarlı olup olmadığını görmek için denetleme yapın (bu sadece basit bir gerileme denetlemesidir).
+description-ug.UTF-8: يادرودا CONFIG_NO_HZ بەلگىلەنگەنمۇ يوق تەكشۈرىدۇ(بۇ پەقەتلا ئاددىي بىر قايتىلانما تەكشۈرۈشتۇر(regression check))
+command:
+ zgrep 'CONFIG_NO_HZ=y' /boot/config-`uname -r` >/dev/null 2>&1

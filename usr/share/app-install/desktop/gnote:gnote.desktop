@@ -1,0 +1,22 @@
+
+[Desktop Entry]
+X-AppInstall-Package=gnote
+X-AppInstall-Popcon=1236
+X-AppInstall-Section=universe
+
+Name=Gnote
+Comment=Take notes, link ideas, and stay organized
+GenericName=Note-taker
+Exec=gnote %u
+Icon=gnote
+MimeType=x-scheme-handler/note;
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnote
+X-GNOME-Bugzilla-Component=main
+X-GNOME-Bugzilla-Version=0.8.2
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../share/pyshared/lava_test/test_definitions/glmark2-es2.py

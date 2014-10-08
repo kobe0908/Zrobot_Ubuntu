@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xfe
+X-AppInstall-Popcon=234
+X-AppInstall-Section=universe
+
+Name=Xfe
+GenericName=File Manager
+Comment=A lightweight file manager for X Window
+Exec=xfe
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=xfe
+Categories=System;FileManager;
+
+X-Ubuntu-Gettext-Domain=app-install-data

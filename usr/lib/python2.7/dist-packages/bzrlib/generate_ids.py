@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/generate_ids.py

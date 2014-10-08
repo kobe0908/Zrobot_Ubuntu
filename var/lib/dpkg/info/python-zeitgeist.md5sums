@@ -1,0 +1,7 @@
+023db0203281c6dac4b3e1c9078780fb  usr/share/doc/python-zeitgeist/changelog.Debian.gz
+7c7e3625a97a8c7a07ae65fbb29bfca1  usr/share/doc/python-zeitgeist/copyright
+ba22cefec54448d9959dd67ddc5a6e32  usr/share/pyshared/zeitgeist/__init__.py
+7dc2885338dcfbc28aea072b6178b5a4  usr/share/pyshared/zeitgeist/_ontology.py
+ededface0222da2bfdf589d11465d5a4  usr/share/pyshared/zeitgeist/client.py
+2b80fc9b787ae2d02d65d81338332edb  usr/share/pyshared/zeitgeist/datamodel.py
+cc3c8feea62c0753c643ea2ea22c9f33  usr/share/pyshared/zeitgeist/mimetypes.py

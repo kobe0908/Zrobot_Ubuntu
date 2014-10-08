@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=codfis
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=CodFis
+Icon=_usr_share_pixmaps_codfis
+Comment=Computes Italian Fiscal codes
+Categories=Utility;Office;
+Exec=codfis
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=xxxterm
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=xxxterm Browser
+Comment=Minimalist's Web Browser
+Terminal=false
+Type=Application
+Version=1.0
+Icon=_usr_share_xxxterm_xxxtermicon64
+Exec=xxxterm %u
+StartupNotify=false
+Categories=Application;Network;
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

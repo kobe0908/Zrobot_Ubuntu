@@ -1,0 +1,7 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Upstream-Name: json-schema-validator
+Upstream-Contact: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>
+Source: http://pypi.python.org/packages/source/j/json-schema-validator/json-schema-validator-2.2.tar.gz
+Copyright: Copyright 2010-2012, Linaro Limited
+License: LGPL-3
+ See /usr/share/common-licenses/LGPL-3 for full text

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=k4dirstat
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Name=K4DirStat
+Exec=k4dirstat %i -caption "%c"
+Icon=k4dirstat
+Type=Application
+X-DocPath=k4dirstat/index.html
+GenericName=Directory Statistics
+Comment=Directory statistics and disk usage
+Terminal=false
+MimeType=inode/directory;
+Categories=Utility
+
+X-Ubuntu-Gettext-Domain=app-install-data

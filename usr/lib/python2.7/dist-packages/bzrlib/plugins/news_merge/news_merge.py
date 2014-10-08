@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/plugins/news_merge/news_merge.py

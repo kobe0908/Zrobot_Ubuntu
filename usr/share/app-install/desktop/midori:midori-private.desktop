@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=midori
+X-AppInstall-Popcon=1437
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Midori Private Browsing
+GenericName=Private Browsing
+Comment=Open a new private browsing window
+Categories=GTK;Network;WebBrowser;
+Exec=midori --private %U
+Icon=midori
+Terminal=false
+StartupNotify=true
+X-Osso-Type=application/x-executable
+X-Osso-Service=midori
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

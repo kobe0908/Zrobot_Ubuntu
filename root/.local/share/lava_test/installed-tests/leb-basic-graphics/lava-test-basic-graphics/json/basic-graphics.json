@@ -1,0 +1,17 @@
+{
+	"format": "Lava-Test Test Definition 1.0",
+	"test_id": "basic-graphics-test",
+	"install": {
+		"steps": ["bzr branch lp:~linaro-foundations/linaro-ubuntu/lava-test-basic-graphics"],
+		"deps": ["bzr", "mesa-utils-extra"]
+	},
+	"run": {
+		"steps": ["cd lava-test-basic-graphics; sudo bash -x ./run-test.sh"]
+	},
+	"parse" : {
+		"pattern": "^(?P<test_case_id>\\w+):\\s(?P<result>\\w+)",
+		"appendall": {
+		    "result": "pass"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 2.6.38-1209-omap4 armv7l Linaro
+Current Operating System: Linux linaro-ubuntu-desktop 3.6.0-digilent-13.01-g06b3889 #4 SMP PREEMPT Tue Sep 23 20:32:21 CST 2014 armv7l
+Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1 coherent_pool=1M
+Build Date: 26 August 2012  05:44:54AM
+xorg-server 2:1.11.4-0ubuntu10.7+ti2.0 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.24.4
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Jan  1 00:00:58 1970
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+ ddxSigGiveUp: Closing log
+Server terminated successfully (0). Closing log file.

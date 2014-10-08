@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=kdepim-runtime
+X-AppInstall-Popcon=19556
+X-AppInstall-Section=main
+
+Type=Application
+Categories=Qt;KDE;Utility;
+Exec=akonaditray
+Icon=akonadi
+Name=Akonaditray
+GenericName=Akonadi Tray Utility
+
+X-Ubuntu-Gettext-Domain=app-install-data

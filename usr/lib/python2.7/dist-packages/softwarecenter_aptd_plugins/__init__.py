@@ -1,0 +1,1 @@
+../../../../share/pyshared/softwarecenter_aptd_plugins/__init__.py

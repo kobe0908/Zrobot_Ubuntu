@@ -1,0 +1,17 @@
+5311fa19f99ebd785495b88f0eddf916  usr/bin/nautilus
+697fc44a9731e87b325554f818608023  usr/bin/nautilus-autorun-software
+3ee17fb0584e34117455332098556342  usr/bin/nautilus-connect-server
+5159c39d06a2eb78b69a20a023e3a5b0  usr/lib/nautilus/extensions-3.0/libnautilus-sendto.so
+ad8a4b1c27e297b188103e1fed70fb93  usr/lib/nautilus/nautilus-convert-metadata
+c53d014ab3439174982c52f944d5feab  usr/share/applications/mount-archive.desktop
+1cd018cf10b06494057a1f17a72444bc  usr/share/applications/nautilus-autorun-software.desktop
+d8764a1090d2faa22855ddd9c2fae56c  usr/share/applications/nautilus-folder-handler.desktop
+78d6535d8134d1f91507d1cf2a2f8d8e  usr/share/applications/nautilus-home.desktop
+ea1dc338e9a56f6539a2bbf4680ec4df  usr/share/applications/nautilus.desktop
+0615bdca979b13bd390cb2b252136b3d  usr/share/dbus-1/services/org.freedesktop.FileManager1.service
+b8947d92e8a3afe61aeb40ff45a127bc  usr/share/dbus-1/services/org.gnome.Nautilus.service
+ef2cb27694ebbd3840826b70d182b51b  usr/share/doc/nautilus/copyright
+dd2bdbafa673fc2a8aff84248e979687  usr/share/glib-2.0/schemas/10_nautilus.gschema.override
+0b4fa176357eabc639f61435faeb3f56  usr/share/man/man1/nautilus-connect-server.1.gz
+e12a3b2f27e2af15436f805553907752  usr/share/man/man1/nautilus.1.gz
+a8e9a7dd542380132e46c5353003afbf  usr/share/menu/nautilus

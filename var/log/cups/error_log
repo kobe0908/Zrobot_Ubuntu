@@ -1,0 +1,5 @@
+E [01/Jan/1970:00:00:50 +0000] Unable to open listen socket for address [v1.::1]:631 - Address family not supported by protocol.
+E [01/Jan/1970:00:00:53 +0000] Unable to open listen socket for address [v1.::1]:631 - Address family not supported by protocol.
+E [01/Jan/1970:00:00:53 +0000] Unable to bind socket for address 127.0.0.1:631 - Cannot assign requested address.
+E [01/Jan/1970:00:00:17 +0000] Unable to open listen socket for address [v1.::1]:631 - Address family not supported by protocol.
+E [01/Jan/1970:00:00:17 +0000] Unable to bind socket for address 127.0.0.1:631 - Cannot assign requested address.

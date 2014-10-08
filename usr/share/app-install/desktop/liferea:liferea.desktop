@@ -1,0 +1,48 @@
+[Desktop Entry]
+X-AppInstall-Package=liferea
+X-AppInstall-Popcon=2005
+X-AppInstall-Section=main
+
+Name=Liferea
+GenericName=Feed Reader
+X-GNOME-FullName=Liferea Feed Reader
+X-GNOME-FullName[ar]=قارئ التلقيمات لايفريا
+X-GNOME-FullName[ast]=Liferea, llector de noticies
+X-GNOME-FullName[be@latin]=Hartač RSS Liferea
+X-GNOME-FullName[cs]=Čtečka kanálů Liferea
+X-GNOME-FullName[da]=Liferea - Nyhedslæser
+X-GNOME-FullName[de]=Liferea Feedreader
+X-GNOME-FullName[el]=Ανάγνωση ροών Liferea
+X-GNOME-FullName[es]=Liferea, lector de noticias
+X-GNOME-FullName[eu]=Liferea iturri irakurlea
+X-GNOME-FullName[fr]=Lecteur de flux Liferea
+X-GNOME-FullName[gl]=Lector de fontes Liferea
+X-GNOME-FullName[he]=קורא הערוצים Liferea
+X-GNOME-FullName[hu]=Liferea hírforrásolvasó
+X-GNOME-FullName[it]=Lettore notiziari Liferea
+X-GNOME-FullName[ja]=Liferea フィード・リーダ
+X-GNOME-FullName[lt]=Liferea naujienų kanalų skaitytuvė
+X-GNOME-FullName[lv]=Liferea barotņu lasītājs
+X-GNOME-FullName[nl]=Liferea - Linux Feed Reader
+X-GNOME-FullName[pl]=Czytnik Wiadomości RSS Liferea
+X-GNOME-FullName[pt]=Leitor de Fontes Liferea
+X-GNOME-FullName[pt_BR]=Agregador de Notícias Liferea
+X-GNOME-FullName[ro]=Cititor fluxuri Liferea
+X-GNOME-FullName[ru]=Приложение для чтения новостей Liferea
+X-GNOME-FullName[sk]=Liferea - čítačka kanálov
+X-GNOME-FullName[sq]=Lexuesi i Prurjeve Liferea
+X-GNOME-FullName[sv]=Nyhetsläsaren Liferea
+X-GNOME-FullName[tr]=Liferea Haber Okuyucusu
+X-GNOME-FullName[uk]=Програма для читання подач Liferea
+X-GNOME-FullName[zh_CN]=Lifera Feed 阅读器
+Comment=Download and view feeds
+Exec=liferea
+Icon=liferea
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;News;
+
+Version=0.9.4
+
+X-Ubuntu-Gettext-Domain=app-install-data

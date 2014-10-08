@@ -1,1 +1,0 @@
-../../../../../share/pyshared/IPython/core/compilerop.py

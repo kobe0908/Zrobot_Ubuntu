@@ -1,0 +1,1 @@
+../../../../share/pyshared/softwarecenter_aptd_plugins/add_license_key_plugin.py

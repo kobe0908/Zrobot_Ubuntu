@@ -1,0 +1,1149 @@
+Package: debootstrap
+Priority: extra
+Section: admin
+Installed-Size: 226
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: all
+Version: 1.0.46ubuntu1
+Recommends: gnupg, ubuntu-keyring
+Depends: wget
+Filename: pool/main/d/debootstrap/debootstrap_1.0.46ubuntu1_all.deb
+Size: 59330
+MD5sum: 3cd5ac12414589650449d587c367e4bc
+SHA1: 0815899e4310404e74011d22f6b10e06f15c378a
+SHA256: 3c65d14958933463901bd68661596745f9c54ec6ca19ef8100cb0065cb3ab91d
+Description: Bootstrap a basic Debian system
+ debootstrap is used to create a Debian base system from scratch,
+ without requiring the availability of dpkg or apt. It does this by
+ downloading .deb files from a mirror site, and carefully unpacking them
+ into a directory which can eventually be chrooted into.
+
+Package: sbuild
+Priority: extra
+Section: devel
+Installed-Size: 457
+Maintainer: Debian buildd-tools Developers <buildd-tools-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 0.64.0+repack1-1wook1
+Recommends: fakeroot, debootstrap
+Suggests: wget, deborphan
+Depends: perl, perl-modules, libsbuild-perl (= 0.64.0+repack1-1wook1), adduser, apt-utils
+Filename: pool/main/s/sbuild/sbuild_0.64.0+repack1-1wook1_all.deb
+Size: 306532
+MD5sum: b35811d1c624b99ab39c12bb73284d5f
+SHA1: 059bbeb625a2bb7859526cb899891e65cacacb87
+SHA256: 26c948f1f8208d2a3c1b273b812867a628711da512fe37a88adb74e91bbaaa75
+Description: Tool for building Debian binary packages from Debian sources
+ The sbuild suite of programs (buildd and sbuild) are used to build
+ binary packages from source packages.  sbuild does the actual package
+ building.
+ .
+ sbuild uses chroots to build packages, which act as virtual, minimal
+ operating system installations dedicated to package building.  This
+ means that a number of environments may be used for building
+ simultaneously on the same machines, for example stable, testing,
+ unstable and experimental.  When coupled with schroot to create
+ snapshots of chroots, sbuild may be used to build many packages in
+ parallel.  A chroot envionment allows packages to be built in a
+ controlled, clean environment.  sbuild installs only essential and
+ build-essential packages, plus those in the package build
+ dependencies.
+
+Package: acpidump
+Source: acpica-unix
+Priority: optional
+Section: oldlibs
+Installed-Size: 30
+Maintainer: Mattia Dongili <malattia@debian.org>
+Architecture: all
+Version: 20131115-1linaro1
+Depends: acpica-tools
+Filename: pool/main/a/acpica-unix/acpidump_20131115-1linaro1_all.deb
+Size: 5394
+MD5sum: 9544ce29a140dd4435fd1dbbe6a53170
+SHA1: c57a5d283faec508168f190881e2b98ddeeff5d3
+SHA256: b0142e797c955099a95dbd0327e4e3dd523114870085f59ca4ad64b9741347ea
+Description: transitional dummy package
+ This is a transitional dummy package.  It can safely be removed.
+
+Package: iasl
+Source: acpica-unix
+Priority: optional
+Section: oldlibs
+Installed-Size: 30
+Maintainer: Mattia Dongili <malattia@debian.org>
+Architecture: all
+Version: 20131115-1linaro1
+Depends: acpica-tools
+Filename: pool/main/a/acpica-unix/iasl_20131115-1linaro1_all.deb
+Size: 5388
+MD5sum: f238569462cbcd0e30137bc6c8764845
+SHA1: 9134c5e02dff065a19afd03035db046317b5fc51
+SHA256: 602814f91448148a3d417b2c5e26d15342f891031fdfd876f666bb6389827c1c
+Description: transitional dummy package
+ This is a transitional dummy package.  It can safely be removed.
+
+Package: iasl
+Source: acpica-unix
+Priority: optional
+Section: oldlibs
+Installed-Size: 29
+Maintainer: Mattia Dongili <malattia@debian.org>
+Architecture: all
+Version: 20130214-0.2
+Depends: acpica-tools
+Filename: pool/main/a/acpica-unix/iasl_20130214-0.2_all.deb
+Size: 4706
+MD5sum: 35b0a883d96faa2b61a4b47bd5cbf4eb
+SHA1: 4c817c6ae9567a163666f3e265b6266291ed5352
+SHA256: eec56abbd8c548623c23c5727d6ba7f7eb6f8b217d74431ef0dcb04727af2ee8
+Description: transitional dummy package
+ This is a transitional dummy package.  It can safely be removed.
+
+Package: device-tree-compiler
+Priority: extra
+Section: devel
+Installed-Size: 448
+Maintainer: Hector Oron <zumbi@debian.org>
+Architecture: armhf
+Version: 1.4.0-0.1linaro1
+Depends: libc6 (>= 2.15-0ubuntu8)
+Filename: pool/main/d/device-tree-compiler/device-tree-compiler_1.4.0-0.1linaro1_armhf.deb
+Size: 356624
+MD5sum: d08e554dbe5fe09ced269c5ca382d385
+SHA1: b14101f0302e8cb7d75b61e51d292b9d46ed7374
+SHA256: c991664c9b77b14ab8d0e7a3494aeb1ab3fe6bc9ae77319d0e0757e3472d69b2
+Description: Device Tree Compiler for Flat Device Trees
+ Device Tree Compiler, dtc, takes as input a device-tree in
+ a given format and outputs a device-tree in another format
+ for booting kernels on embedded systems.
+ .
+ Typically, the input format is "dts", a human readable source
+ format, and creates a "dtb", or binary format as output.
+
+Package: python-testtools
+Priority: optional
+Section: python
+Installed-Size: 1258
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.9.15-0ubuntu1~linaro1
+Recommends: python-fixtures
+Suggests: python-twisted
+Provides: python2.7-testtools
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-pkg-resources
+Breaks: python-subunit (<< 0.0.6)
+Filename: pool/main/p/python-testtools/python-testtools_0.9.15-0ubuntu1~linaro1_all.deb
+Size: 311940
+MD5sum: c8996db6d204ab2250d2fd5b32fbc144
+SHA1: 7a0b373a9eb6df71a2ca780ab83bc405392783e7
+SHA256: ff2e3243b92d4824082a1c58b29205d77a628afb28c8ab9bd557a2c3310b9276
+Description: Extensions to the Python unittest library
+ testtools (formerly pyunit3k) is a set of extensions to the Python standard
+ library's unit testing framework. These extensions have been derived from
+ years of experience with unit testing in Python and come from many different
+ sources. It's hoped that these extensions will make their way into the
+ standard library eventually. Also included are backports from Python trunk of
+ unittest features that are not otherwise available to existing unittest users.
+Python-Version: 2.7
+Original-Maintainer: Robert Collins <robertc@robertcollins.net>
+
+Package: libsbuild-perl
+Source: sbuild
+Priority: extra
+Section: perl
+Installed-Size: 509
+Maintainer: Debian buildd-tools Developers <buildd-tools-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 0.64.0+repack1-1wook1
+Replaces: sbuild (<= 0.58.4-1)
+Depends: perl, perl-modules, libexception-class-perl, libfilesys-df-perl, libio-zlib-perl, libmime-lite-perl, adduser, apt, apt-utils, exim4 | mail-transport-agent, dpkg-dev, devscripts (>= 2.10.26), dctrl-tools, schroot (>= 1.4.22), libdpkg-perl (>= 1.15.5)
+Filename: pool/main/s/sbuild/libsbuild-perl_0.64.0+repack1-1wook1_all.deb
+Size: 289174
+MD5sum: 5577b599939e0bef3dd4a895499c6e30
+SHA1: 7a4b8941cc2f3e9cfd218ed4e393b2840d544305
+SHA256: 44c80ae96a5fba798bd0e569a3bf96711cee5ed402a0bcbd7d93c820f0a26202
+Description: Tool for building Debian binary packages from Debian sources
+ The sbuild suite of programs (wanna-build, buildd and sbuild) are
+ used to build binary packages from source packages.  The wanna-build
+ database tracks packages which require building; buildd schedules
+ work from information it gets from the wanna-build database; sbuild
+ does the actual package building.
+ .
+ This package contains the core library modules used by these
+ programs.
+
+Package: buildd
+Source: sbuild
+Priority: extra
+Section: devel
+Installed-Size: 522
+Maintainer: Debian buildd-tools Developers <buildd-tools-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 0.64.0+repack1-1wook1
+Replaces: sbuild, ubuntu-dev-tools (<= 0.83)
+Suggests: wanna-build
+Depends: perl, libsbuild-perl, adduser, sbuild (>= 0.64.0+repack1-1wook1), sbuild (<< 0.64.0+repack1-1wook1.1~), dupload, cron, exim4 | mail-transport-agent, libyaml-tiny-perl
+Breaks: ubuntu-dev-tools (<= 0.83)
+Filename: pool/main/s/sbuild/buildd_0.64.0+repack1-1wook1_all.deb
+Size: 289768
+MD5sum: b310c06dbf6414eeac367385fa427629
+SHA1: be1c7b405f94309864711910900e5cdf680c7fb0
+SHA256: 9836cc3854104578c5658ebcca153e5f4164cf6187ff702c9dae3b4c8d111cda
+Description: Daemon for automatically building Debian binary packages from Debian sources
+ The sbuild suite of programs (buildd and sbuild) are
+ used to build binary packages from source packages.  The wanna-build
+ database tracks packages which require building; buildd schedules
+ work from information it gets from the wanna-build database; sbuild
+ does the actual package building.
+ .
+ buildd is a daemon which will build Debian packages automatically
+ using the wanna-build database to identify which packages need to be
+ built.  Note that the wanna-build database is not packaged, and
+ requires installing separately.
+
+Package: qemu-kvm-extras
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Depends: qemu-system, qemu-user
+Filename: pool/main/q/qemu-linaro/qemu-kvm-extras_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_all.deb
+Size: 11550
+MD5sum: bba6afb236ce391edd683ba677574498
+SHA1: eab622d1b3748ac7602c82e6ad1d1f3f75ef24ae
+SHA256: c984b556a9e22c2152ea1fee5672c6fb17c8e2ba8fb245adcef3019a0d68b758
+Description: QEMU system and user mode emulation (transitional package)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This is a transitional package depending on the system and user mode
+ emulation binaries.  You can remove it once the upgrade is complete and
+ nothing depends on it.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-kvm-extras
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.2.0-2012.09-0ubuntu1~linaro1
+Depends: qemu-system, qemu-user
+Filename: pool/main/q/qemu-linaro/qemu-kvm-extras_1.2.0-2012.09-0ubuntu1~linaro1_all.deb
+Size: 11732
+MD5sum: bd073a790ac29bbae9e22d27779b6e60
+SHA1: 26c6dfad167571fc59051719a2e208da9181d0b4
+SHA256: 6080c93ea51aa153b57a8c13f4dcc051e0989d7caa4f3bd58a6e261b8eb5b3ba
+Description: QEMU system and user mode emulation (transitional package)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This is a transitional package depending on the system and user mode
+ emulation binaries.  You can remove it once the upgrade is complete and
+ nothing depends on it.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: python-testrepository
+Source: testrepository
+Priority: optional
+Section: python
+Installed-Size: 323
+Maintainer: Robert Collins <robertc@robertcollins.net>
+Architecture: all
+Version: 0.0.6-0ubuntu1~linaro1
+Depends: python-subunit, python, python-central (>= 0.6.11)
+Filename: pool/main/t/testrepository/python-testrepository_0.0.6-0ubuntu1~linaro1_all.deb
+Size: 55964
+MD5sum: 0f24955c3deab6b5e8e39551564e1ae3
+SHA1: 0dbf3fa8f3616594c62e0a36fb7cef18ed02a079
+SHA256: 4cc8e6d74f7a03ecd28f39bcb47f7cb20a94461f6d610ec50940a7a39ef5c85d
+Description: Database of test results - python library
+ Testrepository provides a database of test results and supports easy workflows
+ to be built on top of that database. For instance, running just failing tests
+ or getting the last test run back to examine again (without running the tests
+ again). Testrepository is compatible with any test suite that can output
+ subunit. This includes any TAP test suite and any pyunit compatible test
+ suite.
+ .
+ The python-testrepository package contains the Python testrepository
+ library, which can be used for programmatic access to the database.
+Python-Version: all
+
+Package: qemu-kvm-extras-static
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Depends: qemu-user-static
+Filename: pool/main/q/qemu-linaro/qemu-kvm-extras-static_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_all.deb
+Size: 11554
+MD5sum: db1d57844bb9cc0cd9c5d72905922979
+SHA1: f4576fe4d67394e23658d900b6a2ec76a2ec31ac
+SHA256: f3cee00c776750eed71487f2d3ff9e9b7f83db8965794b5a86efb7356035863c
+Description: QEMU static user mode emulation binaries (transitional package)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This is a transitional package depending on the static user mode emulation
+ binaries.  You can remove it once the upgrade is complete and nothing
+ depends on it.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-kvm-extras-static
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.2.0-2012.09-0ubuntu1~linaro1
+Depends: qemu-user-static
+Filename: pool/main/q/qemu-linaro/qemu-kvm-extras-static_1.2.0-2012.09-0ubuntu1~linaro1_all.deb
+Size: 11736
+MD5sum: 36373a1029e2960e6c3e8bcf62fcade1
+SHA1: c93deac18ccb962afad84b573852f6f814ba7f24
+SHA256: 1a685468ac4d0821810a635709a9d25c37d9050db80b9e2884c2972596d1a0b5
+Description: QEMU static user mode emulation binaries (transitional package)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This is a transitional package depending on the static user mode emulation
+ binaries.  You can remove it once the upgrade is complete and nothing
+ depends on it.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: testrepository
+Priority: optional
+Section: python
+Installed-Size: 41
+Maintainer: Robert Collins <robertc@robertcollins.net>
+Architecture: all
+Version: 0.0.6-0ubuntu1~linaro1
+Depends: python-testrepository (>= 0.0.6-0ubuntu1~linaro1), python
+Filename: pool/main/t/testrepository/testrepository_0.0.6-0ubuntu1~linaro1_all.deb
+Size: 11042
+MD5sum: 5a8c58ddcfd24ce158f0e19cbb9de213
+SHA1: ad2fb5e68ae0712be20ad1ab485f5456ca96ac35
+SHA256: 0aef54d5f2f8c0042e44c47edd30fe98b5f9596f2d951c71f03cb923d64aa207
+Description: Test result manager
+ Testrepository provides a database of test results and supports easy workflows
+ to be built on top of that database. For instance, running just failing tests
+ or getting the last test run back to examine again (without running the tests
+ again). Testrepository is compatible with any test suite that can output
+ subunit. This includes any TAP test suite and any pyunit compatible test
+ suite.
+ .
+ The testrepository package contains the CLI front end.
+Python-Version: all
+
+Package: qemu-system
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 35668
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Recommends: qemu-kvm, vde2
+Replaces: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Suggests: samba
+Depends: qemu-common, qemu-linaro-keymaps (>= 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1), libasound2 (>= 1.0.23), libbluetooth3 (>= 4.91), libbrlapi0.5, libc6 (>= 2.15-0ubuntu8), libcurl3-gnutls (>= 7.16.2-1), libfdt1, libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0), libgnutls26 (>= 2.12.6.1-0), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.15.16), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libsasl2-2 (>= 2.1.24), libsdl1.2debian (>= 1.2.10-1), libtinfo5, libuuid1 (>= 2.16), libvdeplug2, libx11-6, zlib1g (>= 1:1.1.4)
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Filename: pool/main/q/qemu-linaro/qemu-system_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_armhf.deb
+Size: 16301628
+MD5sum: f58e7812ea576789b66c37d1c6bb918f
+SHA1: 6b63e7996bcedc7c5f0f6bfa8847d3e235b702e8
+SHA256: aec33888f8eb7bc489ac5f7e98734906913fdf4e0e7439d960b7b3a2a352bed1
+Description: QEMU full system emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU emulates a full system, including a
+ processor and various peripherals.  It enables easier testing and debugging
+ of system code.  It can also be used to provide virtual hosting of several
+ virtual machines on a single server.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 12240
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Replaces: qemu (<< 0.11.0-2), qemu-kvm (<< 0.13.0+noroms-0ubuntu13), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0)
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Filename: pool/main/q/qemu-linaro/qemu-user_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_armhf.deb
+Size: 5313386
+MD5sum: 258b74c3892fa12556bb260978fb89c0
+SHA1: 3064ea3f08de46e2fff95395a691c30855a6965d
+SHA256: 96ab4bb6b582d13e3236a85b95f45b6fa2a55f510c65af463591a16413b0edf0
+Description: QEMU user mode emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU can launch Linux processes compiled
+ for one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user-static
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 23815
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Recommends: binfmt-support, debootstrap
+Replaces: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Suggests: sudo
+Breaks: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Filename: pool/main/q/qemu-linaro/qemu-user-static_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_armhf.deb
+Size: 12232456
+MD5sum: 468d42b405d1e30334db2d88ceaa97fb
+SHA1: b8eacc09ad809a20f5ecac4e62a8884772a106a0
+SHA256: 54f9e531956943075ee930f1a5862b69e63ffbfff623c00ea89a826edcf02797
+Description: QEMU user mode emulation binaries (static version)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries, built
+ statically. In this mode QEMU can launch Linux processes compiled for
+ one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-keymaps
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 133
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.4.0-2013.03-0ubuntu1~linaro1
+Replaces: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Breaks: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Filename: pool/main/q/qemu-linaro/qemu-keymaps_1.4.0-2013.03-0ubuntu1~linaro1_all.deb
+Size: 27166
+MD5sum: 1a87355493fa9e4506faf83b68dc19f1
+SHA1: 45d640cafad89b62ceb1addf6336d4c11541998a
+SHA256: 027b0fb67949d9794123e2fd537bccd0b73e198674b1b640ee585833569f8652
+Description: QEMU keyboard maps
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides keyboard maps to be used by the qemu-system
+ package or QEMU derivatives.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-keymaps
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 134
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.2.0-2012.09-0ubuntu1~linaro1
+Replaces: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Breaks: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Filename: pool/main/q/qemu-linaro/qemu-keymaps_1.2.0-2012.09-0ubuntu1~linaro1_all.deb
+Size: 26998
+MD5sum: e9428842b7770963a4ae6a05803555ba
+SHA1: 5f87db4a2b8079da4ecc2f16f1f6127f119a4b30
+SHA256: 6cb8dff7cf19736ee6a0890c640409eb9822a3a186c9e4b33ff386d07652dc00
+Description: QEMU keyboard maps
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides keyboard maps to be used by the qemu-system
+ package or QEMU derivatives.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: live-build
+Priority: optional
+Section: misc
+Installed-Size: 801
+Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Architecture: all
+Version: 3.0~a69-1
+Recommends: live-boot-doc, live-config-doc, live-manual-html | live-manual, cpio, gnu-fdisk
+Suggests: dosfstools, genisoimage, git, loadlin, memtest86+ | memtest86, mtools, parted, squashfs-tools | mtd-tools, sudo | fakeroot, syslinux | grub, uuid-runtime, win32-loader
+Depends: debootstrap | cdebootstrap | cdebootstrap-static
+Filename: pool/main/l/live-build/live-build_3.0~a69-1_all.deb
+Size: 196514
+MD5sum: f0f414713d3f04f3fcda57360dd23315
+SHA1: e27c017f67572da2834f415f92fb19246138bcc3
+SHA256: e3520476e0ba6eb6d79871e284928435e9a8188b878fd9c75ea69061679fed70
+Description: Live System Build Scripts
+ live-build contains the scripts that build a live system from a configuration
+ directory.
+
+Package: live-build-cgi
+Source: live-build
+Priority: optional
+Section: misc
+Installed-Size: 120
+Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Architecture: all
+Version: 3.0~a69-1
+Recommends: apache2 | httpd, cron
+Depends: live-build (= 3.0~a69-1)
+Filename: pool/main/l/live-build/live-build-cgi_3.0~a69-1_all.deb
+Size: 74106
+MD5sum: 74002c98f97360275d24ef4c6c89eca6
+SHA1: 8fb74099d4a848ccf333b0b5688bb0d97f25cc02
+SHA256: 9edc200f675924abd9ddb30a7b65e3bc86838150b71a5e2f7e337b7ca148e38f
+Description: Live System Build Scripts (CGI frontend)
+ live-build contains the scripts that build a live system from a configuration
+ directory.
+ .
+ This package contains the CGI frontend (experimental!).
+
+Package: linaro-image-tools
+Priority: optional
+Section: devel
+Installed-Size: 84
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: all
+Version: 2014.08-0linaro1
+Recommends: btrfs-tools, command-not-found, qemu-user-static | qemu-kvm-extras-static, udisks
+Depends: apt-utils, dosfstools, gdisk, parted, python (>= 2.5), python-argparse, python-dbus, python-debian (>= 0.1.16ubuntu1~), python-linaro-image-tools (>= 2014.08-0linaro1), python-parted, python-yaml, sudo, u-boot-tools | uboot-mkimage
+Filename: pool/main/l/linaro-image-tools/linaro-image-tools_2014.08-0linaro1_all.deb
+Size: 20690
+MD5sum: f8f4a41d50989fc9a3d5c6ed0a346e79
+SHA1: 346da40ab37eda6a020f9e1d8cc96b5a3287e2a2
+SHA256: 91f02959453a7a2b553d49f5cfa6f53c48f907f1b9c1d5a4bc5aeaa236d900ee
+Description: collection of tools to work with Linaro images
+ This package offers a set of tools for use with Linaro images.
+ .
+ The provided linaro-media-create command allows writing Linaro images
+ to a SD card, or generating an image file which you can boot in QEMU.
+
+Package: python-linaro-dashboard-bundle
+Source: linaro-dashboard-bundle
+Priority: optional
+Section: python
+Installed-Size: 235
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.8-0ubuntu1~linaro1
+Provides: python2.7-linaro-dashboard-bundle
+Depends: python-json-schema-validator (>= 2.0), python-simplejson (>= 2.1), python-versiontools (>= 1.1), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Breaks: launch-control (<< 0.4)
+Filename: pool/main/l/linaro-dashboard-bundle/python-linaro-dashboard-bundle_1.8-0ubuntu1~linaro1_all.deb
+Size: 17572
+MD5sum: 96fd544a9d9de90b31a19168ce2b8b5c
+SHA1: 26efd48b864332ac6ac9bb070140140d416d8bc9
+SHA256: 64a38ed05d65069606b28e239812955e49fb54aa94e98415c19e1808c11e14de
+Description: Library for manipulating LAVA dashboard bundles
+ Dashboard Bundle manipulation utilities created by the Linaro
+ (www.linaro.org) Infrastructure Team.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: python-versiontools
+Source: versiontools
+Priority: optional
+Section: python
+Installed-Size: 98
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.9.1-0ubuntu2
+Provides: python2.7-versiontools
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-bzrlib, python-git, mercurial (>= 1.7.5)
+Filename: pool/main/v/versiontools/python-versiontools_1.9.1-0ubuntu2_all.deb
+Size: 14482
+MD5sum: ea0b7954695cc82c4dfe69bc85c1645d
+SHA1: 268beed6cfe2054b6006c6e72142d9ed4934d5bf
+SHA256: 06b438e4e01ec3623304c91f82eedc8d42e9e097fce9dafeb43f70cbe6e05cac
+Description: Smart replacement for plain tuple used in __version__
+ Versiontools allow python modules to export rich version information that
+ conforms to PEP386. As an additional advantage there is just one location
+ where the version is specified (it's no longer necessary to synchronize
+ setup.py and your own modules)
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: python-versiontools-doc
+Source: versiontools
+Priority: optional
+Section: doc
+Installed-Size: 294
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.9.1-0ubuntu2
+Recommends: libjs-jquery
+Filename: pool/main/v/versiontools/python-versiontools-doc_1.9.1-0ubuntu2_all.deb
+Size: 76304
+MD5sum: 7b40ce1d46065ae002bac5d474956bec
+SHA1: 367e37d0b2310d84028f58b946c5b544c8955d2a
+SHA256: d080462ae4509758498e2420defe6d4ff4334ce17096283893d924094168202a
+Description: Documentation for the python-versiontools package
+ Versiontools allow python modules to export rich version information that
+ conforms to PEP386. As an additional advantage there is just one location
+ where the version is specified (it's no longer necessary to synchronize
+ setup.py and your own modules)
+ .
+ This package contains the HTML documentation.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: python-linaro-dashboard-bundle-doc
+Source: linaro-dashboard-bundle
+Priority: optional
+Section: doc
+Installed-Size: 450
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.8-0ubuntu1~linaro1
+Recommends: libjs-jquery
+Filename: pool/main/l/linaro-dashboard-bundle/python-linaro-dashboard-bundle-doc_1.8-0ubuntu1~linaro1_all.deb
+Size: 82038
+MD5sum: a45b923ebe74f3b118410df91106c203
+SHA1: 26603233bd83e2c1956e5307d0b3a0ec0f483f27
+SHA256: 552dacc3bc65856aa3337159d2d54c575c7f0bbaa585be1fe1ec187f032e9c8a
+Description: Library for manipulating LAVA dashboard bundles
+ Dashboard Bundle manipulation utilities created by the Linaro
+ (www.linaro.org) Infrastructure Team.
+ .
+ This package contains the HTML documentation.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: python-linaro-image-tools
+Source: linaro-image-tools
+Priority: optional
+Section: python
+Installed-Size: 906
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: all
+Version: 2014.08-0linaro1
+Depends: python-apt, python (>= 2.5), python-support (>= 0.90.0)
+Filename: pool/main/l/linaro-image-tools/python-linaro-image-tools_2014.08-0linaro1_all.deb
+Size: 154030
+MD5sum: 94d14fe998468b9612b633c5df22e536
+SHA1: e66c9ed3c556b4ebf19faa315308d84fcc551d72
+SHA256: 1482cbf04018bb3497d0813063ee27add58391dd6070df22d6a7a8f76d8e528f
+Description: Python library for the manipulation of Linaro bootable media
+ Linaro images are generated by combining generic tarballs with
+ hardware-specific packs (hwpacks).
+ .
+ This package provides a Python library to generate Linaro images and write
+ them to SD cards or image files that you can be boot in QEMU.
+ .
+ It also provides a Python library to aid with the creation of hardware
+ packs.
+
+Package: lava-tool
+Priority: optional
+Section: python
+Installed-Size: 489
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: all
+Version: 0.11.1-0ubuntu1~linaro1
+Replaces: lava-dashboard-tool (<< 0.8), lava-scheduler-tool (<< 0.6)
+Depends: python (>= 2.7.2-10), python-keyring (>= 0.2-3), python2.7, python (<< 2.8), python-yaml, python-argparse, python-argcomplete, python-json-schema-validator, python-versiontools, python-xdg
+Breaks: lava-dashboard-tool (<< 0.8), lava-scheduler-tool (<< 0.6)
+Filename: pool/main/l/lava-tool/lava-tool_0.11.1-0ubuntu1~linaro1_all.deb
+Size: 58302
+MD5sum: acedd39bdc38e1d94b9fc0b2c5eea94e
+SHA1: dec3c4e71a51f56d9947adf574c8edbb8588105b
+SHA256: 83322d371d4bff32b3056a7bd618f79a68e7f39048a2d5ecc34745d216bf2db5
+Description: Command line utility for Linaro validation services
+ This source package contains the command-line tool for interacting with the
+ various services built by the Linaro (www.linaro.org) Infrastructure Team.
+ .
+ Note that this package only contains the core tool; to actually interact with
+ a service you'll need to install a corresponding plugin.
+
+Package: lava-scheduler-tool
+Priority: optional
+Section: admin
+Installed-Size: 51
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.6-0ubuntu1~linaro1
+Depends: python2.7, python (>= 2.7.2-10), python (<< 2.8), lava-tool (>= 0.7), python-versiontools (>= 1.4)
+Filename: pool/main/l/lava-scheduler-tool/lava-scheduler-tool_0.6-0ubuntu1~linaro1_all.deb
+Size: 3366
+MD5sum: 147e72167775e0bdf57c5173baf15a0f
+SHA1: 4edbea5762176ddc40f4cbfaa277462cbac17ec9
+SHA256: f31f03ee0f5be0b6ebd172e776203c06705e8b28ef6b8e603ad72767b759068a
+Description: Command line utility for the LAVA Scheduler - transitional package
+ This package contains command-line tool for interacting with launch control
+ scheduler developed by the Linaro (www.linaro.org) Infrastructure Team.
+ .
+ lava-scheduler-tool is deprecated as a standalone package, and is now part of
+ the lava-tool package. This package can be safely removed.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: lava-test
+Priority: optional
+Section: admin
+Installed-Size: 255
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.13-0ubuntu1~linaro1
+Depends: lava-tool, python-apt, python-json-schema-validator, python-linaro-dashboard-bundle, python-setuptools (>= 0.6b3), python-versiontools, usbutils, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Filename: pool/main/l/lava-test/lava-test_0.13-0ubuntu1~linaro1_all.deb
+Size: 39828
+MD5sum: 470ff75730e2512fa92e3f0580008c91
+SHA1: b1f02866dc716f0d5e69500f62ef9f18ca58ce1d
+SHA256: 6ac22efb5b4573815fdc029275eea97cc3d339873eea0ae251e5963c3540b68f
+Description: LAVA test execution framework
+ LAVA Test is a test execution framework designed to make it easy to install
+ and run supported tests. Results from testing can be optionally uploaded to
+ a dashboard running lava-dashboard. LAVA Test was used to known as Abrek.
+Original-Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+
+Package: lava-dashboard-tool
+Priority: optional
+Section: admin
+Installed-Size: 51
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.8-0ubuntu1~linaro1
+Replaces: launch-control-tool
+Depends: python2.7, python (>= 2.7.2-10), python (<< 2.8), lava-tool (>= 0.7), python-json-schema-validator (>= 2.0.1), python-versiontools (>= 1.4)
+Filename: pool/main/l/lava-dashboard-tool/lava-dashboard-tool_0.8-0ubuntu1~linaro1_all.deb
+Size: 3718
+MD5sum: 8923219d3c3f653e381ab8d5a4fee458
+SHA1: 079f50e08789401a72f2fac02032f175b971fe82
+SHA256: c83a645e49fdeafc38725c18e69a754a16aeca26a2e7b99d3f5f579af7d97bcd
+Description: Command line utility for the LAVA Dashboard - transitional package.
+ This package contains command-line tool for interacting with launch control
+ dashboard developed by the Linaro (www.linaro.org) Infrastructure Team.
+ .
+ lava-dashboard-tool was incorporated by lava-tool 0.7 and is deprecated as a
+ standlone package. This package can be safely removed.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: live-build-cron
+Source: live-build
+Priority: optional
+Section: misc
+Installed-Size: 156
+Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Architecture: all
+Version: 3.0~a45-1-1linaro3
+Depends: debconf (>= 0.5) | debconf-2.0, live-build (= 3.0~a45-1-1linaro3), cron
+Filename: pool/main/l/live-build/live-build-cron_3.0~a45-1-1linaro3_all.deb
+Size: 73350
+MD5sum: 4324ca77972d039a938acfbc651084e5
+SHA1: 694ef4dd83bc8e3ad87102017eae7e7ac71cd9d8
+SHA256: 4adc05d703d688fb159d2cfba6a7a29d2a42f5a69fc33dbdfdec1bf2a973cc98
+Description: Debian Live - System build scripts (cron autobuilder)
+ live-build contains the scripts that build a Debian Live system image from a
+ configuration directory.
+ .
+ This package contains the cron autobuilder.
+
+Package: lava-android-test
+Priority: optional
+Section: admin
+Installed-Size: 454
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.13-0ubuntu1~linaro1
+Depends: lava-tool, python-linaro-dashboard-bundle, python-pkg-resources, python-versiontools, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-pexpect
+Filename: pool/main/l/lava-android-test/lava-android-test_0.13-0ubuntu1~linaro1_all.deb
+Size: 58704
+MD5sum: 7ec76ae95714ea4b874c16c6e5cd59d9
+SHA1: 3aa8db0bd8126df3bb21efa951f6f29f6edfd7d3
+SHA256: 112a3623ef7b334193af1b908b0cf7b77e208698bc08f3294249cbb5128aa386
+Description: LAVA test execution framework for Android
+ Lava-test is an automated testing framework with pre-defined tests and the
+ ability to define additional tests as needed.  Tests can be automatically
+ installed, executed, and the results can be parsed and uploaded to an external
+ server.
+ .
+ This package contains Android related tests.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: android-tools-adb
+Source: android-tools
+Priority: extra
+Section: devel
+Installed-Size: 175
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.2+git20130218-3ubuntu23+linaro1
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/a/android-tools/android-tools-adb_4.2.2+git20130218-3ubuntu23+linaro1_armhf.deb
+Size: 70020
+MD5sum: 629c9a8f4356b5eeb53b1c7dcc19655f
+SHA1: 39c4f384aefb0e3aa3bda75ea68b369200c4abaa
+SHA256: 3d7ae7f881ddaf74baac517b94c583b73cbac9f18ce64432444b49eb62030790
+Description: Android Debug Bridge CLI tool
+ Android Debug Bridge (adb) is a versatile tool lets you manage the
+ state of an emulator instance or Android-powered device. It is a
+ client-server program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+
+Package: android-tools-fastboot
+Source: android-tools
+Priority: extra
+Section: devel
+Installed-Size: 125
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.2+git20130218-3ubuntu23+linaro1
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libselinux1 (>= 2.0.65), zlib1g (>= 1:1.2.3.3.dfsg)
+Filename: pool/main/a/android-tools/android-tools-fastboot_4.2.2+git20130218-3ubuntu23+linaro1_armhf.deb
+Size: 49640
+MD5sum: 01a20482e17e2754cfece47e085bb4d7
+SHA1: cddd78741de3cd3d6758c9434b24b53c73664507
+SHA256: 58a7c8de3625b08816fdc9934b93a35e62335341c87ab5a160c1162abddeda0b
+Description: Android Fastboot protocol CLI tool
+ Fastboot is a diagnostic protocol primarily used to update the flash
+ filesystem of Android devices over USB.
+ .
+ This package provides the fastboot command-line tool.
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+
+Package: libfdt1
+Source: device-tree-compiler
+Priority: extra
+Section: libs
+Installed-Size: 51
+Maintainer: Hector Oron <zumbi@debian.org>
+Architecture: armhf
+Version: 1.4.0-0.1linaro1
+Depends: libc6 (>= 2.15-0ubuntu8)
+Filename: pool/main/d/device-tree-compiler/libfdt1_1.4.0-0.1linaro1_armhf.deb
+Size: 13916
+MD5sum: 2c0173bf1dbe561d673a18178f0599e1
+SHA1: c90fd3d93ad66a7b572ae88791041c33d53c9705
+SHA256: 9c91eac6e44af9be399b522572ebce9a5e60035e9d70130469b49553b7c08e49
+Description: Flat Device Trees manipulation library
+ This is a library containing functions for manipulating Flat Device Trees.
+
+Package: libfdt-dev
+Source: device-tree-compiler
+Priority: extra
+Section: libdevel
+Installed-Size: 109
+Maintainer: Hector Oron <zumbi@debian.org>
+Architecture: armhf
+Version: 1.4.0-0.1linaro1
+Depends: libfdt1 (= 1.4.0-0.1linaro1)
+Filename: pool/main/d/device-tree-compiler/libfdt-dev_1.4.0-0.1linaro1_armhf.deb
+Size: 23328
+MD5sum: 27195e0ff0a02f11e8482aad50946544
+SHA1: 8058a8f313eeba6a43d22cc117e33dfe9d5d0631
+SHA256: 06035fe811e07691b4a2d32ef0201b86dcd1c7aade011d45b2c5b0fafcb9cca0
+Description: Flat Device Trees manipulation library - development files
+ This is a library containing functions for manipulating Flat Device Trees.
+ .
+ This package contains the files needed for development against libfdt.
+
+Package: kvm-boot-wrapper
+Priority: extra
+Section: misc
+Installed-Size: 99
+Maintainer: Michael Hope <michael.hope@linaro.org>
+Architecture: armhf
+Version: 0.1~ppa1+bzr30+bzr13~precise1
+Filename: pool/main/k/kvm-boot-wrapper/kvm-boot-wrapper_0.1~ppa1+bzr30+bzr13~precise1_armhf.deb
+Size: 3702
+MD5sum: 2c8709d601f3579bc7bce4dd841ffb2d
+SHA1: fbb6e5b02caae48626867dc915daa79bce585e0f
+SHA256: c967386bc008995e2539b5f58f25b8cbd47dce9d68f7e17d46b7b1680d489aab
+Description: KVM Fast Model boot wrapper
+ A pre-built version of the boot wrapper used for starting a KVM
+ kernel inside an ARM Inc. Fast Model.
+
+Package: python-json-schema-validator
+Source: json-schema-validator
+Priority: optional
+Section: python
+Installed-Size: 164
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2.3-0ubuntu1~linaro2
+Suggests: python-json-schema-validator-doc
+Provides: python2.7-json-schema-validator
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-simplejson (>= 0.2.9), python-versiontools (>= 1.1)
+Filename: pool/main/j/json-schema-validator/python-json-schema-validator_2.3-0ubuntu1~linaro2_all.deb
+Size: 18578
+MD5sum: 830ff24082f89f1fce3fde8b02a2a359
+SHA1: aade808d1e7a47a11ceaced356408bdc0976c4c5
+SHA256: decd50c4be3533ea5a8f13165d50ef01145610d5556737c99498384ed3143ea4
+Description: JSON manipulation utilities developed by the Linaro infrastructure team
+ The most significant feature of json-schema-validator is a JSON Schema
+ validator (conforming to a subset of second draft ot fhe specification).
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: python-json-schema-validator-doc
+Source: json-schema-validator
+Priority: optional
+Section: doc
+Installed-Size: 177
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2.3-0ubuntu1~linaro2
+Recommends: libjs-jquery
+Depends: libjs-sphinxdoc (>= 1.0)
+Filename: pool/main/j/json-schema-validator/python-json-schema-validator-doc_2.3-0ubuntu1~linaro2_all.deb
+Size: 31190
+MD5sum: 04e1a14899572741a24d00ac1d30871a
+SHA1: ab35d7ddfda39cacc2969e4e557f2de21aafe265
+SHA256: a1b00d1d8a9acf411111c0aaa0a4d2b1549e2d67754130cbbda0cf21a3d49753
+Description: JSON manipulation utilities developed by the Linaro infrastructure team
+ The most significant feature of json-schema-validator is a JSON Schema
+ validator (conforming to a subset of second draft ot fhe specification).
+ .
+ This package contains the HTML documentation.
+Original-Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+
+Package: riff-configpack
+Priority: extra
+Section: misc
+Installed-Size: 340
+Maintainer: packages@igloocommunity.org
+Architecture: all
+Version: 0.5.0-igloo1
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Filename: pool/main/r/riff-configpack/riff-configpack_0.5.0-igloo1_all.deb
+Size: 175742
+MD5sum: 8d8bca07def438c878756f04fab63b7e
+SHA1: 98bf4376dcce17b56ecac236559a89beefea50b5
+SHA256: 58bc24443812d6143751db1455b4bb48aaa745e966af4453d19976564d4ea6ee
+Description: Configpack for riff
+ This package contains binaries required by the riff tool to flash
+ the ST-Ericsson Snowball boards
+
+Package: android-tools-fsutils
+Source: android-tools
+Priority: extra
+Section: devel
+Installed-Size: 354
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.2+git20130218-3ubuntu23+linaro1
+Depends: python, libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libselinux1 (>= 2.0.65), zlib1g (>= 1:1.2.3.3.dfsg)
+Filename: pool/main/a/android-tools/android-tools-fsutils_4.2.2+git20130218-3ubuntu23+linaro1_armhf.deb
+Size: 208542
+MD5sum: f2dd7a20b641a8c88923d7067513ad2a
+SHA1: 77a1e23d97679905d5bd3e4b0a0dde33ab3c4268
+SHA256: 96c6a564ff4923dba880b181eba285c740aa9230def0a615d96357ba6341a6e7
+Description: Android ext4 utilities with sparse support
+ Android images (.img) are typically ext4 filesystems in a special
+ sparse file format come in a special format.
+ .
+ This package provides the utilities to deal with Android sparse ext4
+ images.
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+
+Package: acpica-tools
+Source: acpica-unix
+Priority: optional
+Section: devel
+Installed-Size: 1300
+Maintainer: Mattia Dongili <malattia@debian.org>
+Architecture: armhf
+Version: 20131115-1linaro1
+Replaces: acpidump (<< 20100513-4), iasl (<< 20130214-0.1)
+Provides: acpidump, iasl
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0)
+Breaks: acpidump (<< 20100513-4), iasl (<< 20130214-0.1)
+Filename: pool/main/a/acpica-unix/acpica-tools_20131115-1linaro1_armhf.deb
+Size: 736222
+MD5sum: 02ff994a67890c15fa80ec1731881f88
+SHA1: 38b6df80538b237e811435e8f3fcb05c63289b77
+SHA256: 107991fbd983e8e9875e4103499652a6c7d7be6505bb0624af52b3f6132c6914
+Description: ACPICA tools for the development and debug of ACPI tables
+ The ACPI Component Architecture (ACPICA) project provides an OS-independent
+ reference implementation of the Advanced Configuration and Power Interface
+ Specification (ACPI).  ACPICA code contains those portions of ACPI meant to
+ be directly integrated into the host OS as a kernel-resident subsystem, and
+ a small set of tools to assist in developing and debugging ACPI tables.
+ .
+ This package contains only the user-space tools needed for ACPI table
+ development, not the kernel implementation of ACPI.  The following commands
+ are installed:
+ -- iasl: compiles ASL (ACPI Source Language) into AML (ACPI Machine
+ Language), suitable for inclusion as a DSDT in system firmware.
+ It also can disassemble AML, for debugging purposes.
+ -- acpibin: performs basic operations on binary AML files (e.g.,
+ comparison, data extraction)
+ -- acpidump: write out the current contents of ACPI tables
+ -- acpiexec: simulate AML execution in order to debug method definitions
+ -- acpihelp: display help messages describing ASL keywords and op-codes
+ -- acpinames: display complete ACPI name space from input AML
+ -- acpisrc: manipulate the ACPICA source tree and format source files
+ for specific environments
+ -- acpixtract: extract binary ACPI tables from acpidump output (see
+ also the pmtools package)
+
+Package: acpi-abat
+Priority: extra
+Section: devel
+Installed-Size: 157
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 0.2-0linaro1
+Depends: libc6 (>= 2.15-0ubuntu8)
+Filename: pool/main/a/acpi-abat/acpi-abat_0.2-0linaro1_armhf.deb
+Size: 21052
+MD5sum: 2db13db1516d723b1e768cd6f3b4d8d5
+SHA1: 951ac3c48650f38f8b4f6a79783a8ef0e7d7d67b
+SHA256: 2384985700dadf0963f97f076cc3df9e9a564f86c0ffe4ff749cdfc04d0bf1c6
+Description: ACPI automatic basic acceptance testing (ABAT)
+ ABAT is expected to include a testing tool to dump/validate all the ACPI
+ interface information under /proc and /sys, the testing of load/unload all
+ ACPI drivers and some basic and automatic functional test suites. ABAT will
+ give a summary about the ACPI driver basic health status.
+
+Package: qemu-linaro-keymaps
+Source: qemu-linaro
+Priority: optional
+Section: misc
+Installed-Size: 133
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1
+Replaces: qemu (<< 0.11.0-2), qemu-keymaps, qemu-system (<< 0.12.4+dfsg-4)
+Breaks: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Filename: pool/main/q/qemu-linaro/qemu-linaro-keymaps_1.5.0-2013.06+git74+20130802+ef1b0ae-3linaroprecise1_all.deb
+Size: 27236
+MD5sum: 00aeb0295412845aad2326adbf30e765
+SHA1: 3f7c20accee8965ebd54d9c509aa927cb73b6f06
+SHA256: f04a8e3b3aee6ca2e09fb9ff4eacc9f58d5011b34c041347c97239b25a5cec21
+Description: QEMU keyboard maps
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides keyboard maps to be used by the qemu-system
+ package or QEMU derivatives.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: python-argcomplete
+Priority: optional
+Section: python
+Installed-Size: 137
+Maintainer: Marco Nenciarini <mnencia@debian.org>
+Architecture: all
+Version: 0.5.4-1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-setuptools
+Filename: pool/main/p/python-argcomplete/python-argcomplete_0.5.4-1_all.deb
+Size: 21000
+MD5sum: 45f81f4cb68de564e60b15c24cb6056d
+SHA1: 173f75d85214e4ec50a740dd9ded6ff2bc4e6860
+SHA256: 76df3eb8d299cbac81bbafafba33a7e83ab9c7d193266bb6fd3526184c58236e
+Description: bash tab completion for argparse
+ Argcomplete provides easy, extensible command line tab completion of
+ arguments for your Python script.
+ .
+ It makes two assumptions:
+ .
+ * You're using bash as your shell
+ * You're using argparse to manage your command line arguments/options
+ .
+ Argcomplete is particularly useful if your program has lots of
+ options or subparsers, and if your program can dynamically suggest
+ completions for your argument/option values (for example, if the user
+ is browsing resources over the network).
+
+Package: android-tools-adbd
+Source: android-tools
+Priority: extra
+Section: devel
+Installed-Size: 129
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.2+git20130218-3ubuntu23+linaro1
+Depends: libhybris-utils, upstart-job, libc6 (>= 2.15-0ubuntu8), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/a/android-tools/android-tools-adbd_4.2.2+git20130218-3ubuntu23+linaro1_armhf.deb
+Size: 54426
+MD5sum: dd863b862aa8d3e8ded9f2450b5b1aae
+SHA1: 09488904f15a51597af7b92bd03152243287d94e
+SHA256: 728aa06ddd3c84f0201d2788772936b50a73800a95ad4ac4a188cf02fda92804
+Description: Android Debug Bridge Phone Daemon
+ Android Debug Bridge (adb) is a versatile tool lets you manage the
+ state of an emulator instance or Android-powered device. It is a
+ client-server program that includes three components.
+ .
+ This package provides the daemon, which runs as a background process
+ on a device you want to connect to from a PC.
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+
+Package: lava-coordinator
+Priority: optional
+Section: net
+Installed-Size: 123
+Maintainer: Neil Williams <codehelp@debian.org>
+Architecture: all
+Version: 0.1.5-1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-daemon, python-lockfile
+Filename: pool/main/l/lava-coordinator/lava-coordinator_0.1.5-1_all.deb
+Size: 14718
+MD5sum: 214b90d11a6ca5fd3cdac2a609d848ab
+SHA1: 7a848c4e0a08748995909cca2d13f306af0130f9
+SHA256: 84c33416fc11e25709eb1a8c661c19b2617fbe8db60c12ffe8efc4772c0643b1
+Description: LAVA Coordinator daemon
+ This package provides lava coordinator to coordinate
+ communication between MultiNode LAVA jobs on
+ configured devices.
+
+Package: lavapdu
+Priority: optional
+Section: net
+Installed-Size: 128
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 0.0.2-1ubuntu1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-daemon, python-lockfile, python-pexpect, python-psycopg2, postgresql-client-common
+Filename: pool/main/l/lavapdu/lavapdu_0.0.2-1ubuntu1_all.deb
+Size: 16612
+MD5sum: ba3cb6d0a8a562ab026bafcccf78a2d8
+SHA1: fcf66c4e7ac55961865de9f3ee187c361b1f9586
+SHA256: 1d40aaaf0df58003a610082dc5173b4f92a6944e2f382a98c99fe50b433eea50
+Description: LAVA PDU control daemon
+ LAVA supports a number of APC power distribution
+ units which allow control over the power supply
+ to individual devices.
+ .
+ lavapdu provides a client which LAVA can use to
+ ensure that devices get a hard reboot if a soft
+ reboot fails. Operations are recorded in a postgres
+ database for the runner daemon to process.
+

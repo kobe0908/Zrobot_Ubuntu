@@ -1,0 +1,116 @@
+Running hook /usr/lib/pm-utils/power.d/95hdparm-apm false:
+
+/usr/lib/pm-utils/power.d/95hdparm-apm false: success.
+Running hook /usr/lib/pm-utils/power.d/anacron false:
+start: Job is already running: anacron
+
+/usr/lib/pm-utils/power.d/anacron false: success.
+Running hook /usr/lib/pm-utils/power.d/disable_wol false:
+
+/usr/lib/pm-utils/power.d/disable_wol false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/intel-audio-powersave false:
+
+/usr/lib/pm-utils/power.d/intel-audio-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/laptop-mode false:
+Laptop mode disabled.
+
+/usr/lib/pm-utils/power.d/laptop-mode false: success.
+Running hook /usr/lib/pm-utils/power.d/pci_devices false:
+
+/usr/lib/pm-utils/power.d/pci_devices false: success.
+Running hook /usr/lib/pm-utils/power.d/pcie_aspm false:
+
+/usr/lib/pm-utils/power.d/pcie_aspm false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/sata_alpm false:
+
+/usr/lib/pm-utils/power.d/sata_alpm false: success.
+Running hook /usr/lib/pm-utils/power.d/sched-powersave false:
+**sched policy powersave OFF
+
+/usr/lib/pm-utils/power.d/sched-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/usb_bluetooth false:
+
+/usr/lib/pm-utils/power.d/usb_bluetooth false: success.
+Running hook /usr/lib/pm-utils/power.d/wireless false:
+
+/usr/lib/pm-utils/power.d/wireless false: success.
+Running hook /usr/lib/pm-utils/power.d/xfs_buffer false:
+
+/usr/lib/pm-utils/power.d/xfs_buffer false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/95hdparm-apm false:
+
+/usr/lib/pm-utils/power.d/95hdparm-apm false: success.
+Running hook /usr/lib/pm-utils/power.d/anacron false:
+start: Job is already running: anacron
+
+/usr/lib/pm-utils/power.d/anacron false: success.
+Running hook /usr/lib/pm-utils/power.d/disable_wol false:
+
+/usr/lib/pm-utils/power.d/disable_wol false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/intel-audio-powersave false:
+
+/usr/lib/pm-utils/power.d/intel-audio-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/laptop-mode false:
+Laptop mode disabled.
+
+/usr/lib/pm-utils/power.d/laptop-mode false: success.
+Running hook /usr/lib/pm-utils/power.d/pci_devices false:
+
+/usr/lib/pm-utils/power.d/pci_devices false: success.
+Running hook /usr/lib/pm-utils/power.d/pcie_aspm false:
+
+/usr/lib/pm-utils/power.d/pcie_aspm false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/sata_alpm false:
+
+/usr/lib/pm-utils/power.d/sata_alpm false: success.
+Running hook /usr/lib/pm-utils/power.d/sched-powersave false:
+**sched policy powersave OFF
+
+/usr/lib/pm-utils/power.d/sched-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/usb_bluetooth false:
+
+/usr/lib/pm-utils/power.d/usb_bluetooth false: success.
+Running hook /usr/lib/pm-utils/power.d/wireless false:
+
+/usr/lib/pm-utils/power.d/wireless false: success.
+Running hook /usr/lib/pm-utils/power.d/xfs_buffer false:
+
+/usr/lib/pm-utils/power.d/xfs_buffer false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/95hdparm-apm false:
+
+/usr/lib/pm-utils/power.d/95hdparm-apm false: success.
+Running hook /usr/lib/pm-utils/power.d/anacron false:
+
+/usr/lib/pm-utils/power.d/anacron false: success.
+Running hook /usr/lib/pm-utils/power.d/disable_wol false:
+
+/usr/lib/pm-utils/power.d/disable_wol false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/intel-audio-powersave false:
+
+/usr/lib/pm-utils/power.d/intel-audio-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/laptop-mode false:
+Laptop mode disabled.
+
+/usr/lib/pm-utils/power.d/laptop-mode false: success.
+Running hook /usr/lib/pm-utils/power.d/pci_devices false:
+
+/usr/lib/pm-utils/power.d/pci_devices false: success.
+Running hook /usr/lib/pm-utils/power.d/pcie_aspm false:
+
+/usr/lib/pm-utils/power.d/pcie_aspm false: not applicable.
+Running hook /usr/lib/pm-utils/power.d/sata_alpm false:
+
+/usr/lib/pm-utils/power.d/sata_alpm false: success.
+Running hook /usr/lib/pm-utils/power.d/sched-powersave false:
+**sched policy powersave OFF
+
+/usr/lib/pm-utils/power.d/sched-powersave false: success.
+Running hook /usr/lib/pm-utils/power.d/usb_bluetooth false:
+
+/usr/lib/pm-utils/power.d/usb_bluetooth false: success.
+Running hook /usr/lib/pm-utils/power.d/wireless false:
+
+/usr/lib/pm-utils/power.d/wireless false: success.
+Running hook /usr/lib/pm-utils/power.d/xfs_buffer false:
+
+/usr/lib/pm-utils/power.d/xfs_buffer false: not applicable.

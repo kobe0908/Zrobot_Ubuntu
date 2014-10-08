@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/pkcs7-mime">
   <!--Created automatically by update-mime-database. DO NOT EDIT!-->
-  <comment>S/MIME file</comment>
   <comment xml:lang="ar">ملف S/MIME</comment>
   <comment xml:lang="ast">ficheru S/MIME</comment>
   <comment xml:lang="az">S/MIME faylı</comment>
@@ -60,4 +59,11 @@
   <acronym>S/MIME</acronym>
   <expanded-acronym>Secure/Multipurpose Internet Mail Extensions</expanded-acronym>
   <generic-icon name="text-x-generic"/>
+  <comment>PKCS#7 Message and Certificates</comment>
+  <acronym>PKCS#7</acronym>
+  <glob pattern="*.p7c"/>
+  <glob pattern="*.p7m"/>
+  <glob pattern="*.spc"/>
+  <glob pattern="*.p7b"/>
+  <alias type="application/x-pkcs7-certificates"/>
 </mime-type>

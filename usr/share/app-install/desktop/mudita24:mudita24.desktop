@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=mudita24
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Mudita24
+GenericName=ALSA GUI control tool for Envy24 (ice1712) soundcards
+Icon=mudita24
+Exec=mudita24
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

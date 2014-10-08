@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=4digits
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Name=4digits
+Comment=A guess-the-number game, aka Bulls and Cows
+Exec=4digits
+Icon=4digits
+Terminal=false
+Type=Application
+Categories=Game;LogicGame;GTK
+X-Ubuntu-Gettext-Domain=app-install-data

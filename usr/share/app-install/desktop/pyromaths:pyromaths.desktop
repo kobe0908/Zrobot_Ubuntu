@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pyromaths
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Icon=_usr_share_pixmaps_pyromaths
+Version=1.0
+Name=Pyromaths
+Comment=Generator for math worksheets for french college
+Exec=/usr/bin/pyromaths
+Terminal=false
+Type=Application
+Categories=GNOME;Education;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

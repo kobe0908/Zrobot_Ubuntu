@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=mp3splt-gtk
+X-AppInstall-Popcon=241
+X-AppInstall-Section=universe
+
+Name=Mp3splt-gtk audio splitter
+GenericName=Sound Splitter
+Comment=Split mp3 and ogg files without decoding
+
+Icon=_usr_share_pixmaps_mp3splt-gtk_ico
+
+Type=Application
+Categories=Application;AudioVideo;Audio;AudioVideoEditing;
+
+Exec=mp3splt-gtk
+StartupNotify=false
+Terminal=false
+MimeType=application/x-cue;application/x-cddb;application/ogg;audio/x-mp3;audio/ogg;audio/x-vorbis+ogg;audio/mpeg;
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

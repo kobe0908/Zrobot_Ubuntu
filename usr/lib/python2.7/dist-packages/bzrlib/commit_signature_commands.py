@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/commit_signature_commands.py

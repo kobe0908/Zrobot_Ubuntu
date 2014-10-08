@@ -1,0 +1,1 @@
+../../../../../share/pyshared/launchpadlib/testing/launchpad.py

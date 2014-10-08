@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=smartpm
+X-AppInstall-Popcon=49
+X-AppInstall-Section=universe
+
+Name=Smart Package Manager
+Exec=gksu -- smart --gui
+Icon=smart
+Type=Application
+Categories=System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../share/pyshared/checkbox/parsers/dmidecode.py

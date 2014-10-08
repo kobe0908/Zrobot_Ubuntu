@@ -1,0 +1,49 @@
+plugin: local
+name: floppy/check
+requires: device.driver == 'floppy'
+description: Floppy test
+description-ast.UTF-8: Prueba de disquete
+description-be.UTF-8: Тэст дыскеты
+description-bs.UTF-8: Test flopi diska
+description-ca.UTF-8: Comprovació del disquet
+description-cs.UTF-8: Test disketové mechaniky
+description-da.UTF-8: Floppy-test
+description-de.UTF-8: Diskettenlaufwerkstest
+description-el.utf-8: Δοκιμή Floppy
+description-en_AU.UTF-8: Floppy test
+description-en_GB.UTF-8: Floppy test
+description-es.UTF-8: Prueba de disquete
+description-fi.UTF-8: Korpputesti
+description-fr.UTF-8: Test du lecteur de disquette
+description-gd.UTF-8: Deuchainn clàr sùbailte
+description-gl.UTF-8: Proba de disquete
+description-hu.UTF-8: Floppy teszt
+description-it.UTF-8: Test del floppy
+description-ja.UTF-8: フロッピーのテスト
+description-lv.UTF-8: Disketes tests
+description-ms.UTF-8: Uji cakera liut
+description-nl.UTF-8: Floppytest
+description-oc.UTF-8: Tèst del lector de disquetas
+description-pl.UTF-8: Test stacji dyskietek
+description-pt.UTF-8: Teste à floppy
+description-pt_BR.UTF-8: Testar o disquete
+description-ro.UTF-8: Testare floppy
+description-ru.UTF-8: Тест дискеты
+description-sl.UTF-8: Preizkus disketnega pogona
+description-sq.UTF-8: Testim i disketës
+description-sr.UTF-8: Тест дискете
+description-sv.UTF-8: Diskettest
+description-tr.UTF-8: Disket Sınama
+description-ug.UTF-8: يۇمشاق دىسكا سىنىقى
+description-uk.UTF-8: Флопі тест
+description-zh_HK.UTF-8: 軟盤測試
+description-zh_TW.UTF-8: 軟碟測試
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "driver=floppy"'
+ plugin: shell
+ name: floppy/check_`ls /sys$path/driver/*/*/*/block`
+ requires: device.path == "$path"
+ description: Floppy test for $product
+ user: root
+ command: floppy_test /dev/`ls /sys$path/driver/*/*/*/block`
+ EOF

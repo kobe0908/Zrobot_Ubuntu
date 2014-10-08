@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gbatnav
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=Gnome Batalla Naval server
+Comment=Gnome Batalla Naval server
+Exec=/usr/games/gbnserver
+Icon=gnome-gbatnavd
+Terminal=0
+Type=Application
+Categories=GNOME;Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

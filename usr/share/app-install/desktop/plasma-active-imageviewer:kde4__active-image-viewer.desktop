@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-active-imageviewer
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Name=Images
+GenericName=Image viewer
+Comment=An image viewer for touch tablets
+
+Exec=active-imageviewer -graphicssystem raster %u
+Terminal=false
+Icon=active-image-viewer
+Type=Application
+Categories=Qt;KDE;Graphics;RasterGraphics;Viewer;Photography;
+MimeType=inode/directory;image/gif;image/jpeg;image/png;image/bmp;image/x-eps;image/x-ico;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;
+InitialPreference=9
+
+X-Ubuntu-Gettext-Domain=app-install-data

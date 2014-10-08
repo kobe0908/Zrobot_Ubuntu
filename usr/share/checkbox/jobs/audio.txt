@@ -1,0 +1,134 @@
+plugin: shell 
+name: audio/list_devices
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base'
+command: cat /proc/asound/cards
+description: Test to detect audio devices
+description-ast.UTF-8: Prueba pa deteutar preseos d'audio
+description-ca.UTF-8: Prova per detectar dispositius d'àudio
+description-cs.UTF-8: Testovat přítomnost audio zařízení
+description-de.UTF-8: Test zur Erkennung von Audio-Geräten
+description-el.utf-8: Έλεγχος για ανίχνευση συσκευών ήχου
+description-en_AU.UTF-8: Test to detect audio devices
+description-en_GB.UTF-8: Test to detect audio devices
+description-es.UTF-8: Prueba para detectar dispositivos de audio
+description-fi.UTF-8: Testi äänilaitteiden havaitsemiseen
+description-fr.UTF-8: Testez la détection des périphériques audio
+description-gd.UTF-8: Deuchainn lorg innleachdan claisneach
+description-gl.UTF-8: Proba para detectar os dispositivos de son
+description-he.UTF-8: בדיקה לאיתור התקני שמע
+description-hi.UTF-8: ऑडियो उपकरणों का पता लगाने के लिए टेस्ट
+description-hu.UTF-8: Teszt a hangeszközök felismerésére
+description-it.UTF-8: Test per rilevare periferiche audio
+description-ja.UTF-8: オーディオデバイス検出テストを実行する
+description-ko.UTF-8: 검색되는 오디오 장치를 테스트합니다
+description-ms.UTF-8: Uji untuk kesan peranti audio
+description-nl.UTF-8: Test om audio-apparaten te detecteren
+description-oc.UTF-8: Tèst per detectar de periferics àudio
+description-pt_BR.UTF-8: Teste para detectar dispositivos de áudio
+description-ro.UTF-8: Test pentru detectarea dispozitivelor audio
+description-ru.UTF-8: Проверка определения звуковых устройств
+description-sk.UTF-8: Test pre detekciu zvukových zariadení
+description-sl.UTF-8: Preizkusi zaznavo zvočnih naprav
+description-sv.UTF-8: Test för att upptäcka ljudenheter
+description-ta.UTF-8: ஒலி சாதனங்களுக்கான கண்டறிதலுக்கான சோதனை
+description-tr.UTF-8: Ses sisteminizi bulan test
+description-ug.UTF-8: ئۈن ئۈسكۈنىسىنى تېپىشنى سىناش
+description-uk.UTF-8: Перевірити наявність аудіо пристроїв
+description-zh_TW.UTF-8: 偵測音效裝置的測試
+
+plugin: manual
+name: audio/playback_auto
+depends: audio/list_devices
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base' and package.name == 'python-gst0.10'
+command: audio_settings store > $CHECKBOX_SHARE/pulseaudio_settings; audio_settings set --device=pci --volume=50; gst_pipeline_test -t 2 'audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink'; audio_settings restore --file=$CHECKBOX_SHARE/pulseaudio_settings
+description:
+ PURPOSE:
+     This test will check that internal speakers work correctly
+ STEPS:
+     1. Make sure that no external speakers or headphones are connected
+        If testing a desktop, external speakers are allowed
+     2. Click the Test button to play a brief tone on your audio device
+ VERIFICATION:
+     Did you hear a tone?
+
+plugin: manual
+name: audio/playback_headphones
+depends: audio/list_devices
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base' and package.name == 'python-gst0.10'
+command: audio_settings store > $CHECKBOX_SHARE/pulseaudio_settings; audio_settings set --device=pci --volume=50; gst_pipeline_test -t 2 'audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink'; audio_settings restore --file=$CHECKBOX_SHARE/pulseaudio_settings
+description:
+ PURPOSE:
+     This test will check that headphones connector works correctly
+ STEPS:
+     1. Connect a pair of headphones to your audio device
+     2. Click the Test button to play a sound to your audio device
+ VERIFICATION:
+     Did you hear a sound through the headphones and did the sound play without any distortion, clicks or other strange noises from your headphones?
+
+plugin: manual
+name: audio/alsa_record_playback_internal
+depends: audio/playback_auto
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base'
+command: audio_settings store > $CHECKBOX_SHARE/pulseaudio_settings; audio_settings set --device=pci --volume=50; alsa_record_playback; audio_settings restore --file=$CHECKBOX_SHARE/pulseaudio_settings
+description:
+ PURPOSE:
+     This test will check that recording sound using the onboard microphone works correctly
+ STEPS:
+     1. Disconnect any external microphones that you have plugged in
+     2. Click "Test", then speak into your internal microphone
+     3. After a few seconds, your speech will be played back to you.
+ VERIFICATION:
+     Did you hear your speech played back?
+
+plugin: manual
+name: audio/alsa_record_playback_external
+depends: audio/playback_headphones
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base'
+command: audio_settings store > $CHECKBOX_SHARE/pulseaudio_settings; audio_settings set --device=pci --volume=50; alsa_record_playback; audio_settings restore --file=$CHECKBOX_SHARE/pulseaudio_settings
+description:
+ PURPOSE:
+     This test will check that recording sound using an external microphone works correctly
+ STEPS:
+     1. Connect a microphone to your microphone port
+     2. Click "Test", then speak into the external microphone
+     3. After a few seconds, your speech will be played back to you
+ VERIFICATION:
+     Did you hear your speech played back?
+
+plugin: manual
+name: audio/alsa_record_playback_usb
+requires:
+ device.category == 'AUDIO'
+ package.name == 'alsa-base'
+command: audio_settings store > $CHECKBOX_SHARE/pulseaudio_settings; audio_settings set --device=usb --volume=50; alsa_record_playback; audio_settings restore --file=$CHECKBOX_SHARE/pulseaudio_settings
+description:
+ PURPOSE:
+     This test will check that a USB audio device works correctly
+ STEPS:
+     1. Connect a USB audio device to your system
+     2. Click "Test", then speak into the microphone
+     3. After a few seconds, your speech will be played back to you
+ VERIFICATION:
+     Did you hear your speech played back through the USB headphones?
+
+plugin: shell
+name: audio/alsa_record_playback_automated
+requires:
+ package.name == 'sox'
+ package.name == 'alsa-base'
+ device.category == 'AUDIO'
+command: audio_test
+description:
+ Play back a sound on the default output and listen for it on the 
+ default input.  This makes the most sense when the output and input 
+ are directly connected, as with a patch cable.

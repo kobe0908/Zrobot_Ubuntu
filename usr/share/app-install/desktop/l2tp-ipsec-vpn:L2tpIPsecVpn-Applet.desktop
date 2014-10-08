@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=l2tp-ipsec-vpn
+X-AppInstall-Popcon=67
+X-AppInstall-Section=universe
+
+Type=Application
+Terminal=false
+Name=L2TP Ipsec VPN Applet
+Comment=Control your L2TP IPsec VPN connections
+Exec=L2tpIPsecVpn
+Icon=_usr_share_L2tpIPsecVpn_logo
+Categories=Network;
+X-Ubuntu-Gettext-Domain=app-install-data

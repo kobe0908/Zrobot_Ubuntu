@@ -1,0 +1,3 @@
+3c5660d04bb0cc3865b68dbc9ba518e8  usr/share/doc/policykit-desktop-privileges/changelog.gz
+975ec41c2a47010d0ad118b129eca021  usr/share/doc/policykit-desktop-privileges/copyright
+f3d27170599b772fc3100d1b664a719b  var/lib/polkit-1/localauthority/10-vendor.d/com.ubuntu.desktop.pkla

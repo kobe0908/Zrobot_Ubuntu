@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=claws-mail
+X-AppInstall-Popcon=562
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Claws Mail
+GenericName=E-mail client
+Exec=claws-mail %u
+Icon=claws-mail
+Categories=GTK;Network;Email;
+Comment=Lightweight and Fast GTK+ based Mail Client
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=x-scheme-handler/mailto;
+X-Info=Claws Mail
+
+X-Ubuntu-Gettext-Domain=app-install-data

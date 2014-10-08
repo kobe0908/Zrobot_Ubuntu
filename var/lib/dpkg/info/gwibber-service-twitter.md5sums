@@ -1,0 +1,6 @@
+dfcb84996f931c92dfb7b2bc3add6402  usr/share/doc/gwibber-service-twitter/copyright
+ed64acf198b7ef1f3303e296a52d61e7  usr/share/gwibber/data/twitter
+0d5da3c13185770c08a86342a9b132aa  usr/share/gwibber/plugins/twitter/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  usr/share/gwibber/plugins/twitter/gtk/__init__.py
+a410feb557852d2eec2792ed05845d4c  usr/share/gwibber/plugins/twitter/gtk/twitter/__init__.py
+8bf107547339b47447f0e47b7898fc3c  usr/share/gwibber/plugins/twitter/ui/gwibber-accounts-twitter.ui

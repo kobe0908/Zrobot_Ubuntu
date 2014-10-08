@@ -1,4 +1,4 @@
-d7498e0e1cd1fbd08173ec260d1b7182  bin/mountpoint
+d1e6db2ed6cf8789271714363eee4381  bin/mountpoint
 e42e5f054d94c63c0b769c525ec8a5e3  etc/init.d/skeleton
 83905a7b2e91f3b5cb2edfe1ea186ab1  lib/init/splash-functions-base
 ac5ea5365b406d943771be78e11a4358  lib/init/vars.sh

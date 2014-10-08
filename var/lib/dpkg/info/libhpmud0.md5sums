@@ -1,0 +1,8 @@
+45b046eb27094fbc68e0de2183adc98a  lib/udev/rules.d/40-hplip.rules
+907ab723f8fce49fa430d54980ab748b  usr/lib/libhpip.so.0.0.1
+a6c0f2200028dd8da6ea2863dda1d4a3  usr/lib/libhpmud.so.0.0.6
+21b3015ca208144dc7e4ea9ebee00826  usr/share/bug/libhpmud0/presubj
+adfd86fec92d60f6d9bdf7d4e950c663  usr/share/bug/libhpmud0/script
+05d5c36b151558170f2572234939b053  usr/share/doc/libhpmud0/changelog.Debian.gz
+38fbff098e3a9e7ac2e07b92ff4a6922  usr/share/doc/libhpmud0/copyright
+fadcc145d26c87da5a5d494b91397415  usr/share/lintian/overrides/libhpmud0

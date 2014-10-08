@@ -1,0 +1,9 @@
+/etc/dbus-1/system.d/bluetooth.conf
+/etc/bluetooth/audio.conf
+/etc/bluetooth/serial.conf
+/etc/bluetooth/network.conf
+/etc/bluetooth/main.conf
+/etc/bluetooth/input.conf
+/etc/bluetooth/proximity.conf
+/etc/bluetooth/rfcomm.conf
+/etc/init/bluetooth.conf

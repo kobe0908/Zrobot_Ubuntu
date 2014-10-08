@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=basenji
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Basenji
+Exec=basenji
+Terminal=false
+Icon=_usr_share_basenji_basenji
+Categories=Utility;
+Comment=A portable volume indexer.
+
+X-Ubuntu-Gettext-Domain=app-install-data

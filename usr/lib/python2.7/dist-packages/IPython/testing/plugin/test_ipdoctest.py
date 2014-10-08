@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/IPython/testing/plugin/test_ipdoctest.py

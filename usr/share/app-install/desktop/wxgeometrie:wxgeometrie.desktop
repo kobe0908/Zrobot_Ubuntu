@@ -1,0 +1,21 @@
+##!/usr/bin/env xdg-open
+
+[Desktop Entry]
+X-AppInstall-Package=wxgeometrie
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=WxGeometrie
+GenericName=Mathematical software
+Comment=Swiss army knife for math teachers
+Icon=wxgeometrie
+Exec=wxgeom %U
+Terminal=false
+MimeType=application/x-wxgeometrie-geo;application/x-wxgeometrie-geoz;
+X-MultipleArgs=false
+
+Categories=Education;Science;Math;
+
+X-Ubuntu-Gettext-Domain=app-install-data

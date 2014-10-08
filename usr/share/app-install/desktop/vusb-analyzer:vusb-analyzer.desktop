@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=vusb-analyzer
+X-AppInstall-Popcon=5
+X-AppInstall-Section=multiverse
+
+Name=Virtual USB Analyzer
+GenericName=Virtual USB Analyzer
+Comment=visualizing logs of USB packets
+Exec=vusb-analyzer
+Icon=vusb-analyzer
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

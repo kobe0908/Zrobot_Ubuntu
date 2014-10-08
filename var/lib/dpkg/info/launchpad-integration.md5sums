@@ -1,0 +1,8 @@
+7451f296c758eb60fa2130bc882bacf5  usr/bin/launchpad-integration
+814ad71c67830db56725eef7360fc3bc  usr/share/doc/launchpad-integration/changelog.gz
+d5f4cc8739c60cc90d543510dc3dc004  usr/share/doc/launchpad-integration/copyright
+d41d8cd98f00b204e9800998ecf8427e  usr/share/launchpad-integration/launchpadintegration/__init__.py
+c4919c0c53dadc2c214ab0ecffa8acba  usr/share/launchpad-integration/launchpadintegration/main.py
+526a5b977fa154caeec51bd44c3c3358  usr/share/launchpad-integration/launchpadintegration/packageinfo.py
+f35c06e0e6376fa23309415250bd6a69  usr/share/launchpad-integration/launchpadintegration/urls.py
+ca4b983c541209d0da64ce1dcae1aa19  usr/share/python/runtime.d/launchpad-integration.rtupdate

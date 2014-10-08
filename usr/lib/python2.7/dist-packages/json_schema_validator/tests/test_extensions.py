@@ -1,0 +1,1 @@
+../../../../../share/pyshared/json_schema_validator/tests/test_extensions.py

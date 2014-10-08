@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/version_info_formats/format_python.py

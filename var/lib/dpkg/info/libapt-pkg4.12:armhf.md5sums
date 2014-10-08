@@ -1,6 +1,6 @@
-adadde2c4fb9a04a5fa35c0989a7b23f  usr/lib/arm-linux-gnueabihf/libapt-pkg.so.4.12.0
+3e334969f2db9e9adc247b7b1eccb668  usr/lib/arm-linux-gnueabihf/libapt-pkg.so.4.12.0
 0a9faf4bc39390053967e50c703b7c0e  usr/share/doc/libapt-pkg4.12/NEWS.Debian.gz
-8d34ef2d619b6f1d6a32f9c39b17c002  usr/share/doc/libapt-pkg4.12/changelog.gz
+0168ace14f00008aed67312085890d01  usr/share/doc/libapt-pkg4.12/changelog.gz
 fa9fc3fde34b734ee15aecd2066df5b1  usr/share/doc/libapt-pkg4.12/copyright
 42b3ad29e581ac61ce89e3e8a996e330  usr/share/locale/ar/LC_MESSAGES/libapt-pkg4.12.mo
 a9e33385dd1844952cefa234d8a8d735  usr/share/locale/ast/LC_MESSAGES/libapt-pkg4.12.mo

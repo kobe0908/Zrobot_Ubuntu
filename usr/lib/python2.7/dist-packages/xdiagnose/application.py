@@ -1,0 +1,1 @@
+../../../../share/pyshared/xdiagnose/application.py

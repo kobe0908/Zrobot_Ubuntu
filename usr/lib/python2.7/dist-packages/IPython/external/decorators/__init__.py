@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/IPython/external/decorators/__init__.py

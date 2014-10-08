@@ -1,10 +1,10 @@
 /etc/cron.hourly/.placeholder
-/etc/cron.d/.placeholder
+/etc/default/cron
+/etc/cron.weekly/.placeholder
+/etc/crontab
 /etc/cron.daily/.placeholder
 /etc/cron.daily/standard
-/etc/init/cron.conf
 /etc/cron.monthly/.placeholder
-/etc/default/cron
-/etc/crontab
+/etc/init/cron.conf
 /etc/pam.d/cron
-/etc/cron.weekly/.placeholder
+/etc/cron.d/.placeholder

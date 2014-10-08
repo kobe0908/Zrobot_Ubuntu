@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=dia-gnome
+X-AppInstall-Popcon=4441
+X-AppInstall-Section=main
+
+Encoding=UTF-8
+Name=Dia
+GenericName=Diagram Editor
+Comment=Edit your Diagrams
+Type=Application
+Exec=dia %F
+Icon=dia
+Terminal=false
+Categories=GNOME;Graphics;
+StartupNotify=true
+MimeType=application/x-dia-diagram;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=dia
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=@0.97.2@
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

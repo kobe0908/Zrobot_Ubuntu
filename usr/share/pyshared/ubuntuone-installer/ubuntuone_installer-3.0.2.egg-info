@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ubuntuone-installer
+Version: 3.0.2
+Summary: Ubuntu One Installer
+Home-page: https://launchpad.net/ubuntuone-installer
+Author: Ubuntu One Hackers
+Author-email: ubuntuone-users@lists.launchpad.net
+License: GPL v3
+Description: Installer for Ubuntu One client.
+Platform: UNKNOWN
+Requires: gi.repository.GLib
+Requires: gi.repository.GObject
+Requires: gi.repository.Gdk
+Requires: gi.repository.GdkPixbuf
+Requires: gi.repository.Gtk
+Requires: gi.repository.Pango
+Provides: ubuntuone

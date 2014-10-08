@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/menu
+/usr/share/menu/remmina
+/usr/share/doc
+/usr/share/doc/remmina
+/usr/share/doc/remmina/copyright
+/usr/share/doc/remmina/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/remmina.1.gz
+/usr/bin
+/usr/bin/remmina

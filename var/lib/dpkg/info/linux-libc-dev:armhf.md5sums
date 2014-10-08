@@ -57,7 +57,7 @@ f357b27af8b923056309c4f9d80f9d2c  usr/include/asm-generic/signal.h
 1403924e80606bd3864e7d3438765705  usr/include/asm-generic/socket.h
 a57bf84cc55aca2bfc0dc3cebd760887  usr/include/asm-generic/sockios.h
 d35336f17afa6cc669e5e9d0be325ed9  usr/include/asm-generic/stat.h
-32949ff8b7e821c1025ae7d6f6c9e5a7  usr/include/asm-generic/statfs.h
+a8a06fe7ac1cd4a04fc923cb727e160d  usr/include/asm-generic/statfs.h
 deb20a55b19df3d8f94daaa296127a18  usr/include/asm-generic/swab.h
 e368cc572d9242664a2d38040d677440  usr/include/asm-generic/termbits.h
 ec83df9e098ff914912f9e0aa0f41169  usr/include/asm-generic/termios.h
@@ -68,7 +68,7 @@ ec83df9e098ff914912f9e0aa0f41169  usr/include/asm-generic/termios.h
 30eef931cd990193d51b5f717c55cda9  usr/include/drm/drm_mode.h
 f3bfe643f24d5d60b037e2dde9e244f4  usr/include/drm/drm_sarea.h
 bfb5d4516773bec155234a661cf0c010  usr/include/drm/i810_drm.h
-b91c5ac4274770fc2637fdd002c21e17  usr/include/drm/i915_drm.h
+f9fe3a4526a767c3964869fb74d55295  usr/include/drm/i915_drm.h
 898236222b1de3e4c3d88f81f091d097  usr/include/drm/mga_drm.h
 53006b58d7d1756ab45768766b4c2493  usr/include/drm/nouveau_drm.h
 9862ce1e440314d6a73a71410d5b5ea0  usr/include/drm/r128_drm.h
@@ -283,6 +283,7 @@ bcdfeba55279a323eccdac3c63a4278e  usr/include/linux/ivtvfb.h
 4948708e01e6ba1d79c1c02dc72ba8eb  usr/include/linux/joystick.h
 181f9694e9a2da14d6af33949f2e2485  usr/include/linux/kd.h
 4856840f41280842e18f1e295958332e  usr/include/linux/kdev_t.h
+fbe82e07919ceebc2f2f9a8eac6bb0cb  usr/include/linux/kernel-page-flags.h
 e3e88c8bad9a2813662e61c2cd5b24ef  usr/include/linux/kernel.h
 52dc03a3d4dedbb0cdedc6c5ae9a143a  usr/include/linux/kernelcapi.h
 8243deb563744b9f14e8b46eafc13219  usr/include/linux/keyboard.h
@@ -448,6 +449,7 @@ cb6bfda7d4f61d25ca80cbe0d855bc68  usr/include/linux/netfilter_ipv6/ip6t_mh.h
 b331f90019b279ed20e977b7a11eaaa5  usr/include/linux/netfilter_ipv6/ip6t_rt.h
 ce666f3e40e17e1dd7604e34ca482023  usr/include/linux/netlink.h
 88702576ee55340ae6c69d41bf274b4d  usr/include/linux/netrom.h
+d25d6615e007a6d13dfc8ebd2d56ed26  usr/include/linux/nfc.h
 ea4fcf979fc9f0f329127b52d6a18e92  usr/include/linux/nfs.h
 6c7b21d9d0293c9df0554b5eed5fdf0e  usr/include/linux/nfs2.h
 27ad94d4f8f5a1f38c0ede40e23a5b30  usr/include/linux/nfs3.h
@@ -589,7 +591,7 @@ f92dca1cd90c50e98528bad73eab1640  usr/include/linux/usbdevice_fs.h
 b95636d79f441962e80de741a091be3d  usr/include/linux/uvcvideo.h
 0b1f719dc47dba1bc949060deb647e19  usr/include/linux/v4l2-mediabus.h
 d240d4d12a960057902bc3f4216e34de  usr/include/linux/v4l2-subdev.h
-41cb0a183f101bdedc88ead98e1f9505  usr/include/linux/version.h
+f016020646aae4fa77e8591c91d64f1e  usr/include/linux/version.h
 051654f3bc5de6b714561eee6cd4cf71  usr/include/linux/veth.h
 72d60c231e9f9978b0afe73fbb5661f2  usr/include/linux/vhost.h
 f84953910ae3e19df3eb2115c53f7552  usr/include/linux/videodev2.h
@@ -637,5 +639,5 @@ adab4f0d85fa8f62a5dddb0195a8e5c8  usr/include/video/edid.h
 a84d17953fdbf28608b2b1726ee2afbc  usr/include/video/uvesafb.h
 eb8d9b7615a9734fbf13ce3116d800c6  usr/include/xen/evtchn.h
 d448ff4cf7a2ed361b57f437ca248dec  usr/include/xen/privcmd.h
-3a465117867bc68f911f3a72e8f4a488  usr/share/doc/linux-libc-dev/changelog.Debian.gz
+578fc144db859ad3028e8f680a8e2e58  usr/share/doc/linux-libc-dev/changelog.Debian.gz
 a8941f8b5b3adb2ab3bb8d0fd69bc2ac  usr/share/doc/linux-libc-dev/copyright

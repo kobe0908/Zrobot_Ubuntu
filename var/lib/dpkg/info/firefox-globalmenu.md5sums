@@ -1,0 +1,13 @@
+d2a2a3da822f6d07b115c170c25e7a41  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome.manifest
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/.mkdir.done
+bb3e0e83d2908f4d88fc9b52bfd96488  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/globalmenu/content/bindings.xml
+f1abb35e10134ad9d185dc6207d7667c  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/globalmenu/content/firefoxBrowserOverlay.js
+8f7ed769f307b9c1473683e637a8b254  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/globalmenu/content/firefoxBrowserOverlay.xul
+90df8228c9be679627b9939a595f3387  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/globalmenu/content/firefoxPlacesOverlay.xul
+b9a88fb19bc255ba0666747feb09d239  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/chrome/globalmenu/content/ua-overrides.css
+0eabdb6efdc8a1b563d036458129962e  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/components/components.manifest
+2e92a5e480d317dbd0c57e674ee230bd  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/components/globalmenu.xpt
+9d8c7df5c567a3f1463a762db59723e9  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/components/interfaces.manifest
+df324dfb3f2f151f3834bd888e2fdbb9  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/components/libglobalmenu.so
+b29c1efa7834547d8d2be8d2a64c767d  usr/lib/firefox-addons/extensions/globalmenu@ubuntu.com/install.rdf
+5f56b680e33bded2b69af84d89653cdf  usr/share/doc/firefox-globalmenu/copyright

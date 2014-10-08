@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=krita
+X-AppInstall-Popcon=852
+X-AppInstall-Section=main
+
+Categories=Qt;KDE;Office;Graphics;
+Exec=krita %u
+Icon=krita
+MimeType=image/x-psd;image/photoshop;image/x-photoshop;image/x-vnd.adobe.photoshop;image/vnd.adobe.photoshop;
+Name=Krita
+NoDisplay=true
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=image/x-psd,image/photoshop,image/x-photoshop,image/x-vnd.adobe.photoshop,image/vnd.adobe.photoshop
+X-DBUS-ServiceName=org.krita.krita
+X-DBUS-StartupType=multi
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ubuntu-Gettext-Domain=app-install-data

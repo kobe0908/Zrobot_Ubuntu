@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fotoxx
+X-AppInstall-Popcon=486
+X-AppInstall-Section=universe
+
+Name=fotoxx
+GenericName=Photo Editor
+Comment=Edit photos and manage collections
+Categories=Graphics;Photography;
+Type=Application
+Terminal=false
+MimeType=image/bmp;image/gif;image/tiff;image/jpeg;image/png;
+Exec=/usr/bin/fotoxx
+Icon=_usr_share_fotoxx_icons_fotoxx
+
+X-Ubuntu-Gettext-Domain=app-install-data

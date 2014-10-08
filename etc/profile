@@ -28,3 +28,4 @@ if [ -d /etc/profile.d ]; then
   done
   unset i
 fi
+insmod /etc/Wireless/RT2870STA/mt7601Usta.ko

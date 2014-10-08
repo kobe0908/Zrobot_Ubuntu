@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=kedpm-gtk
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+
+Type=Application
+
+Name=Ked Password Manager
+GenericName=Password Manager
+Comment=Manage passwords
+
+Categories=GTK;Utility;
+
+Exec=kedpm
+TryExec=kedpm
+Terminal=false
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

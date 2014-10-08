@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libgoa-1.0.so.0.0.0
+/usr/lib/arm-linux-gnueabihf/libgoa-backend-1.0.so.0.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgoa-1.0-0
+/usr/share/doc/libgoa-1.0-0/NEWS.gz
+/usr/share/doc/libgoa-1.0-0/copyright
+/usr/share/doc/libgoa-1.0-0/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libgoa-1.0.so.0
+/usr/lib/arm-linux-gnueabihf/libgoa-backend-1.0.so.0

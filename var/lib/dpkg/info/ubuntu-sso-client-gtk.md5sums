@@ -1,0 +1,6 @@
+8032b70f8983087fc335069112e25967  usr/lib/ubuntu-sso-client/ubuntu-sso-login-gtk
+c31771bcc70d45a90b3b57d2b165d30c  usr/share/doc/ubuntu-sso-client-gtk/copyright
+63182014d7bb34d7cb3bd1e5b52c57be  usr/share/pyshared/ubuntu-sso-client/ubuntu_sso/gtk/__init__.py
+e9e1745bb8c4bf258c3d76a8f48b6c1d  usr/share/pyshared/ubuntu-sso-client/ubuntu_sso/gtk/gui.py
+c59c32c49ca9658e5476d68654449b60  usr/share/pyshared/ubuntu-sso-client/ubuntu_sso/gtk/main.py
+9ed94a8268a60c8bc95784d99fe3fb5a  usr/share/ubuntu-sso-client/gtk/ui.glade

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=solfege
+X-AppInstall-Popcon=226
+X-AppInstall-Section=universe
+
+Name=GNU Solfege
+GenericName=Ear training
+Exec=solfege
+Terminal=false
+Type=Application
+Icon=solfege
+Categories=GTK;AudioVideo;Audio;Education;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

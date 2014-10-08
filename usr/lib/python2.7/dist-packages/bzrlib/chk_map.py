@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/chk_map.py

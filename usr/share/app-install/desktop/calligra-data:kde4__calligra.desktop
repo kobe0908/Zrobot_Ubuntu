@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=calligra-data
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Type=Application
+Name=Calligra
+Exec=khelpcenter help:/calligra
+NoDisplay=true
+X-DocPath=calligra/index.html
+Categories=Qt;KDE;Office;
+
+X-Ubuntu-Gettext-Domain=app-install-data

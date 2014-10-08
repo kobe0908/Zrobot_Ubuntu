@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/plugins/launchpad/test_lp_open.py

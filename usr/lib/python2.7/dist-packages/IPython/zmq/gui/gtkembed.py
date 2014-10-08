@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/IPython/zmq/gui/gtkembed.py

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=lugaru
+X-AppInstall-Popcon=24
+X-AppInstall-Section=multiverse
+
+Version=1.0
+Name=Lugaru
+GenericName=Third-person action game
+Comment=Third-person action game about an anthropomorphic rabbit with curiously well developed combat skills
+Exec=/usr/games/lugaru
+Icon=lugaru
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

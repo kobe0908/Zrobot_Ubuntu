@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/cmd_version_info.py

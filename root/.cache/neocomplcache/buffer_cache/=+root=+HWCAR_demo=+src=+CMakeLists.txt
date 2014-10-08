@@ -1,1 +1,0 @@
-['aux_source_directory', 'include_directories', 'add_library', 'cam_car', 'SHARED', 'target_link_libraries']

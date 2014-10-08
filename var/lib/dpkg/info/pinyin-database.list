@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/pinyin-database
+/usr/share/pinyin-database/main.db
+/usr/share/doc
+/usr/share/doc/pinyin-database
+/usr/share/doc/pinyin-database/copyright
+/usr/share/doc/pinyin-database/changelog.Debian.gz

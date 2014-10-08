@@ -1,0 +1,59 @@
+[Desktop Entry]
+X-AppInstall-Package=midori
+X-AppInstall-Popcon=1437
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Midori
+GenericName=Web Browser
+Comment=Lightweight web browser
+X-GNOME-Keywords=Internet;WWW;Explorer
+X-GNOME-Keywords[cs]=Internet;WWW;Explorer
+X-GNOME-Keywords[da]=Internet;WWW;Stifinder
+X-GNOME-Keywords[gl]=Internet;WWW;Explorer
+X-GNOME-Keywords[ko]=인터넷;WWW;익스플로러
+X-GNOME-Keywords[nl]=Internet;WWW;Verkenner
+X-GNOME-Keywords[pt]=Internet;WWW;Explorador
+X-GNOME-Keywords[ro]=Internet;WWW;Navigator
+X-GNOME-Keywords[uk]=Internet;WWW;Explorer
+X-GNOME-Keywords[zh_CN]=互联网；WWW；浏览器
+X-GNOME-Keywords[zh_TW]=Internet;WWW;Explorer
+X-AppInstall-Keywords=Internet;WWW;Explorer
+X-AppInstall-Keywords[cs]=Internet;WWW;Explorer
+X-AppInstall-Keywords[da]=Internet;WWW;Stifinder
+X-AppInstall-Keywords[gl]=Internet;WWW;Explorer
+X-AppInstall-Keywords[ko]=인터넷;WWW;익스플로러
+X-AppInstall-Keywords[nl]=Internet;WWW;Verkenner
+X-AppInstall-Keywords[pt]=Internet;WWW;Explorador
+X-AppInstall-Keywords[ro]=Internet;WWW;Navigator
+X-AppInstall-Keywords[uk]=Internet;WWW;Explorer
+X-AppInstall-Keywords[zh_CN]=互联网；WWW；浏览器
+X-AppInstall-Keywords[zh_TW]=Internet;WWW;Explorer
+Categories=GTK;Network;WebBrowser;
+MimeType=text/html;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/geo;image/svg+xml;
+Exec=midori %U
+Icon=midori
+Terminal=false
+StartupNotify=true
+X-Osso-Type=application/x-executable
+X-Osso-Service=midori
+X-Ayatana-Desktop-Shortcuts=TabNew;WindowNew;Private
+
+[TabNew Shortcut Group]
+Name=New _Tab
+Exec=midori -e TabNew
+TargetEnvironment=Unity
+
+[WindowNew Shortcut Group]
+Name=New _Window
+Exec=midori -e WindowNew
+TargetEnvironment=Unity
+
+[Private Shortcut Group]
+Name=New P_rivate Browsing Window
+Exec=midori --private
+TargetEnvironment=Unity
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../share/pyshared/UpdateManager/ReleaseNotesViewerWebkit.py

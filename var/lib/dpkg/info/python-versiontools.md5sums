@@ -1,0 +1,15 @@
+6b017d0854954e5c30f33bf813bdc234  usr/share/doc/python-versiontools/changelog.Debian.gz
+0143b5b6797972f8cbc213b13b5cacfb  usr/share/doc/python-versiontools/copyright
+1fff9085e68901bb34204400117504a7  usr/share/pyshared/versiontools-1.9.1.egg-info/PKG-INFO
+7f95e7789e73e657e27fffacb728e979  usr/share/pyshared/versiontools-1.9.1.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/share/pyshared/versiontools-1.9.1.egg-info/dependency_links.txt
+ac6ca47ba014147733ce6dd059ab9857  usr/share/pyshared/versiontools-1.9.1.egg-info/entry_points.txt
+0e4eed6f7933785718ecb8f1863660f1  usr/share/pyshared/versiontools-1.9.1.egg-info/top_level.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/share/pyshared/versiontools-1.9.1.egg-info/zip-safe
+b2dca8fd787aab00be0397934169250b  usr/share/pyshared/versiontools/__init__.py
+07c5c67d0a6589435d1ad20aedc5b8ec  usr/share/pyshared/versiontools/bzr_support.py
+49030239dba6733cc4594304bb3578aa  usr/share/pyshared/versiontools/git_support.py
+64fbe6675afd25625cb6c64cb6ce0f57  usr/share/pyshared/versiontools/hg_support.py
+c839dd09478d8e8513d022ed7dee196a  usr/share/pyshared/versiontools/setuptools_hooks.py
+76a16ff16751110334ceb56f12215419  usr/share/pyshared/versiontools/tests.py
+60e116bc93292c1bef4977a40e21ec97  usr/share/pyshared/versiontools/versiontools_support.py

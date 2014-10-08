@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/smtp_connection.py

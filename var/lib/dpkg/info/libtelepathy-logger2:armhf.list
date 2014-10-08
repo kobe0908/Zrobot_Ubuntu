@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtelepathy-logger2
+/usr/share/doc/libtelepathy-logger2/copyright
+/usr/share/doc/libtelepathy-logger2/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libtelepathy-logger.so.2.2.1
+/usr/lib/arm-linux-gnueabihf/libtelepathy-logger.so.2

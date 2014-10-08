@@ -1,0 +1,6 @@
+3ce9710de20cc10d57f958d8b7f92fe3  usr/bin/mscompress
+09102afad5a30a4058748434d4acd780  usr/bin/msexpand
+6e731a2dc8afa9775f1142655e997923  usr/share/doc/mscompress/changelog.Debian.gz
+e206b26ae909dd944067272bad3dc210  usr/share/doc/mscompress/copyright
+77adf3e03ce40562187c9162e2a27c57  usr/share/man/man1/mscompress.1.gz
+2516a41098c129f42b755b8d3a4ec55d  usr/share/man/man1/msexpand.1.gz

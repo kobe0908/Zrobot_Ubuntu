@@ -1,0 +1,9 @@
+d0b6dff5f644180b5bad64f84a2eb410  usr/share/doc/python-packagekit/changelog.Debian.gz
+fe90eb3271ffaa7481e377406bed293e  usr/share/doc/python-packagekit/copyright
+bc2b38ecf321e83b44828c9822b3187f  usr/share/pyshared/packagekit/__init__.py
+6a24a76340b2558925bf64508e739b8e  usr/share/pyshared/packagekit/backend.py
+5a302b6c99d561935d7ae732b6d7824e  usr/share/pyshared/packagekit/enums.py
+aa6e10e84b1eec4e02a8374e06b92421  usr/share/pyshared/packagekit/filter.py
+4608c3f528249075dfa3fe222b3ffae9  usr/share/pyshared/packagekit/misc.py
+a6820bdba8d1e07f1918a9d8eb2f254f  usr/share/pyshared/packagekit/package.py
+334a135aaadaf689b39bd8978ecfbf13  usr/share/pyshared/packagekit/progress.py

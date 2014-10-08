@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-documents
+X-AppInstall-Popcon=218
+X-AppInstall-Section=universe
+
+Name=Documents
+Comment=Access, manage and share documents
+Exec=gnome-documents %U
+Icon=gnome-documents
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Core;
+Keywords=Docs;PDF;Document;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

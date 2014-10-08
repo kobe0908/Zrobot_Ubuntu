@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=megaglest
+X-AppInstall-Popcon=28
+X-AppInstall-Section=universe
+
+Categories=Game;StrategyGame;
+Comment=A real time strategy game.
+Name=MegaGlest
+Icon=megaglest
+Exec=megaglest
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

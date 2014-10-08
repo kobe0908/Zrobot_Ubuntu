@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gecrit
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Icon[fr_CA]=gnome-panel-launcher
+Exec=gecrit
+Categories=Development;IDE;GTK;
+Icon=_usr_share_pixmaps_gEcrit
+Name=gEcrit
+Comment=A python text editor.
+
+X-Ubuntu-Gettext-Domain=app-install-data

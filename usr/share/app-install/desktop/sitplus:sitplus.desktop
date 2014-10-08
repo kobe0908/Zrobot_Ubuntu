@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=sitplus
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Sitplus
+GenericName=Sitplus ludic-therapeutic software
+Comment=Framework for ludic-therapeutic activities
+Exec=sitplus
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Accessibility;
+Icon=_usr_share_pixmaps_sitplus-32x32
+
+X-Ubuntu-Gettext-Domain=app-install-data

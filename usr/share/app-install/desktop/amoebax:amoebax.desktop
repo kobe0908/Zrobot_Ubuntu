@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=amoebax
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Categories=Game;LogicGame;
+Comment=Defeat your opponent by filling up their grid up with garbage.
+Exec=amoebax
+GenericName=Computer Puzzle Game
+Icon=amoebax
+Name=Amoebax
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

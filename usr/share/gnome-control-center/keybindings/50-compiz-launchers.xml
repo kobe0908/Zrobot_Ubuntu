@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KeyListEntries wm_name="Compiz" package="metacity" group="system" name="Launchers">
+
+	<KeyListEntry name="/apps/metacity/global_keybindings/run_command_terminal"/>
+
+	<KeyListEntry name="/apps/compiz-1/plugins/unityshell/screen0/options/show_hud"/>
+
+</KeyListEntries>

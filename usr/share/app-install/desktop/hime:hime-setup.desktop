@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=hime
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Name=hime Setup
+Comment=Setup utility for hime input method
+Exec=hime-setup
+Icon=hime
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

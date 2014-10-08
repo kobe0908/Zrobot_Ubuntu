@@ -1,0 +1,7 @@
+21bb18f23b2f9fce36766c8c7d29a160  usr/lib/NetworkManager/nm-pptp-service
+3c8e671a3847f5927b7ca1b698c8df08  usr/lib/pppd/2.4.5/nm-pptp-pppd-plugin.so
+690c240ea33b7799af5099ff6f6a4119  usr/share/doc/network-manager-pptp/AUTHORS
+d039bcab27ae680515b361dd5aec5894  usr/share/doc/network-manager-pptp/NEWS.gz
+ea914d0d23f5f1b7c5d6077989fb908c  usr/share/doc/network-manager-pptp/README
+5b6ad94c34f80d078448fb0278edcb94  usr/share/doc/network-manager-pptp/changelog.Debian.gz
+0d11e3806e64dcf17bff7290a1e2f3a0  usr/share/doc/network-manager-pptp/copyright

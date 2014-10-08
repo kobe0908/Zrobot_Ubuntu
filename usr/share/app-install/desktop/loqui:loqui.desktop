@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=loqui
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Loqui
+Comment=IRC client
+Exec=loqui
+Icon=loqui
+Terminal=false
+Type=Application
+Categories=GTK;Network;IRCClient;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,1 +1,0 @@
-['aux_source_directory', 'add_library', 'mecharm', 'SHARED', 'target_link_libraries', 'pthread']

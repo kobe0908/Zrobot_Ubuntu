@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Totem-elokuvasoittimen käyttöohje</title>
+    <date>Helmikuu 2009</date>
+    <version identifier="Totem-elokuvasoittimen käyttöopas, v 3.0" date="Helmikuu 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Totem-elokuvasoitin on mediasoitin Gnomea varten. Oletusarvoisesti se pyörii GStreamerin päällä, mutta myös xine voi ajaa sitä. Se tukee useimpia audio- ja videokoodekkeja, mukaanluettuna DVD:t. Ominaisuuksiin kuuluvat TV-ulostulo,  kokoruututila, tekstitykset ja paljon muuta.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/fi/totem.xml"/>
+    <language code="fi"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

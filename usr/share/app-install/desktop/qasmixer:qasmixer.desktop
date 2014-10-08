@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=qasmixer
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Type=Application
+Name=QasMixer
+GenericName=Sound volume mixer
+Exec=qasmixer
+Icon=qasmixer
+StartupNotify=false
+Terminal=false
+Categories=AudioVideo;Audio;Mixer
+Comment=Graphical mixer application for the ALSA
+
+X-Ubuntu-Gettext-Domain=app-install-data

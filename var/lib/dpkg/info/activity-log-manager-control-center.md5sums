@@ -1,0 +1,8 @@
+7aa61d36fe883ce9a37fbf1995fde9ac  usr/lib/control-center-1/panels/libactivity-log-manager.so
+45992805ac6a851bd407bad03d866b72  usr/share/applications/activity-log-manager-ccpanel.desktop
+c6098a9a37e8abd54568a83aad7ea736  usr/share/dbus-1/system-services/com.ubuntu.WhoopsiePreferences.service
+b91a74d01b98107b6a80d5e19d44b83b  usr/share/doc/activity-log-manager-control-center/changelog.Debian.gz
+dcb516ebbb05e1cc75c90bbd47ff0bc4  usr/share/doc/activity-log-manager-control-center/copyright
+947c3514595c9f892339471cb188ac98  usr/share/gnome-control-center/ui/whoopsie.ui
+54b9fe6b68137575903eb097794099fe  usr/share/lintian/overrides/activity-log-manager-control-center
+2b34c4ad83f8516d43bd5cee1a38751e  usr/share/polkit-1/actions/com.ubuntu.whoopsiepreferences.policy

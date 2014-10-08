@@ -1,0 +1,4 @@
+8b3fd66b579cad8a2388ab33289709fd  usr/lib/arm-linux-gnueabihf/libsmbclient.so.0
+7a94a6c7500b0723e677231f97e5ee90  usr/share/doc/libsmbclient/copyright
+510a957f89de3717f2ca9f217c2f6702  usr/share/lintian/overrides/libsmbclient
+90045abd311adb3ed4449563a472e9f1  usr/share/man/man7/libsmbclient.7.gz

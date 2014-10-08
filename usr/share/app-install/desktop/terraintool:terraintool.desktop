@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=terraintool
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Terraintool surface mesh generator
+GenericName=Cave Terrain generator/converter
+Comment=Generate surface mesh in survex format
+Type=Application
+Exec=terraintool
+Icon=terraintool
+Categories=Education;Geology;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

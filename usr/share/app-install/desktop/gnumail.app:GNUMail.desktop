@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gnumail.app
+X-AppInstall-Popcon=40
+X-AppInstall-Section=universe
+
+Name=GNUMail
+Comment=Mail client for GNUstep
+Version=1.0
+Type=Application
+Categories=Network;Email;
+Icon=_usr_share_GNUstep_GNUMail.app_GNUMail
+Exec=GNUMail
+
+X-Ubuntu-Gettext-Domain=app-install-data

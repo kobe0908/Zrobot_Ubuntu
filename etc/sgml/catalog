@@ -6,3 +6,4 @@
 ## ======================================================================
 --
 CATALOG /etc/sgml/xml-core.cat
+CATALOG /etc/sgml/metacity-common.cat

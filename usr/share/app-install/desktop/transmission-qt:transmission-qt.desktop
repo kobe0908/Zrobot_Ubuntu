@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=transmission-qt
+X-AppInstall-Popcon=408
+X-AppInstall-Section=main
+
+Name=Qtransmission Bittorrent Client
+GenericName=BitTorrent Client
+Comment=Download and share files over BitTorrent
+Exec=transmission-qt %F
+Icon=transmission-qt
+Terminal=false
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Categories=Network;FileTransfer;P2P;Qt;
+X-AppInstall-Keywords=torrent
+Actions=Minimize;
+
+[Desktop Action Minimize]
+Name=Start Transmission Minimized
+Exec=transmission-qt --minimized
+OnlyShowIn=Unity;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

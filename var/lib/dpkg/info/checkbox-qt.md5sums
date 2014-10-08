@@ -1,0 +1,9 @@
+d9479f326995d5121909eb298a16c3b3  usr/bin/checkbox-qt
+d8704bfa0db7fcfc6b062a788edefbc8  usr/share/applications/checkbox-qt.desktop
+dfd023e23e4c22be03cfc0b1c2fb34d0  usr/share/checkbox/examples/checkbox-qt.ini
+af85f125d165486591f3681c69bae645  usr/share/checkbox/qt/checkbox-qt-service
+a68c0094f29cb66b50e9270f248577a6  usr/share/checkbox/qt/checkbox-qt.ui
+efe04da3fa6a67c6d4460756cb3a92a1  usr/share/dbus-1/services/com.canonical.QtCheckbox.service
+10bdfa54bd01225ba545be153b5a1aec  usr/share/doc/checkbox-qt/copyright
+d41d8cd98f00b204e9800998ecf8427e  usr/share/pyshared/checkbox_qt/__init__.py
+20a2b5999ac78cc9e9d5bd6c8bf05692  usr/share/pyshared/checkbox_qt/qt_interface.py

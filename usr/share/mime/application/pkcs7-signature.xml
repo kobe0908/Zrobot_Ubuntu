@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/pkcs7-signature">
   <!--Created automatically by update-mime-database. DO NOT EDIT!-->
-  <comment>detached S/MIME signature</comment>
   <comment xml:lang="ar">إمضاء S/MIME مفصول</comment>
   <comment xml:lang="ast">firma S/MIME separtada</comment>
   <comment xml:lang="be">adłučany podpis S/MIME</comment>
@@ -57,5 +56,8 @@
   <expanded-acronym>Secure/Multipurpose Internet Mail Extensions</expanded-acronym>
   <sub-class-of type="text/plain"/>
   <generic-icon name="text-x-generic"/>
+  <glob pattern="*.p7s"/>
+  <comment>PKCS#7 Signature</comment>
+  <acronym>PKCS#7</acronym>
   <glob pattern="*.p7s"/>
 </mime-type>

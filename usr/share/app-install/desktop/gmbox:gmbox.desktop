@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gmbox
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=gmbox
+Comment=Google Music Box
+Exec=gmbox
+Icon=gmbox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Audio;Player;GTK;
+
+X-Ubuntu-Gettext-Domain=app-install-data

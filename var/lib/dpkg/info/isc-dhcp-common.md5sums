@@ -1,9 +1,9 @@
-58606ba05c406b886ec6fadd051c28e1  usr/bin/omshell
+143d97bd821edbc4c3d03911915b1d54  usr/bin/omshell
 aaf055d59cd7e6de51fb3093d20ef855  usr/share/doc/isc-dhcp-common/README.Debian
 07c70b0e0578f3021709f8a09e74a12e  usr/share/doc/isc-dhcp-common/README.gz
 2e50df36c7382fe6413e9428da196dde  usr/share/doc/isc-dhcp-common/RELNOTES.gz
 94abf9e1974f64504eded841b6b77358  usr/share/doc/isc-dhcp-common/api+protocol.gz
-23b600ed60f92e633c0370a17b284acb  usr/share/doc/isc-dhcp-common/changelog.Debian.gz
+0ae0c271319f27dc2cf323081688299d  usr/share/doc/isc-dhcp-common/changelog.Debian.gz
 6fa20b8ad86e433a76968e90d6809a51  usr/share/doc/isc-dhcp-common/copyright
 d7d0bf7a25418cf889b9e994d90b16f8  usr/share/lintian/overrides/isc-dhcp-common
 61d2d20c721f1fabf3573f12d9c37c7f  usr/share/man/ja/man5/dhclient.conf.5.gz

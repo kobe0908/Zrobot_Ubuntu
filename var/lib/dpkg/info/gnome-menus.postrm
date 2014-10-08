@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/menus/gnome-applications.menu 3.2.0.1-2ubuntu2 gnome-menus -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/menus/gnome-settings.menu 3.2.0.1-2ubuntu1 gnome-menus -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/menus/gnome-preferences.menu 2.22.2-4 gnome-menus -- "$@"
+# End automatically added section

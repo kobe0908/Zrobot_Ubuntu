@@ -1,0 +1,230 @@
+1970-01-01 00:03:00,875 DEBUG: updating <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8>
+2014-10-08 05:09:00,296 DEBUG: reading modalias file /usr/share/jockey/modaliases/b43
+2014-10-08 05:09:00,298 DEBUG: reading modalias file /usr/share/jockey/modaliases/disable-upstream-nvidia
+2014-10-08 05:09:01,583 DEBUG: loading custom handler /usr/share/jockey/handlers/madwifi.py
+2014-10-08 05:09:01,629 WARNING: modinfo for module ath_pci failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:01,641 DEBUG: Instantiated Handler subclass __builtin__.MadwifiHandler from name MadwifiHandler
+2014-10-08 05:09:01,642 DEBUG: Alternate Atheros "madwifi" driver availability undetermined, adding to pool
+2014-10-08 05:09:01,643 DEBUG: loading custom handler /usr/share/jockey/handlers/fglrx.py
+2014-10-08 05:09:01,757 WARNING: modinfo for module fglrx_updates failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:01,809 DEBUG: Could not instantiate Handler subclass __builtin__.FglrxDriverUpdate from name FglrxDriverUpdate
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/fglrx.py", line 161, in __init__
+    FglrxDriver.__init__(self, backend, 'fglrx-updates')
+  File "/usr/share/jockey/handlers/fglrx.py", line 37, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/fglrx.py", line 42, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:01,861 WARNING: modinfo for module fglrx failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:01,907 DEBUG: Could not instantiate Handler subclass __builtin__.FglrxDriver from name FglrxDriver
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/fglrx.py", line 37, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/fglrx.py", line 42, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:01,910 DEBUG: loading custom handler /usr/share/jockey/handlers/nvidia.py
+2014-10-08 05:09:02,059 WARNING: modinfo for module nvidia_96 failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,117 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriver96 from name NvidiaDriver96
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 207, in __init__
+    _NvidiaDriverBase.__init__(self, backend, '96')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,178 WARNING: modinfo for module nvidia_current failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,251 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriverCurrent from name NvidiaDriverCurrent
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 191, in __init__
+    _NvidiaDriverBase.__init__(self, backend, 'current')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,313 WARNING: modinfo for module nvidia_current_updates failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,374 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriverCurrentUpdates from name NvidiaDriverCurrentUpdates
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 195, in __init__
+    _NvidiaDriverBase.__init__(self, backend, 'current-updates')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,408 WARNING: modinfo for module nvidia_173_updates failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,463 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriver173Updates from name NvidiaDriver173Updates
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 203, in __init__
+    _NvidiaDriverBase.__init__(self, backend, '173-updates')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,499 WARNING: modinfo for module nvidia_173 failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,603 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriver173 from name NvidiaDriver173
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 199, in __init__
+    _NvidiaDriverBase.__init__(self, backend, '173')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,653 WARNING: modinfo for module nvidia_96_updates failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,706 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriver96Updates from name NvidiaDriver96Updates
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 971, in get_handlers
+    inst = obj(backend)
+  File "/usr/share/jockey/handlers/nvidia.py", line 222, in __init__
+    _NvidiaDriverBase.__init__(self, backend, '96-updates')
+  File "/usr/share/jockey/handlers/nvidia.py", line 46, in __init__
+    (self._alternatives, self._other_alternatives) = self._get_alternatives()
+  File "/usr/share/jockey/handlers/nvidia.py", line 52, in _get_alternatives
+    arch_utils = MultiArchUtils()
+  File "/usr/lib/python2.7/dist-packages/NvidiaDetector/alternatives.py", line 35, in __init__
+    .values().index(self._main_arch))]
+ValueError: None is not in list
+2014-10-08 05:09:02,708 DEBUG: loading custom handler /usr/share/jockey/handlers/vmware-client.py
+2014-10-08 05:09:02,775 WARNING: modinfo for module vmxnet failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:02,777 DEBUG: Instantiated Handler subclass __builtin__.VmwareClientHandler from name VmwareClientHandler
+2014-10-08 05:09:03,000 DEBUG: VMWare Client Tools not available
+2014-10-08 05:09:03,014 DEBUG: loading custom handler /usr/share/jockey/handlers/broadcom_wl.py
+2014-10-08 05:09:03,072 WARNING: modinfo for module wl failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:03,173 DEBUG: Could not instantiate Handler subclass __builtin__.BroadcomWLHandler from name BroadcomWLHandler
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 972, in get_handlers
+    desc = inst.name()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 108, in name
+    self._package_defaults()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 93, in _package_defaults
+    (distro_name, distro_desc) = OSLib.inst.package_description(self.package)
+  File "/usr/lib/python2.7/dist-packages/jockey/oslib.py", line 215, in package_description
+    raise ValueError('package %s does not exist' % package)
+ValueError: package bcmwl-kernel-source does not exist
+2014-10-08 05:09:03,179 DEBUG: loading custom handler /usr/share/jockey/handlers/pvr-omap4.py
+2014-10-08 05:09:03,312 WARNING: modinfo for module omapdrm_pvr failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:03,385 DEBUG: Instantiated Handler subclass __builtin__.PVROmap4Driver from name PVROmap4Driver
+2014-10-08 05:09:04,226 DEBUG: PowerVR SGX proprietary graphics driver for OMAP 4 not available
+2014-10-08 05:09:04,228 DEBUG: loading custom handler /usr/share/jockey/handlers/dvb_usb_firmware.py
+2014-10-08 05:09:04,294 WARNING: modinfo for module dvb_usb failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:04,478 DEBUG: Could not instantiate Handler subclass __builtin__.DvbUsbFirmwareHandler from name DvbUsbFirmwareHandler
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 972, in get_handlers
+    desc = inst.name()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 108, in name
+    self._package_defaults()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 93, in _package_defaults
+    (distro_name, distro_desc) = OSLib.inst.package_description(self.package)
+  File "/usr/lib/python2.7/dist-packages/jockey/oslib.py", line 215, in package_description
+    raise ValueError('package %s does not exist' % package)
+ValueError: package linux-firmware-nonfree does not exist
+2014-10-08 05:09:04,492 DEBUG: loading custom handler /usr/share/jockey/handlers/cdv.py
+2014-10-08 05:09:04,551 WARNING: modinfo for module cedarview_gfx failed: ERROR: modinfo: could not open /lib/modules/3.6.0-digilent-13.01-g06b3889/modules.dep
+
+2014-10-08 05:09:04,553 DEBUG: Instantiated Handler subclass __builtin__.CdvDriver from name CdvDriver
+2014-10-08 05:09:04,554 DEBUG: cdv.available: falling back to default
+2014-10-08 05:09:04,914 DEBUG: Intel Cedarview graphics driver not available
+2014-10-08 05:09:04,916 DEBUG: loading custom handler /usr/share/jockey/handlers/sl_modem.py
+2014-10-08 05:09:05,104 DEBUG: Could not instantiate Handler subclass __builtin__.SlModem from name SlModem
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 972, in get_handlers
+    desc = inst.name()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 108, in name
+    self._package_defaults()
+  File "/usr/lib/python2.7/dist-packages/jockey/handlers.py", line 93, in _package_defaults
+    (distro_name, distro_desc) = OSLib.inst.package_description(self.package)
+  File "/usr/lib/python2.7/dist-packages/jockey/oslib.py", line 215, in package_description
+    raise ValueError('package %s does not exist' % package)
+ValueError: package sl-modem-daemon does not exist
+2014-10-08 05:09:05,107 DEBUG: all custom handlers loaded
+2014-10-08 05:09:05,108 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:regulatory')
+2014-10-08 05:09:05,109 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8009000.ps7-afi')
+2014-10-08 05:09:05,110 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v1D6Bp0002d0306dc09dsc00dp01ic09isc00ip00in00')
+2014-10-08 05:09:05,111 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'input:b0003v0461p4D15e0111-e0,1,2,4,k110,111,112,r0,1,8,am4,lsfw')
+2014-10-08 05:09:05,112 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8f01000.ps7-scugic')
+2014-10-08 05:09:05,113 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f800a000.ps7-afi')
+2014-10-08 05:09:05,114 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f800b000.ps7-afi')
+2014-10-08 05:09:05,115 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v05E3p0608d7763dc09dsc00dp01ic09isc00ip00in00')
+2014-10-08 05:09:05,116 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8006000.ps7-ddrc')
+2014-10-08 05:09:05,117 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8000000.ps7-slcr')
+2014-10-08 05:09:05,118 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v148Fp760Bd0000dc00dsc00dp00icFFiscFFipFFin00')
+2014-10-08 05:09:05,119 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:zynq-dvfs')
+2014-10-08 05:09:05,131 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v413Cp2011d5900dc00dsc00dp00ic03isc00ip00in01')
+2014-10-08 05:09:05,132 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v413Cp1005d5900dc09dsc00dp00ic09isc00ip00in00')
+2014-10-08 05:09:05,133 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v0461p4D15d0200dc00dsc00dp00ic03isc01ip02in00')
+2014-10-08 05:09:05,134 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8003000.ps7-dma')
+2014-10-08 05:09:05,135 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'input:b0003v413Cp2011e0110-e0,1,4,11,14,k71,72,73,74,75,77,79,7A,7B,7C,7D,7E,7F,80,81,82,83,84,85,86,87,88,89,8A,8C,8E,96,98,9E,9F,A1,A3,A4,A5,A6,AD,B0,B1,B2,B3,B4,B7,B8,B9,BA,BB,BC,BD,BE,BF,C0,C1,C2,F0,ram4,l0,1,2,3,4,sfw')
+2014-10-08 05:09:05,136 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'usb:v413Cp2011d5900dc00dsc00dp00ic03isc01ip01in00')
+2014-10-08 05:09:05,137 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8008000.ps7-afi')
+2014-10-08 05:09:05,138 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:f8004000.ps7-dma')
+2014-10-08 05:09:05,139 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'platform:axi.0')
+2014-10-08 05:09:05,140 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xb6b4bfa8> about HardwareID('modalias', 'input:b0003v413Cp2011e0110-e0,1,3,4,k71,72,73,80,8C,8E,90,9B,9E,9F,A3,A4,A5,A6,AB,AC,AD,ra20,m4,lsfw')
+2014-10-08 05:09:05,151 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:regulatory')
+2014-10-08 05:09:05,152 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8009000.ps7-afi')
+2014-10-08 05:09:05,152 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v1D6Bp0002d0306dc09dsc00dp01ic09isc00ip00in00')
+2014-10-08 05:09:05,153 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'input:b0003v0461p4D15e0111-e0,1,2,4,k110,111,112,r0,1,8,am4,lsfw')
+2014-10-08 05:09:05,154 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8f01000.ps7-scugic')
+2014-10-08 05:09:05,155 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f800a000.ps7-afi')
+2014-10-08 05:09:05,156 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f800b000.ps7-afi')
+2014-10-08 05:09:05,157 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v05E3p0608d7763dc09dsc00dp01ic09isc00ip00in00')
+2014-10-08 05:09:05,159 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8006000.ps7-ddrc')
+2014-10-08 05:09:05,160 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8000000.ps7-slcr')
+2014-10-08 05:09:05,171 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v148Fp760Bd0000dc00dsc00dp00icFFiscFFipFFin00')
+2014-10-08 05:09:05,172 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:zynq-dvfs')
+2014-10-08 05:09:05,174 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v413Cp2011d5900dc00dsc00dp00ic03isc00ip00in01')
+2014-10-08 05:09:05,175 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v413Cp1005d5900dc09dsc00dp00ic09isc00ip00in00')
+2014-10-08 05:09:05,176 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v0461p4D15d0200dc00dsc00dp00ic03isc01ip02in00')
+2014-10-08 05:09:05,177 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8003000.ps7-dma')
+2014-10-08 05:09:05,179 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'input:b0003v413Cp2011e0110-e0,1,4,11,14,k71,72,73,74,75,77,79,7A,7B,7C,7D,7E,7F,80,81,82,83,84,85,86,87,88,89,8A,8C,8E,96,98,9E,9F,A1,A3,A4,A5,A6,AD,B0,B1,B2,B3,B4,B7,B8,B9,BA,BB,BC,BD,BE,BF,C0,C1,C2,F0,ram4,l0,1,2,3,4,sfw')
+2014-10-08 05:09:05,180 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'usb:v413Cp2011d5900dc00dsc00dp00ic03isc01ip01in00')
+2014-10-08 05:09:05,192 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8008000.ps7-afi')
+2014-10-08 05:09:05,193 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:f8004000.ps7-dma')
+2014-10-08 05:09:05,194 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'platform:axi.0')
+2014-10-08 05:09:05,195 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0x56c0f8> about HardwareID('modalias', 'input:b0003v413Cp2011e0110-e0,1,3,4,k71,72,73,80,8C,8E,90,9B,9E,9F,A3,A4,A5,A6,AB,AC,AD,ra20,m4,lsfw')
+2014-10-08 05:09:05,478 DEBUG: writing back check cache /var/cache/jockey/check

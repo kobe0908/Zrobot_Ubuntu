@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Ubuntu One Music Store
+Comment=Purchase music on Ubuntu One in Rhythmbox
+Exec=rhythmbox %U
+Terminal=false
+Type=Application
+Icon=rhythmbox
+Categories=GNOME;GTK;AudioVideo;
+MimeType=x-scheme-handler/u1ms
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=rhythmbox-ubuntuone
+NoDisplay=true

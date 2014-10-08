@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Categories=Qt;KDE;Graphics;
+Comment=A tool to acquire images using a flat scanner
+Exec=scangui %i -caption "%c" %U
+GenericName=Acquire Images
+Icon=scanner
+Name=AcquireImages
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-DocPath=kipi-plugins/index.html#acquireimages
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ubuntu-Gettext-Domain=app-install-data

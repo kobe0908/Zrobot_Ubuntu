@@ -1,0 +1,9 @@
+= Basic Graphics test case =
+
+Validate basic graphics functionalities, like X11 and OpenGL ES support.
+
+Maintainer: Linaro Dev Platform
+
+== Running the test cases ==
+
+The only requirements is to branch the sh-lib code and run the test cases as root.

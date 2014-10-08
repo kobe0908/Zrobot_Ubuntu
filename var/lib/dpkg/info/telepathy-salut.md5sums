@@ -1,0 +1,10 @@
+5f7528e06b4df40ff006fae9752c5344  usr/lib/telepathy/salut-0/lib/libsalut-plugins-0.8.0.so
+6e9b6ae02ef63b691cd96b5a32d31548  usr/lib/telepathy/salut-0/lib/libwocky-telepathy-salut-0.8.0.so
+0e1d8db161e7364c0c91fe35d76e126b  usr/lib/telepathy/salut-0/lib/libwocky.a
+8b817fea19551284a9ed9b07005aebc6  usr/lib/telepathy/telepathy-salut
+04b3609c888bc1e27c8734e61450bdae  usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.salut.service
+c0be5018b4e1a5a99b7456058da7a84d  usr/share/doc/telepathy-salut/changelog.Debian.gz
+3b5617fd855a86cbffd7a47e67d1314a  usr/share/doc/telepathy-salut/clique.html
+46226a126ce733cf30355818df429ac5  usr/share/doc/telepathy-salut/copyright
+6562303f81becb1541a4bf6641034e7c  usr/share/man/man8/telepathy-salut.8.gz
+605411cbbf17ffe64386fb1c8d1b7198  usr/share/telepathy/managers/salut.manager

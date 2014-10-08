@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tcos-standalone
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=TCOS Standalone
+Comment=Configure standalone mode of TCOS
+Exec=su-to-root -X -c /usr/sbin/tcos-standalone
+Terminal=false
+Type=Application
+Icon=_usr_share_tcos-standalone_images_tcos-icon-32x32
+Categories=GNOME;Settings;System;DesktopSettings;Monitor
+
+X-Ubuntu-Gettext-Domain=app-install-data

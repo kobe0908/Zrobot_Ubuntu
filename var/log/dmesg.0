@@ -1,191 +1,193 @@
-[    0.000000] Booting Linux on physical CPU 0
-[    0.000000] Linux version 3.6.0-digilent-13.01-00004-gfd0ba1e (root@seg-VirtualBox) (gcc version 4.7.2 (Sourcery CodeBench Lite 2012.09-104) ) #1 SMP PREEMPT Wed Aug 27 13:57:00 CST 2014
-[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
-[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
-[    0.000000] Machine: Xilinx Zynq Platform, model: Xilinx Zynq Platform
-[    0.000000] Memory policy: ECC disabled, Data cache writealloc
-[    0.000000] On node 0 totalpages: 131072
-[    0.000000] free_area_init_node: node 0, pgdat c055fc40, node_mem_map c057a000
-[    0.000000]   Normal zone: 1024 pages used for memmap
-[    0.000000]   Normal zone: 0 pages reserved
-[    0.000000]   Normal zone: 130048 pages, LIFO batch:31
-[    0.000000] PERCPU: Embedded 7 pages/cpu @c0981000 s6976 r8192 d13504 u32768
-[    0.000000] pcpu-alloc: s6976 r8192 d13504 u32768 alloc=8*4096
-[    0.000000] pcpu-alloc: [0] 0 [0] 1 
-[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
-[    0.000000] Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1 coherent_pool=1M
-[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
-[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
-[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
-[    0.000000] Memory: 512MB = 512MB total
-[    0.000000] Memory: 514060k/514060k available, 10228k reserved, 0K highmem
-[    0.000000] Virtual kernel memory layout:
-[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
-[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
-[    0.000000]     vmalloc : 0xe0800000 - 0xfd000000   ( 456 MB)
-[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
-[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
-[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
-[    0.000000]       .text : 0xc0008000 - 0xc04f892c   (5059 kB)
-[    0.000000]       .init : 0xc04f9000 - 0xc051fb40   ( 155 kB)
-[    0.000000]       .data : 0xc0520000 - 0xc05621c0   ( 265 kB)
-[    0.000000]        .bss : 0xc05621e4 - 0xc057903c   (  92 kB)
-[    0.000000] Preemptible hierarchical RCU implementation.
-[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
-[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
-[    0.000000] NR_IRQS:512
-[    0.000000] Zynq clock init
-[    0.000000] xlnx,ps7-ttc-1.00.a #0 at 0xe0800000, irq=43
-[    0.000000] sched_clock: 32 bits at 100 Hz, resolution 10000000ns, wraps every 4294967286ms
-[    0.000000] Console: colour dummy device 80x30
-[    0.040000] Calibrating delay loop... 1292.69 BogoMIPS (lpj=6463488)
-[    0.040000] pid_max: default: 32768 minimum: 301
-[    0.040000] Mount-cache hash table entries: 512
-[    0.040000] CPU: Testing write buffer coherency: ok
-[    0.040000] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
-[    0.040000] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
-[    0.040000] Setting up static identity map for 0x38df20 - 0x38df54
-[    0.040000] L310 cache controller enabled
-[    0.040000] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72360000, Cache size: 524288 B
-[    0.080000] Map SLCR registers
-[    0.080000] CPU1: Booted secondary processor
-[    0.170000] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
-[    0.170000] Brought up 2 CPUs
-[    0.170000] SMP: Total of 2 processors activated (2591.94 BogoMIPS).
-[    0.170000] devtmpfs: initialized
-[    0.170000] NET: Registered protocol family 16
-[    0.170000] DMA: preallocated 1024 KiB pool for atomic coherent allocations
-[    0.180000] xgpiops e000a000.ps7-gpio: gpio at 0xe000a000 mapped to 0xe090a000
-[    0.180000] registering platform device 'pl330' id 0
-[    0.180000] registering platform device 'arm-pmu' id 0
-[    0.180000] registering platform device 'zynq-dvfs' id 0
-[    0.180000] 
-[    0.180000] ###############################################
-[    0.180000] #                                             #
-[    0.180000] #                Board ZED Init               #
-[    0.180000] #                                             #
-[    0.180000] ###############################################
-[    0.180000] 
-[    0.180000] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
-[    0.180000] hw-breakpoint: maximum watchpoint size is 4 bytes.
-[    0.200000] xslcr xslcr.0: at 0xF8000000 mapped to 0xF8000000
-[    0.220000] bio: create slab <bio-0> at 0
-[    0.220000] XGpio: /amba@0/gpio@41210000: registered, base is 251
-[    0.220000] XGpio: /amba@0/gpio@41200000: registered, base is 247
-[    0.220000] XGpio: /amba@0/gpio@41200008: dual channel registered, base is 243
-[    0.220000] SCSI subsystem initialized
-[    0.220000] usbcore: registered new interface driver usbfs
-[    0.220000] usbcore: registered new interface driver hub
-[    0.220000] usbcore: registered new device driver usb
-[    0.220000] Linux video capture interface: v2.00
-[    0.220000] Advanced Linux Sound Architecture Driver Version 1.0.25.
-[    0.220000] ------------[ cut here ]------------
-[    0.220000] WARNING: at net/wireless/reg.c:412 regulatory_init+0x8c/0x130()
-[    0.220000] db.txt is empty, you should update it...
-[    0.220000] Modules linked in:
-[    0.220000] [<c001343c>] (unwind_backtrace+0x0/0xe0) from [<c001f69c>] (warn_slowpath_common+0x4c/0x64)
-[    0.220000] [<c001f69c>] (warn_slowpath_common+0x4c/0x64) from [<c001f734>] (warn_slowpath_fmt+0x2c/0x3c)
-[    0.230000] [<c001f734>] (warn_slowpath_fmt+0x2c/0x3c) from [<c0513c48>] (regulatory_init+0x8c/0x130)
-[    0.230000] [<c0513c48>] (regulatory_init+0x8c/0x130) from [<c0513b50>] (cfg80211_init+0x54/0xc0)
-[    0.230000] [<c0513b50>] (cfg80211_init+0x54/0xc0) from [<c0008524>] (do_one_initcall+0x90/0x160)
-[    0.230000] [<c0008524>] (do_one_initcall+0x90/0x160) from [<c04f98f4>] (kernel_init+0xf8/0x1b8)
-[    0.230000] [<c04f98f4>] (kernel_init+0xf8/0x1b8) from [<c000e604>] (kernel_thread_exit+0x0/0x8)
-[    0.230000] ---[ end trace d1209544ae3f8d4d ]---
-[    0.230000] cfg80211: Calling CRDA to update world regulatory domain
-[    0.230000] Switching to clocksource xttcpss_timer1
-[    0.240000] NET: Registered protocol family 2
-[    0.240000] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
-[    0.240000] TCP bind hash table entries: 16384 (order: 5, 131072 bytes)
-[    0.240000] TCP: Hash tables configured (established 16384 bind 16384)
-[    0.240000] TCP: reno registered
-[    0.240000] UDP hash table entries: 256 (order: 1, 8192 bytes)
-[    0.240000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
-[    0.240000] NET: Registered protocol family 1
-[    0.250000] pl330 dev 0 probe success
-[    0.250000] msgmni has been set to 1004
-[    0.250000] io scheduler noop registered
-[    0.250000] io scheduler deadline registered
-[    0.250000] io scheduler cfq registered (default)
-[    0.250000] dma-pl330: probe of f8004000.ps7-dma failed with error -2
-[    0.250000] dma-pl330: probe of f8003000.ps7-dma failed with error -2
-[    0.250000] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82) is a xuartps
-[    0.860000] console [ttyPS0] enabled
-[    0.860000] xdevcfg f8007000.ps7-dev-cfg: ioremap f8007000 to e0910000 with size 1000
-[    0.870000] [drm] Initialized drm 1.1.0 20060810
-[    0.880000] brd: module loaded
-[    0.890000] loop: module loaded
-[    0.900000] libphy: XEMACPS mii bus: probed
-[    0.910000] xemacps e000b000.ps7-ethernet: invalid address, use assigned
-[    0.910000] xemacps e000b000.ps7-ethernet: MAC updated 62:24:22:45:8c:6c
-[    0.920000] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
-[    0.930000] usbcore: registered new interface driver rtl8192cu
-[    0.940000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    0.940000] usb_hcd_xusbps_probe: No OTG assigned!
-[    0.950000] usb_hcd_xusbps_probe: OTG now assigned!
-[    0.950000] xusbps-ehci xusbps-ehci.0: Xilinx PS USB EHCI Host Controller
-[    0.960000] xusbps-ehci xusbps-ehci.0: new USB bus registered, assigned bus number 1
-[    1.000000] xusbps-ehci xusbps-ehci.0: irq 53, io mem 0x00000000
-[    1.020000] xusbps-ehci xusbps-ehci.0: USB 2.0 started, EHCI 1.00
-[    1.020000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
-[    1.030000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[    1.040000] usb usb1: Product: Xilinx PS USB EHCI Host Controller
-[    1.040000] usb usb1: Manufacturer: Linux 3.6.0-digilent-13.01-00004-gfd0ba1e ehci_hcd
-[    1.050000] usb usb1: SerialNumber: xusbps-ehci.0
-[    1.050000] hub 1-0:1.0: USB hub found
-[    1.060000] hub 1-0:1.0: 1 port detected
-[    1.060000] Initializing USB Mass Storage driver...
-[    1.070000] usbcore: registered new interface driver usb-storage
-[    1.070000] USB Mass Storage support registered.
-[    1.080000] mousedev: PS/2 mouse device common for all mice
-[    1.080000] gspca_main: v2.14.0 registered
-[    1.090000] usbcore: registered new interface driver uvcvideo
-[    1.090000] USB Video Class driver (1.1.1)
-[    1.100000] sdhci: Secure Digital Host Controller Interface driver
-[    1.110000] sdhci: Copyright(c) Pierre Ossman
-[    1.110000] sdhci-pltfm: SDHCI platform and OF driver helper
-[    1.120000] Registered led device: mmc0::
-[    1.160000] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
-[    1.170000] usbcore: registered new interface driver usbhid
-[    1.180000] usbhid: USB HID core driver
-[    1.190000] TCP: cubic registered
-[    1.200000] NET: Registered protocol family 17
-[    1.200000] lib80211: common routines for IEEE802.11 drivers
-[    1.210000] lib80211_crypt: registered algorithm 'NULL'
-[    1.210000] lib80211_crypt: registered algorithm 'WEP'
-[    1.210000] lib80211_crypt: registered algorithm 'CCMP'
-[    1.210000] lib80211_crypt: registered algorithm 'TKIP'
-[    1.210000] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
-[    1.210000] Registering SWP/SWPB emulation handler
-[    1.220000] registered taskstats version 1
-[    1.220000] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
-[    1.230000] ALSA device list:
-[    1.230000]   No soundcards found.
-[    1.240000] Waiting for root device /dev/mmcblk0p2...
-[    1.250000] mmc0: new high speed SDHC card at address aaaa
-[    1.260000] mmcblk0: mmc0:aaaa SL08G 7.40 GiB 
-[    1.260000]  mmcblk0: p1 p2
-[    1.570000] EXT4-fs (mmcblk0p2): recovery complete
-[    1.570000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
-[    1.580000] VFS: Mounted root (ext4 filesystem) on device 179:2.
-[    1.590000] devtmpfs: mounted
-[    1.590000] Freeing init memory: 152K
-[    1.760000] init: Failed to create pty - disabling logging for job
-[    1.770000] init: Temporary process spawn error: No space left on device
-[    1.800000] init: Failed to create pty - disabling logging for job
-[    1.810000] init: Temporary process spawn error: No space left on device
-[    1.820000] init: Failed to create pty - disabling logging for job
-[    1.830000] init: Temporary process spawn error: No space left on device
-[    1.840000] init: Failed to create pty - disabling logging for job
-[    1.840000] init: Temporary process spawn error: No space left on device
-[    1.900000] init: ureadahead main process (628) terminated with status 5
-[    2.020000] init: Failed to create pty - disabling logging for job
-[    2.020000] init: Temporary process spawn error: No space left on device
-[    2.040000] init: Failed to create pty - disabling logging for job
-[    2.050000] init: Temporary process spawn error: No space left on device
-[    2.080000] init: Failed to create pty - disabling logging for job
-[    2.090000] init: Temporary process spawn error: No space left on device
-[    2.510000] udevd[717]: starting version 175
-[    3.520000] init: udev-fallback-graphics main process (1194) terminated with status 1
-[    3.610000] init: plymouth main process (629) killed by SEGV signal
-[    3.610000] init: plymouth-splash main process (1205) terminated with status 2
-[    3.630000] init: failsafe main process (1184) killed by TERM signal
+[    1.320000] ALSA device list:
+[    1.330000]   No soundcards found.
+[    1.470000] usb 1-1: new high-speed USB device number 2 using xusbps-ehci
+[    1.620000] usb 1-1: New USB device found, idVendor=05e3, idProduct=0608
+[    1.620000] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    1.630000] usb 1-1: Product: USB2.0 Hub
+[    1.640000] hub 1-1:1.0: USB hub found
+[    1.640000] hub 1-1:1.0: 4 ports detected
+[    1.930000] usb 1-1.1: new full-speed USB device number 3 using xusbps-ehci
+[    2.040000] usb 1-1.1: New USB device found, idVendor=413c, idProduct=1005
+[    2.040000] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.050000] usb 1-1.1: Product: Dell Multimedia Pro Keyboard Hub
+[    2.060000] usb 1-1.1: Manufacturer: Dell
+[    2.060000] hub 1-1.1:1.0: USB hub found
+[    2.070000] hub 1-1.1:1.0: 3 ports detected
+[    2.150000] usb 1-1.2: new low-speed USB device number 4 using xusbps-ehci
+[    2.260000] usb 1-1.2: New USB device found, idVendor=0461, idProduct=4d15
+[    2.270000] usb 1-1.2: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[    2.270000] usb 1-1.2: Product: USB Optical Mouse
+[    2.280000] input: USB Optical Mouse as /devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.2/1-1.2:1.0/input/input0
+[    2.290000] hid-generic 0003:0461:4D15.0001: input: USB HID v1.11 Mouse [USB Optical Mouse] on usb-xusbps-ehci.0-1.2/input0
+[    2.380000] usb 1-1.4: new high-speed USB device number 5 using xusbps-ehci
+[    2.490000] usb 1-1.4: New USB device found, idVendor=0bda, idProduct=8178
+[    2.490000] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.500000] usb 1-1.4: Product: USB WLAN
+[    2.500000] usb 1-1.4: Manufacturer: 802.11n
+[    2.510000] usb 1-1.4: SerialNumber: 00e04c000001
+[    2.520000] rtl8192cu: Chip version 0x11
+[    2.600000] rtl8192cu: MAC address: 08:57:00:b5:3c:0d
+[    2.600000] rtl8192cu: Board Type 0
+[    2.610000] rtlwifi: rx_max_size 15360, rx_urb_num 8, in_ep 1
+[    2.610000] cfg80211: Updating information on frequency 2412 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2417 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2422 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2427 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2432 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2437 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2442 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2447 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2452 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2457 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Updating information on frequency 2462 MHz for a 20 MHz width channel with regulatory rule:
+[    2.610000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
+[    2.610000] cfg80211: Disabling freq 2467 MHz as custom regd has no rule that fits a 20 MHz wide channel
+[    2.610000] cfg80211: Disabling freq 2472 MHz as custom regd has no rule that fits a 20 MHz wide channel
+[    2.610000] cfg80211: Disabling freq 2484 MHz as custom regd has no rule that fits a 20 MHz wide channel
+[    2.610000] cfg80211: Pending regulatory request, waiting for it to be processed...
+[    2.610000] rtl8192cu: Loading firmware rtlwifi/rtl8192cufw.bin
+[    2.700000] usb 1-1.1.1: new low-speed USB device number 6 using xusbps-ehci
+[    2.810000] usb 1-1.1.1: New USB device found, idVendor=413c, idProduct=2011
+[    2.820000] usb 1-1.1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.830000] usb 1-1.1.1: Product: Dell Multimedia Pro Keyboard
+[    2.830000] usb 1-1.1.1: Manufacturer: Dell
+[    2.840000] input: Dell Dell Multimedia Pro Keyboard as /devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0/input/input1
+[    2.850000] hid-generic 0003:413C:2011.0002: input: USB HID v1.10 Keyboard [Dell Dell Multimedia Pro Keyboard] on usb-xusbps-ehci.0-1.1.1/input0
+[    2.870000] input: Dell Dell Multimedia Pro Keyboard as /devices/axi.0/e0002000.ps7-usb/xusbps-ehci.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.1/input/input2
+[    2.880000] hid-generic 0003:413C:2011.0003: input: USB HID v1.10 Device [Dell Dell Multimedia Pro Keyboard] on usb-xusbps-ehci.0-1.1.1/input1
+[   14.190000] [drm:drm_sysfs_connector_add], adding "HDMI-A-1" to sysfs
+[   14.190000] [drm:drm_sysfs_hotplug_event], generating hotplug event
+[   14.190000] [drm:drm_helper_probe_single_connector_modes], [CONNECTOR:5:HDMI-A-1]
+[   17.010000] EXT4-fs (mmcblk0p2): recovery complete
+[   17.010000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[   17.020000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[   17.030000] devtmpfs: mounted
+[   17.030000] Freeing init memory: 152K
+[   17.190000] new mode: 640x480 800x525 25175
+[   17.190000] new mode: 800x600 1024x625 36000
+[   17.190000] new mode: 800x600 1056x628 40000
+[   17.200000] new mode: 848x480 1088x517 33750
+[   17.200000] new mode: 1024x768 1344x806 65000
+[   17.210000] [drm:drm_helper_probe_single_connector_modes], [CONNECTOR:5:HDMI-A-1] probed modes :
+[   17.210000] [drm:drm_mode_debug_printmodeline], Modeline 10:"1024x768" 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+[   17.210000] [drm:drm_mode_debug_printmodeline], Modeline 8:"800x600" 60 40000 800 840 968 1056 600 601 605 628 0x40 0x5
+[   17.210000] [drm:drm_mode_debug_printmodeline], Modeline 7:"800x600" 56 36000 800 824 896 1024 600 601 603 625 0x40 0x5
+[   17.210000] [drm:drm_mode_debug_printmodeline], Modeline 9:"848x480" 60 33750 848 864 976 1088 480 486 494 517 0x40 0x5
+[   17.210000] [drm:drm_mode_debug_printmodeline], Modeline 6:"640x480" 60 25175 640 656 752 800 480 489 492 525 0x40 0xa
+[   17.210000] [drm:drm_setup_crtcs], 
+[   17.210000] [drm:drm_enable_connectors], connector 5 enabled? yes
+[   17.210000] [drm:drm_target_preferred], looking for cmdline mode on connector 5
+[   17.210000] [drm:drm_target_preferred], looking for preferred mode on connector 5
+[   17.210000] [drm:drm_target_preferred], found mode 1024x768
+[   17.210000] [drm:drm_setup_crtcs], picking CRTCs for 4096x4096 config
+[   17.210000] [drm:drm_setup_crtcs], desired mode 1024x768 set on crtc 3
+[   17.210000] [drm:drm_fbdev_cma_create], surface width(1024), height(768) and bpp(32
+[   17.220000] [drm:drm_crtc_helper_set_config], 
+[   17.220000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   17.220000] [drm:drm_crtc_helper_set_config], crtc has no fb, full mode set
+[   17.220000] [drm:drm_crtc_helper_set_config], modes are different, full mode set
+[   17.220000] [drm:drm_mode_debug_printmodeline], Modeline 0:"" 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[   17.220000] [drm:drm_mode_debug_printmodeline], Modeline 11:"1024x768" 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+[   17.220000] [drm:drm_crtc_helper_set_config], crtc changed, full mode switch
+[   17.220000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   17.220000] [drm:drm_crtc_helper_set_config], attempting to set mode from userspace
+[   17.220000] [drm:drm_mode_debug_printmodeline], Modeline 11:"1024x768" 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+[   17.220000] [drm:drm_crtc_helper_set_mode], [CRTC:3]
+[   17.220000] [drm:drm_crtc_helper_set_mode], [ENCODER:4:TMDS-4] set [MODE:11:1024x768]
+[   17.360000] init: ureadahead main process (652) terminated with status 5
+[   18.220000] setting clock to: 65000
+[   18.220000] raw_edid:   (null) 0
+[   18.220000] Using RGB output
+[   47.220000] [drm:drm_calc_timestamping_constants], crtc 3: hwmode: htotal 1344, vtotal 806, vdisplay 768
+[   47.220000] [drm:drm_calc_timestamping_constants], crtc 3: clock 65000 kHz framedur 16664856 linedur 20676, pixeldur 15
+[   47.220000] [drm:drm_crtc_helper_set_config], Setting connector DPMS state to on
+[   47.220000] [drm:drm_crtc_helper_set_config], 	[CONNECTOR:5:HDMI-A-1] set DPMS on
+[   47.220000] [drm:drm_crtc_helper_set_config], 
+[   47.220000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   47.220000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   47.230000] Console: switching to colour frame buffer device 128x48
+[   50.230000] [drm:output_poll_execute], [CONNECTOR:5:HDMI-A-1] status updated from 1 to 1
+[   50.230000] [drm:drm_crtc_helper_set_config], 
+[   50.230000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   50.230000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   50.260000] fb0:  frame buffer device
+[   50.260000] drm: registered panic notifier
+[   50.260000] [drm] Initialized analog_drm 1.0.0 20110530 on minor 0
+[   51.550000] udevd[777]: starting version 175
+[   51.690000] init: gator-daemon main process (790) terminated with status 1
+[   52.260000] cfg80211: Ignoring regulatory request Set by core since the driver uses its own custom regulatory domain
+[   52.260000] ieee80211 phy0: Selected rate control algorithm 'rtl_rc'
+[   52.310000] rtlwifi: wireless switch is on
+[   53.290000] [drm:drm_stub_open], 
+[   53.290000] [drm:drm_open_helper], pid = 654, minor = 0
+[   53.290000] [drm:drm_setup], 
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_release], open_count = 1
+[   53.290000] [drm:drm_release], pid = 654, device = 0xe200, open_count = 1
+[   53.290000] [drm:drm_lastclose], 
+[   53.290000] [drm:drm_crtc_helper_set_config], 
+[   53.290000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   53.290000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   53.290000] [drm:drm_lastclose], driver lastclose completed
+[   53.290000] [drm:drm_lastclose], lastclose completed
+[   53.290000] [drm:drm_stub_open], 
+[   53.290000] [drm:drm_open_helper], pid = 654, minor = 0
+[   53.290000] [drm:drm_setup], 
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_release], open_count = 1
+[   53.290000] [drm:drm_release], pid = 654, device = 0xe200, open_count = 1
+[   53.290000] [drm:drm_lastclose], 
+[   53.290000] [drm:drm_crtc_helper_set_config], 
+[   53.290000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   53.290000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   53.290000] [drm:drm_lastclose], driver lastclose completed
+[   53.290000] [drm:drm_lastclose], lastclose completed
+[   53.290000] [drm:drm_stub_open], 
+[   53.290000] [drm:drm_open_helper], pid = 654, minor = 0
+[   53.290000] [drm:drm_setup], 
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_ioctl], pid=654, cmd=0xc0246400, nr=0x00, dev 0xe200, auth=1
+[   53.290000] [drm:drm_release], open_count = 1
+[   53.290000] [drm:drm_release], pid = 654, device = 0xe200, open_count = 1
+[   53.290000] [drm:drm_lastclose], 
+[   53.290000] [drm:drm_crtc_helper_set_config], 
+[   53.290000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   53.290000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   53.290000] [drm:drm_lastclose], driver lastclose completed
+[   53.290000] [drm:drm_lastclose], lastclose completed
+[   53.400000] init: bluetooth main process (1081) terminated with status 1
+[   53.400000] init: bluetooth main process ended, respawning
+[   53.510000] [drm:drm_crtc_helper_set_config], 
+[   53.510000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   53.510000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   53.540000] [drm:drm_crtc_helper_set_config], 
+[   53.540000] [drm:drm_crtc_helper_set_config], [CRTC:3] [FB:12] #connectors=1 (x y) (0 0)
+[   53.540000] [drm:drm_crtc_helper_set_config], [CONNECTOR:5:HDMI-A-1] to [CRTC:3]
+[   54.030000] init: bluetooth main process (1321) terminated with status 1
+[   54.030000] init: bluetooth main process ended, respawning
+[   54.460000] init: bluetooth main process (1381) terminated with status 1
+[   54.460000] init: bluetooth main process ended, respawning
+[   54.600000] init: failsafe main process (1362) killed by TERM signal
+[   54.830000] init: bluetooth main process (1428) terminated with status 1
+[   54.830000] init: bluetooth main process ended, respawning
+[   55.170000] init: bluetooth main process (1457) terminated with status 1
+[   55.170000] init: bluetooth main process ended, respawning
+[   55.840000] rtl8192cu: MAC auto ON okay!
+[   55.840000] init: hybrid-gfx main process (1528) terminated with status 1
+[   55.990000] rtl8192cu: Tx queue select: 0x05
+[   56.050000] rtl8192c_common:_rtl92c_fw_free_to_go():<0-0> chksum report faill ! REG_MCUFWDL:0x00030000
+[   56.050000] rtl8192c_common:rtl92c_download_fw():<0-0> Firmware is not ready to run!
+[   56.160000] init: bluetooth main process (1499) terminated with status 1
+[   56.160000] init: bluetooth main process ended, respawning

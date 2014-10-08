@@ -1,0 +1,58 @@
+
+Nice: GLib ICE library
+======================
+
+Copyright
+---------
+
+ (C) 2006-2011 Collabora Ltd.
+ (C) 2006-2011 Nokia Corporation
+
+License
+-------
+
+See the file COPYING.
+
+Requirements
+------------
+
+ glib >= 2.10
+ pkg-config
+ gupnp-igd >= 0.1.2 (optional)
+ gstreamer-0.10 >= 0.10.0 (optional)
+
+Structure
+---------
+
+ agent/   - ICE agent
+ docs/    - Design and API documentation
+ gst/     - Gstreamer elements
+ nice/    - libnice library
+ random/  - random number generation
+ socket/  - Socket abstraction layer
+ stun/    - STUN implementation
+ tests/   - Unit tests
+
+Relevant standards
+------------------
+
+These standards are relevant to nice's current implementation.
+
+ICE draft 15
+  http://tools.ietf.org/html/rfc5245
+STUN
+  http://tools.ietf.org/html/rfc3489
+  http://tools.ietf.org/html/rfc5389
+TURN 
+  http://tools.ietf.org/html/rfc5766
+RTP
+  http://tools.ietf.org/html/rfc3550
+XMPP Jingle ICE transport
+  http://www.xmpp.org/extensions/xep-0176.html
+
+In future, nice may additionally support the following standards.
+
+NAT-PMP
+  http://files.dns-sd.org/draft-cheshire-nat-pmp.txt
+
+

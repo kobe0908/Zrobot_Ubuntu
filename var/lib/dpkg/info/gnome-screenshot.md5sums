@@ -1,0 +1,9 @@
+67e3f5b8d718c0fcb1b756230969e02b  usr/bin/gnome-screenshot
+4e492dfa54c52fb6c45ee4297a8ad62e  usr/share/GConf/gsettings/gnome-screenshot.convert
+e3e7d0064719cdd1f1d2a3afacea9f8c  usr/share/applications/gnome-screenshot.desktop
+74c24a3490cca41e85e84a2dd262e6a2  usr/share/doc/gnome-screenshot/NEWS.gz
+cb4bd58281b3d4ef3dd9b4a619eb35c5  usr/share/doc/gnome-screenshot/changelog.Debian.gz
+25a23bbaaa66d53a8cc44f7dd1ab59b2  usr/share/doc/gnome-screenshot/copyright
+162ebccca3d4973e198571c25b068e80  usr/share/glib-2.0/schemas/org.gnome.gnome-screenshot.gschema.xml
+b56195444cc97763dc1e6bfcba4e0e0a  usr/share/gnome-screenshot/gnome-screenshot.ui
+1fb858455fd509f8160eb6a1a4b87292  usr/share/man/man1/gnome-screenshot.1.gz

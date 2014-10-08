@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ltsp-livecd
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0
+Icon=ltsp-live
+Type=Application
+StartupNotify=false
+Exec=gksudo ltsp-live
+Name=Start LTSP-Live
+Comment=Starts an LTSP server from the live CD
+Categories=GNOME;KDE;System;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

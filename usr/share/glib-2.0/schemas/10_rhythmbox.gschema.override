@@ -1,0 +1,5 @@
+[org.gnome.rhythmbox.rhythmdb]
+monitor-library=true
+
+[org.gnome.rhythmbox.plugins]
+active-plugins=['artdisplay','audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','notification','power-manager']

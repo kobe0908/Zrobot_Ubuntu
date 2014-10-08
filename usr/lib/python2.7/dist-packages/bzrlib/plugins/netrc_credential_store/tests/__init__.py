@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/bzrlib/plugins/netrc_credential_store/tests/__init__.py

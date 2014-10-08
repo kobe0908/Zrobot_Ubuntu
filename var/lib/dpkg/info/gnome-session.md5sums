@@ -1,0 +1,10 @@
+9322d3bb6172f857b10f06924f9a684f  usr/share/doc/gnome-session/README.Debian
+6d6a45f6ac60957a3bf94687aee0a289  usr/share/doc/gnome-session/copyright
+4011c9c79a6c3a16ccff9d7ac2e07915  usr/share/doc/gnome-session/dbus/gnome-session.html
+0d1bff0f52ded2e63198ca2656d20d6d  usr/share/gnome-session/sessions/gnome.session
+16183cb938ee7c68eecdc0dad60a964c  usr/share/gnome-session/sessions/ubuntu-2d.session
+a93e90e9918ee1f940c9d3867bc780c4  usr/share/gnome-session/sessions/ubuntu.session
+32bfc09215e2a9b6a3e0dc041ad4a306  usr/share/xsessions/gnome-shell.desktop
+26e6b3306bb667fac5fbf21df8a88e6e  usr/share/xsessions/gnome.desktop
+ac565c8d569c0639df2729f9eddd9409  usr/share/xsessions/ubuntu-2d.desktop
+cfe25ed3cc2f96703cb17f158342df7e  usr/share/xsessions/ubuntu.desktop

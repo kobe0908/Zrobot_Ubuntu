@@ -1,0 +1,100 @@
+plugin: shell
+name: wireless/wireless_scanning
+user: root
+requires: package.name == 'wireless-tools'
+command: network_wireless_test
+description: Wireless scanning test. It scans and reports on discovered APs.
+description-ast.UTF-8: Prueba d'esploración inalámbrica. Esplora ya informa de les AP descubiertes.
+description-cs.UTF-8: Test prohledávání bezdrátové sítě. Prohledá a vypíše dostupné přístupové body (AP).
+description-de.UTF-8: Test der Funknetzwerksuche. Es wird nach Funknetzwerken gesucht und gefundene Zugriffspunkte werden angezeigt.
+description-el.utf-8: Έλεγχος ασύρματης ανίχνευσης. Διενεργεί σάρωση και επιστρέφει μία αναφορά για τα ανακαλυφθέντα AP.
+description-en_AU.UTF-8: Wireless scanning test. It scans and reports on discovered APs.
+description-en_GB.UTF-8: Wireless scanning test. It scans and reports on discovered APs.
+description-es.UTF-8: Prueba de exploración inalámbrica. Explora e informa de las AP descubiertas.
+description-fi.UTF-8: Langattomien verkkojen havaitsemistesti. Etsitään verkkoja ja raportoidaan havaitut verkot.
+description-he.UTF-8: בדיקת סריקת אלחוטי. התכונה תחפש ותדווח על נקודות הגישה שהתגלו.
+description-it.UTF-8: Test di ricerca delle reti senza fili. Ricerca e crea un resoconto sui punti di accesso trovati.
+description-ms.UTF-8: Ujian pengimbasan tanpa wayar. Ia mengimbas dan laporkan AP yang ditemui.
+description-nl.UTF-8: Draadloze scanner test. Het scant en doet verslag van ontdekte APs
+description-pt_BR.UTF-8: Teste de varredura de redes sem fio. Detecta e relata pontos de acesso descobertos.
+description-ro.UTF-8: Test de scanare pentru rețele fără fir. Scanează și afișează punctele de acces descoperite.
+description-ru.UTF-8: Проверка сканирование беспроводных устройств. Выполняется проверка и создаются отчёты об обнаруженных точках доступа.
+description-sl.UTF-8: Preizkus iskanja brezžičnih povezav. Išče in poroča o odkritih dostopnih točkah.
+description-tr.UTF-8: Kablosuz tarama sınaması. Erişim noktalarını tarar ve bulunanlar hakkında rapor verir.
+description-ug.UTF-8: سىمسىز تورنى ئىزدەش سىنىقى. بۇ سىناقتا سىمسىز زىيارەت نۇقتىلىرىنى(AP) ئىزدەپ تېپىلىدۇ ۋە تاپقانلىرىنى كۆرسىتىدۇ.
+
+plugin: manual
+name: wireless/wireless_connection
+command: network_check
+requires: device.category == 'WIRELESS'
+description:
+ PURPOSE:
+     This test will check your wireless connection.
+ STEPS:
+     1. Click on the Network icon in the panel.
+     2. Select a network below the 'Wireless networks' section.
+     3. Click "Test" to verify that it's possible to establish an HTTP connection.
+ VERIFICATION:
+     Did a notification show and was the connection correctly established?
+
+plugin: shell
+name: wireless/wireless_connection_wpa_bg
+requires: device.category == 'WIRELESS'
+user: root
+environ: WPA_BG_SSID WPA_BG_PSK
+command: trap "rm -f /etc/NetworkManager/system-connections/$WPA_BG_SSID" EXIT; create_connection $WPA_BG_SSID --security=wpa --key=$WPA_BG_PSK; internet_test --interface=`nmcli dev status | awk '/802-11-wireless/ {print $1}'`
+description:
+ Tests that the systems wireless hardware can connect to a router using WPA
+ security and the 802.11b/g protocols.
+
+plugin: shell
+name: wireless/wireless_connection_open_bg
+requires: device.category == 'WIRELESS'
+user: root
+environ: OPEN_BG_SSID
+command: trap "rm -f /etc/NetworkManager/system-connections/$OPEN_BG_SSID" EXIT; create_connection $OPEN_BG_SSID; internet_test --interface=`nmcli dev status | awk '/802-11-wireless/ {print $1}'`
+description:
+ Tests that the systems wireless hardware can connect to a router using no
+ security and the 802.11b/g protocols.
+
+plugin: shell
+name: wireless/wireless_connection_wpa_n
+requires: device.category == 'WIRELESS'
+user: root
+environ: WPA_N_SSID WPA_N_PSK
+command: trap "rm -f /etc/NetworkManager/system-connections/$WPA_N_SSID" EXIT; create_connection $WPA_N_SSID --security=wpa --key=$WPA_N_PSK; internet_test --interface=`nmcli dev status | awk '/802-11-wireless/ {print $1}'`
+description:
+ Tests that the systems wireless hardware can connect to a router using WPA
+ security and the 802.11n protocol.
+
+plugin: shell
+name: wireless/wireless_connection_open_n
+requires: device.category == 'WIRELESS'
+user: root
+environ: OPEN_N_SSID
+command: trap "rm -f /etc/NetworkManager/system-connections/$OPEN_N_SSID" EXIT; create_connection $OPEN_N_SSID; internet_test --interface=`nmcli dev status | awk '/802-11-wireless/ {print $1}'`
+description:
+ Tests that the systems wireless hardware can connect to a router using no
+ security and the 802.11n protocol.
+
+plugin: shell
+name: wireless/monitor_wireless_connection
+requires:
+ package.name == 'iperf'
+ device.category == 'WIRELESS'
+user: root
+environ: WPA_BG_SSID WPA_BG_PSK SERVER_IPERF
+command: trap "rm -f /etc/NetworkManager/system-connections/$WPA_BG_SSID; ifconfig eth0 up" EXIT; create_connection $WPA_BG_SSID --security=wpa --key=$WPA_BG_PSK; ifconfig eth0 down; iperf -c $SERVER_IPERF -t 300 -i 30
+description:
+ Tests the performance of a systems wireless connection through the iperf tool.
+
+plugin: shell
+name: wireless/monitor_wireless_connection_udp
+requires:
+ package.name == 'iperf'
+ device.category == 'WIRELESS'
+user: root
+environ: WPA_BG_SSID WPA_BG_PSK SERVER_IPERF
+command: trap "rm -f /etc/NetworkManager/system-connections/$WPA_BG_SSID; ifconfig eth0 up" EXIT; create_connection $WPA_BG_SSID --security=wpa --key=$WPA_BG_PSK && ifconfig eth0 down; iperf -c $SERVER_IPERF -t 300 -i 30 -u -b 100m -p 5050
+description:
+ Tests the performance of a systems wireless connection through the iperf tool, using UDP packets.

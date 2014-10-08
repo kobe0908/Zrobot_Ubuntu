@@ -1,0 +1,16 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=59
+Source: https://edge.launchpad.net/software-center-aptdaemon-plugins
+
+Files: *
+Copyright: © 2011 Canonical
+           © 2011 Sebastian Heinlein <glatzor@ubuntu.com>
+License: GPL-3
+
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
+

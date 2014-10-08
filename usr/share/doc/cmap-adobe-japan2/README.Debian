@@ -1,0 +1,8 @@
+cmap-adobe-japan2 for Debian
+----------------------
+
+The use of the Adobe-Japan2-0 character collection is now deprecated
+because the Adobe-Japan1-6 character collection made it
+obsolete.
+
+ -- Kenshi Muto <kmuto@debian.org>, Thu,  1 Oct 2009 21:22:17 +0900

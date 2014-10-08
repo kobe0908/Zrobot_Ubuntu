@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=0ad
+X-AppInstall-Popcon=397
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=0 A.D.
+Comment=A real-time strategy game of ancient warfare
+Exec=/usr/games/0ad
+Icon=0ad
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

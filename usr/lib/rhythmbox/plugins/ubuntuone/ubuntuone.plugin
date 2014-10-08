@@ -1,0 +1,13 @@
+[Plugin]
+Loader=python
+Module=ubuntuone
+IAge=1
+Depends=rb
+Name=Ubuntu One
+Description=Integration of Ubuntu One for Rhythmbox.
+Authors=Ubuntu One Developers <ubuntuone-users@lists.launchpad.net>
+Copyright=Copyright © 2009-2012 Canonical
+Website=http://one.ubuntu.com/
+
+[RB]
+InitiallyEnabled=true

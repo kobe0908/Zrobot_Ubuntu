@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/folks
+/usr/lib/folks/32
+/usr/lib/folks/32/backends
+/usr/lib/folks/32/backends/telepathy
+/usr/lib/folks/32/backends/telepathy/telepathy.so
+/usr/lib/libfolks-telepathy.so.25.7.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfolks-telepathy25
+/usr/share/doc/libfolks-telepathy25/copyright
+/usr/lib/libfolks-telepathy.so.25
+/usr/share/doc/libfolks-telepathy25/changelog.Debian.gz

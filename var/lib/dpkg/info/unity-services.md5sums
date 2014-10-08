@@ -1,0 +1,5 @@
+84fed6eb935e9ccc4b6b117fc3ad96c3  usr/lib/unity/unity-panel-service
+fb793aad87393de356c48f40717e6a16  usr/share/dbus-1/services/com.canonical.Unity.Panel.Service.service
+a52b2068dd675c032b1859daeeef70ad  usr/share/doc/unity-services/changelog.Debian.gz
+1b494617ca5e6d5b95ec993c49302665  usr/share/doc/unity-services/copyright
+d20080c2f879a1366a39129bdd45af4f  usr/share/man/man1/unity-panel-service.1.gz

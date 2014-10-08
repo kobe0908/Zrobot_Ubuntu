@@ -1,0 +1,10 @@
+d9360ab878f992bc4f65a35b5d0fb696  usr/share/doc/software-center-aptdaemon-plugins/changelog.gz
+72d8c2a68235ff81ae51528b10127c3a  usr/share/doc/software-center-aptdaemon-plugins/copyright
+84b7336c871bdb216d6a1bb82969a048  usr/share/pyshared/software_center_aptd_plugins-0.0.0.egg-info/PKG-INFO
+f3dbb48031b93691ecd1509255f49806  usr/share/pyshared/software_center_aptd_plugins-0.0.0.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/share/pyshared/software_center_aptd_plugins-0.0.0.egg-info/dependency_links.txt
+80a6fb3e61312a8575c947af44c4f6bd  usr/share/pyshared/software_center_aptd_plugins-0.0.0.egg-info/entry_points.txt
+ceb94f1a96ce1263734acdde92cfd63b  usr/share/pyshared/software_center_aptd_plugins-0.0.0.egg-info/top_level.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/share/pyshared/softwarecenter_aptd_plugins/__init__.py
+a083302a8d3c9c3ee37d1cf2e6c308a0  usr/share/pyshared/softwarecenter_aptd_plugins/add_license_key_plugin.py
+25fbbf047814e0cec7bff158a46301c6  usr/share/software-center/ubuntu-license-key-helper

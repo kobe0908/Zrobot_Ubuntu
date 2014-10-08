@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kscope
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=KScope
+Exec=kscopeapp
+Icon=kscope
+Type=Application
+Terminal=false
+Comment=Source editing environment
+GenericName=Source editing environment
+Categories=Qt;Development;
+
+X-Ubuntu-Gettext-Domain=app-install-data

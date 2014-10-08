@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Příručka k přehrávači filmů Totem</title>
+    <date>Únor 2009</date>
+    <version identifier="Příručka V3.0 k Přehrávači filmů Totem" date="Únor 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Přehrávač filmů Totem je multimediální přehrávač pro prostředí GNOME používající standardně GStreamer, ale fungující i s Xine. Pracuje s většinou video i zvukových kodeků včetně DVD. Podporuje televizní výstup, režim celé obrazovky, titulky a mnoho dalšího.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/cs/totem.xml"/>
+    <language code="cs"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

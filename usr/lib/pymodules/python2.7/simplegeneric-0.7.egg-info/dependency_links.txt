@@ -1,1 +1,0 @@
-/usr/share/pyshared/simplegeneric-0.7.egg-info/dependency_links.txt

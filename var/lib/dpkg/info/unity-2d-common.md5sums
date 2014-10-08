@@ -1,0 +1,8 @@
+2cbff5c2be18624a735038cb4c2c2002  usr/share/apport/package-hooks/unity-2d.py
+360fb405b7356d36cf215dbf564744e8  usr/share/doc/unity-2d-common/changelog.Debian.gz
+fea99ccd595c2f46dac7815c0f8ecab2  usr/share/doc/unity-2d-common/copyright
+fb4a6d32c8fcfd9e68f98124bd419a8a  usr/share/gconf/ubuntu-2d.default.path
+488ea7c1bb734ee9f25641841283bc48  usr/share/gconf/ubuntu-2d.mandatory.path
+1690de4498201de6deceb44197af00ba  usr/share/gconf/ubuntu-2d/default/20_ubuntu-2d-gconf-default
+7dd0054b94bc71ca7b8c5a6672f5829a  usr/share/gconf/ubuntu-2d/mandatory/20_ubuntu-2d-gconf-mandatory
+5159700fbbaf2bbb99b47eeaca584138  usr/share/glib-2.0/schemas/com.canonical.Unity2d.gschema.xml

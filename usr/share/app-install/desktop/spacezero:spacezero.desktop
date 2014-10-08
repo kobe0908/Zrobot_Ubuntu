@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=spacezero
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=Spacezero
+Comment=Real Time Strategy 2D space combat multiplayer net game.
+Categories=Game;StrategyGame;
+Exec=/usr/games/spacezero
+Icon=_usr_share_pixmaps_icon_spacezero
+Terminal=false
+Type=Application
+Version=1.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

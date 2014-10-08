@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=apper
+X-AppInstall-Popcon=2893
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=applications-other
+Exec=apper %F
+NoDisplay=true
+StartupNotify=false
+
+Name=Apper Installer
+GenericName=Software Management
+Comment=Application to get and manage software
+
+MimeType=application/x-deb;application/x-rpm;application/x-redhat-package-manager;application/x-servicepack;
+Terminal=false
+Categories=Qt;KDE;System;Settings;PackageManager;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

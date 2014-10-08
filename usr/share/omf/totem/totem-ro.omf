@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Playerul pentru filme Totem – Manualul utilizatorului</title>
+    <date>Februarie 2009</date>
+    <version identifier="Playerul pentru filme Totem – Manualul utilizatorului V3.0" date="Februarie 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Playerul pentru filme Totem este un player media pentru GNOME ce rulează în mod implicit pe GStreamer, dar poate fi rulat și pe xine. Are suport pentru cele mai multe codecuri audio și video inclusiv DVD-uri. Caracteristicile includ ieșire TV, modul ecran complet, subtitrări, și altele.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/ro/totem.xml"/>
+    <language code="ro"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

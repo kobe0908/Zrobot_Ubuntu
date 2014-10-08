@@ -1,0 +1,83 @@
+#!/usr/bin/python
+
+from gi.repository import Gio, GLib
+import sys, optparse, dbus
+from os.path import join, dirname, exists, realpath, abspath
+from dbus.mainloop.glib import DBusGMainLoop
+
+DBusGMainLoop(set_as_default=True)
+loop = GLib.MainLoop()
+
+LAUNCH_DIR = abspath(sys.path[0])
+SOURCE_DIR = join(LAUNCH_DIR, "..", "gwibber")
+DISPATCHER = join(SOURCE_DIR, "microblog", "dispatcher.py")
+
+gsettings = Gio.Settings.new("org.gwibber.preferences")
+debug = gsettings.get_boolean("debug")
+
+######################################################################
+# Options
+from optparse import OptionParser
+parser = OptionParser()
+parser.add_option("-d", "--debug", action="store_true",
+                  dest="debug", default=False,
+                  help="Log debug messages")
+parser.add_option("-o", action="store_true",
+                  dest="stdout", default=False,
+                  help="Log to stdout")
+(options, args) = parser.parse_args()
+
+if options.stdout:
+  console = True
+else:
+  console = False
+if options.debug or debug:
+  debuglog = True
+else:
+  debuglog = False
+
+######################################################################
+# Setup path
+if exists(DISPATCHER):
+  sys.path.insert(0, realpath(dirname(SOURCE_DIR)))
+  try:
+    from gwibber.microblog.util.log import setup_logging
+    setup_logging(console, debuglog)
+    import logging
+    logger = logging.getLogger("Service")
+    logger.info("Service starting")
+    logger.info("Running from the source tree")
+    from gwibber.microblog import dispatcher
+  finally:
+    del sys.path[0]
+
+else:
+  from gwibber.microblog.util.log import setup_logging
+  import logging
+  setup_logging(console, debuglog)
+  logger = logging.getLogger("Service")
+  logger.info("Service starting")
+  logger.info("Running from the source tree")
+  from gwibber.microblog import dispatcher
+
+# if gwibber-serivce is already running, don't start
+if "com.Gwibber.Connection" in dbus.SessionBus().list_names():
+  logger.info("Found gwibber-service already running, exiting")
+  quit()
+
+"""
+## Check to see if the database needs to be purged
+dispatcher.purge()
+
+account_monitor = dispatcher.AccountMonitor()
+stream_monitor = dispatcher.StreamMonitor()
+message_monitor = dispatcher.MessagesMonitor()
+"""
+
+logger.debug("Setting up monitors")
+connection_monitor = dispatcher.ConnectionMonitor()
+urlshortener = dispatcher.URLShorten()
+translator = dispatcher.Translate()
+uploader = dispatcher.Uploader()
+dispatcher = dispatcher.Dispatcher(loop)
+loop.run()

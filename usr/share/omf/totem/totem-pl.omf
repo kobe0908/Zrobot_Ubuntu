@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>cbhoh@gnome.org (Chee Bin HOH)</creator>
+    <creator>baptiste.millemathias@gmail.org (Baptiste Mille-Mathias)</creator>
+    <creator>philip@tecnocode.co.uk (Philip Withnall)</creator>
+    <maintainer>cbhoh@gnome.org (Chee Bin HOH)</maintainer>
+    <title>Podręcznik Odtwarzacza filmów Totem </title>
+    <date>Luty 2009</date>
+    <version identifier="Podręcznik odtwarzacza filmów Totem V3.0" date="Luty 2009"/>
+    <subject category="GNOME|Multimedia"/>
+    <description>
+      Odtwarzacz filmów Totem jest odtwarzaczem multimediów dla środowiska GNOME domyślnie używającym GStreamer, ale mogącym także używać xine. Wspiera większość kodeków dźwiękowych i wideo włącznie z m.in. DVD. Wspiera funkcje takie jak wyjście TV, odtwarzanie pełnoekranowe, napisy i inne.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.5//EN"/>
+    <identifier url="file:///usr/share/gnome/help/totem/pl/totem.xml"/>
+    <language code="pl"/>
+    <relation seriesid="d4b0b4a6-f3f7-11d7-871e-ae68a0a02055"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Chee Bin HOH"/>
+  </resource>
+</omf>

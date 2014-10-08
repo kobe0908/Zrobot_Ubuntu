@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/bundle/__init__.py

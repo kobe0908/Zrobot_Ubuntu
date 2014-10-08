@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installmodules
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/modprobe.d/python-git" ]; then
+		if [ "`md5sum \"/etc/modprobe.d/python-git\" | sed -e \"s/ .*//\"`" = \
+		     "`dpkg-query -W -f='${Conffiles}' python-git | sed -n -e \"\\\\' /etc/modprobe.d/python-git's/.* //p\"`" ]
+		then
+			rm -f "/etc/modprobe.d/python-git"
+		fi
+	fi
+fi
+# End automatically added section

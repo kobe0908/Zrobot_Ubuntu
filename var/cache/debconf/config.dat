@@ -29,6 +29,117 @@ Template: ca-certificates/trust_new_crts
 Value: yes
 Owners: ca-certificates
 
+Name: checkbox/plugins/apport_prompt/default_enabled
+Template: checkbox/plugins/apport_prompt/default_enabled
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/apport_prompt/default_package
+Template: checkbox/plugins/apport_prompt/default_package
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/jobs_info/blacklist
+Template: checkbox/plugins/jobs_info/blacklist
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/jobs_info/whitelist
+Template: checkbox/plugins/jobs_info/whitelist
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/launchpad_exchange/transport_url
+Template: checkbox/plugins/launchpad_exchange/transport_url
+Value: https://launchpad.net/+hwdb/+submit
+Owners: checkbox
+
+Name: checkbox/plugins/launchpad_prompt/email
+Template: checkbox/plugins/launchpad_prompt/email
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/proxy_info/http_proxy
+Template: checkbox/plugins/proxy_info/http_proxy
+Value: 
+Owners: checkbox
+
+Name: checkbox/plugins/proxy_info/https_proxy
+Template: checkbox/plugins/proxy_info/https_proxy
+Value: 
+Owners: checkbox
+
+Name: console-data/bootmap-md5sum
+Template: console-data/bootmap-md5sum
+Owners: console-common, console-data
+
+Name: console-data/keymap/family
+Template: console-data/keymap/family
+Owners: console-common, console-data
+
+Name: console-data/keymap/full
+Template: console-data/keymap/full
+Owners: console-common
+Variables:
+ choices = amiga / Unknown / French / Standard / Standard, amiga / Unknown / German / Standard / Standard, amiga / Unknown / Italian / Standard / Standard, amiga / Unknown / Spanish / Standard / Standard, amiga / Unknown / Swedish / Standard / Standard, amiga / Unknown / Swiss / German / Standard, amiga / Unknown / US american / Standard / Standard, atari / Unknown / British / Standard / Standard, atari / Unknown / British / Standard / With dead keys, atari / Unknown / German / Standard / Emacs-like, atari / Unknown / German / Standard / Standard, atari / Unknown / German / Standard / With dead keys, atari / Unknown / Swedish / Standard / Standard, atari / Unknown / Swedish / Standard / With dead keys, atari / Unknown / US american / Standard / Standard, atari / Unknown / US american / Standard / With dead keys, mac / Unknown / British / Standard / Standard, mac / Unknown / British / Standard / iBook2, mac / Unknown / Finnish / Standard / Standard, mac / Unknown / French / Standard / Alternate, mac / Unknown / French / Standard / Extended, mac / Unknown / French / Standard / MacBook, mac / Unknown / French / Standard / New, mac / Unknown / French / Standard / Standard, mac / Unknown / French / Standard / Swiss, mac / Unknown / German / Standard / MacBook, mac / Unknown / German / Standard / Standard, mac / Unknown / German / Standard / iBook, mac / Unknown / German / Standard / iBook with dead keys, mac / Unknown / Italian / Apple USB / Standard, mac / Unknown / Italian / Standard / Standard, mac / Unknown / Italian / Standard / iBook, mac / Unknown / Italian / Standard / iBook (alternate), mac / Unknown / Polish / Standard / Standard, mac / Unknown / Portuguese / Apple USB / Standard, mac / Unknown / Portuguese / Standard / Standard, mac / Unknown / Spanish / Standard / Standard, mac / Unknown / US american / Standard / Dvorak, mac / Unknown / US american / Standard / Extended, mac / Unknown / US american / Standard / New, mac / Unknown / US american / Standard / Standard, pc / azerty / Belgian / Apple USB / Standard, pc / azerty / Belgian / Standard / Standard, pc / azerty / Belgian / Wang / Standard, pc / azerty / French / Apple USB / Standard, pc / azerty / French / Same as X11 (latin 9) / Standard, pc / dvorak / Unknown / Apple USB / Standard, pc / dvorak / Unknown / Left single-handed / Standard, pc / dvorak / Unknown / Right single-handed / Standard, pc / dvorak / Unknown / Standard / ANSI, pc / dvorak / Unknown / Standard / Dvorak Classic, pc / dvorak / Unknown / Standard / Dvorak French, pc / dvorak / Unknown / Standard / Dvorak French Bepo, pc / dvorak / Unknown / Standard / Dvorak French Bepo (UTF8), pc / dvorak / Unknown / Standard / Dvorak German, pc / dvorak / Unknown / Standard / Dvorak Lisp machine, pc / dvorak / Unknown / Standard / Dvorak Russian, pc / dvorak / Unknown / Standard / Dvorak United Kingdom, pc / dvorak / Unknown / Standard / Standard, pc / dvorak / Unknown / Standard / With French and Spanish accents, pc / fgGIod / Turkish / Standard / F Layout, pc / fgGIod / Turkish / Standard / F Layout with Unicode, pc / qwerty / Brazilian / BR-Latin1 / Standard, pc / qwerty / Brazilian / Standard / Standard ABNT2, pc / qwerty / British / Apple USB / Standard, pc / qwerty / British / Standard / Standard, pc / qwerty / Bulgarian / CP 1251 coding / Standard, pc / qwerty / Bulgarian / Standard / Standard, pc / qwerty / Byelorussian / Standard / Standard, pc / qwerty / Canadian / English / Standard, pc / qwerty / Canadian / French / Standard, pc / qwerty / Canadian / Multilingual / Standard, pc / qwerty / Czech / Standard / Programmer, pc / qwerty / Czech / Standard / Standard, pc / qwerty / Czech / Standard / US Layout, pc / qwerty / Danish / Standard / Apple USB, pc / qwerty / Danish / Standard / Dead keys, pc / qwerty / Danish / Standard / Standard, pc / qwerty / Dutch / Standard / Standard, pc / qwerty / Estonian / Standard / No dead keys, pc / qwerty / Estonian / Standard / Standard, pc / qwerty / Finnish / Apple USB / Standard, pc / qwerty / Finnish / Old (obsolete) / Standard, pc / qwerty / Finnish / Standard / Standard, pc / qwerty / Greek / Standard / Standard, pc / qwerty / Greek / Standard / gr-pc, pc / qwerty / Hebrew / Standard / Old Phonetic, pc / qwerty / Hebrew / Standard / Phonetic, pc / qwerty / Hebrew / Standard / Standard, pc / qwerty / Hebrew / Standard / il-Heb, pc / qwerty / Hungarian / Standard / Standard, pc / qwerty / Icelandic / Standard / Standard, pc / qwerty / Icelandic / Standard / US, pc / qwerty / Italian / Standard / IBM, pc / qwerty / Italian / Standard / Standard, pc / qwerty / Italian / Standard / it2, pc / qwerty / Japanese / PC 110 / Standard, pc / qwerty / Japanese / Standard / Standard, pc / qwerty / Kirghiz / Standard / unicode, pc / qwerty / Latin American / Standard / Standard, pc / qwerty / Latvian / Standard / latin4, pc / qwerty / Latvian / Standard / latin7, pc / qwerty / Lithuanian / Standard / latin4, pc / qwerty / Lithuanian / Standard / unicode, pc / qwerty / Macedonian / Standard / unicode, pc / qwerty / Norwegian / Standard / Standard, pc / qwerty / Norwegian / Standard / latin1, pc / qwerty / Polish / Standard / AltGr only diacritics, pc / qwerty / Polish / Standard / Diacritics with AltGr and Alt, pc / qwerty / Portugese / Standard / Old keymap, pc / qwerty / Portugese / Standard / Standard, pc / qwerty / Romanian / Standard / Academic, pc / qwerty / Romanian / Standard / Standard, pc / qwerty / Romanian / Standard / With comma, pc / qwerty / Russian / Standard / CP-1251 (1), pc / qwerty / Russian / Standard / CP-1251 (2), pc / qwerty / Russian / Standard / CP-866, pc / qwerty / Russian / Standard / KOI8-R (102 Keys), pc / qwerty / Russian / Standard / KOI8-R (105 Keys), pc / qwerty / Russian / Standard / KOI8-R (MS Cyrillic Layout), pc / qwerty / Russian / Standard / KOI8-R (RightAlt), pc / qwerty / Russian / Standard / KOI8-R (RightCtrl), pc / qwerty / Russian / Standard / KOI8-R (Yawerty Layout), pc / qwerty / Serbian / Standard / Standard, pc / qwerty / Slovak / Standard / Alternate programmer, pc / qwerty / Slovak / Standard / Programmer, pc / qwerty / Slovak / Standard / Standard, pc / qwerty / Spanish / Apple USB / Standard, pc / qwerty / Spanish / Standard / CP850, pc / qwerty / Spanish / Standard / Standard, pc / qwerty / Swedish / Apple USB / Standard, pc / qwerty / Swedish / Standard / Standard, pc / qwerty / Thai / Standard / Standard, pc / qwerty / Turkish / Standard / Alternate, pc / qwerty / Turkish / Standard / Q Layout, pc / qwerty / Turkish / Standard / Q Layout with Unicode, pc / qwerty / US american / Apple USB / Standard, pc / qwerty / US american / Standard / Lisp Machine, pc / qwerty / US american / Standard / Standard, pc / qwerty / US american / Standard / US International (ISO 8859-1), pc / qwerty / US american / Standard / US International (ISO 8859-15), pc / qwerty / US american / Standard / With latin1, pc / qwerty / Ukrainian / Standard / Alternate, pc / qwerty / Ukrainian / Standard / Alternate - unicode, pc / qwerty / Ukrainian / Standard / Standard (koi8u), pc / qwerty / Ukrainian / Standard / WS, pc / qwerty / Ukrainian / Standard / WS - unicode, pc / qwerty / Ukrainian / Standard / unicode, pc / qwertz / Croat / Standard / Standard, pc / qwertz / Czech / Standard / Standard, pc / qwertz / German / Apple USB / latin1, pc / qwertz / German / Apple USB / latin1 - no dead keys, pc / qwertz / German / Standard / Programmer, pc / qwertz / German / Standard / latin1, pc / qwertz / German / Standard / latin1 - no dead keys, pc / qwertz / Hungarian / Standard / Standard, pc / qwertz / Polish / Standard / Standard, pc / qwertz / Serbian / Standard / Standard, pc / qwertz / Slovak / Standard / Programmer, pc / qwertz / Slovak / Standard / Standard, pc / qwertz / Slovene / Standard / Standard, pc / qwertz / Swiss / French / Apple USB, pc / qwertz / Swiss / French / Standard, pc / qwertz / Swiss / French / latin1, pc / qwertz / Swiss / German / Apple USB, pc / qwertz / Swiss / German / Standard, pc / qwertz / Swiss / German / latin1, pc / qwertz / Swiss / German / latin1-lk450, sparc / Type 4 / Finnish / Standard / Standard, sparc / Type 4 / Japanese / Standard / Standard, sparc / Type 4 / Norwegian / Standard / Standard, sparc / Type 4 / Spanish / Standard / Standard, sparc / Type 5 / British / Standard / Standard, sparc / Type 5 / Finnish / Standard / Standard, sparc / Type 5 / French / Standard / Standard, sparc / Type 5 / German / Standard / Standard, sparc / Type 5 / Japanese / Standard / Standard, sparc / Type 5 / Norwegian / Standard / Standard, sparc / Type 5 / Russian / Standard / Standard, sparc / Type 5 / Spanish / Standard / Standard, sparc / Type 5 / Turkish / Standard / Standard, sparc / Type 5 / US american / Standard / Standard, sparc / Type 6 / British / Standard / Standard, sparc / Unknown (Polish) / Polish / Standard / Standard, sparc / dvorak / Unknown / Standard / Standard
+
+Name: console-data/keymap/ignored
+Template: console-data/keymap/ignored
+Owners: console-common, console-data
+
+Name: console-data/keymap/policy
+Template: console-data/keymap/policy
+Value: Don't touch keymap
+Owners: console-common, console-data
+
+Name: console-data/keymap/powerpcadb
+Template: console-data/keymap/powerpcadb
+Owners: console-common, console-data
+
+Name: console-data/keymap/template/keymap
+Template: console-data/keymap/template/keymap
+Owners: console-common, console-data
+
+Name: console-data/keymap/template/layout
+Template: console-data/keymap/template/layout
+Owners: console-common, console-data
+
+Name: console-data/keymap/template/variant
+Template: console-data/keymap/template/variant
+Owners: console-common, console-data
+
+Name: console-keymaps-acorn/keymap
+Template: console-keymaps-acorn/keymap
+Owners: console-data
+
+Name: console-keymaps-amiga/keymap
+Template: console-keymaps-amiga/keymap
+Owners: console-data
+
+Name: console-keymaps-at/keymap
+Template: console-keymaps-at/keymap
+Owners: console-data
+
+Name: console-keymaps-atari/keymap
+Template: console-keymaps-atari/keymap
+Owners: console-data
+
+Name: console-keymaps-dec/keymap
+Template: console-keymaps-dec/keymap
+Owners: console-data
+
+Name: console-keymaps-mac/keymap
+Template: console-keymaps-mac/keymap
+Owners: console-data
+
+Name: console-keymaps-sun/keymap
+Template: console-keymaps-sun/keymap
+Owners: console-data
+
+Name: console-keymaps-usb/keymap
+Template: console-keymaps-usb/keymap
+Owners: console-data
+
 Name: console-setup/ask_detect
 Template: console-setup/ask_detect
 Owners: keyboard-configuration
@@ -44,7 +155,6 @@ Name: console-setup/codeset47
 Template: console-setup/codeset47
 Value: . Combined - Latin; Slavic Cyrillic; Greek
 Owners: console-setup
-Flags: seen
 
 Name: console-setup/codesetcode
 Template: console-setup/codesetcode
@@ -92,11 +202,25 @@ Name: console-setup/use_system_font
 Template: console-setup/use_system_font
 Owners: console-setup
 
+Name: cups-bsd/setuplpd
+Template: cups-bsd/setuplpd
+Value: false
+Owners: cups-bsd
+
+Name: cupsys/backend
+Template: cupsys/backend
+Value: ipp, ipp14, lpd, socket, usb, snmp, dnssd
+Owners: cups
+
+Name: cupsys/raw-print
+Template: cupsys/raw-print
+Value: true
+Owners: cups
+
 Name: dash/sh
 Template: dash/sh
 Value: true
 Owners: dash
-Flags: seen
 
 Name: debconf-apt-progress/info
 Template: debconf-apt-progress/info
@@ -127,6 +251,80 @@ Owners: debconf
 Name: debian-installer/console-setup-udeb/title
 Template: debian-installer/console-setup-udeb/title
 Owners: keyboard-configuration
+
+Name: debian-installer/user-setup-udeb/title
+Template: debian-installer/user-setup-udeb/title
+Owners: user-setup
+
+Name: dictionaries-common/default-ispell
+Template: dictionaries-common/default-ispell
+Owners: dictionaries-common
+
+Name: dictionaries-common/default-wordlist
+Template: dictionaries-common/default-wordlist
+Owners: dictionaries-common
+
+Name: dictionaries-common/invalid_debconf_value
+Template: dictionaries-common/invalid_debconf_value
+Owners: dictionaries-common
+
+Name: dictionaries-common/ispell-autobuildhash-message
+Template: dictionaries-common/ispell-autobuildhash-message
+Owners: dictionaries-common
+
+Name: dictionaries-common/move_old_usr_dict
+Template: dictionaries-common/move_old_usr_dict
+Owners: dictionaries-common
+
+Name: dictionaries-common/old_wordlist_link
+Template: dictionaries-common/old_wordlist_link
+Owners: dictionaries-common
+
+Name: dictionaries-common/remove_old_usr_dict_link
+Template: dictionaries-common/remove_old_usr_dict_link
+Value: false
+Owners: dictionaries-common
+
+Name: dictionaries-common/selecting_ispell_wordlist_default
+Template: dictionaries-common/selecting_ispell_wordlist_default
+Owners: dictionaries-common
+
+Name: finish-install/progress/user-setup
+Template: finish-install/progress/user-setup
+Owners: user-setup
+
+Name: foomatic-filters/config_parsed
+Template: foomatic-filters/config_parsed
+Value: true
+Owners: foomatic-filters
+
+Name: foomatic-filters/custom_textfilter
+Template: foomatic-filters/custom_textfilter
+Owners: foomatic-filters
+
+Name: foomatic-filters/filter_debug
+Template: foomatic-filters/filter_debug
+Value: false
+Owners: foomatic-filters
+
+Name: foomatic-filters/ps_accounting
+Template: foomatic-filters/ps_accounting
+Value: true
+Owners: foomatic-filters
+
+Name: foomatic-filters/spooler
+Template: foomatic-filters/spooler
+Value: cups
+Owners: foomatic-filters
+
+Name: foomatic-filters/textfilter
+Template: foomatic-filters/textfilter
+Value: Automagic
+Owners: foomatic-filters
+
+Name: foomatic-filters/title
+Template: foomatic-filters/title
+Owners: foomatic-filters
 
 Name: glibc/disable-screensaver
 Template: glibc/disable-screensaver
@@ -161,11 +359,7 @@ Owners: keyboard-configuration
 
 Name: keyboard-configuration/layout
 Template: keyboard-configuration/layout
-Value: English (US)
 Owners: keyboard-configuration
-Flags: seen
-Variables:
- CHOICES = Afghani, Albanian, Amharic, Arabic, Arabic (Morocco), Arabic (Syria), Armenian, Azerbaijani, Bambara, Belarusian, Belgian, Bengali, Bosnian, Braille, Bulgarian, Burmese, Catalan, Chinese, Croatian, Czech, Danish, Dhivehi, Dutch, Dzongkha, English (Cameroon), English (Ghana), English (Nigeria), English (South Africa), English (UK), English (US), Esperanto, Estonian, Faroese, Filipino, Finnish, French, French (Canada), French (Democratic Republic of the Congo), French (Guinea), Georgian, German, German (Austria), German (Switzerland), Greek, Hebrew, Hungarian, Icelandic, Indian, Iraqi, Irish, Italian, Japanese, Japanese (PC-98xx Series), Kazakh, Khmer (Cambodia), Korean, Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maltese, Maori, Mongolian, Montenegrin, Nepali, Norwegian, Persian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic), Sinhala (phonetic), Slovak, Slovenian, Spanish, Spanish (Latin American), Swahili (Kenya), Swahili (Tanzania), Swedish, Taiwanese, Tajik, Thai, Tswana, Turkish, Turkmen, Ukrainian, Urdu (Pakistan), Uzbek, Vietnamese, Wolof
 
 Name: keyboard-configuration/layoutcode
 Template: keyboard-configuration/layoutcode
@@ -174,10 +368,7 @@ Owners: keyboard-configuration
 
 Name: keyboard-configuration/model
 Template: keyboard-configuration/model
-Value: Generic 105-key (Intl) PC
 Owners: keyboard-configuration
-Variables:
- CHOICES = A4Tech KB-21, A4Tech KBS-8, A4Tech Wireless Desktop RFKB-23, Acer AirKey V, Acer C300, Acer Ferrari 4000, Acer Laptop, Advance Scorpius KI, Amiga, Apple, Apple Aluminium Keyboard (ANSI), Apple Aluminium Keyboard (ISO), Apple Aluminium Keyboard (JIS), Apple Laptop, Asus Laptop, Atari TT, Azona RF2300 wireless Internet Keyboard, BTC 5090, BTC 5113RF Multimedia, BTC 5126T, BTC 6301URF, BTC 9000, BTC 9000A, BTC 9001AH, BTC 9019U, BTC 9116U Mini Wireless Internet and Gaming, BenQ X-Touch, BenQ X-Touch 730, BenQ X-Touch 800, Brother Internet Keyboard, Cherry B.UNLIMITED, Cherry Blue Line CyBo@rd, Cherry Blue Line CyBo@rd (alternate option), Cherry CyBo@rd USB-Hub, Cherry CyMotion Expert, Cherry CyMotion Master Linux, Cherry CyMotion Master XPress, Chicony Internet Keyboard, Chicony KB-9885, Chicony KU-0108, Chicony KU-0420, Classmate PC, Compaq Easy Access Keyboard, Compaq Internet Keyboard (13 keys), Compaq Internet Keyboard (18 keys), Compaq Internet Keyboard (7 keys), Compaq iPaq Keyboard, Creative Desktop Wireless 7000, DTK2000, Dell, Dell 101-key PC, Dell Laptop/notebook Inspiron 6xxx/8xxx, Dell Laptop/notebook Precision M series, Dell Latitude series laptop, Dell Precision M65, Dell SK-8125, Dell SK-8135, Dell USB Multimedia Keyboard, Dexxa Wireless Desktop Keyboard, Diamond 9801 / 9802 series, Do not configure keyboard; keep kernel keymap, Ennyah DKB-1008, Everex STEPnote, FL90, Fujitsu-Siemens Computers AMILO laptop, Generic 101-key PC, Generic 102-key (Intl) PC, Generic 104-key PC, Generic 105-key (Intl) PC, Genius Comfy KB-12e, Genius Comfy KB-16M / Genius MM Keyboard KWD-910, Genius Comfy KB-21e-Scroll, Genius KB-19e NB, Genius KKB-2050HS, Gyration, HTC Dream, Happy Hacking Keyboard, Happy Hacking Keyboard for Mac, Hewlett-Packard Internet Keyboard, Hewlett-Packard Mini 110 Notebook, Hewlett-Packard Omnibook 500 FA, Hewlett-Packard Omnibook 5xx, Hewlett-Packard Omnibook 6000/6100, Hewlett-Packard Omnibook XE3 GC, Hewlett-Packard Omnibook XE3 GF, Hewlett-Packard Omnibook XT1000, Hewlett-Packard Pavilion ZT11xx, Hewlett-Packard Pavilion dv5, Hewlett-Packard SK-250x Multimedia Keyboard, Hewlett-Packard nx9020, Honeywell Euroboard, Htc Dream phone, IBM Rapid Access, IBM Rapid Access II, IBM Space Saver, IBM ThinkPad 560Z/600/600E/A22E, IBM ThinkPad R60/T60/R61/T61, IBM ThinkPad Z60m/Z60t/Z61m/Z61t, Intelligent Keyboard K04, Keytronic FlexPro, Kinesis, Laptop/notebook Compaq (eg. Armada) Laptop Keyboard, Laptop/notebook Compaq (eg. Presario) Internet Keyboard, Laptop/notebook eMachines m68xx, Logitech Access Keyboard, Logitech Cordless Desktop, Logitech Cordless Desktop (alternate option), Logitech Cordless Desktop EX110, Logitech Cordless Desktop LX-300, Logitech Cordless Desktop Navigator, Logitech Cordless Desktop Optical, Logitech Cordless Desktop Pro (alternate option 2), Logitech Cordless Desktop iTouch, Logitech Cordless Freedom/Desktop Navigator, Logitech G15 extra keys via G15daemon, Logitech Generic Keyboard, Logitech Internet 350 Keyboard, Logitech Internet Keyboard, Logitech Internet Navigator Keyboard, Logitech Media Elite Keyboard, Logitech Ultra-X Cordless Media Desktop Keyboard, Logitech Ultra-X Keyboard, Logitech diNovo Edge Keyboard, Logitech diNovo Keyboard, Logitech iTouch, Logitech iTouch Cordless Keyboard (model Y-RB6), Logitech iTouch Internet Navigator Keyboard SE, Logitech iTouch Internet Navigator Keyboard SE (USB), MacBook/MacBook Pro, MacBook/MacBook Pro (Intl), Macintosh, Macintosh Old, Memorex MX1998, Memorex MX2500 EZ-Access Keyboard, Memorex MX2750, Microsoft Comfort Curve Keyboard 2000, Microsoft Internet Keyboard, Microsoft Internet Keyboard Pro\, Swedish, Microsoft Natural, Microsoft Natural Keyboard Elite, Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro, Microsoft Natural Keyboard Pro OEM, Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro, Microsoft Natural Wireless Ergonomic Keyboard 4000, Microsoft Natural Wireless Ergonomic Keyboard 7000, Microsoft Office Keyboard, Microsoft Wireless Multimedia Keyboard 1.0A, Northgate OmniKey 101, OLPC, Ortek MCK-800 MM/Internet keyboard, PC-98xx Series, Propeller Voyager (KTEZ-1000), QTronix Scorpius 98N+, SILVERCREST Multimedia Wireless Keyboard, SK-1300, SK-2500, SK-6200, SK-7100, SVEN Ergonomic 2500, SVEN Slim 303, Samsung SDM 4500P, Samsung SDM 4510P, Sanwa Supply SKB-KG3, Sun Type 4, Sun Type 5, Sun Type 5/6, Super Power Multimedia Keyboard, Symplon PaceBook (tablet PC), Targa Visionary 811, Toshiba Satellite S3000, Trust Direct Access Keyboard, Trust Slimline, Trust Wireless Keyboard Classic, TypeMatrix EZ-Reach 2020, TypeMatrix EZ-Reach 2030 PS2, TypeMatrix EZ-Reach 2030 USB, TypeMatrix EZ-Reach 2030 USB (102/105:EU mode), TypeMatrix EZ-Reach 2030 USB (106:JP mode), Unitek KB-1925, ViewSonic KU-306 Internet Keyboard, Winbook Model XP5, Yahoo! Internet Keyboard
 
 Name: keyboard-configuration/modelcode
 Template: keyboard-configuration/modelcode
@@ -205,36 +396,28 @@ Owners: keyboard-configuration
 
 Name: keyboard-configuration/toggle
 Template: keyboard-configuration/toggle
-Value: No toggling
+Value: Alt+Shift
 Owners: keyboard-configuration
 
 Name: keyboard-configuration/unsupported_config_layout
 Template: keyboard-configuration/unsupported_config_layout
-Value: true
 Owners: keyboard-configuration
 
 Name: keyboard-configuration/unsupported_config_options
 Template: keyboard-configuration/unsupported_config_options
-Value: true
 Owners: keyboard-configuration
 
 Name: keyboard-configuration/unsupported_layout
 Template: keyboard-configuration/unsupported_layout
-Value: true
 Owners: keyboard-configuration
 
 Name: keyboard-configuration/unsupported_options
 Template: keyboard-configuration/unsupported_options
-Value: true
 Owners: keyboard-configuration
 
 Name: keyboard-configuration/variant
 Template: keyboard-configuration/variant
-Value: English (US)
 Owners: keyboard-configuration
-Flags: seen
-Variables:
- CHOICES = English (US), English (US) - Cherokee, English (US) - English (Colemak), English (US) - English (Dvorak alternative international no dead keys), English (US) - English (Dvorak international with dead keys), English (US) - English (Dvorak), English (US) - English (Macintosh), English (US) - English (US\, alternative international), English (US) - English (US\, international with dead keys), English (US) - English (US\, with euro on 5), English (US) - English (classic Dvorak), English (US) - English (international AltGr dead keys), English (US) - English (layout toggle on multiply/divide key), English (US) - English (left handed Dvorak), English (US) - English (programmer Dvorak), English (US) - English (right handed Dvorak), English (US) - Russian (US\, phonetic), English (US) - Serbo-Croatian (US)
 
 Name: keyboard-configuration/variantcode
 Template: keyboard-configuration/variantcode
@@ -245,18 +428,6 @@ Name: keyboard-configuration/xkb-keymap
 Template: keyboard-configuration/xkb-keymap
 Value: us
 Owners: keyboard-configuration
-
-Name: liblapack3gf/crit
-Template: liblapack3gf/crit
-Owners: liblapack3gf
-
-Name: liblapack3gf/minor
-Template: liblapack3gf/minor
-Owners: liblapack3gf
-
-Name: liblapack3gf/sig
-Template: liblapack3gf/sig
-Owners: liblapack3gf
 
 Name: libpam-modules/disable-screensaver
 Template: libpam-modules/disable-screensaver
@@ -277,11 +448,11 @@ Owners: libpam-runtime
 
 Name: libpam-runtime/profiles
 Template: libpam-runtime/profiles
-Value: unix
+Value: unix, gnome-keyring, consolekit, capability
 Owners: libpam-runtime
 Variables:
- profile_names = unix
- profiles = Unix authentication
+ profile_names = unix, gnome-keyring, consolekit, capability
+ profiles = Unix authentication, GNOME Keyring Daemon - Login keyring management, ConsoleKit Session Management, Inheritable Capabilities Management
 
 Name: libpam-runtime/title
 Template: libpam-runtime/title
@@ -299,17 +470,47 @@ Name: libpam0g/xdm-needs-restart
 Template: libpam0g/xdm-needs-restart
 Owners: libpam0g:armhf
 
+Name: libpaper/defaultpaper
+Template: libpaper/defaultpaper
+Value: a4
+Owners: libpaper1
+
 Name: libraries/restart-without-asking
 Template: libraries/restart-without-asking
 Owners: libc6, libc6:armhf, libpam0g:armhf
 
+Name: libslp1/multicast
+Template: libslp1/multicast
+Owners: libslp1
+
+Name: libslp1/multicast-route
+Template: libslp1/multicast-route
+Owners: libslp1
+
 Name: libssl1.0.0/restart-failed
 Template: libssl1.0.0/restart-failed
-Owners: libssl1.0.0:armhf
+Owners: libssl1.0.0, libssl1.0.0:armhf
 
 Name: libssl1.0.0/restart-services
 Template: libssl1.0.0/restart-services
-Owners: libssl1.0.0:armhf
+Owners: libssl1.0.0, libssl1.0.0:armhf
+
+Name: linux-sound-base/sound_system
+Template: linux-sound-base/sound_system
+Value: ALSA
+Owners: linux-sound-base
+
+Name: make-ssl-cert/hostname
+Template: make-ssl-cert/hostname
+Owners: ssl-cert
+
+Name: make-ssl-cert/title
+Template: make-ssl-cert/title
+Owners: ssl-cert
+
+Name: make-ssl-cert/vulnerable_prng
+Template: make-ssl-cert/vulnerable_prng
+Owners: ssl-cert
 
 Name: man-db/auto-update
 Template: man-db/auto-update
@@ -320,9 +521,86 @@ Template: man-db/install-setuid
 Value: false
 Owners: man-db
 
+Name: ntfs-3g/initramfs
+Template: ntfs-3g/initramfs
+Value: true
+Owners: ntfs-3g
+
+Name: ntfs-3g/setuid-root
+Template: ntfs-3g/setuid-root
+Value: false
+Owners: ntfs-3g
+
+Name: nvidia-common/obsolete-driver
+Template: nvidia-common/obsolete-driver
+Owners: nvidia-common
+
+Name: passwd/auto-login
+Template: passwd/auto-login
+Owners: user-setup
+
+Name: passwd/auto-login-backup
+Template: passwd/auto-login-backup
+Owners: user-setup
+
+Name: passwd/make-user
+Template: passwd/make-user
+Owners: user-setup
+
+Name: passwd/root-login
+Template: passwd/root-login
+Owners: user-setup
+
+Name: passwd/shadow
+Template: passwd/shadow
+Owners: user-setup
+
+Name: passwd/user-default-groups
+Template: passwd/user-default-groups
+Owners: user-setup
+
+Name: passwd/user-fullname
+Template: passwd/user-fullname
+Owners: user-setup
+
+Name: passwd/user-uid
+Template: passwd/user-uid
+Owners: user-setup
+
+Name: passwd/username
+Template: passwd/username
+Owners: user-setup
+
+Name: passwd/username-bad
+Template: passwd/username-bad
+Owners: user-setup
+
+Name: passwd/username-reserved
+Template: passwd/username-reserved
+Owners: user-setup
+
+Name: pnm2ppa/create_magicfilter
+Template: pnm2ppa/create_magicfilter
+Value: false
+Owners: printer-driver-pnm2ppa
+
+Name: pnm2ppa/printer_model
+Template: pnm2ppa/printer_model
+Value: 710
+Owners: printer-driver-pnm2ppa
+
+Name: pnm2ppa/use_debconf
+Template: pnm2ppa/use_debconf
+Value: true
+Owners: printer-driver-pnm2ppa
+
 Name: resolvconf/downup-interfaces
 Template: resolvconf/downup-interfaces
 Value: 
+Owners: resolvconf
+
+Name: resolvconf/fixing-immutable
+Template: resolvconf/fixing-immutable
 Owners: resolvconf
 
 Name: resolvconf/link-tail-to-original
@@ -338,6 +616,42 @@ Owners: resolvconf
 Name: resolvconf/reboot-recommended-after-removal
 Template: resolvconf/reboot-recommended-after-removal
 Owners: resolvconf
+
+Name: samba-common/dhcp
+Template: samba-common/dhcp
+Value: false
+Owners: samba-common
+
+Name: samba-common/do_debconf
+Template: samba-common/do_debconf
+Value: true
+Owners: samba-common
+
+Name: samba-common/encrypt_passwords
+Template: samba-common/encrypt_passwords
+Value: true
+Owners: samba-common
+
+Name: samba-common/title
+Template: samba-common/title
+Owners: samba-common
+
+Name: samba-common/workgroup
+Template: samba-common/workgroup
+Value: WORKGROUP
+Owners: samba-common
+
+Name: sane-utils/saned_run
+Template: sane-utils/saned_run
+Value: false
+Owners: sane-utils
+
+Name: shared/default-x-display-manager
+Template: shared/default-x-display-manager
+Value: lightdm
+Owners: lightdm
+Variables:
+ choices = lightdm
 
 Name: sysv-rc/convert-legacy
 Template: sysv-rc/convert-legacy
@@ -426,6 +740,67 @@ Owners: ucf
 Name: ucf/title
 Template: ucf/title
 Owners: ucf
+
+Name: unattended-upgrades/enable_auto_updates
+Template: unattended-upgrades/enable_auto_updates
+Value: false
+Owners: unattended-upgrades
+
+Name: update-inetd/ask-disable-entries
+Template: update-inetd/ask-disable-entries
+Owners: update-inetd
+
+Name: update-inetd/ask-entry-present
+Template: update-inetd/ask-entry-present
+Owners: update-inetd
+
+Name: update-inetd/ask-remove-entries
+Template: update-inetd/ask-remove-entries
+Owners: update-inetd
+
+Name: update-inetd/ask-several-entries
+Template: update-inetd/ask-several-entries
+Owners: update-inetd
+
+Name: update-inetd/title
+Template: update-inetd/title
+Owners: update-inetd
+
+Name: user-setup/allow-password-empty
+Template: user-setup/allow-password-empty
+Owners: user-setup
+
+Name: user-setup/allow-password-weak
+Template: user-setup/allow-password-weak
+Owners: user-setup
+
+Name: user-setup/encrypt-home
+Template: user-setup/encrypt-home
+Owners: user-setup
+
+Name: user-setup/encrypt-home-failed
+Template: user-setup/encrypt-home-failed
+Owners: user-setup
+
+Name: user-setup/force-encrypt-home
+Template: user-setup/force-encrypt-home
+Owners: user-setup
+
+Name: user-setup/password-empty
+Template: user-setup/password-empty
+Owners: user-setup
+
+Name: user-setup/password-mismatch
+Template: user-setup/password-mismatch
+Owners: user-setup
+
+Name: user-setup/password-weak
+Template: user-setup/password-weak
+Owners: user-setup
+
+Name: user-setup/progress/wipe-swap
+Template: user-setup/progress/wipe-swap
+Owners: user-setup
 
 Name: x11-common/xwrapper/actual_allowed_users
 Template: x11-common/xwrapper/actual_allowed_users

@@ -1,0 +1,18 @@
+# KDE Config File
+
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Qt;KDE;Graphics;Photography;
+Exec=photolayoutseditor
+Icon=photolayoutseditor
+#X-DocPath=photolayoutseditor/index.html
+Name=Photo Layouts Editor
+GenericName=Photo layouts management program
+Comment=Create beautiful and professional photo layouts from your photos
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

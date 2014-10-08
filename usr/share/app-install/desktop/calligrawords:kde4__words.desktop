@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=calligrawords
+X-AppInstall-Popcon=51
+X-AppInstall-Section=main
+
+Type=Application
+Name=Calligra Words
+Exec=calligrawords %u
+GenericName=Word Processor
+Comment=Write documents
+MimeType=application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-template;application/msword;application/rtf;text/plain;application/x-mswrite;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.wordprocessingml.template;
+X-KDE-ServiceTypes=Calligra/Application
+Icon=words
+X-KDE-NativeMimeType=application/vnd.oasis.opendocument.text
+X-Calligra-DefaultMimeTypes=application/vnd.oasis.opendocument.text,application/vnd.oasis.opendocument.text-template,application/msword,application/rtf,text/plain,application/x-mswrite,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.wordprocessingml.template
+X-DocPath=http://userbase.kde.org/Words
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.calligra.words
+Categories=Qt;KDE;Office;
+InitialPreference=3
+
+X-Ubuntu-Gettext-Domain=app-install-data

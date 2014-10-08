@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=rhythmbox-ubuntuone
+X-AppInstall-Popcon=5806
+X-AppInstall-Section=main
+
+Name=Ubuntu One Music Store
+Comment=Purchase music on Ubuntu One in Rhythmbox
+Exec=rhythmbox %U
+Terminal=false
+Type=Application
+Icon=rhythmbox
+Categories=GNOME;GTK;AudioVideo;
+MimeType=x-scheme-handler/u1ms
+StartupNotify=true
+
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

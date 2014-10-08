@@ -255,10 +255,32 @@ if ischroot; then
 
 		# Symlink /dev/shm from /run/shm
 		# Note that it's really /var/run/shm
-		compat_link /dev/shm /run/shm
+		if mountpoint -q /dev/shm; then
+			compat_link /dev/shm /run/shm
+		else
+			[ -d /run/shm ] || mkdir -p /run/shm
+			mountpoint -q /dev || compat_link /run/shm /dev/shm
+		fi
 	fi
 # Host system, not a chroot.
 else
+	# Deal with half-migrated setups, move /dev/shm/* to /run/shm ONLY IF
+	# 1) both exist (as directories and not symlink)
+	# 2) /dev/shm isn't a mountpoint
+	# 3) If /run/shm is a mountpoint it can't be a bind-mount of /dev/shm
+	if [ -d /run/shm ] && [ -d /dev/shm ] && [ ! -L /run/shm ] &&
+	   [ ! -L /dev/shm ] && ! mountpoint -q /dev/shm &&
+	   (! mountpoint -q /run/shm ||
+	   [ "$(mountpoint -d /dev/shm/)" != "(mountpoint -d /run/shm/)" ]) &&
+	   dpkg --compare-versions "$PREV_VER" lt 2.88dsf-13.10ubuntu11.1; then
+		echo "Detected a case where both /dev/shm and /run/shm exist."
+		echo "The content of /dev/shm will now be moved to /run/shm."
+		echo "It's highly recommended to restart any software using shm."
+		mv /dev/shm/* /run/shm/ >/dev/null 2>&1 || :
+		rm -Rf /dev/shm
+		compat_link /run/shm /dev/shm
+	fi
+
 	if bind_mount /var/run /run; then
 		bind_mount /var/lock /run/lock
 		bind_mount /dev/shm /run/shm

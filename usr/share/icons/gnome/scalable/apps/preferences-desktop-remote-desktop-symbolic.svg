@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gnome Symbolic Icon Theme</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title id="title9167">Gnome Symbolic Icon Theme</title>
+ <g id="layer11" transform="translate(-83 -529)">
+  <path id="rect11749-9" style="block-progression:tb;text-indent:0;color:#bebebe;text-transform:none;fill:#bebebe" d="m85.188 529c-1.2016 0-2.1875 0.98751-2.1875 2.1874v8.6244c0 1.1998 0.98591 2.1874 2.1875 2.1874h11.625c1.2016 0 2.1875-0.98751 2.1875-2.1874v-8.6244c0-1.1998-0.98591-2.1874-2.1875-2.1874h-11.625zm0 1.9999h11.625c0.1238 0 0.1875 0.0566 0.1875 0.18749v8.6244c0 0.13088-0.0637 0.18749-0.1875 0.18749h-11.625c-0.1238 0-0.1875-0.0566-0.1875-0.18749v-8.6244c0-0.13088 0.0637-0.18749 0.1875-0.18749z"/>
+  <path id="path11751-0" style="block-progression:tb;text-indent:0;color:#bebebe;text-transform:none;fill:#bebebe" d="m87.907 543a1.0011 1.001 0 1 0 0.09375 1.9999h6a1.0001 1 0 1 0 0 -1.9999h-6a1.0001 1 0 0 0 -0.0937 0z"/>
+  <path id="rect5771" style="color:#bebebe;fill:#bebebe" d="m86.438 534c-0.24298 0-0.4375 0.29728-0.4375 0.6562v3.6872c0 0.35893 0.19452 0.65621 0.4375 0.65621h4.125c0.24298 0 0.4375-0.29728 0.4375-0.65621v-3.6872c0-0.35892-0.19452-0.6562-0.4375-0.6562zm0.5625 1.9999h3v1.9999h-3z"/>
+  <path id="rect7987" style="color:#bebebe;fill:#bebebe" d="m92.438 532c-0.24298 0-0.4375 0.28489-0.4375 0.62495v2.7498c0 0.34006 0.19452 0.62496 0.4375 0.62496h3.125c0.24298 0 0.4375-0.2849 0.4375-0.62496v-2.7498c0-0.34006-0.19452-0.62495-0.4375-0.62495zm0.5625 1.9999h2v0.99993h-2z"/>
+ </g>
+</svg>

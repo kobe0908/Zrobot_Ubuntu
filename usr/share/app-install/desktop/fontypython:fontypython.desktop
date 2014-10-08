@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=fontypython
+X-AppInstall-Popcon=147
+X-AppInstall-Section=universe
+
+Name=Fonty Python Font Manager
+GenericName=Fonts Manager
+Comment=View and temporarily install all kinds of fonts
+
+Type=Application
+Categories=Graphics;
+
+Exec=fontypython
+TryExec=fontypython
+Terminal=false
+StartupNotify=true
+
+Icon=fontypython
+
+X-Ubuntu-Gettext-Domain=app-install-data

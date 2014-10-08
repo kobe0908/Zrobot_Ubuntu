@@ -1,0 +1,1 @@
+../../../../share/pyshared/Quirks/quirkapplier.py

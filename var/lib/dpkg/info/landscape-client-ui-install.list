@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/landscape-client-ui-install
+/usr/share
+/usr/share/icons
+/usr/share/icons/hicolor
+/usr/share/icons/hicolor/scalable
+/usr/share/icons/hicolor/scalable/apps
+/usr/share/icons/hicolor/scalable/apps/preferences-management-service.svg
+/usr/share/doc
+/usr/share/doc/landscape-client-ui-install
+/usr/share/doc/landscape-client-ui-install/copyright
+/usr/share/doc/landscape-client-ui-install/changelog.Debian.gz
+/usr/share/applications
+/usr/share/applications/landscape-client-settings.desktop

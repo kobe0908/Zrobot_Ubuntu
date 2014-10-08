@@ -1,0 +1,44 @@
+[Desktop Entry]
+X-AppInstall-Package=deluge
+X-AppInstall-Popcon=1221
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Deluge
+GenericName=BitTorrent Client
+X-GNOME-FullName=Deluge BitTorrent Client
+X-GNOME-FullName[cs]=BitTorrent klient Deluge
+X-GNOME-FullName[da]=Deluge BitTorrent-klient
+X-GNOME-FullName[de]=Deluge BitTorrent-Klient
+X-GNOME-FullName[en_GB]=Deluge BitTorrent Client
+X-GNOME-FullName[es]=Cliente BitTorrent Deluge
+X-GNOME-FullName[eu]=Deluge BitTorrent Bezeroa
+X-GNOME-FullName[fi]=Deluge-BitTorrent-sovellus
+X-GNOME-FullName[fr]=Client BitTorrent Deluge
+X-GNOME-FullName[hr]=Deluge BitTorrent klijent
+X-GNOME-FullName[hu]=Deluge BitTorrent kliens
+X-GNOME-FullName[it]=Client BitTorrent Deluge
+X-GNOME-FullName[ka]=BitTorrent კლიენტი Deluge
+X-GNOME-FullName[lt]=Deluge BitTorrent klientas
+X-GNOME-FullName[lv]=Deluge BitTorrenta klients
+X-GNOME-FullName[ms]=Klien BitTorrent Deluge
+X-GNOME-FullName[oc]=Client BitTorrent Deluge
+X-GNOME-FullName[pt]=Deluge BitTorrent
+X-GNOME-FullName[ru]=BitTorrent клиент Deluge
+X-GNOME-FullName[sk]=Deluge BitTorrent klient
+X-GNOME-FullName[sl]=Deluge, odjemalec za BitTorrent
+X-GNOME-FullName[sv]=BitTorrent-klienten Deluge
+X-GNOME-FullName[tr]=Deluge BitTorrent İstemcisi
+X-GNOME-FullName[uk]=BitTorrent клієнт Deluge
+X-GNOME-FullName[zh_TW]=Deluge BitTorrent 用戶端
+Comment=Download and share files over BitTorrent
+TryExec=deluge-gtk
+Exec=deluge-gtk %U
+Icon=deluge
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;P2P;GTK;
+StartupNotify=true
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+
+X-Ubuntu-Gettext-Domain=app-install-data

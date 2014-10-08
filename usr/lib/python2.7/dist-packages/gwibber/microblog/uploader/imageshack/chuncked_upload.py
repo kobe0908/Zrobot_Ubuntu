@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/gwibber/microblog/uploader/imageshack/chuncked_upload.py

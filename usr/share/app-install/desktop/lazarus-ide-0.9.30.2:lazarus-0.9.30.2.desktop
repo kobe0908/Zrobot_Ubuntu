@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=lazarus-ide-0.9.30.2
+X-AppInstall-Popcon=23
+X-AppInstall-Section=universe
+
+Name=Lazarus (0.9.30.2)
+Comment=Lazarus IDE (0.9.30.2)
+Exec=startlazarus-0.9.30.2 %f
+Terminal=false
+Type=Application
+Icon=lazarus
+Categories=Application;IDE;Development;GTK;GUIDesigner;
+StartupWMClass=Lazarus (0.9.30.2)
+MimeType=text/x-pascal;text/lazarus-project-source;text/lazarus-project-information;text/lazarus-form;text/lazarus-resource;text/lazarus-package;text/lazarus-package-link;text/lazarus-code-inlay;
+[Property::X-KDE-NativeExtension]
+Type=QString
+Value=.pas
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/bzrlib/bundle/serializer/__init__.py

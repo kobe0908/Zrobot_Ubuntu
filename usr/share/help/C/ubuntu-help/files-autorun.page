@@ -1,0 +1,71 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="files-autorun">
+
+  <info>
+    <link type="guide" xref="media#photos"/>
+    <link type="guide" xref="media#videos"/>
+    <link type="guide" xref="media#music"/>
+    <link type="guide" xref="files#removable"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision version="12.04" date="2012-03-22" status="final"/>
+    
+    <desc>Automatically run applications for CDs and DVDs, cameras,
+    audio players, and other devices and media.</desc>
+    
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Open applications for devices or discs</title>
+
+<p>You can have an application automatically start when you plug in a device
+or insert a disc or media card. For example, you might want your photo organizer
+to start when you plug in a digital camera. You can also turn this off, so that
+nothing happens when you plug something in.</p>
+
+<p>To decide which applications should start when you plug in various devices:
+</p>
+
+<steps>
+  <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.
+  </p></item>
+  <item><p>Select <guiseq><gui>Details</gui><gui>Removable Media</gui></guiseq>.
+  </p></item>
+  <item>
+    <p>Find your desired device or media type, and then choose an application 
+    or action for that media type.</p>
+    <p>Instead of starting an application, you can also set it so that:</p>
+  <list>
+   <item><p>The device will be shown in the File Manager (choose <gui>Open folder</gui>)</p></item>
+   <item><p>You will be asked what to open (<gui>Ask what to do</gui>)</p></item>
+   <item><p>Nothing at all will happen (<gui>Do nothing</gui>).</p></item>
+  </list>
+  </item>
+  <item>
+    <p>The <gui>Software</gui> option is slightly different from the others - 
+if the computer detects that there is software on a disk that you inserted, 
+it can try to automatically run the software if you like. This is good if you 
+have an application installed on a CD and want it to start when the disc is inserted (for example, a slideshow).</p>
+  </item>
+  <item>
+    <p>If you don't see the device or media type that you want to change in the
+    list (such as Blu-ray discs or E-book readers), click <gui>Other Media</gui>
+    to see a more detailed list of devices. Select the type of device or media
+    from the <gui>Type</gui> drop-down and the application or action from the
+    <gui>Action</gui> drop-down.</p>
+  </item>
+</steps>
+
+<note style="tip">
+<p>If you don't want any applications to be opened automatically, whatever you 
+plug in, select <gui>Never prompt or start programs on media insertion</gui> at 
+the bottom of the Removable Media window.</p>
+</note>
+
+</page>

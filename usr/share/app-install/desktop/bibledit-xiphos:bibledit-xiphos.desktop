@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bibledit-xiphos
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Bibledit-Xiphos
+Comment=Bibledit Xiphos Interface
+Icon=bibledit-xiphos
+Exec=bibledit-xiphos
+Type=Application
+Categories=Office;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

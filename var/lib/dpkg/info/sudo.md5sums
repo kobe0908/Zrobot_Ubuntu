@@ -1,10 +1,10 @@
-feedfb16f35ddfda94849154208390cb  usr/bin/sudo
-feedfb16f35ddfda94849154208390cb  usr/bin/sudoedit
-ab643b0b420ccb05343dd3a6c817b17f  usr/bin/sudoreplay
+04fcbe29f52f777a104f85c320361896  usr/bin/sudo
+04fcbe29f52f777a104f85c320361896  usr/bin/sudoedit
+0707ab8a7427cb0a1cbbce356c29ad19  usr/bin/sudoreplay
 f3130605c59c238910078a39ada213bb  usr/include/sudo_plugin.h
-10800f7646e5d5650f63c08232ecda1b  usr/lib/sudo/sudo_noexec.so
-1eb4ce0b9c7ae4be902cf57715a1ee41  usr/lib/sudo/sudoers.so
-90c015ce4514a113604fc09063c92357  usr/sbin/visudo
+3316255d7df522c14c5b209896e76e83  usr/lib/sudo/sudo_noexec.so
+85e591d29394554fa75d36c5e39dbe24  usr/lib/sudo/sudoers.so
+5c845cbe2ae624da6f84a33908ece4f2  usr/sbin/visudo
 89c74bac0bd36ba2f70cf002880d7968  usr/share/apport/package-hooks/source_sudo.py
 a1fed4545cbc33b180381f134076defa  usr/share/doc/sudo/CONTRIBUTORS
 3adefc3ad563250acc92e464d43554b6  usr/share/doc/sudo/HISTORY
@@ -15,7 +15,7 @@ b37835fedd2e2d71553876ea2e380a12  usr/share/doc/sudo/README
 58089bc6b9c38b31d5a2dd00fb3d30a8  usr/share/doc/sudo/README.Debian
 1a04bed5a56d194e08892b7157a24d6f  usr/share/doc/sudo/TROUBLESHOOTING.gz
 dd54ac5febdaeae760eb8af42a8d1956  usr/share/doc/sudo/UPGRADE.gz
-5142af4923920f5773a02c2786493ee2  usr/share/doc/sudo/changelog.Debian.gz
+49fc5ff665187609617d4708dcaf704a  usr/share/doc/sudo/changelog.Debian.gz
 d7cf716aefac0c9076ec2a635eef206e  usr/share/doc/sudo/copyright
 6d004cb4db5944483c0e630655006ca4  usr/share/doc/sudo/examples/sample.pam
 8f5ae87cf21972a5e4ca34497c9817fd  usr/share/doc/sudo/examples/sample.sudo.conf

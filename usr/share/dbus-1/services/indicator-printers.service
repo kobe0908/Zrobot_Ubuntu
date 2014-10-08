@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.canonical.indicator.printers
+Exec=/usr/lib/indicator-printers/indicator-printers-service

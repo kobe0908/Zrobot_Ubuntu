@@ -2,9 +2,9 @@
     eval 'exec /usr/bin/perl -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
-my $config_tag1 = '5.14.2 - Fri Mar 23 18:24:31 UTC 2012';
+my $config_tag1 = '5.14.2 - Fri Aug 10 22:53:42 UTC 2012';
 
-my $patchlevel_date = 1332521935;
+my $patchlevel_date = 1344633995;
 my $patch_tags = '';
 my @patches = (
     ''

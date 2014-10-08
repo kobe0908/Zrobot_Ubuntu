@@ -1,0 +1,41 @@
+plugin: local
+name: unity/check_and_install_xlib
+requires: package.name == 'unity'
+user: root
+command: dpkg -l | grep -iq 'python-xlib' || apt-get install -y  python-xlib
+description: Xlib is required for unity testing. This checks for Xlib and installs it if not available.
+description-ast.UTF-8: Necesítase Xlib pa probar unity. Esta operación busca Xlib y instálalu si nun ta disponible.
+description-be.UTF-8: Xlib неабходны для праверкі unity. Выконвае праверку наяўнасці Xlib і ўсталёўку, калі ён недаступны.
+description-bs.UTF-8: Xlib je potreban za testiranje unity. Ovo provjera da li je Xlib prisutan i instalira ga po potrebi.
+description-ca.UTF-8: Cal la Xlib per a comprovar l'Unity. Aquesta operació cerca la Xlib i l'instal·la si no està disponible.
+description-cs.UTF-8: Pro testování unity je potřeba Xlib. Toto zkontroluje, zda je Xlib dostupné a instaluje jej, pokud tomu tak není.
+description-da.UTF-8: Xlib er påkrævet for test af unity. Her kontrolleres for Xlib og denne installeres hvis den ikke er tilgængelig.
+description-de.UTF-8: Xlib wird für Unity-Tests benötigt. Dies prüft ob Xlib installiert ist und installiert es, falls notwendig.
+description-el.utf-8: Για τις δοκιμές του Uniity απαιτείται το πακέτο Xlib. Αυτό ελέγχει για το πακέτο Xlib και αν δεν είναι διαθέσιμο το εγκαθιστά.
+description-en_AU.UTF-8: Xlib is required for unity testing. This checks for Xlib and installs it if not available.
+description-en_GB.UTF-8: Xlib is required for unity testing. This checks for Xlib and installs it if not available.
+description-es.UTF-8: Se necesita Xlib para probar unity. Esta operación busca Xlib y lo instala si no está disponible.
+description-fi.UTF-8: Xlib vaaditaan Unityn testaamiseen. Tämä testi tarkistaa ja asentaa Xlib:n tarvittaessa.
+description-fr.UTF-8: Xlib est nécessaire pour les tests de Unity. Ceci vérifie que Xlib est présent et l'installe s'il n'est pas disponible.
+description-gl.UTF-8: Para probar unity precisa Xlib. Esta operación busca Xlib e instálao se non está dispoñíbel.
+description-hu.UTF-8: Az Xlib szükséges a Unity teszteléséhez. A következőkben ellenőrizve lesz a megléte és szükség esetén telepítve lesz.
+description-it.UTF-8: Per il test di Unity è necessaria Xlib. Verrà verificata la presenza di Xlib installandola se non disponibile.
+description-lv.UTF-8: Unity testēšanai nepieciešams xlib. Tas pārbauda, vai ir xlib, un to uzinstalē, ja tas nav pieejams.
+description-ms.UTF-8: Xlib diperlukan untuk pengujian unity. Ini akan menyemak Xlib dan pasangnya jika tiada.
+description-nl.UTF-8: Xlib is benodigd voor het testen van Unity. Dit controleert of Xlib beschikbaar is en installeert het indien het niet beschikbaar is.
+description-pt_BR.UTF-8: A Xlib é necessária para testar o Unity. Este procura pela Xlib e a instala se não estiver disponível.
+description-ro.UTF-8: Pentru testele unity este nevoie de pachetul Xib. Așadar se va verifica existența pachetului și, dacă nu există, va fi instalat.
+description-ru.UTF-8: Xlib необходима для проверки unity. Выполняет проверку наличия Xlib и установку, если она недоступна.
+description-sl.UTF-8: Za preizkus je zahtevan paket Xlib. Ta preizkus preveri, če je Xlib nameščen, če ni, ga namesti.
+description-sv.UTF-8: Xlib krävs för unity-testning. Detta test letar efter Xlib och installerar det om det inte finns.
+description-tr.UTF-8: Unity sınaması için Xlib gereklidir. Bu, Xlib denetlemesi yapar ve mevcut değilse kurar.
+description-ug.UTF-8: unity سىنىقى ئۈچۈن Xlib زۆرۈر بولىدۇ. بۇ Xlib نى تەكشۈرىدۇ ۋە ئورنىتىلمىغان بولسا ئۇنى ئورنىتىدۇ.
+description-zh_TW.UTF-8: 要測試 unity 需要 Xlib. 這個測試針對 Xlib, 如果還沒安裝將會自動安裝.
+
+plugin: shell
+name: unity/autopilot_test
+requires: package.name == 'unity'
+depends: unity/check_and_install_xlib
+command: check_unity
+description:
+ This test will verify that Unity is running and then run the autopilot.py test against the Unity interface.

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=granatier
+X-AppInstall-Popcon=109
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Granatier
+GenericName=Bomberman clone
+Icon=granatier
+TryExec=granatier
+Exec=granatier
+Categories=Qt;KDE;Game;ArcadeGame;
+X-DocPath=granatier/index.html
+
+X-Ubuntu-Gettext-Domain=app-install-data

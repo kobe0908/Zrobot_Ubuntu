@@ -1,0 +1,3 @@
+/etc/xdg/ubuntuone/logging.conf
+/etc/xdg/ubuntuone/syncdaemon.conf
+/etc/apport/crashdb.conf.d/ubuntuone-client-crashdb.conf

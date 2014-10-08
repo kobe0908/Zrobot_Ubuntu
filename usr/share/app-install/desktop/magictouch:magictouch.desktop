@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=magictouch
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=0.1
+Type=Application
+Terminal=false
+Name=MagicTouch
+Icon=magictouch
+GenericName=MagicTouch
+Exec=magictouch
+Categories=Game;
+Comment=Retro game goes multitouch: use two knobs to paint a picture
+
+X-Ubuntu-Gettext-Domain=app-install-data

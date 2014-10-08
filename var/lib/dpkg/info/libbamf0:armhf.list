@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libbamf0
+/usr/share/doc/libbamf0/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libbamf.so.0.0.0
+/usr/share/doc/libbamf0/changelog.Debian.gz
+/usr/share/doc/libbamf0/TODO
+/usr/lib/arm-linux-gnueabihf/libbamf.so.0

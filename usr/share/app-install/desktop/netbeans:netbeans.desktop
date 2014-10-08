@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=netbeans
+X-AppInstall-Popcon=597
+X-AppInstall-Section=universe
+
+Name=NetBeans IDE 7.0.1
+Comment=Integrated Development Environment
+TryExec=/usr/bin/netbeans
+Exec=/usr/bin/netbeans
+Icon=_usr_share_netbeans_7.0.1_nb_netbeans
+Categories=Development;IDE;Java;
+Terminal=false
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

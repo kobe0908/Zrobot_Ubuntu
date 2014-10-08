@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=pasaffe
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Pasaffe
+Comment=Pasaffe password manager
+Categories=GNOME;Utility;
+Exec=pasaffe
+Icon=_usr_share_pasaffe_media_pasaffe
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

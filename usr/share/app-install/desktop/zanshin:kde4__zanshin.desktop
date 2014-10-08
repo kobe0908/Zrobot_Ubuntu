@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=zanshin
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Qt;KDE;Utility;X-KDE-Utilities-PIM;
+Exec=zanshin
+Name=Zanshin
+Icon=zanshin
+GenericName=TODO Management Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

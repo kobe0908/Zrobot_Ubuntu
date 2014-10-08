@@ -1,0 +1,124 @@
+plugin: shell
+name: optical/detect
+requires: device.category == 'CDROM'
+command:
+ cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=CDROM"' | sed '/^$/d'
+ $vendor $product
+ EOF
+description: Test to detect the optical drives
+description-ast.UTF-8: Prueba pa deteutar les unidaes óptiques
+description-cs.UTF-8: Test detekce optické mechaniky
+description-de.UTF-8: Test zur Erkennung der optischen Laufwerke
+description-el.utf-8: Δοκιμή για την ανίχνευση οδηγών οπτικών συσκευών
+description-en_AU.UTF-8: Test to detect the optical drives
+description-en_GB.UTF-8: Test to detect the optical drives
+description-es.UTF-8: Prueba para detectar las unidades ópticas
+description-fi.UTF-8: Testi optisten asemien havaitsemiseen
+description-it.UTF-8: Test di rilevamento delle unità ottiche
+description-ms.UTF-8: Uji untuk mengesan pemacu optik
+description-nl.UTF-8: Test om optische stations te detecteren
+description-pt_BR.UTF-8: Teste para detectar unidades ópticas
+description-ro.UTF-8: Test pentru detectarea unităților optice
+description-ru.UTF-8: Проверка определения оптических дисководов
+description-sl.UTF-8: Preizkus za zaznavanje optičnih pogonov
+description-tr.UTF-8: Optik sürücüleri algılama sınaması
+description-ug.UTF-8: ئوپتىكىلىق ئۈسكۈنىنى بايقاش سىنىقى
+
+plugin: manual
+name: optical/read
+requires:
+ device.category == 'CDROM'
+user: root
+command: optical_read_test /dev/cdrom
+description:
+ PURPOSE:
+     This test will check your optical devices ability to read CD media
+ STEPS:
+     1. Insert appropriate non-blank media into your optical drive(s). Movie and Audio Disks may not work. Self-created data disks have the greatest chance of working.
+     2. If a file browser window opens, you can safely close or ignore that window.
+     3. Click "Test" to being the test.
+ VERIFICATION:
+     This test should automatically select "Yes" if it passes, "No" if it fails.
+
+plugin: manual
+name: optical/cdrom-write
+requires:
+ device.category == 'CDROM'
+ optical_drive.cd == 'writable'
+user: root
+command: optical_write_test /dev/cdrom
+description:
+ PURPOSE:
+     This test will check your system's CD writing capabilities. This test requires a blank CD-R. If you do not have a blank CD-R, skip this test.
+ STEPS:
+     1. Enter a blank CD-R into your drive
+     2. Click "Test" to begin.
+     3. When the CD tray ejects the media after burning, close it (DO NOT remove the disk, it is needed for the second portion of the test). Note, you must close the drive within 10 seconds or the test will time out.
+ VERIFICATION:
+     This test should automatically select "Yes" if it passes, "No" if it fails.
+
+plugin: manual
+name: optical/cdrom-audio-playback
+depends: optical/read
+description:
+ PURPOSE:
+     This test will check your CD audio playback capabilities
+ STEPS:
+     1. Insert an audio CD in your optical drive
+     2. When prompted, launch the Music Player
+     3. Locate the CD in the display of the Music Player
+     4. Select the CD in the Music Player
+     5. Click the Play button to listen to the music on the CD
+     6. Stop playing after some time
+     7. Right click on the CD icon and select "Eject Disc"
+     8. The CD should be ejected
+     9. Close the Music Player
+ VERIFICATION:
+     Did all the steps work?
+
+plugin: manual
+name: optical/dvd-write
+user: root
+requires:
+ device.category == 'CDROM'
+ optical_drive.dvd == 'writable'
+command: optical_write_test /dev/cdrom
+description:
+ PURPOSE:
+     This test will check your system's DVD writing capabilities. This test requires a blank DVD-R. If you do not have a blank DVD-R, skip this test.
+ STEPS:
+     1. Enter a blank DVD-R into your drive
+     2. Click "Test" to begin.
+     3. When the CD tray ejects the media after burning, close it (DO NOT remove the disk, it is needed for the second portion of the test). Note, you must close the drive within 10 seconds or the test will time out.
+ VERIFICATION:
+     This test should automatically select "Yes" if it passes, "No" if it fails.
+
+plugin: manual
+name: optical/dvd_movie_playback
+depends: optical/read
+description:
+ PURPOSE:
+     This test will check your DVD movie playback capabilities. Note that installation of non-free software (codecs, player, etc) may be required prior to performing this test.
+ STEPS:
+     1. Insert a DVD that contains any movie in your optical drive
+     2. Open the Dash (click on the Ubuntu Circle of Friends button on the Launcher)
+     3. Click "Media Apps" and then click on "Movie Player"
+     4. Play the movie using Movie Player, stop the movie after verifying that it plays
+     6. Eject the DVD
+ VERIFICATION:
+     Did all the steps work?
+
+plugin: manual
+name: optical/dvd_playback
+command: totem /media/cdrom
+requires:
+ device.category == 'CDROM'
+ package.name == 'totem'
+description:
+ PURPOSE:
+     This test will check your DVD  playback capabilities
+ STEPS:
+     1. Insert a DVD that contains any movie in your optical drive
+     2. Click "Test" to play the DVD in Totem
+ VERIFICATION:
+     Did the file play?

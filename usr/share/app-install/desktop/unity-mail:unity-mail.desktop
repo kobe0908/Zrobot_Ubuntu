@@ -1,0 +1,31 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-mail
+X-AppInstall-Popcon=118
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Unity Mail
+Comment=Display your Mail in a Web Browser
+Icon=unity-mail
+Exec=um-url Home
+Type=Application
+Categories=Email;Network;
+Actions=Compose;Inbox;Sent;Change;
+
+[Desktop Action Compose]
+Name=Compose Mail
+Exec=um-url Compose
+
+[Desktop Action Inbox]
+Name=Inbox
+Exec=um-url Inbox
+
+[Desktop Action Sent]
+Name=Sent
+Exec=um-url Sent
+
+[Desktop Action Change]
+Name=Change accounts details
+Exec=um-config
+
+X-Ubuntu-Gettext-Domain=app-install-data

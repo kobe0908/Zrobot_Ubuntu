@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gromit
+X-AppInstall-Popcon=384
+X-AppInstall-Section=universe
+
+Type=Application
+Name=gromit
+GenericName=gromit
+Comment=draw freehand screen annotations
+Icon=gromit
+Exec=gromit
+Terminal=false
+Categories=GTK;Office;Graphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

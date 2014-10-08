@@ -1,0 +1,7 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Upstream-Name: lava-test
+Upstream-Contact: Paul Larson <paul.larson@linaro.org>
+Source: https://launchpad.net/lava-test
+Copyright: Copyright 2010-2012, Linaro Limited
+License: GPL-3
+ See /usr/share/common-licenses/GPL-3 for full text

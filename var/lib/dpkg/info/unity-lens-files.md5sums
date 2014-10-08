@@ -1,0 +1,9 @@
+5a088cd45d9128030af5a83e9f17da85  usr/lib/unity-lens-files/unity-files-daemon
+ad9caec7f1e41f350b85b9c4272346b9  usr/share/dbus-1/services/unity-lens-files.service
+13b9c3298abcc27c03b830f9246184ca  usr/share/doc/unity-lens-files/AUTHORS
+02e729c6da94c4dded6b7e9b2d6a4a43  usr/share/doc/unity-lens-files/NEWS.gz
+a69fec8fcc4e335a2a6ee48c7ecf62b1  usr/share/doc/unity-lens-files/changelog.Debian.gz
+d6d2627d8dba376ba2999f79eba77409  usr/share/doc/unity-lens-files/copyright
+c0175ddfde9822b799ebb23625c6de85  usr/share/glib-2.0/schemas/com.canonical.Unity.FilesLens.gschema.xml
+82703f2cbe8de8d9604861c5319c5be1  usr/share/unity/lenses/files/files.lens
+0a0bdb3c5d39bb1ef2ae1ebf87d6f57d  usr/share/unity/themes/files.png

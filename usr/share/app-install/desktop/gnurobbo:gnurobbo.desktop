@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gnurobbo
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.1
+Name=GNU Robbo
+Icon=gnurobbo
+Exec=/usr/games/gnurobbo
+Terminal=false
+Categories=Game;
+Comment=A clone of Robbo
+
+X-Ubuntu-Gettext-Domain=app-install-data

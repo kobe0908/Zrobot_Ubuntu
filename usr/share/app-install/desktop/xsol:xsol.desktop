@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=xsol
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Exec='/usr/games/xsol'
+GenericName=Klondike Solitaire
+Icon=xsol
+Name=X Solitaire
+Terminal=false
+Type=Application
+Categories=Game;CardGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

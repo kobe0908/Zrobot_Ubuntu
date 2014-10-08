@@ -1,0 +1,1 @@
+../../../../../share/pyshared/lava_test/test_definitions/firefox.py

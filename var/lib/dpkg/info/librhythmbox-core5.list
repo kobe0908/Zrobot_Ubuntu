@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/librhythmbox-core5
+/usr/share/doc/librhythmbox-core5/changelog.Debian.gz
+/usr/share/doc/librhythmbox-core5/THANKS
+/usr/share/doc/librhythmbox-core5/NEWS.gz
+/usr/share/doc/librhythmbox-core5/copyright
+/usr/share/doc/librhythmbox-core5/NEWS.Debian.gz
+/usr/share/doc/librhythmbox-core5/AUTHORS
+/usr/share/doc/librhythmbox-core5/README
+/usr/lib
+/usr/lib/librhythmbox-core.so.5.0.0
+/usr/lib/librhythmbox-core.so.5

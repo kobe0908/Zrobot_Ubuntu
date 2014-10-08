@@ -1,0 +1,15 @@
+7599014a33407328fb9c4c01e3cebdbc  usr/bin/ubuntuone-installer
+804ebd17e3e03580b99912099d37b09a  usr/share/applications/ubuntuone-installer.desktop
+d67330da0f63111d5fde41f8da477041  usr/share/doc/ubuntuone-installer/changelog.Debian.gz
+edb3ca8c12d47513c2262c71e72b12f9  usr/share/doc/ubuntuone-installer/copyright
+44f0c38390785d8a966bf292060c280d  usr/share/icons/hicolor/16x16/apps/ubuntuone-installer.png
+ef5c2ded1e5d7991cc140ce82b5394c3  usr/share/icons/hicolor/24x24/apps/ubuntuone-installer.png
+c6efaa1ca6f18625837539520c34c39a  usr/share/icons/hicolor/32x32/apps/ubuntuone-installer.png
+52a0e9c740e5284e8fff1472b5b1c048  usr/share/icons/hicolor/48x48/apps/ubuntuone-installer.png
+eb2f95983a8c8b99c089a5d54ad4a0e1  usr/share/pyshared/ubuntuone-installer.pth
+cec651163a5f015cd68c227146bd3e9e  usr/share/pyshared/ubuntuone-installer/ubuntuone/__init__.py
+c1209efaef474621225902859d81c551  usr/share/pyshared/ubuntuone-installer/ubuntuone/installer/__init__.py
+e380609cbd04170845d3911deae1b1be  usr/share/pyshared/ubuntuone-installer/ubuntuone/installer/gui.py
+d448d99b98a8b70ee8a6471ad1efb98d  usr/share/pyshared/ubuntuone-installer/ubuntuone_installer-3.0.2.egg-info
+5a0f660cdcd8560cdf5adb2c4b3ad0a4  usr/share/ubuntuone-installer/u1cloud.svg
+a3224d42010a152cf84222ff5bfc1475  usr/share/ubuntuone-installer/u1logo.svg

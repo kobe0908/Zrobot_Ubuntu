@@ -80,9 +80,9 @@ sub header_files {
 #
 ## Package name      : perl5
 ## Source directory  : .
-## Configuration time: Fri Mar 23 18:24:31 UTC 2012
+## Configuration time: Fri Aug 10 22:53:42 UTC 2012
 ## Configured by     : Debian Project
-## Target system     : linux ain 2.6.38-1209-omap4 #21-ubuntu smp preempt thu jan 26 15:18:48 utc 2012 armv7l armv7l armv7l gnulinux 
+## Target system     : linux meissa 2.6.38-1209-omap4 #24-ubuntu smp preempt mon may 14 17:19:07 utc 2012 armv7l armv7l armv7l gnulinux 
 #
 #: Configure command line arguments.
 #
@@ -206,7 +206,7 @@ ccsymbols=''
 ccversion=''
 cf_by='Debian Project'
 cf_email='perl@packages.debian.org'
-cf_time='Fri Mar 23 18:24:31 UTC 2012'
+cf_time='Fri Aug 10 22:53:42 UTC 2012'
 charbits='8'
 charsize='1'
 chgrp=''
@@ -1004,7 +1004,7 @@ mv=''
 myarchname='armv7l-linux'
 mydomain=''
 myhostname='localhost'
-myuname='linux ain 2.6.38-1209-omap4 #21-ubuntu smp preempt thu jan 26 15:18:48 utc 2012 armv7l armv7l armv7l gnulinux '
+myuname='linux meissa 2.6.38-1209-omap4 #24-ubuntu smp preempt mon may 14 17:19:07 utc 2012 armv7l armv7l armv7l gnulinux '
 n='-n'
 need_va_copy='undef'
 netdb_hlen_type='size_t'

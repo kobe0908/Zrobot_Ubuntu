@@ -1,0 +1,11 @@
+825f2cac1f7fa7a17453cde27faf2c8f  usr/share/doc/python-debtagshw/changelog.Debian.gz
+e06678cb3c1a0a112b34941044af0fab  usr/share/doc/python-debtagshw/copyright
+3c69ce58b598747d309fd56f651bd36f  usr/share/pyshared/debtagshw-0.1.egg-info/PKG-INFO
+53ebd963f4954db815875da3083a4595  usr/share/pyshared/debtagshw-0.1.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/share/pyshared/debtagshw-0.1.egg-info/dependency_links.txt
+4b8fa43cc7d5b22d6604c4e41a7d6120  usr/share/pyshared/debtagshw-0.1.egg-info/top_level.txt
+a00f07b8e76c9b6e66e9a1766de3a9f5  usr/share/pyshared/debtagshw/__init__.py
+682efb5eaed41996eeaa42d8a2c89258  usr/share/pyshared/debtagshw/debtagshw.py
+dbc4b8260c0008c05f68ca75f224a961  usr/share/pyshared/debtagshw/detectors.py
+1e495564026459b1fab08cefdcde09a8  usr/share/pyshared/debtagshw/enums.py
+d57d0b5c61b1d8adbee363ab2eb08468  usr/share/pyshared/debtagshw/opengl.py

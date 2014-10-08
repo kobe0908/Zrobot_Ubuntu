@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/cmd_test_script.py

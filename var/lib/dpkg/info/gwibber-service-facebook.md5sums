@@ -1,0 +1,5 @@
+dfcb84996f931c92dfb7b2bc3add6402  usr/share/doc/gwibber-service-facebook/copyright
+2892a17e919d89489f650c4c79664206  usr/share/gwibber/plugins/facebook/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  usr/share/gwibber/plugins/facebook/gtk/__init__.py
+6ef32d66250225b412f722d0471f433e  usr/share/gwibber/plugins/facebook/gtk/facebook/__init__.py
+bfb4bac43003551e602d52caf51e9b29  usr/share/gwibber/plugins/facebook/ui/gwibber-accounts-facebook.ui

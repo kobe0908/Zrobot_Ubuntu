@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libproxy
+/usr/lib/arm-linux-gnueabihf/libproxy/0.4.7
+/usr/lib/arm-linux-gnueabihf/libproxy/0.4.7/modules
+/usr/lib/arm-linux-gnueabihf/libproxy/0.4.7/modules/config_gnome3.so
+/usr/lib/arm-linux-gnueabihf/libproxy/0.4.7/pxgsettings
+/usr/share
+/usr/share/doc
+/usr/share/doc/libproxy1-plugin-gsettings
+/usr/share/doc/libproxy1-plugin-gsettings/copyright
+/usr/share/doc/libproxy1-plugin-gsettings/changelog.Debian.gz

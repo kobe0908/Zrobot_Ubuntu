@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/share
+/usr/share/doc
+/usr/share/doc/gatortests
+/usr/share/doc/gatortests/changelog.Debian.gz
+/usr/share/doc/gatortests/copyright
+/usr/share/pyshared
+/usr/share/pyshared/gatortests-0.1.20120611.egg-info
+/usr/bin
+/usr/bin/gatortests
+/usr/lib/python2.7/dist-packages/gatortests-0.1.20120611.egg-info

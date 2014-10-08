@@ -1,0 +1,6 @@
+dbc1ed4cdea82c3298055037020ed961  usr/lib/unity-lens-video/unity-lens-video
+ec705ae8bdecc7e360b21435d3255a07  usr/share/dbus-1/services/unity-lens-video.service
+c70cbb48d433d1d4892cabf236df30b8  usr/share/doc/unity-lens-video/changelog.Debian.gz
+2649275583587d9150a344d42f5fa006  usr/share/doc/unity-lens-video/copyright
+a866699cceb9d6e10840822236d5fa64  usr/share/pyshared/unity_lens_video-0.3.5.egg-info
+1f1a314fbddee47931a0f676ac261ed9  usr/share/unity/lenses/video/video.lens

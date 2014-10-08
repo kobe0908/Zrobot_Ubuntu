@@ -1,0 +1,63 @@
+[+0.01s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.01s] DEBUG: Starting Light Display Manager 1.2.1, UID=0 PID=1509
+[+0.01s] DEBUG: Loaded configuration from /etc/lightdm/lightdm.conf
+[+0.01s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.01s] DEBUG: Registered seat module xlocal
+[+0.01s] DEBUG: Registered seat module xremote
+[+0.01s] DEBUG: Adding default seat
+[+0.01s] DEBUG: Starting seat
+[+0.01s] DEBUG: Starting new display for automatic login as user linaro
+[+0.01s] DEBUG: Starting local X display
+[+5.83s] WARNING: Error using VT_GETSTATE on /dev/console: Invalid argument
+[+5.84s] DEBUG: Plymouth is running on VT -1, but this is less than the configured minimum of 7 so not replacing it
+[+5.84s] DEBUG: Using VT 7
+[+5.84s] DEBUG: Activating VT 7
+[+5.84s] WARNING: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+[+5.84s] WARNING: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+[+5.84s] DEBUG: Logging to /var/log/lightdm/x-0.log
+[+5.88s] DEBUG: Writing X server authority to /var/run/lightdm/root/:0
+[+5.89s] DEBUG: Launching X Server
+[+5.89s] DEBUG: Launching process 1938: /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+[+5.89s] DEBUG: Waiting for ready signal from X server :0
+[+5.89s] DEBUG: Stopping Plymouth, no displays replace it
+[+5.96s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+5.96s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+29.61s] DEBUG: Got signal 10 from process 1938
+[+29.61s] DEBUG: Got signal from X server :0
+[+29.61s] DEBUG: Connecting to XServer :0
+[+29.65s] DEBUG: Automatically logging in user linaro
+[+29.65s] DEBUG: Started session 2029 with service 'lightdm-autologin', username 'linaro'
+[+29.91s] DEBUG: Session 2029 authentication complete with return value 0: Success
+[+29.91s] DEBUG: Autologin user linaro authorized
+[+29.96s] DEBUG: Autologin using session ubuntu-2d
+[+30.07s] DEBUG: Dropping privileges to uid 1000
+[+30.08s] DEBUG: Restoring privileges
+[+30.10s] DEBUG: Dropping privileges to uid 1000
+[+30.10s] DEBUG: Writing /home/linaro/.dmrc
+[+30.12s] DEBUG: Restoring privileges
+[+30.14s] DEBUG: Starting session ubuntu-2d as user linaro
+[+30.14s] DEBUG: Session 2029 running command /usr/sbin/lightdm-session gnome-session --session=ubuntu-2d
+[+30.23s] DEBUG: New display ready, switching to it
+[+30.23s] DEBUG: Activating VT 7
+[+30.23s] WARNING: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+[+30.23s] WARNING: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+[+30.24s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+205.62s] DEBUG: Got signal 15 from process 1
+[+205.62s] DEBUG: Caught Terminated signal, shutting down
+[+205.62s] DEBUG: Stopping display manager
+[+205.62s] DEBUG: Stopping seat
+[+205.62s] DEBUG: Stopping display
+[+205.62s] DEBUG: Session 2029: Sending SIGTERM
+[+206.49s] DEBUG: Session 2029 exited with return value 15
+[+206.49s] DEBUG: User session quit
+[+206.49s] DEBUG: Sending signal 15 to process 1938
+[+206.98s] DEBUG: Process 1938 exited with return value 0
+[+206.98s] DEBUG: X server stopped
+[+206.98s] DEBUG: Removing X server authority /var/run/lightdm/root/:0
+[+206.98s] DEBUG: Releasing VT 7
+[+206.98s] DEBUG: Display server stopped
+[+206.98s] DEBUG: Display stopped
+[+206.98s] DEBUG: Seat stopped
+[+206.98s] DEBUG: Display manager stopped
+[+206.98s] DEBUG: Stopping daemon
+[+207.02s] DEBUG: Exiting with return value 0

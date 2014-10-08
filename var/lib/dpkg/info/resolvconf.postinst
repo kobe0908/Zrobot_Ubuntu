@@ -15,13 +15,14 @@ report_info() { report "$*" >&2 ; }
 
 OLD_RUN_DIR=/var/run
 
-echo_first_arg() { echo "$1" ; }
 is_immutable_file() {
 	[ "$1" ] || return 2
 	[ -e "$1" ] || return 1
 	[ ! -L "$1" ] || return 1
-	which lsattr >/dev/null 2>&1 || return 2
-	echo_first_arg $(lsattr "$1") | grep -sq i
+
+	ATTR=$(lsattr "$1" 2>/dev/null)
+	[ -z "$ATTR" ] && return 1
+	echo $ATTR | awk '$1 ~ /i/ { exit 0; }; { exit 1; }'
 }
 
 ### Symlink ###
@@ -38,48 +39,49 @@ case "$1" in
 		rm -rf /var/lib/resolvconf
 
 		if is_immutable_file /etc/resolv.conf ; then
-			report_err "Cannot replace the current /etc/resolv.conf with a symbolic link because it is immutable. To correct this problem, gain root privileges in a terminal and run 'chattr -i /etc/resolv.conf' and then 'dpkg --configure resolvconf'. Aborting."
-			exit 1
-		else
-			if [ -f /etc/resolv.conf ] \
-			   && [ ! -L /etc/resolv.conf ]
-			then
-				# Back up original file
-				if [ ! -e /etc/resolvconf/resolv.conf.d/original ] ; then
-					cp -a /etc/resolv.conf /etc/resolvconf/resolv.conf.d/original
-					db_get resolvconf/link-tail-to-original
-					if [ "$RET" = "true" ]; then
-						ln -s original /etc/resolvconf/resolv.conf.d/tail
-					fi
-				else
-					cp -a /etc/resolv.conf /etc/resolv.conf.dpkg-old
-				fi
-
-				# Even though we create this dir in the preinst,
-				# don't assume that it's still here; a reboot
-				# after unpack may have left us with no upstart
-				# job in place and /run cleaned out.
-				mkdir -p /run/resolvconf/interface
-
-				# Before creating the link, make sure that the original file is
-				# at the target of the link.  /sbin/resolvconf will overwrite
-				# this when it does an update, of course.
-				if [ ! -e /run/resolvconf/resolv.conf ] ; then
-					cp -a /etc/resolv.conf /run/resolvconf/resolv.conf
-				fi
-				# Add the original file to the database so that its contents
-				# are included when resolvconf updates.
-				# Yes, this is an ugly workaround for the problem that there
-				# is no way to obtain nameserver information from interface
-				# configurers after they have done their configuration work.
-				cp -a /etc/resolv.conf /run/resolvconf/interface/original.resolvconf
-			fi
-			# Create the link and make sure we don't convert it again on upgrade
-			# The link is relative to allow for cp from outside a chroot into a chroot
-			# to work without overwriting the file outside the chroot (or failing)
-			ln -nsf ../run/resolvconf/resolv.conf /etc/resolv.conf
-			db_set resolvconf/linkify-resolvconf false
+			db_input critical resolvconf/fixing-immutable
+			db_go
+			chattr -i /etc/resolv.conf
 		fi
+
+		if [ -f /etc/resolv.conf ] \
+		   && [ ! -L /etc/resolv.conf ]
+		then
+			# Back up original file
+			if [ ! -e /etc/resolvconf/resolv.conf.d/original ] ; then
+				cp -a /etc/resolv.conf /etc/resolvconf/resolv.conf.d/original
+				db_get resolvconf/link-tail-to-original
+				if [ "$RET" = "true" ]; then
+					ln -s original /etc/resolvconf/resolv.conf.d/tail
+				fi
+			else
+				cp -a /etc/resolv.conf /etc/resolv.conf.dpkg-old
+			fi
+				# Even though we create this dir in the preinst,
+			# don't assume that it's still here; a reboot
+			# after unpack may have left us with no upstart
+			# job in place and /run cleaned out.
+			mkdir -p /run/resolvconf/interface
+
+			# Before creating the link, make sure that the original file is
+			# at the target of the link.  /sbin/resolvconf will overwrite
+			# this when it does an update, of course.
+			if [ ! -e /run/resolvconf/resolv.conf ] ; then
+				cp -a /etc/resolv.conf /run/resolvconf/resolv.conf
+			fi
+			# Add the original file to the database so that its contents
+			# are included when resolvconf updates.
+			# Yes, this is an ugly workaround for the problem that there
+			# is no way to obtain nameserver information from interface
+			# configurers after they have done their configuration work.
+			cp -a /etc/resolv.conf /run/resolvconf/interface/original.resolvconf
+		fi
+
+		# Create the link and make sure we don't convert it again on upgrade
+		# The link is relative to allow for cp from outside a chroot into a chroot
+		# to work without overwriting the file outside the chroot (or failing)
+		ln -nsf ../run/resolvconf/resolv.conf /etc/resolv.conf
+		db_set resolvconf/linkify-resolvconf false
 	fi
 
 	# FHS violation; get rid of it, we use /run directly now.

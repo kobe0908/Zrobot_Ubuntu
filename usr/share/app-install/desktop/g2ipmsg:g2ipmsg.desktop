@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=g2ipmsg
+X-AppInstall-Popcon=85
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Terminal=false
+Name=GNOME2 IP Messenger
+Comment=IP Messenger for the GNOME2
+Exec=g2ipmsg
+TryExec=g2ipmsg
+Icon=ipmsg
+Type=Application
+Categories=GTK;Application;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

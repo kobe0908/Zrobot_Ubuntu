@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=landell
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=0.92.1
+Name=Landell
+Comment=Audio and video streams manager
+Exec=landell
+Terminal=false
+Type=Application
+Icon=landell
+Categories=AudioVideo;TV;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

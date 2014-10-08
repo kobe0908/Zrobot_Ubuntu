@@ -1,0 +1,1 @@
+../../../../share/pyshared/checkbox_qt/__init__.py

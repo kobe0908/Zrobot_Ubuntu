@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libvncserver.so.0.0.0
+/usr/lib/libvncclient.so.0.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libvncserver0
+/usr/share/doc/libvncserver0/NEWS.gz
+/usr/share/doc/libvncserver0/TODO
+/usr/share/doc/libvncserver0/copyright
+/usr/share/doc/libvncserver0/README.gz
+/usr/share/doc/libvncserver0/changelog.Debian.gz
+/usr/lib/libvncclient.so.0
+/usr/lib/libvncserver.so.0

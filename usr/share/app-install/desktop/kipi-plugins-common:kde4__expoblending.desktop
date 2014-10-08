@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Categories=Qt;KDE;Graphics;
+Comment=A tool to blend bracketed images
+Exec=expoblending %i -caption "%c" %U
+GenericName=Exposure Blending
+Name=ExpoBlending
+StartupNotify=true
+Icon=expoblending
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-DocPath=kipi-plugins/index.html#expoblending
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ubuntu-Gettext-Domain=app-install-data

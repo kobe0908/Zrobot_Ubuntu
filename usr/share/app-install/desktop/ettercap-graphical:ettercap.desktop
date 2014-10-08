@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ettercap-graphical
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+Name=ettercap
+GenericName=Ettercap
+Comment=Multipurpose sniffer/interceptor/logger
+Icon=ettercap
+Exec=su-to-root -c "/usr/sbin/ettercap --gtk"
+Terminal=false
+Categories=Network;System;Security;GTK;
+
+X-Ubuntu-Gettext-Domain=app-install-data

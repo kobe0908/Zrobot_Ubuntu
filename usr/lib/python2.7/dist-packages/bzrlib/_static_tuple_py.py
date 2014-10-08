@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/_static_tuple_py.py

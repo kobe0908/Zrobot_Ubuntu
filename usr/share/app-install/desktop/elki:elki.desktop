@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=elki
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Categories=Development;Education;GTK;Science;ArtificialIntelligence;ComputerScience;DataVisualization
+Name=ELKI
+Comment=Data mining algorithm development framework
+TryExec=elki
+Exec=elki
+Icon=elki-icon
+
+X-Ubuntu-Gettext-Domain=app-install-data

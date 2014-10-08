@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=scite
+X-AppInstall-Popcon=664
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Name=SciTE Text Editor
+Comment=Edit your source files
+GenericName=Text Editor
+Type=Application
+Exec=SciTE %F
+Icon=Sci48M
+Terminal=false
+StartupNotify=true
+Categories=TextEditor;Development;GTK;Application;
+MimeType=text/plain;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/export_pot.py

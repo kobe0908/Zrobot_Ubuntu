@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/gwibber/lib/gtk/widgets.py

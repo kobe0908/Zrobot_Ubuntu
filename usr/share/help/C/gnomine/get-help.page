@@ -1,0 +1,33 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" 
+      id="get-help">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision version="0.1" date="2011-12-07" status="stub"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2011</years>
+    </credit>
+
+    <desc>Get help when blocked</desc>
+  </info>
+
+  <title>Get help when blocked</title>
+
+  <p>You can get help while playing: </p>
+  <list>
+    <item>
+      <p>Hints. If you're in a situation you don't know which tiles uncover you
+      can ask for a hint. A hint will uncover a tile from the board, but will 
+      add ten seconds to the time of the game. To ask for choose <guiseq><gui>
+      Game</gui><gui>Hint</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>"Too many flags" warning. When activated, this option will inform you
+         when you set too much flag in the same area.</p>
+    </item>
+  </list>
+
+</page>

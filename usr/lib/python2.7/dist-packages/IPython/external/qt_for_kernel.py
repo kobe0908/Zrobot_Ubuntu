@@ -1,1 +1,0 @@
-../../../../../share/pyshared/IPython/external/qt_for_kernel.py

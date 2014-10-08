@@ -1,0 +1,25 @@
+[Desktop Entry]
+X-AppInstall-Package=mined
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+
+Name=MinEd
+Type=Application
+MimeType=text/plain;
+Icon=mined
+
+#Path=
+# use start script to embed mined preferably into xterm
+Terminal=false
+Exec=umined %F
+# don't implicitly use gnome-terminal or konsole to avoid their deficiencies
+#Terminal=true
+#Exec=mined %F
+
+Categories=TextEditor;Utility
+GenericName=Text Editor
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

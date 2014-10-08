@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p rhythmbox-plugin-zeitgeist /usr/lib/rhythmbox
+	pycompile -p rhythmbox-plugin-zeitgeist  /usr/lib/rhythmbox
+fi

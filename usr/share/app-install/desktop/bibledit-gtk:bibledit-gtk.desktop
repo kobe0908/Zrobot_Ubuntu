@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=bibledit-gtk
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Bibledit-Gtk
+Comment=Bible Editor
+Icon=bibledit
+Exec=bibledit-gtk
+Type=Application
+Categories=Office;
+StartupNotify=true
+NoDisplay=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

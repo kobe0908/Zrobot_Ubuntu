@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bibledit-bibletime
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Bibledit-BibleTime
+Comment=Bibledit BibleTime Interface
+Icon=bibledit-bibletime
+Exec=bibledit-bibletime
+Type=Application
+Categories=Office;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

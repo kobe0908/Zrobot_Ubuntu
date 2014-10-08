@@ -1,0 +1,1 @@
+../../../../share/pyshared/bzrlib/mail_client.py

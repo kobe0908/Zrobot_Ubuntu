@@ -1,0 +1,8 @@
+7acda78868475f2cd07c6d9ea569d2f0  usr/share/doc/python-httplib2/README.gz
+80db886f864af267ecf1a2ec9785143e  usr/share/doc/python-httplib2/changelog.Debian.gz
+690689bb47c786abee6291a25d5ac7c1  usr/share/doc/python-httplib2/copyright
+563cdc3a25a3dd9e1512864dccc44e4e  usr/share/pyshared/httplib2-0.7.2.egg-info
+3be1333029c601aaa3746cdb5a5714be  usr/share/pyshared/httplib2/__init__.py
+2dc185f345f7ca634aec690243f346d8  usr/share/pyshared/httplib2/cacerts.txt
+c0f9c5cb229a22e21575322b4ba77741  usr/share/pyshared/httplib2/iri2uri.py
+41b2cb7f2bc06fceb01461a8e980aa92  usr/share/pyshared/httplib2/socks.py

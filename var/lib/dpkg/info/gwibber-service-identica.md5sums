@@ -1,0 +1,5 @@
+dfcb84996f931c92dfb7b2bc3add6402  usr/share/doc/gwibber-service-identica/copyright
+575484e7276294997924a4e9688068b4  usr/share/gwibber/plugins/identica/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  usr/share/gwibber/plugins/identica/gtk/__init__.py
+f6e9452489d36594534888b1ac99ff5d  usr/share/gwibber/plugins/identica/gtk/identica/__init__.py
+16ed2d89b0a1e919fb5ad81ee4534ce6  usr/share/gwibber/plugins/identica/ui/gwibber-accounts-identica.ui

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=catdoc
+X-AppInstall-Popcon=600
+X-AppInstall-Section=universe
+
+Name=Wordview Microsoft doc Viewer
+Comment=Microsoft doc document file viewer
+Exec=wordview
+Icon=wordview
+Terminal=false
+Categories=Office;GNOME;
+Type=Application
+StartupNotify=false
+X-SingleInstance=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

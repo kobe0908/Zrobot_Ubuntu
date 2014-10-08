@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=curtain
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=0.2
+Type=Application
+Name=Curtain
+GenericName=Show and move a curtain
+Comment=Show and move a curtain on the desktop
+Exec=curtain %U
+TryExec=curtain
+Icon=curtain
+Terminal=false
+Categories=GNOME;GTK;Utility;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

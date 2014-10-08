@@ -1,0 +1,8 @@
+/etc/init/apport.conf
+/etc/cron.daily/apport
+/etc/bash_completion.d/apport_completion
+/etc/apport/native-origins.d/lts-q-backports
+/etc/apport/blacklist.d/apport
+/etc/apport/blacklist.d/README.blacklist
+/etc/default/apport
+/etc/logrotate.d/apport

@@ -1,0 +1,10 @@
+21db83aba0c1d0a99165ce8908970dd3  usr/lib/indicator-appmenu/hud-service
+9e8776c590563492592927a4517a72c5  usr/lib/indicators3/7/libappmenu.so
+83e09e718dff3583dfa40139d635aabf  usr/share/apport/package-hooks/source_indicator-appmenu.py
+dd97ff8a459ec7358160599b0d94ad52  usr/share/dbus-1/services/com.canonical.hud.service
+d96e11200f5c3b42a3315f5ae7a5a235  usr/share/doc/indicator-appmenu/AUTHORS
+97465d1e44cb879f14fe8f2762cd262e  usr/share/doc/indicator-appmenu/changelog.Debian.gz
+7f952dc2188bb67848c2c9838a555f40  usr/share/doc/indicator-appmenu/copyright
+41579d5f4ce8cfa5d87e6c64b8a9a261  usr/share/glib-2.0/schemas/com.canonical.indicator.appmenu.gschema.xml
+a22c493e87209e98ac750d150a2876c8  usr/share/glib-2.0/schemas/com.canonical.indicator.appmenu.hud.gschema.xml
+b9fee970b699e849db099b519bc976c0  usr/share/glib-2.0/schemas/com.canonical.indicator.appmenu.hud.search.gschema.xml

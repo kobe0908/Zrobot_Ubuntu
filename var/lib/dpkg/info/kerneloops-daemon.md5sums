@@ -1,0 +1,5 @@
+a3116ec7d81bb7cdd646e26f18787f3a  usr/bin/kerneloops-submit
+3184afda518f43726aabe27dfaf45f5e  usr/sbin/kerneloops
+d69d9a9eff6bb1ad47ea1fc2d38ecb95  usr/share/doc/kerneloops-daemon/changelog.Debian.gz
+ed8822a6ea5d34643f3bfecbdb0b33bc  usr/share/doc/kerneloops-daemon/copyright
+d7abd0776e4dcaafb23f3c879cbd7ddf  usr/share/man/man8/kerneloops.8.gz

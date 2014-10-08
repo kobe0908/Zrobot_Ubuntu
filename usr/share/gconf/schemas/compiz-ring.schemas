@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Tab</default>
+      <locale name="C">
+        <short>Next Window</short>
+        <long>Show switcher if not visible and select next window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window</short>
+        <long>Show switcher if not visible and select next window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Shift&gt;Tab</default>
+      <locale name="C">
+        <short>Previous Window</short>
+        <long>Show switcher if not visible and select previous window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window</short>
+        <long>Show switcher if not visible and select previous window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_all_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_all_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Alt&gt;Tab</default>
+      <locale name="C">
+        <short>Next Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select next window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_all_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_all_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select next window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_all_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_all_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Shift&gt;&lt;Alt&gt;Tab</default>
+      <locale name="C">
+        <short>Previous Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select previous window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_all_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_all_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (All Workspaces)</short>
+        <long>Show switcher if not visible and select previous window out of all windows.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_group_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_group_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (Group)</short>
+        <long>Show switcher if not visible and select next window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/next_group_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/next_group_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Next Window (Group)</short>
+        <long>Show switcher if not visible and select next window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_group_key</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_group_key</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (Group)</short>
+        <long>Show switcher if not visible and select previous window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/prev_group_button</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/prev_group_button</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <locale name="C">
+        <short>Previous Window (Group)</short>
+        <long>Show switcher if not visible and select previous window of the current application.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/speed</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/speed</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="bg">
+        <short>Скорост</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ca">
+        <short>Velocitat</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Rychlost</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="da">
+        <short>Hastighed</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Geschwindigkeit</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Ταχύτητα</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Velocidad</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>Abiadura</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Nopeus</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Vitesse</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Velocidade</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>ઝડપ</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="he">
+        <short>מהירות</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Sebesség</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Velocità</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>速度</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>속도</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Hastighet</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Snelheid</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ଗତି</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Szybkość</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Velocidade</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Velocidade</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ro">
+        <short>Viteză</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Скорость</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Rýchlosť</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Hastighet</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Hız</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Швидкість</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>速度</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>速度</short>
+        <long>Ring speed (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/timestep</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/timestep</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ca">
+        <short>Etapa</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="cs">
+        <short>Časový krok</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="da">
+        <short>Tidstrin</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="de">
+        <short>Zeitintervall</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="el">
+        <short>Χρονικό Βήμα</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="es">
+        <short>Paso</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="eu">
+        <short>denbora-pausoa</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fi">
+        <short>Aikaviive</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="fr">
+        <short>Intervalle</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gl">
+        <short>Saltos do tempo</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="gu">
+        <short>સમયપગલું</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="he">
+        <short>יחידת זמן</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="hu">
+        <short>Időköz</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="it">
+        <short>Intervallo</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ja">
+        <short>描画の時間刻み</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ko">
+        <short>시간 간격</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nb">
+        <short>Tidsskritt</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="nl">
+        <short>Tijdstempel</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="or">
+        <short>ସମଯସୋପାନ</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pl">
+        <short>Opóźnienie</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt">
+        <short>Espaço de tempo</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Intervalo de tempo</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ro">
+        <short>Pas de timp</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="ru">
+        <short>Шаг времени</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sk">
+        <short>Krok</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="sv">
+        <short>Tidsintervall</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="tr">
+        <short>Süre aralığı</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="uk">
+        <short>Крок часу</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>时间步长</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>時間間隔</short>
+        <long>Ring timestep (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/inactive_opacity</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/inactive_opacity</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>100</default>
+      <locale name="C">
+        <short>Inactive Window Opacity</short>
+        <long>Amount of opacity (in percent) for windows in the ring which are not selected (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/window_match</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/window_match</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>Normal | Dialog | ModalDialog | Utility | Unknown</default>
+      <locale name="C">
+        <short>Ring Windows</short>
+        <long>Windows that should be shown in ring (match)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/overlay_icon</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/overlay_icon</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Overlay Icon</short>
+        <long>Overlay an icon on windows in the ring (0 = None, 1 = Emblem, 2 = Big)</long>
+      </locale>
+      <locale name="bn">
+        <short>ওভারলে চিত্রসংকেত</short>
+        <long>Overlay an icon on windows in the ring (0 = কিছু না, 1 = প্রতীক, 2 = বড়)</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>ওভারলে চিত্রসংকেত</short>
+        <long>Overlay an icon on windows in the ring (0 = কিছু না, 1 = প্রতীক, 2 = বড়)</long>
+      </locale>
+      <locale name="ca">
+        <short>Superposa la icona</short>
+        <long>Overlay an icon on windows in the ring (0 = Cap, 1 = Distintiu, 2 = Gran)</long>
+      </locale>
+      <locale name="cs">
+        <short>Překrýt ikonou</short>
+        <long>Overlay an icon on windows in the ring (0 = Nic, 1 = Symbol, 2 = Velká)</long>
+      </locale>
+      <locale name="da">
+        <short>Overlejringsikon</short>
+        <long>Overlay an icon on windows in the ring (0 = Ingen, 1 = Emblem, 2 = Stor)</long>
+      </locale>
+      <locale name="de">
+        <short>Symbol überlagern</short>
+        <long>Overlay an icon on windows in the ring (0 = Keine, 1 = Emblem, 2 = Groß)</long>
+      </locale>
+      <locale name="el">
+        <short>Επίστρωση Εικονιδίου</short>
+        <long>Overlay an icon on windows in the ring (0 = Κανένα, 1 = Έμβλημα, 2 = Μεγάλο)</long>
+      </locale>
+      <locale name="es">
+        <short>Superponer icono</short>
+        <long>Overlay an icon on windows in the ring (0 = Ninguno, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="eu">
+        <short>Gainjarri Ikonoa</short>
+        <long>Overlay an icon on windows in the ring (0 = Bat ere ez, 1 = Ikurra, 2 = Handia)</long>
+      </locale>
+      <locale name="fi">
+        <short>Aseta kuvake päälle</short>
+        <long>Overlay an icon on windows in the ring (0 = Ei mitään, 1 = Tunnus, 2 = Suuri)</long>
+      </locale>
+      <locale name="fr">
+        <short>Superposer l'icône</short>
+        <long>Overlay an icon on windows in the ring (0 = Aucun, 1 = Emblème, 2 = Grand)</long>
+      </locale>
+      <locale name="gl">
+        <short>Icona Superposta</short>
+        <long>Overlay an icon on windows in the ring (0 = Ningún, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="gu">
+        <short>ઓવરલે ચિહ્ન</short>
+        <long>Overlay an icon on windows in the ring (0 = કંઈ નહિં, 1 = સંજ્ઞા, 2 = મોટું)</long>
+      </locale>
+      <locale name="he">
+        <short>צלמית מודבקת</short>
+        <long>Overlay an icon on windows in the ring (0 = ללא, 1 = סמלון, 2 = גדול)</long>
+      </locale>
+      <locale name="hi">
+        <short>प्रतीक ढ़कें</short>
+        <long>Overlay an icon on windows in the ring (0 = कुछ नहीं, 1 = प्रतीक, 2 = बड़ा)</long>
+      </locale>
+      <locale name="hu">
+        <short>Átfedő ikon</short>
+        <long>Overlay an icon on windows in the ring (0 = Egyik sem, 1 = Embléma, 2 = Nagy)</long>
+      </locale>
+      <locale name="it">
+        <short>Icona di sovrapposizione</short>
+        <long>Overlay an icon on windows in the ring (0 = Niente, 1 = Simbolo, 2 = Grande)</long>
+      </locale>
+      <locale name="ja">
+        <short>重ね表示アイコン</short>
+        <long>Overlay an icon on windows in the ring (0 = なし, 1 = エンブレム, 2 = 大きい)</long>
+      </locale>
+      <locale name="ko">
+        <short>아이콘 덧붙이기</short>
+        <long>Overlay an icon on windows in the ring (0 = 없음, 1 = 아이콘, 2 = 크게)</long>
+      </locale>
+      <locale name="nb">
+        <short>Ikon for overlapp</short>
+        <long>Overlay an icon on windows in the ring (0 = Ingen, 1 = Logo, 2 = Stor)</long>
+      </locale>
+      <locale name="nl">
+        <short>Overlay icoon</short>
+        <long>Overlay an icon on windows in the ring (0 = Geen, 1 = Embleem, 2 = Groot)</long>
+      </locale>
+      <locale name="or">
+        <short>ବିସ୍ତୃତକରିବା ଆଇକନ</short>
+        <long>Overlay an icon on windows in the ring (0 = କିଛିନାହିଁ, 1 = ଚିହ୍ନ, 2 = ବଡ)</long>
+      </locale>
+      <locale name="pa">
+        <short>ਓਵਰਲੇ ਆਈਕਾਨ</short>
+        <long>Overlay an icon on windows in the ring (0 = ਕੋਈ ਨਹੀਂ, 1 = ਨਿਸ਼ਾਨ, 2 = ਵੱਡਾ)</long>
+      </locale>
+      <locale name="pl">
+        <short>Ikona okna</short>
+        <long>Overlay an icon on windows in the ring (0 = Brak, 1 = Emblemat, 2 = Duży)</long>
+      </locale>
+      <locale name="pt">
+        <short>Ícone de Instalação Sobreposta</short>
+        <long>Overlay an icon on windows in the ring (0 = Nenhum, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Ícone de sobreposição</short>
+        <long>Overlay an icon on windows in the ring (0 = Nenhum, 1 = Emblema, 2 = Grande)</long>
+      </locale>
+      <locale name="ro">
+        <short>Pictogramă suprapusă</short>
+        <long>Overlay an icon on windows in the ring (0 = Nimic, 1 = Emblemă, 2 = Mare)</long>
+      </locale>
+      <locale name="ru">
+        <short>Наложить значок</short>
+        <long>Overlay an icon on windows in the ring (0 = Никакой, 1 = Эмблема, 2 = Большой)</long>
+      </locale>
+      <locale name="sk">
+        <short>Prekladať ikonou</short>
+        <long>Overlay an icon on windows in the ring (0 = Žiadna, 1 = Emblém, 2 = Veľký)</long>
+      </locale>
+      <locale name="sv">
+        <short>Lägg ikoner över</short>
+        <long>Overlay an icon on windows in the ring (0 = Ingen, 1 = Emblem, 2 = Stor)</long>
+      </locale>
+      <locale name="tr">
+        <short>Örtülü Durum Simgesi</short>
+        <long>Overlay an icon on windows in the ring (0 = Hiçbiri, 1 = Simge, 2 = Büyük)</long>
+      </locale>
+      <locale name="uk">
+        <short>Накласти значок</short>
+        <long>Overlay an icon on windows in the ring (0 = Ніякий, 1 = Емблема, 2 = Великий)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>覆盖图标</short>
+        <long>Overlay an icon on windows in the ring (0 = 无, 1 = 标志, 2 = 大)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>覆蓋圖示</short>
+        <long>Overlay an icon on windows in the ring (0 = 無, 1 = 象徵, 2 = 大)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/darken_back</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/darken_back</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Darken Background</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="bg">
+        <short>Затъмняване на фона</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="bn">
+        <short>পটভূমি গাঢ় করা</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="bn_IN">
+        <short>পটভূমি গাঢ় করা</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="ca">
+        <short>Enfosqueix el fons</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="cs">
+        <short>Ztmavit pozadí</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="da">
+        <short>Gør baggrund mørkere</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="de">
+        <short>Hintergrund abdunkeln</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="el">
+        <short>Σκοτείνιασμα Φόντου</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="es">
+        <short>Oscurecer fondo</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="eu">
+        <short>Ilundu atzeko-planoa</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="fi">
+        <short>Tummenna tausta</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="fr">
+        <short>Assombrir l'arrière-plan</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="gl">
+        <short>Escurecer Fondo</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="gu">
+        <short>ઘાટું પાશ્વભાગ</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="he">
+        <short>החשך רקע</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="hu">
+        <short>Sötétülő háttér</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="it">
+        <short>Scurire lo sfondo</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="ja">
+        <short>背景を暗くする</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="ko">
+        <short>바탕 화면을 어둡게</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="nb">
+        <short>Gjør bakgrunn mørkere</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="nl">
+        <short>Achtergrond donker maken</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="or">
+        <short>ପୃଷ୍ଠଭୂମିକୁ ଗାଢକର</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="pl">
+        <short>Przyciemnij tło</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="pt">
+        <short>Escurecer Segundo Plano</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Escurecer Segundo Plano</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="ro">
+        <short>Întunecare fundal</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="ru">
+        <short>Затемнить фон</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="sk">
+        <short>Stmaviť pozadie</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="sv">
+        <short>Mörka bakgrunden</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="tr">
+        <short>Arkaplanı Koyulaştır</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="uk">
+        <short>Затемнити тло</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>背景变暗</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>暗化背景</short>
+        <long>Darken background when showing the ring</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/minimized</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/minimized</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show Minimized</short>
+        <long>Show windows that are minimized, shaded or in show desktop mode.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/select_with_mouse</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/select_with_mouse</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Allow Mouse Selection</short>
+        <long>Allow the selection of windows by just clicking on them while the switcher is active.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/ring_clockwise</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/ring_clockwise</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Rotate Ring Clockwise on Next</short>
+        <long>Rotate ring clockwise for next window instead of counterclockwise</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/ring_width</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/ring_width</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>70</default>
+      <locale name="C">
+        <short>Ring Width</short>
+        <long>Ring width (in percent of the screen width) (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/ring_height</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/ring_height</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>60</default>
+      <locale name="C">
+        <short>Ring Height</short>
+        <long>Ring height (in percent of the screen height) (1 - 100)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/thumb_width</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/thumb_width</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>350</default>
+      <locale name="C">
+        <short>Thumbnail Width</short>
+        <long>Maximum horizontal size of a thumbnail in the ring (10 - 1024)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/thumb_height</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/thumb_height</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>250</default>
+      <locale name="C">
+        <short>Thumbnail Height</short>
+        <long>Maximum vertical size of a thumbnail in the ring (10 - 1024)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/min_brightness</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/min_brightness</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <locale name="C">
+        <short>Minimum Brightness Factor</short>
+        <long>Changes the minimum brightness factor for windows in the ring. The farer away windows are, the less bright are they. (0.1 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/min_scale</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/min_scale</applyto>
+      <owner>compiz-1</owner>
+      <type>float</type>
+      <default>0.4</default>
+      <locale name="C">
+        <short>Minimum Scale Factor</short>
+        <long>Changes the minimum scale factor for windows in the ring. The farer away windows are, the smaller are they. (0.1 - 1.0)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/window_title</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/window_title</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show Window Title</short>
+        <long>Show window title of currently selected window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/title_font_bold</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/title_font_bold</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Bold Font</short>
+        <long>Selects if the window title should be displayed in bold font or not.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/title_font_size</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/title_font_size</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>16</default>
+      <locale name="C">
+        <short>Font Size</short>
+        <long>Font size for the window title (6 - 96)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/title_back_color</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/title_back_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#00000099</default>
+      <locale name="C">
+        <short>Background Color</short>
+        <long>Background color for the window title</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/title_font_color</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/title_font_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#ffffffff</default>
+      <locale name="C">
+        <short>Font Color</short>
+        <long>Font color for the window title</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/ring/screen0/options/title_text_placement</key>
+      <applyto>/apps/compiz-1/plugins/ring/screen0/options/title_text_placement</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Text Placement</short>
+        <long>Selects where to place the window title. (0 = Centered on screen, 1 = Above ring, 2 = Below ring)</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

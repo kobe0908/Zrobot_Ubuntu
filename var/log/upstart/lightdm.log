@@ -1,0 +1,30 @@
+
+** (lightdm:1571): WARNING **: Error using VT_GETSTATE on /dev/console: Invalid argument
+
+** (lightdm:1571): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1571): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+
+** (lightdm:1571): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1571): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+
+** (lightdm:1554): WARNING **: Error using VT_GETSTATE on /dev/console: Invalid argument
+
+** (lightdm:1554): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1554): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+
+** (lightdm:1554): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1554): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+
+** (lightdm:1509): WARNING **: Error using VT_GETSTATE on /dev/console: Invalid argument
+
+** (lightdm:1509): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1509): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument
+
+** (lightdm:1509): WARNING **: Error using VT_ACTIVATE 7 on /dev/console: Invalid argument
+
+** (lightdm:1509): WARNING **: Error using VT_WAITACTIVE 7 on /dev/console: Invalid argument

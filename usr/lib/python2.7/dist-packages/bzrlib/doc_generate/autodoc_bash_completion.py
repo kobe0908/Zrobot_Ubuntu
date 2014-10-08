@@ -1,0 +1,1 @@
+../../../../../share/pyshared/bzrlib/doc_generate/autodoc_bash_completion.py

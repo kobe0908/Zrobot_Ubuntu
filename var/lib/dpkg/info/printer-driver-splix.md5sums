@@ -1,0 +1,8 @@
+38648cf499a8e1904f2af527f4079f89  usr/lib/cups/driver/splix
+c9513ab9220748e611350467d6995e00  usr/lib/cups/filter/pstoqpdl
+b1ddbf6aff1c32476452c383eaf7a09d  usr/lib/cups/filter/rastertoqpdl
+22dae44c3689b9ecb4bd48923e1699c4  usr/share/apport/package-hooks/source_splix.py
+f545234b825ada6265d7cd82649d4c04  usr/share/cups/ppd-updaters/splix.ppd-updater
+359874c11742be34ce6bea03a3040dd4  usr/share/doc/printer-driver-splix/README.Debian
+0ab6247a8e32d0ac4c923cee7aa73373  usr/share/doc/printer-driver-splix/changelog.Debian.gz
+897c1a8789a46c7c00f1f5c4037c7171  usr/share/doc/printer-driver-splix/copyright

@@ -1,0 +1,13 @@
+e2c5eca5fa5a2bc40d9b16e78e95d786  usr/bin/apg
+907adc2120e7b8a0c288da9692fc006a  usr/bin/apgbfm
+ba8b457b6bb609f3da478c539c9c7b5d  usr/lib/apg/apg
+b6c5ab4561c00b07a0b97b21ff079b9d  usr/share/doc/apg/APG_TIPS
+cb9f8328da57c00dc4ddf8b16d4e9a57  usr/share/doc/apg/README
+33fab4cf3939d46d07fd9329208fd5ef  usr/share/doc/apg/README.Debian
+1398aae8f62755ec0fb8413f1685f670  usr/share/doc/apg/THANKS
+ee538c4e9dee0208946c4ade8f3ffa90  usr/share/doc/apg/TODO
+e6a9fc05e706ad8609290a0c4cdb4590  usr/share/doc/apg/changelog.Debian.gz
+cb1bc5aee28eeaa9ebbce06d166fec49  usr/share/doc/apg/copyright
+be704c26c2e44fc0c94c3cf6e66c3f9c  usr/share/doc/apg/php.tar.gz
+224a0ea42e3757a341685b1cad751cf4  usr/share/man/man1/apg.1.gz
+eb9a556b0c982ce503e4abfb3ed21823  usr/share/man/man1/apgbfm.1.gz

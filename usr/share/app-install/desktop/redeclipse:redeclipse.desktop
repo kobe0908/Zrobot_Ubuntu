@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=redeclipse
+X-AppInstall-Popcon=34
+X-AppInstall-Section=multiverse
+
+Type=Application
+Version=1.0
+Name=Red Eclipse
+GenericName=First-person shooter game
+Comment=First-person shooter with agile gameplay and built-in editor.
+Icon=redeclipse
+Exec=redeclipse
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

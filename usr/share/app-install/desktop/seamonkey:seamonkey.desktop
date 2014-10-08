@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=seamonkey
+X-AppInstall-Popcon=1907
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=SeaMonkey
+Comment=Send and receive mail with SeaMonkey
+GenericName=Mail Client
+Exec=seamonkey %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=seamonkey
+Categories=Application;Network;Email;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;x-scheme-handler/mailto;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+StartupWMClass=SeaMonkey
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

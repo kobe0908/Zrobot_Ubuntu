@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/fade_time</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/fade_time</applyto>
+      <owner>compiz-1</owner>
+      <type>int</type>
+      <default>500</default>
+      <locale name="C">
+        <short>Fade Time</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="cs">
+        <short>Doba zprůhlednění</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="de">
+        <short>Ausblendungszeit</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="el">
+        <short>Χρόνος Ξεθωριάσματος</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="es">
+        <short>Tiempo de desvanecimiento</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="eu">
+        <short>Iraungitze denbora</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="fi">
+        <short>Häivytysviive</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="fr">
+        <short>Temps de Fondu</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="gl">
+        <short>Tempo de desvanecemento</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="gu">
+        <short>આછાપણાનો સમય</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="he">
+        <short>משך עמעום</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="hu">
+        <short>Elhalványítási idő</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="it">
+        <short>Tempo dissolvenza</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="ja">
+        <short>フェード時間</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="ko">
+        <short>페이드 시간</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="nb">
+        <short>Uttoningstid</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="nl">
+        <short>Verduisteren tijdsduur</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="or">
+        <short>ଫିକାହେବା ସମଯ</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="pl">
+        <short>Czas przenikania</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="pt">
+        <short>Tempo de Esmaecimento</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="pt_BR">
+        <short>Tempo de desvanecimento</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="ru">
+        <short>Время исчезновения</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="sk">
+        <short>Doba stmavnutia</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="sv">
+        <short>Toningstid</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="tr">
+        <short>Solma Süresi</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="uk">
+        <short>Час зникнення</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="zh_CN">
+        <short>渐隐时间</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+      <locale name="zh_TW">
+        <short>淡入/淡出時間</short>
+        <long>Fade time (in ms) for popup window (10 - 5000)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/always_show</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/always_show</applyto>
+      <owner>compiz-1</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show resize info for all windows</short>
+        <long>Show resize info for all windows as opposed to just windows with a resize increment of greater than 1.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/text_color</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/text_color</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#000000ff</default>
+      <locale name="C">
+        <short>Text color</short>
+        <long>Color of text on resize popup.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_1</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_1</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#cccce6cc</default>
+      <locale name="C">
+        <short>Gradient Color 1</short>
+        <long>Color 1 of the gradient background.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_2</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_2</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#f3f3f3cc</default>
+      <locale name="C">
+        <short>Gradient Color 2</short>
+        <long>Color 2 of the gradient background.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_3</key>
+      <applyto>/apps/compiz-1/plugins/resizeinfo/screen0/options/gradient_3</applyto>
+      <owner>compiz-1</owner>
+      <type>string</type>
+      <default>#d9d9d9cc</default>
+      <locale name="C">
+        <short>Gradient Color 3</short>
+        <long>Color 3 of the gradient background.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=qdigidoc
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Type=Application
+
+Exec=qdigidocclient %F
+Icon=qdigidoc-client
+
+Name=DigiDoc3 Client
+
+Categories=Qt;Office;
+MimeType=application/x-bdoc;application/x-ddoc;application/x-p12d;
+
+X-Ubuntu-Gettext-Domain=app-install-data

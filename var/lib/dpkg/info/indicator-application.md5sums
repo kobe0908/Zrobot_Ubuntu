@@ -1,0 +1,8 @@
+6c4b2d1378a34508dec65f31252828d1  usr/lib/indicator-application/indicator-application-service
+218a719b0c7abc3105fd49a537e3232e  usr/lib/indicators3/7/libapplication.so
+a86cc936716d68a605e3d2192afe92cb  usr/share/dbus-1/services/indicator-application.service
+d1e354e5ca52782c0b1f861e9f9fb548  usr/share/doc/indicator-application/AUTHORS
+1807b73f8e1eca08bac34c0baf140505  usr/share/doc/indicator-application/README
+65d61e089dd49aa55464c725c4a154fc  usr/share/doc/indicator-application/changelog.Debian.gz
+375ee7e5c46c983fc70d84f94418ad73  usr/share/doc/indicator-application/copyright
+5dbb415b3cc7b7f15290ae2778342e74  usr/share/indicator-application/ordering-override.keyfile

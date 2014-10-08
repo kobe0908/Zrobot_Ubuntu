@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ebook-speaker
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=eBook speaker
+Comment=Speaking e-reader
+MimeType=application/epub+zip;
+Exec=eBook-speaker %f
+Terminal=true
+Type=Application
+Categories=AudioVideo;Audio;Accessibility;ConsoleOnly;
+GenericName=Speaking e-reader
+
+X-Ubuntu-Gettext-Domain=app-install-data

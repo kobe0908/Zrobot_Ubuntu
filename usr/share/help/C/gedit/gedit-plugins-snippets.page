@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="gedit-plugins-snippets">
+  <info>
+    <link type="guide" xref="gedit-plugins-snippets-guide#snippets-help"/>
+    <revision pkgversion="3.4" date="2012-01-02" status="final"/>
+  
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+     <name>Daniel Neel</name>
+      <email>dneelyep@gmail.com</email>
+    </credit>
+    <desc>Inserting snippets of text into your files</desc>
+  </info>
+
+  <title>Using snippets</title>
+
+    <p>The following points will help you get started with using snippets:</p>
+      
+      <list>
+        <item><p>Make sure the syntax is set appropriately.</p>
+        <p>The status bar at the bottom of the <app>gedit</app> window will 
+        show the current language setting. This language setting is what 
+        allows gedit to insert the proper snippets. <app>Gedit</app> will 
+        normally detect the language or syntax of the file that you're using, 
+        but sometimes you may need to set it.</p></item>
+      </list>
+        
+      <figure>
+          <desc>In this example, the language is set to HTML.</desc>
+            <media type="image" mime="image/png" 
+            src="figures/gedit-html-snippet.png" >
+            </media>
+      </figure>
+      
+      <list>
+        <item><p>Review the default snippets.</p>       
+        <p>Select <guiseq><gui>Tools</gui><gui>Manage Snippets</gui></guiseq>.
+        Review the snippets that are available for your language or syntax. 
+        Find some basic snippets that you think might be useful for you.</p>
+        </item>
+        <item><p>Try using some of the snippets.</p>
+        <p>For example, if you set the syntax to <em>HTML</em>, type <code>head
+        </code>, and press the <key>Tab</key> key, you should see something 
+        like this:</p></item>
+      </list>
+      
+        <code>
+        <![CDATA[<head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+          <title>Page Title</title>
+          
+        </head>]]>
+        </code>
+
+</page>

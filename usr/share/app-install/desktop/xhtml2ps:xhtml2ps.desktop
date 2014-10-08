@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-AppInstall-Package=xhtml2ps
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Type=Application
+Name=xhtml2ps
+Exec=xhtml2ps
+Categories=Utility;TextTools;
+
+X-Ubuntu-Gettext-Domain=app-install-data

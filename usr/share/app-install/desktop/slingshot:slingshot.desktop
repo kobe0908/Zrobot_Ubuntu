@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=slingshot
+X-AppInstall-Popcon=52
+X-AppInstall-Section=universe
+
+Name=Slingshot
+Exec=slingshot
+Icon=slingshot
+Type=Application
+GenericName=2D space shooting game with gravity
+Categories=Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

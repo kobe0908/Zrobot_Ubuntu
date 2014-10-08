@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=giggle
+X-AppInstall-Popcon=252
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Giggle
+Comment=Git repository viewer
+Exec=giggle %F
+Icon=giggle
+StartupNotify=true
+Categories=Development;RevisionControl;
+MimeType=x-scheme-handler/git;
+
+X-Ubuntu-Gettext-Domain=app-install-data

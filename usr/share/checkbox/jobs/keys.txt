@@ -1,0 +1,82 @@
+plugin: manual
+name: keys/brightness
+requires: dmi.product in ['Notebook','Laptop','Portable']
+description:
+ PURPOSE:
+     This test will test the brightness key
+ STEPS:
+     1. Press the brightness buttons on the keyboard
+ VERIFICATION:
+     Did the brightness change following to your key presses?
+
+plugin: manual
+name: keys/volume
+description:
+ PURPOSE:
+     This test will test the volume keys
+ STEPS:
+     1. Press the volume buttons on the keyboard
+ VERIFICATION:
+     Did the volume change following to your key presses?
+
+plugin: manual
+name: keys/mute
+requires: dmi.product in ['Notebook','Laptop','Portable']
+description:
+ PURPOSE:
+     This test will test the mute key
+ STEPS:
+     1. Press the mute button on the keyboard
+ VERIFICATION:
+     Did the volume mute following your key presses?
+
+plugin: manual
+name: keys/sleep
+requires: dmi.product in ['Notebook','Laptop','Portable']
+depends: suspend/suspend_advanced
+description:
+ PURPOSE:
+     This test will test the sleep key
+ STEPS:
+     1. Press the sleep key on the keyboard
+     2. Wake your system up by pressing the power button
+ VERIFICATION:
+     Did the system go to sleep after pressing the sleep key?
+
+plugin: manual
+name: keys/battery-info
+requires: dmi.product in ['Notebook','Laptop','Portable']
+description:
+ PURPOSE:
+     This test will test the battery information key
+ STEPS:
+     1. Press the battery information key on the keyboard
+ VERIFICATION:
+     Did a notification appear showing the battery status?
+
+plugin: manual
+name: keys/wireless
+requires: dmi.product in ['Notebook','Laptop','Portable']
+description:
+ PURPOSE:
+     This test will test the wireless key
+ STEPS:
+     1. Press the wireless key on the keyboard
+     2. Press the same key again
+ VERIFICATION:
+     Did the wireless go off on the first press and on again on the second?
+
+plugin: manual
+name: keys/media-control
+requires:
+ device.category == 'KEYBOARD'
+command: media_keys_test
+description:
+ PURPOSE:
+     This test will test the media keys of your keyboard
+ STEPS:
+     1. Click test to open a window on which to test the media control keys.
+     2. If all the keys work, the test will be marked as passed.
+     3. If your computer has no media control keys, Skip this test.
+ VERIFICATION:
+     Do the keys work as expected?

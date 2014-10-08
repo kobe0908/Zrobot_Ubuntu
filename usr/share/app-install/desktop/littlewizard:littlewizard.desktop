@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=littlewizard
+X-AppInstall-Popcon=75
+X-AppInstall-Section=universe
+
+Name=Little Wizard
+
+GenericName=Development environment
+
+Comment=Development environment for children
+
+Exec=/usr/games/littlewizard
+Icon=_usr_share_pixmaps_littlewizard_littlewizard-icon
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Education;
+Encoding=UTF-8
+MimeType=application/x-littlewizard;
+
+X-Ubuntu-Gettext-Domain=app-install-data

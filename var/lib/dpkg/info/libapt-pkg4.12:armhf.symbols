@@ -76,11 +76,11 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _Z19GetListOfFilesInDirRKSsRKSt6vectorISsSaISsEERKb@Base 0.8.0
  _Z19GetListOfFilesInDirRKSsS0_RKbS2_@Base 0.8.0
  _Z19GetModificationTimeRKSs@Base 0.8.15.6
- _Z22IsDuplicateDescriptionN8pkgCache12DescIteratorERK12HashSumValueILi128EERKSs@Base 0.8.16~exp12ubuntu10
+ _Z22IsDuplicateDescriptionN8pkgCache12DescIteratorERK12HashSumValueILi128EERKSs@Base 0.8.16~exp12ubuntu10.2
  _Z22pkgMakeOnlyStatusCacheR10OpProgressPP11DynamicMMap@Base 0.8.0
  _Z23FindMountPointForDevicePKc@Base 0.8.12
  _Z26CreateAPTDirectoryIfNeededRKSsS0_@Base 0.8.2
- _Z6SigINTi@Base 0.8.16~exp12ubuntu10
+ _Z6SigINTi@Base 0.8.16~exp12ubuntu10.2
  _Z6WaitFdibm@Base 0.8.0
  _Z7GetLockSsb@Base 0.8.0
  _Z7Hex2NumRKSsPhj@Base 0.8.0
@@ -826,18 +826,18 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN17pkgCacheGenerator11FinishCacheEP10OpProgress@Base 0.8.0
  _ZN17pkgCacheGenerator11NewFileDescERN8pkgCache12DescIteratorERNS_10ListParserE@Base 0.8.0
  _ZN17pkgCacheGenerator13AllocateInMapERKm@Base 0.8.0
- _ZN17pkgCacheGenerator14MergeListGroupERNS_10ListParserERKSs@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgCacheGenerator14MergeListGroupERNS_10ListParserERKSs@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgCacheGenerator14NewDescriptionERN8pkgCache12DescIteratorERKSsRK12HashSumValueILi128EEj@Base 0.8.16~exp6
  _ZN17pkgCacheGenerator15MakeStatusCacheER13pkgSourceListP10OpProgressPP4MMapb@Base 0.8.0
  _ZN17pkgCacheGenerator15WriteUniqStringEPKcj@Base 0.8.0
- _ZN17pkgCacheGenerator16MergeListPackageERNS_10ListParserERN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10
- _ZN17pkgCacheGenerator16MergeListVersionERNS_10ListParserERN8pkgCache11PkgIteratorERKSsRPNS2_11VerIteratorE@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgCacheGenerator16MergeListPackageERNS_10ListParserERN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN17pkgCacheGenerator16MergeListVersionERNS_10ListParserERN8pkgCache11PkgIteratorERKSsRPNS2_11VerIteratorE@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgCacheGenerator16WriteStringInMapEPKc@Base 0.8.0
  _ZN17pkgCacheGenerator16WriteStringInMapEPKcRKm@Base 0.8.0
  _ZN17pkgCacheGenerator17CreateDynamicMMapEP6FileFdm@Base 0.8.0
  _ZN17pkgCacheGenerator17MergeFileProvidesERNS_10ListParserE@Base 0.8.0
- _ZN17pkgCacheGenerator18AddImplicitDependsERN8pkgCache11GrpIteratorERNS0_11PkgIteratorERNS0_11VerIteratorE@Base 0.8.16~exp12ubuntu10
- _ZN17pkgCacheGenerator18AddImplicitDependsERN8pkgCache11VerIteratorERNS0_11PkgIteratorE@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgCacheGenerator18AddImplicitDependsERN8pkgCache11GrpIteratorERNS0_11PkgIteratorERNS0_11VerIteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN17pkgCacheGenerator18AddImplicitDependsERN8pkgCache11VerIteratorERNS0_11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgCacheGenerator19MakeOnlyStatusCacheEP10OpProgressPP11DynamicMMap@Base 0.8.0
  _ZN17pkgCacheGenerator5ReMapEPKvS1_@Base 0.8.0
  _ZN17pkgCacheGenerator7DynamicIN8pkgCache11DepIteratorEE7toReMapE@Base 0.8.0
@@ -854,17 +854,17 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN17pkgCacheGeneratorD1Ev@Base 0.8.0
  _ZN17pkgCacheGeneratorD2Ev@Base 0.8.0
  _ZN17pkgPackageManager10FixMissingEv@Base 0.8.0
- _ZN17pkgPackageManager10SigINTStopE@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgPackageManager10SigINTStopE@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgPackageManager11EarlyRemoveEN8pkgCache11PkgIteratorE@Base 0.8.0
  _ZN17pkgPackageManager11GetArchivesEP10pkgAcquireP13pkgSourceListP10pkgRecords@Base 0.8.0
  _ZN17pkgPackageManager11SmartRemoveEN8pkgCache11PkgIteratorE@Base 0.8.0
  _ZN17pkgPackageManager11SmartUnPackEN8pkgCache11PkgIteratorE@Base 0.8.0
- _ZN17pkgPackageManager11SmartUnPackEN8pkgCache11PkgIteratorEbi@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgPackageManager11SmartUnPackEN8pkgCache11PkgIteratorEbi@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgPackageManager12ConfigureAllEv@Base 0.8.0
  _ZN17pkgPackageManager12ImmediateAddEN8pkgCache11PkgIteratorEbRKj@Base 0.8.0
  _ZN17pkgPackageManager12OrderInstallEv@Base 0.8.0
  _ZN17pkgPackageManager13DepAlwaysTrueEN8pkgCache11DepIteratorE@Base 0.8.0
- _ZN17pkgPackageManager14SmartConfigureEN8pkgCache11PkgIteratorEi@Base 0.8.16~exp12ubuntu10
+ _ZN17pkgPackageManager14SmartConfigureEN8pkgCache11PkgIteratorEi@Base 0.8.16~exp12ubuntu10.2
  _ZN17pkgPackageManager15CheckRConflictsEN8pkgCache11PkgIteratorENS0_11DepIteratorEPKc@Base 0.8.0
  _ZN17pkgPackageManager15CreateOrderListEv@Base 0.8.0
  _ZN17pkgPackageManager17DoInstallPostForkEi@Base 0.8.0
@@ -943,7 +943,7 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN20debTranslationsIndexD0Ev@Base 0.8.0
  _ZN20debTranslationsIndexD1Ev@Base 0.8.0
  _ZN20debTranslationsIndexD2Ev@Base 0.8.0
- _ZN23SummationImplementation5AddFDER6FileFdy@Base 0.8.16~exp12ubuntu10
+ _ZN23SummationImplementation5AddFDER6FileFdy@Base 0.8.16~exp12ubuntu10.2
  _ZN23SummationImplementation5AddFDEiy@Base 0.8.16~exp6
  _ZN3APT11CacheFilter23PackageNameMatchesRegExC1ERKSs@Base 0.8.0
  _ZN3APT11CacheFilter23PackageNameMatchesRegExC2ERKSs@Base 0.8.0
@@ -962,42 +962,42 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN3APT13Configuration19getCompressionTypesERKb@Base 0.8.0
  _ZN3APT13Configuration23getCompressorExtensionsEv@Base 0.8.12
  _ZN3APT13Configuration37setDefaultConfigurationForCompressorsEv@Base 0.8.12
- _ZN3APT14CacheSetHelper14canNotFindTaskEPNS_25PackageContainerInterfaceER12pkgCacheFileSs@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper15canNotFindRegExEPNS_25PackageContainerInterfaceER12pkgCacheFileSs@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper16canNotFindAllVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper17canNotFindPackageEPNS_25PackageContainerInterfaceER12pkgCacheFileRKSs@Base 0.8.16~exp12ubuntu10
+ _ZN3APT14CacheSetHelper14canNotFindTaskEPNS_25PackageContainerInterfaceER12pkgCacheFileSs@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper15canNotFindRegExEPNS_25PackageContainerInterfaceER12pkgCacheFileSs@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper16canNotFindAllVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper17canNotFindPackageEPNS_25PackageContainerInterfaceER12pkgCacheFileRKSs@Base 0.8.16~exp12ubuntu10.2
  _ZN3APT14CacheSetHelper17canNotFindPkgNameER12pkgCacheFileRKSs@Base 0.8.0
- _ZN3APT14CacheSetHelper17showTaskSelectionERKN8pkgCache11PkgIteratorERKSs@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper18showRegExSelectionERKN8pkgCache11PkgIteratorERKSs@Base 0.8.16~exp12ubuntu10
+ _ZN3APT14CacheSetHelper17showTaskSelectionERKN8pkgCache11PkgIteratorERKSs@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper18showRegExSelectionERKN8pkgCache11PkgIteratorERKSs@Base 0.8.16~exp12ubuntu10.2
  _ZN3APT14CacheSetHelper19canNotFindNewestVerER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.0
- _ZN3APT14CacheSetHelper19showSelectedVersionERKN8pkgCache11PkgIteratorENS1_11VerIteratorERKSsb@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper21canNotFindCandInstVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10
- _ZN3APT14CacheSetHelper21canNotFindInstCandVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10
+ _ZN3APT14CacheSetHelper19showSelectedVersionERKN8pkgCache11PkgIteratorENS1_11VerIteratorERKSsb@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper21canNotFindCandInstVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT14CacheSetHelper21canNotFindInstCandVerEPNS_25VersionContainerInterfaceER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
  _ZN3APT14CacheSetHelper22canNotFindCandidateVerER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.0
  _ZN3APT14CacheSetHelper22canNotFindInstalledVerER12pkgCacheFileRKN8pkgCache11PkgIteratorE@Base 0.8.0
  _ZN3APT14CacheSetHelperD0Ev@Base 0.8.0
  _ZN3APT14CacheSetHelperD1Ev@Base 0.8.0
  _ZN3APT14CacheSetHelperD2Ev@Base 0.8.0
- _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14setConstructorERKNS_25PackageContainerInterface11ConstructorE@Base 0.8.16~exp12ubuntu10
- _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10
- _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10
- _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14setConstructorERKNS_25PackageContainerInterface11ConstructorE@Base 0.8.16~exp12ubuntu10
- _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10
- _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10
- _ZN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10
- _ZN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface10FromStringEPS0_R12pkgCacheFileRKSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface15FromCommandLineEPS0_R12pkgCacheFilePPKcRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface23FromModifierCommandLineERtPS0_R12pkgCacheFilePKcRKSt4listINS0_8ModifierESaIS8_EERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface8FromNameER12pkgCacheFileRKSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface8FromTaskEPS0_R12pkgCacheFileSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25PackageContainerInterface9FromRegExEPS0_R12pkgCacheFileSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface10FromStringEPS0_R12pkgCacheFileSsRKNS0_7VersionERNS_14CacheSetHelperEb@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface11FromPackageEPS0_R12pkgCacheFileRKN8pkgCache11PkgIteratorERKNS0_7VersionERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface15FromCommandLineEPS0_R12pkgCacheFilePPKcRKNS0_7VersionERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface15getCandidateVerER12pkgCacheFileRKN8pkgCache11PkgIteratorERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface15getInstalledVerER12pkgCacheFileRKN8pkgCache11PkgIteratorERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
- _ZN3APT25VersionContainerInterface23FromModifierCommandLineERtPS0_R12pkgCacheFilePKcRKSt4listINS0_8ModifierESaIS8_EERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10
+ _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14setConstructorERKNS_25PackageContainerInterface11ConstructorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14setConstructorERKNS_25PackageContainerInterface11ConstructorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE5clearEv@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE6insertERKS3_@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface10FromStringEPS0_R12pkgCacheFileRKSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface15FromCommandLineEPS0_R12pkgCacheFilePPKcRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface23FromModifierCommandLineERtPS0_R12pkgCacheFilePKcRKSt4listINS0_8ModifierESaIS8_EERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface8FromNameER12pkgCacheFileRKSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface8FromTaskEPS0_R12pkgCacheFileSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25PackageContainerInterface9FromRegExEPS0_R12pkgCacheFileSsRNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface10FromStringEPS0_R12pkgCacheFileSsRKNS0_7VersionERNS_14CacheSetHelperEb@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface11FromPackageEPS0_R12pkgCacheFileRKN8pkgCache11PkgIteratorERKNS0_7VersionERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface15FromCommandLineEPS0_R12pkgCacheFilePPKcRKNS0_7VersionERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface15getCandidateVerER12pkgCacheFileRKN8pkgCache11PkgIteratorERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface15getInstalledVerER12pkgCacheFileRKN8pkgCache11PkgIteratorERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
+ _ZN3APT25VersionContainerInterface23FromModifierCommandLineERtPS0_R12pkgCacheFilePKcRKSt4listINS0_8ModifierESaIS8_EERNS_14CacheSetHelperE@Base 0.8.16~exp12ubuntu10.2
  _ZN3URI14NoUserPasswordERKSs@Base 0.8.0
  _ZN3URI8CopyFromERKSs@Base 0.8.0
  _ZN3URI8SiteOnlyERKSs@Base 0.8.0
@@ -1015,10 +1015,10 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN4EDSP13WriteScenarioER11pkgDepCacheP8_IO_FILEP10OpProgress@Base 0.8.16~exp2
  _ZN4EDSP13WriteSolutionER11pkgDepCacheP8_IO_FILE@Base 0.8.16~exp2
  _ZN4EDSP15ResolveExternalEPKcR11pkgDepCachebbbP10OpProgress@Base 0.8.16~exp2
- _ZN4EDSP20WriteLimitedScenarioER11pkgDepCacheP8_IO_FILERKN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS8_ESaIS8_EEEEP10OpProgress@Base 0.8.16~exp12ubuntu10
+ _ZN4EDSP20WriteLimitedScenarioER11pkgDepCacheP8_IO_FILERKN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS8_ESaIS8_EEEEP10OpProgress@Base 0.8.16~exp12ubuntu10.2
  _ZN4EDSP20WriteScenarioVersionER11pkgDepCacheP8_IO_FILERKN8pkgCache11PkgIteratorERKNS4_11VerIteratorE@Base 0.8.16~exp2
  _ZN4EDSP23WriteScenarioDependencyER11pkgDepCacheP8_IO_FILERKN8pkgCache11PkgIteratorERKNS4_11VerIteratorE@Base 0.8.16~exp2
- _ZN4EDSP30WriteScenarioLimitedDependencyER11pkgDepCacheP8_IO_FILERKN8pkgCache11PkgIteratorERKNS4_11VerIteratorERKN3APT16PackageContainerISt3setIS5_St4lessIS5_ESaIS5_EEEE@Base 0.8.16~exp12ubuntu10
+ _ZN4EDSP30WriteScenarioLimitedDependencyER11pkgDepCacheP8_IO_FILERKN8pkgCache11PkgIteratorERKNS4_11VerIteratorERKN3APT16PackageContainerISt3setIS5_St4lessIS5_ESaIS5_EEEE@Base 0.8.16~exp12ubuntu10.2
  _ZN4EDSP6DepMapE@Base 0.8.16~exp2
  _ZN4EDSP7PrioMapE@Base 0.8.16~exp2
  _ZN4EDSP8ReadLineEiRSs@Base 0.8.16~exp2
@@ -1033,28 +1033,28 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZN4MMapD0Ev@Base 0.8.0
  _ZN4MMapD1Ev@Base 0.8.0
  _ZN4MMapD2Ev@Base 0.8.0
- _ZN6FileFd14OpenDescriptorEijNS_12CompressModeEb@Base 0.8.16~exp12ubuntu10
- _ZN6FileFd14OpenDescriptorEijRKN3APT13Configuration10CompressorEb@Base 0.8.16~exp12ubuntu10
- _ZN6FileFd16ModificationTimeEv@Base 0.8.16~exp12ubuntu10
- _ZN6FileFd20OpenInternDescriptorEjRKN3APT13Configuration10CompressorE@Base 0.8.16~exp12ubuntu10
- _ZN6FileFd4OpenESsjNS_12CompressModeEm@Base 0.8.16~exp12ubuntu10
- _ZN6FileFd4OpenESsjRKN3APT13Configuration10CompressorEm@Base 0.8.16~exp12ubuntu10
+ _ZN6FileFd14OpenDescriptorEijNS_12CompressModeEb@Base 0.8.16~exp12ubuntu10.2
+ _ZN6FileFd14OpenDescriptorEijRKN3APT13Configuration10CompressorEb@Base 0.8.16~exp12ubuntu10.2
+ _ZN6FileFd16ModificationTimeEv@Base 0.8.16~exp12ubuntu10.2
+ _ZN6FileFd20OpenInternDescriptorEjRKN3APT13Configuration10CompressorE@Base 0.8.16~exp12ubuntu10.2
+ _ZN6FileFd4OpenESsjNS_12CompressModeEm@Base 0.8.16~exp12ubuntu10.2
+ _ZN6FileFd4OpenESsjRKN3APT13Configuration10CompressorEm@Base 0.8.16~exp12ubuntu10.2
  _ZN6FileFd4ReadEPvyPy@Base 0.8.16~exp6
  _ZN6FileFd4SeekEy@Base 0.8.16~exp6
  _ZN6FileFd4SizeEv@Base 0.8.0
  _ZN6FileFd4SkipEy@Base 0.8.16~exp6
  _ZN6FileFd4SyncEv@Base 0.8.0
  _ZN6FileFd4TellEv@Base 0.8.0
- _ZN6FileFd4gzFdEv@Base 0.8.16~exp12ubuntu10
+ _ZN6FileFd4gzFdEv@Base 0.8.16~exp12ubuntu10.2
  _ZN6FileFd5CloseEv@Base 0.8.0
  _ZN6FileFd5WriteEPKvy@Base 0.8.16~exp6
  _ZN6FileFd8FileSizeEv@Base 0.8.8
- _ZN6FileFd8ReadLineEPcy@Base 0.8.16~exp12ubuntu10
+ _ZN6FileFd8ReadLineEPcy@Base 0.8.16~exp12ubuntu10.2
  _ZN6FileFd8TruncateEy@Base 0.8.16~exp6
  _ZN6FileFdD0Ev@Base 0.8.0
  _ZN6FileFdD1Ev@Base 0.8.0
  _ZN6FileFdD2Ev@Base 0.8.0
- _ZN6Hashes5AddFDER6FileFdybbbb@Base 0.8.16~exp12ubuntu10
+ _ZN6Hashes5AddFDER6FileFdybbbb@Base 0.8.16~exp12ubuntu10.2
  _ZN6Hashes5AddFDEiybbbb@Base 0.8.16~exp6
  _ZN6Vendor9CheckDistESs@Base 0.8.0
  _ZN6VendorC1ESsSsPSt6vectorIPNS_11FingerprintESaIS2_EE@Base 0.8.0
@@ -1296,22 +1296,22 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZNK20debTranslationsIndex7GetTypeEv@Base 0.8.0
  _ZNK20debTranslationsIndex8DescribeEb@Base 0.8.0
  _ZNK20debTranslationsIndex8IndexURIEPKc@Base 0.8.0
- _ZNK22OptionalSubIndexTarget10IsSubIndexEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iterator6getPkgEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14getConstructorEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iterator6getPkgEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14getConstructorEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10
- _ZNK3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iterator6getVerEv@Base 0.8.16~exp12ubuntu10
+ _ZNK22OptionalSubIndexTarget10IsSubIndexEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iterator6getPkgEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14getConstructorEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iterator6getPkgEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14getConstructorEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE5emptyEv@Base 0.8.16~exp12ubuntu10.2
+ _ZNK3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iterator6getVerEv@Base 0.8.16~exp12ubuntu10.2
  _ZNK6Vendor11GetVendorIDEv@Base 0.8.0
  _ZNK6Vendor17LookupFingerprintESs@Base 0.8.0
  _ZNK8pkgCache11DepIterator10AllTargetsEv@Base 0.8.0
  _ZNK8pkgCache11DepIterator10IsCriticalEv@Base 0.8.0
  _ZNK8pkgCache11DepIterator10IsNegativeEv@Base 0.8.15~exp1
- _ZNK8pkgCache11DepIterator11IsIgnorableERKNS_11PkgIteratorE@Base 0.8.16~exp12ubuntu10
- _ZNK8pkgCache11DepIterator11IsIgnorableERKNS_11PrvIteratorE@Base 0.8.16~exp12ubuntu10
+ _ZNK8pkgCache11DepIterator11IsIgnorableERKNS_11PkgIteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZNK8pkgCache11DepIterator11IsIgnorableERKNS_11PrvIteratorE@Base 0.8.16~exp12ubuntu10.2
  _ZNK8pkgCache11DepIterator12OwnerPointerEv@Base 0.8.0
  _ZNK8pkgCache11DepIterator14SmartTargetPkgERNS_11PkgIteratorE@Base 0.8.0
  _ZNK8pkgCache11GrpIterator12OwnerPointerEv@Base 0.8.0
@@ -1463,7 +1463,7 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi@Base 0.8.0
  _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE@Base 0.8.0
  _ZSt10__pop_heapIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEEEvT_S7_S7_@Base 0.8.0
- _ZSt11max_elementIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS4_EEE8iteratorE16CompareProvidersET_SA_SA_T0_@Base 0.8.16~exp12ubuntu10
+ _ZSt11max_elementIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS4_EEE8iteratorE16CompareProvidersET_SA_SA_T0_@Base 0.8.16~exp12ubuntu10.2
  _ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEEiSsEvT_T0_S8_T1_@Base 0.8.0
  _ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEEEvT_S7_@Base 0.8.0
  _ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEEiEvT_S7_T0_@Base 0.8.0
@@ -1539,7 +1539,7 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTI19pkgUdevCdromDevices@Base 0.8.0
  _ZTI19pkgVersioningSystem@Base 0.8.0
  _ZTI20debTranslationsIndex@Base 0.8.0
- _ZTI22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10
+ _ZTI22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10.2
  _ZTI23SummationImplementation@Base 0.8.16~exp6
  _ZTI4MMap@Base 0.8.0
  _ZTI6FileFd@Base 0.8.0
@@ -1568,16 +1568,16 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTIN13pkgSrcRecords6ParserE@Base 0.8.0
  _ZTIN17pkgCacheGenerator10ListParserE@Base 0.8.0
  _ZTIN3APT14CacheSetHelperE@Base 0.8.0
- _ZTIN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTIN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10
+ _ZTIN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTIN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
  _ZTIN8pkgCache11DepIteratorE@Base 0.8.0
  _ZTIN8pkgCache11GrpIteratorE@Base 0.8.0
  _ZTIN8pkgCache11PkgIteratorE@Base 0.8.0
@@ -1666,7 +1666,7 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTS19pkgUdevCdromDevices@Base 0.8.0
  _ZTS19pkgVersioningSystem@Base 0.8.0
  _ZTS20debTranslationsIndex@Base 0.8.0
- _ZTS22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10
+ _ZTS22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10.2
  _ZTS23SummationImplementation@Base 0.8.16~exp6
  _ZTS4MMap@Base 0.8.0
  _ZTS6FileFd@Base 0.8.0
@@ -1695,16 +1695,16 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTSN13pkgSrcRecords6ParserE@Base 0.8.0
  _ZTSN17pkgCacheGenerator10ListParserE@Base 0.8.0
  _ZTSN3APT14CacheSetHelperE@Base 0.8.0
- _ZTSN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTSN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10
+ _ZTSN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTSN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
  _ZTSN8pkgCache11DepIteratorE@Base 0.8.0
  _ZTSN8pkgCache11GrpIteratorE@Base 0.8.0
  _ZTSN8pkgCache11PkgIteratorE@Base 0.8.0
@@ -1792,7 +1792,7 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTV19pkgUdevCdromDevices@Base 0.8.0
  _ZTV19pkgVersioningSystem@Base 0.8.0
  _ZTV20debTranslationsIndex@Base 0.8.0
- _ZTV22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10
+ _ZTV22OptionalSubIndexTarget@Base 0.8.16~exp12ubuntu10.2
  _ZTV23SummationImplementation@Base 0.8.16~exp6
  _ZTV4MMap@Base 0.8.0
  _ZTV6FileFd@Base 0.8.0
@@ -1821,16 +1821,16 @@ libapt-pkg.so.4.12 libapt-pkg4.12 #MINVER#
  _ZTVN13pkgSrcRecords6ParserE@Base 0.8.0
  _ZTVN17pkgCacheGenerator10ListParserE@Base 0.8.0
  _ZTVN3APT14CacheSetHelperE@Base 0.8.0
- _ZTVN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10
- _ZTVN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10
+ _ZTVN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT16PackageContainerISt3setIN8pkgCache11PkgIteratorESt4lessIS3_ESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEE14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT16PackageContainerISt4listIN8pkgCache11PkgIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEE8iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT16VersionContainerISt4listIN8pkgCache11VerIteratorESaIS3_EEEE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT25PackageContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT25PackageContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT25VersionContainerInterface14const_iteratorE@Base 0.8.16~exp12ubuntu10.2
+ _ZTVN3APT25VersionContainerInterfaceE@Base 0.8.16~exp12ubuntu10.2
  _ZTVN8pkgCache11DepIteratorE@Base 0.8.0
  _ZTVN8pkgCache11GrpIteratorE@Base 0.8.0
  _ZTVN8pkgCache11PkgIteratorE@Base 0.8.0

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kst
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=kst2 -caption "%c" %i %m
+Icon=kst
+DocPath=kst/index.html
+MimeType=application/x-kst;
+Categories=Graphics;Qt;KDE;Science;
+Name=Kst
+GenericName=Data Viewer
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

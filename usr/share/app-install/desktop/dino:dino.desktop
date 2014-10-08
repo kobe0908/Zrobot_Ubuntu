@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dino
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Dino
+GenericName=MIDI sequencer
+Comment=Integrated MIDI piano roll editor and sequencer engine
+Exec=/usr/bin/dino
+Icon=_usr_share_dino_head
+Categories=Audio;AudioVideo;Midi;Sequencer;X-Multitrack;X-Alsa;X-Jack;
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

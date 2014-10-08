@@ -5,3 +5,4 @@
 ## Please use update-catalog(8) to modify this file.
 ## ======================================================================
 --
+CATALOG /etc/sgml/xml-core.cat

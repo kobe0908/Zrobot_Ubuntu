@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=spotlighter
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=0.2
+Type=Application
+Name=Spotlighter
+GenericName=Show and move a spotlight
+Comment=Show and move a spotlight on the desktop
+Exec=spotlighter %U
+TryExec=spotlighter
+Icon=spotlighter
+Terminal=false
+Categories=GNOME;GTK;Utility;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

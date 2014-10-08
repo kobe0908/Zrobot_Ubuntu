@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=libreoffice-filter-binfilter
+X-AppInstall-Popcon=5277
+X-AppInstall-Section=main
+
+Version=1.0
+Terminal=false
+Type=Application
+Exec=libreoffice %U
+MimeType=application/vnd.stardivision.calc;application/vnd.stardivision.chart;application/vnd.stardivision.draw;application/vnd.stardivision.impress;application/vnd.stardivision.math;application/vnd.stardivision.writer;
+Name=LibreOffice Legacy StarOffice 5 Binary Format Importer
+GenericName=Legacy StarOffice 5 Binary Format Importer
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

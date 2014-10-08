@@ -1,0 +1,14 @@
+[org.gnome.Empathy.conversation]
+theme="adium"
+theme-variant="Normal"
+adium-path="/usr/share/adium/message-styles/ubuntu.AdiumMessageStyle"
+
+[org.gnome.desktop.interface]
+gtk-theme="Ambiance"
+icon-theme="ubuntu-mono-dark"
+cursor-theme="DMZ-White"
+font-name="Ubuntu 11"
+monospace-font-name="Ubuntu Mono 13"
+
+[org.gnome.desktop.wm.preferences]
+theme="Ambiance"

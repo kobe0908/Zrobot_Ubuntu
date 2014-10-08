@@ -32,7 +32,7 @@ fi
 DEFOMA=/var/lib/defoma/fontconfig.d/
 if [ -d $DEFOMA ]; then
     rm -f $DEFOMA/fonts.conf
-    rmdir $DEFOMA
+    rmdir --ignore-fail-on-non-empty $DEFOMA
 fi
 rm -f /etc/defoma/fontconfig.subst-rule
 

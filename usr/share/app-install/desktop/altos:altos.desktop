@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=altos
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=AltOS UI
+GenericName=Altus Metrum Ground Station
+Comment=View and log downlink data from Altus Metrum products
+Icon=_usr_share_pixmaps_altusmetrum
+Exec=/usr/bin/altosui %f
+Terminal=false
+MimeType=text/plain;
+Categories=Education;Electronics;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

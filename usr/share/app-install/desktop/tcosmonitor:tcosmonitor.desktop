@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tcosmonitor
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=TcosMonitor
+Comment=Thin client network monitor
+Exec=/usr/bin/tcosmonitor $@
+Terminal=false
+Type=Application
+Icon=_usr_share_pixmaps_tcos-icon-32x32
+Categories=GNOME;Settings;System;DesktopSettings;Monitor
+
+X-Ubuntu-Gettext-Domain=app-install-data
