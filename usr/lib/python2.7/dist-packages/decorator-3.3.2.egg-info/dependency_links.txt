@@ -1,0 +1,1 @@
+../../../../share/pyshared/decorator-3.3.2.egg-info/dependency_links.txt

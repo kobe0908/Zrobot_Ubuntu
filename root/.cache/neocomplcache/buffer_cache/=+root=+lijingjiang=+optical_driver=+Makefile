@@ -1,0 +1,1 @@
+['ifneq', 'KERNELRELEASE', 'obj-m', 'optical.o', 'else', 'KERNEL_DIR', 'root', 'zybo_gpio', 'linux-digilent', 'modules', 'shell', 'uname', 'build', 'MAKE', 'SUBDIRS', 'ARCH', 'clean', '.mod.c', 'modules.', 'Module.', 'endif']

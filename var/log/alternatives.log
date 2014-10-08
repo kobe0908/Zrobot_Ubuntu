@@ -82,3 +82,17 @@ update-alternatives 1970-01-01 00:02:28: run with --quiet --install /usr/bin/rcp
 update-alternatives 1970-01-01 00:02:28: link group rcp updated to point to /usr/bin/scp
 update-alternatives 1970-01-01 00:03:36: run with --install /usr/bin/yacc yacc /usr/bin/byacc 80 --slave /usr/share/man/man1/yacc.1.gz yaccman /usr/share/man/man1/byacc.1.gz
 update-alternatives 1970-01-01 00:03:36: link group yacc updated to point to /usr/bin/byacc
+update-alternatives 1970-01-01 00:02:27: run with --quiet --install /usr/bin/locate locate /usr/bin/locate.findutils 20 --slave /usr/share/man/man1/locate.1.gz locate.1.gz /usr/share/man/man1/locate.findutils.1.gz --slave /usr/bin/updatedb updatedb /usr/bin/updatedb.findutils --slave /usr/share/man/man1/updatedb.1.gz updatedb.1.gz /usr/share/man/man1/updatedb.findutils.1.gz
+update-alternatives 1970-01-01 00:02:27: link group locate updated to point to /usr/bin/locate.findutils
+update-alternatives 1970-01-01 00:09:35: run with --install /bin/zsh zsh /bin/zsh4 50 --slave /usr/bin/zsh zsh-usrbin /bin/zsh4
+update-alternatives 1970-01-01 00:09:35: link group zsh updated to point to /bin/zsh4
+update-alternatives 1970-01-01 00:09:35: run with --install /bin/rzsh rzsh /bin/zsh4 50 --slave /usr/share/man/man1/rzsh.1.gz rzsh.1.gz /usr/share/man/man1/zsh.1.gz
+update-alternatives 1970-01-01 00:09:35: link group rzsh updated to point to /bin/zsh4
+update-alternatives 1970-01-01 00:09:35: run with --install /bin/ksh ksh /bin/zsh4 5 --slave /usr/bin/ksh usr.bin.ksh /bin/zsh4 --slave /usr/share/man/man1/ksh.1.gz ksh.1.gz /usr/share/man/man1/zsh.1.gz
+update-alternatives 1970-01-01 00:09:35: link group ksh updated to point to /bin/zsh4
+update-alternatives 1970-01-01 00:00:28: run with --remove zsh /bin/zsh4
+update-alternatives 1970-01-01 00:00:28: link group zsh fully removed
+update-alternatives 1970-01-01 00:00:28: run with --remove rzsh /bin/zsh4
+update-alternatives 1970-01-01 00:00:28: link group rzsh fully removed
+update-alternatives 1970-01-01 00:00:28: run with --remove ksh /bin/zsh4
+update-alternatives 1970-01-01 00:00:28: link group ksh fully removed

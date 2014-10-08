@@ -1,0 +1,12 @@
+Document: configobj-api
+Title: ConfigObj API Reference
+Author: Ken Pizzini
+Abstract: ConfigObj is a simple but powerful config file reader and
+ writer: an ini file round tripper. Its main feature is that it is
+ very easy to use, with a straightforward programmer's interface and a
+ simple syntax for config files.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/python-configobj/api/index.html
+Files: /usr/share/doc/python-configobj/api/*.html

@@ -45,3 +45,4 @@ else
 fi
 
 echo insmod finished!
+./root/wlan_ap.sh

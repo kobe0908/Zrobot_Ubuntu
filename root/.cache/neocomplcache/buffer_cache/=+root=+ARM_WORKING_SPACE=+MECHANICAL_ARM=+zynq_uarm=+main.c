@@ -1,0 +1,1 @@
+['#include', 'stdio', 'uarmctrl', 'time', 'unistd', 'signal', 'stdlib', '#define', 'DEFAULT_BASEADDR', 'x43C00000U', 'void', 'lijingjiang', 'struct', 'timespec', 'tv_sec', 'tv_nsec', 'UArmCtrl', 'ctrl', 'getUArmCtrl', 'move', 'NULL', 'printf', 'sleep', 'nanosleep', 'setSpeed']

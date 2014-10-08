@@ -1,0 +1,6 @@
+set(cur .)
+aux_source_directory(. src)
+include_directories(${cur})
+find_package(OpenCV REQUIRED)
+add_library (cam_car SHARED ${src})
+target_link_libraries (cam_car ${OpenCV_LIBS})

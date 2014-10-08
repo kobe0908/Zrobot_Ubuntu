@@ -1,3 +1,24 @@
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Linux version 3.6.0-digilent-13.01-00004-gfd0ba1e (root@seg-VirtualBox) (gcc version 4.7.2 (Sourcery CodeBench Lite 2012.09-104) ) #1 SMP PREEMPT Wed Aug 27 13:57:00 CST 2014
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine: Xilinx Zynq Platform, model: Xilinx Zynq Platform
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] On node 0 totalpages: 131072
+[    0.000000] free_area_init_node: node 0, pgdat c055fc40, node_mem_map c057a000
+[    0.000000]   Normal zone: 1024 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 130048 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 7 pages/cpu @c0981000 s6976 r8192 d13504 u32768
+[    0.000000] pcpu-alloc: s6976 r8192 d13504 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1 coherent_pool=1M
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 512MB = 512MB total
+[    0.000000] Memory: 514060k/514060k available, 10228k reserved, 0K highmem
 [    0.000000] Virtual kernel memory layout:
 [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
 [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
@@ -64,13 +85,13 @@
 [    0.220000] Modules linked in:
 [    0.220000] [<c001343c>] (unwind_backtrace+0x0/0xe0) from [<c001f69c>] (warn_slowpath_common+0x4c/0x64)
 [    0.220000] [<c001f69c>] (warn_slowpath_common+0x4c/0x64) from [<c001f734>] (warn_slowpath_fmt+0x2c/0x3c)
-[    0.220000] [<c001f734>] (warn_slowpath_fmt+0x2c/0x3c) from [<c0513c48>] (regulatory_init+0x8c/0x130)
-[    0.220000] [<c0513c48>] (regulatory_init+0x8c/0x130) from [<c0513b50>] (cfg80211_init+0x54/0xc0)
-[    0.220000] [<c0513b50>] (cfg80211_init+0x54/0xc0) from [<c0008524>] (do_one_initcall+0x90/0x160)
-[    0.220000] [<c0008524>] (do_one_initcall+0x90/0x160) from [<c04f98f4>] (kernel_init+0xf8/0x1b8)
-[    0.220000] [<c04f98f4>] (kernel_init+0xf8/0x1b8) from [<c000e604>] (kernel_thread_exit+0x0/0x8)
-[    0.220000] ---[ end trace d1209544ae3f8d4d ]---
-[    0.220000] cfg80211: Calling CRDA to update world regulatory domain
+[    0.230000] [<c001f734>] (warn_slowpath_fmt+0x2c/0x3c) from [<c0513c48>] (regulatory_init+0x8c/0x130)
+[    0.230000] [<c0513c48>] (regulatory_init+0x8c/0x130) from [<c0513b50>] (cfg80211_init+0x54/0xc0)
+[    0.230000] [<c0513b50>] (cfg80211_init+0x54/0xc0) from [<c0008524>] (do_one_initcall+0x90/0x160)
+[    0.230000] [<c0008524>] (do_one_initcall+0x90/0x160) from [<c04f98f4>] (kernel_init+0xf8/0x1b8)
+[    0.230000] [<c04f98f4>] (kernel_init+0xf8/0x1b8) from [<c000e604>] (kernel_thread_exit+0x0/0x8)
+[    0.230000] ---[ end trace d1209544ae3f8d4d ]---
+[    0.230000] cfg80211: Calling CRDA to update world regulatory domain
 [    0.230000] Switching to clocksource xttcpss_timer1
 [    0.240000] NET: Registered protocol family 2
 [    0.240000] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
@@ -95,7 +116,7 @@
 [    0.890000] loop: module loaded
 [    0.900000] libphy: XEMACPS mii bus: probed
 [    0.910000] xemacps e000b000.ps7-ethernet: invalid address, use assigned
-[    0.910000] xemacps e000b000.ps7-ethernet: MAC updated 16:66:0e:0e:ff:1b
+[    0.910000] xemacps e000b000.ps7-ethernet: MAC updated 62:24:22:45:8c:6c
 [    0.920000] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
 [    0.930000] usbcore: registered new interface driver rtl8192cu
 [    0.940000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
@@ -143,73 +164,28 @@
 [    1.250000] mmc0: new high speed SDHC card at address aaaa
 [    1.260000] mmcblk0: mmc0:aaaa SL08G 7.40 GiB 
 [    1.260000]  mmcblk0: p1 p2
-[    1.360000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
-[    1.370000] VFS: Mounted root (ext4 filesystem) on device 179:2.
-[    1.370000] devtmpfs: mounted
-[    1.380000] usb 1-1: new high-speed USB device number 2 using xusbps-ehci
-[    1.380000] Freeing init memory: 152K
-[    1.530000] usb 1-1: New USB device found, idVendor=05e3, idProduct=0608
-[    1.530000] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
-[    1.540000] usb 1-1: Product: USB2.0 Hub
-[    1.550000] hub 1-1:1.0: USB hub found
-[    1.550000] hub 1-1:1.0: 4 ports detected
-[    1.590000] init: Failed to create pty - disabling logging for job
-[    1.600000] init: Temporary process spawn error: No space left on device
-[    1.630000] init: Failed to create pty - disabling logging for job
-[    1.630000] init: Temporary process spawn error: No space left on device
-[    1.650000] init: Failed to create pty - disabling logging for job
-[    1.650000] init: Temporary process spawn error: No space left on device
-[    1.660000] init: Failed to create pty - disabling logging for job
-[    1.670000] init: Temporary process spawn error: No space left on device
-[    1.750000] init: ureadahead main process (629) terminated with status 5
-[    1.840000] usb 1-1.2: new high-speed USB device number 3 using xusbps-ehci
-[    1.860000] init: Failed to create pty - disabling logging for job
-[    1.870000] init: Temporary process spawn error: No space left on device
-[    1.890000] init: Failed to create pty - disabling logging for job
-[    1.900000] init: Temporary process spawn error: No space left on device
-[    1.930000] init: Failed to create pty - disabling logging for job
-[    1.930000] init: Temporary process spawn error: No space left on device
-[    1.950000] usb 1-1.2: New USB device found, idVendor=0bda, idProduct=8178
-[    1.960000] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[    1.960000] usb 1-1.2: Product: USB WLAN
-[    1.970000] usb 1-1.2: Manufacturer: 802.11n
-[    1.970000] usb 1-1.2: SerialNumber: 00e04c000001
-[    1.980000] rtl8192cu: Chip version 0x11
-[    2.080000] rtl8192cu: MAC address: 08:57:00:b5:3c:0d
-[    2.080000] rtl8192cu: Board Type 0
-[    2.090000] rtlwifi: rx_max_size 15360, rx_urb_num 8, in_ep 1
-[    2.100000] cfg80211: Updating information on frequency 2412 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2417 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2422 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2427 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2432 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2437 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2442 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2447 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2452 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2457 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Updating information on frequency 2462 MHz for a 20 MHz width channel with regulatory rule:
-[    2.100000] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A mBi, 2000 mBm)
-[    2.100000] cfg80211: Disabling freq 2467 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Disabling freq 2472 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Disabling freq 2484 MHz as custom regd has no rule that fits a 20 MHz wide channel
-[    2.100000] cfg80211: Pending regulatory request, waiting for it to be processed...
-[    2.100000] rtl8192cu: Loading firmware rtlwifi/rtl8192cufw.bin
-[    2.640000] udevd[722]: starting version 175
-[    2.790000] cfg80211: Ignoring regulatory request Set by core since the driver uses its own custom regulatory domain
-[    2.790000] ieee80211 phy0: Selected rate control algorithm 'rtl_rc'
-[    2.810000] rtlwifi: wireless switch is on
-[    3.700000] init: udev-fallback-graphics main process (1220) terminated with status 1
-[    3.790000] init: plymouth main process (630) killed by SEGV signal
-[    3.800000] init: failsafe main process (1206) killed by TERM signal
-[    3.800000] init: plymouth-splash main process (1235) terminated with status 2
+[    1.570000] EXT4-fs (mmcblk0p2): recovery complete
+[    1.570000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    1.580000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[    1.590000] devtmpfs: mounted
+[    1.590000] Freeing init memory: 152K
+[    1.760000] init: Failed to create pty - disabling logging for job
+[    1.770000] init: Temporary process spawn error: No space left on device
+[    1.800000] init: Failed to create pty - disabling logging for job
+[    1.810000] init: Temporary process spawn error: No space left on device
+[    1.820000] init: Failed to create pty - disabling logging for job
+[    1.830000] init: Temporary process spawn error: No space left on device
+[    1.840000] init: Failed to create pty - disabling logging for job
+[    1.840000] init: Temporary process spawn error: No space left on device
+[    1.900000] init: ureadahead main process (628) terminated with status 5
+[    2.020000] init: Failed to create pty - disabling logging for job
+[    2.020000] init: Temporary process spawn error: No space left on device
+[    2.040000] init: Failed to create pty - disabling logging for job
+[    2.050000] init: Temporary process spawn error: No space left on device
+[    2.080000] init: Failed to create pty - disabling logging for job
+[    2.090000] init: Temporary process spawn error: No space left on device
+[    2.510000] udevd[717]: starting version 175
+[    3.520000] init: udev-fallback-graphics main process (1194) terminated with status 1
+[    3.610000] init: plymouth main process (629) killed by SEGV signal
+[    3.610000] init: plymouth-splash main process (1205) terminated with status 2
+[    3.630000] init: failsafe main process (1184) killed by TERM signal

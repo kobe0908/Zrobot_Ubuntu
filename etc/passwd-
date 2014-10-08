@@ -18,4 +18,4 @@ gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
 nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
 libuuid:x:100:101::/var/lib/libuuid:/bin/sh
 syslog:x:101:103::/home/syslog:/bin/false
-xup:x:1000:1000::/home/xup:/bin/bash
+xup:x:1000:1000:,,,:/home/xup:/bin/bash

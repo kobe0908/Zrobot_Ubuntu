@@ -1,0 +1,1 @@
+['project', 'cmake_minimum_required', 'VERSION', 'add_subdirectory', 'aux_source_directory', 'DIR_SRCS', 'include_directories', 'add_executable', 'target_link_libraries', 'mecharm']

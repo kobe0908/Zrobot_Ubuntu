@@ -1,0 +1,8 @@
+project(PY_CAR)
+cmake_minimum_required(VERSION 2.8)
+add_subdirectory(src)
+set(INC /usr/local/include/opencv)
+include_directories(${INC})
+aux_source_directory(. SRC)
+add_library(PY_CAR SHARED ${SRC})
+target_link_libraries(PY_CAR car_camera_part)

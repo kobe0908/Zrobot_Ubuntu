@@ -1,0 +1,2 @@
+/root/HWCAR_demo/build/src/CMakeFiles/cam_car.dir
+/root/HWCAR_demo/build/CMakeFiles/camcar.dir

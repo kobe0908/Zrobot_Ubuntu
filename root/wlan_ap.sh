@@ -1,4 +1,5 @@
 #! /bin/bash - 
+echo debug
 boa
 
 #close eth port first

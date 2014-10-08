@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/IPython/config/profile/__init__.py

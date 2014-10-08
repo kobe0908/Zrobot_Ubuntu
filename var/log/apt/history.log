@@ -73,3 +73,23 @@ Start-Date: 2014-08-23  10:25:06
 Commandline: /usr/bin/apt-get install libv4l-dev
 Install: libv4l-0:armhf (0.8.6-1ubuntu1, automatic), libv4lconvert0:armhf (0.8.6-1ubuntu1, automatic), libv4l-dev:armhf (0.8.6-1ubuntu1)
 End-Date: 2014-08-23  10:25:20
+
+Start-Date: 1970-01-01  00:02:22
+Commandline: apt-get install locate
+Install: locate:armhf (4.4.2-4ubuntu1)
+End-Date: 1970-01-01  00:02:27
+
+Start-Date: 1970-01-01  00:09:22
+Commandline: apt-get install zsh
+Install: libcap2:armhf (2.22-1ubuntu3, automatic), zsh:armhf (4.3.17-1ubuntu1)
+End-Date: 1970-01-01  00:09:37
+
+Start-Date: 1970-01-01  11:12:34
+Commandline: apt-get install ipython
+Install: python-support:armhf (1.0.14ubuntu2, automatic), python-pexpect:armhf (2.3-1ubuntu2, automatic), ipython:armhf (0.12.1+dfsg-0ubuntu1), python-configobj:armhf (4.7.2+ds-3build1, automatic), python-simplegeneric:armhf (0.7-1build1, automatic), python-decorator:armhf (3.3.2-1, automatic)
+End-Date: 1970-01-01  11:12:51
+
+Start-Date: 1970-01-01  00:00:28
+Commandline: apt-get remove zsh
+Remove: zsh:armhf (4.3.17-1ubuntu1)
+End-Date: 1970-01-01  00:00:31

@@ -1,135 +1,3 @@
-./config_company.sh 
-ls
-vi config_company.sh 
-ls
-vi wlan_normal.sh 
-ls
-vi config_company.sh 
-ls
-reboot
-ls
-./config_company.sh 
-vi config_company.sh 
-ls
-./config_company.sh 
-ifconfig
-vi config_company.sh 
-ls
-./config_company.sh 
-ifconfig
-./config_company.sh 
-ifconfig
-./config_company.sh 
-ls
-ifconfig
-ls
-vi config_company.sh 
-ls
-./config_company.sh 
-ls
-boa
-./mjpg_start.sh 
-cat /var/www/home.html | grep 8080
-cat /var/www/index.html | grep 8080
-apt-get install openssh-server
-ls
-echo $http_proxy
-source config_company.sh 
-echo $http_proxy
-apt-get install openssh-server
-chmod 644 config_company.sh 
-ls
-vi mjpg_start.sh 
-ls
-reboot
-ls
-source config_company.sh 
-./mjpg_start.sh 
-ls
-vi mjpg_start.sh 
-ls
-./mjpg_start.sh 
-ls
-halt
-ls
-source config_company.sh 
-phddns
-ls
-reboot
-ls
-source config_company.sh 
-ls
-./mjpg_start.sh 
-ls
-cd package_c/
-ls
-./ins_mod.sh 
-dmesg
-ls
-cd ..
-ls
-vi wlan_normal.sh 
-ls
-vi wlan_ap.sh 
-ls
-vi wlan_normal.sh 
-ls
-vi mjpg_start.sh 
-ls
-vi wlan_normal.sh
-ls
-./wlan_normal.sh 
-vi wlan_normal.sh 
-ls
-phddns
-halt
-ls
-cd package_c/
-ls
-vi ins_mod.sh 
-ls
-vi package_c.h
-ls
-cd ..
-ls
-cd optical_app/
-ls
-./test_opt 
-./ins_opt.sh 
-./test_
-./test_opt 
-cd ..
-ls
-cd package_c/
-ls
-vi package_c.h 
-ls
-cd ..
-ls
-cd optical_app/
-ls
-vi optical_app.c 
-ls
-./test_opt 
-ls
-cd ..
-ls
-cd package_c/
-s
-ls
-vi package_c.h
-ls
-cd ..
-ls
-vi mjpg_start.sh 
-ls
-cd /usr/bin/
-ln /root/boa-master/src/boa boa
-cd /root/
-ls
-cd boa-master/
-ls
-vi boa.conf 
 ls
 vi README
 ls
@@ -1996,5 +1864,137 @@ l
 cd ..
 s
 cd /root/
+ls
+halt
+ls
+reboot
+ls
+./wlan_ap.sh 
+ifconfig -a
+ls
+./wlan_ap.sh 
+vi /etc/rc.local 
+ls
+vi /etc/rc.local 
+reboot
+vi /etc/rc.local 
+ls
+vi ins_mod.sh 
+vi /etc/rc.local 
+reboot
+locate
+ls
+./wlan_normal.sh 
+ls
+apt-cache search locate
+apt-get install slocate
+apt-get install locate
+locate
+halt
+cd .ssh/
+ls
+clear
+ls
+cd ..
+ls
+cd .ssh/
+ls
+touch authorized_keys
+ls
+cat id_rsa.pub >> authorized_keys 
+exit
+clear
+ls
+ifconfig 
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+exit
+sudo git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+ifconfig 
+ifconifi
+ifconfig 
+sudo git clone https://github.com/gmarik/vundle.git  ~/.vim/bundle/vundle
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh --no-check-certificate
+clear
+apt-get install locate
+apt-get install zsh
+zsh
+ls
+clear
+ls
+zhs
+ls
+s
+zsh
+ls
+clear
+ls
+zsh
+ls
+clear
+ls
+rm -rf ~/.zshrc 
+ls
+clear
+ls
+zsh
+exit
+ls
+cd optical
+clear
+ls
+cd optical.ko 
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+cd config_company.sh 
+ls
+cd ..
+ls
+cd 
+ls
+clear
+rm -rf ~/.zsh*
+ls
+rm -rf ~/.oh-my-zsh/
+ls
+clear
+ls
+ls -al
+rm -rf ~/.vim ~/.spf13-vim-3/
+vim 
+ls
+clear
+ls
+clear
+ls
+cd openhwcar/
+ls
+cd bin/
+ls
+./openhwcar 
+ls
+./openhwcar 
+ls
+clear
+ls
+cd 
+ls
+clear
+ls
+rm optical_driver.tar.gz 
+ls
+clear
 ls
 halt

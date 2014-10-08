@@ -2754,3 +2754,257 @@
 [01/Jan/1970:00:05:49 +0000] reaping child 1616: status 256
 [01/Jan/1970:00:06:05 +0000] caught SIGTERM, starting shutdown
 [01/Jan/1970:00:06:05 +0000] exiting Boa normally (uptime 342 seconds)
+[01/Jan/1970:00:00:19 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:19 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:19 +0000] boa: starting server pid=1367, port 80
+[01/Jan/1970:00:00:54 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:17 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:02:17 +0000] exiting Boa normally (uptime 118 seconds)
+[01/Jan/1970:00:00:25 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:25 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:25 +0000] boa: starting server pid=1405, port 80
+[01/Jan/1970:00:00:37 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:00:37 +0000] exiting Boa normally (uptime 12 seconds)
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1372, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1321, port 80
+[01/Jan/1970:00:00:03 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:03 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:03 +0000] boa: starting server pid=1343, port 80
+[01/Jan/1970:00:00:14 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:35 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:42 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:58 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:02:58 +0000] exiting Boa normally (uptime 175 seconds)
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1336, port 80
+[02/Sep/2014:00:11:50 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1364, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1362, port 80
+[01/Jan/1970:00:03:00 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:03:53 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:49 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:04:49 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:04:49 +0000] boa: starting server pid=1555, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1345, port 80
+[01/Jan/1970:00:01:34 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:57 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:03:17 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:36 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1366, port 80
+[01/Jan/1970:00:58:56 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:00:45 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:01:02 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:02:08 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1348, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1344, port 80
+[01/Jan/1970:00:01:10 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1341, port 80
+[01/Jan/1970:00:00:45 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:29 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:43 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:07 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:07 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:07 +0000] boa: starting server pid=1386, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1362, port 80
+[01/Jan/1970:00:00:58 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:03 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:08 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:08 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:08 +0000] boa: starting server pid=1321, port 80
+[01/Jan/1970:00:00:39 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:18 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:25 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:59 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:20 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:06:44 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:06:44 +0000] exiting Boa normally (uptime 396 seconds)
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1350, port 80
+[01/Jan/1970:00:00:17 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:24 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:14:55 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:16:13 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:16:56 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:17:12 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:21:09 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:06 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:06 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:06 +0000] boa: starting server pid=1350, port 80
+[01/Jan/1970:00:00:13 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:18 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:05 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:05 +0000] boa: starting server pid=1369, port 80
+[01/Jan/1970:00:00:20 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:08 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:35 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:58 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:32 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:43 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:44 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:45 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:45 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:46 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:46 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:47 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:47 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1354, port 80
+[01/Jan/1970:00:00:33 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:39 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:06 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:06 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:06 +0000] boa: starting server pid=1389, port 80
+[01/Jan/1970:00:02:06 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:17 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:34 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:00 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:04:00 +0000] exiting Boa normally (uptime 234 seconds)
+[01/Jan/1970:00:00:26 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:26 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:26 +0000] boa: starting server pid=1838, port 80
+[01/Jan/1970:00:01:03 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:30 +0000] request from 173.17.1.4 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:01:30 +0000] request from 173.17.1.4 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:01:42 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:22 +0000] request from 173.17.1.4 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[01/Jan/1970:00:02:59 +0000] request from 173.17.1.4 "GET /favicon.ico HTTP/1.1" ("/var/www/favicon.ico"): document open: No such file or directory
+[01/Jan/1970:00:03:31 +0000] request from 173.17.1.4 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[01/Jan/1970:00:04:06 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:04:06 +0000] exiting Boa normally (uptime 220 seconds)
+[01/Jan/1970:00:00:20 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:20 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:20 +0000] boa: starting server pid=1487, port 80
+[01/Jan/1970:00:00:59 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:04 +0000] request from 192.168.0.20 "GET /favicon.png HTTP/1.1" ("/var/www/favicon.png"): document open: No such file or directory
+[01/Jan/1970:00:09:51 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:09:51 +0000] exiting Boa normally (uptime 571 seconds)
+[01/Jan/1970:00:00:05 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:05 +0000] boa: starting server pid=1415, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1354, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1349, port 80
+[01/Jan/1970:00:00:49 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:00 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:03 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:27 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:31 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:33 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1342, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1379, port 80
+[01/Jan/1970:00:00:18 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:30 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1346, port 80
+[01/Jan/1970:00:00:48 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:52 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:05 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:05 +0000] boa: starting server pid=1340, port 80
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1360, port 80
+[01/Jan/1970:00:00:15 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:29 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:33 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:05 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:05 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:05 +0000] boa: starting server pid=1343, port 80
+[01/Jan/1970:00:00:21 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:28 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1340, port 80
+[01/Jan/1970:00:00:51 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:55 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:32:35 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:32:47 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:32:53 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:34:01 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:34:09 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:01:42 +0000] boa.c:194 - unable to bind: Address already in use
+[02/Sep/2014:00:02:06 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:14:35 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:14:35 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:15:40 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:16:09 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:17:05 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:17:06 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:17:33 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:17:42 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:18:17 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:18:17 +0000] request from 192.168.0.20 "(null)" ("(null)"): header read: Connection reset by peer
+[02/Sep/2014:00:19:53 +0000] caught SIGTERM, starting shutdown
+[02/Sep/2014:00:19:53 +0000] exiting Boa normally (uptime 1409617189 seconds)
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1354, port 80
+[01/Jan/1970:00:01:00 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:58 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:04:56 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:24 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:05:59 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:06:26 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:14:01 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:13:55 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:14:49 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:15:39 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:01:15:42 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:07 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:07 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:07 +0000] boa: starting server pid=1352, port 80
+[01/Jan/1970:00:01:05 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:08 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1363, port 80
+[01/Jan/1970:00:02:49 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:02:52 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1337, port 80
+[01/Jan/1970:00:00:17 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:20 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1342, port 80
+[01/Jan/1970:00:01:13 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:16 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:01:39 +0000] boa.c:194 - unable to bind: Address already in use
+[01/Jan/1970:00:00:04 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:04 +0000] boa: server built Jan  1 1970 at 00:06:10.
+[01/Jan/1970:00:00:04 +0000] boa: starting server pid=1364, port 80
+[01/Jan/1970:00:04:27 +0000] caught SIGTERM, starting shutdown
+[01/Jan/1970:00:04:27 +0000] exiting Boa normally (uptime 263 seconds)

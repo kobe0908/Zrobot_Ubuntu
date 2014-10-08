@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>configobj.Section</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="configobj-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.voidspace.org.uk/python/configobj.html">ConfigObj</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="configobj-module.html">Module&nbsp;configobj</a> ::
+        Class&nbsp;Section
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="configobj.Section-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Section</h1><p class="nomargin-top"><span class="codelink"><a href="configobj-pysrc.html#Section">source&nbsp;code</a></span></p>
+<pre class="base-tree">
+object --+    
+         |    
+      dict --+
+             |
+            <strong class="uidshort">Section</strong>
+</pre>
+
+<dl><dt>Known Subclasses:</dt>
+<dd>
+      <ul class="subclass-list">
+<li><a href="configobj.ConfigObj-class.html">ConfigObj</a></li>  </ul>
+</dd></dl>
+
+<hr />
+<p>A dictionary-like object that represents a section in a config 
+  file.</p>
+  <p>It does string interpolation if the 'interpolation' attribute of the 
+  'main' object is set to True.</p>
+  <p>Interpolation is tried first from this object, then from the 'DEFAULT'
+  section of this object, next from the parent and its 'DEFAULT' section, 
+  and so on until the main object is reached.</p>
+  <p>A Section will behave like an ordered dictionary - following the order
+  of the ``scalars`` and ``sections`` attributes. You can use this to 
+  change the order of members.</p>
+  <p>Iteration follows the order: scalars, then sections.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__setstate__"></a><span class="summary-sig-name">__setstate__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">state</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__setstate__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__reduce__" class="summary-sig-name">__reduce__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      helper for pickle</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__reduce__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type"><pre class="literalblock">
+new empty dictionary
+
+</pre></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">parent</span>,
+        <span class="summary-sig-arg">depth</span>,
+        <span class="summary-sig-arg">main</span>,
+        <span class="summary-sig-arg">indict</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">name</span>=<span class="summary-sig-default">None</span>)</span><br />
+      * parent is the section above * depth is the depth level of this 
+      section * main is the main ConfigObj * indict is a dictionary to 
+      initialise the section with</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_initialise"></a><span class="summary-sig-name">_initialise</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section._initialise">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_interpolate"></a><span class="summary-sig-name">_interpolate</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">value</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section._interpolate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__getitem__" class="summary-sig-name">__getitem__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      Fetch the item and do string interpolation.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__getitem__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__setitem__" class="summary-sig-name">__setitem__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">value</span>,
+        <span class="summary-sig-arg">unrepr</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Correctly set a value.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__setitem__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__delitem__" class="summary-sig-name">__delitem__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      Remove items from the sequence when deleting.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__delitem__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">D[k] if k in D, else d</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#get" class="summary-sig-name">get</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">default</span>=<span class="summary-sig-default">None</span>)</span><br />
+      A version of ``get`` that doesn't bypass string interpolation.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.get">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#update" class="summary-sig-name">update</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">indict</span>)</span><br />
+      A version of update that uses our ``__setitem__``.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.update">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">v, remove specified key and return the corresponding value</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#pop" class="summary-sig-name">pop</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">default</span>=<span class="summary-sig-default">object()</span>)</span><br />
+      'D.pop(k[,d]) -&gt; v, remove specified key and return the 
+      corresponding value.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.pop">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(k, v), remove and return some (key, value) pair as a</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#popitem" class="summary-sig-name">popitem</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Pops the first (key,val)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.popitem">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#clear" class="summary-sig-name">clear</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      A version of clear that also affects scalars/sections
+Also clears comments and configspec.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.clear">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">D.get(k,d), also set D[k]=d if k not in D</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#setdefault" class="summary-sig-name">setdefault</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">default</span>=<span class="summary-sig-default">None</span>)</span><br />
+      A version of setdefault that sets sequence if appropriate.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.setdefault">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of D's (key, value) pairs, as 2-tuples</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#items" class="summary-sig-name">items</a>(<span class="summary-sig-arg">D</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.items">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of D's keys</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#keys" class="summary-sig-name">keys</a>(<span class="summary-sig-arg">D</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.keys">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of D's values</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#values" class="summary-sig-name">values</a>(<span class="summary-sig-arg">D</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.values">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">an iterator over the (key, value) items of D</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#iteritems" class="summary-sig-name">iteritems</a>(<span class="summary-sig-arg">D</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.iteritems">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">an iterator over the keys of D</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#iterkeys" class="summary-sig-name">iterkeys</a>(<span class="summary-sig-arg">D</span>)</span><br />
+      iter(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.iterkeys">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">an iterator over the keys of D</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__iter__" class="summary-sig-name">__iter__</a>(<span class="summary-sig-arg">D</span>)</span><br />
+      iter(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.iterkeys">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">an iterator over the values of D</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#itervalues" class="summary-sig-name">itervalues</a>(<span class="summary-sig-arg">D</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.itervalues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__repr__" class="summary-sig-name">__repr__</a>(<span class="summary-sig-arg">x</span>)</span><br />
+      str(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__repr__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#__str__" class="summary-sig-name">__str__</a>(<span class="summary-sig-arg">x</span>)</span><br />
+      str(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.__repr__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#dict" class="summary-sig-name">dict</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return a deepcopy of self as a dictionary.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.dict">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#merge" class="summary-sig-name">merge</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">indict</span>)</span><br />
+      A recursive update - useful for merging config files.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.merge">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#rename" class="summary-sig-name">rename</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">oldkey</span>,
+        <span class="summary-sig-arg">newkey</span>)</span><br />
+      Change a keyname to another, without changing position in sequence.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.rename">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#walk" class="summary-sig-name">walk</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">function</span>,
+        <span class="summary-sig-arg">raise_errors</span>=<span class="summary-sig-default">True</span>,
+        <span class="summary-sig-arg">call_on_sections</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">**keywargs</span>)</span><br />
+      Walk every member and call a function on the keyword and value.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.walk">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#as_bool" class="summary-sig-name">as_bool</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      Accepts a key as input.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.as_bool">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#as_int" class="summary-sig-name">as_int</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      A convenience method which coerces the specified value to an integer.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.as_int">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#as_float" class="summary-sig-name">as_float</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      A convenience method which coerces the specified value to a float.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.as_float">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#as_list" class="summary-sig-name">as_list</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      A convenience method which fetches the specified value, guaranteeing 
+      that it is a list.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.as_list">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#restore_default" class="summary-sig-name">restore_default</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">key</span>)</span><br />
+      Restore (and return) default value for the specified key.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.restore_default">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="configobj.Section-class.html#restore_defaults" class="summary-sig-name">restore_defaults</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Recursively restore default values to all members that have them.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="configobj-pysrc.html#Section.restore_defaults">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>dict</code></b>:
+      <code>__cmp__</code>,
+      <code>__contains__</code>,
+      <code>__eq__</code>,
+      <code>__ge__</code>,
+      <code>__getattribute__</code>,
+      <code>__gt__</code>,
+      <code>__le__</code>,
+      <code>__len__</code>,
+      <code>__lt__</code>,
+      <code>__ne__</code>,
+      <code>__new__</code>,
+      <code>__sizeof__</code>,
+      <code>copy</code>,
+      <code>fromkeys</code>,
+      <code>has_key</code>,
+      <code>viewitems</code>,
+      <code>viewkeys</code>,
+      <code>viewvalues</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__setattr__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>dict</code></b>:
+      <code>__hash__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__reduce__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__reduce__</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__reduce__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>helper for pickle</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__reduce__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">parent</span>,
+        <span class="sig-arg">depth</span>,
+        <span class="sig-arg">main</span>,
+        <span class="sig-arg">indict</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">name</span>=<span class="sig-default">None</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>* parent is the section above * depth is the depth level of this 
+  section * main is the main ConfigObj * indict is a dictionary to 
+  initialise the section with</p>
+  <dl class="fields">
+    <dt>Returns: <pre class="literalblock">
+new empty dictionary
+
+</pre></dt>
+    <dt>Overrides:
+        object.__init__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__getitem__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__getitem__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+    <br /><em class="fname">(Indexing operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__getitem__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Fetch the item and do string interpolation.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        dict.__getitem__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__setitem__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__setitem__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>,
+        <span class="sig-arg">value</span>,
+        <span class="sig-arg">unrepr</span>=<span class="sig-default">False</span>)</span>
+    <br /><em class="fname">(Index assignment operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__setitem__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Correctly set a value.</p>
+  <p>Making dictionary values Section instances. (We have to special case 
+  'Section' instances - which are also dicts)</p>
+  <p>Keys must be strings. Values need only be strings (or lists of 
+  strings) if ``main.stringify`` is set.</p>
+  <p>``unrepr`` must be set when setting a value to a dictionary, without 
+  creating a new sub-section.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        dict.__setitem__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__delitem__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__delitem__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+    <br /><em class="fname">(Index deletion operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__delitem__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Remove items from the sequence when deleting.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        dict.__delitem__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>,
+        <span class="sig-arg">default</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.get">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A version of ``get`` that doesn't bypass string interpolation.</p>
+  <dl class="fields">
+    <dt>Returns: D[k] if k in D, else d</dt>
+    <dt>Overrides:
+        dict.get
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="update"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">update</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">indict</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.update">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A version of update that uses our ``__setitem__``.</p>
+  <dl class="fields">
+    <dt>Returns: None</dt>
+    <dt>Overrides:
+        dict.update
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="pop"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">pop</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>,
+        <span class="sig-arg">default</span>=<span class="sig-default">object()</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.pop">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>'D.pop(k[,d]) -&gt; v, remove specified key and return the 
+  corresponding value. If key is not found, d is returned if given, 
+  otherwise KeyError is raised'</p>
+  <dl class="fields">
+    <dt>Returns: v, remove specified key and return the corresponding value</dt>
+    <dt>Overrides:
+        dict.pop
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="popitem"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">popitem</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.popitem">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Pops the first (key,val)</p>
+  <dl class="fields">
+    <dt>Returns: (k, v), remove and return some (key, value) pair as a</dt>
+    <dt>Overrides:
+        dict.popitem
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="clear"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">clear</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.clear">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+A version of clear that also affects scalars/sections
+Also clears comments and configspec.
+
+Leaves other attributes alone :
+    depth/main/parent are not affected
+
+</pre>
+  <dl class="fields">
+    <dt>Returns: None</dt>
+    <dt>Overrides:
+        dict.clear
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="setdefault"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setdefault</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>,
+        <span class="sig-arg">default</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.setdefault">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A version of setdefault that sets sequence if appropriate.</p>
+  <dl class="fields">
+    <dt>Returns: D.get(k,d), also set D[k]=d if k not in D</dt>
+    <dt>Overrides:
+        dict.setdefault
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="items"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">items</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.items">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: list of D's (key, value) pairs, as 2-tuples</dt>
+    <dt>Overrides:
+        dict.items
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="keys"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">keys</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.keys">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: list of D's keys</dt>
+    <dt>Overrides:
+        dict.keys
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="values"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">values</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.values">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: list of D's values</dt>
+    <dt>Overrides:
+        dict.values
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="iteritems"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iteritems</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.iteritems">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: an iterator over the (key, value) items of D</dt>
+    <dt>Overrides:
+        dict.iteritems
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="iterkeys"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iterkeys</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.iterkeys">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>iter(x)</p>
+  <dl class="fields">
+    <dt>Returns: an iterator over the keys of D</dt>
+    <dt>Overrides:
+        dict.iterkeys
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__iter__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__iter__</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.iterkeys">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>iter(x)</p>
+  <dl class="fields">
+    <dt>Returns: an iterator over the keys of D</dt>
+    <dt>Overrides:
+        dict.__iter__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="itervalues"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">itervalues</span>(<span class="sig-arg">D</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.itervalues">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: an iterator over the values of D</dt>
+    <dt>Overrides:
+        dict.itervalues
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__repr__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__repr__</span>(<span class="sig-arg">x</span>)</span>
+    <br /><em class="fname">(Representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__repr__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>str(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__repr__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__str__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__str__</span>(<span class="sig-arg">x</span>)</span>
+    <br /><em class="fname">(Informal representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.__repr__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>str(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__str__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="dict"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">dict</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.dict">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return a deepcopy of self as a dictionary.</p>
+  <p>All members that are ``Section`` instances are recursively turned to 
+  ordinary dictionaries - by calling their ``dict`` method.</p>
+<pre class="py-doctest">
+<span class="py-prompt">&gt;&gt;&gt; </span>n = a.dict()
+<span class="py-prompt">&gt;&gt;&gt; </span>n == a
+<span class="py-output">1</span>
+<span class="py-output"></span><span class="py-prompt">&gt;&gt;&gt; </span>n <span class="py-keyword">is</span> a
+<span class="py-output">0</span></pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="merge"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">merge</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">indict</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.merge">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A recursive update - useful for merging config files.</p>
+<pre class="py-doctest">
+<span class="py-prompt">&gt;&gt;&gt; </span>a = <span class="py-string">'''[section1]</span>
+<span class="py-more">... </span><span class="py-string">    option1 = True</span>
+<span class="py-more">... </span><span class="py-string">    [[subsection]]</span>
+<span class="py-more">... </span><span class="py-string">    more_options = False</span>
+<span class="py-more">... </span><span class="py-string">    # end of file'''</span>.splitlines()
+<span class="py-prompt">&gt;&gt;&gt; </span>b = <span class="py-string">'''# File is user.ini</span>
+<span class="py-more">... </span><span class="py-string">    [section1]</span>
+<span class="py-more">... </span><span class="py-string">    option1 = False</span>
+<span class="py-more">... </span><span class="py-string">    # end of file'''</span>.splitlines()
+<span class="py-prompt">&gt;&gt;&gt; </span>c1 = ConfigObj(b)
+<span class="py-prompt">&gt;&gt;&gt; </span>c2 = ConfigObj(a)
+<span class="py-prompt">&gt;&gt;&gt; </span>c2.merge(c1)
+<span class="py-prompt">&gt;&gt;&gt; </span>c2
+<span class="py-output">ConfigObj({'section1': {'option1': 'False', 'subsection': {'more_options': 'False'}}})</span></pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="rename"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">rename</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">oldkey</span>,
+        <span class="sig-arg">newkey</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.rename">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Change a keyname to another, without changing position in 
+  sequence.</p>
+  <p>Implemented so that transformations can be made on keys, as well as on
+  values. (used by encode and decode)</p>
+  <p>Also renames comments.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="walk"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">walk</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">function</span>,
+        <span class="sig-arg">raise_errors</span>=<span class="sig-default">True</span>,
+        <span class="sig-arg">call_on_sections</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">**keywargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.walk">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+Walk every member and call a function on the keyword and value.
+
+Return a dictionary of the return values
+
+If the function raises an exception, raise the errror
+unless ``raise_errors=False``, in which case set the return value to
+``False``.
+
+Any unrecognised keyword arguments you pass to walk, will be pased on
+to the function you pass in.
+
+Note: if ``call_on_sections`` is ``True`` then - on encountering a
+subsection, *first* the function is called for the *whole* subsection,
+and then recurses into it's members. This means your function must be
+able to handle strings, dictionaries and lists. This allows you
+to change the key of subsections as well as for ordinary members. The
+return value when called on the whole subsection has to be discarded.
+
+See  the encode and decode methods for examples, including functions.
+
+.. admonition:: caution
+
+    You can use ``walk`` to transform the names of members of a section
+    but you mustn't add or delete members.
+
+&gt;&gt;&gt; config = '''[XXXXsection]
+... XXXXkey = XXXXvalue'''.splitlines()
+&gt;&gt;&gt; cfg = ConfigObj(config)
+&gt;&gt;&gt; cfg
+ConfigObj({'XXXXsection': {'XXXXkey': 'XXXXvalue'}})
+&gt;&gt;&gt; def transform(section, key):
+...     val = section[key]
+...     newkey = key.replace('XXXX', 'CLIENT1')
+...     section.rename(key, newkey)
+...     if isinstance(val, (tuple, list, dict)):
+...         pass
+...     else:
+...         val = val.replace('XXXX', 'CLIENT1')
+...         section[newkey] = val
+&gt;&gt;&gt; cfg.walk(transform, call_on_sections=True)
+{'CLIENT1section': {'CLIENT1key': None}}
+&gt;&gt;&gt; cfg
+ConfigObj({'CLIENT1section': {'CLIENT1key': 'CLIENT1value'}})
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_bool"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_bool</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.as_bool">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Accepts a key as input. The corresponding value must be a string or 
+  the objects (``True`` or 1) or (``False`` or 0). We allow 0 and 1 to 
+  retain compatibility with Python 2.2.</p>
+  <p>If the string is one of  ``True``, ``On``, ``Yes``, or ``1`` it 
+  returns ``True``.</p>
+  <p>If the string is one of  ``False``, ``Off``, ``No``, or ``0`` it 
+  returns ``False``.</p>
+  <p>``as_bool`` is not case sensitive.</p>
+  <p>Any other input will raise a ``ValueError``.</p>
+<pre class="py-doctest">
+<span class="py-prompt">&gt;&gt;&gt; </span>a = ConfigObj()
+<span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'a'</span>] = <span class="py-string">'fish'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_bool(<span class="py-string">'a'</span>)
+<span class="py-except">Traceback (most recent call last):</span>
+<span class="py-except">ValueError: Value &quot;fish&quot; is neither True nor False</span>
+<span class="py-except"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'b'</span>] = <span class="py-string">'True'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_bool(<span class="py-string">'b'</span>)
+<span class="py-output">1</span>
+<span class="py-output"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'b'</span>] = <span class="py-string">'off'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_bool(<span class="py-string">'b'</span>)
+<span class="py-output">0</span></pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_int"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_int</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.as_int">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A convenience method which coerces the specified value to an 
+  integer.</p>
+  <p>If the value is an invalid literal for ``int``, a ``ValueError`` will 
+  be raised.</p>
+<pre class="py-doctest">
+<span class="py-prompt">&gt;&gt;&gt; </span>a = ConfigObj()
+<span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'a'</span>] = <span class="py-string">'fish'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_int(<span class="py-string">'a'</span>)
+<span class="py-except">Traceback (most recent call last):</span>
+<span class="py-except">ValueError: invalid literal for int() with base 10: 'fish'</span>
+<span class="py-except"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'b'</span>] = <span class="py-string">'1'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_int(<span class="py-string">'b'</span>)
+<span class="py-output">1</span>
+<span class="py-output"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'b'</span>] = <span class="py-string">'3.2'</span>
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_int(<span class="py-string">'b'</span>)
+<span class="py-except">Traceback (most recent call last):</span>
+<span class="py-except">ValueError: invalid literal for int() with base 10: '3.2'</span></pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_float"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_float</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.as_float">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A convenience method which coerces the specified value to a float.</p>
+  <p>If the value is an invalid literal for ``float``, a ``ValueError`` 
+  will be raised.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_list"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_list</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.as_list">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A convenience method which fetches the specified value, guaranteeing 
+  that it is a list.</p>
+<pre class="py-doctest">
+<span class="py-prompt">&gt;&gt;&gt; </span>a = ConfigObj()
+<span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'a'</span>] = 1
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_list(<span class="py-string">'a'</span>)
+<span class="py-output">[1]</span>
+<span class="py-output"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'a'</span>] = (1,)
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_list(<span class="py-string">'a'</span>)
+<span class="py-output">[1]</span>
+<span class="py-output"></span><span class="py-prompt">&gt;&gt;&gt; </span>a[<span class="py-string">'a'</span>] = [1]
+<span class="py-prompt">&gt;&gt;&gt; </span>a.as_list(<span class="py-string">'a'</span>)
+<span class="py-output">[1]</span></pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="restore_default"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">restore_default</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">key</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.restore_default">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Restore (and return) default value for the specified key.</p>
+  <p>This method will only work for a ConfigObj that was created with a 
+  configspec and has been validated.</p>
+  <p>If there is no default value for this key, ``KeyError`` is raised.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="restore_defaults"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">restore_defaults</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="configobj-pysrc.html#Section.restore_defaults">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Recursively restore default values to all members that have them.</p>
+  <p>This method will only work for a ConfigObj that was created with a 
+  configspec and has been validated.</p>
+  <p>It doesn't delete or modify entries without default values.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="configobj-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.voidspace.org.uk/python/configobj.html">ConfigObj</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sat Dec 31 02:31:59 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

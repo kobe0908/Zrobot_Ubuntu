@@ -1,0 +1,1 @@
+../../../../../share/pyshared/IPython/zmq/entry_point.py

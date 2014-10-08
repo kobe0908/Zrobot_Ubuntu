@@ -1,0 +1,1 @@
+../../../../../share/pyshared/IPython/lib/latextools.py

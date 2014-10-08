@@ -1,0 +1,1 @@
+../../../../../share/pyshared/IPython/testing/nosepatch.py

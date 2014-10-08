@@ -772,6 +772,32 @@ Description: LGPL Crypto library - runtime library
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Homepage: http://directory.fsf.org/project/libgcrypt/
 
+Package: ipython
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 2672
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.12.1+dfsg-0ubuntu1
+Depends: python-configobj, python-decorator, python-pexpect, python-simplegeneric, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Suggests: ipython-doc, ipython-notebook, ipython-qtconsole, python-argparse, python-matplotlib, python-numpy, python-profiler, python-zmq (>= 2.0.10.1)
+Description: enhanced interactive Python shell
+ IPython can be used as a replacement for the standard Python shell,
+ or it can be used as a complete working environment for scientific
+ computing (like Matlab or Mathematica) when paired with the standard
+ Python scientific and numerical tools. It supports dynamic object
+ introspections, numbered input/output prompts, a macro system,
+ session logging, session restoring, complete system shell access,
+ verbose and colored traceback reports, auto-parentheses, auto-quoting,
+ and is embeddable in other Python programs.
+ .
+ This package contains the basic terminal shell. For the qt console
+ install ipython-qtconsole and for the html notebook install
+ ipython-notebook.
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Homepage: http://ipython.org/
+
 Package: isc-dhcp-common
 Status: install ok installed
 Priority: important
@@ -788,6 +814,27 @@ Description: common files used by all the isc-dhcp* packages
  This package contains the files used by all the packages from ISC
  DHCP.
 Original-Maintainer: Debian ISC DHCP maintainers <pkg-dhcp-devel@lists.alioth.debian.org>
+
+Package: locate
+Status: install ok installed
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Installed-Size: 267
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: findutils
+Version: 4.4.2-4ubuntu1
+Replaces: findutils (<< 4.2.31-2)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), findutils (>> 4.2.31-1)
+Conflicts: slocate (<= 3.1-1.1)
+Conffiles:
+ /etc/cron.daily/locate cea1f0872dcb92d9234098c267fa262b
+Description: maintain and query an index of a directory tree
+ updatedb generates an index of files and directories. GNU locate can be used
+ to quickly query this index.
+Homepage: http://savannah.gnu.org/projects/findutils/
+Original-Maintainer: Andreas Metzler <ametzler@debian.org>
 
 Package: libxinerama1
 Status: install ok installed
@@ -1088,6 +1135,33 @@ Description: Development files for libavcodec
  compile applications or shared objects that use libavcodec.
 Homepage: http://libav.org/
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+
+Package: python-decorator
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 102
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 3.3.2-1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Enhances: python-pylons
+Description: simplify usage of Python decorators by programmers
+ Python 2.4 decorators have significantly changed the way Python programs are
+ structured.
+    * decorators help reduce boilerplate code;
+    * decorators help the separation of concerns;
+    * decorators enhance readability and maintainability;
+    * decorators are very explicit.
+ Still, as of now, writing custom decorators correctly requires some
+ experience and is not as easy as it could be. For instance, typical
+ implementations of decorators involve nested functions and we all know that
+ flat is better than nested.
+ The aim of the decorator module it to simplify the usage of decorators for
+ the average programmer and to popularize decorators usage giving examples of
+ useful decorators, such as memoize, tracing, redirecting_stdout, locked, etc.
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Homepage: http://pypi.python.org/pypi/decorator
 
 Package: libcairo-script-interpreter2
 Status: install ok installed
@@ -2244,6 +2318,37 @@ Description: MIT Kerberos runtime libraries - Crypto Library
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
 
+Package: python-configobj
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 1527
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: configobj
+Version: 4.7.2+ds-3build1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Description: simple but powerful config file reader and writer for Python
+ ConfigObj is a simple but powerful config file reader and writer: an
+ ini file round tripper. Its main feature is that it is very easy to
+ use, with a straightforward programmer's interface and a simple
+ syntax for config files. It has lots of other features, though:
+ .
+  * Nested sections (subsections), to any level
+  * List values
+  * Multiple line values
+  * String interpolation (substitution)
+  * Integrated with a powerful validation system
+    + including automatic type checking/conversion
+    + and allowing default values
+    + repeated sections
+  * All comments in the file are preserved
+  * The order of keys/sections is preserved
+  * Full Unicode support
+  * Powerful unrepr mode for storing/retrieving Python data-types
+Original-Maintainer: Daniel Watkins <daniel@daniel-watkins.co.uk>
+Homepage: http://www.voidspace.org.uk/python/configobj.html
+
 Package: netbase
 Status: install ok installed
 Priority: important
@@ -3059,6 +3164,27 @@ Description: Data files for Thai language support library
 Original-Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Homepage: http://linux.thai.net/projects/libthai
 
+Package: python-pexpect
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 578
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: pexpect
+Version: 2.3-1ubuntu2
+Replaces: python2.3-pexpect, python2.4-pexpect
+Provides: python2.7-pexpect
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Conflicts: python2.3-pexpect, python2.4-pexpect
+Description: Python module for automating interactive applications
+ Pexpect is a pure Python module for spawning child applications;
+ controlling them; and responding to expected patterns in their
+ output. Pexpect works like Don Libes' Expect. Pexpect allows your
+ script to spawn a child application and control it as if a human were
+ typing commands.
+Original-Maintainer: Ganesan Rajagopal <rganesan@debian.org>
+
 Package: gir1.2-atk-1.0
 Status: install ok installed
 Priority: optional
@@ -3533,6 +3659,27 @@ Description: X C Binding
     machine-parsable protocol descriptions
 Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
 Homepage: http://xcb.freedesktop.org
+
+Package: python-support
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 155
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.0.14ubuntu2
+Depends: python (>= 2.5), python-minimal, dpkg (>= 1.14.19)
+Conflicts: debhelper (<< 5.0.38)
+Description: automated rebuilding support for Python modules
+ This package contains the 'update-python-modules' script, which takes
+ care of byte-compilation of Python-only modules.
+ .
+ Private modules are automatically rebuilt upon major Python upgrades,
+ avoiding the need for strong dependencies.
+ .
+ Public modules are automatically made available for all installed
+ Python versions.
+Original-Maintainer: Josselin Mouette <joss@debian.org>
 
 Package: libfontconfig1-dev
 Status: install ok installed
@@ -6171,6 +6318,26 @@ Description: Cyrus SASL - pluggable authentication modules
  NTLM, CRAM-MD5, and DIGEST-MD5 (with DES support).
 Original-Maintainer: Debian Cyrus SASL Team <pkg-cyrus-sasl2-debian-devel@lists.alioth.debian.org>
 Homepage: http://www.cyrusimap.org/
+
+Package: python-simplegeneric
+Status: install ok installed
+Priority: extra
+Section: python
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: simplegeneric
+Version: 0.7-1build1
+Provides: python2.7-simplegeneric
+Depends: python, python-support (>= 0.90.0)
+Description: Simple generic functions for Python
+ The simplegeneric module lets you define simple single-dispatch generic
+ functions, akin to Python's built-in generic functions like len(), iter() and
+ so on. However, instead of using specially-named methods, these generic
+ functions use simple lookup tables, akin to those used by e.g. pickle.dump()
+ and other generic functions found in the Python standard library.
+Original-Maintainer: Cédric Delfosse <cedric@debian.org>
+Homepage: http://pypi.python.org/pypi/simplegeneric
 
 Package: libsasl2-2
 Status: install ok installed
@@ -9353,6 +9520,36 @@ Description: Development files for libavutil
 Homepage: http://libav.org/
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 
+Package: zsh
+Status: deinstall ok config-files
+Priority: optional
+Section: shells
+Installed-Size: 10769
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.17-1ubuntu1
+Config-Version: 4.3.17-1ubuntu1
+Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libgcc1 (>= 1:4.4.0), libtinfo5
+Recommends: libncursesw5 (>= 5.6+20070908), libpcre3 (>= 8.10)
+Suggests: zsh-doc
+Conffiles:
+ /etc/zsh/zlogin 48032df2ace0977f2491b016e3c421a3
+ /etc/zsh/zlogout b73789c3e790b855302ce10ca076037a
+ /etc/zsh/zprofile 58c4f65d775c055b5d80b67c1bd12838
+ /etc/zsh/zshenv 5a8a0ff4f6ff945a5aa6ba7f6f1e8c97
+ /etc/zsh/zshrc e069ba51ba293da1aeddd5779324df19
+ /etc/zsh/newuser.zshrc.recommended dac3563a2ddd13e8027b1861d415f3d4
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+Homepage: http://www.zsh.org/
+Original-Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+
 Package: m4
 Status: install ok installed
 Multi-Arch: foreign
@@ -9841,6 +10038,25 @@ Description: GNU readline and history libraries, common files
  The GNU history library provides a consistent user interface for
  recalling lines of previously typed input.
 Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libcap2
+Status: install ok installed
+Multi-Arch: same
+Priority: standard
+Section: libs
+Installed-Size: 51
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1:2.22-1ubuntu3
+Depends: libc6 (>= 2.8)
+Pre-Depends: multiarch-support
+Description: support for getting/setting POSIX.1e capabilities
+ This library implements the user-space interfaces to the POSIX
+ 1003.1e capabilities available in Linux kernels. These capabilities are
+ a partitioning of the all powerful root privilege into a set of distinct
+ privileges.
+Homepage: http://sites.google.com/site/fullycapable/
+Original-Maintainer: Torsten Werner <twerner@debian.org>
 
 Package: libapr1
 Status: install ok installed

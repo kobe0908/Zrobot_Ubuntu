@@ -485,6 +485,25 @@ Description: common files used by all the isc-dhcp* packages
  DHCP.
 Original-Maintainer: Debian ISC DHCP maintainers <pkg-dhcp-devel@lists.alioth.debian.org>
 
+Package: locate
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Installed-Size: 267
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: findutils
+Version: 4.4.2-4ubuntu1
+Replaces: findutils (<< 4.2.31-2)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), findutils (>> 4.2.31-1)
+Conflicts: slocate (<= 3.1-1.1)
+Size: 55506
+Description: maintain and query an index of a directory tree
+ updatedb generates an index of files and directories. GNU locate can be used
+ to quickly query this index.
+Homepage: http://savannah.gnu.org/projects/findutils/
+Original-Maintainer: Andreas Metzler <ametzler@debian.org>
+
 Package: libxinerama1
 Multi-Arch: same
 Priority: optional
@@ -768,6 +787,36 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
  implementation of GSS-API used by applications and Kerberos clients.
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+
+Package: libv4l-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Installed-Size: 153
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: v4l-utils
+Version: 0.8.6-1ubuntu1
+Depends: libv4lconvert0 (= 0.8.6-1ubuntu1), libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Size: 38830
+Description: Collection of video4linux support libraries
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Homepage: http://linuxtv.org/downloads/v4l-utils/
 
 Package: libpopt0
 Multi-Arch: same
@@ -1759,6 +1808,38 @@ Description: interactive high-level object-oriented language (default version)
  Python version (currently v2.7).
 Homepage: http://www.python.org/
 Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libv4l-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 56
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: v4l-utils
+Version: 0.8.6-1ubuntu1
+Depends: libv4l-0 (= 0.8.6-1ubuntu1), libv4lconvert0 (= 0.8.6-1ubuntu1)
+Suggests: pkg-config (>= 0.18)
+Size: 7894
+Description: Collection of video4linux support libraries (development files)
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the development files.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Homepage: http://linuxtv.org/downloads/v4l-utils/
 
 Package: libxrandr-dev
 Priority: optional
@@ -5232,6 +5313,28 @@ Description: General Purpose Mouse - shared library
 Original-Maintainer: Peter Samuelson <peter@p12n.org>
 Homepage: http://unix.schottelius.org/gpm/
 
+Package: libv4lconvert0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Installed-Size: 195
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: v4l-utils
+Version: 0.8.6-1ubuntu1
+Replaces: libv4l-0 (<< 0.8.5-4)
+Depends: libc6 (>= 2.11), libjpeg8 (>= 8c)
+Pre-Depends: multiarch-support
+Breaks: libv4l-0 (<< 0.8.5-4)
+Size: 73762
+Description: Video4linux frame format conversion library
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ This package contains the shared library.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Homepage: http://linuxtv.org/downloads/v4l-utils/
+
 Package: pkg-config
 Multi-Arch: foreign
 Priority: optional
@@ -6840,6 +6943,28 @@ Description: Development files for libavutil
 Homepage: http://libav.org/
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 
+Package: zsh
+Priority: optional
+Section: shells
+Installed-Size: 10769
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.17-1ubuntu1
+Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libgcc1 (>= 1:4.4.0), libtinfo5
+Recommends: libncursesw5 (>= 5.6+20070908), libpcre3 (>= 8.10)
+Suggests: zsh-doc
+Size: 4604828
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+Homepage: http://www.zsh.org/
+Original-Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+
 Package: m4
 Multi-Arch: foreign
 Priority: standard
@@ -7264,6 +7389,25 @@ Description: GNU readline and history libraries, common files
  The GNU history library provides a consistent user interface for
  recalling lines of previously typed input.
 Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libcap2
+Multi-Arch: same
+Priority: standard
+Section: libs
+Installed-Size: 51
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1:2.22-1ubuntu3
+Depends: libc6 (>= 2.8)
+Pre-Depends: multiarch-support
+Size: 10460
+Description: support for getting/setting POSIX.1e capabilities
+ This library implements the user-space interfaces to the POSIX
+ 1003.1e capabilities available in Linux kernels. These capabilities are
+ a partitioning of the all powerful root privilege into a set of distinct
+ privileges.
+Homepage: http://sites.google.com/site/fullycapable/
+Original-Maintainer: Torsten Werner <twerner@debian.org>
 
 Package: libapr1
 Priority: optional

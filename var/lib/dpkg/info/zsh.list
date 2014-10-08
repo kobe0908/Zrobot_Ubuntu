@@ -1,0 +1,8 @@
+/etc
+/etc/zsh
+/etc/zsh/newuser.zshrc.recommended
+/etc/zsh/zlogin
+/etc/zsh/zprofile
+/etc/zsh/zlogout
+/etc/zsh/zshenv
+/etc/zsh/zshrc
